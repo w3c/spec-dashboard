@@ -10,6 +10,8 @@ const relevantSpecStatus = status => ['Retired', 'Group Note', 'Recommendation']
 const last = a => a[a.length - 1];
 const specDate = s => last(s._links['latest-version'].href.split('/'));
 const groupId = g => last(g.href.split('/'));
+const shortNamer = url => last(url.split('/').filter(x => x));
+const specShortnameSorter = (url1, url2) => shortNamer(url1).localeCompare(shortNamer(url2));
 const specDateSorter = (s1, s2) => specDate(s2) - specDate(s1);
 
 const preferGroup = (preferedGroup, otherGroup) => {
@@ -62,7 +64,7 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
 
 function createSpreadSheet(wg, specs, cb) {
     if (specs.length) {
-        const body = "TR shortlink,FPWD,Wide Review end, CR, Test Suite status, PR, PER, Rec, Comments & notes\n" + specs.join("\n");
+        const body = "TR shortlink,FPWD,Wide Review end, CR, Test Suite status, PR, PER, Rec, Comments & notes\n" + specs.sort(specShortnameSorter).join("\n");
         request({
             method: 'POST',
             url: config.ethercalc + '/_',
