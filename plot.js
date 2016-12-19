@@ -186,16 +186,17 @@ function dashboard(groupid, group) {
                   .y(d => y(statusNormalizer(d)) + specOffset(d.shortname)));
 
     d3.json('pergroup/' + groupid + '.json', (err, specs) => {
+        const recTrackSpecs = specs.filter( s => s.versions[0]["rec-track"]);
         const specOffset = d3.scaleBand().range([0, y.bandwidth()]).domain(specs.map(s => s.shortname));
         svg.selectAll("path.spechistory")
-            .data(specs)
+            .data(recTrackSpecs)
             .enter()
             .append("path")
             .datum(d => d.versions.map(v => {v.shortname = d.shortname; return v;}))
             .attr("class", "spechistory");
 
         svg.selectAll("path.lastpub")
-            .data(specs)
+            .data(recTrackSpecs)
             .enter()
             .append("path")
             .datum(d => {const lastVersion = d.versions[0]; lastVersion.shortname = d.shortname; return [lastVersion, Object.assign({}, lastVersion, {date: dateFormat(now)})];})
@@ -203,7 +204,7 @@ function dashboard(groupid, group) {
             .attr("stroke", d => durationColor(parseDate(d[0].date), now));
 
         svg.selectAll("g.pub")
-            .data(specs)
+            .data(recTrackSpecs)
             .enter()
             .append("g")
             .attr("class", "pub")
