@@ -165,15 +165,17 @@ d3.json('pergroup/' + groupid + '.json', (err, specs) => {
         .enter()
         .append("g")
         .attr("class", "pub")
-        .selectAll("circle")
+        .selectAll("a")
         .data(s => s.versions)
         .enter()
+        .append("a")
+        .attr("href", d => d.uri)
         .append("circle")
         .attr("r", 5)
         .attr("cy", d => y(statusNormalizer(d)) + specOffset(d.shortname))
         .attr("class", d => statusNormalizer(d).split('/')[0])
         .append("title")
-            .text(d => statusNormalizer(d) + " of " + d.title);
+            .text(d => statusNormalizer(d) + " of " + d.title + " on " + d.date);
     const draw = drawer(specOffset);
     zoom.on("zoom", draw)
     draw();
