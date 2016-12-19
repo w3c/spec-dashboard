@@ -1,4 +1,68 @@
 var groupid = window.location.href.split('?')[1];
+
+const last = a => a[a.length - 1];
+const shortNamer = url => last(url.split('/').filter(x => x));
+const dateFormat = d3.timeFormat("%Y-%m-%d") ;
+const parseDate = d3.timeParse("%Y-%m-%d");
+
+const logError = err => document.querySelector("#msg").textContent = err;
+
+const recStages = ["FPWD", "WD", "WR/LC", "CR", "PR/PER", "REC"];
+// structure of the columns in the spreadsheet
+// matched to the list of stages known here
+const milestoneStages=["", "FPWD", "WR/LC", "CR", "", "PR/PER", "PR/PER", "REC"];
+
+function normalizeDate(d) {
+    if (d.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)) {
+        return d;
+    } else if (d.match(/^[0-9]{4}-[0-9]{2}$/)) {
+        return d + "-31";
+    } else if (d.match(/^Q[0-9] [0-9]{4}$/)) {
+        return d.slice(3) + "-" + ("0" + ("" + parseInt(d.slice(1,2), 10)*3)).slice(-2) + "-31";
+    } else {
+        console.error("Unrecognized date " + d)
+    }
+}
+
+function futureVersions(spec, groupMilestones) {
+    const lastVersion = spec.versions[0];
+    var now =  new Date();
+
+    // By default, if we don't know, we just keep the current line
+    var future = [Object.assign({}, lastVersion, {date: dateFormat(now)})];
+    if (!groupMilestones.length) return future;
+
+    var minDate = Infinity;
+    const milestones = (groupMilestones
+                        .filter(row => shortNamer(row[0]) == spec.shortname)[0]  || []) // Find the right row
+          .map((d,i) => { // normalize its dates
+              if (milestoneStages[i] && d) {
+                  const date =  parseDate(normalizeDate(d));
+                  minDate = Math.min(date.getTime(), minDate);
+                  return date;
+              }
+              return d;
+          });
+    // We ignore milestones if one of the date is anterior to now or if none were set
+    if (minDate !== Infinity && minDate >= now.getTime()) {
+        // Produce an object à la
+        // {CR: "2017-03-31", "PR/PER": "2016-06-30"}
+        const stagedMilestones = milestones.reduce((a,b, i) => {
+            if (b && milestoneStages[i]) a[milestoneStages[i]] = b;
+            return a;
+        } , {});
+        future = Object.keys(stagedMilestones)
+            .sort((a,b) => stagedMilestones[b] - stagedMilestones[a]) // sort by date
+            .map(d => Object.assign({}, lastVersion, {date: dateFormat(stagedMilestones[d]), status: d}));
+    } else {
+        if (minDate < now.getTime()) {
+            console.error("Ignored milestones for " + spec.shortname + " as it contains dates anterior to today");
+        }
+    }
+    return future;
+}
+
+
 fetch("groups.json")
     .then(r => r.json())
     .then(groups => {
@@ -21,20 +85,18 @@ fetch("groups.json")
                 document.querySelector("h1").textContent += " for "+ groups[groupid].name;
             }
         }
-    }).catch(err => document.querySelector("#msg").textContent = err);
+    }).catch(logError);
 
 function dashboard(groupid, group) {
     var margin = {top: 30, right: 50, bottom: 30, left: 50},
         width = 800 - margin.left - margin.right,
         height = 800 - margin.top - margin.bottom;
-    var dateFormat = d3.timeFormat("%Y-%m-%d") ;
-    var parseDate = d3.timeParse("%Y-%m-%d");
 
     // Set the ranges
     var x = d3.scaleTime().range([0, width]);
     var y = d3.scaleBand().range([height, 0]);
 
-    y.domain(["FPWD", "WD", "WR/LC", "CR", "PR/PER", "REC"])
+    y.domain(recStages)
 
     var durationColorScheme = d3.scaleLinear().domain([3, 6, 12, 24])
         .range(["#afa", "white", "yellow","red"]);
@@ -56,6 +118,7 @@ function dashboard(groupid, group) {
             if (version._links["predecessor-version"]) return "WD";
             return "FPWD";
         }
+        return version.status;
     };
 
     function markerLine(svg, date, text) {
@@ -186,7 +249,29 @@ function dashboard(groupid, group) {
                   .y(d => y(statusNormalizer(d)) + specOffset(d.shortname)));
 
     d3.json('pergroup/' + groupid + '.json', (err, specs) => {
-        const recTrackSpecs = specs.filter( s => s.versions[0]["rec-track"]);
+        if (err) return logError(err);
+        var drawer = (specOffset => u => {
+            var transform = d3.event ? d3.event.transform : d3.zoomIdentity;
+            var xNewScale = transform.rescaleX(x);
+            xAxis.scale(xNewScale)
+            svg.select("g.x.axis").call(xAxis);
+
+            lines.forEach(l => {
+                l.selectAll("line").attr("x1", xNewScale(l.datum()))
+                    .attr("x2", xNewScale(l.datum()));
+                l.selectAll("text").attr("x", xNewScale(l.datum()));
+            });
+            svg.selectAll("path.spechistory")
+                .attr("d", line(xNewScale, specOffset));
+            svg.selectAll("path.future")
+                .attr("d", line(xNewScale, specOffset));
+
+            svg.selectAll("circle")
+                .attr("cx", d => xNewScale(parseDate(d.date)))
+
+        });
+
+        const recTrackSpecs = specs.filter(s => s.versions[0]["rec-track"]);
         const specOffset = d3.scaleBand().range([0, y.bandwidth()]).domain(specs.map(s => s.shortname));
         svg.selectAll("path.spechistory")
             .data(recTrackSpecs)
@@ -195,13 +280,6 @@ function dashboard(groupid, group) {
             .datum(d => d.versions.map(v => {v.shortname = d.shortname; return v;}))
             .attr("class", "spechistory");
 
-        svg.selectAll("path.lastpub")
-            .data(recTrackSpecs)
-            .enter()
-            .append("path")
-            .datum(d => {const lastVersion = d.versions[0]; lastVersion.shortname = d.shortname; return [lastVersion, Object.assign({}, lastVersion, {date: dateFormat(now)})];})
-            .attr("class", "lastpub")
-            .attr("stroke", d => durationColor(parseDate(d[0].date), now));
 
         svg.selectAll("g.pub")
             .data(recTrackSpecs)
@@ -219,44 +297,42 @@ function dashboard(groupid, group) {
             .attr("class", d => statusNormalizer(d).split('/')[0])
             .append("title")
             .text(d => statusNormalizer(d) + " of " + d.title + " on " + d.date);
+
+        function drawFuture(err, milestones) {
+            // Log but do not stop
+            if (err) logError(err);
+            const futureSpecs = recTrackSpecs.map(
+                s => {const lastVersion = s.versions[0]; lastVersion.shortname = s.shortname; return [lastVersion].concat(futureVersions(s, milestones));}
+            );
+
+            svg.selectAll("path.future")
+                .data(futureSpecs)
+                .enter()
+                .append("path")
+                .attr("class", "future")
+                .attr("stroke", d => durationColor(parseDate(d[0].date), now));
+
+            draw();
+        }
         const draw = drawer(specOffset);
         zoom.on("zoom", draw)
-        draw();
+        drawFuture(null, []);
 
-    });
+        d3.json(group.url + ".csv.json", drawFuture);
 
-    function updateView() {
-        document.querySelector("option[value='" + location.hash.slice(2) +"']")
-            .selected = true;
-        // needed because Chrome doesn't implement :target correctly?
-        d3.selectAll("foreignObject[style]").attr("style", undefined);
-        d3.select(document.querySelector("#" + location.hash.slice(1) + " foreignObject")).style("display", "block");
-    };
+        function updateView() {
+            document.querySelector("option[value='" + location.hash.slice(2) +"']")
+                .selected = true;
+            // needed because Chrome doesn't implement :target correctly?
+            d3.selectAll("foreignObject[style]").attr("style", undefined);
+            d3.select(document.querySelector("#" + location.hash.slice(1) + " foreignObject")).style("display", "block");
+        };
 
-    // Add the X Axis
-    svg.append("g")
-        .attr("class", "x axis")
-        .attr("transform", "translate(0," + height + ")");
+        // Add the X Axis
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")");
 
-
-    var drawer = (specOffset => u => {
-        var transform = d3.event ? d3.event.transform : d3.zoomIdentity;
-        var xNewScale = transform.rescaleX(x);
-        xAxis.scale(xNewScale)
-        svg.select("g.x.axis").call(xAxis);
-
-        lines.forEach(l => {
-            l.selectAll("line").attr("x1", xNewScale(l.datum()))
-                .attr("x2", xNewScale(l.datum()));
-            l.selectAll("text").attr("x", xNewScale(l.datum()));
-        });
-        svg.selectAll("path.spechistory")
-            .attr("d", line(xNewScale, specOffset));
-        svg.selectAll("path.lastpub")
-            .attr("d", line(xNewScale, specOffset));
-
-        svg.selectAll("circle")
-            .attr("cx", d => xNewScale(parseDate(d.date)))
 
     });
 }
