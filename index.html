@@ -1,0 +1,37 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Dashboard of active W3C specifications</title>
+<style>
+body { font: 12px Arial;}
+
+path.spechistory { stroke: #afa; stroke-width:2px; fill: none;}
+
+foreignObject div {
+max-width: 350px;
+max-height: 400px;
+overflow-y: auto;
+color: white;
+}
+
+circle { fill: white;}
+
+foreignObject a:visited, foreignObject a:link {
+color:white;
+}
+  
+rect.pane { pointer-events: all; cursor: grab;}
+rect.pane:active {cursor: grabbing;}  
+  text { font-size: 14px;fill: white; background-blend-mode: multiply;}
+.axis path,
+.axis line {
+    fill: none;
+    stroke:white;
+    stroke-width: 1;
+  shape-rendering: crispEdges;
+  }
+
+</style>
+<h1>Dashboard of active W3C Specifications</h1>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.1/require.min.js" data-main="plot.js"></script>
+
