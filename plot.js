@@ -10,6 +10,11 @@ var y = d3.scaleBand().range([height, 0]);
 
 y.domain(["FPWD", "WD", "WR/LC", "CR", "PR/PER", "REC"])
 
+var durationColorScheme = d3.scaleLinear().domain([3, 6, 12, 24])
+    .range(["#afa", "white", "yellow","red"]);
+
+const durationColor = (d1, d2) => durationColorScheme((d2-d1) / (30*3600*24*1000));
+
 const statusNormalizer = version => {
     switch(version.status) {
     case "Candidate Recommendation":
@@ -41,9 +46,9 @@ var svg = d3.select("body")
     .append("g")
     .attr("transform", 
           "translate(" + margin.left + "," + margin.top + ")");
-
-svg.select("g.y.axis").call(yAxis);
-
+svg.append("g")
+    .attr("class", "y axis")
+    .call(yAxis);
 
 // filter for background color on text
 var filter = d3.select("svg")
@@ -107,7 +112,7 @@ var legend = d3.select('svg')
         return 'translate(' + x + ',' + y + ')';
     });
 
-d3.select("g.legendbox")
+/*d3.select("g.legendbox")
     .append('foreignObject')
     .attr("width", 320)
     .attr("height", 30)
@@ -132,7 +137,7 @@ document.getElementById('groupSelector')
         location.hash = '#g' + this.options[this.selectedIndex].value;
     });
 window.addEventListener("hashchange", updateView);
-
+*/
 
 const line = ((xscale,specOffset) => d3.line()
               .x(d => xscale(parseDate(d.date)))
@@ -147,6 +152,14 @@ d3.json('pergroup/' + groupid + '.json', (err, specs) => {
         .datum(d => d.versions.map(v => {v.shortname = d.shortname; return v;}))
         .attr("class", "spechistory");
 
+    svg.selectAll("path.lastpub")
+        .data(specs)
+        .enter()
+        .append("path")
+        .datum(d => {const lastVersion = d.versions[0]; lastVersion.shortname = d.shortname; return [lastVersion, Object.assign({}, lastVersion, {date: dateFormat(now)})];})
+        .attr("class", "lastpub")
+        .attr("stroke", d => durationColor(parseDate(d[0].date), now));
+
     svg.selectAll("g.pub")
         .data(specs)
         .enter()
@@ -158,8 +171,9 @@ d3.json('pergroup/' + groupid + '.json', (err, specs) => {
         .append("circle")
         .attr("r", 5)
         .attr("cy", d => y(statusNormalizer(d)) + specOffset(d.shortname))
+        .attr("class", d => statusNormalizer(d).split('/')[0])
         .append("title")
-        .text(d => statusNormalizer(d) + " of " + d.title);
+            .text(d => statusNormalizer(d) + " of " + d.title);
     const draw = drawer(specOffset);
     zoom.on("zoom", draw)
     draw();
@@ -185,6 +199,7 @@ var drawer = (specOffset => u => {
     var xNewScale = transform.rescaleX(x);
     xAxis.scale(xNewScale)
     svg.select("g.x.axis").call(xAxis);
+
     var now = new Date();
     svg.selectAll("line.today")
         .attr("x1", xNewScale(now))
@@ -193,6 +208,9 @@ var drawer = (specOffset => u => {
         .attr("x", xNewScale(now));
     svg.selectAll("path.spechistory")
         .attr("d", line(xNewScale, specOffset));
+    svg.selectAll("path.lastpub")
+        .attr("d", line(xNewScale, specOffset));
+
     svg.selectAll("circle")
         .attr("cx", d => xNewScale(parseDate(d.date)))
 
