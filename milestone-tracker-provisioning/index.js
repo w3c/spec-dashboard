@@ -2,17 +2,19 @@ const config = require("../config.json"),
       request = require('request'),
       async = require('async'),
       fs = require('fs'),
+      utils = require('../lib/utils'),
+      activespecs = require('../lib/active-specs'),
       w3c = require('node-w3capi');
 
 w3c.apiKey = config.w3capikey;
 
-const relevantSpecStatus = status => ['Retired', 'Group Note', 'Recommendation'].indexOf(status) === -1
-const last = a => a[a.length - 1];
-const specDate = s => last(s._links['latest-version'].href.split('/'));
+const jsonify = o => JSON.stringify(o, null, 2);
+
+const specDate = utils.specDate;
+const last = utils.last;
 const groupId = g => last(g.href.split('/'));
 const shortNamer = url => last(url.split('/').filter(x => x));
 const specShortnameSorter = (url1, url2) => shortNamer(url1).localeCompare(shortNamer(url2));
-const specDateSorter = (s1, s2) => specDate(s2) - specDate(s1);
 
 const preferGroup = (preferedGroup, otherGroup) => {
     return (g1, g2) => {if (preferedGroup == g1 && otherGroup == g2) { return -1;} else if (g1 == otherGroup && preferedGroup == g2) { return 1;} else { return 0;}};
@@ -32,32 +34,37 @@ const sharedSpecGroupPicker = (wg, groupList) => !groupList || groupList.map(g =
 
 w3c.groups().fetch({embed:true}, (err, groups) => {
     if (err) return console.error(err);
-    const workinggroups = groups.filter(g => g.type === 'working group');
+    const workinggroups = groups.filter(g => g.type === 'working group') ;
     async.map(workinggroups, (wg,cb) => {
-        w3c.group(wg.id).specifications().fetch({embed: true}, (err, specs) => {
-            const unfinishedSpecs = specs.filter(s => s._links ? !s._links['superseded-by'] && relevantSpecStatus(s._links['latest-version'].title) : console.error(s))
-                  .sort(specDateSorter);
+        activespecs(wg.id, w3c.apiKey, (err, unfinishedSpecs) => {
+            if (!unfinishedSpecs) return console.error("undefined result for " + wg.name);
             const oldSpecs = unfinishedSpecs.filter(s => specDate(s) <= "20131215");
             if (oldSpecs.length) {
                 console.error("The following " + wg.name + " specs have not been touched in 3 years:\n" + oldSpecs.map(s => "* "  + s.title + " (" + specDate(s) + ")").join("\n"));
             }
             async.filter(unfinishedSpecs,
                          (s, filtercb) => {
-                             w3c.specification(s.shortname).version(specDate(s)).deliverers().fetch((err, groups) => {
-                                 //if (err) return filtercb(err);
-                                 filtercb(null, sharedSpecGroupPicker(wg, groups));
-                             }
-                             );
+                             w3c.specification(s.shortname).version(specDate(s)).fetch((err, datedversion) => {
+                                 s.editorsdraft = datedversion ? datedversion["editor-draft"]: null;
+                                 w3c.specification(s.shortname).versions().fetch({embed:true}, (err, versions) => {
+                                     s.versions = versions;
+                                     w3c.specification(s.shortname).version(specDate(s)).deliverers().fetch((err, groups) => {
+                                         //if (err) return filtercb(err);
+                                         filtercb(null, sharedSpecGroupPicker(wg, groups));
+                                     });
+                                 });
+                             });
                          },
                          (err, ownedSpecs) => {
                              if (err) console.error(err);
+                             fs.writeFileSync("./pergroup/" + wg.id + ".json", jsonify(ownedSpecs));
                              createSpreadSheet(wg, ownedSpecs.map(s=> s.shortlink), cb);
                          });
         });
     }, (err, results) => {
         if (err) return console.error(err);
         const groups = results.filter(g => g).reduce((a,b) => { a[b.id] = {name: b.name, url: b.url}; return a;}, {});
-        fs.writeFileSync("./groups.json", JSON.stringify(groups, null, 2));
+        fs.writeFileSync("./groups.json", jsonify(groups, null, 2));
     });
 });
 
