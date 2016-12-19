@@ -63,7 +63,7 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
         });
     }, (err, results) => {
         if (err) return console.error(err);
-        const groups = results.filter(g => g).reduce((a,b) => { a[b.id] = {name: b.name, url: b.url}; return a;}, {});
+        const groups = results.filter(g => g).reduce((a,b) => { a[b.id] = b; return a;}, {});
         fs.writeFileSync("./groups.json", jsonify(groups, null, 2));
     });
 });
@@ -80,7 +80,7 @@ function createSpreadSheet(wg, specs, cb) {
             },
             body: body
         }, function (error, response, body) {
-            cb(null, {id: wg.id, name: wg.name, url: config.ethercalc + body});
+            cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: config.ethercalc + body});
         });
     } else {
         console.error(wg.name + " has no active spec to track");

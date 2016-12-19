@@ -15,7 +15,7 @@ fetch("groups.json")
         });
 
         if (groupid) {
-            dashboard(groupid);
+            dashboard(groupid, groups[groupid]);
             if (groups[groupid]) {
                 document.querySelector("title").textContent += " for "+ groups[groupid].name;
                 document.querySelector("h1").textContent += " for "+ groups[groupid].name;
@@ -23,7 +23,7 @@ fetch("groups.json")
         }
     }).catch(err => document.querySelector("#msg").textContent = err);
 
-function dashboard(groupid) {
+function dashboard(groupid, group) {
     var margin = {top: 30, right: 50, bottom: 30, left: 50},
         width = 800 - margin.left - margin.right,
         height = 800 - margin.top - margin.bottom;
@@ -109,16 +109,20 @@ function dashboard(groupid) {
     filter.append("feComposite")
         .attr("in", "SourceGraphic");
 
+    const addMonth = (date, n) => new Date(new Date(date).setMonth(date.getMonth() + n));
+
     var radius = 4;
 
     var now = new Date();
-    var defaultExtent = [new Date().setMonth(now.getMonth() - 24), new Date().setMonth(now.getMonth() + 6)];
+    var month6 = addMonth(now, 6);
+    var startDate = parseDate(group.start);
+    var defaultExtent = [Math.max(startDate, addMonth(now, -24)), month6];
     x.domain(defaultExtent).nice();
 
     var lines = [];
 
     var zoom = d3.zoom()
-        .translateExtent([[x(parseDate("1994-01-01")),0],[x(parseDate("2020-12-31")) + 400 + margin.right,height]])
+        .translateExtent([[x(addMonth(startDate, -3)),0],[x(Math.max(addMonth(parseDate(group.end), 3), month6)) + 400 + margin.right,height]])
         .scaleExtent([.1,5]);
     svg.append("rect")
         .attr("class", "pane")
@@ -130,6 +134,11 @@ function dashboard(groupid) {
         .call(zoom);
 
     lines.push(markerLine(svg, now, "Today"));
+
+    lines.push(markerLine(svg, parseDate(group.start), "First charter"));
+
+    lines.push(markerLine(svg, parseDate(group.end), "End of charter"));
+
     var legendRectSize = 20, legendSpacing = 5;
     var legend = d3.select('svg')
         .append("g")
