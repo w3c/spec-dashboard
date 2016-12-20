@@ -43,6 +43,11 @@
                 const groupnamePromise = new Promise((res) => res(groups[gid].name));
                 Promise.all([specDataPromise, milestoneDataPromise, repoDataPromise, groupnamePromise])
                     .then(([specData, milestoneData, repoData, groupname]) => {
+                        const count = document.getElementById('count');
+                        const reccount = document.getElementById('reccount');
+                        count.textContent = parseInt(count.textContent, 10) + specData.length;
+                        reccount.textContent = parseInt(reccount.textContent, 10) + specData.filter(s => s.versions[0]["rec-track"]).length;
+
                         const upcoming = d => new Date(d) < monthFromNow(4);
                         listMilestoneTest("upcomingwr", "WR/LC", upcoming)(milestoneData, specData, groupname);
                         listMilestoneTest("upcomingcr", "CR", upcoming)(milestoneData, specData, groupname);
