@@ -10,54 +10,23 @@ const logError = err => document.querySelector("#msg").textContent = err;
 const recStages = ["FPWD", "WD", "WR/LC", "CR", "PR/PER", "REC"];
 // structure of the columns in the spreadsheet
 // matched to the list of stages known here
-const milestoneStages=["", "FPWD", "WR/LC", "CR", "", "PR/PER", "PR/PER", "REC"];
 
-function normalizeDate(d) {
-    if (d.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)) {
-        return d;
-    } else if (d.match(/^[0-9]{4}-[0-9]{2}$/)) {
-        return d + "-31";
-    } else if (d.match(/^Q[0-9] [0-9]{4}$/)) {
-        return d.slice(3) + "-" + ("0" + ("" + parseInt(d.slice(1,2), 10)*3)).slice(-2) + "-31";
-    } else {
-        console.error("Unrecognized date " + d)
-    }
-}
-
-function futureVersions(spec, groupMilestones) {
+function futureVersions(spec, specMilestones) {
     const lastVersion = spec.versions[0];
     var now =  new Date();
 
     // By default, if we don't know, we just keep the current line
     var future = [Object.assign({}, lastVersion, {date: dateFormat(now)})];
-    if (!groupMilestones.length) return future;
+    if (!Object.keys(specMilestones).length) return future;
 
-    var minDate = Infinity;
-    const milestones = (groupMilestones
-                        .filter(row => shortNamer(row[0]) == spec.shortname)[0]  || []) // Find the right row
-          .map((d,i) => { // normalize its dates
-              if (milestoneStages[i] && d) {
-                  const date =  parseDate(normalizeDate(d));
-                  minDate = Math.min(date.getTime(), minDate);
-                  return date;
-              }
-              return d;
-          });
+    var minDate = Math.min.apply(null, Object.keys(specMilestones).map(k => parseDate(specMilestones[k]))); 
     // We ignore milestones if one of the date is anterior to now or if none were set
-    if (minDate !== Infinity && minDate >= now.getTime()) {
-        // Produce an object à la
-        // {CR: "2017-03-31", "PR/PER": "2016-06-30"}
-        const stagedMilestones = milestones.reduce((a,b, i) => {
-            if (b && milestoneStages[i]) a[milestoneStages[i]] = b;
-            return a;
-        } , {});
-        future = Object.keys(stagedMilestones)
-            .sort((a,b) => stagedMilestones[b] - stagedMilestones[a]) // sort by date
-            .map(d => Object.assign({}, lastVersion, {date: dateFormat(stagedMilestones[d]), status: d}));
+    if (minDate >= now.getTime()) {
+        future = Object.keys(specMilestones)
+            .sort((a,b) => specMilestones[a].localeCompare(specMilestones[b])) // sort by date
+            .map(d => Object.assign({}, lastVersion, {date: specMilestones[d], status: d}));
     } else {
-        if (minDate < now.getTime()) {
-            console.error("Ignored milestones for " + spec.shortname + " as it contains dates anterior to today");
-        }
+        console.error("Ignored milestones for " + spec.shortname + " as it contains dates anterior to today");
     }
     return future;
 }
@@ -302,7 +271,7 @@ function dashboard(groupid, group) {
             // Log but do not stop
             if (err) logError(err);
             const futureSpecs = recTrackSpecs.map(
-                s => {const lastVersion = s.versions[0]; lastVersion.shortname = s.shortname; return [lastVersion].concat(futureVersions(s, milestones));}
+                s => {const lastVersion = s.versions[0]; lastVersion.shortname = s.shortname; return [lastVersion].concat(futureVersions(s, milestones[s.shortlink] || {}));}
             );
 
             svg.selectAll("path.future")
@@ -316,9 +285,9 @@ function dashboard(groupid, group) {
         }
         const draw = drawer(specOffset);
         zoom.on("zoom", draw)
-        drawFuture(null, []);
+        drawFuture(null, {});
 
-        d3.json(group.url + ".csv.json", drawFuture);
+        d3.json("pergroup/" + groupid + '-milestones.json', drawFuture);
 
         function updateView() {
             document.querySelector("option[value='" + location.hash.slice(2) +"']")
