@@ -34,17 +34,18 @@
         .then(r => r.json())
         .then(groups => {
             for (let gid in groups) {
-                var specDataPromise = fetch("./pergroup/" + gid + ".json")
+                const specDataPromise = fetch("./pergroup/" + gid + ".json")
                     .then(r => r.json());
-                var milestoneDataPromise = fetch("./pergroup/" + gid + "-milestones.json")
+                const milestoneDataPromise = fetch("./pergroup/" + gid + "-milestones.json")
                     .then(r => r.json());
-                Promise.all([specDataPromise, milestoneDataPromise])
-                    .then(([specData, milestoneData]) => {
+                const groupnamePromise = new Promise((res) => res(groups[gid].name));
+                Promise.all([specDataPromise, milestoneDataPromise,groupnamePromise])
+                    .then(([specData, milestoneData, groupname]) => {
                         const upcoming = d => new Date(d) < monthFromNow(4);
-                        listMilestoneTest("upcomingwr", "WR/LC", upcoming)(milestoneData, specData, groups[gid].name);
-                        listMilestoneTest("upcomingcr", "CR", upcoming)(milestoneData, specData, groups[gid].name);
+                        listMilestoneTest("upcomingwr", "WR/LC", upcoming)(milestoneData, specData, groupname);
+                        listMilestoneTest("upcomingcr", "CR", upcoming)(milestoneData, specData, groupname);
 
-                        listMilestoneTest("beyondcharter", "*", d => d > groups[gid].end)(milestoneData, specData, groups[gid].name);
+                        listMilestoneTest("beyondcharter", "*", d => d > groups[gid].end)(milestoneData, specData, groupname);
 
                         var abandonned = document.querySelector("#abandonned ol");
                         var longRunning = document.querySelector("#longrunning ol");
@@ -55,7 +56,6 @@
                                 li.appendChild(document.createTextNode(": " + spec.versions[0].date));
                                 abandonned.appendChild(li);
                             }
-                            console.log(last(spec.versions).date);
                             if (new Date(last(spec.versions).date) < monthFromNow(-60)) {
                                 const li = specLink(spec);
                                 li.appendChild(document.createTextNode(": " + last(spec.versions).date));
