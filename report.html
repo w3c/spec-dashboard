@@ -1,0 +1,81 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Status report of active W3C specifications</title>
+<style>
+body { font: 12px Arial;}
+
+path.spechistory { stroke: #afa; stroke-width:2px; fill: none;}
+
+path.future { stroke-dasharray: 2px 2px; stroke-width:2px; fill: none;}
+
+foreignObject div {
+max-width: 350px;
+max-height: 400px;
+overflow-y: auto;
+color: white;
+}
+
+circle { fill: white;}
+
+circle.FPWD { fill: #36C;}
+circle.WD { fill: #DC3912;}
+circle.WR { fill: #F90;}
+circle.CR { fill: #109618;}
+circle.PR { fill: #909;}
+circle.REC { fill: #0099C6;}
+
+foreignObject a:visited, foreignObject a:link {
+color:white;
+}
+  
+rect.pane { pointer-events: all; cursor: grab;}
+rect.pane:active {cursor: grabbing;}  
+  text { font-size: 14px;fill: white; background-blend-mode: multiply;}
+.axis path,
+.axis line {
+    fill: none;
+    stroke:white;
+    stroke-width: 1;
+  shape-rendering: crispEdges;
+  }
+
+</style>
+<h1>Status report of active W3C specifications</h1>
+<main>
+  <section id="upcomingwr">
+    <h2>Upcoming wide reviews</h2>
+    <p>Wide review planned in the upcoming 4 months</p>
+    <ol></ol>
+  </section>
+
+  <section id="upcomingcr">
+    <h2>Upcoming CR</h2>
+    <p>Candidate Recommendation planned in the upcoming 4 months</p>
+    <ol></ol>
+  </section>
+
+  <section id="beyondcharter">
+    <h2>Milestones beyond end of charter</h2>
+    <ol></ol>
+  </section>
+
+  <section id="abandonned">
+    <h2>Abandonned specs</h2>
+    <p>Specs that have not been updated in TR in more than 3 years</p>
+    <ol></ol>
+  </section>
+
+  <section id="longrunning">
+    <h2>Long running specs</h2>
+    <p>Specs whose FPWD was published more than 5 years ago</p>
+    <ol></ol>
+  </section>
+
+<!--  <section id="nomilestone">
+    <h2>Specs with no known milestones</h2>
+    <ol></ol>
+  </section>-->
+</main>
+<script src="report.js"></script>
+</body>
+</html>
