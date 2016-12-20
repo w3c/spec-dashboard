@@ -37,10 +37,12 @@
                 const specDataPromise = fetch("./pergroup/" + gid + ".json")
                     .then(r => r.json());
                 const milestoneDataPromise = fetch("./pergroup/" + gid + "-milestones.json")
-                    .then(r => r.json());
+                      .then(r => r.json());
+                const repoDataPromise = fetch("./pergroup/" + gid + "-repo.json")
+                      .then(r => r.json());
                 const groupnamePromise = new Promise((res) => res(groups[gid].name));
-                Promise.all([specDataPromise, milestoneDataPromise,groupnamePromise])
-                    .then(([specData, milestoneData, groupname]) => {
+                Promise.all([specDataPromise, milestoneDataPromise, repoDataPromise, groupnamePromise])
+                    .then(([specData, milestoneData, repoData, groupname]) => {
                         const upcoming = d => new Date(d) < monthFromNow(4);
                         listMilestoneTest("upcomingwr", "WR/LC", upcoming)(milestoneData, specData, groupname);
                         listMilestoneTest("upcomingcr", "CR", upcoming)(milestoneData, specData, groupname);
@@ -49,6 +51,8 @@
 
                         var abandonned = document.querySelector("#abandonned ol");
                         var longRunning = document.querySelector("#longrunning ol");
+                        var noRepo = document.querySelector("#norepo ol");
+                        var noEd = document.querySelector("#noed ol");
                         Object.keys(specData).filter(s => specData[s].versions[0]["rec-track"]).forEach(s => {
                             const spec = specData[s];
                             if (new Date(spec.versions[0].date) < monthFromNow(-36)) {
@@ -61,7 +65,23 @@
                                 li.appendChild(document.createTextNode(": " + last(spec.versions).date));
                                 longRunning.appendChild(li);
                             }
+                            if (!repoData[spec.shortlink]) {
+                                const li = specLink(spec);
+                                li.appendChild(document.createTextNode(": "));
+                                if (spec.editorsdraft) {
+                                    const edDraft = document.createElement("a");
+                                    edDraft.href = spec.editorsdraft;
+                                    edDraft.textContent = "editors draft on " + edDraft.hostname;
+                                    li.appendChild(edDraft);
+                                    noRepo.appendChild(li);
+                                } else {
+                                    li.appendChild(document.createTextNode("No editors draft known"));
+                                    noEd.appendChild(li);
+                                }
+                            }
                         });
+
+
                     });
             }
         });
