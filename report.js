@@ -49,7 +49,7 @@
 
                         var abandonned = document.querySelector("#abandonned ol");
                         var longRunning = document.querySelector("#longrunning ol");
-                        Object.keys(specData).forEach(s => {
+                        Object.keys(specData).filter(s => specData[s].versions[0]["rec-track"]).forEach(s => {
                             const spec = specData[s];
                             if (new Date(spec.versions[0].date) < monthFromNow(-36)) {
                                 const li = specLink(spec);
