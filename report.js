@@ -59,7 +59,7 @@
                             if (new Date(last(spec.versions).date) < monthFromNow(-60)) {
                                 const li = specLink(spec);
                                 li.appendChild(document.createTextNode(": " + last(spec.versions).date));
-                                longrunning.appendChild(li);
+                                longRunning.appendChild(li);
                             }
                         });
                     });
