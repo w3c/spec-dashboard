@@ -54,7 +54,9 @@ const urlToGHRepo = (url = "") => {
     if (url === "https://webmention.net/draft/") {
         return {owner: 'w3c', name: 'webmention', issuefilter: nofilter};
     }
-
+    if (url === "http://dev.w3.org/2009/dap/camera/") {
+        return {owner: 'w3c', name: 'html-media-capture', issuefilter: nofilter};
+    }
 };
 
 fs.readFile("./groups.json", (err, data) => {
