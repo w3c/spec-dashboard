@@ -56,7 +56,7 @@
 
                         listMilestoneTest("beyondcharter", "*", d => d > groups[gid].end)(milestoneData, specData, groupname);
 
-                        var abandonned = document.querySelector("#abandonned ol");
+                        var abandoned = document.querySelector("#abandoned ol");
                         var longRunning = document.querySelector("#longrunning ol");
                         var noRepo = document.querySelector("#norepo ol");
                         var noEd = document.querySelector("#noed ol");
@@ -65,7 +65,7 @@
                             if (new Date(spec.versions[0].date) < monthFromNow(-36)) {
                                 const li = specLink(spec);
                                 li.appendChild(document.createTextNode(": " + spec.versions[0].date));
-                                abandonned.appendChild(li);
+                                abandoned.appendChild(li);
                             }
                             if (new Date(last(spec.versions).date) < monthFromNow(-60)) {
                                 const li = specLink(spec);
