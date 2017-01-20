@@ -1,9 +1,65 @@
 const fs = require('fs'),
-      Octokat = require("octokat"),
       config = require('../config.json'),
+      Queue = require('promise-queue'),
+      parse = require('parse-link-header'),
       request = require('request');
 
-const octo = new Octokat({ token: config.ghapitoken });
+var queue = new Queue(Infinity, 1);
+var retryAfter = 0;
+
+const ghCache = {};
+
+const queueGhRequest = function(url) {
+    return queue.add(function() {
+        return new Promise(function (resolve, reject) {
+            if (ghCache[url]) {
+                if (ghCache[url].nextPage) {
+                    return queueGhRequest(ghCache[url].nextPage).then(obj => resolve(ghCache[url].responseObject.concat(obj))).catch(reject);
+                } else {
+                    return resolve(ghCache[url].responseObject);
+                }
+            }
+            setTimeout(function() {
+                request({
+                    method: 'GET',
+                    url: url,
+                    headers: {
+                        'User-Agent': 'W3C spec dashboard https://github.com/w3c/spec-dashboard',
+                        'Authorization': 'token ' + config.ghapitoken
+                    }
+                }, function (error, response, body) {
+                    const ret = {};
+                    if (error) return reject(error);
+                    if (response.statusCode > 400) reject({status: response.statusCode, body: body});
+                    if (response.headers['retry-after']) {
+                        retryAfter = response.headers['retry-after'];
+                    }
+                    let obj = [];
+                    if (body) {
+                        try {
+                            obj = JSON.parse(body);
+                        } catch (e){
+                            reject(e);
+                        }
+                    }
+                    ret.responseObject = obj;
+                    if (response.headers['link']) {
+                        const parsed = parse(response.headers['link']);
+                        if (parsed.next) {
+                            ret.nextPage = parsed.next.url;
+                        }
+                    }
+                    ghCache[url] = ret;
+                    if (ret.nextPage) {
+                        queueGhRequest(ret.nextPage).then(obj => resolve(ret.responseObject.concat(obj))).catch(reject);
+                    } else {
+                        resolve(ret.responseObject);
+                    }
+                });
+            }, retryAfter*1000);
+        });
+    });
+};
 
 const urlToGHRepo = (url = "") => {
     const nofilter = x => true;
@@ -59,6 +115,7 @@ const urlToGHRepo = (url = "") => {
     }
 };
 
+
 fs.readFile("./groups.json", (err, data) => {
     if (err) return console.error(err);
     const groups = JSON.parse(data);
@@ -71,18 +128,17 @@ fs.readFile("./groups.json", (err, data) => {
             Promise.all(
                 specs.map(s => Object.assign({}, s, {repo: urlToGHRepo(s.editorsdraft)}))
                     .filter(s => s.repo)
-                    .map(s =>
-                         // TODO: Need to walk through pagination
-                         octo.repos(s.repo.owner, s.repo.name).issues.fetch({state: "all"}).
-                         then(issues => {
-                             const hash = {};
-                             hash[s.shortlink] =  { issues: issues.filter(s.repo.issuefilter)
-                                                    .map(i => {
-                                                        return {state: i.state, number: i.number};
-                                                    }), repo: s.repo}; return hash;})
-                         .catch(console.error.bind(console))
-                        )
-
+                    .map(s => queueGhRequest('https://api.github.com/repos/' + s.repo.owner + '/' + s.repo.name + '/issues?state=all')
+                         .then(issues => {
+                             const hash = {}
+                             hash[s.shortlink] = {repo: s.repo};
+                             hash[s.shortlink]["issues"] = issues.filter(s.repo.issuefilter)
+                                 .map(i => {
+                                     return {state: i.state, number: i.number};
+                                 });
+                             return hash;
+                         }).catch(console.error.bind(console))
+                             )
             ).then(repoHashList => {
                 const repoSpecs = repoHashList.reduce(
                     (a,b) => {a[Object.keys(b)[0]] = b[Object.keys(b)[0]]; return a;},
