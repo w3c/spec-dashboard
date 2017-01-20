@@ -172,19 +172,67 @@ function dashboard(groupid, group) {
     lines.push(markerLine(svg, parseDate(group.end), "End of charter"));
 
     var legendRectSize = 20, legendSpacing = 5;
+    var legendLeft =  width + margin.right + 100;
     var legend = d3.select('svg')
         .append("g")
         .attr("class", "legendbox")
         .selectAll("g")
-        .data([-1, 0,1,2,3,4,5,6])
+        .data(recStages)
         .enter()
         .append('g')
         .attr('class', 'legend')
         .attr('transform', function(d, i) {
-            var x = width + margin.right + 10;
-            var y = i * legendRectSize;
-            return 'translate(' + x + ',' + y + ')';
+            var y = (i+1) * legendRectSize;
+            return 'translate(' + legendLeft + ',' + y + ')';
         });
+
+    legend.append('circle')
+        .attr('r', radius)
+        .attr('cy', legendRectSize / 2)
+        .attr("class", d => statusNormalizer({status: d}).split('/')[0]);
+
+    legend.append('text')
+        .attr('x', legendSpacing )
+        .attr('y', legendRectSize - legendSpacing)
+        .text(d =>  d);
+
+    const historyLegend = d3.select("g.legendbox")
+          .append('g')
+          .attr('class','history')
+          .attr('transform', 'translate(' + legendLeft + ',' + (recStages.length + 2) * legendRectSize + ')');
+    historyLegend
+        .append('path')
+        .attr('class', 'spechistory')
+        .attr('d', 'M0,10L20,10');
+
+    historyLegend
+        .append('text')
+        .attr('x', legendRectSize + legendSpacing )
+        .attr('y', legendRectSize - legendSpacing)
+        .text('Spec history');
+
+
+    const durationLegend = d3.select("g.legendbox")
+        .selectAll("g.duration")
+        .data([3, 6, 12, 24])
+        .enter()
+        .append('g')
+        .attr('class','duration')
+        .attr('transform', function(d, i) {
+            var y = (recStages.length +i + 3) * legendRectSize;
+            return 'translate(' + legendLeft + ',' + y + ')';
+        });
+
+    durationLegend.append('path')
+        .attr('class', 'future')
+        .attr('d', 'M0,10L20,10')
+        .attr('stroke', durationColorScheme);
+
+    durationLegend.append('text')
+        .attr('x', legendRectSize + legendSpacing )
+        .attr('y', legendRectSize - legendSpacing)
+        .text(d => d + ' months since last publication');
+
 
     /*d3.select("g.legendbox")
       .append('foreignObject')
