@@ -12,7 +12,7 @@ w3c.apiKey = config.w3capikey;
 w3c.groups().fetch({embed:true}, (err, groups) => {
     if (err) return console.error(err);
     const workinggroups = groups.filter(g => g.type === 'working group') ;
-    async.map(workinggroups, (wg,cb) => {
+    async.map(workinggroups, (wg, wgcb) => {
         activespecs(wg.id, w3c.apiKey, (err, unfinishedSpecs) => {
             if (!unfinishedSpecs) return console.error("undefined result for " + wg.name);
             async.map(unfinishedSpecs,
@@ -32,7 +32,11 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
                       (err, annotatedSpecs) => {
                           if (err) console.error(err);
                           fs.writeFileSync("./pergroup/" + wg.id + ".json", jsonify(annotatedSpecs));
+                          wgcb(null, wg.id);
                       });
         });
-    });
+    },
+              (err, wgids) => {
+                  fs.writeFileSync("./pergroup/spec-update.json", JSON.stringify(new Date()));
+              });
 });

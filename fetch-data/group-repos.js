@@ -63,6 +63,8 @@ fs.readFile("./groups.json", (err, data) => {
     if (err) return console.error(err);
     const groups = JSON.parse(data);
 
+    fs.writeFileSync("./pergroup/repo-update.json", JSON.stringify(new Date()));
+
     Object.keys(groups).forEach(wgid => {
         fs.readFile("./pergroup/" + wgid + ".json", (err, data) => {
             const specs = JSON.parse(data);

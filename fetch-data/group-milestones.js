@@ -19,6 +19,8 @@ fs.readFile("./groups.json", (err, data) => {
     if (err) return console.error(err);
     const groups = JSON.parse(data);
 
+    fs.writeFileSync("./pergroup/milestone-update.json", JSON.stringify(new Date()));
+
     Object.keys(groups).forEach(wgid => {
         request({
             method: 'GET',
