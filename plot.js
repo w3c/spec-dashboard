@@ -11,14 +11,12 @@ const recStages = ["FPWD", "WD", "WR/LC", "CR", "PR/PER", "REC"];
 // structure of the columns in the spreadsheet
 // matched to the list of stages known here
 
-function futureVersions(spec, specMilestones) {
+function futureVersions(spec, specMilestones, milestoneOnly = false) {
     const lastVersion = spec.versions[0];
     var now =  new Date();
-
     // By default, if we don't know, we just keep the current line
     var future = [Object.assign({}, lastVersion, {date: dateFormat(now)})];
-    if (!Object.keys(specMilestones).length) return future;
-
+    if (!Object.keys(specMilestones).length) return milestoneOnly ? [] : future;
     var minDate = Math.min.apply(null, Object.keys(specMilestones).map(k => parseDate(specMilestones[k]))); 
     // We ignore milestones if one of the date is anterior to now or if none were set
     if (minDate >= now.getTime()) {
@@ -328,6 +326,28 @@ function dashboard(groupid, group) {
                 .append("path")
                 .attr("class", "future")
                 .attr("stroke", d => durationColor(parseDate(d[0].date), now));
+
+            svg.selectAll("g.futurepub")
+                .data(Object.keys(milestones))
+                .enter()
+                .append("g")
+                .attr("class", "futurepub")
+                .selectAll("circle")
+                .data(shortlink => {
+                    const s = recTrackSpecs.filter(s => s.shortlink == shortlink)[0];
+                    if (s) return futureVersions(s, milestones[shortlink], true);
+                    else {
+                        console.error("Milestone for unknown spec: " + shortlink);
+                        return {};
+                    }
+                })
+                .enter()
+                .append("circle")
+                .attr("r", 5)
+                .attr("cy", d => y(statusNormalizer(d)) + specOffset(d.shortname))
+                .attr("class", d => statusNormalizer(d).split('/')[0])
+                .append("title")
+                .text(d => statusNormalizer(d) + " of " + d.title + " scheduled before " + d.date);
 
             draw();
         }
