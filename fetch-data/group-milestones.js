@@ -1,15 +1,17 @@
 const fs = require('fs'),
       request = require('request');
 
-function normalizeDate(d) {
+function normalizeDate(d, uri) {
     if (d.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)) {
         return d;
     } else if (d.match(/^[0-9]{4}-[0-9]{2}$/)) {
         return d + "-31";
     } else if (d.match(/^Q[0-9] [0-9]{4}$/)) {
         return d.slice(3) + "-" + ("0" + ("" + parseInt(d.slice(1,2), 10)*3)).slice(-2) + "-31";
+    }  else if (d.match(/^[0-9]Q [0-9]{4}$/)) {
+        return d.slice(3) + "-" + ("0" + ("" + parseInt(d.slice(0,1), 10)*3)).slice(-2) + "-31";
     } else {
-        console.error("Unrecognized date " + d)
+        console.error((uri? "In " + uri + " : ": "") + "Unrecognized date " + d)
     }
 }
 
@@ -26,12 +28,18 @@ fs.readFile("./groups.json", (err, data) => {
             method: 'GET',
             url: groups[wgid].url + '.csv.json',
         }, function (error, response, body) {
-            const spreadsheet = JSON.parse(body);
+            let spreadsheet;
+            try {
+                spreadsheet = JSON.parse(body);
+            } catch (e) {
+                console.error("Failed to parse " + groups[wgid].url + " as JSON:" + e);
+                return;
+            }
             // Produce an object à la
             // { "https://www.w3.org/TR/foo" : {CR: "2017-03-31", "PR/PER": "2016-06-30"}}
             const milestones = spreadsheet.slice(1).reduce((cumul, row) => {
                 cumul[row[0]] = row.reduce( (a, b, i) => {
-                    if (b && milestoneStages[i]) a[milestoneStages[i]] = normalizeDate(b);
+                    if (b && milestoneStages[i]) a[milestoneStages[i]] = normalizeDate(b, groups[wgid].url);
                     return a;
                 }, {});
                 return cumul;
