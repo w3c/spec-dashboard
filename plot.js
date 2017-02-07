@@ -29,22 +29,10 @@ function futureVersions(spec, specMilestones, milestoneOnly = false) {
     return future;
 }
 
-
 fetch("groups.json")
     .then(r => r.json())
     .then(groups => {
-        const toc = document.getElementById("toc");
-        Object.keys(groups)
-            .sort((a,b) => groups[a].name.localeCompare(groups[b].name))
-            .forEach(gid => {
-                const li = document.createElement("li");
-                const link = document.createElement("a");
-                link.href = "./?" + gid;
-                link.textContent = groups[gid].name;
-                li.appendChild(link);
-                toc.appendChild(li);
-        });
-
+        groupToc(groups, document.getElementById("toc"), "./?");
         if (groupid) {
             dashboard(groupid, groups[groupid]);
             if (groups[groupid]) {
