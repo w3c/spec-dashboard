@@ -30,7 +30,10 @@ const queueGhRequest = function(url) {
                 }, function (error, response, body) {
                     const ret = {};
                     if (error) return reject(error);
-                    if (response.statusCode > 400) reject({status: response.statusCode, body: body});
+                    if (response.statusCode == 403 && response.headers['retry-after']) {
+                        // requeue for later
+                        return queueGhRequest(url);
+                    } else if (response.statusCode > 400) reject({status: response.statusCode, body: body});
                     if (response.headers['retry-after']) {
                         retryAfter = response.headers['retry-after'];
                     }
@@ -134,7 +137,7 @@ fs.readFile("./groups.json", (err, data) => {
                              hash[s.shortlink] = {repo: s.repo};
                              hash[s.shortlink]["issues"] = issues.filter(s.repo.issuefilter)
                                  .map(i => {
-                                     return {state: i.state, number: i.number, created_at: i.created_at, closed_at: i.closed_at, title: i.title, labels: i.labels, assignee: i.assignee ? i.assignee.login: null};
+                                     return {state: i.state, number: i.number, created_at: i.created_at, closed_at: i.closed_at, title: i.title, labels: i.labels, assignee: i.assignee ? i.assignee.login: null, isPullRequest: i.pull_request !== undefined};
                                  });
                              return hash;
                          }).catch(console.error.bind(console))
