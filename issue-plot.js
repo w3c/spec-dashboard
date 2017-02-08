@@ -41,7 +41,7 @@ fetch("groups.json")
     }).catch(logError);
 
 function dashboard(repoinfo) {
-    const issues = repoinfo.issues;
+    const issues = repoinfo.issues.filter(i => !i.isPullRequest);
     const repo = repoinfo.repo;
     var margin = {top: 30, right: 50, bottom: 30, left: 50},
         width = 800 - margin.left - margin.right,
