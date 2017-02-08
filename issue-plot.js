@@ -19,22 +19,23 @@ fetch("groups.json")
             fetch("pergroup/" + groupid + ".json")
                 .then( r => r.json())
                 .then(specs => {
-                    if (!shortname) {
-                        document.querySelector("title").textContent += " for " + groups[groupid].name;
-                        document.querySelector("h1").textContent += " for " + groups[groupid].name;
+                    fetch("pergroup/" + groupid + "-repo.json")
+                        .then(r => r.json())
+                        .then(repos => {
+                            if (!shortname) {
+                                document.querySelector("title").textContent += " for " + groups[groupid].name;
+                                document.querySelector("h1").textContent += " for " + groups[groupid].name;
 
-                        document.querySelector("body").appendChild(document.createElement("ol"));
-                        specToc(specs, document.querySelector("ol"), "issues.html?groupdi=" + groupid + "&shortname=");
-                    } else {
-                        const spec = specs.filter(s => s.shortname === shortname)[0];
-                        document.querySelector("title").textContent += " for " + spec.title;
-                        document.querySelector("h1").textContent += " for "+ spec.title;
-                        fetch("pergroup/" + groupid + "-repo.json")
-                            .then(r => r.json())
-                            .then(repos => {
+                                document.querySelector("body").appendChild(document.createElement("ol"));
+                                const annotatedSpecs = specs.map(s => {if (!repos[s.shortlink]) return s; const a = Object.assign({}, s); a.title = s.title + " (" + repos[s.shortlink].issues.filter(i => i.state == "open").length + " open issues)"; return a;});
+                                specToc(annotatedSpecs, document.querySelector("ol"), "issues.html?groupdi=" + groupid + "&shortname=");
+                            } else {
+                                const spec = specs.filter(s => s.shortname === shortname)[0];
+                                document.querySelector("title").textContent += " for " + spec.title;
+                                document.querySelector("h1").textContent += " for "+ spec.title;
                                 dashboard(repos[spec.shortlink]);
-                            });
-                    }
+                            }
+                        });
                 });
         }
     }).catch(logError);
