@@ -27,7 +27,7 @@ fetch("groups.json")
                                 document.querySelector("h1").textContent += " for " + groups[groupid].name;
 
                                 document.querySelector("body").appendChild(document.createElement("ol"));
-                                const annotatedSpecs = specs.map(s => {if (!repos[s.shortlink]) return s; const a = Object.assign({}, s); a.title = s.title + " (" + repos[s.shortlink].issues.filter(i => i.state == "open").length + " open issues)"; return a;});
+                                const annotatedSpecs = specs.map(s => {if (!repos[s.shortlink]) return s; const a = Object.assign({}, s); a.title = s.title + " (" + repos[s.shortlink].issues.filter(i => !i.isPullRequest && i.state == "open").length + " open issues)"; return a;});
                                 specToc(annotatedSpecs, document.querySelector("ol"), "issues.html?groupdi=" + groupid + "&shortname=");
                             } else {
                                 const spec = specs.filter(s => s.shortname === shortname)[0];
@@ -79,10 +79,38 @@ function dashboard(repoinfo) {
     var now = new Date();
     var month6 = addMonth(now, 6);
 
-    var durationColorScheme = d3.scaleLinear().domain([0, 1, 6,  24])
-        .range(["#afa", "white", "yellow","red"]);
+    var durations = {"-1": "issue closed during that month", 0: "issue raised during that month", 1: "1 month old", 6: "6 months old", 24: "2 years old"};
+    var durationColorScheme = d3.scaleLinear().domain([-1, 0, 1, 6, 24])
+        .range([ "#66f", "#afa", "white", "yellow","red"]);
 
     const durationColor = (d1, d2) => durationColorScheme((d2-d1) / (30*3600*24*1000));
+
+    var legendRectSize = 20, legendSpacing = 5;
+    var legendLeft =  width + margin.right;
+    var legend = d3.select('svg')
+        .append("g")
+        .attr("class", "legendbox")
+        .selectAll("g")
+        .data(Object.keys(durations))
+        .enter()
+        .append('g')
+        .attr('class', 'legend')
+        .attr('transform', function(d, i) {
+            var y = (i+1) * legendRectSize;
+            return 'translate(' + legendLeft + ',' + y + ')';
+        });
+
+    legend.append('rect')
+        .attr('stroke-width', 1)
+        .attr('stroke', '#333')
+        .attr('width', 20)
+        .attr('height',15)
+        .attr('fill', durationColorScheme);
+
+    legend.append('text')
+        .attr('x', 20 + legendSpacing )
+        .attr('y', legendRectSize - legendSpacing)
+        .text(d =>  durations[d]);
 
 
     var months = {};
@@ -118,7 +146,7 @@ function dashboard(repoinfo) {
         .attr("xlink:href", d => 'https://github.com/' + repo.owner + "/" + repo.name + '/issues/' + d.number)
         .attr("class", d => "issue issue" + d.number)
         .append("rect")
-        .attr('fill', function(d) { if (d.closed_at && d.closed_at.slice(0,7) == d3.select(this.parentNode.parentNode).datum()) { return "#00f"; } else { return durationColor(parseDate(d.created_at.slice(0,7)), parseDate(d3.select(this.parentNode.parentNode).datum())) ;} })
+              .attr('fill', function(d) { if (d.closed_at && d.closed_at.slice(0,7) == d3.select(this.parentNode.parentNode).datum()) { return durationColorScheme(-1) } else { return durationColor(parseDate(d.created_at.slice(0,7)), parseDate(d3.select(this.parentNode.parentNode).datum())) ;} })
         .attr("stroke-width", "1")
         .attr("stroke", "#000")
         .attr("x", function(d) { return x(parseDate(d3.select(this.parentNode.parentNode).datum()));})
