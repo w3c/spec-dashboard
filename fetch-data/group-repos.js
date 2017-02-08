@@ -30,13 +30,13 @@ const queueGhRequest = function(url) {
                 }, function (error, response, body) {
                     const ret = {};
                     if (error) return reject(error);
+                    if (response.headers['retry-after']) {
+                        retryAfter = response.headers['retry-after'];
+                    }
                     if (response.statusCode == 403 && response.headers['retry-after']) {
                         // requeue for later
                         return queueGhRequest(url);
                     } else if (response.statusCode > 400) reject({status: response.statusCode, body: body});
-                    if (response.headers['retry-after']) {
-                        retryAfter = response.headers['retry-after'];
-                    }
                     let obj = [];
                     if (body) {
                         try {
