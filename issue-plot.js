@@ -156,6 +156,15 @@ function dashboard(repoinfo) {
         .append("title")
         .text(d => d.title);
 
+    svg.selectAll("g.month")
+        .append("text")
+        .attr("class", "total")
+        .attr("x", d => x(parseDate(d)))
+        .attr("y", d => y(months[d].length + 1))
+        .text(d => months[d].length)
+        .append("title")
+        .text(d => months[d].length + " open issues in " + d);
+
     var toggle = d3.select("body")
         .append("button")
         .text("Switch to issue trail");
@@ -179,6 +188,9 @@ function dashboard(repoinfo) {
             .attr("y", (d,i) => y(i + 1))
             .attr("stroke-width", 1)
             .attr("height", (d,i) => y(i) - y(i + 1));
+        svg.selectAll("text.total")
+           .transition().duration(1500)
+            .attr("y", d => y(months[d].length + 1));
     }
     function drawHistory() {
         y.domain([0, issues.length]).nice();
@@ -188,6 +200,9 @@ function dashboard(repoinfo) {
             .attr("y", (d) => y(issues.map(i => i.number).indexOf(d.number)))
             .attr("height", height / issues.length)
             .attr("stroke-width", 0);
+        svg.selectAll("text.total")
+           .transition().duration(1500)
+            .attr("y", d => y(months[d].length + 1));
     }
 
     [].forEach.call(document.querySelectorAll(".issue"), el => {
