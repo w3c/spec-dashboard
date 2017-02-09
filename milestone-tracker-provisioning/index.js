@@ -7,6 +7,13 @@ const config = require("../config.json"),
       w3c = require('node-w3capi');
 
 w3c.apiKey = config.w3capikey;
+const selectedgroups = process.argv[2] ? process.argv[2].split(",").map(n => parseInt(n,10)) : false;
+const restrictGroups = g => !selectedgroups || selectedgroups.indexOf(g.id) !== -1;
+let existingdata;
+if (selectedgroups) {
+    var data = fs.readFileSync("./groups.json");
+    existingdata = JSON.parse(data);
+}
 
 const jsonify = o => JSON.stringify(o, null, 2);
 
@@ -17,7 +24,7 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
         activespecs(wg.id, w3c.apiKey, (err, unfinishedSpecs) => {
             if (!unfinishedSpecs) return console.error("undefined result for " + wg.name);
             if (err) console.error(err);
-            createSpreadSheet(wg, unfinishedSpecs.map(s=> s.shortlink), cb);
+            createOrUpdateSpreadSheet(wg, unfinishedSpecs.map(s=> s.shortlink), cb, restrictGroups(wg));
         });
     }, (err, results) => {
         if (err) return console.error(err);
@@ -27,19 +34,23 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
 });
 
 
-function createSpreadSheet(wg, specs, cb) {
+function createOrUpdateSpreadSheet(wg, specs, cb, create) {
     if (specs.length) {
-        const body = "TR shortlink,FPWD,Wide Review end, CR, Test Suite status, PR, PER, Rec, Comments & notes\n" + specs.join("\n");
-        request({
-            method: 'POST',
-            url: config.ethercalc + '/_',
-            headers: {
-            'Content-Type': 'text/csv'
-            },
-            body: body
-        }, function (error, response, body) {
-            cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: config.ethercalc + body});
-        });
+        if (create) {
+            const body = "TR shortlink,FPWD,Wide Review end, CR, Test Suite status, PR, PER, Rec, Comments & notes\n" + specs.join("\n");
+            request({
+                method: 'POST',
+                url: config.ethercalc + '/_',
+                headers: {
+                    'Content-Type': 'text/csv'
+                },
+                body: body
+            }, function (error, response, body) {
+                cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: config.ethercalc + body});
+            });
+        } else {
+            cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: existingdata[wg.id].url});
+        }
     } else {
         console.error(wg.name + " has no active spec to track");
         cb(null);
