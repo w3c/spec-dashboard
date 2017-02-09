@@ -115,12 +115,14 @@ function dashboard(repoinfo) {
 
     var months = {};
     issues.forEach(function(i) {
+        i.months = [];
         const startMonth = i.created_at.slice(0,7);
         const endMonth = i.closed_at ? i.closed_at.slice(0,7) : dateFormat(addMonth(now, 1)).slice(0,7);
         let curMonth = startMonth;
         while (curMonth <= endMonth) {
+            i.months.push(curMonth);
             if (!months[curMonth])  months[curMonth] = [];
-            months[curMonth].push(i);
+            months[curMonth].push(i.number);
             curMonth = dateFormat(addMonth(parseMonth(curMonth), 1)).slice(0,7);
         }
     });
@@ -128,7 +130,6 @@ function dashboard(repoinfo) {
     y.domain([0, d3.max(Object.keys(months).map(k => months[k].length))]).nice();
     svg.select("g.x.axis").call(xAxis);
     svg.select("g.y.axis").call(yAxis);
-
     svg.append("text")
         .attr("x", -15)
         .attr("y", -10)
@@ -136,27 +137,29 @@ function dashboard(repoinfo) {
         .text("Open Issues");
 
     var barWidth = x(parseDate('2015-06')) - x(parseDate('2015-05'));
-    svg.selectAll("g.month").data(Object.keys(months)).enter()
-        .append("g")
-        .attr("class", "month")
-        .selectAll("a.issue")
-        .data(d =>months[d])
+    var barHeight = height / y.domain()[1];
+    svg.selectAll("a.issue").data(issues)
         .enter()
         .append("a")
         .attr("xlink:href", d => 'https://github.com/' + repo.owner + "/" + repo.name + '/issues/' + d.number)
         .attr("class", d => "issue issue" + d.number)
+        .selectAll("rect")
+        .data(i => i.months)
+        .enter()
         .append("rect")
-              .attr('fill', function(d) { if (d.closed_at && d.closed_at.slice(0,7) == d3.select(this.parentNode.parentNode).datum()) { return durationColorScheme(-1) } else { return durationColor(parseDate(d.created_at.slice(0,7)), parseDate(d3.select(this.parentNode.parentNode).datum())) ;} })
+        .attr('fill', function(d) { const issue = d3.select(this.parentNode).datum(); if (issue.closed_at && issue.closed_at.slice(0,7) == d) { return durationColorScheme(-1) } else { return durationColor(parseDate(issue.created_at.slice(0,7)), parseDate(d));}})
         .attr("stroke-width", "1")
         .attr("stroke", "#000")
-        .attr("x", function(d) { return x(parseDate(d3.select(this.parentNode.parentNode).datum()));})
-        .attr("y", (d,i) => y(i + 1))
+        .attr("x", d => x(parseDate(d)))
+        .attr("y", function(d,i) { const issue = d3.select(this.parentNode).datum(); return y(months[d].indexOf(issue.number) + 1);})
         .attr("width", barWidth)
-        .attr("height", (d,i) => y(i) - y(i + 1))
+        .attr("height", barHeight)
         .append("title")
         .text(d => d.title);
 
-    svg.selectAll("g.month")
+    svg.selectAll("g.month").data(Object.keys(months)).enter()
+        .append("g")
+        .attr("class", "month")
         .append("text")
         .attr("class", "total")
         .attr("x", d => x(parseDate(d)))
@@ -182,12 +185,12 @@ function dashboard(repoinfo) {
     function drawStack() {
         y.domain([0, d3.max(Object.keys(months).map(k => months[k].length))]).nice();
         svg.select("g.y.axis").call(yAxis);
-        svg.selectAll("g.month")
+        svg.selectAll("a.issue")
             .selectAll("rect")
             .transition().duration(1500)
-            .attr("y", (d,i) => y(i + 1))
+            .attr("y", function(d,i) { const issue = d3.select(this.parentNode).datum(); return y(months[d].indexOf(issue.number) + 1);})
             .attr("stroke-width", 1)
-            .attr("height", (d,i) => y(i) - y(i + 1));
+            .attr("height", barHeight);
         svg.selectAll("text.total")
            .transition().duration(1500)
             .attr("y", d => y(months[d].length + 1));
@@ -195,9 +198,10 @@ function dashboard(repoinfo) {
     function drawHistory() {
         y.domain([0, issues.length]).nice();
         svg.select("g.y.axis").call(yAxis);
-        svg.selectAll("rect")
+        svg.selectAll("a.issue")
+            .selectAll("rect")
            .transition().duration(1500)
-            .attr("y", (d) => y(issues.map(i => i.number).indexOf(d.number)))
+            .attr("y", function(d) { const issue = d3.select(this.parentNode).datum(); return y(issues.map(i => i.number).indexOf(issue.number));})
             .attr("height", height / issues.length)
             .attr("stroke-width", 0);
         svg.selectAll("text.total")
@@ -205,13 +209,4 @@ function dashboard(repoinfo) {
             .attr("y", d => y(months[d].length + 1));
     }
 
-    [].forEach.call(document.querySelectorAll(".issue"), el => {
-        el.addEventListener("mouseout", e => {
-            [].forEach.call(document.querySelectorAll(".issue"), el => el.classList.remove("highlight"));
-        });
-        el.addEventListener("mouseover", e => {
-            const issueNumber = el.className.baseVal.split(" ")[1];
-            [].forEach.call(document.querySelectorAll("." + issueNumber), el => el.classList.add("highlight"));
-        });
-    });
 }
