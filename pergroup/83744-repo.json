@@ -6,6 +6,16 @@
     },
     "issues": [
       {
+        "state": "open",
+        "number": 25,
+        "created_at": "2017-02-22T19:05:19Z",
+        "closed_at": null,
+        "title": "Add link to list of card networks",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 24,
         "created_at": "2017-01-19T23:04:46Z",
@@ -285,6 +295,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 23,
+        "created_at": "2017-02-17T08:26:14Z",
+        "closed_at": null,
+        "title": "Payment Method Identifier needs dfn",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 22,
         "created_at": "2017-02-03T08:38:03Z",
         "closed_at": null,
@@ -294,10 +314,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 21,
         "created_at": "2017-01-26T14:54:40Z",
-        "closed_at": null,
+        "closed_at": "2017-02-23T15:13:03Z",
         "title": "Changes to address Action #40",
         "labels": [],
         "assignee": null,
@@ -334,10 +354,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 17,
         "created_at": "2016-11-17T08:22:27Z",
-        "closed_at": null,
+        "closed_at": "2017-02-23T15:12:35Z",
         "title": "Support for PMI's with schemes other than https?",
         "labels": [],
         "assignee": null,
@@ -580,39 +600,509 @@
     "issues": [
       {
         "state": "open",
-        "number": 413,
-        "created_at": "2017-02-07T18:33:01Z",
+        "number": 450,
+        "created_at": "2017-03-07T13:44:49Z",
         "closed_at": null,
-        "title": "Take paymentRequestID in constructor",
+        "title": "Section for A11Y Considerations",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
-        "number": 412,
-        "created_at": "2017-02-07T17:46:00Z",
+        "number": 449,
+        "created_at": "2017-03-06T21:06:22Z",
         "closed_at": null,
-        "title": "PaymentRequestID initialization",
+        "title": "Specify how to abort a payment request",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 448,
+        "created_at": "2017-03-06T20:23:39Z",
+        "closed_at": null,
+        "title": "NotSupportedError in private browsing mode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 447,
+        "created_at": "2017-03-03T06:17:51Z",
+        "closed_at": "2017-03-03T13:56:07Z",
+        "title": "API assumes Issuer communication is OOB",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
         "state": "open",
-        "number": 411,
-        "created_at": "2017-02-06T03:37:12Z",
+        "number": 446,
+        "created_at": "2017-02-28T17:45:19Z",
         "closed_at": null,
-        "title": "editorial(intro): drop hyperbolic statements (closes #410)",
+        "title": "Addition of flag on PaymentMethodData to indicate that line items should be shared with apps",
+        "labels": [
+          {
+            "id": 345169541,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 332152664,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          },
+          {
+            "id": 393369194,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Payment%20Apps",
+            "name": "Payment Apps",
+            "color": "5319e7",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 445,
+        "created_at": "2017-02-28T15:00:35Z",
+        "closed_at": "2017-03-01T09:07:39Z",
+        "title": "Create pr-preview config file.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 444,
+        "created_at": "2017-02-28T12:48:34Z",
+        "closed_at": "2017-03-07T03:27:28Z",
+        "title": "Fix markup errors that broke autopublishing",
+        "labels": [
+          {
+            "id": 543429511,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Blocked",
+            "name": "Blocked",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 443,
+        "created_at": "2017-02-28T01:50:35Z",
+        "closed_at": "2017-03-02T07:52:43Z",
+        "title": "editorial: s/fields/members + xref fixes (closes #424)",
+        "labels": [],
+        "assignee": "zkoch",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 442,
+        "created_at": "2017-02-27T07:52:45Z",
+        "closed_at": null,
+        "title": "PaymentResponse attributes should be separate sections",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 441,
+        "created_at": "2017-02-23T07:09:46Z",
+        "closed_at": null,
+        "title": "markup issues",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 440,
+        "created_at": "2017-02-23T07:08:48Z",
+        "closed_at": null,
+        "title": "Authors are not conformance classes ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 439,
+        "created_at": "2017-02-23T07:06:26Z",
+        "closed_at": null,
+        "title": "RCF2119 keywords in informative sections",
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 438,
+        "created_at": "2017-02-23T06:46:48Z",
+        "closed_at": null,
+        "title": "editorial: attr/method intros are notes (closes #379)",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 437,
+        "created_at": "2017-02-23T06:42:23Z",
+        "closed_at": null,
+        "title": "Web page and developer",
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 436,
+        "created_at": "2017-02-23T06:39:15Z",
+        "closed_at": null,
+        "title": "Initial values for internal slots",
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 435,
+        "created_at": "2017-02-23T06:12:15Z",
+        "closed_at": "2017-03-02T07:52:12Z",
+        "title": "editorial: s/shown/presented (closes #428)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 434,
+        "created_at": "2017-02-23T05:48:56Z",
+        "closed_at": "2017-02-24T05:34:17Z",
+        "title": "`country` vs `sortingCode`",
+        "labels": [
+          {
+            "id": 488699321,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/HR:%20i18n-comment",
+            "name": "HR: i18n-comment",
+            "color": "ffffff",
+            "default": false
+          },
+          {
+            "id": 332152667,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 433,
+        "created_at": "2017-02-23T05:48:20Z",
+        "closed_at": "2017-02-27T06:10:34Z",
+        "title": "Editorial: firing event not done correctly (closes #401)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 432,
+        "created_at": "2017-02-23T05:07:00Z",
+        "closed_at": "2017-03-02T08:01:01Z",
+        "title": "fix: s/user interaction/transaction (closes #402)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 431,
+        "created_at": "2017-02-23T03:43:06Z",
+        "closed_at": "2017-02-24T01:35:01Z",
+        "title": "fix: IDL dictates what is/isn't required (closes #408)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 430,
+        "created_at": "2017-02-23T03:39:05Z",
+        "closed_at": "2017-02-23T19:12:19Z",
+        "title": "editorial: don't redefine WebIDL things (closes #399)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 429,
+        "created_at": "2017-02-23T03:21:05Z",
+        "closed_at": "2017-02-23T03:24:37Z",
+        "title": "editorial: dfn payment request states as strings (closes #376)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 428,
+        "created_at": "2017-02-23T02:23:36Z",
+        "closed_at": "2017-03-02T07:52:13Z",
+        "title": "\"Shown\" should be \"presented\" in prose",
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 427,
+        "created_at": "2017-02-22T23:56:32Z",
+        "closed_at": null,
+        "title": "Group payment dictionaries into a section",
+        "labels": [
+          {
+            "id": 543429511,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Blocked",
+            "name": "Blocked",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 426,
+        "created_at": "2017-02-22T20:01:57Z",
+        "closed_at": "2017-03-06T21:51:17Z",
+        "title": "feat: put request id in details dictionary",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 425,
+        "created_at": "2017-02-20T07:16:12Z",
+        "closed_at": "2017-03-06T21:18:07Z",
+        "title": "fix: delegate total and error member checks to WebIDL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 424,
+        "created_at": "2017-02-20T06:42:33Z",
+        "closed_at": "2017-03-02T07:52:44Z",
+        "title": "Spec talks about dictionary fields instead of dictionary members",
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 423,
+        "created_at": "2017-02-16T09:16:31Z",
+        "closed_at": "2017-02-22T08:10:23Z",
+        "title": "editorial: fix linking to various specs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 422,
+        "created_at": "2017-02-16T08:41:08Z",
+        "closed_at": "2017-02-20T01:52:43Z",
+        "title": "Editorial fixes and xrefs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 421,
+        "created_at": "2017-02-16T04:39:07Z",
+        "closed_at": "2017-02-17T19:35:04Z",
+        "title": "editorial: s/character/code unit/ (closes #322)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 420,
+        "created_at": "2017-02-14T18:10:53Z",
+        "closed_at": null,
+        "title": "Define payment option filtering algorithm.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 419,
+        "created_at": "2017-02-13T08:44:32Z",
+        "closed_at": "2017-02-15T23:38:41Z",
+        "title": "BREAKING CHANGE: s/paymentRequestID/paymentRequestId (closes #414)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 418,
+        "created_at": "2017-02-09T22:13:26Z",
+        "closed_at": null,
+        "title": "Make updateWith() return a promise signaling any update failures",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 417,
+        "created_at": "2017-02-09T21:40:22Z",
+        "closed_at": "2017-02-15T23:43:00Z",
+        "title": "Set all the attributes of PaymentResponse when creating it",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 416,
+        "created_at": "2017-02-09T21:28:37Z",
+        "closed_at": "2017-02-10T01:27:13Z",
+        "title": "Update the shippingType option to not allow invalid strings",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 415,
+        "created_at": "2017-02-08T23:57:58Z",
+        "closed_at": "2017-03-06T21:51:35Z",
+        "title": "It is never stated how the payment request ID is used",
+        "labels": [],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 414,
+        "created_at": "2017-02-08T23:55:15Z",
+        "closed_at": "2017-02-15T23:38:42Z",
+        "title": "paymentRequestID is spelled wrong :(",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 413,
+        "created_at": "2017-02-07T18:33:01Z",
+        "closed_at": "2017-02-22T20:02:39Z",
+        "title": "Take paymentRequestID in constructor",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 412,
+        "created_at": "2017-02-07T17:46:00Z",
+        "closed_at": "2017-03-06T21:52:39Z",
+        "title": "PaymentRequestID initialization",
+        "labels": [],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 411,
+        "created_at": "2017-02-06T03:37:12Z",
+        "closed_at": "2017-02-08T23:17:32Z",
+        "title": "editorial(intro): drop hyperbolic statements (closes #410)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 410,
         "created_at": "2017-02-06T03:24:34Z",
-        "closed_at": null,
+        "closed_at": "2017-02-08T23:17:33Z",
         "title": "Introduction is aspirational, but misleading",
         "labels": [],
         "assignee": null,
@@ -629,21 +1119,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 408,
         "created_at": "2017-01-23T13:52:26Z",
-        "closed_at": null,
+        "closed_at": "2017-02-24T01:35:02Z",
         "title": "Is 'currencySystem' required?",
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -697,51 +1187,67 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 402,
         "created_at": "2017-01-19T15:15:38Z",
-        "closed_at": null,
+        "closed_at": "2017-03-02T08:01:02Z",
         "title": "`PaymentInstrument.complete(result)` wording",
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 401,
         "created_at": "2017-01-18T23:35:23Z",
-        "closed_at": null,
-        "title": "Editorial: firing an event is not done correctly",
-        "labels": [],
-        "assignee": null,
+        "closed_at": "2017-02-27T06:10:36Z",
+        "title": "firing an event is not done correctly",
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 400,
         "created_at": "2017-01-18T23:29:56Z",
-        "closed_at": null,
+        "closed_at": "2017-02-22T08:10:24Z",
         "title": "Editorial: Add missing xrefs to various specs",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 399,
         "created_at": "2017-01-18T23:19:23Z",
-        "closed_at": null,
+        "closed_at": "2017-02-23T19:12:20Z",
         "title": "Drop redundant reference to secure context + other redefinitions",
         "labels": [],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -856,15 +1362,37 @@
         "created_at": "2017-01-03T07:26:56Z",
         "closed_at": null,
         "title": "PaymentRequest does not handle the case of store pickup",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 345169541,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 345176053,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 332152664,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
+        "assignee": "zkoch",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 388,
         "created_at": "2017-01-03T06:23:51Z",
-        "closed_at": null,
+        "closed_at": "2017-03-06T21:51:17Z",
         "title": "Providing/Generating paymentRequestID during construction",
         "labels": [
           {
@@ -875,7 +1403,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -914,8 +1442,16 @@
         "created_at": "2016-12-15T15:41:24Z",
         "closed_at": null,
         "title": "PaymentApp fails to abort payment flow ",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 332152667,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": "zkoch",
         "isPullRequest": false
       },
       {
@@ -963,9 +1499,17 @@
         "number": 379,
         "created_at": "2016-12-14T18:54:13Z",
         "closed_at": null,
-        "title": "Editorial: introductory explanations of methods should be non-normative notes",
-        "labels": [],
-        "assignee": null,
+        "title": "Introductory explanations of methods should be non-normative notes",
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -979,20 +1523,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 377,
         "created_at": "2016-12-14T18:37:50Z",
-        "closed_at": null,
+        "closed_at": "2017-02-21T09:10:41Z",
         "title": "Editorial: don't capitalize RFC 2119 terms",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 376,
         "created_at": "2016-12-14T18:36:01Z",
-        "closed_at": null,
+        "closed_at": "2017-02-23T03:24:37Z",
         "title": "Editorial: define and link to the different states",
         "labels": [],
         "assignee": null,
@@ -1079,13 +1623,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 367,
         "created_at": "2016-12-12T18:40:58Z",
-        "closed_at": null,
+        "closed_at": "2017-02-23T06:28:59Z",
         "title": "What is the mechanism for limiting repeated calls to canMakePayments ?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 332152667,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": "ianbjacobs",
         "isPullRequest": false
       },
       {
@@ -1235,8 +1787,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           }
@@ -1245,10 +1797,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 352,
         "created_at": "2016-11-30T04:50:32Z",
-        "closed_at": null,
+        "closed_at": "2017-02-15T23:43:00Z",
         "title": "What is the shippingAddress/shippingOption of a PaymentResponse if requestShipping was false?",
         "labels": [],
         "assignee": null,
@@ -1270,8 +1822,16 @@
         "created_at": "2016-11-30T04:44:02Z",
         "closed_at": null,
         "title": "updateWith will silently ignore data in hard-to-debug ways",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 345169541,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": "domenic",
         "isPullRequest": false
       },
       {
@@ -1335,10 +1895,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 343,
         "created_at": "2016-11-30T03:43:10Z",
-        "closed_at": null,
+        "closed_at": "2017-02-23T05:21:35Z",
         "title": "How are currency systems expected to be implemented in practice?",
         "labels": [],
         "assignee": null,
@@ -1395,10 +1955,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 337,
         "created_at": "2016-11-30T03:13:26Z",
-        "closed_at": null,
+        "closed_at": "2017-02-10T01:27:13Z",
         "title": "Why is the \"shippingType\" member of PaymentOptions not a PaymentShippingType?",
         "labels": [],
         "assignee": null,
@@ -1455,10 +2015,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 331,
         "created_at": "2016-11-24T08:44:22Z",
-        "closed_at": null,
+        "closed_at": "2017-02-23T06:55:53Z",
         "title": "Collect Privacy and Security considerations",
         "labels": [
           {
@@ -1494,30 +2054,30 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 330,
         "created_at": "2016-11-24T07:39:10Z",
-        "closed_at": null,
+        "closed_at": "2017-02-28T06:57:12Z",
         "title": "Making this API work with HTML Forms",
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -1558,8 +2118,8 @@
           },
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           }
@@ -1575,10 +2135,31 @@
         "title": "Add dir/lang member on dictionaries whose content is displayed in browser UI",
         "labels": [
           {
-            "id": 362447442,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/HR:%20i18n-tracking",
-            "name": "HR: i18n-tracking",
+            "id": 543429511,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Blocked",
+            "name": "Blocked",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 345169541,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 488699321,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/HR:%20i18n-comment",
+            "name": "HR: i18n-comment",
             "color": "ffffff",
+            "default": false
+          },
+          {
+            "id": 346625763,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/proposal%20-%20needs%20discussion",
+            "name": "proposal - needs discussion",
+            "color": "fbca04",
             "default": false
           }
         ],
@@ -1586,31 +2167,17 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 326,
         "created_at": "2016-11-23T06:15:11Z",
-        "closed_at": null,
+        "closed_at": "2017-02-16T04:41:18Z",
         "title": "PaymentOptions seems overly verbose/overlaps with HTML",
         "labels": [
           {
-            "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
-            "color": "1d76db",
-            "default": false
-          },
-          {
-            "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
-            "color": "1d76db",
-            "default": false
-          },
-          {
-            "id": 332152667,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/question",
-            "name": "question",
-            "color": "cc317c",
+            "id": 332152668,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff",
             "default": true
           }
         ],
@@ -1653,7 +2220,15 @@
         "created_at": "2016-11-21T21:31:18Z",
         "closed_at": null,
         "title": "DOMStrings don't contain \"characters\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 543429511,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Blocked",
+            "name": "Blocked",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1668,13 +2243,13 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 320,
         "created_at": "2016-11-21T21:23:04Z",
-        "closed_at": null,
+        "closed_at": "2017-03-06T21:22:48Z",
         "title": "PaymentDetails \"total\" member should be required",
         "labels": [],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -1736,8 +2311,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           }
@@ -1868,7 +2443,15 @@
         "created_at": "2016-11-14T07:57:20Z",
         "closed_at": null,
         "title": "PaymentRequest type checks (valid non-negative monetary value)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1919,13 +2502,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 302,
         "created_at": "2016-11-14T06:46:01Z",
-        "closed_at": null,
+        "closed_at": "2017-03-06T21:18:07Z",
         "title": "Why does PaymentRequest constructor throw on details.error",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 353921770,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/in%20progress",
+            "name": "in progress",
+            "color": "ededed",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -1934,7 +2525,15 @@
         "created_at": "2016-11-14T06:32:05Z",
         "closed_at": null,
         "title": "Why is details.total.amount.value not a number?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 543429511,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Blocked",
+            "name": "Blocked",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1949,20 +2548,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 299,
         "created_at": "2016-11-14T01:34:41Z",
-        "closed_at": null,
+        "closed_at": "2017-02-21T00:02:41Z",
         "title": "PaymentAddress should be a dictionary",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 298,
         "created_at": "2016-11-14T01:31:22Z",
-        "closed_at": null,
+        "closed_at": "2017-02-16T04:21:24Z",
         "title": "Response/Request semantics and cancellation",
         "labels": [],
         "assignee": null,
@@ -2042,7 +2641,15 @@
         "created_at": "2016-10-12T14:04:29Z",
         "closed_at": null,
         "title": "How are digital signatures supported for Payment Requests?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 353129534,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Priority:%20Postponed",
+            "name": "Priority: Postponed",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2065,10 +2672,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 289,
         "created_at": "2016-09-29T08:08:42Z",
-        "closed_at": null,
+        "closed_at": "2017-02-20T06:29:23Z",
         "title": "Dynamic Currency Conversion requirements",
         "labels": [],
         "assignee": null,
@@ -2085,10 +2692,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 287,
         "created_at": "2016-09-23T07:37:04Z",
-        "closed_at": null,
+        "closed_at": "2017-03-06T23:30:17Z",
         "title": "PaymentDetails should include a transaction ID",
         "labels": [],
         "assignee": null,
@@ -2183,8 +2790,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           }
@@ -2213,16 +2820,16 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 275,
         "created_at": "2016-09-19T08:35:36Z",
-        "closed_at": null,
+        "closed_at": "2017-02-23T05:09:51Z",
         "title": "Throwing exceptions rather than permitting broken usage",
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           }
@@ -2239,8 +2846,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           }
@@ -2257,8 +2864,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           }
@@ -2535,8 +3142,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           }
@@ -2553,8 +3160,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           }
@@ -3015,8 +3622,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -3087,8 +3694,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -3119,8 +3726,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -3151,8 +3758,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3190,8 +3797,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3239,8 +3846,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3278,8 +3885,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -3333,17 +3940,17 @@
             "default": true
           },
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -3366,8 +3973,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3405,8 +4012,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -3444,8 +4051,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3492,17 +4099,17 @@
         "title": "Update promise rejection",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -3532,8 +4139,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3571,8 +4178,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3620,8 +4227,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -3704,8 +4311,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3743,8 +4350,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -3781,17 +4388,17 @@
         "title": "API flow",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -3831,8 +4438,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3870,15 +4477,15 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -3916,8 +4523,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4045,8 +4652,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4084,8 +4691,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4123,8 +4730,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4182,8 +4789,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4221,8 +4828,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -4281,8 +4888,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4327,8 +4934,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4366,8 +4973,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4415,8 +5022,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4440,8 +5047,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4465,8 +5072,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4504,8 +5111,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4539,8 +5146,8 @@
         "labels": [
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -4577,17 +5184,17 @@
         "title": "Support for gift cards and discount codes",
         "labels": [
           {
-            "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345169379,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -4627,8 +5234,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4676,8 +5283,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -4829,15 +5436,15 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -4875,8 +5482,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -4914,8 +5521,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -4938,17 +5545,17 @@
         "title": "fields in abort() Update paymentrequest.html",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -4970,17 +5577,17 @@
         "title": "complete does not talk to the Payment App",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -5002,17 +5609,17 @@
         "title": "Add explicit note that shippingOptions is only required if requesting shipping",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -5035,8 +5642,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -5073,17 +5680,17 @@
         "title": "Change e.g. to e.g.,",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -5106,8 +5713,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -5131,8 +5738,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -5166,8 +5773,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -5204,17 +5811,17 @@
         "title": "Update Introduction to describe actors better",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -5254,8 +5861,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -5333,8 +5940,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -5358,8 +5965,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -5403,17 +6010,17 @@
         "title": "Should the list of transaction types be extensible?",
         "labels": [
           {
-            "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345169379,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -5452,13 +6059,6 @@
         "title": "Migrate PaymentRequest text from arch to payment request spec.",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170357,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:Architecture",
             "name": "Doc:Architecture",
@@ -5470,6 +6070,13 @@
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -5492,8 +6099,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -5563,17 +6170,17 @@
         "title": "Payment Instrument clarification",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170357,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:Architecture",
             "name": "Doc:Architecture",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -5609,17 +6216,17 @@
         "title": "What component does the payment method intersection?",
         "labels": [
           {
-            "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170357,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:Architecture",
             "name": "Doc:Architecture",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345169379,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -5669,8 +6276,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -5714,8 +6321,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -5759,8 +6366,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -5987,8 +6594,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -6106,8 +6713,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -6131,8 +6738,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -6180,8 +6787,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -6245,8 +6852,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -6280,8 +6887,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -6347,8 +6954,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -6389,8 +6996,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -6420,17 +7027,17 @@
         "title": "How are payment requests and responses passed between the browser and third-party native wallets?",
         "labels": [
           {
-            "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345169379,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -6460,8 +7067,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -6499,8 +7106,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -6531,8 +7138,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -6556,15 +7163,15 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -6595,8 +7202,8 @@
         "labels": [
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -6627,8 +7234,8 @@
         "labels": [
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -6658,13 +7265,6 @@
         "title": "Terminology across all Web Payments documents should be aligned",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170357,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:Architecture",
             "name": "Doc:Architecture",
@@ -6676,6 +7276,13 @@
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -6697,17 +7304,17 @@
         "title": "Merge Payment Request Architecture with Capabilities Document",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170357,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:Architecture",
             "name": "Doc:Architecture",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -6740,8 +7347,8 @@
         "labels": [
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -6764,17 +7371,17 @@
         "title": "How are web-based payment apps supported?",
         "labels": [
           {
-            "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345169379,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -6804,8 +7411,8 @@
         "labels": [
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -6849,8 +7456,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -6897,17 +7504,17 @@
         "title": "How will the spec address versioning / feature detection?",
         "labels": [
           {
-            "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345169379,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -6936,17 +7543,17 @@
         "title": "Specification to include Flow Diagram",
         "labels": [
           {
-            "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -6969,8 +7576,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7001,15 +7608,15 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -7047,8 +7654,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7079,8 +7686,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7104,8 +7711,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7173,8 +7780,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7219,8 +7826,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -7254,8 +7861,8 @@
         "labels": [
           {
             "id": 345172385,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Editorial",
-            "name": "Cat: Editorial",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
             "color": "1d76db",
             "default": false
           },
@@ -7279,8 +7886,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7318,8 +7925,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -7350,8 +7957,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7382,8 +7989,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -7421,8 +8028,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -7460,8 +8067,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7495,8 +8102,8 @@
         "labels": [
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -7527,8 +8134,8 @@
         "labels": [
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -7559,8 +8166,8 @@
         "labels": [
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -7598,8 +8205,8 @@
         "labels": [
           {
             "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
             "color": "1d76db",
             "default": false
           },
@@ -7622,17 +8229,17 @@
         "title": "Should payment app registration be included in the conformance criteria of the browser API spec?",
         "labels": [
           {
-            "id": 345169379,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Extensibility",
-            "name": "Cat: Extensibility",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 345170265,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Doc:BrowserAPI",
             "name": "Doc:BrowserAPI",
             "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 345169379,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Extensibility",
+            "name": "Extensibility",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -7662,8 +8269,8 @@
         "labels": [
           {
             "id": 345176053,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Design/Technical",
-            "name": "Cat: Design/Technical",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
             "color": "1d76db",
             "default": false
           },
@@ -7687,8 +8294,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7733,8 +8340,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7772,8 +8379,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7811,8 +8418,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },
@@ -7850,8 +8457,8 @@
         "labels": [
           {
             "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Cat:%20Core%20Functionality",
-            "name": "Cat: Core Functionality",
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
             "color": "1d76db",
             "default": false
           },

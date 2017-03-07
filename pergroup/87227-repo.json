@@ -7,19 +7,812 @@
     "issues": [
       {
         "state": "open",
-        "number": 336,
-        "created_at": "2017-02-02T06:42:59Z",
+        "number": 372,
+        "created_at": "2017-03-07T00:46:18Z",
         "closed_at": null,
-        "title": "Fix up several linking mistakes.",
+        "title": "Justify differences in TPM Attestation Verification procedures in WebAuthn versus TCG specifications",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 371,
+        "created_at": "2017-03-04T01:55:56Z",
+        "closed_at": null,
+        "title": "fixup getAssertion, polish algorithms",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "equalsJeffH",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 370,
+        "created_at": "2017-03-03T22:08:25Z",
+        "closed_at": "2017-03-04T00:10:02Z",
+        "title": "Jeffh canonicalize markup",
+        "labels": [],
+        "assignee": "equalsJeffH",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 369,
+        "created_at": "2017-03-02T00:00:34Z",
+        "closed_at": "2017-03-03T22:02:05Z",
+        "title": "Refine makeCredential description",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 550833158,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:attestation",
+            "name": "subtype:attestation",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "vijaybh",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 368,
+        "created_at": "2017-03-01T01:55:33Z",
+        "closed_at": null,
+        "title": "UVM Extension Editorial Change",
+        "labels": [
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 367,
+        "created_at": "2017-02-28T21:35:03Z",
+        "closed_at": null,
+        "title": "Add keyStorage enum to ScopedCredentialOptions",
+        "labels": [
+          {
+            "id": 446001970,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/doc:impl-cons",
+            "name": "doc:impl-cons",
+            "color": "c2e0c6",
+            "default": false
+          },
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 366,
+        "created_at": "2017-02-27T19:38:02Z",
+        "closed_at": null,
+        "title": "Credential CBOR",
+        "labels": [
+          {
+            "id": 550833158,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:attestation",
+            "name": "subtype:attestation",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 549973029,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:CTAP",
+            "name": "subtype:CTAP",
+            "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 365,
+        "created_at": "2017-02-24T23:43:57Z",
+        "closed_at": "2017-03-01T23:45:08Z",
+        "title": "refine user verification and authz gesture definitions, add Test of User Presence",
+        "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "equalsJeffH",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 364,
+        "created_at": "2017-02-24T23:34:57Z",
+        "closed_at": null,
+        "title": "Constrain the \"reasonable range\" of timeouts",
+        "labels": [
+          {
+            "id": 446001970,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/doc:impl-cons",
+            "name": "doc:impl-cons",
+            "color": "c2e0c6",
+            "default": false
+          },
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 363,
+        "created_at": "2017-02-24T23:18:05Z",
+        "closed_at": null,
+        "title": "Define extension client processing more carefully.",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 362,
+        "created_at": "2017-02-24T22:55:40Z",
+        "closed_at": null,
+        "title": "Specify the set of hash algorithms UAs can select between.",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 549973029,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:CTAP",
+            "name": "subtype:CTAP",
+            "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 361,
+        "created_at": "2017-02-24T21:42:35Z",
+        "closed_at": null,
+        "title": "define what to do if both normalizedAlgorithm and cryptoParameters are empty",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 360,
+        "created_at": "2017-02-24T20:15:29Z",
+        "closed_at": null,
+        "title": "Explain how Token Binding IDs get associated with an HTML context.",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 359,
+        "created_at": "2017-02-23T08:52:04Z",
+        "closed_at": "2017-02-27T12:25:58Z",
+        "title": "Editorial: use more elaborate variable names",
+        "labels": [
+          {
+            "id": 323138129,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/duplicate",
+            "name": "duplicate",
+            "color": "cccccc",
+            "default": true
+          },
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 358,
+        "created_at": "2017-02-22T18:53:58Z",
+        "closed_at": null,
+        "title": "Eliminate duplicate terminology",
+        "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "equalsJeffH",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 357,
+        "created_at": "2017-02-22T18:34:16Z",
+        "closed_at": "2017-03-01T23:45:08Z",
+        "title": "User Verification definition needs to be refined",
+        "labels": [
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "equalsJeffH",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 356,
+        "created_at": "2017-02-22T10:55:17Z",
+        "closed_at": "2017-02-22T17:50:48Z",
+        "title": "updated the reference to FIDO ECDAA",
+        "labels": [],
+        "assignee": "rlin1",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 355,
+        "created_at": "2017-02-22T10:54:26Z",
+        "closed_at": "2017-02-22T18:15:09Z",
+        "title": "Add reference to FIDO ECDAA spec.",
+        "labels": [
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "rlin1",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 354,
+        "created_at": "2017-02-21T21:15:14Z",
+        "closed_at": null,
+        "title": "Fetch intergration for WebAuthn API",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 353,
+        "created_at": "2017-02-17T21:12:52Z",
+        "closed_at": null,
+        "title": "Track rename issues to maintain consistency",
+        "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "AngeloKai",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 352,
+        "created_at": "2017-02-16T01:31:17Z",
+        "closed_at": "2017-03-01T20:07:22Z",
+        "title": "Make hashAlg a \"recognized algorithm name\".",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 351,
+        "created_at": "2017-02-15T12:11:34Z",
+        "closed_at": null,
+        "title": "References to \"algorithm\" and \"alg\" should be same string",
+        "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 350,
+        "created_at": "2017-02-15T07:54:11Z",
+        "closed_at": null,
+        "title": "Throw NotFoundError when no authenticator is available",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "AngeloKai",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 349,
+        "created_at": "2017-02-15T06:54:33Z",
+        "closed_at": null,
+        "title": "Add getAuthenticatorInfo to the Authenticator Model section",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 348,
+        "created_at": "2017-02-15T06:50:47Z",
+        "closed_at": null,
+        "title": "Add gesture verification parameter to option in both makeC and getA",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "AngeloKai",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 347,
+        "created_at": "2017-02-15T01:28:10Z",
+        "closed_at": "2017-03-01T20:05:11Z",
+        "title": "Make makeCredential() more precise.",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 549973029,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:CTAP",
+            "name": "subtype:CTAP",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 346,
+        "created_at": "2017-02-14T23:15:22Z",
+        "closed_at": null,
+        "title": "Client arguments should be specified with \"partial dictionary AuthenticationExtensions\"",
+        "labels": [
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 345,
+        "created_at": "2017-02-14T22:55:17Z",
+        "closed_at": null,
+        "title": "Add \"willMakeCredentialWorkWithTheseConstraints()\" method to the API",
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 344,
+        "created_at": "2017-02-14T21:46:55Z",
+        "closed_at": null,
+        "title": "Rename Account and ClientData fixes #312",
+        "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "kpaulh",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 343,
+        "created_at": "2017-02-14T19:12:10Z",
+        "closed_at": "2017-02-15T01:56:11Z",
+        "title": "Make BufferSource parameters actually BufferSources.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 342,
+        "created_at": "2017-02-14T17:38:42Z",
+        "closed_at": "2017-02-14T18:24:50Z",
+        "title": "allow u2f attestation to be chained",
+        "labels": [],
+        "assignee": "vijaybh",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 341,
+        "created_at": "2017-02-14T05:25:23Z",
+        "closed_at": "2017-02-15T01:56:11Z",
+        "title": "Examples show a DOMString passed to challenge, but it's a BufferSource",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 340,
+        "created_at": "2017-02-14T00:55:23Z",
+        "closed_at": "2017-02-14T17:39:49Z",
+        "title": "Fix #335: Remove extraneous whitespace in IDL parameterized types and operations.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 339,
+        "created_at": "2017-02-13T19:56:24Z",
+        "closed_at": "2017-02-15T03:30:38Z",
+        "title": "Highlight the examples as JavaScript and remove non-functional .highlight classes.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 338,
+        "created_at": "2017-02-13T09:44:24Z",
+        "closed_at": "2017-03-04T00:15:14Z",
+        "title": "`rpID` origin relaxation?",
+        "labels": [
+          {
+            "id": 446001970,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/doc:impl-cons",
+            "name": "doc:impl-cons",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 337,
+        "created_at": "2017-02-08T17:57:42Z",
+        "closed_at": null,
+        "title": "Expose standard authenticator fields in JS objects, vs. binary",
+        "labels": [
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "bifurcation",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 336,
+        "created_at": "2017-02-02T06:42:59Z",
+        "closed_at": "2017-02-22T18:12:35Z",
+        "title": "Fix up several linking mistakes.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 335,
         "created_at": "2017-01-30T15:17:43Z",
-        "closed_at": null,
+        "closed_at": "2017-02-14T17:39:51Z",
         "title": "Whitespace around < > in Web IDL is unusual",
         "labels": [
           {
@@ -52,20 +845,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 333,
         "created_at": "2017-01-28T09:44:59Z",
-        "closed_at": null,
+        "closed_at": "2017-02-15T06:02:49Z",
         "title": "Renamed timeoutSeconds to timeoutMilliseconds ",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 332,
         "created_at": "2017-01-26T00:47:37Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "5.2.2. Generating a signature",
         "labels": [
           {
@@ -86,6 +879,13 @@
         "closed_at": null,
         "title": "Add cloud transport option to transport hint",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -123,6 +923,13 @@
         "title": "Too generic names?",
         "labels": [
           {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
             "name": "type:editorial",
@@ -140,6 +947,13 @@
         "closed_at": null,
         "title": "\"ScopedCred\" enum should be \"scoped-cred\"",
         "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -159,6 +973,13 @@
         "title": "excludeList and allowList should be excludeCredentials and allowCredentials",
         "labels": [
           {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
             "name": "type:editorial",
@@ -176,6 +997,13 @@
         "closed_at": null,
         "title": "hashAlg -> hashAlgorithm?",
         "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -195,6 +1023,13 @@
         "title": "\"rp\" isn't a widely enough known acronym?, should be relyingParting instead?",
         "labels": [
           {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
             "name": "type:editorial",
@@ -206,10 +1041,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 324,
         "created_at": "2017-01-20T23:56:20Z",
-        "closed_at": null,
+        "closed_at": "2017-02-15T06:03:40Z",
         "title": "timeoutSeconds options should just be timeout in ms?",
         "labels": [
           {
@@ -230,6 +1065,13 @@
         "closed_at": null,
         "title": "tokenBinding member of ClientData should be tokenBindingID",
         "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -260,10 +1102,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 321,
         "created_at": "2017-01-11T18:08:09Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:47Z",
         "title": "Clean up attestation, abstract it from UA, fix TPM format, add U2F format",
         "labels": [
           {
@@ -278,10 +1120,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 320,
         "created_at": "2017-01-11T07:57:11Z",
-        "closed_at": null,
+        "closed_at": "2017-02-15T08:57:54Z",
         "title": "Unclear how ClientData is created in makeCredential()",
         "labels": [
           {
@@ -296,10 +1138,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 319,
         "created_at": "2017-01-06T17:45:34Z",
-        "closed_at": null,
+        "closed_at": "2017-02-23T20:59:00Z",
         "title": "Bug #256 - Clarify call of the \"Relaxing the Same-Origin Restriction\" algorithm",
         "labels": [
           {
@@ -314,10 +1156,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 318,
         "created_at": "2017-01-04T22:32:08Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "Consider using CDDL (CBOR data definition language) to define CBOR-encoded data structures",
         "labels": [
           {
@@ -393,10 +1235,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 314,
         "created_at": "2016-12-20T20:59:48Z",
-        "closed_at": null,
+        "closed_at": "2017-02-20T20:20:59Z",
         "title": "Inline and clarify the \"Relaxing the Same-Origin Restriction\" algorithm",
         "labels": [
           {
@@ -425,10 +1267,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 313,
         "created_at": "2016-12-20T19:14:13Z",
-        "closed_at": null,
+        "closed_at": "2017-02-14T22:17:01Z",
         "title": "Should WebAuthnAttestation attributes have constructors?",
         "labels": [
           {
@@ -449,6 +1291,13 @@
         "closed_at": null,
         "title": "Consider scoping Account and ClientData",
         "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -586,20 +1435,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 304,
         "created_at": "2016-12-02T14:57:13Z",
-        "closed_at": null,
+        "closed_at": "2017-02-14T18:37:10Z",
         "title": "Should use \"RS1\" instead of \"RSA1_5\"",
-        "labels": [
-          {
-            "id": 323138129,
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/duplicate",
-            "name": "duplicate",
-            "color": "cccccc",
-            "default": true
-          }
-        ],
+        "labels": [],
         "assignee": "rlin1",
         "isPullRequest": false
       },
@@ -609,7 +1450,22 @@
         "created_at": "2016-12-01T23:03:14Z",
         "closed_at": null,
         "title": "Propose procedure for adding to attestation/extension registry",
-        "labels": [],
+        "labels": [
+          {
+            "id": 392107391,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/spec:webauthn-registries",
+            "name": "spec:webauthn-registries",
+            "color": "e99695",
+            "default": false
+          },
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -620,6 +1476,13 @@
         "closed_at": null,
         "title": "Throw \"NotFoundError\" when internal authenticator is not available or not found",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -675,10 +1538,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 299,
         "created_at": "2016-11-09T18:09:59Z",
-        "closed_at": null,
+        "closed_at": "2017-02-15T06:03:59Z",
         "title": "Timeouts should be in ms not seconds",
         "labels": [
           {
@@ -703,10 +1566,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 297,
         "created_at": "2016-11-08T20:37:35Z",
-        "closed_at": null,
+        "closed_at": "2017-03-02T00:44:18Z",
         "title": "Do we need \"Algorithm Usage Location(s)\" and \"JOSE Implementation Requirements\" in the IANA Considerations section?",
         "labels": [
           {
@@ -728,6 +1591,27 @@
         "title": "Refine meaning of ScopedCredentialType to be \"signature & assertion format (and version thereof)\"",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 550833158,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:attestation",
+            "name": "subtype:attestation",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 549973029,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:CTAP",
+            "name": "subtype:CTAP",
+            "color": "c5def5",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -745,6 +1629,13 @@
         "closed_at": null,
         "title": "Why are various predefined extensions defined as extensions, and not just parts of the spec?",
         "labels": [
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -771,6 +1662,13 @@
         "title": "Authenticator selection extension needs to define snapshotting behavior",
         "labels": [
           {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -788,6 +1686,13 @@
         "closed_at": null,
         "title": "Please ensure that all ArrayBuffer creations are done explicitly, in the correct global",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -807,6 +1712,13 @@
         "title": "What does \"which has no other operations in progress\" mean in practice?",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -824,6 +1736,13 @@
         "closed_at": null,
         "title": "Why is the only value of ScopedCredentialType \"ScopedCred\" as opposed to \"ScopedCredential\"?",
         "labels": [
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -843,6 +1762,13 @@
         "title": "What ensures any semblance of interop for WebAuthnExtensions?",
         "labels": [
           {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
+          {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
             "name": "type:editorial",
@@ -861,10 +1787,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 289,
         "created_at": "2016-11-04T22:01:11Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "Can the \"attestation\" of a WebAuthnAttestation be a non-object?",
         "labels": [
           {
@@ -897,10 +1823,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 287,
         "created_at": "2016-11-04T21:56:59Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "Which of the attestation format interfaces are expected to be exposed in UAs?",
         "labels": [
           {
@@ -915,10 +1841,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 286,
         "created_at": "2016-11-04T21:55:44Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "Why are some of the attestation interfaces [SecureContext] while others are not?",
         "labels": [
           {
@@ -939,6 +1865,13 @@
         "closed_at": null,
         "title": "Various attributes of ScopedCredentialInfo should probably be [SameObject]",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -976,6 +1909,13 @@
         "title": "authenticatorCancel seems like it can cancel too much",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -994,6 +1934,13 @@
         "title": " Creation of WebAuthnAssertion in getAssertion should probably be more explicit",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1001,7 +1948,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1012,6 +1959,13 @@
         "title": "What does it mean to \"get assertions\" in getAssertion step 7?",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1019,7 +1973,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1029,6 +1983,13 @@
         "closed_at": null,
         "title": "\"might be present on this authenticator\" could use a clearer definition",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -1048,6 +2009,13 @@
         "title": "getAssertion needs to not go async before making a copy of the assertionChallenge",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1055,7 +2023,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1065,6 +2033,13 @@
         "closed_at": null,
         "title": "AssertionOptions and ScopedCredentialOptions could both inherit from a dictionary which has their shared members",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -1084,6 +2059,13 @@
         "title": "Creation of ScopedCredentialInfo in makeCredential should probably be more explicit",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1091,7 +2073,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1102,6 +2084,13 @@
         "title": "ScopedCredentialDescriptor can contain BufferSources that are processed async",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1109,7 +2098,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1131,10 +2120,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 274,
         "created_at": "2016-11-04T20:58:48Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:48Z",
         "title": "\"JSON serialization\" in makeCredential probably needs to be defined more clearly",
         "labels": [
           {
@@ -1149,10 +2138,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 273,
         "created_at": "2016-11-04T20:50:39Z",
-        "closed_at": null,
+        "closed_at": "2017-03-01T20:05:12Z",
         "title": "I don't understand how to create a ClientData in makeCredential",
         "labels": [
           {
@@ -1167,12 +2156,19 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 272,
         "created_at": "2016-11-04T20:42:48Z",
-        "closed_at": null,
+        "closed_at": "2017-03-06T06:39:57Z",
         "title": "Should attestationChallenge be snapshotted in makeCredential, or used before going async?",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -1181,7 +2177,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1191,6 +2187,13 @@
         "closed_at": null,
         "title": "callerOrigin isn't actually the origin of the caller; it's the origin of the callee",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -1209,6 +2212,20 @@
         "closed_at": null,
         "title": "Processing model for extensions is very underdefined",
         "labels": [
+          {
+            "id": 549973029,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:CTAP",
+            "name": "subtype:CTAP",
+            "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -1264,6 +2281,13 @@
         "title": "The concept \"empty\" is not really defined for IDL sequences",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1271,17 +2295,24 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 266,
         "created_at": "2016-11-04T20:17:23Z",
-        "closed_at": null,
+        "closed_at": "2017-03-01T20:05:12Z",
         "title": "What does \"If normalizedAlgorithm is empty\" mean?",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1289,17 +2320,24 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 265,
         "created_at": "2016-11-04T20:14:06Z",
-        "closed_at": null,
+        "closed_at": "2017-03-01T20:05:12Z",
         "title": "What does normalizedParameters actually contain in makeCredential?",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1307,17 +2345,24 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 264,
         "created_at": "2016-11-04T18:57:38Z",
-        "closed_at": null,
+        "closed_at": "2017-03-06T06:34:23Z",
         "title": "Exception handling in cryptoParameters processing needs to be clarified",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1329,12 +2374,19 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 263,
         "created_at": "2016-11-04T18:54:29Z",
-        "closed_at": null,
+        "closed_at": "2017-03-01T20:05:11Z",
         "title": "WebCryptoAPI's \"normalizing an algorithm\" cannot be done as part of async steps",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -1343,7 +2395,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1397,7 +2449,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1415,7 +2467,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1426,6 +2478,13 @@
         "title": "Need to clearly define what it means to SHA-256 hash the \"host\" output of the document.domain setter",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1433,7 +2492,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1462,12 +2521,19 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 256,
         "created_at": "2016-11-04T18:13:40Z",
-        "closed_at": null,
+        "closed_at": "2017-03-01T23:39:42Z",
         "title": "Please coordinate with the HTML spec to extract the relevant bits of the document.domain setter so you can call them",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -1487,6 +2553,13 @@
         "title": "Setting _rpId_ to _callerOrigin_ doesn't make sense",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1494,7 +2567,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1505,6 +2578,13 @@
         "title": "There is no \"current settings object\" in algorithm steps that are executing in parallel",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1512,7 +2592,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1523,6 +2603,13 @@
         "title": "Does \"Then asynchronously continue executing the following steps\" mean \"in parallel\"?",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1530,7 +2617,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1559,6 +2646,13 @@
         "title": "The steps for makeCredential do a bunch of implicit getting of members",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
             "name": "type:editorial",
@@ -1566,7 +2660,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1659,6 +2753,13 @@
         "title": "remove \"required\" on ScopedCredentialDescriptor.id",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1670,10 +2771,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 244,
         "created_at": "2016-11-02T16:29:23Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:48Z",
         "title": "Simplifying attestation, take two",
         "labels": [
           {
@@ -1698,10 +2799,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 242,
         "created_at": "2016-11-01T22:12:59Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "certifyinfo needs to be specified",
         "labels": [
           {
@@ -1734,10 +2835,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 240,
         "created_at": "2016-10-29T00:26:21Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "RSA credential public key encoding in \"attestation data\" incorrectly specified?",
         "labels": [
           {
@@ -1752,10 +2853,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 239,
         "created_at": "2016-10-27T18:39:56Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "explicitly denote RSA signature scheme ",
         "labels": [
           {
@@ -1770,10 +2871,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 238,
         "created_at": "2016-10-26T21:40:28Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:47Z",
         "title": "fix signature alg names and RFC3447 cite in {#generating-an-attestation-statement}",
         "labels": [
           {
@@ -1850,6 +2951,13 @@
         "title": "detail-level issues in signature format, attestation format(s), attestation statement",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
             "name": "type:editorial",
@@ -1893,6 +3001,13 @@
         "title": "authenticatorGetAssertion showing selection UI for external authenticators",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1915,6 +3030,13 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:OKtoDo",
             "name": "stat:OKtoDo",
             "color": "bfd4f2",
+            "default": false
+          },
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
             "default": false
           },
           {
@@ -1956,6 +3078,20 @@
         "title": "Authenticator selection extension - should makeCredential fail if no specified authenticator can be found?",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -1967,10 +3103,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 226,
         "created_at": "2016-09-29T05:09:28Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "TPM attestation format spec is incomplete",
         "labels": [
           {
@@ -2042,6 +3178,13 @@
             "name": "spec:webauthn-registries",
             "color": "e99695",
             "default": false
+          },
+          {
+            "id": 550833158,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:attestation",
+            "name": "subtype:attestation",
+            "color": "d4c5f9",
+            "default": false
           }
         ],
         "assignee": "gmandyam",
@@ -2088,13 +3231,20 @@
         "number": 219,
         "created_at": "2016-09-23T20:14:47Z",
         "closed_at": null,
-        "title": "Move account argument to options",
+        "title": "Add explanation of why the account argument is useful",
         "labels": [
           {
-            "id": 340916444,
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
-            "name": "type:technical",
-            "color": "ffca04",
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
             "default": false
           }
         ],
@@ -2127,10 +3277,17 @@
         "title": "Drop UAF references in favor of better explanation",
         "labels": [
           {
-            "id": 340916444,
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
-            "name": "type:technical",
-            "color": "ffca04",
+            "id": 550833158,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:attestation",
+            "name": "subtype:attestation",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
             "default": false
           }
         ],
@@ -2174,10 +3331,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 214,
         "created_at": "2016-09-20T09:15:43Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "Define a U2F attestation format",
         "labels": [
           {
@@ -2251,15 +3408,30 @@
         "created_at": "2016-09-19T09:51:48Z",
         "closed_at": null,
         "title": "Internationalization self review",
-        "labels": [],
+        "labels": [
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 209,
         "created_at": "2016-09-17T13:53:45Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "Clarify uses of ClientData",
         "labels": [
           {
@@ -2292,10 +3464,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 207,
         "created_at": "2016-09-17T08:05:48Z",
-        "closed_at": null,
+        "closed_at": "2017-02-18T19:39:10Z",
         "title": "Clarify wording on authenticator selection",
         "labels": [
           {
@@ -2310,10 +3482,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 206,
         "created_at": "2016-09-17T07:52:40Z",
-        "closed_at": null,
+        "closed_at": "2017-03-02T01:02:02Z",
         "title": "Credential ID not signed",
         "labels": [
           {
@@ -2352,6 +3524,13 @@
         "closed_at": null,
         "title": "Privacy across Account IDs",
         "labels": [
+          {
+            "id": 545645236,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy",
+            "name": "subtype:privacy",
+            "color": "bfd400",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -2442,6 +3621,13 @@
         "closed_at": null,
         "title": "WebAuthn available to Workers?  aka \"silent authentication\"",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -2601,10 +3787,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 188,
         "created_at": "2016-08-30T23:59:14Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:48Z",
         "title": "should authenticator layer send hashed or unhashed rpId to authenticators?",
         "labels": [
           {
@@ -2662,6 +3848,13 @@
         "closed_at": null,
         "title": "Privacy concerns with blacklist/whitelist",
         "labels": [
+          {
+            "id": 545645236,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy",
+            "name": "subtype:privacy",
+            "color": "bfd400",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -2742,6 +3935,13 @@
         "title": "do not totally lose the term \"WebAuthn Relying Party\"",
         "labels": [
           {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
             "name": "type:editorial",
@@ -2810,6 +4010,13 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
             "name": "stat:Discuss",
             "color": "207de5",
+            "default": false
+          },
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
             "default": false
           },
           {
@@ -2981,6 +4188,13 @@
             "default": false
           },
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -2988,7 +4202,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -2998,6 +4212,13 @@
         "closed_at": null,
         "title": "Consider using USVString instead of DOMString sometimes",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -3016,6 +4237,13 @@
         "closed_at": null,
         "title": "DOMString[] should be FrozenArray<DOMString>",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -3130,6 +4358,13 @@
         "closed_at": null,
         "title": "Clarify meaning of UVI",
         "labels": [
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -3414,6 +4649,13 @@
             "default": false
           },
           {
+            "id": 545645236,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy",
+            "name": "subtype:privacy",
+            "color": "bfd400",
+            "default": false
+          },
+          {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
             "name": "type:editorial",
@@ -3450,6 +4692,13 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
             "name": "stat:Discuss",
             "color": "207de5",
+            "default": false
+          },
+          {
+            "id": 545645236,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy",
+            "name": "subtype:privacy",
+            "color": "bfd400",
             "default": false
           },
           {
@@ -3537,6 +4786,20 @@
         "title": "update extensions framework to include interfacing with user agent permissions framework",
         "labels": [
           {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -3544,7 +4807,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -3564,6 +4827,13 @@
         "closed_at": null,
         "title": "Add \"registration extension\" and \"authentication extension\" to glossary",
         "labels": [
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -3708,10 +4978,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 123,
         "created_at": "2016-06-08T18:49:32Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:47Z",
         "title": "Clarify names for crypto algs, e.g. RS256",
         "labels": [
           {
@@ -3739,6 +5009,13 @@
         "closed_at": null,
         "title": "refine extension terminology",
         "labels": [
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -3805,10 +5082,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 118,
         "created_at": "2016-06-02T00:17:56Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:49Z",
         "title": "differentiate assertion signatures and attestation signatures",
         "labels": [
           {
@@ -3847,6 +5124,13 @@
         "closed_at": null,
         "title": "further details for authenticatorCancel operation",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -4119,10 +5403,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 102,
         "created_at": "2016-05-13T07:30:56Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:48Z",
         "title": "Add section describing verification of a WebAuthnAssertion",
         "labels": [
           {
@@ -4255,6 +5539,13 @@
             "default": false
           },
           {
+            "id": 545645236,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy",
+            "name": "subtype:privacy",
+            "color": "bfd400",
+            "default": false
+          },
+          {
             "id": 340916444,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
@@ -4284,6 +5575,13 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
             "name": "stat:Discuss",
             "color": "207de5",
+            "default": false
+          },
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
             "default": false
           },
           {
@@ -4402,6 +5700,13 @@
         "closed_at": null,
         "title": "Spec should not mandate behavior of server",
         "labels": [
+          {
+            "id": 446001970,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/doc:impl-cons",
+            "name": "doc:impl-cons",
+            "color": "c2e0c6",
+            "default": false
+          },
           {
             "id": 340916443,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
@@ -4557,6 +5862,13 @@
         "title": "adopt consistent terms for RP server-side and client-side components",
         "labels": [
           {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
+            "default": false
+          },
+          {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
             "name": "type:editorial",
@@ -4579,6 +5891,13 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
             "name": "stat:Discuss",
             "color": "207de5",
+            "default": false
+          },
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
             "default": false
           },
           {
@@ -4841,10 +6160,10 @@
         "isPullRequest": false
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 60,
         "created_at": "2016-03-30T16:04:27Z",
-        "closed_at": "2016-09-20T12:23:44Z",
+        "closed_at": null,
         "title": "TAG review feedback: Align Credential interface with Credential Management?",
         "labels": [
           {
@@ -4852,6 +6171,13 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/priority:high",
             "name": "priority:high",
             "color": "b62020",
+            "default": false
+          },
+          {
+            "id": 545633657,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:renaming",
+            "name": "subtype:renaming",
+            "color": "006b75",
             "default": false
           }
         ],
@@ -5605,13 +6931,20 @@
         "number": 22,
         "created_at": "2016-03-13T18:12:17Z",
         "closed_at": null,
-        "title": "Silent Authn? clarification of bit 0 in AuthenticatorData",
+        "title": "Silent/touchless Authn? clarification of bit 0 in AuthenticatorData",
         "labels": [
           {
             "id": 340916443,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
             "name": "stat:Discuss",
             "color": "207de5",
+            "default": false
+          },
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
             "default": false
           },
           {
@@ -5805,10 +7138,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 13,
         "created_at": "2016-03-13T18:09:27Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:48Z",
         "title": "WebAPI: credential binding to a user account",
         "labels": [
           {
@@ -5830,10 +7163,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 12,
         "created_at": "2016-03-13T18:09:26Z",
-        "closed_at": null,
+        "closed_at": "2017-02-13T23:46:48Z",
         "title": "WebAPI: FIDO Authenticator model - clarifications needed",
         "labels": [
           {
@@ -5943,6 +7276,13 @@
         "closed_at": null,
         "title": "web-api:  is further language needed describing AppID (aka rpId) usage ?",
         "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",

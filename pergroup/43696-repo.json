@@ -6,6 +6,26 @@
     },
     "issues": [
       {
+        "state": "open",
+        "number": 13,
+        "created_at": "2017-02-22T19:45:03Z",
+        "closed_at": null,
+        "title": "No way to get isolated gravity",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 12,
+        "created_at": "2017-02-13T11:42:11Z",
+        "closed_at": "2017-02-13T13:33:53Z",
+        "title": "\"includesGravity\" vs \"includeGravity\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 11,
         "created_at": "2017-02-02T07:32:43Z",
@@ -123,6 +143,16 @@
       "name": "ambient-light"
     },
     "issues": [
+      {
+        "state": "open",
+        "number": 21,
+        "created_at": "2017-03-04T00:45:11Z",
+        "closed_at": null,
+        "title": "Update ALS to latest generic sensor spec.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 20,
@@ -429,11 +459,85 @@
     "issues": [
       {
         "state": "open",
+        "number": 173,
+        "created_at": "2017-03-04T00:39:04Z",
+        "closed_at": null,
+        "title": "Fix deploy script for PRs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 172,
+        "created_at": "2017-03-04T00:33:52Z",
+        "closed_at": null,
+        "title": "Simplify permissions.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 171,
+        "created_at": "2017-02-23T14:14:02Z",
+        "closed_at": null,
+        "title": "Batching API for sensor readings",
+        "labels": [
+          {
+            "id": 470657134,
+            "url": "https://api.github.com/repos/w3c/sensors/labels/needs-research",
+            "name": "needs-research",
+            "color": "e99695",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 170,
+        "created_at": "2017-02-17T12:21:07Z",
+        "closed_at": null,
+        "title": "Provide the DeviceOrientation sensor",
+        "labels": [
+          {
+            "id": 470657134,
+            "url": "https://api.github.com/repos/w3c/sensors/labels/needs-research",
+            "name": "needs-research",
+            "color": "e99695",
+            "default": false
+          }
+        ],
+        "assignee": "pozdnyakov",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 169,
+        "created_at": "2017-02-13T06:57:06Z",
+        "closed_at": "2017-02-21T07:51:05Z",
+        "title": "What if setting a negative frequency?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 168,
         "created_at": "2017-01-31T14:47:38Z",
         "closed_at": null,
         "title": "Reading attributes at different sensor states",
-        "labels": [],
+        "labels": [
+          {
+            "id": 470656520,
+            "url": "https://api.github.com/repos/w3c/sensors/labels/ED-ready",
+            "name": "ED-ready",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
         "assignee": "tobie",
         "isPullRequest": false
       },
@@ -492,7 +596,7 @@
         "number": 162,
         "created_at": "2017-01-27T12:38:50Z",
         "closed_at": null,
-        "title": "latest reading should be declarted as an internal slot",
+        "title": "Find a clearer name for the sensor concept",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -562,7 +666,7 @@
         "number": 155,
         "created_at": "2016-12-26T19:27:52Z",
         "closed_at": null,
-        "title": "SensorReading.timeStamp could be clarified",
+        "title": "Sensor.timeStamp could be clarified",
         "labels": [],
         "assignee": "tobie",
         "isPullRequest": false
@@ -1746,13 +1850,6 @@
             "url": "https://api.github.com/repos/w3c/sensors/labels/needs-research",
             "name": "needs-research",
             "color": "e99695",
-            "default": false
-          },
-          {
-            "id": 225968346,
-            "url": "https://api.github.com/repos/w3c/sensors/labels/non-normative",
-            "name": "non-normative",
-            "color": "1d76db",
             "default": false
           }
         ],
@@ -3080,19 +3177,39 @@
     "issues": [
       {
         "state": "open",
+        "number": 7,
+        "created_at": "2017-02-23T07:58:50Z",
+        "closed_at": null,
+        "title": "Update test suite",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 6,
+        "created_at": "2017-02-17T12:44:44Z",
+        "closed_at": "2017-02-22T18:33:40Z",
+        "title": "Fix #4: Make @capture an enumerated attribute",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 5,
         "created_at": "2016-08-03T08:49:12Z",
-        "closed_at": null,
+        "closed_at": "2017-02-16T11:29:23Z",
         "title": "Use https links",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4,
         "created_at": "2016-05-12T07:43:45Z",
-        "closed_at": null,
+        "closed_at": "2017-02-22T18:33:40Z",
         "title": "VideoFacingModeEnum as the capture attribute's value",
         "labels": [],
         "assignee": null,
@@ -3574,6 +3691,46 @@
     "issues": [
       {
         "state": "closed",
+        "number": 97,
+        "created_at": "2017-02-22T09:43:52Z",
+        "closed_at": "2017-02-22T14:23:55Z",
+        "title": "Review privacy and security section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 96,
+        "created_at": "2017-02-15T15:23:54Z",
+        "closed_at": "2017-02-15T16:28:22Z",
+        "title": "Clarify wake lock applicability when the device is manually locked",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 95,
+        "created_at": "2017-02-15T14:03:24Z",
+        "closed_at": "2017-02-15T16:28:22Z",
+        "title": "Clarify wake lock state transitions when the device is manually locked",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 94,
+        "created_at": "2017-02-14T16:39:32Z",
+        "closed_at": "2017-02-16T09:06:02Z",
+        "title": "Fix promise handling",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 93,
         "created_at": "2017-01-27T04:17:21Z",
         "closed_at": "2017-01-27T08:59:35Z",
@@ -3583,10 +3740,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 92,
         "created_at": "2017-01-10T13:07:13Z",
-        "closed_at": null,
+        "closed_at": "2017-02-16T09:06:02Z",
         "title": "The spec is unnecessarily strict in regard to promise handling",
         "labels": [],
         "assignee": null,
@@ -3613,10 +3770,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 89,
         "created_at": "2016-12-20T13:39:54Z",
-        "closed_at": null,
+        "closed_at": "2017-02-22T14:23:55Z",
         "title": "Review the Privacy & Security section",
         "labels": [],
         "assignee": null,
@@ -3653,10 +3810,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 85,
         "created_at": "2016-09-01T00:15:26Z",
-        "closed_at": null,
+        "closed_at": "2017-02-14T08:15:12Z",
         "title": "TAG feedback on wake-lock API",
         "labels": [],
         "assignee": null,
