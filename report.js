@@ -52,7 +52,7 @@
                         const upcoming6 = d => new Date(d) < monthFromNow(6);
                         listMilestoneTest("upcomingwr", "WR/LC", upcoming)(milestoneData, specData, groupname);
                         listMilestoneTest("upcomingcr", "CR", upcoming)(milestoneData, specData, groupname);
-                        listMilestoneTest("upcomingpr", "PR", upcoming6)(milestoneData, specData, groupname);
+                        listMilestoneTest("upcomingpr", "PR/PER", upcoming6)(milestoneData, specData, groupname);
 
                         listMilestoneTest("beyondcharter", "*", d => d > groups[gid].end)(milestoneData, specData, groupname);
 
