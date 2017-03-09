@@ -600,6 +600,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 452,
+        "created_at": "2017-03-08T18:21:30Z",
+        "closed_at": null,
+        "title": "Fix constructor handling of shippingType",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 451,
+        "created_at": "2017-03-08T18:13:21Z",
+        "closed_at": null,
+        "title": "Make updateWith() reject the show() promise on validation failures",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 450,
         "created_at": "2017-03-07T13:44:49Z",
         "closed_at": null,
@@ -609,10 +629,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 449,
         "created_at": "2017-03-06T21:06:22Z",
-        "closed_at": null,
+        "closed_at": "2017-03-08T17:40:23Z",
         "title": "Specify how to abort a payment request",
         "labels": [],
         "assignee": null,
@@ -625,7 +645,7 @@
         "closed_at": null,
         "title": "NotSupportedError in private browsing mode",
         "labels": [],
-        "assignee": null,
+        "assignee": "domenic",
         "isPullRequest": false
       },
       {
@@ -709,10 +729,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 442,
         "created_at": "2017-02-27T07:52:45Z",
-        "closed_at": null,
+        "closed_at": "2017-03-08T03:52:17Z",
         "title": "PaymentResponse attributes should be separate sections",
         "labels": [],
         "assignee": null,
@@ -724,7 +744,15 @@
         "created_at": "2017-02-23T07:09:46Z",
         "closed_at": null,
         "title": "markup issues",
-        "labels": [],
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -734,7 +762,15 @@
         "created_at": "2017-02-23T07:08:48Z",
         "closed_at": null,
         "title": "Authors are not conformance classes ",
-        "labels": [],
+        "labels": [
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -753,14 +789,14 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 438,
         "created_at": "2017-02-23T06:46:48Z",
-        "closed_at": null,
+        "closed_at": "2017-03-08T03:52:15Z",
         "title": "editorial: attr/method intros are notes (closes #379)",
         "labels": [],
         "assignee": null,
@@ -913,13 +949,6 @@
         "title": "Group payment dictionaries into a section",
         "labels": [
           {
-            "id": 543429511,
-            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Blocked",
-            "name": "Blocked",
-            "color": "d93f0b",
-            "default": false
-          },
-          {
             "id": 345172385,
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
             "name": "Editorial",
@@ -927,7 +956,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -1019,10 +1048,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 418,
         "created_at": "2017-02-09T22:13:26Z",
-        "closed_at": null,
+        "closed_at": "2017-03-08T18:13:38Z",
         "title": "Make updateWith() return a promise signaling any update failures",
         "labels": [],
         "assignee": null,
@@ -1495,10 +1524,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 379,
         "created_at": "2016-12-14T18:54:13Z",
-        "closed_at": null,
+        "closed_at": "2017-03-08T03:52:16Z",
         "title": "Introductory explanations of methods should be non-normative notes",
         "labels": [
           {
@@ -1714,8 +1743,23 @@
         "created_at": "2016-12-06T19:15:19Z",
         "closed_at": null,
         "title": "Need to define the interaction of payment API with navigation and browsing context destruction",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 345169541,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Core%20Functionality",
+            "name": "Core Functionality",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 345176053,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Design/Technical",
+            "name": "Design/Technical",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": "domenic",
         "isPullRequest": false
       },
       {
@@ -2163,7 +2207,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -2226,6 +2270,13 @@
             "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Blocked",
             "name": "Blocked",
             "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "url": "https://api.github.com/repos/w3c/browser-payment-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           }
         ],
@@ -3386,10 +3437,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 224,
         "created_at": "2016-07-07T16:36:58Z",
-        "closed_at": null,
+        "closed_at": "2017-03-08T23:55:42Z",
         "title": "Supporting push payment methods",
         "labels": [],
         "assignee": null,
