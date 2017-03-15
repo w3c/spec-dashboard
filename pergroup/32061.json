@@ -205,7 +205,7 @@
   },
   {
     "title": "CSS Box Alignment Module Level 3",
-    "shortlink": "http://www.w3.org/TR/css-align-3/",
+    "shortlink": "https://www.w3.org/TR/css-align-3/",
     "shortname": "css-align-3",
     "description": "<p>This module contains the features of CSS relating to the alignment of boxes within their containers in the various CSS box layout models: block layout, table layout, flex layout, and grid layout.</p>",
     "_links": {
@@ -220,12 +220,40 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-align-3/versions/20160614",
+        "href": "https://api.w3.org/specifications/css-align-3/versions/20170215",
         "title": "Working Draft"
       }
     },
     "editorsdraft": "https://drafts.csswg.org/css-align/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-css-align-3-20170215/",
+        "date": "2017-02-15",
+        "informative": false,
+        "title": "CSS Box Alignment Module Level 3",
+        "shortlink": "https://www.w3.org/TR/css-align-3/",
+        "editor-draft": "https://drafts.csswg.org/css-align/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-align-3/versions/20170215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-align-3/versions/20170215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-align-3/versions/20170215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-align-3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-align-3/versions/20170215/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -251,6 +279,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-align-3/versions/20160614/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-align-3/versions/20160614/successors"
           }
         }
       },
@@ -375,7 +406,7 @@
   },
   {
     "title": "CSS Fragmentation Module Level 3",
-    "shortlink": "http://www.w3.org/TR/css-break-3/",
+    "shortlink": "https://www.w3.org/TR/css-break-3/",
     "shortname": "css-break-3",
     "description": "<p>This CSS module defines the style properties that specify the points in a document where text may be broken to start a new page, a new column, or any similar kind of region.</p>",
     "_links": {
@@ -390,12 +421,41 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-break-3/versions/20160114",
+        "href": "https://api.w3.org/specifications/css-break-3/versions/20170209",
         "title": "Candidate Recommendation"
       }
     },
-    "editorsdraft": "http://dev.w3.org/csswg/css-break/",
+    "editorsdraft": "https://drafts.csswg.org/css-break/",
     "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-css-break-3-20170209/",
+        "date": "2017-02-09",
+        "implementation-feedback-due": "2017-05-01",
+        "informative": false,
+        "title": "CSS Fragmentation Module Level 3",
+        "shortlink": "https://www.w3.org/TR/css-break-3/",
+        "editor-draft": "https://drafts.csswg.org/css-break/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-break-3/versions/20170209"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-break-3/versions/20170209/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-break-3/versions/20170209/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-break-3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-break-3/versions/20170209/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -422,6 +482,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-break-3/versions/20160114/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-break-3/versions/20160114/successors"
           }
         }
       },
@@ -962,6 +1025,56 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/css-color-4"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "CSS Containment Module Level 1",
+    "shortlink": "https://www.w3.org/TR/css-contain-1/",
+    "shortname": "css-contain-1",
+    "description": "<p>This CSS module describes the contain property, which indicates that the element’s subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/css-contain-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/css-contain-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/css-contain-1/versions/20170221",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/css-contain-1/versions/20170221",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://drafts.csswg.org/css-contain/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-css-contain-1-20170221/",
+        "date": "2017-02-21",
+        "informative": false,
+        "title": "CSS Containment Module Level 1",
+        "shortlink": "https://www.w3.org/TR/css-contain-1/",
+        "editor-draft": "https://drafts.csswg.org/css-contain/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-contain-1/versions/20170221"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-contain-1/versions/20170221/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-contain-1/versions/20170221/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-contain-1"
           }
         }
       }
@@ -2639,7 +2752,7 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-grid-1/versions/20160929",
+        "href": "https://api.w3.org/specifications/css-grid-1/versions/20170209",
         "title": "Candidate Recommendation"
       },
       "supersedes": {
@@ -2648,6 +2761,35 @@
     },
     "editorsdraft": "https://drafts.csswg.org/css-grid/",
     "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-css-grid-1-20170209/",
+        "date": "2017-02-09",
+        "implementation-feedback-due": "2017-05-01",
+        "informative": false,
+        "title": "CSS Grid Layout Module Level 1",
+        "shortlink": "https://www.w3.org/TR/css-grid-1/",
+        "editor-draft": "https://drafts.csswg.org/css-grid/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-grid-1/versions/20170209"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-grid-1/versions/20170209/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-grid-1/versions/20170209/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-grid-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-grid-1/versions/20170209/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -2674,6 +2816,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-grid-1/versions/20160929/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-grid-1/versions/20160929/successors"
           }
         }
       },
@@ -4082,6 +4227,56 @@
     ]
   },
   {
+    "title": "CSS Rhythmic Sizing",
+    "shortlink": "https://www.w3.org/TR/css-rhythm-1/",
+    "shortname": "css-rhythm-1",
+    "description": "<p>This specification allows controlling sizes of CSS objects to be multiple of a unit, for example to produce a consistent vertical typographic rhythm.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/css-rhythm-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/css-rhythm-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/css-rhythm-1/versions/20170302",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/css-rhythm-1/versions/20170302",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://drafts.csswg.org/css-rhythm/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-css-rhythm-1-20170302/",
+        "date": "2017-03-02",
+        "informative": false,
+        "title": "CSS Rhythmic Sizing",
+        "shortlink": "https://www.w3.org/TR/css-rhythm-1/",
+        "editor-draft": "https://drafts.csswg.org/css-rhythm/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-rhythm-1/versions/20170302"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-rhythm-1/versions/20170302/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-rhythm-1/versions/20170302/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-rhythm-1"
+          }
+        }
+      }
+    ]
+  },
+  {
     "title": "CSS Round Display Level 1",
     "shortlink": "https://www.w3.org/TR/css-round-display-1/",
     "shortname": "css-round-display-1",
@@ -4455,12 +4650,41 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-scroll-snap-1/versions/20161020",
+        "href": "https://api.w3.org/specifications/css-scroll-snap-1/versions/20170209",
         "title": "Candidate Recommendation"
       }
     },
     "editorsdraft": "https://drafts.csswg.org/css-scroll-snap-1/",
     "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-css-scroll-snap-1-20170209/",
+        "date": "2017-02-09",
+        "implementation-feedback-due": "2017-05-01",
+        "informative": false,
+        "title": "CSS Scroll Snap Module Level 1",
+        "shortlink": "https://www.w3.org/TR/css-scroll-snap-1/",
+        "editor-draft": "https://drafts.csswg.org/css-scroll-snap-1/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-scroll-snap-1/versions/20170209"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-scroll-snap-1/versions/20170209/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-scroll-snap-1/versions/20170209/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-scroll-snap-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-scroll-snap-1/versions/20170209/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -4487,6 +4711,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-scroll-snap-1/versions/20161020/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-scroll-snap-1/versions/20161020/successors"
           }
         }
       },
@@ -5022,12 +5249,40 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-tables-3/versions/20161025",
+        "href": "https://api.w3.org/specifications/css-tables-3/versions/20170307",
         "title": "Working Draft"
       }
     },
     "editorsdraft": "https://drafts.csswg.org/css-tables-3/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-css-tables-3-20170307/",
+        "date": "2017-03-07",
+        "informative": false,
+        "title": "CSS Table Module Level 3",
+        "shortlink": "https://www.w3.org/TR/css-tables-3/",
+        "editor-draft": "https://drafts.csswg.org/css-tables-3/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-tables-3/versions/20170307"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-tables-3/versions/20170307/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-tables-3/versions/20170307/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-tables-3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-tables-3/versions/20170307/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -5050,6 +5305,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/css-tables-3"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-tables-3/versions/20161025/successors"
           }
         }
       }
@@ -6284,6 +6542,56 @@
     ]
   },
   {
+    "title": "CSS Timing Functions Level 1",
+    "shortlink": "https://www.w3.org/TR/css-timing-1/",
+    "shortname": "css-timing-1",
+    "description": "<p>This CSS module describes a way for authors to define a transformation to be applied to the time of an animation. This can be used to produce animations that mimic physical phenomena such as momentum or to cause the animation to move in discrete steps producing robot-like movement.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/css-timing-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/css-timing-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/css-timing-1/versions/20170221",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/css-timing-1/versions/20170221",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://drafts.csswg.org/css-timing/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-css-timing-1-20170221/",
+        "date": "2017-02-21",
+        "informative": false,
+        "title": "CSS Timing Functions Level 1",
+        "shortlink": "https://www.w3.org/TR/css-timing-1/",
+        "editor-draft": "https://drafts.csswg.org/css-timing/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-timing-1/versions/20170221"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-timing-1/versions/20170221/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-timing-1/versions/20170221/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-timing-1"
+          }
+        }
+      }
+    ]
+  },
+  {
     "title": "CSS Transforms Module Level 1",
     "shortlink": "http://www.w3.org/TR/css-transforms-1/",
     "shortname": "css-transforms-1",
@@ -6424,7 +6732,7 @@
   },
   {
     "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
-    "shortlink": "http://www.w3.org/TR/css-ui-3/",
+    "shortlink": "https://www.w3.org/TR/css-ui-3/",
     "shortname": "css-ui-3",
     "description": "<p>This section is <em>informative</em>.</p> <p>CSS (Cascading Style Sheets) is a language for describing the rendering of HTML and XML documents on screen, on paper, in speech, etc. It uses various selectors, properties and values to style basic user interface elements in a document. This specification describes those user interface related selectors, properties and values that are proposed for CSS level 3 to style HTML and XML (including XHTML and XForms). It includes and extends user interface related features from the selectors, properties and values of CSS level 2 revision 1 and Selectors specifications.</p>",
     "_links": {
@@ -6439,15 +6747,44 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-ui-3/versions/20150707",
+        "href": "https://api.w3.org/specifications/css-ui-3/versions/20170302",
         "title": "Candidate Recommendation"
       },
       "supersedes": {
         "href": "https://api.w3.org/specifications/css-ui-3/supersedes"
       }
     },
-    "editorsdraft": "http://dev.w3.org/csswg/css-ui/",
+    "editorsdraft": "https://drafts.csswg.org/css-ui/",
     "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-css-ui-3-20170302/",
+        "date": "2017-03-02",
+        "implementation-feedback-due": "2017-05-28",
+        "informative": false,
+        "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+        "shortlink": "https://www.w3.org/TR/css-ui-3/",
+        "editor-draft": "https://drafts.csswg.org/css-ui/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-ui-3/versions/20170302"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-ui-3/versions/20170302/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-ui-3/versions/20170302/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-ui-3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-ui-3/versions/20170302/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -6474,6 +6811,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-ui-3/versions/20150707/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-ui-3/versions/20150707/successors"
           }
         }
       },
