@@ -6,12 +6,22 @@
     },
     "issues": []
   },
-  "http://www.w3.org/TR/css-align-3/": {
+  "https://www.w3.org/TR/css-align-3/": {
     "repo": {
       "owner": "w3c",
       "name": "csswg-drafts"
     },
     "issues": [
+      {
+        "state": "open",
+        "number": 1095,
+        "created_at": "2017-03-10T13:20:38Z",
+        "closed_at": null,
+        "title": "[css-align][css-flex] 'baseline' computed value needs clarification on flexbox specs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 1045,
@@ -400,12 +410,19 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 440,
         "created_at": "2016-09-03T17:49:26Z",
-        "closed_at": null,
+        "closed_at": "2017-03-14T21:54:04Z",
         "title": "[css-flexbox][css-align][css-grid] abspos flex/grid item \"align-self: auto behaves as start\" spec-text is too vague",
         "labels": [
+          {
+            "id": 395785969,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false
+          },
           {
             "id": 381888081,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-align-3",
@@ -425,13 +442,6 @@
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-grid-1",
             "name": "css-grid-1",
             "color": "c5def5",
-            "default": false
-          },
-          {
-            "id": 469426704,
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
             "default": false
           }
         ],
@@ -816,7 +826,7 @@
       }
     ]
   },
-  "http://www.w3.org/TR/css-break-3/": {
+  "https://www.w3.org/TR/css-break-3/": {
     "repo": {
       "owner": "w3c",
       "name": "csswg-drafts"
@@ -962,6 +972,26 @@
       "name": "csswg-drafts"
     },
     "issues": [
+      {
+        "state": "open",
+        "number": 1098,
+        "created_at": "2017-03-12T20:26:01Z",
+        "closed_at": null,
+        "title": "[css-display][css-cascade] Should `display: contents` affect inheritance?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1097,
+        "created_at": "2017-03-12T19:26:08Z",
+        "closed_at": null,
+        "title": "[css-cascade][css-selectors][css-pseudo-elements] How does 'inherit' keyword behave in a child of ::first-line?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 1068,
@@ -2108,12 +2138,56 @@
       }
     ]
   },
+  "https://www.w3.org/TR/css-contain-1/": {
+    "repo": {
+      "owner": "w3c",
+      "name": "csswg-drafts"
+    },
+    "issues": [
+      {
+        "state": "open",
+        "number": 382,
+        "created_at": "2016-08-04T21:34:16Z",
+        "closed_at": null,
+        "title": "[css-contain] Unclear what contain:size does for replaced elements",
+        "labels": [
+          {
+            "id": 381888530,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-contain-1",
+            "name": "css-contain-1",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": "tabatkins",
+        "isPullRequest": false
+      }
+    ]
+  },
   "http://www.w3.org/TR/css-content-3/": {
     "repo": {
       "owner": "w3c",
       "name": "csswg-drafts"
     },
     "issues": [
+      {
+        "state": "open",
+        "number": 1099,
+        "created_at": "2017-03-13T02:36:14Z",
+        "closed_at": null,
+        "title": "[css-content] attr() values are not defined",
+        "labels": [
+          {
+            "id": 381888559,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-content-3",
+            "name": "css-content-3",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 1044,
@@ -2626,6 +2700,16 @@
     },
     "issues": [
       {
+        "state": "open",
+        "number": 1098,
+        "created_at": "2017-03-12T20:26:01Z",
+        "closed_at": null,
+        "title": "[css-display][css-cascade] Should `display: contents` affect inheritance?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 1024,
         "created_at": "2017-02-10T19:43:15Z",
@@ -2772,10 +2856,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 610,
         "created_at": "2016-10-15T20:30:57Z",
-        "closed_at": null,
+        "closed_at": "2017-03-14T20:52:37Z",
         "title": "[css-display] Display values for <br> and <wbr>",
         "labels": [
           {
@@ -2797,13 +2881,6 @@
         "title": "[css-display] create a display property value for visually hiding an element while making it available for AT",
         "labels": [
           {
-            "id": 381888849,
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-display-3",
-            "name": "css-display-3",
-            "color": "c5def5",
-            "default": false
-          },
-          {
             "id": 381891755,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-speech-1",
             "name": "css-speech-1",
@@ -2815,21 +2892,35 @@
         "isPullRequest": false
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 540,
         "created_at": "2016-09-28T09:16:25Z",
-        "closed_at": "2017-03-09T00:26:23Z",
+        "closed_at": null,
         "title": "[css-display] Define interaction of display:contents and replaced elements",
         "labels": [
+          {
+            "id": 382591170,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "000000",
+            "default": false
+          },
           {
             "id": 381888849,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-display-3",
             "name": "css-display-3",
             "color": "c5def5",
             "default": false
+          },
+          {
+            "id": 469426704,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
+            "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "fantasai",
         "isPullRequest": false
       },
       {
@@ -2883,9 +2974,9 @@
         "title": "[css-display] Consider renaming box-suppress property to box-generation",
         "labels": [
           {
-            "id": 381888849,
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-display-3",
-            "name": "css-display-3",
+            "id": 560791753,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-display-4",
+            "name": "css-display-4",
             "color": "c5def5",
             "default": false
           }
@@ -2920,24 +3011,24 @@
     },
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 995,
         "created_at": "2017-02-01T06:08:14Z",
-        "closed_at": null,
+        "closed_at": "2017-03-14T21:21:51Z",
         "title": "[css-flexbox] Use flex-order first or document-order first item's baseline?",
         "labels": [
+          {
+            "id": 395785969,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false
+          },
           {
             "id": 381889006,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-flexbox-1",
             "name": "css-flexbox-1",
             "color": "c5def5",
-            "default": false
-          },
-          {
-            "id": 469426704,
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
             "default": false
           }
         ],
@@ -2983,6 +3074,13 @@
         "closed_at": "2017-02-03T18:13:55Z",
         "title": "[css-flexbox][css-sizing] Using tables in flexbox",
         "labels": [
+          {
+            "id": 395785969,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false
+          },
           {
             "id": 381889006,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-flexbox-1",
@@ -3264,12 +3362,19 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 440,
         "created_at": "2016-09-03T17:49:26Z",
-        "closed_at": null,
+        "closed_at": "2017-03-14T21:54:04Z",
         "title": "[css-flexbox][css-align][css-grid] abspos flex/grid item \"align-self: auto behaves as start\" spec-text is too vague",
         "labels": [
+          {
+            "id": 395785969,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false
+          },
           {
             "id": 381888081,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-align-3",
@@ -3289,13 +3394,6 @@
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-grid-1",
             "name": "css-grid-1",
             "color": "c5def5",
-            "default": false
-          },
-          {
-            "id": 469426704,
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
             "default": false
           }
         ],
@@ -3381,6 +3479,13 @@
         "title": "[css-flexbox] Absolute Positioned Elements in Flex Containers Removes Common Layout Patterns",
         "labels": [
           {
+            "id": 382591170,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "000000",
+            "default": false
+          },
+          {
             "id": 381889006,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-flexbox-1",
             "name": "css-flexbox-1",
@@ -3452,6 +3557,13 @@
             "default": false
           },
           {
+            "id": 395787944,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Commenter%20Satisfied",
+            "name": "Commenter Satisfied",
+            "color": "00ff00",
+            "default": false
+          },
+          {
             "id": 381889006,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-flexbox-1",
             "name": "css-flexbox-1",
@@ -3474,6 +3586,13 @@
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-flexbox-1",
             "name": "css-flexbox-1",
             "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 395789931,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Group%20Input/Decision",
+            "name": "Needs Group Input/Decision",
+            "color": "5319e7",
             "default": false
           }
         ],
@@ -4253,6 +4372,13 @@
         "title": "[css-grid] Regarding the 'subgrid' feature",
         "labels": [
           {
+            "id": 382591170,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "000000",
+            "default": false
+          },
+          {
             "id": 381889237,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-grid-1",
             "name": "css-grid-1",
@@ -4799,12 +4925,19 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 440,
         "created_at": "2016-09-03T17:49:26Z",
-        "closed_at": null,
+        "closed_at": "2017-03-14T21:54:04Z",
         "title": "[css-flexbox][css-align][css-grid] abspos flex/grid item \"align-self: auto behaves as start\" spec-text is too vague",
         "labels": [
+          {
+            "id": 395785969,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false
+          },
           {
             "id": 381888081,
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-align-3",
@@ -4824,13 +4957,6 @@
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-grid-1",
             "name": "css-grid-1",
             "color": "c5def5",
-            "default": false
-          },
-          {
-            "id": 469426704,
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
             "default": false
           }
         ],
@@ -4909,10 +5035,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 425,
         "created_at": "2016-08-24T10:04:51Z",
-        "closed_at": null,
+        "closed_at": "2017-03-13T23:11:45Z",
         "title": "[css-grid] Missing information about baseline participation of a grid item",
         "labels": [
           {
@@ -4923,10 +5049,10 @@
             "default": false
           },
           {
-            "id": 395791224,
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Commenter%20Response%20Pending",
-            "name": "Commenter Response Pending",
-            "color": "fbca04",
+            "id": 395787944,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Commenter%20Satisfied",
+            "name": "Commenter Satisfied",
+            "color": "00ff00",
             "default": false
           },
           {
@@ -6912,6 +7038,107 @@
       }
     ]
   },
+  "https://www.w3.org/TR/css-rhythm-1/": {
+    "repo": {
+      "owner": "w3c",
+      "name": "csswg-drafts"
+    },
+    "issues": [
+      {
+        "state": "open",
+        "number": 941,
+        "created_at": "2017-01-16T10:05:48Z",
+        "closed_at": null,
+        "title": "[css-line-grid][css-rhythm] solve the leading adjustement problem of the line-grid",
+        "labels": [
+          {
+            "id": 381889367,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-line-grid-1",
+            "name": "css-line-grid-1",
+            "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 381891784,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-rhythm-1",
+            "name": "css-rhythm-1",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 940,
+        "created_at": "2017-01-16T09:45:12Z",
+        "closed_at": null,
+        "title": "[css-rhythm][css-line-grid] Work out the interaction between line-height-step and line-snap",
+        "labels": [
+          {
+            "id": 381889367,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-line-grid-1",
+            "name": "css-line-grid-1",
+            "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 381891784,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-rhythm-1",
+            "name": "css-rhythm-1",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 939,
+        "created_at": "2017-01-16T09:32:36Z",
+        "closed_at": "2017-01-19T05:59:35Z",
+        "title": "[css-rhythm][css-line-grid] Work out the interaction between line-height-step and line-grid",
+        "labels": [
+          {
+            "id": 381889367,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-line-grid-1",
+            "name": "css-line-grid-1",
+            "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 381891784,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-rhythm-1",
+            "name": "css-rhythm-1",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": "frivoal",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 937,
+        "created_at": "2017-01-16T08:55:19Z",
+        "closed_at": null,
+        "title": "[css-rhythm][css-values-4] Figure out the interaction between line-height-step and the lh and rlh units",
+        "labels": [
+          {
+            "id": 381891784,
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-rhythm-1",
+            "name": "css-rhythm-1",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      }
+    ]
+  },
   "https://www.w3.org/TR/css-round-display-1/": {
     "repo": {
       "owner": "w3c",
@@ -8477,6 +8704,13 @@
       }
     ]
   },
+  "https://www.w3.org/TR/css-timing-1/": {
+    "repo": {
+      "owner": "w3c",
+      "name": "csswg-drafts"
+    },
+    "issues": []
+  },
   "http://www.w3.org/TR/css-transforms-1/": {
     "repo": {
       "owner": "w3c",
@@ -8931,7 +9165,7 @@
       }
     ]
   },
-  "http://www.w3.org/TR/css-ui-3/": {
+  "https://www.w3.org/TR/css-ui-3/": {
     "repo": {
       "owner": "w3c",
       "name": "csswg-drafts"
@@ -10837,9 +11071,19 @@
     "issues": [
       {
         "state": "open",
+        "number": 1100,
+        "created_at": "2017-03-14T05:31:01Z",
+        "closed_at": null,
+        "title": "[cssom] [css-overflow-3] Behaviour of getPropertyValue() unclear when the result doesn't match the property grammar",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 1089,
         "created_at": "2017-03-09T02:54:38Z",
-        "closed_at": null,
+        "closed_at": "2017-03-10T11:30:41Z",
         "title": "[cssom] Don't describe CSSStyleDeclaration getters/setters using \"macro\" Web IDL",
         "labels": [
           {
@@ -11180,10 +11424,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 756,
         "created_at": "2016-11-24T06:07:23Z",
-        "closed_at": null,
+        "closed_at": "2017-03-13T04:52:45Z",
         "title": "[cssom] Consider making CSSStyleRule.selectorText readonly",
         "labels": [
           {
@@ -11995,20 +12239,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 994,
         "created_at": "2017-01-31T20:05:16Z",
-        "closed_at": null,
+        "closed_at": "2017-03-13T22:19:06Z",
         "title": "[cssom-view] Return real values for colorDepth and pixelDepth (closes #993)",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 993,
         "created_at": "2017-01-31T18:53:45Z",
-        "closed_at": null,
+        "closed_at": "2017-03-13T22:19:06Z",
         "title": "[cssom-view] Make colorDepth/pixelDepth return useful information again",
         "labels": [
           {
@@ -12318,6 +12562,26 @@
       "name": "fxtf-drafts"
     },
     "issues": [
+      {
+        "state": "open",
+        "number": 120,
+        "created_at": "2017-03-13T21:49:02Z",
+        "closed_at": null,
+        "title": "[geometry] stringifier behavior doesn't seem to match implementations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 119,
+        "created_at": "2017-03-10T22:13:01Z",
+        "closed_at": "2017-03-10T22:29:46Z",
+        "title": "[geometry]scale() has no default value for scaleY",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 55,
@@ -12741,6 +13005,16 @@
       "name": "web-animations"
     },
     "issues": [
+      {
+        "state": "closed",
+        "number": 182,
+        "created_at": "2017-03-10T04:32:57Z",
+        "closed_at": "2017-03-10T06:56:11Z",
+        "title": "CSS Property 'offset' is IDL attribute 'cssOffset'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "closed",
         "number": 181,
