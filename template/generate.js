@@ -1,6 +1,6 @@
 var sections = [];
 var hero = [];
-var sectionsOrig = document.querySelectorAll("section");
+var sectionsOrig = document.querySelectorAll("body > section");
 for (var i = 0; i < sectionsOrig.length; i++) {
     sections.push(sectionsOrig[i].cloneNode(true));
 }
