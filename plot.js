@@ -39,6 +39,10 @@ fetch("groups.json")
                 document.querySelector("title").textContent += " for "+ groups[groupid].name;
                 document.querySelector("h1").textContent += " for "+ groups[groupid].name;
             }
+        } else {
+            const toc = document.getElementById("toc");
+            toc.id = "";
+            document.getElementById("content").appendChild(toc.cloneNode(true));
         }
     }).catch(logError);
 
