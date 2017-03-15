@@ -19,16 +19,22 @@
             Object.keys(milestoneData).forEach(s => {
                 Object.keys(milestoneData[s]).filter(m => m === milestone || milestone === "*").forEach(m => {
                     if (test(milestoneData[s][m])) {
-                        const li = specLink(extractSpecData(s, specData));
-                        li.appendChild(document.createTextNode(" (" + groupname + ") : " + milestoneData[s][m]));
-                        el.appendChild(li);
+                        const spec = extractSpecData(s, specData);
+                        if (spec) {
+                            const li = specLink(spec);
+                            li.appendChild(document.createTextNode(" (" + groupname + ") : " + milestoneData[s][m]));
+                            el.appendChild(li);
+                        } else {
+                            console.error("Could not find data on " + s);
+                        }
                     }
                 });
             });
         };
     };
 
-    const extractSpecData = (shortlink, specs) => specs.filter(s => s.shortlink === shortlink)[0];
+    const schemeLess = url => url.split(':').slice(1).join(':');
+    const extractSpecData = (shortlink, specs) => specs.filter(s => schemeLess(s.shortlink) === schemeLess(shortlink))[0];
 
     fetch("groups.json")
         .then(r => r.json())
