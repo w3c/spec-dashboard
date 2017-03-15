@@ -40,13 +40,16 @@ rect.pane:active {cursor: grabbing;}
   }
 
 </style>
-<h1>Dashboard of active W3C Specifications</h1>
+<header>
+  <h1>Dashboard of active W3C Specifications</h1>
 <p>The information on this public dashboard combines data on W3C Working Groups and specifications last updated on <span id="spec-update"></span>, and data on specification milestones manually maintained in <a href="sources.html">on-line spreadsheets</a>, last obtained on <span id="milestone-update"></span>.</p>
-<div id="content"></div>
+  </header>
+<section><div id="content"></div></section>
 <ol id="toc"></ol>
 <div id=msg></div>
 <script src="group-toc.js"></script>
 <script src="timestamp.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.1/require.min.js" data-main="plot.js"></script>
+<script src="plot.js"></script>
+<script src="template/generate.js"></script>
 
