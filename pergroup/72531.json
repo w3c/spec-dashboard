@@ -964,12 +964,41 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/ldn/versions/20170223",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/ldn/versions/20170321",
+        "title": "Proposed Recommendation"
       }
     },
     "editorsdraft": "https://linkedresearch.org/ldn/",
     "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/PR-ldn-20170321/",
+        "date": "2017-03-21",
+        "pr-reviews-due": "2017-04-18",
+        "informative": false,
+        "title": "Linked Data Notifications",
+        "shortlink": "https://www.w3.org/TR/ldn/",
+        "editor-draft": "https://linkedresearch.org/ldn/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/ldn/versions/20170321"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/ldn/versions/20170321/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/ldn/versions/20170321/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/ldn"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/ldn/versions/20170321/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -996,6 +1025,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/ldn/versions/20170223/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/ldn/versions/20170223/successors"
           }
         }
       },
