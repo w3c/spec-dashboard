@@ -1353,6 +1353,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 136,
+        "created_at": "2017-03-20T17:15:24Z",
+        "closed_at": null,
+        "title": "Position of ruby, text-emphasis, under/overline, etc in vertical-LR writing mode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 135,
         "created_at": "2017-03-06T18:16:04Z",
         "closed_at": null,
@@ -1382,10 +1392,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 132,
         "created_at": "2017-03-02T08:36:50Z",
-        "closed_at": null,
+        "closed_at": "2017-03-16T05:00:53Z",
         "title": "Punctuation fix",
         "labels": [],
         "assignee": null,
@@ -6043,6 +6053,76 @@
     "issues": [
       {
         "state": "closed",
+        "number": 100,
+        "created_at": "2017-03-19T14:11:23Z",
+        "closed_at": "2017-03-20T07:45:44Z",
+        "title": "Editorial: remove floor() operation in favor of integer division",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 99,
+        "created_at": "2017-03-19T13:02:05Z",
+        "closed_at": "2017-03-20T07:20:49Z",
+        "title": "Encourage implementations to avoid copying in TextDecoder",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 98,
+        "created_at": "2017-03-19T08:53:27Z",
+        "closed_at": "2017-03-20T12:27:36Z",
+        "title": "Editorial: enable indexes and fix a couple minor nits",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 97,
+        "created_at": "2017-03-18T06:37:44Z",
+        "closed_at": null,
+        "title": "Important warnings getting lost in the noise",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 96,
+        "created_at": "2017-03-18T00:58:05Z",
+        "closed_at": "2017-03-19T06:09:02Z",
+        "title": "Fixes #95: added two rowspan=2 to the 8859-9-i table",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 95,
+        "created_at": "2017-03-18T00:16:11Z",
+        "closed_at": "2017-03-19T06:09:02Z",
+        "title": "iso-8859-8-i encoding entry in table not valid html (missing columns)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 94,
+        "created_at": "2017-03-16T06:30:38Z",
+        "closed_at": "2017-03-16T07:33:33Z",
+        "title": "Unicode Character U+11100 to U+1114F not rendered in Web Browser.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 93,
         "created_at": "2017-02-18T17:03:09Z",
         "closed_at": "2017-02-22T13:34:31Z",
@@ -6052,10 +6132,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 92,
         "created_at": "2017-02-09T02:20:10Z",
-        "closed_at": null,
+        "closed_at": "2017-03-20T07:20:49Z",
         "title": "\" push a copy of input \"",
         "labels": [],
         "assignee": null,
@@ -6132,10 +6212,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 84,
         "created_at": "2016-11-16T14:21:01Z",
-        "closed_at": null,
+        "closed_at": "2017-03-20T11:06:37Z",
         "title": "Document an implementation buffer trick",
         "labels": [],
         "assignee": null,
@@ -6257,15 +6337,23 @@
         "created_at": "2016-09-27T08:19:07Z",
         "closed_at": null,
         "title": "Add Streams support",
-        "labels": [],
+        "labels": [
+          {
+            "id": 564220413,
+            "url": "https://api.github.com/repos/whatwg/encoding/labels/normative",
+            "name": "normative",
+            "color": "5319e7",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 70,
         "created_at": "2016-08-22T17:39:59Z",
-        "closed_at": null,
+        "closed_at": "2017-03-19T12:48:14Z",
         "title": "Consider adding \"replacement\" as a label for the replacement encoding",
         "labels": [],
         "assignee": null,
@@ -6277,7 +6365,15 @@
         "created_at": "2016-08-19T13:03:50Z",
         "closed_at": null,
         "title": "TextEncoder#encode - write to existing Uint8Array",
-        "labels": [],
+        "labels": [
+          {
+            "id": 564220413,
+            "url": "https://api.github.com/repos/whatwg/encoding/labels/normative",
+            "name": "normative",
+            "color": "5319e7",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6287,7 +6383,15 @@
         "created_at": "2016-07-29T22:31:13Z",
         "closed_at": null,
         "title": "Add UTF-7 to replacement encoding list? / Encoding sniffing",
-        "labels": [],
+        "labels": [
+          {
+            "id": 564220413,
+            "url": "https://api.github.com/repos/whatwg/encoding/labels/normative",
+            "name": "normative",
+            "color": "5319e7",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6302,10 +6406,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 66,
         "created_at": "2016-07-29T04:50:25Z",
-        "closed_at": null,
+        "closed_at": "2017-03-20T07:45:44Z",
         "title": "\"In equations, all numbers are integers, additio...\"",
         "labels": [],
         "assignee": null,
@@ -6556,10 +6660,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 47,
         "created_at": "2016-05-02T16:15:24Z",
-        "closed_at": null,
+        "closed_at": "2017-03-19T11:58:06Z",
         "title": "index-jis0208.txt should be JIS X 0208 and add another index file",
         "labels": [],
         "assignee": null,
@@ -6576,10 +6680,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 44,
         "created_at": "2016-04-18T15:04:20Z",
-        "closed_at": null,
+        "closed_at": "2017-03-20T11:06:37Z",
         "title": "Document buffer tricks?",
         "labels": [],
         "assignee": null,
@@ -6740,8 +6844,16 @@
         "number": 27,
         "created_at": "2016-01-17T16:13:47Z",
         "closed_at": null,
-        "title": "Remove the last 14 characters PUA of GB18030-2005",
-        "labels": [],
+        "title": "If gb18030 is revised, consider aligning the Encoding Standard",
+        "labels": [
+          {
+            "id": 564220413,
+            "url": "https://api.github.com/repos/whatwg/encoding/labels/normative",
+            "name": "normative",
+            "color": "5319e7",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6961,6 +7073,13 @@
             "url": "https://api.github.com/repos/whatwg/encoding/labels/later",
             "name": "later",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 564220413,
+            "url": "https://api.github.com/repos/whatwg/encoding/labels/normative",
+            "name": "normative",
+            "color": "5319e7",
             "default": false
           }
         ],

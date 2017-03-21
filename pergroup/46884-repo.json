@@ -7,6 +7,109 @@
     "issues": [
       {
         "state": "open",
+        "number": 1172,
+        "created_at": "2017-03-20T16:05:25Z",
+        "closed_at": null,
+        "title": "An empty string for AudioWorkletProcessor name.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1171,
+        "created_at": "2017-03-17T21:33:07Z",
+        "closed_at": null,
+        "title": "setValueCurveAtTime when curve has non-finite values?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1170,
+        "created_at": "2017-03-16T21:17:58Z",
+        "closed_at": null,
+        "title": "Simplify occurrences of 128 sample frames to one render quantum",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1169,
+        "created_at": "2017-03-16T21:00:51Z",
+        "closed_at": "2017-03-16T21:02:19Z",
+        "title": "Fix #1167: WebIDL for AudioContext in a funny place",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1168,
+        "created_at": "2017-03-16T20:57:36Z",
+        "closed_at": null,
+        "title": "Fix #1152: Define OfflineAudioContext constructor with dictionary",
+        "labels": [],
+        "assignee": "rtoy",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1167,
+        "created_at": "2017-03-16T20:25:22Z",
+        "closed_at": "2017-03-16T21:02:21Z",
+        "title": "WebIDL for AudioContext in a funny place",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1166,
+        "created_at": "2017-03-15T22:30:45Z",
+        "closed_at": null,
+        "title": "Signaling TypeError",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1165,
+        "created_at": "2017-03-15T20:38:13Z",
+        "closed_at": null,
+        "title": "Should ABSN playbackRate and detune be a-rate?",
+        "labels": [
+          {
+            "id": 109541361,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Feature%20Request/Missing%20Feature",
+            "name": "Feature Request/Missing Feature",
+            "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1164,
         "created_at": "2017-03-14T17:21:10Z",
         "closed_at": null,
@@ -30,7 +133,7 @@
         "number": 1162,
         "created_at": "2017-03-09T15:47:08Z",
         "closed_at": null,
-        "title": "What happens to the `HTMLMediaElement`s or `MediaStream`s when `close` is called",
+        "title": "What happens to the `HTMLMediaElement`s or `MediaStream`s when the context is closed",
         "labels": [
           {
             "id": 109540793,
@@ -54,7 +157,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
@@ -93,14 +196,14 @@
         "title": "Reduce complexity of Convolver",
         "labels": [
           {
-            "id": 142835591,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
-            "name": "Needs WG review",
-            "color": "e11d21",
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "joeberkovitz",
         "isPullRequest": false
       },
       {
@@ -121,21 +224,14 @@
         "title": "MediaElementAudioSourceNode and MediaStreamAudioSourceNode attributes",
         "labels": [
           {
-            "id": 109541361,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Feature%20Request/Missing%20Feature",
-            "name": "Feature Request/Missing Feature",
-            "color": "0052cc",
-            "default": false
-          },
-          {
-            "id": 142835591,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
-            "name": "Needs WG review",
-            "color": "e11d21",
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "joeberkovitz",
         "isPullRequest": false
       },
       {
@@ -157,10 +253,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1155,
         "created_at": "2017-02-23T17:10:30Z",
-        "closed_at": null,
+        "closed_at": "2017-03-16T16:52:25Z",
         "title": "ABSN computed playback rate describe in a funny place",
         "labels": [
           {
@@ -175,20 +271,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1154,
         "created_at": "2017-02-22T23:41:39Z",
-        "closed_at": null,
+        "closed_at": "2017-03-16T16:09:01Z",
         "title": "Fix #1116: Make PeriodicWaveOptions optional",
         "labels": [],
         "assignee": "svgeesus",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1153,
         "created_at": "2017-02-22T19:00:44Z",
-        "closed_at": null,
+        "closed_at": "2017-03-16T16:52:00Z",
         "title": "IIRFilter feedback/feedforward array length limitations",
         "labels": [
           {
@@ -208,15 +304,7 @@
         "created_at": "2017-02-17T22:18:21Z",
         "closed_at": null,
         "title": "OfflineAudioContext options dictionary?",
-        "labels": [
-          {
-            "id": 142835591,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
-            "name": "Needs WG review",
-            "color": "e11d21",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -226,15 +314,7 @@
         "created_at": "2017-02-17T16:29:43Z",
         "closed_at": null,
         "title": "Number of outputs for MediaStreamAudioDestinationNode?",
-        "labels": [
-          {
-            "id": 142835591,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
-            "name": "Needs WG review",
-            "color": "e11d21",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -264,15 +344,7 @@
         "created_at": "2017-02-14T03:24:26Z",
         "closed_at": null,
         "title": "MSE (+EME) does not enable accurate scheduling of playback from HTMLMediaElement",
-        "labels": [
-          {
-            "id": 142835591,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
-            "name": "Needs WG review",
-            "color": "e11d21",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -321,7 +393,7 @@
         "closed_at": null,
         "title": "Define the constructor for AudioNodes (#1117)",
         "labels": [],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": true
       },
       {
@@ -345,10 +417,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1141,
         "created_at": "2017-01-19T22:09:24Z",
-        "closed_at": null,
+        "closed_at": "2017-03-16T16:15:59Z",
         "title": "Clarify language around resuming closed AudioContexts.",
         "labels": [],
         "assignee": "joeberkovitz",
@@ -682,7 +754,15 @@
         "created_at": "2016-12-19T19:09:12Z",
         "closed_at": null,
         "title": "PeriodicWave constructor behavior is not defined",
-        "labels": [],
+        "labels": [
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
         "assignee": "padenot",
         "isPullRequest": false
       },
@@ -729,6 +809,13 @@
         "title": "Better description of what AudioNode Constructors should do",
         "labels": [
           {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          },
+          {
             "id": 521807753,
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
             "name": "V1 Blocker",
@@ -740,10 +827,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1116,
         "created_at": "2016-12-17T07:31:41Z",
-        "closed_at": null,
+        "closed_at": "2017-03-16T16:09:02Z",
         "title": "PeriodicWave's constructor is not valid IDL",
         "labels": [
           {
@@ -969,10 +1056,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1100,
         "created_at": "2016-11-30T22:18:37Z",
-        "closed_at": null,
+        "closed_at": "2017-03-16T16:15:59Z",
         "title": "Section 2.1.7 unclear about resuming a closed context",
         "labels": [
           {
@@ -1192,13 +1279,6 @@
             "default": false
           },
           {
-            "id": 142835591,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
-            "name": "Needs WG review",
-            "color": "e11d21",
-            "default": false
-          },
-          {
             "id": 521807753,
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
             "name": "V1 Blocker",
@@ -1206,7 +1286,7 @@
             "default": false
           }
         ],
-        "assignee": "mdjp",
+        "assignee": "jdsmith3000",
         "isPullRequest": false
       },
       {
@@ -2373,6 +2453,13 @@
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
             "name": "Editorial/Documentation",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
             "default": false
           }
         ],
@@ -4725,7 +4812,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {

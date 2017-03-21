@@ -7,11 +7,76 @@
     "issues": [
       {
         "state": "open",
+        "number": 385,
+        "created_at": "2017-03-21T09:56:14Z",
+        "closed_at": null,
+        "title": "daaKey format? (ECPointToB -> ECPoint2ToB)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 384,
+        "created_at": "2017-03-16T12:29:37Z",
+        "closed_at": null,
+        "title": "Strawman of an integration between WebAuthn and Credential Management.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 383,
+        "created_at": "2017-03-16T08:24:48Z",
+        "closed_at": "2017-03-16T16:32:22Z",
+        "title": "Tiny typo in 'ScopedCredentialDesciptor'.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 382,
+        "created_at": "2017-03-15T15:43:44Z",
+        "closed_at": null,
+        "title": "Describe attacks on privacy that are allowed/prevented",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 381,
+        "created_at": "2017-03-15T10:08:15Z",
+        "closed_at": null,
+        "title": "replaced DAA root key by daaKeyId.  Added proper references",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 380,
         "created_at": "2017-03-14T23:37:27Z",
         "closed_at": null,
         "title": "Should the WebAuth API have a cancel() method?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -36,10 +101,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 377,
         "created_at": "2017-03-14T22:10:03Z",
-        "closed_at": null,
+        "closed_at": "2017-03-16T18:12:22Z",
         "title": "alloc ArrayBuffers in correct global",
         "labels": [
           {
@@ -66,7 +131,22 @@
         "created_at": "2017-03-14T21:51:40Z",
         "closed_at": null,
         "title": "makeCredential should be more precise than NotAllowedError in its last step",
-        "labels": [],
+        "labels": [
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
+            "name": "subtype:algorithms",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -413,13 +493,6 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms",
             "name": "subtype:algorithms",
             "color": "bfdadc",
-            "default": false
-          },
-          {
-            "id": 549973029,
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:CTAP",
-            "name": "subtype:CTAP",
-            "color": "c5def5",
             "default": false
           },
           {
@@ -1821,10 +1894,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 293,
         "created_at": "2016-11-04T22:21:10Z",
-        "closed_at": null,
+        "closed_at": "2017-03-16T18:12:22Z",
         "title": "Please ensure that all ArrayBuffer creations are done explicitly, in the correct global",
         "labels": [
           {
