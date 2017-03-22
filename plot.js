@@ -110,6 +110,7 @@ function dashboard(groupid, group) {
         .attr("height", height + margin.top + margin.bottom)
         .style("background-color", "#333")
         .append("g")
+        .attr("aria-busy", true)
         .attr("transform", 
               "translate(" + margin.left + "," + margin.top + ")");
     svg.append("g")
@@ -166,6 +167,7 @@ function dashboard(groupid, group) {
     var legend = d3.select('svg')
         .append("g")
         .attr("class", "legendbox")
+        .attr('role', 'region')
         .selectAll("g")
         .data(recStages)
         .enter()
@@ -176,12 +178,18 @@ function dashboard(groupid, group) {
             return 'translate(' + legendLeft + ',' + y + ')';
         });
 
+    legend.append("title")
+        .text("Legend of the diagram");
+
     legend.append('circle')
         .attr('r', radius)
         .attr('cy', legendRectSize / 2)
+        .attr('role', 'img')
+        .attr('aria-labelledby', d => 'legend-' + d)
         .attr("class", d => statusNormalizer({status: d}).split('/')[0]);
 
     legend.append('text')
+        .attr('id', d => 'legend-' + d)
         .attr('x', legendSpacing )
         .attr('y', legendRectSize - legendSpacing)
         .text(d =>  d);
@@ -192,11 +200,14 @@ function dashboard(groupid, group) {
           .attr('transform', 'translate(' + legendLeft + ',' + (recStages.length + 2) * legendRectSize + ')');
     historyLegend
         .append('path')
+        .attr('role', 'img')
+        .attr('aria-labelledby', 'legend-spechistory')
         .attr('class', 'spechistory')
         .attr('d', 'M0,10L20,10');
 
     historyLegend
         .append('text')
+        .attr('id', 'legend-spechistory')
         .attr('x', legendRectSize + legendSpacing )
         .attr('y', legendRectSize - legendSpacing)
         .text('Spec history');
@@ -215,12 +226,15 @@ function dashboard(groupid, group) {
 
     durationLegend.append('path')
         .attr('class', 'future')
+        .attr('role', 'img')
+        .attr('aria-labelledby', d => 'legend-spechistory-' + d)
         .attr('d', 'M0,10L20,10')
         .attr('stroke', durationColorScheme);
 
     durationLegend.append('text')
         .attr('x', legendRectSize + legendSpacing )
         .attr('y', legendRectSize - legendSpacing)
+        .attr('id', d => 'legend-spechistory-' + d)
         .text(d => d + ' months since last publication');
 
 
@@ -293,12 +307,14 @@ function dashboard(groupid, group) {
             .enter()
             .append("g")
             .attr("class", "pub")
+            .attr("role", "region")
             .selectAll("a")
             .data(s => s.versions)
             .enter()
             .append("a")
             .attr("href", d => d.uri)
             .append("circle")
+            .attr("role", "img")
             .attr("r", 5)
             .attr("cy", d => y(statusNormalizer(d)) + specOffset(d.shortname))
             .attr("class", d => statusNormalizer(d).split('/')[0])
@@ -308,33 +324,24 @@ function dashboard(groupid, group) {
         function drawFuture(err, milestones) {
             // Log but do not stop
             if (err) logError(err);
-            const futureSpecs = recTrackSpecs.map(
-                s => {const lastVersion = s.versions[0]; lastVersion.shortname = s.shortname; return [lastVersion].concat(futureVersions(s, milestones[s.shortlink] || {}));}
-            );
 
-            svg.selectAll("path.future")
-                .data(futureSpecs)
-                .enter()
+            // Normalize milestones to shortname instead of shortlink
+            milestones = Object.keys(milestones).reduce((a, shortlink) => { const shortname = shortlink.replace(/https?:\/\/www.w3.org\/TR\/([^\/]*)\/?$/, '$1'); console.log(shortname); a[shortname] = milestones[shortlink]; return a;}, {});
+
+            svg.attr("aria-busy", false)
+            svg.selectAll("g.pub")
                 .append("path")
+                .datum(s => {const lastVersion = s.versions[0]; lastVersion.shortname = s.shortname; return [lastVersion].concat(futureVersions(s, milestones[s.shortname] || {})); })
                 .attr("class", "future")
                 .attr("stroke", d => durationColor(parseDate(d[0].date), now));
 
-            svg.selectAll("g.futurepub")
-                .data(Object.keys(milestones))
-                .enter()
-                .append("g")
-                .attr("class", "futurepub")
-                .selectAll("circle")
-                .data(shortlink => {
-                    const s = recTrackSpecs.filter(s => s.shortlink == shortlink)[0];
-                    if (s) return futureVersions(s, milestones[shortlink], true);
-                    else {
-                        console.error("Milestone for unknown spec: " + shortlink);
-                        return {};
-                    }
-                })
+            svg.selectAll("g.pub")
+                .selectAll("circle.futurepub")
+                .data(s => futureVersions(s, milestones[s.shortname] || {}, true))
                 .enter()
                 .append("circle")
+                .attr("class", "futurepub")
+                .attr("role", "img")
                 .attr("r", 5)
                 .attr("cy", d => y(statusNormalizer(d)) + specOffset(d.shortname))
                 .attr("class", d => statusNormalizer(d).split('/')[0])
