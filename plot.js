@@ -87,12 +87,16 @@ function dashboard(groupid, group) {
         l.append("line")
             .attr("y1", height)
             .attr("y2", -5)
+            .attr("aria-labelledby", "line-" + dateFormat(date))
             .style("stroke-width", 2)
             .style("stroke", "#FAA");
         l.append("text")
+            .attr("id", "line-" + dateFormat(date))
             .attr("y", -5)
             .attr("text-anchor", "end")
-            .text(text);
+            .text(text)
+            .append("title")
+            .text(text  + " (" + dateFormat(date) + ")");
         return g;
     }
 
