@@ -30,7 +30,6 @@ function futureVersions(spec, specMilestones) {
     }
     return future;
 }
-
 fetch("groups.json")
     .then(r => r.json())
     .then(groups => {
@@ -239,34 +238,6 @@ function dashboard(groupid, group) {
         .attr('id', d => 'legend-spechistory-' + d)
         .text(d => d + ' months since last publication');
 
-
-    /*d3.select("g.legendbox")
-      .append('foreignObject')
-      .attr("width", 320)
-      .attr("height", 30)
-      .attr("x", width + margin.right + 10)
-      .attr("y", 9*legendRectSize)
-      .append('xhtml:select')
-      .attr('id', 'groupSelector')
-      .append('option').text("View a specific group…")
-      ;
-      d3.select('select')
-      .selectAll("option.group")
-      .data(d3.values([]).sort((a,b) => a.name < b.name ? -1 : 1))
-      .enter()
-      .append("option")
-      .attr("class","group")
-      .attr("value", d => d.id)
-      .property("selected", d => location.hash === '#g' + d.id ? 'selected'  : null)
-      .text(d => d.name.replace("Working Group", "WG"));
-
-      document.getElementById('groupSelector')
-      .addEventListener('change', function(e) {
-      location.hash = '#g' + this.options[this.selectedIndex].value;
-      });
-      window.addEventListener("hashchange", updateView);
-    */
-
     const line = ((xscale,specOffset) => d3.line()
                   .x(d => xscale(parseDate(d.date)))
                   .y(d => y(statusNormalizer(d)) + specOffset(d.shortname)));
@@ -328,7 +299,7 @@ function dashboard(groupid, group) {
             if (err) logError(err);
 
             // Normalize milestones to shortname instead of shortlink
-            milestones = Object.keys(milestones).reduce((a, shortlink) => { const shortname = shortlink.replace(/https?:\/\/www.w3.org\/TR\/([^\/]*)\/?$/, '$1'); console.log(shortname); a[shortname] = milestones[shortlink]; return a;}, {});
+            milestones = Object.keys(milestones).reduce((a, shortlink) => { const shortname = shortlink.replace(/https?:\/\/www.w3.org\/TR\/([^\/]*)\/?$/, '$1'); a[shortname] = milestones[shortlink]; return a;}, {});
 
             svg.attr("aria-busy", false)
             svg.selectAll("g.pub")
