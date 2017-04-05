@@ -5,11 +5,11 @@ function normalizeDate(d, uri) {
     if (d.match(/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/)) {
         return d;
     } else if (d.match(/^[0-9]{4}-[0-9]{2}$/)) {
-        return d + "-31";
+        return d + "-28";
     } else if (d.match(/^Q[0-9] [0-9]{4}$/)) {
-        return d.slice(3) + "-" + ("0" + ("" + parseInt(d.slice(1,2), 10)*3)).slice(-2) + "-31";
+        return d.slice(3) + "-" + ("0" + ("" + parseInt(d.slice(1,2), 10)*3)).slice(-2) + "-30";
     }  else if (d.match(/^[0-9]Q [0-9]{4}$/)) {
-        return d.slice(3) + "-" + ("0" + ("" + parseInt(d.slice(0,1), 10)*3)).slice(-2) + "-31";
+        return d.slice(3) + "-" + ("0" + ("" + parseInt(d.slice(0,1), 10)*3)).slice(-2) + "-30";
     } else {
         console.error((uri? "In " + uri + " : ": "") + "Unrecognized date " + d)
     }
