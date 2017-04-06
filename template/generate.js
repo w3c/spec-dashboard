@@ -8,7 +8,7 @@ templateXhr.onload = function() {
     var hero = [];
     var sectionsOrig = document.querySelectorAll("body > section");
     for (var i = 0; i < sectionsOrig.length; i++) {
-        sections.push(sectionsOrig[i].cloneNode(true));
+        sections.push(sectionsOrig[i]);
     }
     var heroOrig = document.querySelectorAll("header > *");
     for (var i = 0; i < heroOrig.length; i++) {
@@ -27,6 +27,7 @@ templateXhr.onload = function() {
         document.querySelector('head').appendChild(styleOrig);
     }
     for (var i = 0 ; i < sections.length ; i++) {
+        document.adoptNode(sections[i]);
         document.querySelector('.main-content .container').appendChild(sections[i]);
     }
     for (var i = 0 ; i < hero.length ; i++) {
