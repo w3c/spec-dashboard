@@ -35,24 +35,19 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
 
 
 function createOrUpdateSpreadSheet(wg, specs, cb, create) {
-    if (specs.length) {
-        if (create) {
-            const body = "TR shortlink,FPWD,Wide Review end, CR, Test Suite status, PR, PER, Rec, Comments & notes\n" + specs.join("\n");
-            request({
-                method: 'POST',
-                url: config.ethercalc + '/_',
-                headers: {
-                    'Content-Type': 'text/csv'
-                },
-                body: body
-            }, function (error, response, body) {
-                cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: config.ethercalc + body});
-            });
-        } else {
-            cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: existingdata[wg.id].url});
-        }
+    if (create) {
+        const body = "TR shortlink,FPWD,Wide Review end, CR, Test Suite status, PR, PER, Rec, Comments & notes\n" + specs.join("\n");
+        request({
+            method: 'POST',
+            url: config.ethercalc + '/_',
+            headers: {
+                'Content-Type': 'text/csv'
+            },
+            body: body
+        }, function (error, response, body) {
+            cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: config.ethercalc + body});
+        });
     } else {
-        console.error(wg.name + " has no active spec to track");
-        cb(null);
+        cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: existingdata[wg.id].url});
     }
 }
