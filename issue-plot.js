@@ -155,7 +155,7 @@ function dashboard(repoinfo) {
         .attr("width", barWidth)
         .attr("height", barHeight)
         .append("title")
-        .text(function(d) { const issue = d3.select(this.parentNode.parentNode).datum(); return "#" + issue.number + " " + issue.title; });
+        .text(function(d) { const issue = d3.select(this.parentNode.parentNode).datum(); return "#" + issue.number + ' "' + issue.title + '" opened on ' + issue.created_at.slice(0,7) + (issue.closed_at ? " and closed on " + issue.closed_at.slice(0,7) : ""); });
 
     svg.selectAll("g.month").data(Object.keys(months)).enter()
         .append("g")
