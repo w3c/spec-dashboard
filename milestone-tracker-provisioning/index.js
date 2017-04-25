@@ -36,7 +36,7 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
 
 function createOrUpdateSpreadSheet(wg, specs, cb, create) {
     if (create) {
-        const body = "TR shortlink,FPWD,Wide Review end, CR, Test Suite status, PR, PER, Rec, Comments & notes\n" + specs.join("\n");
+        const body = "TR shortlink,FPWD,Wide Review start, CR, Test Suite status, PR, PER, Rec, Comments & notes\n" + specs.join("\n");
         request({
             method: 'POST',
             url: config.ethercalc + '/_',
