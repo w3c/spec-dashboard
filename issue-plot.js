@@ -155,7 +155,7 @@ function dashboard(repoinfo) {
         .attr("width", barWidth)
         .attr("height", barHeight)
         .append("title")
-        .text(d => d.title);
+        .text(function(d) { const issue = d3.select(this.parentNode.parentNode).datum(); return "#" + issue.number + " " + issue.title; });
 
     svg.selectAll("g.month").data(Object.keys(months)).enter()
         .append("g")
