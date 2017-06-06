@@ -134,7 +134,7 @@ fs.readFile("./groups.json", (err, data) => {
                     .map(s => queueGhRequest('https://api.github.com/repos/' + s.repo.owner + '/' + s.repo.name + '/issues?state=all')
                          .then(issues => {
                              const hash = {}
-                             hash[s.shortlink] = {repo: s.repo};
+                             hash[s.shortlink] = {repo: s.repo, recTrack: s['rec-track']};
                              hash[s.shortlink]["issues"] = issues.filter(s.repo.issuefilter)
                                  .map(i => {
                                      return {state: i.state, number: i.number, created_at: i.created_at, closed_at: i.closed_at, title: i.title, labels: i.labels, assignee: i.assignee ? i.assignee.login: null, isPullRequest: i.pull_request !== undefined};
