@@ -81,8 +81,8 @@
     ]
   },
   {
-    "title": "Vehicle Information Access API",
-    "shortlink": "http://www.w3.org/TR/vehicle-information-api/",
+    "title": "Vehicle Information API Specification",
+    "shortlink": "https://www.w3.org/TR/vehicle-information-api/",
     "shortname": "vehicle-information-api",
     "description": "<p>The W3C Vehicle Information API aims to enable connectivity through in-vehicle infotainment systems and vehicle data access protocols. This API can also be leveraged by web applications running on mobile devices that access the data resources of a connected passenger vehicle.</p>",
     "_links": {
@@ -97,12 +97,40 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/vehicle-information-api/versions/20160119",
+        "href": "https://api.w3.org/specifications/vehicle-information-api/versions/20170605",
         "title": "Working Draft"
       }
     },
-    "editorsdraft": "http://rawgit.com/w3c/automotive/master/vehicle_data/vehicle_spec.html",
+    "editorsdraft": "https://w3c.github.io/automotive/vehicle_information_api/vehicle_information_api_specification.html",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-vehicle-information-api-20170605/",
+        "date": "2017-06-05",
+        "informative": false,
+        "title": "Vehicle Information API Specification",
+        "shortlink": "https://www.w3.org/TR/vehicle-information-api/",
+        "editor-draft": "https://w3c.github.io/automotive/vehicle_information_api/vehicle_information_api_specification.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/vehicle-information-api/versions/20170605"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/vehicle-information-api/versions/20170605/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/vehicle-information-api/versions/20170605/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/vehicle-information-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/vehicle-information-api/versions/20170605/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -128,6 +156,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/vehicle-information-api/versions/20160119/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/vehicle-information-api/versions/20160119/successors"
           }
         }
       },
