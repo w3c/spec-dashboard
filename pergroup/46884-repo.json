@@ -7,109 +7,831 @@
     "issues": [
       {
         "state": "open",
+        "number": 1238,
+        "created_at": "2017-06-02T20:12:20Z",
+        "closed_at": null,
+        "title": "Fix #1212: Throw NotSupportedError for invalid number of channels",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1237,
+        "created_at": "2017-06-02T19:56:05Z",
+        "closed_at": null,
+        "title": "Fix #1208: Clarify panning algorithms",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1236,
+        "created_at": "2017-06-02T17:41:42Z",
+        "closed_at": null,
+        "title": "Level of detail in code descriptions for algorithms?",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1235,
+        "created_at": "2017-06-02T16:59:29Z",
+        "closed_at": "2017-06-02T22:55:09Z",
+        "title": "Change contextInfo attribute to getContextInfo() method",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1234,
+        "created_at": "2017-06-02T16:29:47Z",
+        "closed_at": "2017-06-02T17:05:30Z",
+        "title": "Rename .import() in examples to addModule()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1233,
+        "created_at": "2017-06-02T16:20:49Z",
+        "closed_at": null,
+        "title": "Introduce MessagePort on AudioWorkletNode/Processor",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1232,
+        "created_at": "2017-06-02T15:55:31Z",
+        "closed_at": "2017-06-02T15:58:25Z",
+        "title": "Fix #1222: Fix typo in clamping of linear distance model",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1231,
+        "created_at": "2017-06-02T15:45:25Z",
+        "closed_at": null,
+        "title": "Fix #1226: IIRFilter.getFrequency inconsistent with BiquadFilter",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1230,
+        "created_at": "2017-06-02T15:28:56Z",
+        "closed_at": null,
+        "title": "[audioworklet] AudioParamDescriptor issues",
+        "labels": [
+          {
+            "id": 109540793,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
+            "name": "Clarification (Requires change)",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1229,
+        "created_at": "2017-05-27T22:26:38Z",
+        "closed_at": null,
+        "title": "onstatechange behavior differs from .addEventListener('statechange')",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1228,
+        "created_at": "2017-05-26T18:39:31Z",
+        "closed_at": null,
+        "title": "Fix #1210: exponentialRamp should throw RangeError for 0",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1227,
+        "created_at": "2017-05-24T02:14:27Z",
+        "closed_at": "2017-06-02T22:55:09Z",
+        "title": "[audioworklet] contextInfo attribute cannot be a dictionary.",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1226,
+        "created_at": "2017-05-23T19:12:30Z",
+        "closed_at": null,
+        "title": "IIRFilter.getFrequencyResponse inconsistent with BiquadFilter.getFrequencyResponse",
+        "labels": [
+          {
+            "id": 109540793,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
+            "name": "Clarification (Requires change)",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": "rtoy",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1225,
+        "created_at": "2017-05-15T04:30:46Z",
+        "closed_at": "2017-05-15T15:28:14Z",
+        "title": "An alternative way to populate triangular periodic wave",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1224,
+        "created_at": "2017-05-14T13:50:35Z",
+        "closed_at": "2017-05-25T16:32:45Z",
+        "title": "createMediaElementSource - detune/playbackRate without preserving pitch",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1223,
+        "created_at": "2017-05-08T15:06:54Z",
+        "closed_at": "2017-05-25T16:31:55Z",
+        "title": "IFFT?",
+        "labels": [
+          {
+            "id": 109541361,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Feature%20Request/Missing%20Feature",
+            "name": "Feature Request/Missing Feature",
+            "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1222,
+        "created_at": "2017-05-05T17:23:58Z",
+        "closed_at": "2017-06-02T15:58:27Z",
+        "title": "Clamping of linear distance model",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "rtoy",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1221,
+        "created_at": "2017-05-05T07:57:59Z",
+        "closed_at": "2017-05-11T16:45:17Z",
+        "title": "Add some ways to set the audio buffer size / know the audio buffer size + make latency manageable",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1220,
+        "created_at": "2017-05-04T13:23:29Z",
+        "closed_at": "2017-05-25T16:26:49Z",
+        "title": "Export the editable audio in base64",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1219,
+        "created_at": "2017-05-02T21:30:17Z",
+        "closed_at": "2017-06-02T17:41:12Z",
+        "title": "[audioworklet] Rename audioWorklet.import() to addModule().",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1218,
+        "created_at": "2017-04-28T23:11:20Z",
+        "closed_at": "2017-05-11T16:46:14Z",
+        "title": "Chrome implementation: AudioParam.cancelScheduledValues(currentTime) \"sometimes\" does not clear AudioParam.setValueCurveAtTime",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1217,
+        "created_at": "2017-04-27T13:43:00Z",
+        "closed_at": null,
+        "title": "Missing AudioMediaStreamTrack definition",
+        "labels": [
+          {
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
+            "default": false
+          }
+        ],
+        "assignee": "joeberkovitz",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1216,
+        "created_at": "2017-04-26T17:23:28Z",
+        "closed_at": null,
+        "title": "Can ABSN.buffer be set to the same buffer again?",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "joeberkovitz",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1215,
+        "created_at": "2017-04-20T21:53:27Z",
+        "closed_at": "2017-04-27T06:54:53Z",
+        "title": "Update link to MIDI specification",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1214,
+        "created_at": "2017-04-20T10:18:26Z",
+        "closed_at": "2017-04-20T12:18:44Z",
+        "title": "Add a link to web-platform-tests to the top of the spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1213,
+        "created_at": "2017-04-19T18:14:22Z",
+        "closed_at": "2017-05-26T16:04:45Z",
+        "title": "Fix #1211: add synchronous marker",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1212,
+        "created_at": "2017-04-19T18:02:31Z",
+        "closed_at": null,
+        "title": "Invalid number of input or output channels for createScriptProcessor",
+        "labels": [
+          {
+            "id": 109540793,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
+            "name": "Clarification (Requires change)",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1211,
+        "created_at": "2017-04-18T18:01:19Z",
+        "closed_at": "2017-05-26T16:04:47Z",
+        "title": "Add synchronous marker wherever we throw an error",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1210,
+        "created_at": "2017-04-18T17:46:23Z",
+        "closed_at": null,
+        "title": "exponentialRampToValue throws NotSupportedError for value of 0",
+        "labels": [
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1209,
+        "created_at": "2017-04-18T17:42:39Z",
+        "closed_at": "2017-05-26T16:23:00Z",
+        "title": "Fix #1182: Throw RangeError instead of TypeError",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1208,
+        "created_at": "2017-04-18T16:06:13Z",
+        "closed_at": null,
+        "title": "Panner algorithm for equal-power panning confusing.",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1207,
+        "created_at": "2017-04-18T10:24:18Z",
+        "closed_at": "2017-04-18T14:54:06Z",
+        "title": "Remove references to the doppler effect and speed.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1206,
+        "created_at": "2017-04-17T22:46:02Z",
+        "closed_at": "2017-04-18T14:54:06Z",
+        "title": "Velocity and doppler should be removed",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1205,
+        "created_at": "2017-04-13T15:33:37Z",
+        "closed_at": "2017-04-13T16:19:26Z",
+        "title": "Inconsistent name of constructor vs factory method for media nodes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1204,
+        "created_at": "2017-04-13T11:52:36Z",
+        "closed_at": "2017-04-13T16:12:01Z",
+        "title": "Disallow empty string as AWP registration key.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1203,
+        "created_at": "2017-04-12T19:54:16Z",
+        "closed_at": null,
+        "title": "Remove \"Channel Limitations\" section",
+        "labels": [
+          {
+            "id": 109540793,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
+            "name": "Clarification (Requires change)",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1202,
+        "created_at": "2017-04-12T17:43:05Z",
+        "closed_at": null,
+        "title": "Disconnecting media  element from MediaElementAudioSourceNode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1201,
+        "created_at": "2017-04-12T16:26:52Z",
+        "closed_at": "2017-04-13T16:13:40Z",
+        "title": "Fix #1157: Add attributes to  Media{Element,Stream}AudioSourceNode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1200,
+        "created_at": "2017-04-11T13:30:03Z",
+        "closed_at": "2017-04-13T16:15:12Z",
+        "title": "Reword treatment of starting time for AudioScheduledSourceNode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1199,
+        "created_at": "2017-04-07T22:33:30Z",
+        "closed_at": null,
+        "title": "ConvolverNode \"buffer set\" not initialized",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "joeberkovitz",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1198,
+        "created_at": "2017-04-07T16:59:55Z",
+        "closed_at": "2017-04-07T19:03:14Z",
+        "title": "Fix some typos",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1197,
+        "created_at": "2017-04-07T16:32:18Z",
+        "closed_at": "2017-04-11T13:08:47Z",
+        "title": "Fix #1195: createPeriodicWave takes `sequence<float>` arrays",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1196,
+        "created_at": "2017-04-07T14:59:35Z",
+        "closed_at": "2017-04-07T21:31:10Z",
+        "title": "Enhancement: Stream metadata access from Icy-Metadata",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1195,
+        "created_at": "2017-04-06T15:36:28Z",
+        "closed_at": "2017-04-11T13:08:47Z",
+        "title": "Inconsistent types for createPeriodicWave and PeriodicWave constructor",
+        "labels": [
+          {
+            "id": 109540793,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
+            "name": "Clarification (Requires change)",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": "rtoy",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1194,
+        "created_at": "2017-04-05T20:39:14Z",
+        "closed_at": null,
+        "title": "[audioworklet] AudioWorkletProcessor ondata should just be a callback rather than an EventHandler",
+        "labels": [
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          },
+          {
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
+            "default": false
+          }
+        ],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1193,
+        "created_at": "2017-04-05T19:55:42Z",
+        "closed_at": null,
+        "title": "[audioworklet] Revise AWN/AWP instantiation algorithm: structured serialization and abstract operation",
+        "labels": [
+          {
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
+            "default": false
+          }
+        ],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1192,
+        "created_at": "2017-04-04T18:07:58Z",
+        "closed_at": "2017-04-11T13:08:26Z",
+        "title": "Spell out the parameter in AudioBuffer constructor.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 1191,
         "created_at": "2017-04-01T19:05:18Z",
-        "closed_at": null,
+        "closed_at": "2017-04-04T15:09:25Z",
         "title": "Fix WebIDL syntax errors",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1190,
         "created_at": "2017-04-01T18:57:18Z",
-        "closed_at": null,
+        "closed_at": "2017-04-12T16:15:22Z",
         "title": "HTML output for AudioBuffer is broken",
-        "labels": [],
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1189,
         "created_at": "2017-03-31T18:20:57Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T13:08:05Z",
         "title": "Fix #1171: setValueCurveAtTime curve is sequence<float>",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1188,
         "created_at": "2017-03-31T14:29:57Z",
-        "closed_at": null,
+        "closed_at": "2017-04-13T16:50:24Z",
         "title": "A standard \"DoNothingNode\" to do nothing except joining other AudioNodes",
-        "labels": [],
+        "labels": [
+          {
+            "id": 109541361,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Feature%20Request/Missing%20Feature",
+            "name": "Feature Request/Missing Feature",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1187,
         "created_at": "2017-03-31T12:58:12Z",
-        "closed_at": null,
+        "closed_at": "2017-04-10T08:47:40Z",
         "title": "Web Audio API - echoCancellation with advanced constraints",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1186,
         "created_at": "2017-03-31T12:26:58Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T12:09:11Z",
         "title": "Getchanneldata always return 0 values for the first MP3 frame (1152 samples)",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1185,
         "created_at": "2017-03-31T09:08:43Z",
-        "closed_at": null,
+        "closed_at": "2017-04-10T08:44:06Z",
         "title": "Audio nodes abrupt stop",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1184,
         "created_at": "2017-03-31T08:17:05Z",
-        "closed_at": null,
+        "closed_at": "2017-04-10T11:03:38Z",
         "title": "PannerNode spacialization question/suggestion",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1183,
         "created_at": "2017-03-30T21:29:41Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T13:07:57Z",
         "title": "Fix #1166: decodeAudioData throws DataCloneError for detached buffer",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1182,
         "created_at": "2017-03-30T21:27:59Z",
-        "closed_at": null,
+        "closed_at": "2017-05-26T16:23:01Z",
         "title": "Signaling TypeErrors",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1181,
         "created_at": "2017-03-30T20:19:23Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T13:07:42Z",
         "title": "Fix #1173: periodicWave overrides type setting",
         "labels": [],
         "assignee": null,
@@ -156,10 +878,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1176,
         "created_at": "2017-03-23T19:09:38Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T15:58:42Z",
         "title": "ConvolverNode outputs mono when input and response are mono",
         "labels": [],
         "assignee": "joeberkovitz",
@@ -186,10 +908,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1173,
         "created_at": "2017-03-21T15:50:49Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T13:07:44Z",
         "title": "OscillatorOptions periodicWave and type behavior defined inconsistently",
         "labels": [
           {
@@ -204,12 +926,19 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1172,
         "created_at": "2017-03-20T16:05:25Z",
-        "closed_at": null,
+        "closed_at": "2017-04-13T16:12:00Z",
         "title": "An empty string for AudioWorkletProcessor name.",
         "labels": [
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          },
           {
             "id": 521807753,
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
@@ -218,14 +947,14 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "joeberkovitz",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1171,
         "created_at": "2017-03-17T21:33:07Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T13:08:06Z",
         "title": "setValueCurveAtTime when curve has non-finite values?",
         "labels": [
           {
@@ -240,10 +969,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1170,
         "created_at": "2017-03-16T21:17:58Z",
-        "closed_at": null,
+        "closed_at": "2017-04-27T16:09:10Z",
         "title": "Simplify occurrences of 128 sample frames to one render quantum",
         "labels": [],
         "assignee": null,
@@ -288,10 +1017,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1166,
         "created_at": "2017-03-15T22:30:45Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T13:07:58Z",
         "title": "Signaling TypeError in decodeAudioData detached buffers",
         "labels": [
           {
@@ -358,10 +1087,10 @@
             "default": false
           },
           {
-            "id": 142835591,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
-            "name": "Needs WG review",
-            "color": "e11d21",
+            "id": 138856832,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Ready%20for%20Editing",
+            "name": "Ready for Editing",
+            "color": "bfe5bf",
             "default": false
           },
           {
@@ -404,10 +1133,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1159,
         "created_at": "2017-03-03T17:10:45Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T15:23:17Z",
         "title": "Reduce complexity of Convolver",
         "labels": [
           {
@@ -439,17 +1168,17 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1157,
         "created_at": "2017-02-28T23:12:59Z",
-        "closed_at": null,
+        "closed_at": "2017-04-13T16:13:40Z",
         "title": "MediaElementAudioSourceNode and MediaStreamAudioSourceNode attributes",
         "labels": [
           {
-            "id": 139631809,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
-            "name": "In PR Review",
-            "color": "f7c6c7",
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
             "default": false
           },
           {
@@ -460,7 +1189,7 @@
             "default": false
           }
         ],
-        "assignee": "joeberkovitz",
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
@@ -626,10 +1355,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1143,
         "created_at": "2017-02-02T16:44:11Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T13:05:03Z",
         "title": "Specify ABSN playback algorithm exactly.",
         "labels": [],
         "assignee": null,
@@ -691,10 +1420,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1138,
         "created_at": "2017-01-11T23:20:45Z",
-        "closed_at": null,
+        "closed_at": "2017-04-21T18:21:12Z",
         "title": "loopStart and loopEnd independent of detune?",
         "labels": [
           {
@@ -1413,10 +2142,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1094,
         "created_at": "2016-11-30T16:15:04Z",
-        "closed_at": null,
+        "closed_at": "2017-04-27T16:09:24Z",
         "title": "Multiple definitions of block processing size",
         "labels": [
           {
@@ -2439,10 +3168,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1024,
         "created_at": "2016-10-04T12:17:49Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T13:13:59Z",
         "title": "Fix #915 The case for sample-accurate start()",
         "labels": [],
         "assignee": "joeberkovitz",
@@ -3112,6 +3841,13 @@
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Ready%20for%20Editing",
             "name": "Ready for Editing",
             "color": "bfe5bf",
+            "default": false
+          },
+          {
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
             "default": false
           }
         ],
@@ -3956,17 +4692,17 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 915,
         "created_at": "2016-07-27T03:04:49Z",
-        "closed_at": null,
+        "closed_at": "2017-04-13T16:15:12Z",
         "title": "The case for subsample-accurate start()",
         "labels": [
           {
-            "id": 138856832,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Ready%20for%20Editing",
-            "name": "Ready for Editing",
-            "color": "bfe5bf",
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
             "default": false
           }
         ],
@@ -7453,10 +8189,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 642,
         "created_at": "2015-10-20T22:06:25Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T17:03:12Z",
         "title": "Conflict on resuming context",
         "labels": [
           {
@@ -15248,10 +15984,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 95,
         "created_at": "2013-09-11T14:28:17Z",
-        "closed_at": null,
+        "closed_at": "2017-04-11T13:05:03Z",
         "title": "(AudioBufferSourceNodePlaybackRate): AudioBufferSourceNode.playbackRate not strictly defined",
         "labels": [
           {
@@ -17021,7 +17757,7 @@
             "default": false
           }
         ],
-        "assignee": "padenot",
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
@@ -17243,6 +17979,16 @@
       "name": "web-midi-api"
     },
     "issues": [
+      {
+        "state": "open",
+        "number": 178,
+        "created_at": "2017-04-29T00:21:16Z",
+        "closed_at": null,
+        "title": "Fix minor typos",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 177,
