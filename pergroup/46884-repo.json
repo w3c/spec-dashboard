@@ -4,12 +4,185 @@
       "owner": "webaudio",
       "name": "web-audio-api"
     },
+    "recTrack": true,
     "issues": [
       {
         "state": "open",
+        "number": 1250,
+        "created_at": "2017-06-16T15:53:02Z",
+        "closed_at": null,
+        "title": "Fix #1230: Add `required` keyword and default min/max values in `AudioParamDescriptor`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1249,
+        "created_at": "2017-06-15T22:02:01Z",
+        "closed_at": null,
+        "title": "Add `AudioWorkletProcessorState` on AudioWorkletNode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1248,
+        "created_at": "2017-06-14T22:10:38Z",
+        "closed_at": "2017-06-16T15:33:22Z",
+        "title": "Fix #1246: Adding record<DOMString, double>",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1247,
+        "created_at": "2017-06-14T21:46:18Z",
+        "closed_at": null,
+        "title": "[audioworklet] Add `state` and related event handlers in AudioWorkletNode",
+        "labels": [
+          {
+            "id": 109540793,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
+            "name": "Clarification (Requires change)",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1246,
+        "created_at": "2017-06-14T21:38:58Z",
+        "closed_at": "2017-06-16T15:33:24Z",
+        "title": "[audioworklet] Use `record<K, V>` in AudioWorkletNodeOptions",
+        "labels": [
+          {
+            "id": 109540793,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
+            "name": "Clarification (Requires change)",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1245,
+        "created_at": "2017-06-14T16:14:40Z",
+        "closed_at": "2017-06-16T09:06:27Z",
+        "title": "Refactor PeriodicWave ctor.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1244,
+        "created_at": "2017-06-14T11:31:37Z",
+        "closed_at": "2017-06-16T09:06:27Z",
+        "title": "Define`createPeriodicWave` in terms of the `PeriodicWave` ctor and not the opposite ",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1243,
+        "created_at": "2017-06-14T09:34:07Z",
+        "closed_at": "2017-06-16T09:06:48Z",
+        "title": "Replace occurences of JavaScript by script and make adjustments where needed.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1242,
+        "created_at": "2017-06-14T09:22:18Z",
+        "closed_at": null,
+        "title": "Initialize the [[buffer set]] boolean slot on ConvolverNode and AudioBufferSourceNode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1241,
+        "created_at": "2017-06-14T08:54:23Z",
+        "closed_at": "2017-06-16T08:57:26Z",
+        "title": "Define the AudioBuffer ctor.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1240,
+        "created_at": "2017-06-08T19:10:55Z",
+        "closed_at": "2017-06-09T13:55:32Z",
+        "title": "Remove reference to dead interface AudioMediaStreamTrack.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1239,
+        "created_at": "2017-06-08T16:02:31Z",
+        "closed_at": "2017-06-16T09:06:48Z",
+        "title": "Use a term more generic than \"JavaScript\" for worklets",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 109541622,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Syntactic%20Improvement",
+            "name": "Syntactic Improvement",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 1238,
         "created_at": "2017-06-02T20:12:20Z",
-        "closed_at": null,
+        "closed_at": "2017-06-06T19:48:41Z",
         "title": "Fix #1212: Throw NotSupportedError for invalid number of channels",
         "labels": [],
         "assignee": null,
@@ -71,10 +244,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1233,
         "created_at": "2017-06-02T16:20:49Z",
-        "closed_at": null,
+        "closed_at": "2017-06-08T12:28:15Z",
         "title": "Introduce MessagePort on AudioWorkletNode/Processor",
         "labels": [],
         "assignee": null,
@@ -126,20 +299,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1229,
         "created_at": "2017-05-27T22:26:38Z",
-        "closed_at": null,
+        "closed_at": "2017-06-08T16:39:20Z",
         "title": "onstatechange behavior differs from .addEventListener('statechange')",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1228,
         "created_at": "2017-05-26T18:39:31Z",
-        "closed_at": null,
+        "closed_at": "2017-06-14T09:26:36Z",
         "title": "Fix #1210: exponentialRamp should throw RangeError for 0",
         "labels": [],
         "assignee": null,
@@ -299,10 +472,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1217,
         "created_at": "2017-04-27T13:43:00Z",
-        "closed_at": null,
+        "closed_at": "2017-06-09T13:55:32Z",
         "title": "Missing AudioMediaStreamTrack definition",
         "labels": [
           {
@@ -365,10 +538,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1212,
         "created_at": "2017-04-19T18:02:31Z",
-        "closed_at": null,
+        "closed_at": "2017-06-06T19:48:42Z",
         "title": "Invalid number of input or output channels for createScriptProcessor",
         "labels": [
           {
@@ -415,10 +588,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1210,
         "created_at": "2017-04-18T17:46:23Z",
-        "closed_at": null,
+        "closed_at": "2017-06-14T09:26:37Z",
         "title": "exponentialRampToValue throws NotSupportedError for value of 0",
         "labels": [
           {
@@ -651,10 +824,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1194,
         "created_at": "2017-04-05T20:39:14Z",
-        "closed_at": null,
+        "closed_at": "2017-06-08T12:28:15Z",
         "title": "[audioworklet] AudioWorkletProcessor ondata should just be a callback rather than an EventHandler",
         "labels": [
           {
@@ -682,6 +855,13 @@
         "closed_at": null,
         "title": "[audioworklet] Revise AWN/AWP instantiation algorithm: structured serialization and abstract operation",
         "labels": [
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          },
           {
             "id": 521807753,
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
@@ -2295,10 +2475,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1084,
         "created_at": "2016-11-17T17:19:55Z",
-        "closed_at": null,
+        "closed_at": "2017-06-16T15:55:47Z",
         "title": "What happens when process() throws?",
         "labels": [],
         "assignee": "hoch",
@@ -17757,7 +17937,7 @@
             "default": false
           }
         ],
-        "assignee": "rtoy",
+        "assignee": "joeberkovitz",
         "isPullRequest": false
       },
       {
@@ -17971,14 +18151,14 @@
         "assignee": "cwilso",
         "isPullRequest": false
       }
-    ],
-    "recTrack": true
+    ]
   },
   "http://www.w3.org/TR/webmidi/": {
     "repo": {
       "owner": "webaudio",
       "name": "web-midi-api"
     },
+    "recTrack": true,
     "issues": [
       {
         "state": "open",
@@ -19983,7 +20163,6 @@
         "assignee": "cwilso",
         "isPullRequest": false
       }
-    ],
-    "recTrack": true
+    ]
   }
 }

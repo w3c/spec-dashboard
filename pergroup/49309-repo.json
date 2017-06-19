@@ -4,7 +4,18 @@
       "owner": "w3c",
       "name": "webappsec-clear-site-data"
     },
+    "recTrack": true,
     "issues": [
+      {
+        "state": "closed",
+        "number": 27,
+        "created_at": "2017-06-07T07:42:31Z",
+        "closed_at": "2017-06-07T10:21:31Z",
+        "title": "Ensure that more complicated filters are possible to add in the future.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 26,
@@ -265,14 +276,14 @@
         "assignee": null,
         "isPullRequest": false
       }
-    ],
-    "recTrack": true
+    ]
   },
   "http://www.w3.org/TR/COWL/": {
     "repo": {
       "owner": "w3c",
       "name": "webappsec-cowl"
     },
+    "recTrack": true,
     "issues": [
       {
         "state": "closed",
@@ -1377,15 +1388,55 @@
         "assignee": null,
         "isPullRequest": true
       }
-    ],
-    "recTrack": true
+    ]
   },
   "http://www.w3.org/TR/credential-management-1/": {
     "repo": {
       "owner": "w3c",
       "name": "webappsec-credential-management"
     },
+    "recTrack": true,
     "issues": [
+      {
+        "state": "closed",
+        "number": 91,
+        "created_at": "2017-06-08T17:30:25Z",
+        "closed_at": "2017-06-09T08:54:13Z",
+        "title": "Remove nullability in places where they are not necessary",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 90,
+        "created_at": "2017-06-08T17:16:28Z",
+        "closed_at": "2017-06-09T09:53:14Z",
+        "title": "CredentialCreationOptions does not need to have nullable members.",
+        "labels": [],
+        "assignee": "battre",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 89,
+        "created_at": "2017-06-08T16:13:14Z",
+        "closed_at": "2017-06-09T08:54:36Z",
+        "title": "Drop [SameObject] from strings",
+        "labels": [],
+        "assignee": "battre",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 88,
+        "created_at": "2017-06-07T20:55:47Z",
+        "closed_at": "2017-06-09T09:53:06Z",
+        "title": "[SameObject] should not be used on DOMString/USVString",
+        "labels": [],
+        "assignee": "battre",
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 87,
@@ -1757,20 +1808,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 50,
         "created_at": "2016-12-28T17:56:52Z",
-        "closed_at": null,
+        "closed_at": "2017-06-10T14:45:58Z",
         "title": "Update 'Extract body' algorithm to fit in the latest Fetch spec",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 49,
         "created_at": "2016-12-28T17:14:02Z",
-        "closed_at": null,
+        "closed_at": "2017-06-10T14:46:17Z",
         "title": "Update body-extraction algorithm to match Fetch spec",
         "labels": [],
         "assignee": "vabr-g",
@@ -2319,15 +2370,25 @@
         "assignee": null,
         "isPullRequest": false
       }
-    ],
-    "recTrack": true
+    ]
   },
   "https://www.w3.org/TR/csp-embedded-enforcement/": {
     "repo": {
       "owner": "w3c",
       "name": "webappsec-csp"
     },
+    "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 224,
+        "created_at": "2017-06-13T10:47:47Z",
+        "closed_at": null,
+        "title": "Unable to parse IPv6 addresses in CSP source list",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 223,
@@ -4888,15 +4949,25 @@
         "assignee": null,
         "isPullRequest": false
       }
-    ],
-    "recTrack": true
+    ]
   },
   "https://www.w3.org/TR/CSP3/": {
     "repo": {
       "owner": "w3c",
       "name": "webappsec-csp"
     },
+    "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 224,
+        "created_at": "2017-06-13T10:47:47Z",
+        "closed_at": null,
+        "title": "Unable to parse IPv6 addresses in CSP source list",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 223,
@@ -7457,14 +7528,14 @@
         "assignee": null,
         "isPullRequest": false
       }
-    ],
-    "recTrack": true
+    ]
   },
   "https://www.w3.org/TR/mixed-content/": {
     "repo": {
       "owner": "w3c",
       "name": "webappsec-mixed-content"
     },
+    "recTrack": true,
     "issues": [
       {
         "state": "closed",
@@ -7556,15 +7627,25 @@
         "assignee": null,
         "isPullRequest": false
       }
-    ],
-    "recTrack": true
+    ]
   },
   "http://www.w3.org/TR/permissions/": {
     "repo": {
       "owner": "w3c",
       "name": "permissions"
     },
+    "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 150,
+        "created_at": "2017-06-08T20:52:12Z",
+        "closed_at": null,
+        "title": "Media autoplay permission",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 149,
@@ -9196,14 +9277,14 @@
         "assignee": null,
         "isPullRequest": false
       }
-    ],
-    "recTrack": true
+    ]
   },
   "https://www.w3.org/TR/referrer-policy/": {
     "repo": {
       "owner": "w3c",
       "name": "webappsec-referrer-policy"
     },
+    "recTrack": true,
     "issues": [
       {
         "state": "open",
@@ -9226,10 +9307,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 103,
         "created_at": "2017-04-20T15:23:13Z",
-        "closed_at": null,
+        "closed_at": "2017-06-06T22:15:33Z",
         "title": "Add a link to web-platform-tests to the top of the spec",
         "labels": [],
         "assignee": null,
@@ -10327,15 +10408,25 @@
         "assignee": null,
         "isPullRequest": true
       }
-    ],
-    "recTrack": true
+    ]
   },
   "https://www.w3.org/TR/secure-contexts/": {
     "repo": {
       "owner": "w3c",
       "name": "webappsec-secure-contexts"
     },
+    "recTrack": true,
     "issues": [
+      {
+        "state": "closed",
+        "number": 49,
+        "created_at": "2017-06-09T21:19:53Z",
+        "closed_at": "2017-06-12T13:03:03Z",
+        "title": "Why are documents with insecure frames treated as secure contexts?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 48,
@@ -10824,14 +10915,14 @@
         "assignee": null,
         "isPullRequest": false
       }
-    ],
-    "recTrack": true
+    ]
   },
   "http://www.w3.org/TR/UISecurity/": {
     "repo": {
       "owner": "w3c",
       "name": "webappsec-uisecurity"
     },
+    "recTrack": true,
     "issues": [
       {
         "state": "open",
@@ -10951,14 +11042,14 @@
         "assignee": null,
         "isPullRequest": true
       }
-    ],
-    "recTrack": true
+    ]
   },
   "http://www.w3.org/TR/upgrade-insecure-requests/": {
     "repo": {
       "owner": "w3c",
       "name": "webappsec-upgrade-insecure-requests"
     },
+    "recTrack": true,
     "issues": [
       {
         "state": "closed",
@@ -11040,7 +11131,6 @@
         "assignee": null,
         "isPullRequest": true
       }
-    ],
-    "recTrack": true
+    ]
   }
 }
