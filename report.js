@@ -16,13 +16,17 @@
         return (milestoneData, specData, groupname) => {
             const el = document.querySelector("#" + id + " ol");
             if (!el) return console.error("Invalid id " + id);
+            el.setAttribute("data-sort", "span,a")
             Object.keys(milestoneData).forEach(s => {
                 Object.keys(milestoneData[s]).filter(m => m === milestone || milestone === "*").forEach(m => {
                     if (test(milestoneData[s][m])) {
                         const spec = extractSpecData(s, specData);
                         if (spec) {
                             const li = specLink(spec);
-                            li.appendChild(document.createTextNode(" (" + groupname + ") : " + milestoneData[s][m]));
+                            const date = document.createElement("span");
+                            date.appendChild(document.createTextNode(milestoneData[s][m]));
+                            li.appendChild(document.createTextNode(" (" + groupname + ") : "));
+                            li.appendChild(date);
                             el.appendChild(li);
                         } else {
                             console.error("Could not find data on " + s);
@@ -39,7 +43,7 @@
     fetch("groups.json")
         .then(r => r.json())
         .then(groups => {
-            for (let gid in groups) {
+            return Promise.all(Object.keys(groups).map(gid =>  {
                 const specDataPromise = fetch("./pergroup/" + gid + ".json")
                     .then(r => r.json());
                 const milestoneDataPromise = fetch("./pergroup/" + gid + "-milestones.json")
@@ -47,7 +51,7 @@
                 const repoDataPromise = fetch("./pergroup/" + gid + "-repo.json")
                       .then(r => r.json());
                 const groupnamePromise = new Promise((res) => res(groups[gid].name));
-                Promise.all([specDataPromise, milestoneDataPromise, repoDataPromise, groupnamePromise])
+                return Promise.all([specDataPromise, milestoneDataPromise, repoDataPromise, groupnamePromise])
                     .then(([specData, milestoneData, repoData, groupname]) => {
                         const count = document.getElementById('count');
                         const reccount = document.getElementById('reccount');
@@ -63,19 +67,29 @@
                         listMilestoneTest("beyondcharter", "*", d => d > groups[gid].end)(milestoneData, specData, groupname);
 
                         var abandoned = document.querySelector("#abandoned ol");
+                        abandoned.setAttribute("data-sort", "span,a");
                         var longRunning = document.querySelector("#longrunning ol");
+                        longRunning.setAttribute("data-sort", "span,a");
                         var noRepo = document.querySelector("#norepo ol");
+                        norepo.setAttribute("data-sort", "a");
                         var noEd = document.querySelector("#noed ol");
+                        noEd.setAttribute("data-sort", "a");
                         Object.keys(specData).filter(s => specData[s].versions[0]["rec-track"]).forEach(s => {
                             const spec = specData[s];
                             if (new Date(spec.versions[0].date) < monthFromNow(-36)) {
                                 const li = specLink(spec);
-                                li.appendChild(document.createTextNode(": " + spec.versions[0].date));
+                                const date = document.createElement("span");
+                                date.appendChild(document.createTextNode(spec.versions[0].date));
+                                li.appendChild(document.createTextNode(": "));
+                                li.appendChild(date);
                                 abandoned.appendChild(li);
                             }
                             if (new Date(last(spec.versions).date) < monthFromNow(-60)) {
                                 const li = specLink(spec);
-                                li.appendChild(document.createTextNode(": " + last(spec.versions).date));
+                                const date = document.createElement("span");
+                                date.appendChild(document.createTextNode(last(spec.versions).date));
+                                li.appendChild(document.createTextNode(": "));
+                                li.appendChild(date);
                                 longRunning.appendChild(li);
                             }
                             if (!repoData[spec.shortlink]) {
@@ -93,9 +107,23 @@
                                 }
                             }
                         });
-
-
                     });
-            }
+            }))
+        }, console.error.bind(console))
+        .then(() => {
+            // Sort lists as appropriate
+            [...document.querySelectorAll("ol[data-sort]")].forEach(ol => {
+                const sortSelectors = ol.dataset.sort.split(',');
+                const items = [...ol.children];
+                items.sort((li1, li2) => {
+                    for (i = 0 ; i < sortSelectors.length; i++) {
+                        const comp = li1.querySelector(sortSelectors[i]).textContent.localeCompare(li2.querySelector(sortSelectors[i]).textContent);
+                        if (comp !== 0) return comp;
+                    }
+                    return 0;
+                });
+                ol.innerHTML = "";
+                items.forEach(li => ol.appendChild(li));
+            });
         });
 })();
