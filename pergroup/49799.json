@@ -1,3 +1,2434 @@
 [
-  null
+  {
+    "title": "WebDriver",
+    "shortlink": "https://www.w3.org/TR/webdriver/",
+    "shortname": "webdriver",
+    "description": "<p>This specification defines the WebDriver API, a platform-and language-neutral interface that allows programs or scripts to introspect into, and control the behaviour of, a web browser.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webdriver"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webdriver/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webdriver/versions/20120710",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webdriver/versions/20170330",
+        "title": "Candidate Recommendation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+    "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-webdriver-20170330/",
+        "date": "2017-03-30",
+        "implementation-feedback-due": "2017-04-30",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170330"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170330/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170330/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170330/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170329/",
+        "date": "2017-03-29",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170329"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170329/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170329/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170329/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170329/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170324/",
+        "date": "2017-03-24",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170324"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170324/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170324/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170324/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170324/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170322/",
+        "date": "2017-03-22",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170322"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170322/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170322/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170322/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170322/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170320/",
+        "date": "2017-03-20",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170320"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170320/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170320/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170320/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170320/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170316/",
+        "date": "2017-03-16",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170316"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170316/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170316/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170316/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170316/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170312/",
+        "date": "2017-03-12",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170312"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170312/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170312/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170312/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170312/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170308/",
+        "date": "2017-03-08",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170308"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170308/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170308/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170308/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170308/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170307/",
+        "date": "2017-03-07",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170307"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170307/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170307/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170307/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170307/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170306/",
+        "date": "2017-03-06",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170306"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170306/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170306/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170306/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170306/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170302/",
+        "date": "2017-03-02",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170302"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170302/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170302/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170302/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170302/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170301/",
+        "date": "2017-03-01",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170301"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170301/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170301/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170301/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170301/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170228/",
+        "date": "2017-02-28",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170228"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170228/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170228/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170228/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170228/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170224/",
+        "date": "2017-02-24",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170224"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170224/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170224/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170224/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170224/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170223/",
+        "date": "2017-02-23",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170223"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170223/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170223/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170223/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170223/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170222/",
+        "date": "2017-02-22",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170222"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170222/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170222/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170222/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170222/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170221/",
+        "date": "2017-02-21",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170221"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170221/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170221/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170221/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170221/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170220/",
+        "date": "2017-02-20",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170220"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170220/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170220/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170220/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170220/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170219/",
+        "date": "2017-02-19",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170219"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170219/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170219/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170219/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170219/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170218/",
+        "date": "2017-02-18",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170218"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170218/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170218/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170218/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170218/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170217/",
+        "date": "2017-02-17",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170217"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170217/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170217/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170217/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170217/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170215/",
+        "date": "2017-02-15",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170215/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170215/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170214/",
+        "date": "2017-02-14",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170214"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170214/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170214/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170214/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170214/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170213/",
+        "date": "2017-02-13",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170213"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170213/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170213/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170213/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170213/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170210/",
+        "date": "2017-02-10",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170210"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170210/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170210/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170210/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170210/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170209/",
+        "date": "2017-02-09",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170209"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170209/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170209/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170209/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170209/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170207/",
+        "date": "2017-02-07",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170207"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170207/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170207/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170207/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170207/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170206/",
+        "date": "2017-02-06",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170206"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170206/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170206/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170206/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170206/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170203/",
+        "date": "2017-02-03",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170203/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170203/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170202/",
+        "date": "2017-02-02",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170202"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170202/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170202/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170202/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170202/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170201/",
+        "date": "2017-02-01",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170201"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170201/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170201/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170201/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170201/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170131/",
+        "date": "2017-01-31",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170131"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170131/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170131/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170131/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170131/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170127/",
+        "date": "2017-01-27",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170127"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170127/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170127/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170127/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170127/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170126/",
+        "date": "2017-01-26",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170126"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170126/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170126/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170126/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170126/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170125/",
+        "date": "2017-01-25",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170125"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170125/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170125/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170125/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170125/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170124/",
+        "date": "2017-01-24",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170124"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170124/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170124/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170124/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170124/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170123/",
+        "date": "2017-01-23",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170123"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170123/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170123/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170123/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170123/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170121/",
+        "date": "2017-01-21",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170121"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170121/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170121/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170121/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170121/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170120/",
+        "date": "2017-01-20",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170120"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170120/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170120/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170120/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170120/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170119/",
+        "date": "2017-01-19",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170119"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170119/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170119/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170119/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170119/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170118/",
+        "date": "2017-01-18",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170118"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170118/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170118/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170118/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170118/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170117/",
+        "date": "2017-01-17",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170117"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170117/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170117/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170117/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170117/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170116/",
+        "date": "2017-01-16",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170116"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170116/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170116/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170116/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170116/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170113/",
+        "date": "2017-01-13",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170113"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170113/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170113/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170113/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170113/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170112/",
+        "date": "2017-01-12",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170112"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170112/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170112/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170112/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170112/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170111/",
+        "date": "2017-01-11",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170111"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170111/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170111/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170111/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170111/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170110/",
+        "date": "2017-01-10",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170110"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170110/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170110/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170110/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170110/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-webdriver-20170105/",
+        "date": "2017-01-05",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170105"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170105/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170105/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170105/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20170105/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webdriver-20161129/",
+        "date": "2016-11-29",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161129"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161129/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161129/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161129/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161129/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webdriver-20161116/",
+        "date": "2016-11-16",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161116"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161116/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161116/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161116/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161116/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webdriver-20161115/",
+        "date": "2016-11-15",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161115"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161115/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161115/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161115/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161115/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webdriver-20161031/",
+        "date": "2016-10-31",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161031"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161031/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161031/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161031/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161031/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webdriver-20161025/",
+        "date": "2016-10-25",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161025"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161025/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161025/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161025/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161025/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webdriver-20161021/",
+        "date": "2016-10-21",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161021"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161021/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161021/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161021/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161021/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webdriver-20161019/",
+        "date": "2016-10-19",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161019"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161019/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161019/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161019/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161019/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webdriver-20161013/",
+        "date": "2016-10-13",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161013"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161013/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161013/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161013/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20161013/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webdriver-20160830/",
+        "date": "2016-08-30",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "https://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160830"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160830/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160830/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160830/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160830/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-webdriver-20160523/",
+        "date": "2016-05-23",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160523"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160523/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160523/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160523/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160523/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-webdriver-20160426/",
+        "date": "2016-04-26",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160426"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160426/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160426/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160426/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160426/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-webdriver-20160406/",
+        "date": "2016-04-06",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160406"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160406/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160406/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160406/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160406/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-webdriver-20160120/",
+        "date": "2016-01-20",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160120"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160120/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160120/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160120/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20160120/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20151109/",
+        "date": "2015-11-09",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151109"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151109/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151109/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151109/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151109/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20151029/",
+        "date": "2015-10-29",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151029"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151029/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151029/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151029/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151029/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20151028/",
+        "date": "2015-10-28",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151028"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151028/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151028/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151028/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151028/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20151025/",
+        "date": "2015-10-25",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151025"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151025/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151025/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151025/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20151025/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150921/",
+        "date": "2015-09-21",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150921"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150921/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150921/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150921/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150921/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150918/",
+        "date": "2015-09-18",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150918"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150918/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150918/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150918/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150918/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150915/",
+        "date": "2015-09-15",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150915"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150915/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150915/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150915/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150915/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150909/",
+        "date": "2015-09-09",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150909"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150909/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150909/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150909/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150909/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150902/",
+        "date": "2015-09-02",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150902"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150902/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150902/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150902/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150902/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150827/",
+        "date": "2015-08-27",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150827"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150827/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150827/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150827/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150827/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150808/",
+        "date": "2015-08-08",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150808"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150808/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150808/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150808/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150808/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150805/",
+        "date": "2015-08-05",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150805"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150805/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150805/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150805/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150805/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150804/",
+        "date": "2015-08-04",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150804"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150804/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150804/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150804/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150804/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-webdriver-20150803/",
+        "date": "2015-08-03",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "editor-draft": "https://w3c.github.io/webdriver/webdriver-spec.html",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150803"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150803/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150803/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150803/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20150803/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2013/WD-webdriver-20130312/",
+        "date": "2013-03-12",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130312"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130312/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130312/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130312/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130312/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2013/WD-webdriver-20130117/",
+        "date": "2013-01-17",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130117"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130117/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130117/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130117/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20130117/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2012/WD-webdriver-20120710/",
+        "date": "2012-07-10",
+        "informative": false,
+        "title": "WebDriver",
+        "shortlink": "http://www.w3.org/TR/webdriver/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20120710"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20120710/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20120710/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webdriver"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webdriver/versions/20120710/successors"
+          }
+        }
+      }
+    ]
+  }
 ]

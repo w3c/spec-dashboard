@@ -1,4 +1,433 @@
 [
-  null,
-  null
+  {
+    "title": "Shapes Constraint Language (SHACL)",
+    "shortlink": "https://www.w3.org/TR/shacl/",
+    "shortname": "shacl",
+    "description": "<p>SHACL (Shapes Constraint Language) is a language for describing and constraining the contents of RDF graphs. SHACL groups these descriptions and constraints into \"shapes\", which specify conditions that apply at a given RDF node. Shapes provide a high-level vocabulary to identify predicates and their associated cardinalities, datatypes and other constraints. Additional constraints can be associated with shapes using SPARQL and similar extension languages. These extension languages can also be used to define new high-level vocabulary terms. SHACL shapes can be used to communicate information about data structures associated with some process or interface, generate or validate data, or drive user interfaces. This document defines the SHACL language and its underlying semantics.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/shacl"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/shacl/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/shacl/versions/20151008",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/shacl/versions/20170608",
+        "title": "Proposed Recommendation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/data-shapes/shacl/",
+    "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/PR-shacl-20170608/",
+        "date": "2017-06-08",
+        "pr-reviews-due": "2017-07-06",
+        "informative": false,
+        "title": "Shapes Constraint Language (SHACL)",
+        "shortlink": "https://www.w3.org/TR/shacl/",
+        "editor-draft": "https://w3c.github.io/data-shapes/shacl/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170608"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170608/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170608/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170608/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-shacl-20170411/",
+        "date": "2017-04-11",
+        "implementation-feedback-due": "2017-05-09",
+        "informative": false,
+        "title": "Shapes Constraint Language (SHACL)",
+        "shortlink": "https://www.w3.org/TR/shacl/",
+        "editor-draft": "https://w3c.github.io/data-shapes/shacl/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170411"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170411/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170411/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170411/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170411/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-shacl-20170303/",
+        "date": "2017-03-03",
+        "informative": false,
+        "title": "Shapes Constraint Language (SHACL)",
+        "shortlink": "https://www.w3.org/TR/shacl/",
+        "editor-draft": "https://w3c.github.io/data-shapes/shacl/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170303"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170303/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170303/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170303/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170303/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-shacl-20170202/",
+        "date": "2017-02-02",
+        "informative": false,
+        "title": "Shapes Constraint Language (SHACL)",
+        "shortlink": "https://www.w3.org/TR/shacl/",
+        "editor-draft": "http://w3c.github.io/data-shapes/shacl/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170202"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170202/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170202/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170202/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20170202/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-shacl-20160814/",
+        "date": "2016-08-14",
+        "informative": false,
+        "title": "Shapes Constraint Language (SHACL)",
+        "shortlink": "https://www.w3.org/TR/shacl/",
+        "editor-draft": "http://w3c.github.io/data-shapes/shacl/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160814"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160814/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160814/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160814/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160814/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-shacl-20160530/",
+        "date": "2016-05-30",
+        "informative": false,
+        "title": "Shapes Constraint Language (SHACL)",
+        "shortlink": "http://www.w3.org/TR/shacl/",
+        "editor-draft": "http://w3c.github.io/data-shapes/shacl/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160530"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160530/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160530/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160530/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160530/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-shacl-20160128/",
+        "date": "2016-01-28",
+        "informative": false,
+        "title": "Shapes Constraint Language (SHACL)",
+        "shortlink": "http://www.w3.org/TR/shacl/",
+        "editor-draft": "http://w3c.github.io/data-shapes/shacl/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160128"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160128/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160128/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160128/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20160128/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-shacl-20151008/",
+        "date": "2015-10-08",
+        "informative": false,
+        "title": "Shapes Constraint Language (SHACL)",
+        "shortlink": "http://www.w3.org/TR/shacl/",
+        "editor-draft": "http://w3c.github.io/data-shapes/shacl/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20151008"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20151008/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20151008/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl/versions/20151008/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "SHACL Core Abstract Syntax and Semantics",
+    "shortlink": "https://www.w3.org/TR/shacl-abstract-syntax/",
+    "shortname": "shacl-abstract-syntax",
+    "description": "<p>This document defines an abstract syntax for the core SHACL (SHApes Constraint Language). It is derived from the SHACL specification and is a non-normative version of the content of that specification.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/shacl-abstract-syntax"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/shacl-abstract-syntax/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/shacl-abstract-syntax/versions/20160825",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/shacl-abstract-syntax/versions/20160825",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "http://w3c.github.io/data-shapes/shacl-abstract-syntax/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-shacl-abstract-syntax-20160825/",
+        "date": "2016-08-25",
+        "informative": false,
+        "title": "SHACL Core Abstract Syntax and Semantics",
+        "shortlink": "https://www.w3.org/TR/shacl-abstract-syntax/",
+        "editor-draft": "http://w3c.github.io/data-shapes/shacl-abstract-syntax/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl-abstract-syntax/versions/20160825"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl-abstract-syntax/versions/20160825/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl-abstract-syntax/versions/20160825/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl-abstract-syntax"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "SHACL Use Cases and Requirements",
+    "shortlink": "http://www.w3.org/TR/shacl-ucr/",
+    "shortname": "shacl-ucr",
+    "description": "<p>To foster the development of Shapes Constraint Language\r\n(SHACL) this document includes a set of use cases and requirements that\r\nmotivate a simple language and semantics for formulating structural\r\nconstraints on RDF graphs. All use cases provide realistic examples\r\ndescribing how people may use structural constraints to validate RDF\r\ninstance data.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/shacl-ucr"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/shacl-ucr/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150414",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/shacl-ucr/versions/20160122",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "http://w3c.github.io/data-shapes/data-shapes-ucr/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "http://www.w3.org/TR/2016/WD-shacl-ucr-20160122/",
+        "date": "2016-01-22",
+        "informative": false,
+        "title": "SHACL Use Cases and Requirements",
+        "shortlink": "http://www.w3.org/TR/shacl-ucr/",
+        "editor-draft": "http://w3c.github.io/data-shapes/data-shapes-ucr/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20160122"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20160122/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20160122/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl-ucr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20160122/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "http://www.w3.org/TR/2015/WD-shacl-ucr-20150930/",
+        "date": "2015-09-30",
+        "informative": false,
+        "title": "SHACL Use Cases and Requirements",
+        "shortlink": "http://www.w3.org/TR/shacl-ucr/",
+        "editor-draft": "http://w3c.github.io/data-shapes/data-shapes-ucr/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150930"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150930/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150930/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl-ucr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150930/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150930/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "http://www.w3.org/TR/2015/WD-shacl-ucr-20150414/",
+        "date": "2015-04-14",
+        "informative": true,
+        "title": "SHACL Use Cases and Requirements",
+        "shortlink": "http://www.w3.org/TR/shacl-ucr/",
+        "editor-draft": "http://w3c.github.io/data-shapes/data-shapes-ucr/",
+        "process-rules": "http://www.w3.org/2005/10/Process-20051014/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150414"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150414/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150414/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl-ucr"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl-ucr/versions/20150414/successors"
+          }
+        }
+      }
+    ]
+  }
 ]
