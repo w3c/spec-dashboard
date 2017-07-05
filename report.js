@@ -1,5 +1,10 @@
-(function() {
+{
     const now = new Date();
+
+    const upcoming = d => new Date(d) < monthFromNow(4);
+    const upcoming6 = d => new Date(d) < monthFromNow(6);
+    const outdated = d => new Date(d) < now;
+
     const monthFromNow = (n) => new Date(new Date().setMonth(now.getMonth() + n));
     const last = a => a[a.length - 1];
 
@@ -25,6 +30,7 @@
                             const li = specLink(spec);
                             const date = document.createElement("span");
                             date.appendChild(document.createTextNode(milestoneData[s][m]));
+                            if (outdated(milestoneData[s][m])) date.className='outdated';
                             li.appendChild(document.createTextNode(" (" + groupname + ") : "));
                             li.appendChild(date);
                             el.appendChild(li);
@@ -58,8 +64,6 @@
                         count.textContent = parseInt(count.textContent, 10) + specData.length;
                         reccount.textContent = parseInt(reccount.textContent, 10) + specData.filter(s => s.versions[0]["rec-track"]).length;
 
-                        const upcoming = d => new Date(d) < monthFromNow(4);
-                        const upcoming6 = d => new Date(d) < monthFromNow(6);
                         listMilestoneTest("upcomingwr", "WR/LC", upcoming)(milestoneData, specData, groupname);
                         listMilestoneTest("upcomingcr", "CR", upcoming)(milestoneData, specData, groupname);
                         listMilestoneTest("upcomingpr", "PR/PER", upcoming6)(milestoneData, specData, groupname);
@@ -126,4 +130,4 @@
                 items.forEach(li => ol.appendChild(li));
             });
         });
-})();
+}
