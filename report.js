@@ -3,7 +3,7 @@
 
     const upcoming = d => new Date(d) < monthFromNow(4);
     const upcoming6 = d => new Date(d) < monthFromNow(6);
-    const outdated = d => new Date(d) > now;
+    const outdated = d => new Date(d) < now;
 
     const monthFromNow = (n) => new Date(new Date().setMonth(now.getMonth() + n));
     const last = a => a[a.length - 1];
