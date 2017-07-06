@@ -7,6 +7,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 19,
+        "created_at": "2017-06-28T10:31:52Z",
+        "closed_at": "2017-06-28T10:33:43Z",
+        "title": "Align example with GS API spec changes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 18,
         "created_at": "2017-05-30T23:59:53Z",
@@ -195,6 +205,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "closed",
+        "number": 30,
+        "created_at": "2017-06-28T11:50:45Z",
+        "closed_at": "2017-06-28T13:31:16Z",
+        "title": "Align example code with latest GS API changes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "closed",
         "number": 29,
@@ -648,10 +668,50 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
+        "number": 243,
+        "created_at": "2017-06-30T13:00:54Z",
+        "closed_at": "2017-07-05T15:05:30Z",
+        "title": "The internal slots are not reset",
+        "labels": [],
+        "assignee": "pozdnyakov",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 242,
+        "created_at": "2017-06-30T03:03:44Z",
+        "closed_at": "2017-06-30T12:02:46Z",
+        "title": "Find an appropriate test reviewer",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 241,
+        "created_at": "2017-06-27T15:53:46Z",
+        "closed_at": "2017-06-28T09:41:22Z",
+        "title": "Add definition for optimal sampling frequency",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 240,
+        "created_at": "2017-06-27T15:52:15Z",
+        "closed_at": "2017-06-28T09:41:22Z",
+        "title": "Let the UA (platform) calculate optimal sampling frequency",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 239,
         "created_at": "2017-06-27T10:20:35Z",
-        "closed_at": null,
+        "closed_at": "2017-06-28T10:00:48Z",
         "title": "Rename 'onchange' to 'onreading'",
         "labels": [],
         "assignee": null,
@@ -775,13 +835,6 @@
         "title": "Define algorithm for suspending / resuming activated sensor objects",
         "labels": [
           {
-            "id": 225968346,
-            "url": "https://api.github.com/repos/w3c/sensors/labels/non-normative",
-            "name": "non-normative",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 470652200,
             "url": "https://api.github.com/repos/w3c/sensors/labels/pending-external-decision",
             "name": "pending-external-decision",
@@ -871,7 +924,15 @@
         "created_at": "2017-05-27T11:54:58Z",
         "closed_at": null,
         "title": "Investigate adding dedicated task sources",
-        "labels": [],
+        "labels": [
+          {
+            "id": 470657134,
+            "url": "https://api.github.com/repos/w3c/sensors/labels/needs-research",
+            "name": "needs-research",
+            "color": "e99695",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -896,13 +957,13 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 218,
         "created_at": "2017-05-27T11:20:46Z",
-        "closed_at": null,
+        "closed_at": "2017-07-05T15:05:30Z",
         "title": "Define tasks for state changes",
         "labels": [],
-        "assignee": null,
+        "assignee": "pozdnyakov",
         "isPullRequest": false
       },
       {
@@ -926,11 +987,11 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 215,
         "created_at": "2017-05-26T09:13:44Z",
-        "closed_at": null,
-        "title": "Use simple event dispatch mechanism instead of task source (queued)",
+        "closed_at": "2017-07-05T15:05:30Z",
+        "title": "Use task source mechanism to dispatch events instead of firing them synchronously",
         "labels": [
           {
             "id": 617083070,
@@ -940,7 +1001,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "pozdnyakov",
         "isPullRequest": false
       },
       {
@@ -1064,10 +1125,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 205,
         "created_at": "2017-05-19T09:55:49Z",
-        "closed_at": null,
+        "closed_at": "2017-06-28T10:00:48Z",
         "title": "Agree on event names",
         "labels": [
           {
@@ -1082,23 +1143,23 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 204,
         "created_at": "2017-05-19T08:41:13Z",
-        "closed_at": null,
+        "closed_at": "2017-07-05T15:05:30Z",
         "title": "The Update latest reading abstract operation is never invoked",
         "labels": [],
-        "assignee": null,
+        "assignee": "pozdnyakov",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 203,
         "created_at": "2017-05-19T08:40:45Z",
-        "closed_at": null,
+        "closed_at": "2017-07-05T15:05:30Z",
         "title": "Sensor object can stuck in `activating` state",
         "labels": [],
-        "assignee": null,
+        "assignee": "pozdnyakov",
         "isPullRequest": false
       },
       {
@@ -1112,13 +1173,13 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 201,
         "created_at": "2017-05-19T08:39:30Z",
-        "closed_at": null,
+        "closed_at": "2017-06-30T13:04:32Z",
         "title": "The Sensor.waitingForUpdate internal slot is useless",
         "labels": [],
-        "assignee": null,
+        "assignee": "pozdnyakov",
         "isPullRequest": false
       },
       {
@@ -1132,13 +1193,13 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 199,
         "created_at": "2017-05-19T08:36:44Z",
-        "closed_at": null,
+        "closed_at": "2017-06-30T13:04:03Z",
         "title": "The Sensor.lastEventFiredAt internal slot is useless",
         "labels": [],
-        "assignee": null,
+        "assignee": "pozdnyakov",
         "isPullRequest": false
       },
       {
@@ -1147,15 +1208,23 @@
         "created_at": "2017-05-19T07:36:32Z",
         "closed_at": null,
         "title": "Define processing model",
-        "labels": [],
+        "labels": [
+          {
+            "id": 470657134,
+            "url": "https://api.github.com/repos/w3c/sensors/labels/needs-research",
+            "name": "needs-research",
+            "color": "e99695",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 197,
         "created_at": "2017-05-18T12:37:00Z",
-        "closed_at": null,
+        "closed_at": "2017-07-05T15:05:30Z",
         "title": "Rewrite Abstract Operations",
         "labels": [],
         "assignee": null,
@@ -1183,7 +1252,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "alexshalamov",
         "isPullRequest": false
       },
       {
@@ -1415,7 +1484,7 @@
         "closed_at": null,
         "title": "w3c.github.io/sensors/usecases.html 404s",
         "labels": [],
-        "assignee": null,
+        "assignee": "alexshalamov",
         "isPullRequest": false
       },
       {
@@ -1721,7 +1790,7 @@
         "closed_at": null,
         "title": "Sensor.timeStamp could be clarified",
         "labels": [],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -1731,7 +1800,7 @@
         "closed_at": null,
         "title": "Need API to report platform accuracy changes?",
         "labels": [],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -1763,7 +1832,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -1833,7 +1902,15 @@
         "created_at": "2016-11-02T15:21:51Z",
         "closed_at": null,
         "title": "Issues caused by visibility state restriction semantics",
-        "labels": [],
+        "labels": [
+          {
+            "id": 470657134,
+            "url": "https://api.github.com/repos/w3c/sensors/labels/needs-research",
+            "name": "needs-research",
+            "color": "e99695",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2074,7 +2151,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -2230,7 +2307,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -2269,7 +2346,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -2368,10 +2445,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 126,
         "created_at": "2016-09-13T13:54:23Z",
-        "closed_at": null,
+        "closed_at": "2017-07-05T15:05:30Z",
         "title": "Reporting mode and polling frequency",
         "labels": [
           {
@@ -2389,7 +2466,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": "pozdnyakov",
         "isPullRequest": false
       },
       {
@@ -2708,7 +2785,7 @@
             "default": true
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -2927,7 +3004,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -3332,7 +3409,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -3566,7 +3643,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -3788,7 +3865,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -3955,7 +4032,7 @@
             "default": false
           }
         ],
-        "assignee": "tobie",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -4455,6 +4532,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "closed",
+        "number": 28,
+        "created_at": "2017-06-28T11:44:37Z",
+        "closed_at": "2017-06-28T12:01:34Z",
+        "title": "Align example code with latest GS API changes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "closed",
         "number": 27,
@@ -5363,10 +5450,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 105,
         "created_at": "2017-06-19T09:29:00Z",
-        "closed_at": null,
+        "closed_at": "2017-06-29T10:18:05Z",
         "title": "Clarify screen lock reinstate on manual switch off",
         "labels": [],
         "assignee": null,
@@ -5393,10 +5480,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 102,
         "created_at": "2017-06-07T09:50:29Z",
-        "closed_at": null,
+        "closed_at": "2017-06-29T10:18:20Z",
         "title": "Clarify state of screen lock after manual lock & unlock",
         "labels": [],
         "assignee": null,
