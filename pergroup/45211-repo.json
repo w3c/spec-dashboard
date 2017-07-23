@@ -582,9 +582,19 @@
     "issues": [
       {
         "state": "open",
+        "number": 50,
+        "created_at": "2017-07-21T18:28:15Z",
+        "closed_at": null,
+        "title": "Define \"current high resolution time\" as primitive",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 49,
         "created_at": "2017-06-22T10:46:06Z",
-        "closed_at": null,
+        "closed_at": "2017-07-21T18:14:29Z",
         "title": "WebIDL serializer has been deprecated in favor of toJSON operation",
         "labels": [],
         "assignee": null,
@@ -1264,9 +1274,19 @@
     "issues": [
       {
         "state": "open",
+        "number": 50,
+        "created_at": "2017-07-21T18:28:15Z",
+        "closed_at": null,
+        "title": "Define \"current high resolution time\" as primitive",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 49,
         "created_at": "2017-06-22T10:46:06Z",
-        "closed_at": null,
+        "closed_at": "2017-07-21T18:14:29Z",
         "title": "WebIDL serializer has been deprecated in favor of toJSON operation",
         "labels": [],
         "assignee": null,
@@ -1955,10 +1975,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 73,
         "created_at": "2017-06-29T12:22:48Z",
-        "closed_at": null,
+        "closed_at": "2017-07-21T17:07:41Z",
         "title": "Can't determine whether there were no redirects or redirect failed timing allow check",
         "labels": [],
         "assignee": null,
@@ -3178,15 +3198,23 @@
         "created_at": "2017-07-12T05:27:55Z",
         "closed_at": null,
         "title": "Existing Test gap: Verify that toJSON output is created properly",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 598665332,
+            "url": "https://api.github.com/repos/w3c/performance-timeline/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
+        "assignee": "toddreifsteck",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 82,
         "created_at": "2017-06-22T10:39:13Z",
-        "closed_at": null,
+        "closed_at": "2017-07-21T18:41:59Z",
         "title": "WebIDL serializer has been deprecated in favor of toJSON operation",
         "labels": [],
         "assignee": null,
@@ -3197,8 +3225,16 @@
         "number": 81,
         "created_at": "2017-06-19T14:10:47Z",
         "closed_at": null,
-        "title": "Define `performance entry buffer` interaction w/ existing buffers",
-        "labels": [],
+        "title": "Define buffering behaviors & hooks for queued (PerformanceObserver) entries",
+        "labels": [
+          {
+            "id": 132834324,
+            "url": "https://api.github.com/repos/w3c/performance-timeline/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3213,20 +3249,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 79,
         "created_at": "2017-05-31T17:05:36Z",
-        "closed_at": null,
+        "closed_at": "2017-07-21T18:46:46Z",
         "title": "PerformanceObserver developer / RUM friendliness",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 78,
         "created_at": "2017-05-31T15:01:11Z",
-        "closed_at": null,
+        "closed_at": "2017-07-21T18:46:07Z",
         "title": "Clarity on buffered-until-onload (and buffers, buffers, everywhere)",
         "labels": [],
         "assignee": null,
@@ -3237,8 +3273,16 @@
         "number": 77,
         "created_at": "2017-05-23T00:09:21Z",
         "closed_at": null,
-        "title": "Add a method to enumerate available types of entries",
-        "labels": [],
+        "title": "Add a method to enumerate type of entries observable via PerformanceObserver",
+        "labels": [
+          {
+            "id": 132834324,
+            "url": "https://api.github.com/repos/w3c/performance-timeline/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4181,8 +4225,16 @@
         "created_at": "2017-06-19T07:43:35Z",
         "closed_at": null,
         "title": "How do we fetch resources specified in `Link` headers?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 158700241,
+            "url": "https://api.github.com/repos/w3c/preload/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": "yoavweiss",
         "isPullRequest": false
       },
       {
@@ -4201,7 +4253,15 @@
         "created_at": "2017-06-13T12:32:53Z",
         "closed_at": null,
         "title": "Revisit `rel=preload` as a push signal",
-        "labels": [],
+        "labels": [
+          {
+            "id": 158700238,
+            "url": "https://api.github.com/repos/w3c/preload/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4250,7 +4310,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "yoavweiss",
         "isPullRequest": false
       },
       {
@@ -4288,7 +4348,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "yoavweiss",
         "isPullRequest": false
       },
       {
@@ -4352,10 +4412,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 85,
         "created_at": "2017-02-08T06:56:20Z",
-        "closed_at": null,
+        "closed_at": "2017-07-21T20:54:48Z",
         "title": "Specifying or using preload twice",
         "labels": [],
         "assignee": null,
@@ -4372,10 +4432,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 83,
         "created_at": "2017-01-18T15:51:06Z",
-        "closed_at": null,
+        "closed_at": "2017-07-21T20:55:55Z",
         "title": "Tighter definition of \"load was successful\"",
         "labels": [
           {
@@ -9360,6 +9420,34 @@
     "issues": [
       {
         "state": "open",
+        "number": 24,
+        "created_at": "2017-07-21T21:45:25Z",
+        "closed_at": null,
+        "title": "Transition Level 1 to CR",
+        "labels": [
+          {
+            "id": 652362431,
+            "url": "https://api.github.com/repos/w3c/server-timing/labels/w3c",
+            "name": "w3c",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 23,
+        "created_at": "2017-07-21T13:30:55Z",
+        "closed_at": null,
+        "title": "duration: double -> DOMHighResTimestamp",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 22,
         "created_at": "2017-07-20T21:37:46Z",
         "closed_at": null,
@@ -9601,7 +9689,15 @@
         "created_at": "2017-07-12T05:28:46Z",
         "closed_at": null,
         "title": "Existing Test gap: Verify that toJSON output is created properly",
-        "labels": [],
+        "labels": [
+          {
+            "id": 460391009,
+            "url": "https://api.github.com/repos/w3c/user-timing/labels/test:missing-coverage",
+            "name": "test:missing-coverage",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9621,7 +9717,15 @@
         "created_at": "2017-03-31T20:14:15Z",
         "closed_at": null,
         "title": "Should performance.measure() work with resource timing entries?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 400426137,
+            "url": "https://api.github.com/repos/w3c/user-timing/labels/whiteboard",
+            "name": "whiteboard",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9649,7 +9753,15 @@
         "created_at": "2017-03-03T14:56:46Z",
         "closed_at": null,
         "title": "Provide a way to associate warnings with measurements",
-        "labels": [],
+        "labels": [
+          {
+            "id": 400426137,
+            "url": "https://api.github.com/repos/w3c/user-timing/labels/whiteboard",
+            "name": "whiteboard",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9669,7 +9781,15 @@
         "created_at": "2017-01-26T18:49:36Z",
         "closed_at": null,
         "title": "mark() and measure() return PerformanceEntries",
-        "labels": [],
+        "labels": [
+          {
+            "id": 138221527,
+            "url": "https://api.github.com/repos/w3c/user-timing/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9679,7 +9799,15 @@
         "created_at": "2016-12-15T20:02:09Z",
         "closed_at": null,
         "title": "What does \"navigationStart\" mean as a second argument to performance.measure() in a web worker?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 138221525,
+            "url": "https://api.github.com/repos/w3c/user-timing/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
