@@ -748,12 +748,41 @@
         "title": "Last Call"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/hr-time-2/versions/20161101",
+        "href": "https://api.w3.org/specifications/hr-time-2/versions/20170803",
         "title": "Candidate Recommendation"
       }
     },
     "editorsdraft": "https://w3c.github.io/hr-time/",
     "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-hr-time-2-20170803/",
+        "date": "2017-08-03",
+        "implementation-feedback-due": "2017-08-31",
+        "informative": false,
+        "title": "High Resolution Time Level 2",
+        "shortlink": "https://www.w3.org/TR/hr-time-2/",
+        "editor-draft": "https://w3c.github.io/hr-time/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/hr-time-2/versions/20170803"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/hr-time-2/versions/20170803/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/hr-time-2/versions/20170803/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/hr-time-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/hr-time-2/versions/20170803/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -780,6 +809,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/hr-time-2/versions/20161101/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/hr-time-2/versions/20161101/successors"
           }
         }
       },
@@ -1490,56 +1522,6 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/hr-time-2/versions/20131203/successors"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "title": "High Resolution Time Level 3",
-    "shortlink": "https://www.w3.org/TR/hr-time-3/",
-    "shortname": "hr-time-3",
-    "description": "<p>This specification defines an API that provides the current time in sub-millisecond resolution and such that it is not subject to system clock skew or adjustments.</p>",
-    "_links": {
-      "self": {
-        "href": "https://api.w3.org/specifications/hr-time-3"
-      },
-      "version-history": {
-        "href": "https://api.w3.org/specifications/hr-time-3/versions"
-      },
-      "first-version": {
-        "href": "https://api.w3.org/specifications/hr-time-3/versions/20161031",
-        "title": "Working Draft"
-      },
-      "latest-version": {
-        "href": "https://api.w3.org/specifications/hr-time-3/versions/20161031",
-        "title": "Working Draft"
-      }
-    },
-    "editorsdraft": "https://w3c.github.io/hr-time/",
-    "versions": [
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "uri": "https://www.w3.org/TR/2016/WD-hr-time-3-20161031/",
-        "date": "2016-10-31",
-        "informative": false,
-        "title": "High Resolution Time Level 3",
-        "shortlink": "https://www.w3.org/TR/hr-time-3/",
-        "editor-draft": "https://w3c.github.io/hr-time/",
-        "process-rules": "https://www.w3.org/2015/Process-20150901/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/hr-time-3/versions/20161031"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/hr-time-3/versions/20161031/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/hr-time-3/versions/20161031/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/hr-time-3"
           }
         }
       }
