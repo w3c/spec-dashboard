@@ -1,1 +1,968 @@
-{}
+{
+  "https://www.w3.org/TR/verifiable-claims-data-model/": {
+    "repo": {
+      "owner": "w3c",
+      "name": "vc-data-model"
+    },
+    "recTrack": true,
+    "issues": [
+      {
+        "state": "open",
+        "number": 66,
+        "created_at": "2017-07-27T17:33:45Z",
+        "closed_at": null,
+        "title": "\"Verifiable Claim\" as a concept without a direct data model mapping",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 65,
+        "created_at": "2017-07-27T17:06:00Z",
+        "closed_at": null,
+        "title": "Restructure spec to describe basic concepts and verification",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 64,
+        "created_at": "2017-07-27T13:53:20Z",
+        "closed_at": null,
+        "title": "\"Inspector-Verifier\" terminology is confusing",
+        "labels": [
+          {
+            "id": 656256831,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/terminology",
+            "name": "terminology",
+            "color": "f9d0c4",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 63,
+        "created_at": "2017-07-25T15:18:18Z",
+        "closed_at": "2017-07-27T13:20:21Z",
+        "title": "Fix GitHub link (issues, etc): vc-use-cases -> vc-data-model",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 62,
+        "created_at": "2017-07-22T16:46:20Z",
+        "closed_at": "2017-07-23T22:07:37Z",
+        "title": "Insight for DID spec: proofs, not keys",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 61,
+        "created_at": "2017-07-22T16:45:31Z",
+        "closed_at": null,
+        "title": "DDOs as self-signed Verifiable Claims",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 60,
+        "created_at": "2017-07-18T00:08:16Z",
+        "closed_at": null,
+        "title": "What would a counter-signed RWoT claim look like?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 59,
+        "created_at": "2017-07-16T19:34:54Z",
+        "closed_at": null,
+        "title": "Challenges in Understanding Spectrum of Integrity/Inspection/Validation/Verification/Confirmation/Revocation",
+        "labels": [
+          {
+            "id": 652237074,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ValidationProcess",
+            "name": "ValidationProcess",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 58,
+        "created_at": "2017-07-11T16:14:43Z",
+        "closed_at": null,
+        "title": "Expiration versus Revocation",
+        "labels": [
+          {
+            "id": 652237293,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/RevocationProcess",
+            "name": "RevocationProcess",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 57,
+        "created_at": "2017-07-11T15:47:56Z",
+        "closed_at": null,
+        "title": "Ideas for roles to add to the data model for next draft",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 56,
+        "created_at": "2017-06-10T02:16:40Z",
+        "closed_at": "2017-07-22T16:17:58Z",
+        "title": "A moderate rework of the introductory text and images",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 55,
+        "created_at": "2017-06-10T00:56:12Z",
+        "closed_at": null,
+        "title": "Multiple subjects in a single credential",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 54,
+        "created_at": "2017-06-10T00:30:04Z",
+        "closed_at": null,
+        "title": "Should spec include WebIDL and XML expressions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 53,
+        "created_at": "2017-06-06T16:02:42Z",
+        "closed_at": "2017-06-10T01:55:31Z",
+        "title": "Update head-matter to be consistent with vc-use-cases.",
+        "labels": [
+          {
+            "id": 490235934,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 52,
+        "created_at": "2017-06-06T15:38:23Z",
+        "closed_at": "2017-06-14T16:05:31Z",
+        "title": "Repo Needs README.md",
+        "labels": [],
+        "assignee": "burnburn",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 51,
+        "created_at": "2017-06-06T15:36:26Z",
+        "closed_at": "2017-06-13T16:21:30Z",
+        "title": "Bad Github Description Link",
+        "labels": [],
+        "assignee": "burnburn",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 50,
+        "created_at": "2017-06-01T15:22:55Z",
+        "closed_at": null,
+        "title": "Add Accessibility Use Case for under 3.3 Healthcare",
+        "labels": [],
+        "assignee": "Ryladog",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 49,
+        "created_at": "2017-06-01T01:21:10Z",
+        "closed_at": "2017-06-10T01:28:14Z",
+        "title": "Refactor some uses of \"identity\" to \"entity\".",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 48,
+        "created_at": "2017-05-30T15:58:05Z",
+        "closed_at": null,
+        "title": "Add section about terms of use",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 47,
+        "created_at": "2017-05-30T15:54:51Z",
+        "closed_at": null,
+        "title": "3 Types of Claims",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 46,
+        "created_at": "2017-05-30T15:51:13Z",
+        "closed_at": null,
+        "title": "Add section/language about presentation of claims",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 45,
+        "created_at": "2017-05-30T14:46:37Z",
+        "closed_at": "2017-06-10T00:35:16Z",
+        "title": "Comment out WebIDL section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 44,
+        "created_at": "2017-03-16T00:57:40Z",
+        "closed_at": "2017-04-14T18:02:40Z",
+        "title": "Add verification check instructions. Relates to #9.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 43,
+        "created_at": "2017-03-14T15:33:37Z",
+        "closed_at": "2017-04-14T18:04:50Z",
+        "title": "Adds description of Favoring Abstract Claims",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 42,
+        "created_at": "2017-03-10T18:49:35Z",
+        "closed_at": null,
+        "title": "Integration with Web Components",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 490236251,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
+            "name": "security",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 41,
+        "created_at": "2017-03-07T14:16:55Z",
+        "closed_at": null,
+        "title": "Add DO_NOT_CORRELATE flag to Verifiable Claims",
+        "labels": [
+          {
+            "id": 482297544,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/feature%20request",
+            "name": "feature request",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 490236464,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/substantive%20change",
+            "name": "substantive change",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 40,
+        "created_at": "2017-02-28T15:57:04Z",
+        "closed_at": "2017-06-01T00:07:25Z",
+        "title": "Add links and references to missing terminology.",
+        "labels": [
+          {
+            "id": 490235934,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 39,
+        "created_at": "2017-02-28T15:36:57Z",
+        "closed_at": "2017-03-07T14:13:25Z",
+        "title": "Add section on storage providers and data mining.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 38,
+        "created_at": "2017-02-28T15:06:43Z",
+        "closed_at": "2017-06-09T17:16:47Z",
+        "title": "Add content to Principle of Minimum Disclosure section.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 37,
+        "created_at": "2017-02-22T17:22:52Z",
+        "closed_at": "2017-04-14T18:03:48Z",
+        "title": "Expanded section on correlatable usage patterns",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 36,
+        "created_at": "2017-02-06T20:03:24Z",
+        "closed_at": "2017-02-24T16:03:45Z",
+        "title": "Add section on the Revocation Model.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 35,
+        "created_at": "2017-02-06T19:52:04Z",
+        "closed_at": null,
+        "title": "Define ONE concrete format for the revocation parameter",
+        "labels": [
+          {
+            "id": 652237293,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/RevocationProcess",
+            "name": "RevocationProcess",
+            "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 490236251,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
+            "name": "security",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 34,
+        "created_at": "2017-01-24T16:24:16Z",
+        "closed_at": "2017-02-27T15:07:33Z",
+        "title": "Add section on Revocation",
+        "labels": [],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 33,
+        "created_at": "2017-01-21T09:55:00Z",
+        "closed_at": null,
+        "title": "RDFS / OWL for VC vocabulary?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 32,
+        "created_at": "2017-01-12T11:20:02Z",
+        "closed_at": null,
+        "title": "Bootstrapping Simple WoT Verifiable Claims",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 31,
+        "created_at": "2016-12-31T17:59:38Z",
+        "closed_at": "2017-06-02T17:23:56Z",
+        "title": "Add comment about updating a paragraph (DO NOT MERGE)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 30,
+        "created_at": "2016-12-20T15:18:24Z",
+        "closed_at": null,
+        "title": "Design choices in expressing a verifiable claim",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 29,
+        "created_at": "2016-12-15T01:19:53Z",
+        "closed_at": "2016-12-15T01:56:44Z",
+        "title": "3 typos of \"representd\", in 4.1.1, 4.1.2, 4.3.2",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 28,
+        "created_at": "2016-12-13T15:21:47Z",
+        "closed_at": "2017-06-02T17:23:40Z",
+        "title": "Add ignore me comment (DO NOT MERGE)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 27,
+        "created_at": "2016-12-05T23:28:26Z",
+        "closed_at": null,
+        "title": "An alternate approach to expressing JSON formulations with VC",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 26,
+        "created_at": "2016-12-05T18:01:44Z",
+        "closed_at": null,
+        "title": "Are JWTs appropriate for Verifiable Claims?",
+        "labels": [
+          {
+            "id": 490236251,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
+            "name": "security",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 25,
+        "created_at": "2016-12-04T21:58:36Z",
+        "closed_at": null,
+        "title": "Why is the Identity Profile not included in the list of \"standardization work\"?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 24,
+        "created_at": "2016-12-04T21:51:33Z",
+        "closed_at": null,
+        "title": "Unclear on antecedent of \"agent\" in Entity Credentials capabilities",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 23,
+        "created_at": "2016-11-30T04:50:06Z",
+        "closed_at": null,
+        "title": "Confused by json-ld inclusions in JSON examples 3 and 5 -- is this correct?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 22,
+        "created_at": "2016-11-30T04:30:35Z",
+        "closed_at": "2016-12-15T01:56:44Z",
+        "title": "Three identical typos of \"representd\", sections 4.1.1, 4.1.2, 4.3.2",
+        "labels": [
+          {
+            "id": 490235934,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 21,
+        "created_at": "2016-11-30T04:28:02Z",
+        "closed_at": null,
+        "title": "Typo section 2 \"abouth\"",
+        "labels": [
+          {
+            "id": 490235934,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false
+          }
+        ],
+        "assignee": "burnburn",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 20,
+        "created_at": "2016-11-30T04:26:00Z",
+        "closed_at": null,
+        "title": "Should commenting by adding Github issue be mentioned in Status section?",
+        "labels": [
+          {
+            "id": 490235934,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false
+          }
+        ],
+        "assignee": "burnburn",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 19,
+        "created_at": "2016-11-28T15:30:51Z",
+        "closed_at": null,
+        "title": "Add renewalService URL to standard data model",
+        "labels": [
+          {
+            "id": 482297544,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/feature%20request",
+            "name": "feature request",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 490236464,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/substantive%20change",
+            "name": "substantive change",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 18,
+        "created_at": "2016-11-28T15:24:26Z",
+        "closed_at": null,
+        "title": "Highly dynamic information should have short expiry times",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 490236251,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
+            "name": "security",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 17,
+        "created_at": "2016-11-28T15:18:16Z",
+        "closed_at": null,
+        "title": "Dependent claims should be bundled",
+        "labels": [
+          {
+            "id": 490236251,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
+            "name": "security",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 16,
+        "created_at": "2016-11-28T15:06:47Z",
+        "closed_at": null,
+        "title": "Unsigned claims not secure",
+        "labels": [
+          {
+            "id": 490236251,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
+            "name": "security",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 15,
+        "created_at": "2016-11-28T14:40:08Z",
+        "closed_at": null,
+        "title": "Origin-bound claims are more privacy-aware",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 14,
+        "created_at": "2016-11-28T14:39:25Z",
+        "closed_at": null,
+        "title": "Correlation via frequency of claim issuance",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 13,
+        "created_at": "2016-11-28T14:36:52Z",
+        "closed_at": null,
+        "title": "Tokenize to prevent sharing information with the wrong party",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 12,
+        "created_at": "2016-11-28T14:35:16Z",
+        "closed_at": null,
+        "title": "Correlatability of usage patterns",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 11,
+        "created_at": "2016-11-28T14:33:33Z",
+        "closed_at": null,
+        "title": "Aggregation of claims reveal more than the data itself",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 10,
+        "created_at": "2016-11-28T14:30:56Z",
+        "closed_at": null,
+        "title": "Storage location of claims may mine data",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 9,
+        "created_at": "2016-11-28T14:26:49Z",
+        "closed_at": "2017-07-27T16:38:03Z",
+        "title": "List all validity checks that should be performed",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 652237074,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ValidationProcess",
+            "name": "ValidationProcess",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 8,
+        "created_at": "2016-11-28T14:23:46Z",
+        "closed_at": null,
+        "title": "Correlatability of bearer claims",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 7,
+        "created_at": "2016-11-28T14:22:44Z",
+        "closed_at": "2017-06-13T15:22:22Z",
+        "title": "Atomize information for principle of least authority",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 6,
+        "created_at": "2016-11-28T14:21:49Z",
+        "closed_at": "2017-04-14T18:04:50Z",
+        "title": "Favoring abstract claims",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5,
+        "created_at": "2016-11-28T14:19:15Z",
+        "closed_at": null,
+        "title": "Proof of Age insufficient for some regulatory requirements",
+        "labels": [
+          {
+            "id": 490236200,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
+            "name": "privacy",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4,
+        "created_at": "2016-11-28T14:09:40Z",
+        "closed_at": null,
+        "title": "Is the WebIDL expression necessary?",
+        "labels": [
+          {
+            "id": 490236464,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/substantive%20change",
+            "name": "substantive change",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3,
+        "created_at": "2016-11-28T14:06:30Z",
+        "closed_at": null,
+        "title": "Linked Data in JWTs",
+        "labels": [
+          {
+            "id": 490236251,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
+            "name": "security",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2,
+        "created_at": "2016-11-28T14:01:56Z",
+        "closed_at": null,
+        "title": "Composing JWT documents",
+        "labels": [
+          {
+            "id": 490236251,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
+            "name": "security",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1,
+        "created_at": "2016-11-28T13:59:50Z",
+        "closed_at": null,
+        "title": "Nesting Signatures with JWT",
+        "labels": [
+          {
+            "id": 490236251,
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
+            "name": "security",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      }
+    ]
+  }
+}
