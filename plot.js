@@ -7,7 +7,7 @@ const parseDate = d3.timeParse("%Y-%m-%d");
 
 const logError = err => document.querySelector("#msg").textContent = err;
 
-const recStages = ["FPWD", "WD", "WR/LC", "CR", "PR/PER", "REC"];
+const recStages = ["FPWD", "WD", "WR/LC", "CR", "PR", "REC"];
 // structure of the columns in the spreadsheet
 // matched to the list of stages known here
 
@@ -68,8 +68,7 @@ function dashboard(groupid, group) {
         case "Candidate Recommendation":
             return "CR";
         case "Proposed Recommendation":
-        case "Proposed Edited Recommendation":
-            return "PR/PER";
+            return "PR";
         case "Recommendation":
             return "REC";
         case "Last Call":
