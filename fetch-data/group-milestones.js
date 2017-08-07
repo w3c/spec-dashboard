@@ -15,7 +15,7 @@ function normalizeDate(d, uri) {
     }
 }
 
-const milestoneStages=["", "FPWD", "WR/LC", "CR", "", "PR/PER", "PR/PER", "REC"];
+const milestoneStages=["", "FPWD", "WR/LC", "CR", "", "PR", "REC"];
 
 fs.readFile("./groups.json", (err, data) => {
     if (err) return console.error(err);
@@ -36,7 +36,7 @@ fs.readFile("./groups.json", (err, data) => {
                 return;
             }
             // Produce an object à la
-            // { "https://www.w3.org/TR/foo" : {CR: "2017-03-31", "PR/PER": "2016-06-30"}}
+            // { "https://www.w3.org/TR/foo" : {CR: "2017-03-31", "PR": "2016-06-30"}}
             const milestones = spreadsheet.slice(1).reduce((cumul, row) => {
                 cumul[row[0]] = row.reduce( (a, b, i) => {
                     if (b && milestoneStages[i]) a[milestoneStages[i]] = normalizeDate(b, groups[wgid].url);
