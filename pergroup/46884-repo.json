@@ -7,10 +7,110 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 1288,
+        "created_at": "2017-08-10T15:47:32Z",
+        "closed_at": "2017-08-10T16:35:27Z",
+        "title": "Allow passing `null` to AudioBufferSourceNode.buffer.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
+        "number": 1287,
+        "created_at": "2017-08-10T15:42:33Z",
+        "closed_at": null,
+        "title": "`{PannerNode,AudioListener}.{setPosition,setOrientation}` should throw when set while an automation curve is active.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1286,
+        "created_at": "2017-08-09T20:44:56Z",
+        "closed_at": "2017-08-10T14:54:09Z",
+        "title": "Fix #1262: Clarify text for AudioContextOptions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1285,
+        "created_at": "2017-08-09T20:09:28Z",
+        "closed_at": null,
+        "title": "Fix #1162: MediaStream's continue when context is closed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1284,
+        "created_at": "2017-08-09T18:48:28Z",
+        "closed_at": "2017-08-10T16:35:18Z",
+        "title": "Fix #1267: DynamicsCompressor mode cannot be \"max\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1283,
+        "created_at": "2017-08-07T10:31:58Z",
+        "closed_at": "2017-08-08T09:45:14Z",
+        "title": "Corrupted sound with USB Hub  (no external power)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1282,
+        "created_at": "2017-08-04T17:00:02Z",
+        "closed_at": null,
+        "title": "[audioworklet] Error handling in AudioWorkletGlobalScope",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1281,
+        "created_at": "2017-08-02T19:08:00Z",
+        "closed_at": null,
+        "title": "Create AudioBuffer only when offline rendering begins.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1280,
+        "created_at": "2017-08-02T18:48:34Z",
+        "closed_at": "2017-08-03T15:40:55Z",
+        "title": "Fix broken link identifier for \"rendering a audio graph\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1279,
+        "created_at": "2017-08-02T12:13:19Z",
+        "closed_at": null,
+        "title": "Terminating an OfflineAudioContext render process permanently",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 1278,
         "created_at": "2017-07-26T15:40:16Z",
-        "closed_at": null,
+        "closed_at": "2017-08-10T16:10:42Z",
         "title": "Specify the DynamicsCompressor",
         "labels": [],
         "assignee": "padenot",
@@ -24,41 +124,56 @@
         "title": "startRendering behavior changed",
         "labels": [
           {
-            "id": 109540893,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
-            "name": "Editorial/Documentation",
-            "color": "fbca04",
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
             "default": false
           },
           {
-            "id": 142835591,
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
-            "name": "Needs WG review",
-            "color": "e11d21",
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "joeberkovitz",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1276,
         "created_at": "2017-07-20T14:52:12Z",
-        "closed_at": null,
+        "closed_at": "2017-08-10T14:37:33Z",
         "title": "deal with all the MUST and most of the SHOULD",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1275,
         "created_at": "2017-07-14T21:17:01Z",
-        "closed_at": null,
+        "closed_at": "2017-08-03T15:40:55Z",
         "title": "Bad link for \"Rendering an audio graph\"",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          },
+          {
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
+            "default": false
+          }
+        ],
+        "assignee": "joeberkovitz",
         "isPullRequest": false
       },
       {
@@ -68,14 +183,14 @@
         "closed_at": null,
         "title": "startRendering and AudioBuffer creation",
         "labels": [],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1273,
         "created_at": "2017-07-14T18:43:34Z",
-        "closed_at": null,
+        "closed_at": "2017-08-10T16:35:27Z",
         "title": "ABSN.buffer = null algorithm",
         "labels": [
           {
@@ -86,14 +201,14 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1272,
         "created_at": "2017-07-14T06:26:05Z",
-        "closed_at": null,
+        "closed_at": "2017-07-27T16:15:00Z",
         "title": "Behavior of over-leveled signal output to destination",
         "labels": [],
         "assignee": null,
@@ -163,10 +278,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1267,
         "created_at": "2017-06-27T17:28:32Z",
-        "closed_at": null,
+        "closed_at": "2017-08-10T16:35:19Z",
         "title": "DynamicsCompressor channelCountMode cannot be \"max\"",
         "labels": [
           {
@@ -181,6 +296,13 @@
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
             "name": "Editorial/Documentation",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
             "default": false
           }
         ],
@@ -228,10 +350,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1262,
         "created_at": "2017-06-21T19:50:10Z",
-        "closed_at": null,
+        "closed_at": "2017-08-10T14:54:10Z",
         "title": "AudioContextOptions holds more than just baseLatency",
         "labels": [
           {
@@ -249,7 +371,7 @@
             "default": false
           }
         ],
-        "assignee": "mdjp",
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
@@ -2746,10 +2868,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1089,
         "created_at": "2016-11-23T14:27:23Z",
-        "closed_at": null,
+        "closed_at": "2017-07-27T17:19:00Z",
         "title": "Specify the channels order for `HTMLMediaElement`",
         "labels": [
           {
@@ -17828,10 +17950,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 31,
         "created_at": "2013-09-11T14:27:45Z",
-        "closed_at": null,
+        "closed_at": "2017-08-10T14:56:38Z",
         "title": "Conformance section: need to note use of MUST that is \"RFC-legal\" as opposed to common English usage",
         "labels": [
           {
@@ -18252,10 +18374,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 10,
         "created_at": "2013-09-11T14:27:33Z",
-        "closed_at": null,
+        "closed_at": "2017-08-10T16:11:13Z",
         "title": "Describe the algorithm that DynamicsCompressorNode should use",
         "labels": [
           {
@@ -18503,6 +18625,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "closed",
+        "number": 180,
+        "created_at": "2017-07-29T04:47:28Z",
+        "closed_at": "2017-07-29T15:37:38Z",
+        "title": "Access to WebAudio Clock from WebMIDI",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 179,
