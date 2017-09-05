@@ -9,6 +9,8 @@ var retryAfter = 0;
 
 const ghCache = {};
 
+const httpIze = u => u.replace(/^https:/, 'http:');
+
 const queueGhRequest = function(url) {
     return queue.add(function() {
         return new Promise(function (resolve, reject) {
@@ -123,6 +125,8 @@ fs.readFile("./groups.json", (err, data) => {
     if (err) return console.error(err);
     const groups = JSON.parse(data);
 
+    const updateIssues = process.argv[2] == "--update-issues";
+
     fs.writeFileSync("./pergroup/repo-update.json", JSON.stringify(new Date()));
 
     Object.keys(groups).forEach(wgid => {
@@ -131,17 +135,30 @@ fs.readFile("./groups.json", (err, data) => {
             Promise.all(
                 specs.map(s => Object.assign({}, s, {repo: urlToGHRepo(s.editorsdraft)}))
                     .filter(s => s.repo)
-                    .map(s => queueGhRequest('https://api.github.com/repos/' + s.repo.owner + '/' + s.repo.name + '/issues?state=all')
-                         .then(issues => {
-                             const hash = {}
-                             hash[s.shortlink] = {repo: s.repo, recTrack: s.versions[0]['rec-track']};
-                             hash[s.shortlink]["issues"] = issues.filter(s.repo.issuefilter)
-                                 .map(i => {
+                    .map(s => {
+                        const hash = {}
+                        hash[s.shortlink] = {repo: s.repo, recTrack: s.versions[0]['rec-track']};
+                        if (updateIssues) {
+                            return queueGhRequest('https://api.github.com/repos/' + s.repo.owner + '/' + s.repo.name + '/issues?state=all')
+                                .then(issues => {
+                                    hash[s.shortlink]["issues"] = issues.filter(s.repo.issuefilter)
+                                        .map(i => {
                                      return {state: i.state, number: i.number, created_at: i.created_at, closed_at: i.closed_at, title: i.title, labels: i.labels, assignee: i.assignee ? i.assignee.login: null, isPullRequest: i.pull_request !== undefined};
-                                 });
-                             return hash;
-                         }).catch(console.error.bind(console))
-                             )
+                                        });
+                                    return hash;
+                                }).catch(console.error.bind(console));
+                        } else {
+                            // we re-use the previously fetched issues
+                            return new Promise((res, rej) => {
+                                fs.readFile("./pergroup/" + wgid + "-repo.json", (err, data) => {
+                                    if (err) return rej(err);
+                                    const repos = JSON.parse(data);
+                                    hash[s.shortlink].issues = (repos[s.shortlink] || repos[httpIze(s.shortlink)] || {}).issues ;
+                                    res(hash);
+                                });
+                            });
+                        }
+                    })
             ).then(repoHashList => {
                 const repoSpecs = repoHashList.reduce(
                     (a,b) => {a[Object.keys(b)[0]] = b[Object.keys(b)[0]]; return a;},
