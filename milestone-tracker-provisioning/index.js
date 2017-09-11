@@ -8,7 +8,7 @@ const config = require("../config.json"),
 
 w3c.apiKey = config.w3capikey;
 const selectedgroups = process.argv[2] ? process.argv[2].split(",").map(n => parseInt(n,10)) : false;
-const restrictGroups = g => !selectedgroups || selectedgroups.indexOf(g.id) !== -1;
+const restrictGroups = g => !selectedgroups || selectedgroups.includes(g.id);
 let existingdata;
 if (selectedgroups) {
     var data = fs.readFileSync("./groups.json");
@@ -48,6 +48,7 @@ function createOrUpdateSpreadSheet(wg, specs, cb, create) {
             cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: config.ethercalc + body});
         });
     } else {
+        if (!existingdata[wg.id]) throw new Error("Working Group " + wg.name + "(" + wg.id + ") is missing in the list");
         cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: existingdata[wg.id].url});
     }
 }
