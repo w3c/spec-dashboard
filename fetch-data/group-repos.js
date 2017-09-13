@@ -139,7 +139,7 @@ fs.readFile("./groups.json", (err, data) => {
                         const hash = {}
                         hash[s.shortlink] = {repo: s.repo, recTrack: s.versions[0]['rec-track']};
                         if (updateIssues) {
-                            return queueGhRequest('https://api.github.com/repos/' + s.repo.owner + '/' + s.repo.name + '/issues?state=all')
+                            return queueGhRequest('https://api.github.com/repos/' + s.repo.owner + '/' + s.repo.name + '/issues?state=all&per_page=100')
                                 .then(issues => {
                                     hash[s.shortlink]["issues"] = issues.filter(s.repo.issuefilter)
                                         .map(i => {
