@@ -16,12 +16,41 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/activitypub/versions/20170822",
+        "href": "https://api.w3.org/specifications/activitypub/versions/20170907",
         "title": "Candidate Recommendation"
       }
     },
     "editorsdraft": "https://w3c.github.io/activitypub/",
     "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-activitypub-20170907/",
+        "date": "2017-09-07",
+        "implementation-feedback-due": "2017-10-05",
+        "informative": false,
+        "title": "ActivityPub",
+        "shortlink": "https://www.w3.org/TR/activitypub/",
+        "editor-draft": "https://w3c.github.io/activitypub/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/activitypub/versions/20170907"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/activitypub/versions/20170907/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/activitypub/versions/20170907/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/activitypub"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/activitypub/versions/20170907/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -48,6 +77,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/activitypub/versions/20170822/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/activitypub/versions/20170822/successors"
           }
         }
       },
