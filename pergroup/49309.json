@@ -767,8 +767,8 @@
     ]
   },
   {
-    "title": "The Permissions API",
-    "shortlink": "http://www.w3.org/TR/permissions/",
+    "title": "Permissions",
+    "shortlink": "https://www.w3.org/TR/permissions/",
     "shortname": "permissions",
     "description": "<p>The Permissions API allows a web application to be aware of the status of a given permission, to know whether it is granted, denied or if the user will be asked whether the permission should be granted.</p>",
     "_links": {
@@ -783,12 +783,40 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/permissions/versions/20150407",
+        "href": "https://api.w3.org/specifications/permissions/versions/20170925",
         "title": "Working Draft"
       }
     },
     "editorsdraft": "https://w3c.github.io/permissions/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-permissions-20170925/",
+        "date": "2017-09-25",
+        "informative": false,
+        "title": "Permissions",
+        "shortlink": "https://www.w3.org/TR/permissions/",
+        "editor-draft": "https://w3c.github.io/permissions/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20170925"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20170925/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20170925/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/permissions"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20170925/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -811,6 +839,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/permissions"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20150407/successors"
           }
         }
       }
