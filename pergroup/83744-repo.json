@@ -3398,6 +3398,13 @@
       }
     ]
   },
+  "https://www.w3.org/TR/payment-method-manifest/": {
+    "repo": {
+      "owner": "w3c",
+      "name": "payment-method-manifest"
+    },
+    "recTrack": true
+  },
   "https://www.w3.org/TR/payment-request/": {
     "repo": {
       "owner": "w3c",
@@ -13881,175 +13888,6 @@
             "default": true
           }
         ],
-        "assignee": null,
-        "isPullRequest": false
-      }
-    ]
-  },
-  "https://www.w3.org/TR/webpayments-http-api/": {
-    "repo": {
-      "owner": "w3c",
-      "name": "webpayments-http-api"
-    },
-    "recTrack": true,
-    "issues": [
-      {
-        "state": "open",
-        "number": 16,
-        "created_at": "2016-09-26T13:21:31Z",
-        "closed_at": null,
-        "title": "Figure 1 (and details in section 3)",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 15,
-        "created_at": "2016-09-20T15:48:00Z",
-        "closed_at": null,
-        "title": "Versioning",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 14,
-        "created_at": "2016-07-15T14:11:58Z",
-        "closed_at": null,
-        "title": "Registration and payment are not tightly coupled",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 13,
-        "created_at": "2016-07-15T02:49:51Z",
-        "closed_at": null,
-        "title": "What are the security and privacy implications of the HTTP API?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 12,
-        "created_at": "2016-07-15T02:48:14Z",
-        "closed_at": null,
-        "title": "Push-based payments should be documented in the HTTP API",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 11,
-        "created_at": "2016-07-15T02:38:54Z",
-        "closed_at": null,
-        "title": "Should getting a PaymentRequest result in an extra round trip?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 10,
-        "created_at": "2016-07-15T02:35:38Z",
-        "closed_at": null,
-        "title": "What other authentication schemes should be supported for Payment App registration?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 9,
-        "created_at": "2016-07-15T02:31:54Z",
-        "closed_at": null,
-        "title": "Prefer new 'Payment' header instead of 402 response code?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 8,
-        "created_at": "2016-07-15T02:30:24Z",
-        "closed_at": null,
-        "title": "What is the appropriate HTTP response code for a failed payment?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 7,
-        "created_at": "2016-07-15T02:27:45Z",
-        "closed_at": null,
-        "title": "Further clarify the branching options for the payment flow",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 6,
-        "created_at": "2016-07-15T02:23:46Z",
-        "closed_at": null,
-        "title": "Payment App selection process should be in Payment App spec",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 5,
-        "created_at": "2016-07-15T02:22:41Z",
-        "closed_at": null,
-        "title": "Should PaymentRequest be returned via HTTP 402 response code?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 4,
-        "created_at": "2016-07-15T02:20:23Z",
-        "closed_at": null,
-        "title": "Overview diagram may be misleading",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 3,
-        "created_at": "2016-07-15T02:17:31Z",
-        "closed_at": null,
-        "title": "HTTP API terminology needs to be refined",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 2,
-        "created_at": "2016-07-14T13:33:52Z",
-        "closed_at": "2016-09-12T14:33:42Z",
-        "title": "Updates to HTTP API",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 1,
-        "created_at": "2016-06-22T10:42:02Z",
-        "closed_at": null,
-        "title": "Need normative references",
-        "labels": [],
         "assignee": null,
         "isPullRequest": false
       }
