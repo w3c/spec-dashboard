@@ -711,10 +711,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 54,
         "created_at": "2017-11-28T00:14:13Z",
-        "closed_at": null,
+        "closed_at": "2017-12-14T17:15:26Z",
         "title": "Update spec to fix ambiguity around Time Origin definition.",
         "labels": [],
         "assignee": null,
@@ -735,7 +735,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "plehegar",
         "isPullRequest": true
       },
       {
@@ -1451,6 +1451,34 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 39,
+        "created_at": "2017-12-19T10:25:40Z",
+        "closed_at": "2017-12-19T15:39:33Z",
+        "title": "remove index.html in master branch",
+        "labels": [
+          {
+            "id": 652242905,
+            "url": "https://api.github.com/repos/w3c/longtasks/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 38,
+        "created_at": "2017-12-18T21:33:35Z",
+        "closed_at": "2017-12-19T13:09:12Z",
+        "title": "Update bikeshed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 37,
         "created_at": "2017-11-30T21:02:59Z",
@@ -1471,10 +1499,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 35,
         "created_at": "2017-08-25T09:14:43Z",
-        "closed_at": null,
+        "closed_at": "2017-12-19T15:39:33Z",
         "title": "remove index.html in the master branch",
         "labels": [
           {
@@ -1927,6 +1955,16 @@
     "issues": [
       {
         "state": "closed",
+        "number": 81,
+        "created_at": "2017-12-18T07:30:57Z",
+        "closed_at": "2017-12-21T18:56:09Z",
+        "title": "Navigation Timing should be exposed in the Worker context",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 80,
         "created_at": "2017-11-27T09:23:42Z",
         "closed_at": "2017-11-30T16:18:33Z",
@@ -1936,13 +1974,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 79,
         "created_at": "2017-11-10T09:45:08Z",
-        "closed_at": null,
+        "closed_at": "2017-12-21T18:42:21Z",
         "title": "Timings for beforeUnload event",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 132831229,
+            "url": "https://api.github.com/repos/w3c/navigation-timing/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff",
+            "default": true
+          }
+        ],
+        "assignee": "igrigorik",
         "isPullRequest": false
       },
       {
@@ -2094,10 +2140,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 64,
         "created_at": "2017-04-04T14:50:12Z",
-        "closed_at": null,
+        "closed_at": "2017-12-21T20:42:47Z",
         "title": "IDL should xref PerformanceResourceTiming",
         "labels": [],
         "assignee": "igrigorik",
@@ -2871,10 +2917,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 35,
         "created_at": "2017-11-23T06:03:35Z",
-        "closed_at": null,
+        "closed_at": "2017-12-15T15:43:08Z",
         "title": "chore: improve linking",
         "labels": [],
         "assignee": null,
@@ -4665,6 +4711,36 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 116,
+        "created_at": "2017-12-15T18:18:19Z",
+        "closed_at": null,
+        "title": "Header preload and CSS / JavaScript",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 115,
+        "created_at": "2017-12-15T17:53:16Z",
+        "closed_at": null,
+        "title": "Documents only?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 114,
+        "created_at": "2017-12-15T14:46:02Z",
+        "closed_at": null,
+        "title": "Interaction of 103 and CSP",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 113,
@@ -7503,6 +7579,46 @@
     "issues": [
       {
         "state": "open",
+        "number": 134,
+        "created_at": "2017-12-23T00:52:29Z",
+        "closed_at": null,
+        "title": "resource timing buffer full flag should be set to true before firing resourcetimingbufferfull event",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 133,
+        "created_at": "2017-12-18T17:33:52Z",
+        "closed_at": null,
+        "title": "Resource processing time",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 132,
+        "created_at": "2017-12-15T21:09:55Z",
+        "closed_at": null,
+        "title": "Collect initiatorType use-cases",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 131,
+        "created_at": "2017-12-14T17:13:47Z",
+        "closed_at": null,
+        "title": "Backport gh-pages fixes to V2",
+        "labels": [],
+        "assignee": "nicjansma",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 130,
         "created_at": "2017-11-21T03:20:18Z",
         "closed_at": null,
@@ -7532,10 +7648,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 127,
         "created_at": "2017-11-07T19:59:24Z",
-        "closed_at": null,
+        "closed_at": "2017-12-14T16:59:14Z",
         "title": "Clarify relationship between `onload`, adding entries and their completeness",
         "labels": [],
         "assignee": null,
@@ -7616,7 +7732,7 @@
         "closed_at": null,
         "title": "TFO and secureConnectionStart",
         "labels": [],
-        "assignee": null,
+        "assignee": "nicjansma",
         "isPullRequest": false
       },
       {
@@ -9034,6 +9150,46 @@
     "issues": [
       {
         "state": "open",
+        "number": 134,
+        "created_at": "2017-12-23T00:52:29Z",
+        "closed_at": null,
+        "title": "resource timing buffer full flag should be set to true before firing resourcetimingbufferfull event",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 133,
+        "created_at": "2017-12-18T17:33:52Z",
+        "closed_at": null,
+        "title": "Resource processing time",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 132,
+        "created_at": "2017-12-15T21:09:55Z",
+        "closed_at": null,
+        "title": "Collect initiatorType use-cases",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 131,
+        "created_at": "2017-12-14T17:13:47Z",
+        "closed_at": null,
+        "title": "Backport gh-pages fixes to V2",
+        "labels": [],
+        "assignee": "nicjansma",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 130,
         "created_at": "2017-11-21T03:20:18Z",
         "closed_at": null,
@@ -9063,10 +9219,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 127,
         "created_at": "2017-11-07T19:59:24Z",
-        "closed_at": null,
+        "closed_at": "2017-12-14T16:59:14Z",
         "title": "Clarify relationship between `onload`, adding entries and their completeness",
         "labels": [],
         "assignee": null,
@@ -9147,7 +9303,7 @@
         "closed_at": null,
         "title": "TFO and secureConnectionStart",
         "labels": [],
-        "assignee": null,
+        "assignee": "nicjansma",
         "isPullRequest": false
       },
       {
@@ -10565,6 +10721,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 48,
+        "created_at": "2017-12-21T18:46:30Z",
+        "closed_at": null,
+        "title": "clarify invalid params",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 47,
+        "created_at": "2017-12-21T03:27:49Z",
+        "closed_at": "2017-12-21T19:13:38Z",
+        "title": "clarify duplicate param names",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 46,
+        "created_at": "2017-12-20T14:48:47Z",
+        "closed_at": null,
+        "title": "clarify incomplete params",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 45,
         "created_at": "2017-12-13T16:29:59Z",
         "closed_at": null,
@@ -10614,10 +10800,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 40,
         "created_at": "2017-11-07T00:16:39Z",
-        "closed_at": null,
+        "closed_at": "2017-12-15T19:35:15Z",
         "title": "Consider shorter names for the attributes",
         "labels": [],
         "assignee": null,
@@ -11047,6 +11233,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 35,
+        "created_at": "2017-12-22T18:43:05Z",
+        "closed_at": null,
+        "title": "Address outstanding L2 issues",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 34,
         "created_at": "2017-12-05T05:44:24Z",
@@ -11083,14 +11279,14 @@
         "closed_at": null,
         "title": "Clarify what Navigation Timing entries are allowed and how to use their values",
         "labels": [],
-        "assignee": null,
+        "assignee": "philipwalton",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 30,
         "created_at": "2017-11-03T00:23:10Z",
-        "closed_at": null,
+        "closed_at": "2017-12-22T18:40:48Z",
         "title": "Clarify that measure() may throw a SyntaxError",
         "labels": [],
         "assignee": null,
@@ -11157,7 +11353,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "philipwalton",
         "isPullRequest": false
       },
       {
@@ -11239,7 +11435,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "philipwalton",
         "isPullRequest": false
       },
       {
