@@ -1,7 +1,7 @@
 [
   {
     "title": "WOFF File Format 2.0",
-    "shortlink": "http://www.w3.org/TR/WOFF2/",
+    "shortlink": "https://www.w3.org/TR/WOFF2/",
     "shortname": "WOFF2",
     "description": "<p>Web Open Font Format (WOFF) 2.0 is a proposed update to the existing\r\nWOFF 1.0 with improved compression, even on mobile devices. This is\r\nachieved by combining a content-aware preprocessing step and improved\r\nentropy coding, compared to the Flate compression used in WOFF 1.0.</p>",
     "_links": {
@@ -16,12 +16,41 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/WOFF2/versions/20160315",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/WOFF2/versions/20180111",
+        "title": "Proposed Recommendation"
       }
     },
-    "editorsdraft": "https://dev.w3.org/webfonts/WOFF2/spec/",
+    "editorsdraft": "https://w3c.github.io/woff/woff2/",
     "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2018/PR-WOFF2-20180111/",
+        "date": "2018-01-11",
+        "pr-reviews-due": "2018-02-11",
+        "informative": false,
+        "title": "WOFF File Format 2.0",
+        "shortlink": "https://www.w3.org/TR/WOFF2/",
+        "editor-draft": "https://w3c.github.io/woff/woff2/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/WOFF2/versions/20180111"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/WOFF2/versions/20180111/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/WOFF2/versions/20180111/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/WOFF2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/WOFF2/versions/20180111/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -48,6 +77,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/WOFF2/versions/20160315/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/WOFF2/versions/20160315/successors"
           }
         }
       },
