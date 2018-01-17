@@ -7,6 +7,66 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 638,
+        "created_at": "2018-01-17T04:02:43Z",
+        "closed_at": null,
+        "title": "Explicitly block opaque origins from requesting manifests",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 637,
+        "created_at": "2018-01-10T01:46:01Z",
+        "closed_at": null,
+        "title": "PromptResponseObject definition is missing in \"IDL Index\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 636,
+        "created_at": "2018-01-09T08:28:29Z",
+        "closed_at": null,
+        "title": "Use case for appuninstall event",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 635,
+        "created_at": "2018-01-09T07:38:45Z",
+        "closed_at": "2018-01-17T00:23:52Z",
+        "title": "Update manifest example to be consistent",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 634,
+        "created_at": "2018-01-03T15:27:19Z",
+        "closed_at": "2018-01-09T18:54:27Z",
+        "title": "Add payment handler installation URL.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 633,
+        "created_at": "2017-12-21T00:52:50Z",
+        "closed_at": null,
+        "title": "Don't use enums, because they throw",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 632,
         "created_at": "2017-12-12T18:10:23Z",
@@ -266,16 +326,6 @@
       },
       {
         "state": "closed",
-        "number": 607,
-        "created_at": "2017-09-04T20:30:27Z",
-        "closed_at": "2017-09-05T02:01:59Z",
-        "title": "changed some working links from http to https",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
         "number": 606,
         "created_at": "2017-08-28T15:13:30Z",
         "closed_at": "2017-08-28T16:52:06Z",
@@ -318,16 +368,6 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 603,
-        "created_at": "2017-08-22T20:02:14Z",
-        "closed_at": null,
-        "title": "The border attribute on the table element is presentational markup. Consider using CSS instead.",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
       },
       {
         "state": "open",
@@ -1716,18 +1756,18 @@
         "title": "Ability to claim web app",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 54783581,
             "url": "https://api.github.com/repos/w3c/manifest/labels/Feature%20Request",
             "name": "Feature Request",
             "color": "5319e7",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -1895,18 +1935,18 @@
         "title": "Need to specify client of image objects when fetching (an environment settings object) ",
         "labels": [
           {
-            "id": 36572500,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572500,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": null,
@@ -1968,6 +2008,13 @@
         "title": "Case sensitivity of enumerated values",
         "labels": [
           {
+            "id": 82635713,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
+            "name": "P1",
+            "color": "e11d21",
+            "default": false
+          },
+          {
             "id": 36572500,
             "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
             "name": "bug",
@@ -1980,13 +2027,6 @@
             "name": "enhancement",
             "color": "84b6eb",
             "default": true
-          },
-          {
-            "id": 82635713,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
-            "name": "P1",
-            "color": "e11d21",
-            "default": false
           }
         ],
         "assignee": null,
@@ -2121,17 +2161,17 @@
         "title": "Drop density descriptor from spec",
         "labels": [
           {
-            "id": 350273785,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/atrisk",
-            "name": "atrisk",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
+            "default": false
+          },
+          {
+            "id": 350273785,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/atrisk",
+            "name": "atrisk",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -2237,18 +2277,18 @@
         "title": "Clarify how image objects should be fetched",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -2792,18 +2832,18 @@
         "title": "Privacy Review: cross origin persistent state",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 97822304,
             "url": "https://api.github.com/repos/w3c/manifest/labels/Security",
             "name": "Security",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -2991,18 +3031,18 @@
         "title": "Updating is under/incorrectly specified",
         "labels": [
           {
-            "id": 36572500,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572500,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": null,
@@ -3468,18 +3508,18 @@
         "title": "Triage privacy issues",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": "mounirlamouri",
@@ -3541,18 +3581,18 @@
         "title": "Add requirements when the Manifest is used by crawlers",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 144700371,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P3",
             "name": "P3",
             "color": "fbca04",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": "marcoscaceres",
@@ -3761,17 +3801,17 @@
         "title": "For `lang`, add formal defintion of language tag",
         "labels": [
           {
-            "id": 191520419,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/i18n-comment",
-            "name": "i18n-comment",
-            "color": "d4c5f9",
-            "default": false
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
+            "default": false
+          },
+          {
+            "id": 191520419,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/i18n-comment",
+            "name": "i18n-comment",
+            "color": "d4c5f9",
             "default": false
           }
         ],
@@ -3824,18 +3864,18 @@
         "title": "Convert \"Icon object\" into a generic \"image object\"",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -3887,17 +3927,17 @@
         "title": "Add note about i18n",
         "labels": [
           {
-            "id": 191520419,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/i18n-comment",
-            "name": "i18n-comment",
-            "color": "d4c5f9",
-            "default": false
-          },
-          {
             "id": 82635788,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P2",
             "name": "P2",
             "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 191520419,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/i18n-comment",
+            "name": "i18n-comment",
+            "color": "d4c5f9",
             "default": false
           }
         ],
@@ -4020,18 +4060,18 @@
         "title": "Move to using Echidna",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -4055,18 +4095,18 @@
         "title": "JSON-LD view",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635788,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P2",
             "name": "P2",
             "color": "eb6420",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -4125,18 +4165,18 @@
         "title": "Clarify display-mode relationship to iframes and legacy content",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -4298,18 +4338,18 @@
         "title": "Allow multiple application contexts per app",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 54783581,
             "url": "https://api.github.com/repos/w3c/manifest/labels/Feature%20Request",
             "name": "Feature Request",
             "color": "5319e7",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           },
           {
             "id": 36572504,
@@ -4639,18 +4679,18 @@
         "title": "Define identity of a web app.",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -4684,18 +4724,18 @@
         "title": "add security consideration that manifests can contain user data",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635788,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P2",
             "name": "P2",
             "color": "eb6420",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -4774,18 +4814,18 @@
         "title": "Clarification of CSP constraints for hosting manifests",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": "marcoscaceres",
@@ -4965,18 +5005,18 @@
         "title": "Fullscreen ref is wrong",
         "labels": [
           {
-            "id": 36572500,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572500,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": null,
@@ -5018,18 +5058,18 @@
         "title": "Procesing doesn't deal with valid, but unhelpful, JSON",
         "labels": [
           {
-            "id": 36572500,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572500,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": null,
@@ -5149,18 +5189,18 @@
         "title": "Obtaining a manifest should be before processing",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -5192,18 +5232,18 @@
         "title": "Document why web manifest vs series of legacy tags",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -5245,18 +5285,18 @@
         "title": "Clarify download priority ",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": "marcoscaceres",
@@ -5270,18 +5310,18 @@
         "title": "Orientation, viewport dimensions and synchronicity",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           },
           {
             "id": 36572504,
@@ -5302,18 +5342,18 @@
         "title": "Use input / output model for algos",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 144700371,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P3",
             "name": "P3",
             "color": "fbca04",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -5529,18 +5569,18 @@
         "title": "What is the expectation re manifest \"localization\"?",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           },
           {
             "id": 36572504,
@@ -5604,13 +5644,6 @@
         "title": "Restrict manifests to same-origin",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
@@ -5618,18 +5651,25 @@
             "default": false
           },
           {
-            "id": 36572504,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/question",
-            "name": "question",
-            "color": "cc317c",
-            "default": true
-          },
-          {
             "id": 97822304,
             "url": "https://api.github.com/repos/w3c/manifest/labels/Security",
             "name": "Security",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          },
+          {
+            "id": 36572504,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
           }
         ],
         "assignee": null,
@@ -5668,13 +5708,6 @@
         "title": "CSP directive controlling manifest loads?",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 54783581,
             "url": "https://api.github.com/repos/w3c/manifest/labels/Feature%20Request",
             "name": "Feature Request",
@@ -5694,6 +5727,13 @@
             "name": "Security",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -5785,6 +5825,13 @@
         "title": "restrict manifest to https ?",
         "labels": [
           {
+            "id": 97822304,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/Security",
+            "name": "Security",
+            "color": "e11d21",
+            "default": false
+          },
+          {
             "id": 36572502,
             "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
             "name": "enhancement",
@@ -5797,13 +5844,6 @@
             "name": "question",
             "color": "cc317c",
             "default": true
-          },
-          {
-            "id": 97822304,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/Security",
-            "name": "Security",
-            "color": "e11d21",
-            "default": false
           },
           {
             "id": 36572505,
@@ -5867,6 +5907,13 @@
         "title": "Can any web site host a manifest for any app?",
         "labels": [
           {
+            "id": 97822304,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/Security",
+            "name": "Security",
+            "color": "e11d21",
+            "default": false
+          },
+          {
             "id": 36572502,
             "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
             "name": "enhancement",
@@ -5879,13 +5926,6 @@
             "name": "question",
             "color": "cc317c",
             "default": true
-          },
-          {
-            "id": 97822304,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/Security",
-            "name": "Security",
-            "color": "e11d21",
-            "default": false
           }
         ],
         "assignee": null,
@@ -5899,18 +5939,18 @@
         "title": "The fetch part of the specification should mention the crossorigin attribute",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": "marcoscaceres",
@@ -6004,18 +6044,18 @@
         "title": "Clarfiy behavior of <link rel=manifest media>",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           },
           {
             "id": 36572504,
@@ -6036,18 +6076,18 @@
         "title": "Clarfiy behavior of <link rel=manifest crossorigin> ",
         "labels": [
           {
-            "id": 36572501,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/duplicate",
-            "name": "duplicate",
-            "color": "cccccc",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572501,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/duplicate",
+            "name": "duplicate",
+            "color": "cccccc",
+            "default": true
           }
         ],
         "assignee": null,
@@ -6205,18 +6245,18 @@
         "title": "Reporting the error SHOULD be done via a UA specific way.",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -6275,18 +6315,18 @@
         "title": "Update the orientation section to match the Screen Orientation spec.",
         "labels": [
           {
-            "id": 36572500,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572500,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": null,
@@ -6310,18 +6350,18 @@
         "title": "'display' should have a fallback chain and not be an array",
         "labels": [
           {
-            "id": 36572500,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572500,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": "mounirlamouri",
@@ -6405,18 +6445,18 @@
         "title": "Talk of \"bookmarking\" not needed",
         "labels": [
           {
-            "id": 36572500,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572500,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": null,
@@ -6630,18 +6670,18 @@
         "title": "Orientations doesn't match how Orientation API works ",
         "labels": [
           {
-            "id": 36572500,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 82635713,
             "url": "https://api.github.com/repos/w3c/manifest/labels/P1",
             "name": "P1",
             "color": "e11d21",
             "default": false
+          },
+          {
+            "id": 36572500,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": null,
@@ -7526,18 +7566,18 @@
         "title": "Standalone should not relate to fullscreen but no-chrome",
         "labels": [
           {
-            "id": 36572502,
-            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 54783581,
             "url": "https://api.github.com/repos/w3c/manifest/labels/Feature%20Request",
             "name": "Feature Request",
             "color": "5319e7",
             "default": false
+          },
+          {
+            "id": 36572502,
+            "url": "https://api.github.com/repos/w3c/manifest/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -8467,6 +8507,66 @@
     "issues": [
       {
         "state": "open",
+        "number": 63,
+        "created_at": "2018-01-16T13:11:04Z",
+        "closed_at": null,
+        "title": "\"check clipboard read permission\" needs to be an async operation?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 62,
+        "created_at": "2018-01-16T03:26:47Z",
+        "closed_at": null,
+        "title": "Make all clipboard events composed by default.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 61,
+        "created_at": "2018-01-15T11:11:18Z",
+        "closed_at": null,
+        "title": "Define each event type is composed or not, update the spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 60,
+        "created_at": "2018-01-05T23:15:40Z",
+        "closed_at": null,
+        "title": "Request a TAG review for image/delayed-content-generation API",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 59,
+        "created_at": "2018-01-05T23:14:43Z",
+        "closed_at": null,
+        "title": "Request TAG review for initial (text only) API",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 58,
+        "created_at": "2017-12-15T14:47:21Z",
+        "closed_at": null,
+        "title": "Emphasize visability in the \"pick target\"-algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 57,
         "created_at": "2017-11-30T18:47:09Z",
         "closed_at": null,
@@ -9070,6 +9170,92 @@
     "issues": [
       {
         "state": "open",
+        "number": 724,
+        "created_at": "2018-01-11T22:00:33Z",
+        "closed_at": null,
+        "title": "aggravate => aggregate",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 723,
+        "created_at": "2018-01-06T17:28:25Z",
+        "closed_at": null,
+        "title": "Make custom elements w/ shadowRoot { display: contents } by default",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 721,
+        "created_at": "2018-01-03T16:55:04Z",
+        "closed_at": null,
+        "title": "[SHADOW] Sequential Focus Navigation step tree has 'for each' for a single scope",
+        "labels": [
+          {
+            "id": 217336260,
+            "url": "https://api.github.com/repos/w3c/webcomponents/labels/shadow-dom",
+            "name": "shadow-dom",
+            "color": "207de5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 720,
+        "created_at": "2018-01-03T16:35:21Z",
+        "closed_at": null,
+        "title": "[SHADOW] Sequential Focus Navigation uses undefined \"For each node tree TREE in DOCUMENT\" ",
+        "labels": [
+          {
+            "id": 217336260,
+            "url": "https://api.github.com/repos/w3c/webcomponents/labels/shadow-dom",
+            "name": "shadow-dom",
+            "color": "207de5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 719,
+        "created_at": "2017-12-29T12:33:09Z",
+        "closed_at": null,
+        "title": "Add a CSS subtype selector.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 718,
+        "created_at": "2017-12-18T17:26:28Z",
+        "closed_at": null,
+        "title": "Bulk property updates",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 717,
+        "created_at": "2017-12-14T18:45:27Z",
+        "closed_at": null,
+        "title": "The way to access current script or current root, from Shadow DOM",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 716,
         "created_at": "2017-12-08T20:05:07Z",
         "closed_at": null,
@@ -9454,10 +9640,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 687,
         "created_at": "2017-11-02T12:52:35Z",
-        "closed_at": null,
+        "closed_at": "2018-01-12T01:15:41Z",
         "title": "Copy edits for all remaining parts",
         "labels": [],
         "assignee": null,
@@ -10775,10 +10961,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 602,
         "created_at": "2016-11-05T11:45:37Z",
-        "closed_at": null,
+        "closed_at": "2017-12-19T14:50:59Z",
         "title": "Add an assignedElements() method",
         "labels": [
           {
@@ -22484,6 +22670,26 @@
     "issues": [
       {
         "state": "closed",
+        "number": 35,
+        "created_at": "2018-01-05T23:43:47Z",
+        "closed_at": "2018-01-05T23:59:51Z",
+        "title": "No ProcessingInstruction in document from XML",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 34,
+        "created_at": "2018-01-05T16:16:35Z",
+        "closed_at": null,
+        "title": "Specify the relationship between the Text Declaration and document.characterSet",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 33,
         "created_at": "2017-11-13T13:17:24Z",
         "closed_at": "2017-11-23T13:11:44Z",
@@ -22830,6 +23036,44 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 173,
+        "created_at": "2018-01-16T08:44:40Z",
+        "closed_at": "2018-01-16T08:46:10Z",
+        "title": "Several fixes for custom element, dispatching events and element's slot.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 172,
+        "created_at": "2018-01-10T06:39:36Z",
+        "closed_at": null,
+        "title": "Wide review tracker for DOM 4.1",
+        "labels": [
+          {
+            "id": 776768011,
+            "url": "https://api.github.com/repos/w3c/dom/labels/meta",
+            "name": "meta",
+            "color": "000000",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 171,
+        "created_at": "2017-12-29T03:04:13Z",
+        "closed_at": "2017-12-29T11:20:42Z",
+        "title": "Fix #165: dispatch event with optional legacyOutputDidListenersThrowFlag",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 170,
         "created_at": "2017-12-12T01:33:01Z",
@@ -22883,15 +23127,23 @@
         "created_at": "2017-11-15T09:50:51Z",
         "closed_at": null,
         "title": "Mutation Observer not creating mutations for nodes added through innerHTML",
-        "labels": [],
+        "labels": [
+          {
+            "id": 61333311,
+            "url": "https://api.github.com/repos/w3c/dom/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 165,
         "created_at": "2017-11-03T19:42:29Z",
-        "closed_at": null,
+        "closed_at": "2017-12-29T11:20:42Z",
         "title": "legacyOutputDidListeners and dispatch event",
         "labels": [
           {
@@ -22902,7 +23154,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "zqzhang",
         "isPullRequest": false
       },
       {
@@ -22911,15 +23163,7 @@
         "created_at": "2017-10-24T16:54:53Z",
         "closed_at": "2017-10-25T07:50:59Z",
         "title": "add document tree",
-        "labels": [
-          {
-            "id": 723822228,
-            "url": "https://api.github.com/repos/w3c/dom/labels/feature%20request",
-            "name": "feature request",
-            "color": "048ce0",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -22941,11 +23185,11 @@
         "title": "Browsers should offer an asychronous Layout API",
         "labels": [
           {
-            "id": 723822228,
-            "url": "https://api.github.com/repos/w3c/dom/labels/feature%20request",
-            "name": "feature request",
-            "color": "048ce0",
-            "default": false
+            "id": 61333311,
+            "url": "https://api.github.com/repos/w3c/dom/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -23075,10 +23319,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 151,
         "created_at": "2017-07-28T11:51:33Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T07:01:02Z",
         "title": "ShadowDom: add Node.prototype.getRootNode()",
         "labels": [],
         "assignee": null,
@@ -23432,7 +23676,15 @@
         "created_at": "2017-04-06T19:03:14Z",
         "closed_at": null,
         "title": "attachShadow action should be observable / recorded by MutationObserver",
-        "labels": [],
+        "labels": [
+          {
+            "id": 61333311,
+            "url": "https://api.github.com/repos/w3c/dom/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -24202,23 +24454,31 @@
         "created_at": "2017-01-07T09:19:17Z",
         "closed_at": null,
         "title": "Document.createEvent: Add more legacy event types for createEvent() ",
-        "labels": [],
+        "labels": [
+          {
+            "id": 61333311,
+            "url": "https://api.github.com/repos/w3c/dom/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 49,
         "created_at": "2017-01-07T09:13:52Z",
-        "closed_at": null,
+        "closed_at": "2018-01-08T11:14:49Z",
         "title": "Element(CustomElement): changes to 'to create an element'",
         "labels": [
           {
-            "id": 61333314,
-            "url": "https://api.github.com/repos/w3c/dom/labels/wontfix",
-            "name": "wontfix",
-            "color": "ffffff",
-            "default": true
+            "id": 776768312,
+            "url": "https://api.github.com/repos/w3c/dom/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
+            "default": false
           }
         ],
         "assignee": null,
@@ -24493,21 +24753,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 22,
         "created_at": "2017-01-06T14:44:52Z",
-        "closed_at": null,
+        "closed_at": "2018-01-16T08:46:10Z",
         "title": " [CEReactions]: Integrate changes against IDL extended attribute",
         "labels": [
           {
-            "id": 61333314,
-            "url": "https://api.github.com/repos/w3c/dom/labels/wontfix",
-            "name": "wontfix",
-            "color": "ffffff",
-            "default": true
+            "id": 776768312,
+            "url": "https://api.github.com/repos/w3c/dom/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
+            "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "yongsheng",
         "isPullRequest": false
       },
       {
@@ -24539,10 +24799,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 19,
         "created_at": "2017-01-04T12:41:21Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T07:31:25Z",
         "title": "Dispatching events: Integrate changes for invoking an object, etc.",
         "labels": [],
         "assignee": "yongsheng",
@@ -24587,22 +24847,30 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 15,
         "created_at": "2016-12-31T15:20:43Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T06:56:49Z",
         "title": "whatwg's commit list outside of  DOM 4.1 Working Draft",
         "labels": [],
         "assignee": "yongsheng",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 14,
         "created_at": "2016-12-30T11:37:17Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T06:55:47Z",
         "title": "Custom Elements in DOM",
-        "labels": [],
+        "labels": [
+          {
+            "id": 61333311,
+            "url": "https://api.github.com/repos/w3c/dom/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
         "assignee": "yongsheng",
         "isPullRequest": false
       },
@@ -24690,11 +24958,18 @@
         "title": "Make DOMtokenlist toggle() work on multiple things?",
         "labels": [
           {
-            "id": 61333313,
-            "url": "https://api.github.com/repos/w3c/dom/labels/question",
-            "name": "question",
-            "color": "cc317c",
+            "id": 61333311,
+            "url": "https://api.github.com/repos/w3c/dom/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
             "default": true
+          },
+          {
+            "id": 776768312,
+            "url": "https://api.github.com/repos/w3c/dom/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
+            "default": false
           }
         ],
         "assignee": null,
@@ -24761,11 +25036,11 @@
         "title": "This recommendation should be definitely corected relative to the current specification of WHATWG",
         "labels": [
           {
-            "id": 61333309,
-            "url": "https://api.github.com/repos/w3c/dom/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
+            "id": 776768011,
+            "url": "https://api.github.com/repos/w3c/dom/labels/meta",
+            "name": "meta",
+            "color": "000000",
+            "default": false
           }
         ],
         "assignee": null,
@@ -24821,10 +25096,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 92,
         "created_at": "2017-12-04T16:29:25Z",
-        "closed_at": null,
+        "closed_at": "2018-01-09T19:11:43Z",
         "title": "Refactor Blob URL Store definition.",
         "labels": [],
         "assignee": null,
@@ -24851,10 +25126,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 89,
         "created_at": "2017-11-08T22:36:35Z",
-        "closed_at": null,
+        "closed_at": "2018-01-09T19:11:44Z",
         "title": "Clarify Lifetime of BlobStore",
         "labels": [],
         "assignee": null,
@@ -26044,6 +26319,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 67,
+        "created_at": "2018-01-15T00:08:52Z",
+        "closed_at": null,
+        "title": "Light Indicator",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 66,
         "created_at": "2017-11-28T03:25:38Z",
         "closed_at": null,
@@ -26736,6 +27021,24 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 111,
+        "created_at": "2018-01-11T18:21:28Z",
+        "closed_at": null,
+        "title": "do we embrase javascript things?",
+        "labels": [
+          {
+            "id": 776984777,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
+            "name": "AAM V2",
+            "color": "1569b2",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 110,
         "created_at": "2017-11-23T23:22:22Z",
@@ -26841,7 +27144,15 @@
         "created_at": "2017-07-10T16:58:22Z",
         "closed_at": null,
         "title": "name and description computation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 459741469,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
+            "name": "AAM",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26861,7 +27172,15 @@
         "created_at": "2017-07-05T17:22:58Z",
         "closed_at": null,
         "title": "Identify elements which support aria-roledescription without an explicit or implicit role",
-        "labels": [],
+        "labels": [
+          {
+            "id": 459741469,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
+            "name": "AAM",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26871,7 +27190,15 @@
         "created_at": "2017-06-17T14:11:40Z",
         "closed_at": null,
         "title": "AxAPI completion",
-        "labels": [],
+        "labels": [
+          {
+            "id": 459741469,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
+            "name": "AAM",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": "cookiecrook",
         "isPullRequest": false
       },
@@ -26881,7 +27208,15 @@
         "created_at": "2017-06-17T14:10:08Z",
         "closed_at": null,
         "title": "ATK/ASPI completion",
-        "labels": [],
+        "labels": [
+          {
+            "id": 459741469,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
+            "name": "AAM",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": "joanmarie",
         "isPullRequest": false
       },
@@ -26891,25 +27226,33 @@
         "created_at": "2017-06-17T14:08:45Z",
         "closed_at": null,
         "title": "UIA completion",
-        "labels": [],
+        "labels": [
+          {
+            "id": 459741469,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
+            "name": "AAM",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": "boggydigital",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 94,
         "created_at": "2017-06-17T14:06:52Z",
-        "closed_at": null,
+        "closed_at": "2018-01-05T15:54:29Z",
         "title": "MSAA/IA2 completion",
         "labels": [],
         "assignee": "asurkov",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 93,
         "created_at": "2017-06-16T22:26:36Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T03:22:20Z",
         "title": "The 'readonly' attribute should be mapped to ATK_STATE_READ_ONLY",
         "labels": [],
         "assignee": "jasonkiss",
@@ -26926,10 +27269,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 91,
         "created_at": "2017-05-24T06:33:37Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T03:40:32Z",
         "title": "mappings for type attribute on <ol>?",
         "labels": [
           {
@@ -26996,7 +27339,15 @@
         "created_at": "2017-04-15T08:46:08Z",
         "closed_at": null,
         "title": "Suggest <aside> should map to complementary with restrictions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 776984777,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
+            "name": "AAM V2",
+            "color": "1569b2",
+            "default": false
+          }
+        ],
         "assignee": "stevefaulkner",
         "isPullRequest": false
       },
@@ -27026,7 +27377,15 @@
         "created_at": "2017-02-13T19:23:47Z",
         "closed_at": null,
         "title": "HTML-AAM: Need standard way to distinguish data tables from layout tables.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 459741469,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
+            "name": "AAM",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": "stevefaulkner",
         "isPullRequest": false
       },
@@ -27076,7 +27435,15 @@
         "created_at": "2017-01-02T18:05:28Z",
         "closed_at": null,
         "title": "DT element change to default role=term (ARIA Working Group Comment)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 459741469,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
+            "name": "AAM",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": "jasonkiss",
         "isPullRequest": false
       },
@@ -27238,10 +27605,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 66,
         "created_at": "2016-10-12T03:33:21Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T04:46:49Z",
         "title": "describing the relationship between html-aam and core-aam mappings",
         "labels": [
           {
@@ -27389,13 +27756,6 @@
         "title": "HTML-AAM: Text vs Group mapping and accessible object behaviour in UIA",
         "labels": [
           {
-            "id": 459741469,
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
-            "name": "AAM",
-            "color": "ededed",
-            "default": false
-          },
-          {
             "id": 776984777,
             "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
             "name": "AAM V2",
@@ -27450,13 +27810,6 @@
         "title": "HTML-AAM: how to treat <img alt> with no value",
         "labels": [
           {
-            "id": 459741469,
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
-            "name": "AAM",
-            "color": "ededed",
-            "default": false
-          },
-          {
             "id": 776984777,
             "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
             "name": "AAM V2",
@@ -27468,10 +27821,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 54,
         "created_at": "2016-10-12T03:29:21Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T04:52:26Z",
         "title": "HTML-AAM: \"img (alt attribute is empty)\" reword for clarity",
         "labels": [
           {
@@ -27576,10 +27929,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 48,
         "created_at": "2016-10-12T03:25:25Z",
-        "closed_at": null,
+        "closed_at": "2018-01-08T07:58:08Z",
         "title": "HTML-AAM: determine right mappings for popup ui for input type=color",
         "labels": [
           {
@@ -27601,10 +27954,10 @@
         "title": "HTML-AAM: determine right mappings for browser generated form validation error messages",
         "labels": [
           {
-            "id": 459741469,
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
-            "name": "AAM",
-            "color": "ededed",
+            "id": 776984777,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
+            "name": "AAM V2",
+            "color": "1569b2",
             "default": false
           }
         ],
@@ -27619,10 +27972,10 @@
         "title": "HTML-AAM: select element should map to listbox role regardless of presentation",
         "labels": [
           {
-            "id": 459741469,
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
-            "name": "AAM",
-            "color": "ededed",
+            "id": 776984777,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
+            "name": "AAM V2",
+            "color": "1569b2",
             "default": false
           }
         ],
@@ -27637,10 +27990,10 @@
         "title": "[HTML AAM] Mapping of 'form' element to ARIA 'form' role should only be done when element has a label",
         "labels": [
           {
-            "id": 459741469,
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
-            "name": "AAM",
-            "color": "ededed",
+            "id": 776984777,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
+            "name": "AAM V2",
+            "color": "1569b2",
             "default": false
           }
         ],
@@ -27684,10 +28037,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 42,
         "created_at": "2016-10-12T03:23:39Z",
-        "closed_at": null,
+        "closed_at": "2018-01-09T19:43:44Z",
         "title": "HTML-AAM: possible aria mapping for meter",
         "labels": [
           {
@@ -27741,10 +28094,10 @@
         "title": "HTML-AAM: (editorial) all UIA localized control types and localized landmark types should be lowercase",
         "labels": [
           {
-            "id": 459741469,
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
-            "name": "AAM",
-            "color": "ededed",
+            "id": 799767601,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/editorial",
+            "name": "editorial",
+            "color": "15d66f",
             "default": false
           }
         ],
@@ -27752,10 +28105,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 39,
         "created_at": "2016-10-12T03:22:43Z",
-        "closed_at": null,
+        "closed_at": "2018-01-09T19:47:49Z",
         "title": "HTML-AAM: should meter be focusable?",
         "labels": [
           {
@@ -27820,10 +28173,10 @@
         "title": "HTML-AAM: role=status is not a good match for output element",
         "labels": [
           {
-            "id": 459741469,
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
-            "name": "AAM",
-            "color": "ededed",
+            "id": 776984777,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
+            "name": "AAM V2",
+            "color": "1569b2",
             "default": false
           }
         ],
@@ -27838,10 +28191,10 @@
         "title": "HTML-AAM: need string values for all HTML form elements to plug into accname-aam step 2E",
         "labels": [
           {
-            "id": 459741469,
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
-            "name": "AAM",
-            "color": "ededed",
+            "id": 776984777,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
+            "name": "AAM V2",
+            "color": "1569b2",
             "default": false
           }
         ],
@@ -28120,7 +28473,15 @@
         "created_at": "2016-10-12T03:13:00Z",
         "closed_at": null,
         "title": "HTML-AAM: UIA mapping for @list",
-        "labels": [],
+        "labels": [
+          {
+            "id": 459741469,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
+            "name": "AAM",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": "boggydigital",
         "isPullRequest": false
       },
@@ -28320,7 +28681,15 @@
         "created_at": "2016-10-12T03:05:08Z",
         "closed_at": null,
         "title": "Consider changing AXRoleDescription for landmark <header> from \"banner\"  to \"header\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 459741469,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM",
+            "name": "AAM",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": "jasonkiss",
         "isPullRequest": false
       },
@@ -28498,7 +28867,15 @@
         "created_at": "2016-10-11T02:03:48Z",
         "closed_at": null,
         "title": "Mappings for <meter> should be different from <progress>",
-        "labels": [],
+        "labels": [
+          {
+            "id": 776984777,
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/AAM%20V2",
+            "name": "AAM V2",
+            "color": "1569b2",
+            "default": false
+          }
+        ],
         "assignee": "jasonkiss",
         "isPullRequest": false
       },
@@ -28521,6 +28898,56 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "closed",
+        "number": 90,
+        "created_at": "2018-01-10T02:30:34Z",
+        "closed_at": "2018-01-15T11:18:07Z",
+        "title": "Http to https",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 89,
+        "created_at": "2018-01-10T02:28:35Z",
+        "closed_at": null,
+        "title": "links still using http that should be using https",
+        "labels": [],
+        "assignee": "scottaohara",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 88,
+        "created_at": "2017-12-28T11:45:50Z",
+        "closed_at": null,
+        "title": "Drop the “Kind of content” column from the “Allowed ARIA roles, states and properties” table",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 87,
+        "created_at": "2017-12-21T04:12:38Z",
+        "closed_at": "2017-12-21T08:11:17Z",
+        "title": "Update allowed roles for <hr>",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 86,
+        "created_at": "2017-12-21T04:12:10Z",
+        "closed_at": "2017-12-21T12:46:48Z",
+        "title": "HR element missing allowed role=\"none\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 85,
@@ -29390,6 +29817,92 @@
     "issues": [
       {
         "state": "open",
+        "number": 724,
+        "created_at": "2018-01-11T22:00:33Z",
+        "closed_at": null,
+        "title": "aggravate => aggregate",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 723,
+        "created_at": "2018-01-06T17:28:25Z",
+        "closed_at": null,
+        "title": "Make custom elements w/ shadowRoot { display: contents } by default",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 721,
+        "created_at": "2018-01-03T16:55:04Z",
+        "closed_at": null,
+        "title": "[SHADOW] Sequential Focus Navigation step tree has 'for each' for a single scope",
+        "labels": [
+          {
+            "id": 217336260,
+            "url": "https://api.github.com/repos/w3c/webcomponents/labels/shadow-dom",
+            "name": "shadow-dom",
+            "color": "207de5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 720,
+        "created_at": "2018-01-03T16:35:21Z",
+        "closed_at": null,
+        "title": "[SHADOW] Sequential Focus Navigation uses undefined \"For each node tree TREE in DOCUMENT\" ",
+        "labels": [
+          {
+            "id": 217336260,
+            "url": "https://api.github.com/repos/w3c/webcomponents/labels/shadow-dom",
+            "name": "shadow-dom",
+            "color": "207de5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 719,
+        "created_at": "2017-12-29T12:33:09Z",
+        "closed_at": null,
+        "title": "Add a CSS subtype selector.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 718,
+        "created_at": "2017-12-18T17:26:28Z",
+        "closed_at": null,
+        "title": "Bulk property updates",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 717,
+        "created_at": "2017-12-14T18:45:27Z",
+        "closed_at": null,
+        "title": "The way to access current script or current root, from Shadow DOM",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 716,
         "created_at": "2017-12-08T20:05:07Z",
         "closed_at": null,
@@ -29774,10 +30287,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 687,
         "created_at": "2017-11-02T12:52:35Z",
-        "closed_at": null,
+        "closed_at": "2018-01-12T01:15:41Z",
         "title": "Copy edits for all remaining parts",
         "labels": [],
         "assignee": null,
@@ -31095,10 +31608,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 602,
         "created_at": "2016-11-05T11:45:37Z",
-        "closed_at": null,
+        "closed_at": "2017-12-19T14:50:59Z",
         "title": "Add an assignedElements() method",
         "labels": [
           {
@@ -42803,6 +43316,593 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 1142,
+        "created_at": "2018-01-16T09:28:58Z",
+        "closed_at": null,
+        "title": "First draft for issue 278",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1141,
+        "created_at": "2018-01-13T04:26:20Z",
+        "closed_at": null,
+        "title": "The range of years is incorrect in note of 2.4.5. Dates and times.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1140,
+        "created_at": "2018-01-09T08:56:10Z",
+        "closed_at": null,
+        "title": "hide nonce attribute",
+        "labels": [
+          {
+            "id": 756727708,
+            "url": "https://api.github.com/repos/w3c/html/labels/Dependency%20Request",
+            "name": "Dependency Request",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 761042593,
+            "url": "https://api.github.com/repos/w3c/html/labels/not%20ready%20for%20merge",
+            "name": "not ready for merge",
+            "color": "000000",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1139,
+        "created_at": "2018-01-08T18:51:52Z",
+        "closed_at": "2018-01-15T11:28:54Z",
+        "title": "Updates end tag omission for multiple elements",
+        "labels": [],
+        "assignee": "edent",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1138,
+        "created_at": "2018-01-08T17:59:05Z",
+        "closed_at": null,
+        "title": "Should option/optgroup be listed in disabled attribute desc?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1137,
+        "created_at": "2018-01-08T14:44:49Z",
+        "closed_at": "2018-01-08T23:29:51Z",
+        "title": "Fix output of entities table",
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1136,
+        "created_at": "2018-01-08T14:44:29Z",
+        "closed_at": "2018-01-08T23:29:53Z",
+        "title": "Fix named character table output",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1135,
+        "created_at": "2018-01-07T12:52:40Z",
+        "closed_at": "2018-01-07T15:31:20Z",
+        "title": "future:add scrollbar tag",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1134,
+        "created_at": "2018-01-04T20:24:32Z",
+        "closed_at": null,
+        "title": "4.10.5.1.16. Radio Button state (type=radio) Is flawed",
+        "labels": [
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1133,
+        "created_at": "2018-01-03T19:46:10Z",
+        "closed_at": "2018-01-14T13:05:36Z",
+        "title": "Fix discrepancies between HTML and ARIA in HTML specs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1131,
+        "created_at": "2017-12-26T08:29:49Z",
+        "closed_at": "2017-12-29T04:51:19Z",
+        "title": "marking registerContentHandler and friends at risk",
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1130,
+        "created_at": "2017-12-25T16:58:15Z",
+        "closed_at": "2017-12-26T19:30:08Z",
+        "title": "Update Docs: HTTP -> HTTPS",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1129,
+        "created_at": "2017-12-25T15:55:47Z",
+        "closed_at": "2017-12-29T04:50:06Z",
+        "title": "I have a question about style in body in HTML 5.2",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1128,
+        "created_at": "2017-12-22T17:23:20Z",
+        "closed_at": "2017-12-22T17:23:36Z",
+        "title": "html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1127,
+        "created_at": "2017-12-22T17:22:50Z",
+        "closed_at": "2017-12-22T17:33:52Z",
+        "title": "html",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1126,
+        "created_at": "2017-12-22T14:07:10Z",
+        "closed_at": "2017-12-22T16:00:30Z",
+        "title": "fix issue #1124",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1125,
+        "created_at": "2017-12-22T14:05:17Z",
+        "closed_at": null,
+        "title": "<select> tag should get placeholder= attribute and change the way it works",
+        "labels": [
+          {
+            "id": 425163936,
+            "url": "https://api.github.com/repos/w3c/html/labels/Feature%20request",
+            "name": "Feature request",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 370307494,
+            "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
+            "name": "Needs incubation",
+            "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1124,
+        "created_at": "2017-12-22T13:43:43Z",
+        "closed_at": "2017-12-22T16:00:32Z",
+        "title": "Typing mistake in Example 22 of HTML 5.2 spec",
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 777699762,
+            "url": "https://api.github.com/repos/w3c/html/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "aa44aa",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1123,
+        "created_at": "2017-12-22T07:49:52Z",
+        "closed_at": "2017-12-22T09:18:33Z",
+        "title": "removing magic alignment mode from dialog element",
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1122,
+        "created_at": "2017-12-21T14:59:12Z",
+        "closed_at": "2018-01-15T04:25:47Z",
+        "title": "Clarify async and defer attributes on script",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1121,
+        "created_at": "2017-12-20T18:08:18Z",
+        "closed_at": "2017-12-20T23:56:28Z",
+        "title": "Hide `nonce` content attribute.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1120,
+        "created_at": "2017-12-20T07:49:08Z",
+        "closed_at": "2017-12-20T07:49:58Z",
+        "title": "Fix link in example",
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1119,
+        "created_at": "2017-12-20T04:41:03Z",
+        "closed_at": "2017-12-20T07:49:58Z",
+        "title": "img longdesc attribute value should have hash '#' prefix where linking to description on page.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1118,
+        "created_at": "2017-12-19T11:15:22Z",
+        "closed_at": null,
+        "title": "Don't use a wiki to define canvas context types",
+        "labels": [
+          {
+            "id": 777699762,
+            "url": "https://api.github.com/repos/w3c/html/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "aa44aa",
+            "default": true
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1117,
+        "created_at": "2017-12-19T09:47:38Z",
+        "closed_at": "2018-01-14T16:21:45Z",
+        "title": "More detailed explanation of U+0000 handling",
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1116,
+        "created_at": "2017-12-18T14:43:38Z",
+        "closed_at": null,
+        "title": "The prose for the dl element is not very clear, and examples are lacking",
+        "labels": [],
+        "assignee": "LJWatson",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1115,
+        "created_at": "2017-12-18T10:29:51Z",
+        "closed_at": "2017-12-18T14:55:46Z",
+        "title": "no tarball?",
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": "ylafon",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1114,
+        "created_at": "2017-12-17T17:22:26Z",
+        "closed_at": "2018-01-09T09:38:15Z",
+        "title": "Acknowledgement",
+        "labels": [
+          {
+            "id": 761042593,
+            "url": "https://api.github.com/repos/w3c/html/labels/not%20ready%20for%20merge",
+            "name": "not ready for merge",
+            "color": "000000",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1113,
+        "created_at": "2017-12-17T13:25:54Z",
+        "closed_at": null,
+        "title": "Update paragraph description",
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 761042593,
+            "url": "https://api.github.com/repos/w3c/html/labels/not%20ready%20for%20merge",
+            "name": "not ready for merge",
+            "color": "000000",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1112,
+        "created_at": "2017-12-15T07:52:26Z",
+        "closed_at": null,
+        "title": "Confusing statement regarding the content model of <p> in the \"Changes\" section in HTML5.2",
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 608115925,
+            "url": "https://api.github.com/repos/w3c/html/labels/errata",
+            "name": "errata",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": "chaals",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1111,
+        "created_at": "2017-12-15T02:34:12Z",
+        "closed_at": "2017-12-15T08:33:26Z",
+        "title": "A11y: Color contrast issue on hovering the options in select element",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1110,
+        "created_at": "2017-12-15T01:40:10Z",
+        "closed_at": "2017-12-15T08:25:23Z",
+        "title": "change paragraph to label in multi select example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1109,
+        "created_at": "2017-12-14T17:32:49Z",
+        "closed_at": null,
+        "title": "Make sure nonces don't leak",
+        "labels": [
+          {
+            "id": 373994082,
+            "url": "https://api.github.com/repos/w3c/html/labels/security",
+            "name": "security",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 491306560,
+            "url": "https://api.github.com/repos/w3c/html/labels/substantive",
+            "name": "substantive",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": "chaals",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1108,
+        "created_at": "2017-12-14T17:27:14Z",
+        "closed_at": "2017-12-22T09:34:10Z",
+        "title": "Remove magical alignment for dialog",
+        "labels": [
+          {
+            "id": 317499836,
+            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
+            "name": "Should be deprecated?",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 777699762,
+            "url": "https://api.github.com/repos/w3c/html/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "aa44aa",
+            "default": true
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
+            "default": false
+          }
+        ],
+        "assignee": "shwetank",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1107,
+        "created_at": "2017-12-14T15:04:59Z",
+        "closed_at": "2017-12-14T16:49:54Z",
+        "title": "fix a missing /div in <dialog/> example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1106,
+        "created_at": "2017-12-14T13:46:18Z",
+        "closed_at": "2017-12-29T04:51:21Z",
+        "title": "mark RegisterContentHandler() at risk?",
+        "labels": [
+          {
+            "id": 464340179,
+            "url": "https://api.github.com/repos/w3c/html/labels/at%20risk",
+            "name": "at risk",
+            "color": "c5d5f5",
+            "default": false
+          },
+          {
+            "id": 777699762,
+            "url": "https://api.github.com/repos/w3c/html/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "aa44aa",
+            "default": true
+          }
+        ],
+        "assignee": "shwetank",
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 1105,
         "created_at": "2017-12-13T14:29:36Z",
@@ -42834,7 +43934,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "shwetank",
         "isPullRequest": false
       },
       {
@@ -42878,7 +43978,15 @@
         "created_at": "2017-12-07T15:16:06Z",
         "closed_at": null,
         "title": "image decoding",
-        "labels": [],
+        "labels": [
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -43000,10 +44108,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1093,
         "created_at": "2017-11-29T15:00:59Z",
-        "closed_at": null,
+        "closed_at": "2017-12-19T15:09:31Z",
         "title": "srcdoc is the same in HTML and XHTML",
         "labels": [
           {
@@ -43043,10 +44151,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1091,
         "created_at": "2017-11-29T11:11:33Z",
-        "closed_at": null,
+        "closed_at": "2017-12-14T09:14:10Z",
         "title": "Intrusive Elements",
         "labels": [],
         "assignee": "LJWatson",
@@ -43314,7 +44422,15 @@
         "created_at": "2017-11-08T17:18:14Z",
         "closed_at": null,
         "title": "Proposing to replace default invalid state for form elements by indeterminate",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -43750,7 +44866,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "siusin",
         "isPullRequest": false
       },
       {
@@ -43900,18 +45016,18 @@
         "title": "Forms [pattern] attribute should be usable with textarea",
         "labels": [
           {
-            "id": 491306708,
-            "url": "https://api.github.com/repos/w3c/html/labels/enhancement",
-            "name": "enhancement",
-            "color": "fbca04",
-            "default": true
-          },
-          {
             "id": 425163936,
             "url": "https://api.github.com/repos/w3c/html/labels/Feature%20request",
             "name": "Feature request",
             "color": "006b75",
             "default": false
+          },
+          {
+            "id": 491306708,
+            "url": "https://api.github.com/repos/w3c/html/labels/enhancement",
+            "name": "enhancement",
+            "color": "fbca04",
+            "default": true
           }
         ],
         "assignee": null,
@@ -43933,7 +45049,15 @@
         "created_at": "2017-09-24T16:47:09Z",
         "closed_at": null,
         "title": "Improve: 8.2.4.72. Character reference state",
-        "labels": [],
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
         "assignee": "cynthia",
         "isPullRequest": false
       },
@@ -43977,7 +45101,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "chaals",
         "isPullRequest": false
       },
       {
@@ -44326,13 +45450,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1000,
         "created_at": "2017-08-27T07:30:19Z",
-        "closed_at": null,
+        "closed_at": "2018-01-14T16:21:45Z",
         "title": "Clarify what happens to U+0000 chars",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": "chaals",
         "isPullRequest": false
       },
       {
@@ -44351,7 +45483,22 @@
         "created_at": "2017-08-27T07:11:45Z",
         "closed_at": null,
         "title": "define what it means for elements to be “referenced”",
-        "labels": [],
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 777699762,
+            "url": "https://api.github.com/repos/w3c/html/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "aa44aa",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -44366,17 +45513,17 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 996,
         "created_at": "2017-08-21T06:54:46Z",
-        "closed_at": null,
+        "closed_at": "2017-12-14T17:39:27Z",
         "title": "Support elements in <option> elements",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
+            "id": 425163936,
+            "url": "https://api.github.com/repos/w3c/html/labels/Feature%20request",
+            "name": "Feature request",
+            "color": "006b75",
             "default": false
           },
           {
@@ -44385,16 +45532,23 @@
             "name": "Needs incubation",
             "color": "0052cc",
             "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
+            "default": false
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 995,
         "created_at": "2017-08-20T05:12:42Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T00:37:05Z",
         "title": "idea:input search ",
         "labels": [
           {
@@ -44405,17 +45559,17 @@
             "default": false
           },
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           },
           {
@@ -44505,7 +45659,22 @@
         "created_at": "2017-08-09T00:16:11Z",
         "closed_at": null,
         "title": "Link types \"external\" and \"prefetch\" have no normative definitions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 313576301,
+            "url": "https://api.github.com/repos/w3c/html/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
+          },
+          {
+            "id": 777699762,
+            "url": "https://api.github.com/repos/w3c/html/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "aa44aa",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -44548,10 +45717,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 983,
         "created_at": "2017-08-05T21:35:21Z",
-        "closed_at": null,
+        "closed_at": "2017-12-14T17:40:43Z",
         "title": "Suggestion: new element to display current date",
         "labels": [
           {
@@ -44597,7 +45766,7 @@
             "default": false
           }
         ],
-        "assignee": "stevefaulkner",
+        "assignee": "brucelawson",
         "isPullRequest": false
       },
       {
@@ -44675,7 +45844,7 @@
             "default": false
           }
         ],
-        "assignee": "stevefaulkner",
+        "assignee": "LJWatson",
         "isPullRequest": false
       },
       {
@@ -44693,17 +45862,17 @@
             "default": false
           },
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           }
         ],
@@ -44725,21 +45894,21 @@
             "default": true
           }
         ],
-        "assignee": "stevefaulkner",
+        "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 974,
         "created_at": "2017-07-26T10:23:34Z",
-        "closed_at": null,
+        "closed_at": "2017-12-22T16:20:47Z",
         "title": "The content model of the map element should not be \"just\" transparent",
         "labels": [
           {
-            "id": 313576301,
-            "url": "https://api.github.com/repos/w3c/html/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
+            "id": 491304287,
+            "url": "https://api.github.com/repos/w3c/html/labels/invalid",
+            "name": "invalid",
+            "color": "0052cc",
             "default": true
           }
         ],
@@ -44921,17 +46090,17 @@
         "title": "Proposal: allow servers to suggest alt tags for images, and possibly other content.",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           },
           {
@@ -45266,8 +46435,23 @@
         "created_at": "2017-05-29T16:52:40Z",
         "closed_at": null,
         "title": "4.12.4.3 Canvas color spaces and color correction",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 777699762,
+            "url": "https://api.github.com/repos/w3c/html/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "aa44aa",
+            "default": true
+          }
+        ],
+        "assignee": "shwetank",
         "isPullRequest": false
       },
       {
@@ -45307,10 +46491,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 937,
         "created_at": "2017-05-28T09:10:59Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T14:18:32Z",
         "title": "Clear native browser cache with JavaScript",
         "labels": [],
         "assignee": null,
@@ -45324,18 +46508,18 @@
         "title": "Indicate required state on checkboxes",
         "labels": [
           {
-            "id": 491306708,
-            "url": "https://api.github.com/repos/w3c/html/labels/enhancement",
-            "name": "enhancement",
-            "color": "fbca04",
-            "default": true
-          },
-          {
             "id": 425163936,
             "url": "https://api.github.com/repos/w3c/html/labels/Feature%20request",
             "name": "Feature request",
             "color": "006b75",
             "default": false
+          },
+          {
+            "id": 491306708,
+            "url": "https://api.github.com/repos/w3c/html/labels/enhancement",
+            "name": "enhancement",
+            "color": "fbca04",
+            "default": true
           },
           {
             "id": 491306560,
@@ -45471,6 +46655,13 @@
         "title": "Deprecate or obsolete plugin API?",
         "labels": [
           {
+            "id": 317499836,
+            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
+            "name": "Should be deprecated?",
+            "color": "fbca04",
+            "default": false
+          },
+          {
             "id": 464340179,
             "url": "https://api.github.com/repos/w3c/html/labels/at%20risk",
             "name": "at risk",
@@ -45481,13 +46672,6 @@
             "id": 373994082,
             "url": "https://api.github.com/repos/w3c/html/labels/security",
             "name": "security",
-            "color": "fbca04",
-            "default": false
-          },
-          {
-            "id": 317499836,
-            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
-            "name": "Should be deprecated?",
             "color": "fbca04",
             "default": false
           }
@@ -45554,10 +46738,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 922,
         "created_at": "2017-05-22T20:54:13Z",
-        "closed_at": null,
+        "closed_at": "2018-01-15T11:28:54Z",
         "title": "Inconsistency regarding caption element end tag",
         "labels": [],
         "assignee": "LJWatson",
@@ -45748,7 +46932,7 @@
             "default": true
           }
         ],
-        "assignee": "stevefaulkner",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -45948,20 +47132,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 894,
         "created_at": "2017-05-02T17:20:13Z",
-        "closed_at": null,
+        "closed_at": "2018-01-15T03:23:03Z",
         "title": "Discrepancies between HTML and ARIA in HTML specs",
         "labels": [],
-        "assignee": null,
+        "assignee": "scottaohara",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 893,
         "created_at": "2017-05-01T10:45:52Z",
-        "closed_at": null,
+        "closed_at": "2017-12-15T08:41:20Z",
         "title": "Identify sections at risk for 5.2",
         "labels": [
           {
@@ -46014,17 +47198,17 @@
         "title": "readonly/mutability clarification",
         "labels": [
           {
-            "id": 317499526,
-            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
-            "name": "match reality better",
-            "color": "c7def8",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
             "default": false
           }
         ],
@@ -46032,10 +47216,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 890,
         "created_at": "2017-04-29T09:12:11Z",
-        "closed_at": null,
+        "closed_at": "2017-12-19T15:09:30Z",
         "title": "Align @srcdoc with WHATwg: Remove requirement to match ’the production labeled document in the XML specification’",
         "labels": [],
         "assignee": "chaals",
@@ -46057,7 +47241,15 @@
         "created_at": "2017-04-26T14:11:39Z",
         "closed_at": null,
         "title": "Filtering can break usefulness of datalist for long lists",
-        "labels": [],
+        "labels": [
+          {
+            "id": 425163936,
+            "url": "https://api.github.com/repos/w3c/html/labels/Feature%20request",
+            "name": "Feature request",
+            "color": "006b75",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -46307,12 +47499,27 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 871,
         "created_at": "2017-04-06T14:16:38Z",
-        "closed_at": null,
+        "closed_at": "2017-12-18T14:36:18Z",
         "title": "Cut distracting statement about external resources",
-        "labels": [],
+        "labels": [
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 491304287,
+            "url": "https://api.github.com/repos/w3c/html/labels/invalid",
+            "name": "invalid",
+            "color": "0052cc",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -46370,10 +47577,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 867,
         "created_at": "2017-04-05T18:42:35Z",
-        "closed_at": null,
+        "closed_at": "2018-01-15T04:25:46Z",
         "title": "(Re)disallow script defer/async attributes w/o src",
         "labels": [
           {
@@ -46382,9 +47589,16 @@
             "name": "WHATWG Port",
             "color": "0e8a16",
             "default": false
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
+            "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "chaals",
         "isPullRequest": false
       },
       {
@@ -46664,17 +47878,17 @@
         "title": "HTML5.2 proposal (request for comments): add new attribute \"subject\" to <p>",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           },
           {
@@ -47048,6 +48262,13 @@
         "title": "Refine link-element section readability",
         "labels": [
           {
+            "id": 465010578,
+            "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
+            "name": "WHATWG Port",
+            "color": "0e8a16",
+            "default": false
+          },
+          {
             "id": 317006072,
             "url": "https://api.github.com/repos/w3c/html/labels/editorial",
             "name": "editorial",
@@ -47059,13 +48280,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/high%20priority",
             "name": "high priority",
             "color": "d93f0b",
-            "default": false
-          },
-          {
-            "id": 465010578,
-            "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
-            "name": "WHATWG Port",
-            "color": "0e8a16",
             "default": false
           }
         ],
@@ -47105,17 +48319,17 @@
         "title": "How should RTL tables be processed?",
         "labels": [
           {
-            "id": 365820044,
-            "url": "https://api.github.com/repos/w3c/html/labels/i18n-comment",
-            "name": "i18n-comment",
-            "color": "0e8a16",
-            "default": false
-          },
-          {
             "id": 374033087,
             "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
             "name": "Poor real-world interoperability",
             "color": "f99923",
+            "default": false
+          },
+          {
+            "id": 365820044,
+            "url": "https://api.github.com/repos/w3c/html/labels/i18n-comment",
+            "name": "i18n-comment",
+            "color": "0e8a16",
             "default": false
           }
         ],
@@ -47306,7 +48520,7 @@
             "default": true
           }
         ],
-        "assignee": "stevefaulkner",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -47379,17 +48593,17 @@
             "default": false
           },
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           }
         ],
@@ -47625,17 +48839,17 @@
             "default": false
           },
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           }
         ],
@@ -47755,17 +48969,17 @@
             "default": false
           },
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           }
         ],
@@ -48098,16 +49312,16 @@
         "title": "Accept WHATWG change to drop restrictions on the Bidi algorithm?",
         "labels": [
           {
-            "id": 365820044,
-            "url": "https://api.github.com/repos/w3c/html/labels/i18n-comment",
-            "name": "i18n-comment",
+            "id": 465010578,
+            "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
+            "name": "WHATWG Port",
             "color": "0e8a16",
             "default": false
           },
           {
-            "id": 465010578,
-            "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
-            "name": "WHATWG Port",
+            "id": 365820044,
+            "url": "https://api.github.com/repos/w3c/html/labels/i18n-comment",
+            "name": "i18n-comment",
             "color": "0e8a16",
             "default": false
           }
@@ -48143,18 +49357,18 @@
         "title": "Continue to define xml:base as [not] for HTML docs?",
         "labels": [
           {
-            "id": 313576304,
-            "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 406850012,
             "url": "https://api.github.com/repos/w3c/html/labels/HTML%20email",
             "name": "HTML email",
             "color": "0faa1c",
             "default": false
+          },
+          {
+            "id": 313576304,
+            "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           },
           {
             "id": 354372176,
@@ -48919,17 +50133,17 @@
         "title": "June 2016 Port 37 - Editorial: fix typo in running a module script",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -48962,17 +50176,17 @@
         "title": "June 2016 Port 35 - Allow comments to end with <!-->",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -49023,17 +50237,17 @@
         "title": "June 2016 Port 32 - Add a playsinline attribute to <video>",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -49102,17 +50316,17 @@
         "title": "June 2016 Port 28 - Allow dashes in comments",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -49127,17 +50341,17 @@
         "title": "June 2016 Port 27 - Editorial: fix typo in \"Integration with IDL\"",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -49152,17 +50366,17 @@
         "title": "June 2016 Port 26 - Editorial: fix typos",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -49177,17 +50391,17 @@
         "title": "June 2016 Port 25 - Fix javascript: URL example explanation",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -49238,17 +50452,17 @@
         "title": "June 2016 Port 22 - Editorial: Use consistent spacing for \"Web IDL\"",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -49353,17 +50567,17 @@
         "title": "June 2016 Port 16 - Add examples for non-roundtrippable HTML",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -49524,17 +50738,17 @@
         "title": "June 2016 Port 7 - Editorial: wrap \"Content-Type/text/html\" in backticks",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -49864,6 +51078,13 @@
         "title": "Activation behavior doesn't necessarily result in a click event in browsers...",
         "labels": [
           {
+            "id": 374033087,
+            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
+            "name": "Poor real-world interoperability",
+            "color": "f99923",
+            "default": false
+          },
+          {
             "id": 370303388,
             "url": "https://api.github.com/repos/w3c/html/labels/a11y",
             "name": "a11y",
@@ -49889,13 +51110,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
             "name": "needs tests",
             "color": "b60205",
-            "default": false
-          },
-          {
-            "id": 374033087,
-            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
-            "name": "Poor real-world interoperability",
-            "color": "f99923",
             "default": false
           }
         ],
@@ -49971,17 +51185,17 @@
         "title": "July 2016 Port 24 - Missing onloadend IDL and content attribute",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           }
         ],
@@ -50024,17 +51238,17 @@
         "title": "July 2016 Port 22 - Drag events are \"composed\"",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -50049,17 +51263,17 @@
         "title": "July 2016 Port 21 - Contributor update",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -50092,17 +51306,17 @@
         "title": "July 2016 Port 19 - Apply current entry in pushState earlier",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -50333,17 +51547,17 @@
         "title": "July 2016 Port 13 - Remove document.load()",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -50412,17 +51626,17 @@
         "title": "July 2016 Port 9 - Merge and review <picture> ",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -50766,17 +51980,17 @@
         "title": "Proposal: Calling stylesheets contextually",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           }
         ],
@@ -50992,17 +52206,17 @@
         "title": "HTMLElement.contextmenu is five-year old and nobody intends to implement it",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -51190,17 +52404,17 @@
         "title": "Add `export` attribute to various definitions.",
         "labels": [
           {
-            "id": 327123774,
-            "url": "https://api.github.com/repos/w3c/html/labels/bikeshed",
-            "name": "bikeshed",
-            "color": "bfe5bf",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 327123774,
+            "url": "https://api.github.com/repos/w3c/html/labels/bikeshed",
+            "name": "bikeshed",
+            "color": "bfe5bf",
             "default": false
           }
         ],
@@ -51410,6 +52624,13 @@
         "title": "Port 'referrerpolicy' integration",
         "labels": [
           {
+            "id": 465010578,
+            "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
+            "name": "WHATWG Port",
+            "color": "0e8a16",
+            "default": false
+          },
+          {
             "id": 354372176,
             "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
             "name": "needs tests",
@@ -51421,13 +52642,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/security",
             "name": "security",
             "color": "fbca04",
-            "default": false
-          },
-          {
-            "id": 465010578,
-            "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
-            "name": "WHATWG Port",
-            "color": "0e8a16",
             "default": false
           }
         ],
@@ -51459,7 +52673,7 @@
             "default": false
           }
         ],
-        "assignee": "stevefaulkner",
+        "assignee": "brucelawson",
         "isPullRequest": false
       },
       {
@@ -51994,17 +53208,17 @@
         "title": "Port `noopener`.",
         "labels": [
           {
-            "id": 373994082,
-            "url": "https://api.github.com/repos/w3c/html/labels/security",
-            "name": "security",
-            "color": "fbca04",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 373994082,
+            "url": "https://api.github.com/repos/w3c/html/labels/security",
+            "name": "security",
+            "color": "fbca04",
             "default": false
           }
         ],
@@ -52706,10 +53920,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 476,
         "created_at": "2016-06-09T11:51:47Z",
-        "closed_at": null,
+        "closed_at": "2018-01-16T09:31:12Z",
         "title": "Define or remove the use of the term Plain Unicode String",
         "labels": [
           {
@@ -53061,35 +54275,21 @@
         "title": "Rendering range inputs as vertical: should there be normative text (& maybe attribute)?",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
-            "id": 370307494,
-            "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
-            "name": "Needs incubation",
-            "color": "0052cc",
-            "default": false
-          },
-          {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 374033087,
             "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
             "name": "Poor real-world interoperability",
             "color": "f99923",
             "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
+            "default": false
           }
         ],
-        "assignee": "stevefaulkner",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -53338,17 +54538,17 @@
         "title": "What to do with multiple thead / tfoot / caption",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 374033087,
             "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
             "name": "Poor real-world interoperability",
             "color": "f99923",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -54367,17 +55567,17 @@
         "title": "Things we don't expect to take into HTML",
         "labels": [
           {
-            "id": 354146865,
-            "url": "https://api.github.com/repos/w3c/html/labels/meta",
-            "name": "meta",
-            "color": "000000",
-            "default": false
-          },
-          {
             "id": 465010578,
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 354146865,
+            "url": "https://api.github.com/repos/w3c/html/labels/meta",
+            "name": "meta",
+            "color": "000000",
             "default": false
           }
         ],
@@ -54439,10 +55639,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 361,
         "created_at": "2016-05-10T17:55:17Z",
-        "closed_at": null,
+        "closed_at": "2017-12-20T10:16:19Z",
         "title": "Document latest version logic for /TR/html(\\d)*/",
         "labels": [
           {
@@ -54453,7 +55653,7 @@
             "default": false
           }
         ],
-        "assignee": "ylafon",
+        "assignee": "siusin",
         "isPullRequest": false
       },
       {
@@ -54730,17 +55930,17 @@
         "title": "Type attribute for ordered lists should be obsolete but conforming",
         "labels": [
           {
-            "id": 365820044,
-            "url": "https://api.github.com/repos/w3c/html/labels/i18n-comment",
-            "name": "i18n-comment",
-            "color": "0e8a16",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 365820044,
+            "url": "https://api.github.com/repos/w3c/html/labels/i18n-comment",
+            "name": "i18n-comment",
+            "color": "0e8a16",
             "default": false
           },
           {
@@ -55457,17 +56657,17 @@
         "title": "comments to be selectively preserved despite minification need string or format",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           },
           {
@@ -55521,6 +56721,13 @@
         "title": "Focusability of scrollable regions",
         "labels": [
           {
+            "id": 374033087,
+            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
+            "name": "Poor real-world interoperability",
+            "color": "f99923",
+            "default": false
+          },
+          {
             "id": 370303388,
             "url": "https://api.github.com/repos/w3c/html/labels/a11y",
             "name": "a11y",
@@ -55533,13 +56740,6 @@
             "name": "bug",
             "color": "fc2929",
             "default": true
-          },
-          {
-            "id": 374033087,
-            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
-            "name": "Poor real-world interoperability",
-            "color": "f99923",
-            "default": false
           }
         ],
         "assignee": "chaals",
@@ -55677,17 +56877,17 @@
         "title": "colspan=\"0\" option for TD elements was dropped, yet the \"no one uses\" rowspan=\"0\" remains",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           },
           {
@@ -55801,18 +57001,18 @@
         "title": "initial focus precedence: autofocus or fragment identifier ",
         "labels": [
           {
-            "id": 313576304,
-            "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 374033087,
             "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
             "name": "Poor real-world interoperability",
             "color": "f99923",
             "default": false
+          },
+          {
+            "id": 313576304,
+            "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": "cynthia",
@@ -55871,17 +57071,17 @@
         "title": "Why can't <header> have <header> descendants?",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -56279,17 +57479,17 @@
         "title": "Determine rendering for @srcdoc docs with quirks-mode doctype",
         "labels": [
           {
-            "id": 354372176,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
-            "name": "needs tests",
-            "color": "b60205",
-            "default": false
-          },
-          {
             "id": 374033087,
             "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
             "name": "Poor real-world interoperability",
             "color": "f99923",
+            "default": false
+          },
+          {
+            "id": 354372176,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "b60205",
             "default": false
           }
         ],
@@ -56304,17 +57504,17 @@
         "title": "De-emphasis DOCTYPE: shift focus from ”required preamble” to ”required rendering mode”",
         "labels": [
           {
-            "id": 317499526,
-            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
-            "name": "match reality better",
-            "color": "c7def8",
-            "default": false
-          },
-          {
             "id": 374033087,
             "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
             "name": "Poor real-world interoperability",
             "color": "f99923",
+            "default": false
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
             "default": false
           }
         ],
@@ -56434,6 +57634,13 @@
         "title": "Remove Media Controller?",
         "labels": [
           {
+            "id": 317499836,
+            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
+            "name": "Should be deprecated?",
+            "color": "fbca04",
+            "default": false
+          },
+          {
             "id": 317499526,
             "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
             "name": "match reality better",
@@ -56445,13 +57652,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
             "name": "needs implementations",
             "color": "eb6420",
-            "default": false
-          },
-          {
-            "id": 317499836,
-            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
-            "name": "Should be deprecated?",
-            "color": "fbca04",
             "default": false
           }
         ],
@@ -56564,18 +57764,18 @@
         "title": "Align implementation \"search\" behavior for <input> with <datalist>",
         "labels": [
           {
-            "id": 313576304,
-            "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 374033087,
             "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
             "name": "Poor real-world interoperability",
             "color": "f99923",
             "default": false
+          },
+          {
+            "id": 313576304,
+            "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -56667,6 +57867,13 @@
         "title": "remove style scoped ?",
         "labels": [
           {
+            "id": 317499836,
+            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
+            "name": "Should be deprecated?",
+            "color": "fbca04",
+            "default": false
+          },
+          {
             "id": 317499526,
             "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
             "name": "match reality better",
@@ -56678,13 +57885,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
             "name": "needs implementations",
             "color": "eb6420",
-            "default": false
-          },
-          {
-            "id": 317499836,
-            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
-            "name": "Should be deprecated?",
-            "color": "fbca04",
             "default": false
           }
         ],
@@ -56777,17 +57977,17 @@
         "title": "make any element with an explicit lang attribute (and no dir attribute) bidi-isolated by default ",
         "labels": [
           {
-            "id": 365820044,
-            "url": "https://api.github.com/repos/w3c/html/labels/i18n-comment",
-            "name": "i18n-comment",
-            "color": "0e8a16",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 365820044,
+            "url": "https://api.github.com/repos/w3c/html/labels/i18n-comment",
+            "name": "i18n-comment",
+            "color": "0e8a16",
             "default": false
           },
           {
@@ -56809,18 +58009,18 @@
         "title": "Should ordered list numbering consider list items in child blocks?",
         "labels": [
           {
-            "id": 313576304,
-            "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
             "default": false
+          },
+          {
+            "id": 313576304,
+            "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           },
           {
             "id": 354372176,
@@ -56859,6 +58059,13 @@
         "title": "Consider dropping showModalDialog API",
         "labels": [
           {
+            "id": 317499836,
+            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
+            "name": "Should be deprecated?",
+            "color": "fbca04",
+            "default": false
+          },
+          {
             "id": 313576304,
             "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
             "name": "help wanted",
@@ -56870,13 +58077,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
             "name": "match reality better",
             "color": "c7def8",
-            "default": false
-          },
-          {
-            "id": 317499836,
-            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
-            "name": "Should be deprecated?",
-            "color": "fbca04",
             "default": false
           }
         ],
@@ -57004,6 +58204,13 @@
         "title": "Sync up usages of \"compatibilty caseless\" comparisons used in the spec",
         "labels": [
           {
+            "id": 374033087,
+            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
+            "name": "Poor real-world interoperability",
+            "color": "f99923",
+            "default": false
+          },
+          {
             "id": 365820044,
             "url": "https://api.github.com/repos/w3c/html/labels/i18n-comment",
             "name": "i18n-comment",
@@ -57015,13 +58222,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
             "name": "needs tests",
             "color": "b60205",
-            "default": false
-          },
-          {
-            "id": 374033087,
-            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
-            "name": "Poor real-world interoperability",
-            "color": "f99923",
             "default": false
           }
         ],
@@ -57082,6 +58282,13 @@
         "title": "We already have a tabindex attribute, but we really need a tabatkins attribute",
         "labels": [
           {
+            "id": 370307494,
+            "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
+            "name": "Needs incubation",
+            "color": "0052cc",
+            "default": false
+          },
+          {
             "id": 313576304,
             "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
             "name": "help wanted",
@@ -57100,13 +58307,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
             "name": "needs implementations",
             "color": "eb6420",
-            "default": false
-          },
-          {
-            "id": 370307494,
-            "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
-            "name": "Needs incubation",
-            "color": "0052cc",
             "default": false
           },
           {
@@ -57418,6 +58618,13 @@
         "title": "clarify input type=\"date\" change event behavior",
         "labels": [
           {
+            "id": 374033087,
+            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
+            "name": "Poor real-world interoperability",
+            "color": "f99923",
+            "default": false
+          },
+          {
             "id": 313576304,
             "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
             "name": "help wanted",
@@ -57429,13 +58636,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
             "name": "needs tests",
             "color": "b60205",
-            "default": false
-          },
-          {
-            "id": 374033087,
-            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
-            "name": "Poor real-world interoperability",
-            "color": "f99923",
             "default": false
           }
         ],
@@ -57734,6 +58934,13 @@
         "title": "area with no href should allow (and often have) alt",
         "labels": [
           {
+            "id": 374033087,
+            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
+            "name": "Poor real-world interoperability",
+            "color": "f99923",
+            "default": false
+          },
+          {
             "id": 491304287,
             "url": "https://api.github.com/repos/w3c/html/labels/invalid",
             "name": "invalid",
@@ -57745,13 +58952,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
             "name": "needs tests",
             "color": "b60205",
-            "default": false
-          },
-          {
-            "id": 374033087,
-            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
-            "name": "Poor real-world interoperability",
-            "color": "f99923",
             "default": false
           }
         ],
@@ -57805,17 +59005,17 @@
         "title": "Do not recommend using nested sections with h1",
         "labels": [
           {
-            "id": 317499526,
-            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
-            "name": "match reality better",
-            "color": "c7def8",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
             "default": false
           }
         ],
@@ -58115,17 +59315,17 @@
         "title": "mediagroup attribute isn't supported",
         "labels": [
           {
-            "id": 317499526,
-            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
-            "name": "match reality better",
-            "color": "c7def8",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
             "default": false
           }
         ],
@@ -58158,17 +59358,17 @@
         "title": "binding property is no longer",
         "labels": [
           {
-            "id": 317006072,
-            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
-            "name": "editorial",
-            "color": "fef2c0",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 317006072,
+            "url": "https://api.github.com/repos/w3c/html/labels/editorial",
+            "name": "editorial",
+            "color": "fef2c0",
             "default": false
           }
         ],
@@ -58619,6 +59819,13 @@
         "title": "Clarify label element",
         "labels": [
           {
+            "id": 317499836,
+            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
+            "name": "Should be deprecated?",
+            "color": "fbca04",
+            "default": false
+          },
+          {
             "id": 317006072,
             "url": "https://api.github.com/repos/w3c/html/labels/editorial",
             "name": "editorial",
@@ -58630,13 +59837,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
             "name": "match reality better",
             "color": "c7def8",
-            "default": false
-          },
-          {
-            "id": 317499836,
-            "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
-            "name": "Should be deprecated?",
-            "color": "fbca04",
             "default": false
           }
         ],
@@ -58804,18 +60004,18 @@
         "title": "Autofocus should not surprise the user",
         "labels": [
           {
-            "id": 313576301,
-            "url": "https://api.github.com/repos/w3c/html/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
             "default": false
+          },
+          {
+            "id": 313576301,
+            "url": "https://api.github.com/repos/w3c/html/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": "stevefaulkner",
@@ -58961,17 +60161,17 @@
         "title": "Only one implementation of accessKeyLabel - and the spec should be improved",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           },
           {
@@ -59084,17 +60284,17 @@
         "title": "Allow `readonly` on checkboxes and radio buttons?",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           }
         ],
@@ -59134,17 +60334,17 @@
         "title": "Do multiple ranges work?",
         "labels": [
           {
-            "id": 317499526,
-            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
-            "name": "match reality better",
-            "color": "c7def8",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
             "default": false
           }
         ],
@@ -59158,6 +60358,13 @@
         "closed_at": "2017-02-07T08:21:07Z",
         "title": "Make readonly work on range?",
         "labels": [
+          {
+            "id": 374033087,
+            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
+            "name": "Poor real-world interoperability",
+            "color": "f99923",
+            "default": false
+          },
           {
             "id": 313576304,
             "url": "https://api.github.com/repos/w3c/html/labels/help%20wanted",
@@ -59177,13 +60384,6 @@
             "url": "https://api.github.com/repos/w3c/html/labels/needs%20tests",
             "name": "needs tests",
             "color": "b60205",
-            "default": false
-          },
-          {
-            "id": 374033087,
-            "url": "https://api.github.com/repos/w3c/html/labels/Poor%20real-world%20interoperability",
-            "name": "Poor real-world interoperability",
-            "color": "f99923",
             "default": false
           }
         ],
@@ -59517,13 +60717,6 @@
         "title": "dropzone isn't supported",
         "labels": [
           {
-            "id": 317499526,
-            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
-            "name": "match reality better",
-            "color": "c7def8",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
@@ -59535,6 +60728,13 @@
             "url": "https://api.github.com/repos/w3c/html/labels/WHATWG%20Port",
             "name": "WHATWG Port",
             "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
             "default": false
           }
         ],
@@ -59650,17 +60850,17 @@
         "title": "Consider removing table sorting model",
         "labels": [
           {
-            "id": 317499526,
-            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
-            "name": "match reality better",
-            "color": "c7def8",
-            "default": false
-          },
-          {
             "id": 317499836,
             "url": "https://api.github.com/repos/w3c/html/labels/Should%20be%20deprecated?",
             "name": "Should be deprecated?",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 317499526,
+            "url": "https://api.github.com/repos/w3c/html/labels/match%20reality%20better",
+            "name": "match reality better",
+            "color": "c7def8",
             "default": false
           }
         ],
@@ -60230,17 +61430,17 @@
         "title": "`accesskey` should not need to be a single character in length.",
         "labels": [
           {
-            "id": 326517550,
-            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
-            "name": "needs implementations",
-            "color": "eb6420",
-            "default": false
-          },
-          {
             "id": 370307494,
             "url": "https://api.github.com/repos/w3c/html/labels/Needs%20incubation",
             "name": "Needs incubation",
             "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 326517550,
+            "url": "https://api.github.com/repos/w3c/html/labels/needs%20implementations",
+            "name": "needs implementations",
+            "color": "eb6420",
             "default": false
           },
           {
@@ -60499,6 +61699,36 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 228,
+        "created_at": "2018-01-17T01:18:10Z",
+        "closed_at": null,
+        "title": "Fix the link to the first edition",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 227,
+        "created_at": "2018-01-15T20:14:54Z",
+        "closed_at": null,
+        "title": "Trying to access version 1 of the IndexedDB spec at W3C site, but version 2 is shown.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 226,
+        "created_at": "2018-01-15T01:21:42Z",
+        "closed_at": null,
+        "title": "Web IDL syntax error?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 225,
@@ -64587,6 +65817,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 77,
+        "created_at": "2018-01-13T14:13:49Z",
+        "closed_at": null,
+        "title": "fix issue 76",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 76,
+        "created_at": "2018-01-12T22:26:20Z",
+        "closed_at": null,
+        "title": "Bad `input` event link in Introduction",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 75,
         "created_at": "2017-10-03T23:24:54Z",
         "closed_at": null,
@@ -65424,6 +66674,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 278,
+        "created_at": "2017-12-19T16:48:23Z",
+        "closed_at": null,
+        "title": "Picture Element: Does not register with IO viewport rules",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 277,
@@ -69396,18 +70656,18 @@
         "title": "Microdata's property ordering semantics are unclear (and perhaps unused) - can we simplify?",
         "labels": [
           {
-            "id": 534199877,
-            "url": "https://api.github.com/repos/w3c/microdata/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "128A0C",
-            "default": true
-          },
-          {
             "id": 534199879,
             "url": "https://api.github.com/repos/w3c/microdata/labels/Needs%20tests",
             "name": "Needs tests",
             "color": "cc317c",
             "default": false
+          },
+          {
+            "id": 534199877,
+            "url": "https://api.github.com/repos/w3c/microdata/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "128A0C",
+            "default": true
           }
         ],
         "assignee": "danbri",
@@ -69747,18 +71007,18 @@
         "title": "Is microdata processed in e.g. SVG?",
         "labels": [
           {
-            "id": 534199876,
-            "url": "https://api.github.com/repos/w3c/microdata/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 534199879,
             "url": "https://api.github.com/repos/w3c/microdata/labels/Needs%20tests",
             "name": "Needs tests",
             "color": "cc317c",
             "default": false
+          },
+          {
+            "id": 534199876,
+            "url": "https://api.github.com/repos/w3c/microdata/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -69822,18 +71082,18 @@
         "title": "Keeping markup inside values",
         "labels": [
           {
-            "id": 534199876,
-            "url": "https://api.github.com/repos/w3c/microdata/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 607400558,
             "url": "https://api.github.com/repos/w3c/microdata/labels/Maybe%20Later",
             "name": "Maybe Later",
             "color": "eeeeee",
             "default": false
+          },
+          {
+            "id": 534199876,
+            "url": "https://api.github.com/repos/w3c/microdata/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -69857,18 +71117,18 @@
         "title": "Add reverse property",
         "labels": [
           {
-            "id": 534199876,
-            "url": "https://api.github.com/repos/w3c/microdata/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 607400558,
             "url": "https://api.github.com/repos/w3c/microdata/labels/Maybe%20Later",
             "name": "Maybe Later",
             "color": "eeeeee",
             "default": false
+          },
+          {
+            "id": 534199876,
+            "url": "https://api.github.com/repos/w3c/microdata/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": "danbri",
@@ -70371,10 +71631,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 275,
         "created_at": "2017-06-29T19:50:55Z",
-        "closed_at": null,
+        "closed_at": "2017-12-15T23:36:51Z",
         "title": "What type of equality checking is being performed for options.",
         "labels": [
           {
@@ -74054,18 +75314,18 @@
         "title": "Improve hooks with Page Visibility.",
         "labels": [
           {
-            "id": 91823324,
-            "url": "https://api.github.com/repos/w3c/screen-orientation/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 124357824,
             "url": "https://api.github.com/repos/w3c/screen-orientation/labels/Future",
             "name": "Future",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 91823324,
+            "url": "https://api.github.com/repos/w3c/screen-orientation/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -74165,18 +75425,18 @@
         "title": "Move the HTML specification monkey patching to the HTML specification",
         "labels": [
           {
-            "id": 91823324,
-            "url": "https://api.github.com/repos/w3c/screen-orientation/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 124357824,
             "url": "https://api.github.com/repos/w3c/screen-orientation/labels/Future",
             "name": "Future",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 91823324,
+            "url": "https://api.github.com/repos/w3c/screen-orientation/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -74250,18 +75510,18 @@
         "title": "Link Screen Orientation with Fullscreen more cleanly",
         "labels": [
           {
-            "id": 91823324,
-            "url": "https://api.github.com/repos/w3c/screen-orientation/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 124357824,
             "url": "https://api.github.com/repos/w3c/screen-orientation/labels/Future",
             "name": "Future",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 91823324,
+            "url": "https://api.github.com/repos/w3c/screen-orientation/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -74624,18 +75884,18 @@
         "title": "Use animation frame task",
         "labels": [
           {
-            "id": 91823324,
-            "url": "https://api.github.com/repos/w3c/screen-orientation/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 124357824,
             "url": "https://api.github.com/repos/w3c/screen-orientation/labels/Future",
             "name": "Future",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 91823324,
+            "url": "https://api.github.com/repos/w3c/screen-orientation/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -76390,6 +77650,92 @@
     "issues": [
       {
         "state": "open",
+        "number": 724,
+        "created_at": "2018-01-11T22:00:33Z",
+        "closed_at": null,
+        "title": "aggravate => aggregate",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 723,
+        "created_at": "2018-01-06T17:28:25Z",
+        "closed_at": null,
+        "title": "Make custom elements w/ shadowRoot { display: contents } by default",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 721,
+        "created_at": "2018-01-03T16:55:04Z",
+        "closed_at": null,
+        "title": "[SHADOW] Sequential Focus Navigation step tree has 'for each' for a single scope",
+        "labels": [
+          {
+            "id": 217336260,
+            "url": "https://api.github.com/repos/w3c/webcomponents/labels/shadow-dom",
+            "name": "shadow-dom",
+            "color": "207de5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 720,
+        "created_at": "2018-01-03T16:35:21Z",
+        "closed_at": null,
+        "title": "[SHADOW] Sequential Focus Navigation uses undefined \"For each node tree TREE in DOCUMENT\" ",
+        "labels": [
+          {
+            "id": 217336260,
+            "url": "https://api.github.com/repos/w3c/webcomponents/labels/shadow-dom",
+            "name": "shadow-dom",
+            "color": "207de5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 719,
+        "created_at": "2017-12-29T12:33:09Z",
+        "closed_at": null,
+        "title": "Add a CSS subtype selector.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 718,
+        "created_at": "2017-12-18T17:26:28Z",
+        "closed_at": null,
+        "title": "Bulk property updates",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 717,
+        "created_at": "2017-12-14T18:45:27Z",
+        "closed_at": null,
+        "title": "The way to access current script or current root, from Shadow DOM",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 716,
         "created_at": "2017-12-08T20:05:07Z",
         "closed_at": null,
@@ -76774,10 +78120,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 687,
         "created_at": "2017-11-02T12:52:35Z",
-        "closed_at": null,
+        "closed_at": "2018-01-12T01:15:41Z",
         "title": "Copy edits for all remaining parts",
         "labels": [],
         "assignee": null,
@@ -78095,10 +79441,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 602,
         "created_at": "2016-11-05T11:45:37Z",
-        "closed_at": null,
+        "closed_at": "2017-12-19T14:50:59Z",
         "title": "Add an assignedElements() method",
         "labels": [
           {
@@ -89804,6 +91150,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 176,
+        "created_at": "2018-01-15T05:04:34Z",
+        "closed_at": null,
+        "title": "Fix references to Web IDL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 175,
+        "created_at": "2017-12-16T07:07:53Z",
+        "closed_at": null,
+        "title": "fix hide of column 'proposed'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 174,
         "created_at": "2017-12-05T10:03:52Z",
         "closed_at": null,
@@ -90011,10 +91377,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 154,
         "created_at": "2017-08-14T12:52:58Z",
-        "closed_at": null,
+        "closed_at": "2017-12-21T20:58:56Z",
         "title": "Dispatch mouseenter/leave/out/over when the layout (or scroll) changes",
         "labels": [],
         "assignee": null,
@@ -92773,6 +94139,16 @@
     },
     "recTrack": false,
     "issues": [
+      {
+        "state": "closed",
+        "number": 31,
+        "created_at": "2018-01-10T13:20:43Z",
+        "closed_at": "2018-01-15T16:30:15Z",
+        "title": "changing the example since visibility also removes from a11y tree",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "closed",
         "number": 30,
