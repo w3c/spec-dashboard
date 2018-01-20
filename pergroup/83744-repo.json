@@ -8,39 +8,41 @@
     "issues": [
       {
         "state": "open",
+        "number": 245,
+        "created_at": "2018-01-15T13:50:44Z",
+        "closed_at": null,
+        "title": "Editorial: Replace site with origin; mark as informative",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 244,
         "created_at": "2017-12-18T14:52:32Z",
-        "closed_at": null,
+        "closed_at": "2018-01-15T13:43:05Z",
         "title": "add a \"public computing\" section to security/privacy considerations",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 243,
         "created_at": "2017-12-14T03:55:52Z",
-        "closed_at": null,
+        "closed_at": "2018-01-11T19:22:06Z",
         "title": "Does payment instrument registration imply a display order?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 242,
         "created_at": "2017-12-07T17:57:49Z",
-        "closed_at": null,
+        "closed_at": "2018-01-08T02:31:09Z",
         "title": "Edits regarding ordering based on 7 Dec WG teleconf",
-        "labels": [
-          {
-            "id": 679687925,
-            "url": "https://api.github.com/repos/w3c/payment-handler/labels/DO%20NOT%20MERGE",
-            "name": "DO NOT MERGE",
-            "color": "b60205",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1343,10 +1345,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 116,
         "created_at": "2017-03-23T21:09:22Z",
-        "closed_at": null,
+        "closed_at": "2018-01-11T19:28:39Z",
         "title": "Relation between merchant order of payment methods and payment app order of instruments",
         "labels": [],
         "assignee": null,
@@ -3014,18 +3016,18 @@
         "title": "Reference trademarks",
         "labels": [
           {
-            "id": 381564458,
-            "url": "https://api.github.com/repos/w3c/payment-method-basic-card/labels/bug",
-            "name": "bug",
-            "color": "ee0701",
-            "default": true
-          },
-          {
             "id": 385166789,
             "url": "https://api.github.com/repos/w3c/payment-method-basic-card/labels/Priority:%20Low",
             "name": "Priority: Low",
             "color": "c2e0c6",
             "default": false
+          },
+          {
+            "id": 381564458,
+            "url": "https://api.github.com/repos/w3c/payment-method-basic-card/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true
           }
         ],
         "assignee": null,
@@ -3672,18 +3674,18 @@
         "title": "Should we define nesting/grouping semantics for payment method identifier matching?",
         "labels": [
           {
-            "id": 381567718,
-            "url": "https://api.github.com/repos/w3c/payment-method-id/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "128A0C",
-            "default": true
-          },
-          {
             "id": 385190745,
             "url": "https://api.github.com/repos/w3c/payment-method-id/labels/Priority:%20High",
             "name": "Priority: High",
             "color": "f9d0c4",
             "default": false
+          },
+          {
+            "id": 381567718,
+            "url": "https://api.github.com/repos/w3c/payment-method-id/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "128A0C",
+            "default": true
           },
           {
             "id": 381567720,
@@ -3989,11 +3991,89 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 669,
+        "created_at": "2018-01-19T05:19:26Z",
+        "closed_at": null,
+        "title": "Spread resolved `data` on updateWith()",
+        "labels": [
+          {
+            "id": 646713110,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 346625763,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/proposal%20-%20needs%20discussion",
+            "name": "proposal - needs discussion",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 668,
+        "created_at": "2018-01-17T06:19:43Z",
+        "closed_at": null,
+        "title": "wip: allow show() to take optional promise",
+        "labels": [
+          {
+            "id": 646713110,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 346625763,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/proposal%20-%20needs%20discussion",
+            "name": "proposal - needs discussion",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
-        "number": 664,
-        "created_at": "2017-12-21T16:37:09Z",
-        "closed_at": "2017-12-22T15:01:18Z",
-        "title": "Billing address type",
+        "number": 667,
+        "created_at": "2018-01-17T04:42:22Z",
+        "closed_at": "2018-01-18T00:35:23Z",
+        "title": "Editorial: fixup updateWith() example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 666,
+        "created_at": "2018-01-17T03:02:17Z",
+        "closed_at": null,
+        "title": "Feat: adds PaymentItemType enum and PaymentItem.type",
+        "labels": [
+          {
+            "id": 346625763,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/proposal%20-%20needs%20discussion",
+            "name": "proposal - needs discussion",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 665,
+        "created_at": "2018-01-17T00:46:41Z",
+        "closed_at": "2018-01-19T21:01:52Z",
+        "title": "Assure PaymentRequest.id is a UUID (closes #588)",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -4036,7 +4116,15 @@
         "created_at": "2017-12-14T22:36:06Z",
         "closed_at": null,
         "title": "Adding support for private-label credit cards",
-        "labels": [],
+        "labels": [
+          {
+            "id": 686687813,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4051,12 +4139,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 660,
         "created_at": "2017-12-11T06:55:46Z",
-        "closed_at": null,
+        "closed_at": "2018-01-19T05:59:44Z",
         "title": "Request: designated receiver for Payment Response",
-        "labels": [],
+        "labels": [
+          {
+            "id": 332152667,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4104,7 +4200,22 @@
         "created_at": "2017-11-24T06:01:25Z",
         "closed_at": null,
         "title": "Add localization hint for payment sheet",
-        "labels": [],
+        "labels": [
+          {
+            "id": 646713110,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 346625763,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/proposal%20-%20needs%20discussion",
+            "name": "proposal - needs discussion",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4149,8 +4260,16 @@
         "created_at": "2017-11-14T18:15:58Z",
         "closed_at": null,
         "title": "Merchant-specified default shipping address",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 686687813,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -4160,6 +4279,13 @@
         "closed_at": null,
         "title": "Standardize phone number format",
         "labels": [
+          {
+            "id": 686687813,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
           {
             "id": 332152664,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/enhancement",
@@ -4184,9 +4310,16 @@
             "name": "CR-Exit",
             "color": "b60205",
             "default": false
+          },
+          {
+            "id": 807147143,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
+            "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -4209,9 +4342,16 @@
             "name": "HR: i18n-tracking",
             "color": "ffffff",
             "default": false
+          },
+          {
+            "id": 807147143,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
+            "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -4219,7 +4359,7 @@
         "number": 649,
         "created_at": "2017-11-07T22:37:16Z",
         "closed_at": null,
-        "title": "should PaymentDetailsUpdate merge with existing data",
+        "title": "updateWith(data) should merge with request.data",
         "labels": [
           {
             "id": 686687813,
@@ -4227,9 +4367,16 @@
             "name": "CR-Exit",
             "color": "b60205",
             "default": false
+          },
+          {
+            "id": 807147143,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
+            "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -4273,7 +4420,7 @@
         "number": 646,
         "created_at": "2017-11-07T20:36:24Z",
         "closed_at": null,
-        "title": "Merchant validation",
+        "title": "Add support for merchant validation",
         "labels": [
           {
             "id": 686687813,
@@ -4298,6 +4445,13 @@
             "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
             "name": "CR-Exit",
             "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 807147143,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
             "default": false
           }
         ],
@@ -4855,7 +5009,7 @@
         "number": 608,
         "created_at": "2017-09-05T06:59:07Z",
         "closed_at": null,
-        "title": "Implementation of PaymentAddress.languageCode ",
+        "title": "Describe how to implement PaymentAddress.languageCode ",
         "labels": [
           {
             "id": 686687813,
@@ -4894,17 +5048,17 @@
         "title": "PayerAddress.phone and PayerResponse.payerPhone",
         "labels": [
           {
-            "id": 596817680,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/cr-substantive",
-            "name": "cr-substantive",
-            "color": "d4c5f9",
-            "default": false
-          },
-          {
             "id": 362448310,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/HR:%20Privacy",
             "name": "HR: Privacy",
             "color": "ffffff",
+            "default": false
+          },
+          {
+            "id": 596817680,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/cr-substantive",
+            "name": "cr-substantive",
+            "color": "d4c5f9",
             "default": false
           }
         ],
@@ -5175,17 +5329,24 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 588,
         "created_at": "2017-08-21T08:58:05Z",
-        "closed_at": null,
-        "title": "Evaluate if paymentRequest.id being a UUID is a must ",
+        "closed_at": "2018-01-19T21:01:54Z",
+        "title": "Make paymentRequest.id a UUID a must ",
         "labels": [
           {
             "id": 686687813,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
             "name": "CR-Exit",
             "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 807147143,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
             "default": false
           }
         ],
@@ -5860,18 +6021,18 @@
         "title": "Shipping Address Validation - Suggest Alternate Address",
         "labels": [
           {
-            "id": 332152664,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 686556788,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Future%20Candidate%20Feature",
             "name": "Future Candidate Feature",
             "color": "006b75",
             "default": false
+          },
+          {
+            "id": 332152664,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           },
           {
             "id": 332152667,
@@ -7182,13 +7343,6 @@
             "default": false
           },
           {
-            "id": 332152664,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 393369194,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Payment%20Apps",
             "name": "Payment Apps",
@@ -7201,6 +7355,13 @@
             "name": "Priority: Postponed",
             "color": "c5def5",
             "default": false
+          },
+          {
+            "id": 332152664,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -7995,18 +8156,18 @@
             "default": false
           },
           {
-            "id": 332152664,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/enhancement",
-            "name": "enhancement",
-            "color": "84b6eb",
-            "default": true
-          },
-          {
             "id": 686556788,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Future%20Candidate%20Feature",
             "name": "Future Candidate Feature",
             "color": "006b75",
             "default": false
+          },
+          {
+            "id": 332152664,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -8725,13 +8886,6 @@
         "title": "Collect Privacy and Security considerations",
         "labels": [
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362448310,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/HR:%20Privacy",
             "name": "HR: Privacy",
@@ -8751,6 +8905,13 @@
             "name": "HR: Security",
             "color": "FFFFFF",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -8813,18 +8974,18 @@
         "title": "PaymentResponse's details could lead to problems",
         "labels": [
           {
-            "id": 332152662,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 345176053,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Design/Technical",
             "name": "Design/Technical",
             "color": "1d76db",
             "default": false
+          },
+          {
+            "id": 332152662,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": null,
@@ -10210,18 +10371,18 @@
         "title": "Update references to \"Payment Transaction Message Specification\"",
         "labels": [
           {
-            "id": 332152662,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 362439229,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Low",
             "name": "Priority: Low",
             "color": "c2e0c6",
             "default": false
+          },
+          {
+            "id": 332152662,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": "adrianba",
@@ -10670,13 +10831,6 @@
         "title": "Update \"user accepts the payment request algorithm\" to include interaction with payment app ",
         "labels": [
           {
-            "id": 332152662,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true
-          },
-          {
             "id": 345172385,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Editorial",
             "name": "Editorial",
@@ -10689,6 +10843,13 @@
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152662,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
           }
         ],
         "assignee": null,
@@ -10815,18 +10976,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439116,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -10847,18 +11008,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439116,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -10879,18 +11040,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439009,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20High",
             "name": "Priority: High",
             "color": "f9d0c4",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": "adrianba",
@@ -11038,18 +11199,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439116,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -11311,8 +11472,15 @@
         "number": 163,
         "created_at": "2016-04-28T16:37:41Z",
         "closed_at": null,
-        "title": "Should PaymentItems have a type?",
+        "title": "Add type to PaymentItem",
         "labels": [
+          {
+            "id": 686687813,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
           {
             "id": 345176053,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Design/Technical",
@@ -11321,21 +11489,14 @@
             "default": false
           },
           {
-            "id": 362439116,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
-            "name": "Priority: Medium",
-            "color": "fef2c0",
+            "id": 807147143,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
             "default": false
-          },
-          {
-            "id": 332152667,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/question",
-            "name": "question",
-            "color": "cc317c",
-            "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -11469,13 +11630,6 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362448310,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/HR:%20Privacy",
             "name": "HR: Privacy",
@@ -11495,6 +11649,13 @@
             "name": "Priority: High",
             "color": "f9d0c4",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -11515,13 +11676,6 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 393369194,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Payment%20Apps",
             "name": "Payment Apps",
@@ -11534,6 +11688,13 @@
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -11678,18 +11839,18 @@
             "default": false
           },
           {
-            "id": 332152663,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/duplicate",
-            "name": "duplicate",
-            "color": "cccccc",
-            "default": true
-          },
-          {
             "id": 362439009,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20High",
             "name": "Priority: High",
             "color": "f9d0c4",
             "default": false
+          },
+          {
+            "id": 332152663,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/duplicate",
+            "name": "duplicate",
+            "color": "cccccc",
+            "default": true
           },
           {
             "id": 332152667,
@@ -11752,18 +11913,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439116,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           },
           {
             "id": 332152667,
@@ -11868,13 +12029,6 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 345168849,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/HR:%20Security",
             "name": "HR: Security",
@@ -11887,6 +12041,13 @@
             "name": "Priority: Low",
             "color": "c2e0c6",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -12046,18 +12207,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439116,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           },
           {
             "id": 332152667,
@@ -12302,18 +12463,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439009,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20High",
             "name": "Priority: High",
             "color": "f9d0c4",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": "adrianba",
@@ -12334,18 +12495,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439116,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": "adrianba",
@@ -12644,13 +12805,6 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 393369194,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Payment%20Apps",
             "name": "Payment Apps",
@@ -12663,6 +12817,13 @@
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -13651,18 +13812,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439116,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -13845,18 +14006,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439116,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           },
           {
             "id": 332152667,
@@ -13990,18 +14151,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439009,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20High",
             "name": "Priority: High",
             "color": "f9d0c4",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           },
           {
             "id": 332152667,
@@ -14079,17 +14240,17 @@
         "title": "Should API support billing address capture (for tax computation)?",
         "labels": [
           {
-            "id": 345169541,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/Core%20Functionality",
-            "name": "Core Functionality",
-            "color": "1d76db",
-            "default": false
-          },
-          {
             "id": 686687813,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
             "name": "CR-Exit",
             "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 345169541,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Core%20Functionality",
+            "name": "Core Functionality",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -14361,18 +14522,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439116,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20Medium",
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": null,
@@ -14492,18 +14653,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439009,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20High",
             "name": "Priority: High",
             "color": "f9d0c4",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           },
           {
             "id": 332152667,
@@ -14613,18 +14774,18 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 362439009,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/Priority:%20High",
             "name": "Priority: High",
             "color": "f9d0c4",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           },
           {
             "id": 346625763,
@@ -14741,13 +14902,6 @@
             "default": false
           },
           {
-            "id": 332152665,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
-          },
-          {
             "id": 345168849,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/HR:%20Security",
             "name": "HR: Security",
@@ -14760,6 +14914,13 @@
             "name": "Priority: Medium",
             "color": "fef2c0",
             "default": false
+          },
+          {
+            "id": 332152665,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "159818",
+            "default": true
           }
         ],
         "assignee": "adrianba",
@@ -14773,13 +14934,6 @@
         "title": "Should the merchant be able to request your email and recipient phone number",
         "labels": [
           {
-            "id": 362447442,
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/HR:%20i18n-tracking",
-            "name": "HR: i18n-tracking",
-            "color": "ffffff",
-            "default": false
-          },
-          {
             "id": 362448310,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/HR:%20Privacy",
             "name": "HR: Privacy",
@@ -14790,6 +14944,13 @@
             "id": 362447651,
             "url": "https://api.github.com/repos/w3c/payment-request/labels/HR:%20WAI%20APA",
             "name": "HR: WAI APA",
+            "color": "ffffff",
+            "default": false
+          },
+          {
+            "id": 362447442,
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/HR:%20i18n-tracking",
+            "name": "HR: i18n-tracking",
             "color": "ffffff",
             "default": false
           },
