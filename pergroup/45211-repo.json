@@ -2003,7 +2003,7 @@
         "closed_at": null,
         "title": "navigationStart marked as Obsolte",
         "labels": [],
-        "assignee": null,
+        "assignee": "igrigorik",
         "isPullRequest": false
       },
       {
@@ -7702,6 +7702,24 @@
     "issues": [
       {
         "state": "open",
+        "number": 138,
+        "created_at": "2018-01-19T15:50:16Z",
+        "closed_at": null,
+        "title": "initiatorType test cases",
+        "labels": [
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
+        "assignee": "nicjansma",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 137,
         "created_at": "2018-01-10T22:12:15Z",
         "closed_at": null,
@@ -7711,10 +7729,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 136,
         "created_at": "2018-01-03T22:23:26Z",
-        "closed_at": null,
+        "closed_at": "2018-01-19T21:17:16Z",
         "title": "Fix substeps ordering when buffer is full",
         "labels": [],
         "assignee": null,
@@ -7731,12 +7749,27 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 134,
         "created_at": "2017-12-23T00:52:29Z",
-        "closed_at": null,
+        "closed_at": "2018-01-19T21:17:16Z",
         "title": "resource timing buffer full flag should be set to true before firing resourcetimingbufferfull event",
-        "labels": [],
+        "labels": [
+          {
+            "id": 138225467,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -7766,17 +7799,33 @@
         "created_at": "2017-12-14T17:13:47Z",
         "closed_at": null,
         "title": "Backport gh-pages fixes to V2",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810136533,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false
+          }
+        ],
         "assignee": "nicjansma",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 130,
         "created_at": "2017-11-21T03:20:18Z",
-        "closed_at": null,
+        "closed_at": "2018-01-19T15:51:34Z",
         "title": "VIDEO tag",
-        "labels": [],
+        "labels": [
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -7853,8 +7902,16 @@
         "number": 123,
         "created_at": "2017-10-26T08:32:38Z",
         "closed_at": null,
-        "title": "how do dns and connectStart handle multiple ip/name options?",
-        "labels": [],
+        "title": "How do dns and connectStart handle multiple ip/name options?",
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -7864,7 +7921,15 @@
         "created_at": "2017-10-25T18:11:05Z",
         "closed_at": null,
         "title": "NextHopProtocol Values",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": "plehegar",
         "isPullRequest": false
       },
@@ -7884,7 +7949,22 @@
         "created_at": "2017-10-24T18:57:27Z",
         "closed_at": null,
         "title": "TFO and secureConnectionStart",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": "nicjansma",
         "isPullRequest": false
       },
@@ -7894,7 +7974,22 @@
         "created_at": "2017-10-05T15:34:26Z",
         "closed_at": null,
         "title": "spec what requestStart, responseStart, and responseEnd should represent when service worker is involved",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -7904,7 +7999,22 @@
         "created_at": "2017-10-05T00:58:09Z",
         "closed_at": null,
         "title": "should redirected navigations have a workerStart value if a previous redirect URL was intercepted",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -7984,7 +8094,22 @@
         "created_at": "2017-04-27T03:41:51Z",
         "closed_at": null,
         "title": "InitiatorType of service worker navigation preload",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -8022,7 +8147,15 @@
         "created_at": "2017-04-04T14:51:14Z",
         "closed_at": null,
         "title": "Link PerformanceEntry in IDL",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": "siusin",
         "isPullRequest": false
       },
@@ -8108,7 +8241,22 @@
         "created_at": "2017-02-14T23:03:32Z",
         "closed_at": null,
         "title": "Clarify what constitutes a \"downloadable resource\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -8166,7 +8314,15 @@
         "created_at": "2017-02-10T03:00:44Z",
         "closed_at": null,
         "title": "Clarify resourcetimingbufferfull conditions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -8330,11 +8486,18 @@
         "title": "Clarify when entry is added to performance entry buffer",
         "labels": [
           {
-            "id": 138225470,
-            "url": "https://api.github.com/repos/w3c/resource-timing/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
           }
         ],
         "assignee": null,
@@ -8504,7 +8667,7 @@
             "default": false
           }
         ],
-        "assignee": "plehegar",
+        "assignee": "yoavweiss",
         "isPullRequest": false
       },
       {
@@ -9303,6 +9466,24 @@
     "issues": [
       {
         "state": "open",
+        "number": 138,
+        "created_at": "2018-01-19T15:50:16Z",
+        "closed_at": null,
+        "title": "initiatorType test cases",
+        "labels": [
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
+        "assignee": "nicjansma",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 137,
         "created_at": "2018-01-10T22:12:15Z",
         "closed_at": null,
@@ -9312,10 +9493,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 136,
         "created_at": "2018-01-03T22:23:26Z",
-        "closed_at": null,
+        "closed_at": "2018-01-19T21:17:16Z",
         "title": "Fix substeps ordering when buffer is full",
         "labels": [],
         "assignee": null,
@@ -9332,12 +9513,27 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 134,
         "created_at": "2017-12-23T00:52:29Z",
-        "closed_at": null,
+        "closed_at": "2018-01-19T21:17:16Z",
         "title": "resource timing buffer full flag should be set to true before firing resourcetimingbufferfull event",
-        "labels": [],
+        "labels": [
+          {
+            "id": 138225467,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9367,17 +9563,33 @@
         "created_at": "2017-12-14T17:13:47Z",
         "closed_at": null,
         "title": "Backport gh-pages fixes to V2",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810136533,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false
+          }
+        ],
         "assignee": "nicjansma",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 130,
         "created_at": "2017-11-21T03:20:18Z",
-        "closed_at": null,
+        "closed_at": "2018-01-19T15:51:34Z",
         "title": "VIDEO tag",
-        "labels": [],
+        "labels": [
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9454,8 +9666,16 @@
         "number": 123,
         "created_at": "2017-10-26T08:32:38Z",
         "closed_at": null,
-        "title": "how do dns and connectStart handle multiple ip/name options?",
-        "labels": [],
+        "title": "How do dns and connectStart handle multiple ip/name options?",
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9465,7 +9685,15 @@
         "created_at": "2017-10-25T18:11:05Z",
         "closed_at": null,
         "title": "NextHopProtocol Values",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": "plehegar",
         "isPullRequest": false
       },
@@ -9485,7 +9713,22 @@
         "created_at": "2017-10-24T18:57:27Z",
         "closed_at": null,
         "title": "TFO and secureConnectionStart",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": "nicjansma",
         "isPullRequest": false
       },
@@ -9495,7 +9738,22 @@
         "created_at": "2017-10-05T15:34:26Z",
         "closed_at": null,
         "title": "spec what requestStart, responseStart, and responseEnd should represent when service worker is involved",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9505,7 +9763,22 @@
         "created_at": "2017-10-05T00:58:09Z",
         "closed_at": null,
         "title": "should redirected navigations have a workerStart value if a previous redirect URL was intercepted",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9585,7 +9858,22 @@
         "created_at": "2017-04-27T03:41:51Z",
         "closed_at": null,
         "title": "InitiatorType of service worker navigation preload",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9623,7 +9911,15 @@
         "created_at": "2017-04-04T14:51:14Z",
         "closed_at": null,
         "title": "Link PerformanceEntry in IDL",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": "siusin",
         "isPullRequest": false
       },
@@ -9709,7 +10005,22 @@
         "created_at": "2017-02-14T23:03:32Z",
         "closed_at": null,
         "title": "Clarify what constitutes a \"downloadable resource\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9767,7 +10078,15 @@
         "created_at": "2017-02-10T03:00:44Z",
         "closed_at": null,
         "title": "Clarify resourcetimingbufferfull conditions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -9931,11 +10250,18 @@
         "title": "Clarify when entry is added to performance entry buffer",
         "labels": [
           {
-            "id": 138225470,
-            "url": "https://api.github.com/repos/w3c/resource-timing/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "159818",
-            "default": true
+            "id": 810097226,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/Clarification",
+            "name": "Clarification",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 598665599,
+            "url": "https://api.github.com/repos/w3c/resource-timing/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "d4c5f9",
+            "default": false
           }
         ],
         "assignee": null,
@@ -10105,7 +10431,7 @@
             "default": false
           }
         ],
-        "assignee": "plehegar",
+        "assignee": "yoavweiss",
         "isPullRequest": false
       },
       {
@@ -10904,6 +11230,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 52,
+        "created_at": "2018-01-19T15:13:48Z",
+        "closed_at": null,
+        "title": "clarify extraneous characters after names",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 51,
+        "created_at": "2018-01-18T18:30:29Z",
+        "closed_at": null,
+        "title": "clarify extraneous characters after names",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 50,
         "created_at": "2018-01-16T20:02:50Z",
         "closed_at": null,
@@ -11435,6 +11781,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 36,
+        "created_at": "2018-01-18T19:47:23Z",
+        "closed_at": null,
+        "title": "Update WP tests to not throw when NT1 names are used as the first arg in measure calls",
+        "labels": [],
+        "assignee": "philipwalton",
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 35,
