@@ -8,9 +8,169 @@
     "issues": [
       {
         "state": "open",
+        "number": 1492,
+        "created_at": "2018-02-12T17:20:16Z",
+        "closed_at": null,
+        "title": "Fix #1459: Add processorOptions to AudioWorkletNodeOptions dictionary",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1491,
+        "created_at": "2018-02-09T23:14:25Z",
+        "closed_at": null,
+        "title": "Add currentFrame to AudioWorkletGlobalScope",
+        "labels": [
+          {
+            "id": 109540793,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
+            "name": "Clarification (Requires change)",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1490,
+        "created_at": "2018-02-09T22:50:47Z",
+        "closed_at": null,
+        "title": "Update bitcrusher example for optimized AudioParams",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1489,
+        "created_at": "2018-02-08T18:06:23Z",
+        "closed_at": null,
+        "title": "Clarify handling of AWP process() method return value.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1488,
+        "created_at": "2018-02-07T22:43:13Z",
+        "closed_at": null,
+        "title": "Fix #1464: Optimize AudioParams for AudioWorklets",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1487,
+        "created_at": "2018-02-07T14:32:14Z",
+        "closed_at": null,
+        "title": "[Privacy] control over native UI",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1486,
+        "created_at": "2018-02-07T14:23:21Z",
+        "closed_at": null,
+        "title": "[Privacy] access to physical audio devices?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1485,
+        "created_at": "2018-02-06T16:33:25Z",
+        "closed_at": "2018-02-06T16:34:52Z",
+        "title": "Fix #1484: refDistance should be non-negative (or zero)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1484,
+        "created_at": "2018-02-05T23:27:10Z",
+        "closed_at": "2018-02-06T16:34:52Z",
+        "title": "refDistance should throw for non-positive values",
+        "labels": [
+          {
+            "id": 109540893,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          },
+          {
+            "id": 521807753,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/V1%20Blocker",
+            "name": "V1 Blocker",
+            "color": "668a16",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1483,
+        "created_at": "2018-02-05T23:24:51Z",
+        "closed_at": null,
+        "title": "PannerNode.rolloffFactor should throw on invalid values?",
+        "labels": [
+          {
+            "id": 109540793,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
+            "name": "Clarification (Requires change)",
+            "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 142835591,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 1482,
         "created_at": "2018-02-02T23:23:32Z",
-        "closed_at": null,
+        "closed_at": "2018-02-06T10:44:09Z",
         "title": "Fix #1450: Odd text in VuMeter example",
         "labels": [],
         "assignee": null,
@@ -126,10 +286,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1474,
         "created_at": "2018-01-18T18:42:58Z",
-        "closed_at": null,
+        "closed_at": "2018-02-12T19:25:42Z",
         "title": "[audioworklet] AudioWorkletGlobalScope : expand the specification to allow adding common classes to the AudioWorkletProcessor's global scope",
         "labels": [],
         "assignee": null,
@@ -254,7 +414,15 @@
         "created_at": "2017-12-13T19:30:32Z",
         "closed_at": null,
         "title": "[audioworklet] Optimizing AudioParams for AudioWorklet",
-        "labels": [],
+        "labels": [
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -364,6 +532,13 @@
             "name": "Editorial/Documentation",
             "color": "fbca04",
             "default": false
+          },
+          {
+            "id": 139631809,
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
           }
         ],
         "assignee": "hoch",
@@ -466,10 +641,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1450,
         "created_at": "2017-11-14T17:34:11Z",
-        "closed_at": null,
+        "closed_at": "2018-02-06T10:44:10Z",
         "title": "Odd text in VuMeter example introduction and also incorrect text",
         "labels": [
           {
