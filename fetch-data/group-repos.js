@@ -68,6 +68,10 @@ const queueGhRequest = function(url) {
 
 const urlToGHRepo = (url = "") => {
     const nofilter = x => true;
+
+    const versionless = s => s.replace(/-[0-9]*$/,'');
+    const cssIssueFilter = shortname => x => x.title.match(new RegExp("\\[" + versionless(shortname) + "\\]"))
+
     const githubio = url.match(/^https?:\/\/([^\.]*)\.github\.io\/([^\/]*)\/?/);
     if (githubio) {
         return {owner: githubio[1], name: githubio[2], issuefilter: nofilter};
@@ -87,15 +91,23 @@ const urlToGHRepo = (url = "") => {
 
     const csswg = url.match(/^https?:\/\/drafts.csswg.org\/([^\/]*)\/?/);
     if (csswg) {
-        return {owner: 'w3c', name: 'csswg-drafts', issuefilter: x => x.title.match(new RegExp("\\[" + csswg[1] + "\\]"))};
+        return {owner: 'w3c', name: 'csswg-drafts', issuefilter: cssIssueFilter(csswg[1])};
     }
     const devcss = url.match(/^https?:\/\/dev.w3.org\/csswg\/([^\/]*)\/?/);
     if (devcss) {
-        return {owner: 'w3c', name: 'csswg-drafts', issuefilter: x => x.title.match(new RegExp("\\[" + devcss[1] + "\\]"))};
+        return {owner: 'w3c', name: 'csswg-drafts', issuefilter: cssIssueFilter(devcss[1])};
     }
     const devfxtf = url.match(/^https?:\/\/dev.w3.org\/fxtf\/([^\/]*)\/?/);
     if (devfxtf) {
-        return {owner: 'w3c', name: 'fxtf-drafts', issuefilter: x => x.title.match(new RegExp("\\[" + devfxtf[1] + "\\]"))};
+        return {owner: 'w3c', name: 'fxtf-drafts', issuefilter: cssIssueFilter(devfxtf[1])};
+    }
+    const ghfxtf = url.match(/^https:\/\/drafts.fxtf.org\/([^\/]*)\/?/);
+    if (ghfxtf) {
+        return {owner: 'w3c', name: 'fxtf-drafts', issuefilter: cssIssueFilter(ghfxtf[1])};
+    }
+    const houdini = url.match(/^https:\/\/drafts.css-houdini.org\/([^\/]*)\/?/);
+    if (houdini) {
+        return {owner: 'w3c', name: 'css-houdini-drafts', issuefilter: cssIssueFilter(houdini[1])};
     }
 
     const svgwg = url.match(/^https?:\/\/svgwg.org\/specs\/([^\/]*)\/?/);
