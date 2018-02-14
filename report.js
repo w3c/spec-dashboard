@@ -22,7 +22,7 @@
             const el = document.querySelector("#" + id + " ol");
             if (!el) return console.error("Invalid id " + id);
             el.setAttribute("data-sort", "span,a")
-            Object.keys(milestoneData).forEach(s => {
+            Object.keys(milestoneData || {}).forEach(s => {
                 Object.keys(milestoneData[s]).filter(m => m === milestone || milestone === "*").forEach(m => {
                     if (test(milestoneData[s][m])) {
                         const spec = extractSpecData(s, specData);
@@ -43,19 +43,16 @@
         };
     };
 
+    const fetchJSON = path => fetch(path).then(r => r.json()).catch(e => { console.error(`Loading JSON from ${path} failed with`); console.error(e);});
     const schemeLess = url => url.split(':').slice(1).join(':');
     const extractSpecData = (shortlink, specs) => specs.filter(s => schemeLess(s.shortlink) === schemeLess(shortlink))[0];
 
-    fetch("groups.json")
-        .then(r => r.json())
+    fetchJSON("groups.json")
         .then(groups => {
             return Promise.all(Object.keys(groups).map(gid =>  {
-                const specDataPromise = fetch("./pergroup/" + gid + ".json")
-                    .then(r => r.json());
-                const milestoneDataPromise = fetch("./pergroup/" + gid + "-milestones.json")
-                      .then(r => r.json());
-                const repoDataPromise = fetch("./pergroup/" + gid + "-repo.json")
-                      .then(r => r.json());
+                const specDataPromise = fetchJSON("./pergroup/" + gid + ".json");
+                const milestoneDataPromise = fetchJSON("./pergroup/" + gid + "-milestones.json");
+                const repoDataPromise = fetchJSON("./pergroup/" + gid + "-repo.json");
                 const groupnamePromise = new Promise((res) => res(groups[gid].name));
                 return Promise.all([specDataPromise, milestoneDataPromise, repoDataPromise, groupnamePromise])
                     .then(([specData, milestoneData, repoData, groupname]) => {
