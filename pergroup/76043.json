@@ -143,7 +143,7 @@
     ]
   },
   {
-    "title": "Vehicle Signal Server Specification",
+    "title": "Vehicle Information Service Specification",
     "shortlink": "https://www.w3.org/TR/vehicle-information-service/",
     "shortname": "vehicle-information-service",
     "description": "<p>The W3C Vehicle Signal Server Specification defines a WebSocket based API that enables client applications running on the In-Vehicle-Infotainment system and on the local vehicle network to access vehicle signals and data attributes. The purpose of the specification is to promote a Server API that enables application development in a consistent manner across participating automotive manufacturers.</p>",
@@ -159,12 +159,41 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/vehicle-information-service/versions/20161020",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/vehicle-information-service/versions/20180213",
+        "title": "Candidate Recommendation"
       }
     },
     "editorsdraft": "https://w3c.github.io/automotive/vehicle_data/vehicle_information_service.html",
     "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2018/CR-vehicle-information-service-20180213/",
+        "date": "2018-02-13",
+        "implementation-feedback-due": "2018-03-15",
+        "informative": false,
+        "title": "Vehicle Information Service Specification",
+        "shortlink": "https://www.w3.org/TR/vehicle-information-service/",
+        "editor-draft": "https://w3c.github.io/automotive/vehicle_data/vehicle_information_service.html",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/vehicle-information-service/versions/20180213"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/vehicle-information-service/versions/20180213/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/vehicle-information-service/versions/20180213/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/vehicle-information-service"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/vehicle-information-service/versions/20180213/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -187,6 +216,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/vehicle-information-service"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/vehicle-information-service/versions/20161020/successors"
           }
         }
       }
