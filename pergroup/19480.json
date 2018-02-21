@@ -1,203 +1,554 @@
 [
   {
-    "title": "Compositing and Blending Level 1",
-    "shortlink": "http://www.w3.org/TR/compositing-1/",
-    "shortname": "compositing-1",
-    "description": "<p>Compositing describes how shapes of different elements are combined into a single image by overlaying, masking, blending, etc. The specification also defines a syntax for using compositing in CSS.</p>",
+    "title": "CSS Masking Module Level 1",
+    "shortlink": "http://www.w3.org/TR/css-masking-1/",
+    "shortname": "css-masking-1",
+    "description": "<p>CSS Masking provides two means for partially or fully hiding portions of visual elements: masking and clipping. Masking describes how to use another graphical element or image as a luminance or alpha mask. Clipping describes the visible region of visual elements. This module defines faetures for both SVG and CSS.</p>",
     "_links": {
       "self": {
-        "href": "https://api.w3.org/specifications/compositing-1"
+        "href": "https://api.w3.org/specifications/css-masking-1"
       },
       "version-history": {
-        "href": "https://api.w3.org/specifications/compositing-1/versions"
+        "href": "https://api.w3.org/specifications/css-masking-1/versions"
       },
       "first-version": {
-        "href": "https://api.w3.org/specifications/compositing-1/versions/20120816",
+        "href": "https://api.w3.org/specifications/css-masking-1/versions/20121115",
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/compositing-1/versions/20150113",
+        "href": "https://api.w3.org/specifications/css-masking-1/versions/20140826",
         "title": "Candidate Recommendation"
-      },
-      "supersedes": {
-        "href": "https://api.w3.org/specifications/compositing-1/supersedes"
       }
     },
-    "editorsdraft": "https://drafts.fxtf.org/compositing-1/",
+    "editorsdraft": "https://drafts.fxtf.org/css-masking-1/",
     "versions": [
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
-        "uri": "http://www.w3.org/TR/2015/CR-compositing-1-20150113/",
-        "date": "2015-01-13",
-        "implementation-feedback-due": "2015-03-17",
+        "uri": "http://www.w3.org/TR/2014/CR-css-masking-1-20140826/",
+        "date": "2014-08-26",
+        "implementation-feedback-due": "2015-02-26",
         "informative": false,
-        "title": "Compositing and Blending Level 1",
-        "shortlink": "http://www.w3.org/TR/compositing-1/",
-        "editor-draft": "https://drafts.fxtf.org/compositing-1/",
-        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "title": "CSS Masking Module Level 1",
+        "shortlink": "http://www.w3.org/TR/css-masking-1/",
+        "editor-draft": "https://drafts.fxtf.org/css-masking-1/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20150113"
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140826"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20150113/editors"
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140826/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20150113/deliverers"
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140826/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/compositing-1"
+            "href": "https://api.w3.org/specifications/css-masking-1"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20150113/predecessors"
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140826/predecessors"
           }
         }
       },
+      {
+        "status": "Last Call",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-css-masking-1-20140522/",
+        "date": "2014-05-22",
+        "last-call-feedback-due": "2014-06-19",
+        "informative": false,
+        "title": "CSS Masking Module Level 1",
+        "shortlink": "http://www.w3.org/TR/css-masking-1/",
+        "editor-draft": "https://drafts.fxtf.org/css-masking-1/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140522"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140522/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140522/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-masking-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140522/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140522/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-css-masking-1-20140213/",
+        "date": "2014-02-13",
+        "informative": false,
+        "title": "CSS Masking Module Level 1",
+        "shortlink": "http://www.w3.org/TR/css-masking-1/",
+        "editor-draft": "https://drafts.fxtf.org/css-masking-1/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140213"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140213/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140213/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-masking-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140213/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20140213/successors"
+          }
+        }
+      },
+      {
+        "status": "Last Call",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2013/WD-css-masking-1-20131029/",
+        "date": "2013-10-29",
+        "last-call-feedback-due": "2013-12-10",
+        "informative": false,
+        "title": "CSS Masking Module Level 1",
+        "shortlink": "http://www.w3.org/TR/css-masking-1/",
+        "editor-draft": "http://dev.w3.org/fxtf/masking/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20131029"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20131029/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20131029/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-masking-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20131029/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20131029/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2013/WD-css-masking-20130620/",
+        "date": "2013-06-20",
+        "informative": false,
+        "title": "CSS Masking Level 1",
+        "shortlink": "http://www.w3.org/TR/css-masking/",
+        "editor-draft": "http://dvcs.w3.org/hg/FXTF/raw-file/default/masking/index.html",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20130620"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20130620/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20130620/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-masking-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20130620/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20130620/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2012/WD-css-masking-20121115/",
+        "date": "2012-11-15",
+        "informative": false,
+        "title": "CSS Masking",
+        "shortlink": "http://www.w3.org/TR/css-masking/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20121115"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20121115/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20121115/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-masking-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-masking-1/versions/20121115/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "CSS Fill and Stroke Module Level 3",
+    "shortlink": "https://www.w3.org/TR/fill-stroke-3/",
+    "shortname": "fill-stroke-3",
+    "description": "<p>This module contains the features of CSS relating to filling and stroking text and SVG shapes.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/fill-stroke-3"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/fill-stroke-3/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/fill-stroke-3/versions/20170413",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/fill-stroke-3/versions/20170413",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://drafts.fxtf.org/fill-stroke/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-fill-stroke-3-20170413/",
+        "date": "2017-04-13",
+        "informative": false,
+        "title": "CSS Fill and Stroke Module Level 3",
+        "shortlink": "https://www.w3.org/TR/fill-stroke-3/",
+        "editor-draft": "https://drafts.fxtf.org/fill-stroke/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/fill-stroke-3/versions/20170413"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/fill-stroke-3/versions/20170413/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/fill-stroke-3/versions/20170413/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/fill-stroke-3"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Geometry Interfaces Module Level 1",
+    "shortlink": "http://www.w3.org/TR/geometry-1/",
+    "shortname": "geometry-1",
+    "description": "<p>This specification provides basic geometric interfaces.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/geometry-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/geometry-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/geometry-1/versions/20140522",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/geometry-1/versions/20141125",
+        "title": "Candidate Recommendation"
+      }
+    },
+    "editorsdraft": "https://drafts.fxtf.org/geometry/",
+    "versions": [
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
-        "uri": "http://www.w3.org/TR/2014/CR-compositing-1-20140220/",
-        "date": "2014-02-20",
-        "implementation-feedback-due": "2014-08-17",
+        "uri": "http://www.w3.org/TR/2014/CR-geometry-1-20141125/",
+        "date": "2014-11-25",
+        "implementation-feedback-due": "2015-05-06",
         "informative": false,
-        "title": "Compositing and Blending Level 1",
-        "shortlink": "http://www.w3.org/TR/compositing-1/",
-        "editor-draft": "https://drafts.fxtf.org/compositing-1/",
+        "title": "Geometry Interfaces Module Level 1",
+        "shortlink": "http://www.w3.org/TR/geometry-1/",
+        "editor-draft": "https://drafts.fxtf.org/geometry/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140220"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20141125"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140220/editors"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20141125/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140220/deliverers"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20141125/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/compositing-1"
+            "href": "https://api.w3.org/specifications/geometry-1"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140220/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140220/successors"
-          }
-        }
-      },
-      {
-        "status": "Last Call",
-        "rec-track": true,
-        "uri": "http://www.w3.org/TR/2014/WD-compositing-1-20140107/",
-        "date": "2014-01-07",
-        "last-call-feedback-due": "2014-01-28",
-        "informative": false,
-        "title": "Compositing and Blending Level 1",
-        "shortlink": "http://www.w3.org/TR/compositing-1/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140107"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140107/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140107/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/compositing-1"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140107/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20140107/successors"
-          }
-        }
-      },
-      {
-        "status": "Last Call",
-        "rec-track": true,
-        "uri": "http://www.w3.org/TR/2013/WD-compositing-1-20131010/",
-        "date": "2013-10-10",
-        "last-call-feedback-due": "2013-11-08",
-        "informative": false,
-        "title": "Compositing and Blending Level 1",
-        "shortlink": "http://www.w3.org/TR/compositing-1/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20131010"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20131010/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20131010/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/compositing-1"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20131010/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20131010/successors"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20141125/predecessors"
           }
         }
       },
       {
         "status": "Working Draft",
         "rec-track": true,
-        "uri": "http://www.w3.org/TR/2013/WD-compositing-1-20130625/",
-        "date": "2013-06-25",
+        "uri": "http://www.w3.org/TR/2014/WD-geometry-1-20140918/",
+        "date": "2014-09-18",
         "informative": false,
-        "title": "Compositing and Blending Level 1",
-        "shortlink": "http://www.w3.org/TR/compositing-1/",
-        "editor-draft": "https://drafts.fxtf.org/compositing-1/",
+        "title": "Geometry Interfaces Module Level 1",
+        "shortlink": "http://www.w3.org/TR/geometry-1/",
+        "editor-draft": "https://drafts.fxtf.org/geometry/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20130625"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140918"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20130625/editors"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140918/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20130625/deliverers"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140918/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/compositing-1"
+            "href": "https://api.w3.org/specifications/geometry-1"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20130625/predecessors"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140918/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20130625/successors"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140918/successors"
+          }
+        }
+      },
+      {
+        "status": "Last Call",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-geometry-1-20140626/",
+        "date": "2014-06-26",
+        "last-call-feedback-due": "2014-08-07",
+        "informative": false,
+        "title": "Geometry Interfaces Module Level 1",
+        "shortlink": "http://www.w3.org/TR/geometry-1/",
+        "editor-draft": "https://drafts.fxtf.org/geometry/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140626"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140626/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140626/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/geometry-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140626/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140626/successors"
           }
         }
       },
       {
         "status": "Working Draft",
         "rec-track": true,
-        "uri": "http://www.w3.org/TR/2012/WD-compositing-20120816/",
-        "date": "2012-08-16",
+        "uri": "http://www.w3.org/TR/2014/WD-geometry-1-20140522/",
+        "date": "2014-05-22",
         "informative": false,
-        "title": "Compositing and Blending 1.0",
-        "shortlink": "http://www.w3.org/TR/compositing/",
+        "title": "Geometry Interfaces Module Level 1",
+        "shortlink": "http://www.w3.org/TR/geometry-1/",
+        "editor-draft": "https://drafts.fxtf.org/geometry/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20120816"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140522"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20120816/editors"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140522/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20120816/deliverers"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140522/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/compositing-1"
+            "href": "https://api.w3.org/specifications/geometry-1"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/compositing-1/versions/20120816/successors"
+            "href": "https://api.w3.org/specifications/geometry-1/versions/20140522/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "WAI-ARIA Graphics Module",
+    "shortlink": "https://www.w3.org/TR/graphics-aria-1.0/",
+    "shortname": "graphics-aria-1.0",
+    "description": "<p>Defines a WAI-ARIA module of core roles, states and properties specific to web graphics. These semantics allow an author to express the logical structure of the graphic to assistive technologies, allowing assistive technologies to provide semantic navigation and adapt styling and interactive features.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/graphics-aria-1.0"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20151203",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20180202",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/graphics-aria/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2018/WD-graphics-aria-1.0-20180202/",
+        "date": "2018-02-02",
+        "informative": false,
+        "title": "WAI-ARIA Graphics Module",
+        "shortlink": "https://www.w3.org/TR/graphics-aria-1.0/",
+        "editor-draft": "https://w3c.github.io/graphics-aria/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20180202"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20180202/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20180202/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20180202/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-graphics-aria-1.0-20160908/",
+        "date": "2016-09-08",
+        "informative": false,
+        "title": "WAI-ARIA Graphics Module",
+        "shortlink": "https://www.w3.org/TR/graphics-aria-1.0/",
+        "editor-draft": "http://w3c.github.io/aria/aria/graphics.html",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20160908"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20160908/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20160908/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20160908/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20160908/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-graphics-aria-1.0-20151203/",
+        "date": "2015-12-03",
+        "informative": false,
+        "title": "WAI-ARIA Graphics Module",
+        "shortlink": "http://www.w3.org/TR/graphics-aria-1.0/",
+        "editor-draft": "http://w3c.github.io/aria/aria/graphics.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20151203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20151203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20151203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/graphics-aria-1.0/versions/20151203/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "DOMMatrix interface",
+    "shortlink": "http://www.w3.org/TR/matrix/",
+    "shortname": "matrix",
+    "description": "<p>This specification defines a DOM interface representing 2D and 3D matrices.  It is intended to be used as a common interface by SVG, Canvas and CSS Transforms. </p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/matrix"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/matrix/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/matrix/versions/20130919",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/matrix/versions/20130919",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://drafts.fxtf.org/matrix/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2013/WD-matrix-20130919/",
+        "date": "2013-09-19",
+        "informative": false,
+        "title": "DOMMatrix interface",
+        "shortlink": "http://www.w3.org/TR/matrix/",
+        "editor-draft": "https://drafts.fxtf.org/matrix/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/matrix/versions/20130919"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/matrix/versions/20130919/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/matrix/versions/20130919/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/matrix"
           }
         }
       }
@@ -245,6 +596,87 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/MediaAccessEvents"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Motion Path Module Level 1",
+    "shortlink": "https://www.w3.org/TR/motion-1/",
+    "shortname": "motion-1",
+    "description": "<p>The Motion Path module of CSS defines an additional way to define the\r\n    position and rotation of elements when rendering a document. The\r\n    position is given by a trajectory and an offset along that trajectory\r\n    between 0 and 100%. In combination with animations, the offset can also\r\n    be animated.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/motion-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/motion-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/motion-1/versions/20150409",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/motion-1/versions/20170711",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://drafts.fxtf.org/motion-1/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-motion-1-20170711/",
+        "date": "2017-07-11",
+        "informative": false,
+        "title": "Motion Path Module Level 1",
+        "shortlink": "https://www.w3.org/TR/motion-1/",
+        "editor-draft": "https://drafts.fxtf.org/motion-1/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/motion-1/versions/20170711"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/motion-1/versions/20170711/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/motion-1/versions/20170711/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/motion-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/motion-1/versions/20170711/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-motion-1-20150409/",
+        "date": "2015-04-09",
+        "informative": false,
+        "title": "Motion Path Module Level 1",
+        "shortlink": "http://www.w3.org/TR/motion-1/",
+        "editor-draft": "http://dev.w3.org/fxtf/motion-1/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/motion-1/versions/20150409"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/motion-1/versions/20150409/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/motion-1/versions/20150409/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/motion-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/motion-1/versions/20150409/successors"
           }
         }
       }
@@ -1187,6 +1619,147 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/SVGParamPrimer/versions/20090430/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Web Animations",
+    "shortlink": "https://www.w3.org/TR/web-animations-1/",
+    "shortname": "web-animations-1",
+    "description": "<p>This specification defines a model for synchronization and timing of changes to the presentation of a Web page. This specification also defines an application programming interface for interacting with this model and it is expected that further specifications will define declarative means for exposing these features. </p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/web-animations-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/web-animations-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/web-animations-1/versions/20130625",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/web-animations-1/versions/20160913",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/web-animations/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-web-animations-1-20160913/",
+        "date": "2016-09-13",
+        "informative": false,
+        "title": "Web Animations",
+        "shortlink": "https://www.w3.org/TR/web-animations-1/",
+        "editor-draft": "https://w3c.github.io/web-animations/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20160913"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20160913/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20160913/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/web-animations-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20160913/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-web-animations-1-20150707/",
+        "date": "2015-07-07",
+        "informative": false,
+        "title": "Web Animations",
+        "shortlink": "http://www.w3.org/TR/web-animations-1/",
+        "editor-draft": "https://w3c.github.io/web-animations/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20150707"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20150707/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20150707/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/web-animations-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20150707/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20150707/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-web-animations-20140605/",
+        "date": "2014-06-05",
+        "informative": false,
+        "title": "Web Animations 1.0",
+        "shortlink": "http://www.w3.org/TR/web-animations/",
+        "editor-draft": "http://dev.w3.org/fxtf/web-animations/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20140605"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20140605/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20140605/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/web-animations-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20140605/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20140605/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2013/WD-web-animations-20130625/",
+        "date": "2013-06-25",
+        "informative": false,
+        "title": "Web Animations 1.0",
+        "shortlink": "http://www.w3.org/TR/web-animations/",
+        "editor-draft": "http://dev.w3.org/fxtf/web-animations/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20130625"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20130625/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20130625/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/web-animations-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/web-animations-1/versions/20130625/successors"
           }
         }
       }
