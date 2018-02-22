@@ -1,5 +1,3065 @@
 [
-  null,
-  null,
-  null
+  {
+    "title": "Payment Handler API",
+    "shortlink": "https://www.w3.org/TR/payment-handler/",
+    "shortname": "payment-handler",
+    "description": "<p>The Payment Request API provides a standard way to initiate payment requests from Web pages and applications. User agents implementing that API prompt the user to select a way to handle the payment request, after which the user agent returns a payment response to the originating site. This specification defines capabilities that enable Web applications to handle payment requests.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/payment-handler"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/payment-handler/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/payment-handler/versions/20170518",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/payment-handler/versions/20180108",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/payment-handler/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2018/WD-payment-handler-20180108/",
+        "date": "2018-01-08",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20180108"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20180108/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20180108/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20180108/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20171203/",
+        "date": "2017-12-03",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171203/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171203/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20171129/",
+        "date": "2017-11-29",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171129"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171129/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171129/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171129/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171129/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20171113/",
+        "date": "2017-11-13",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171113"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171113/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171113/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171113/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171113/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20171010/",
+        "date": "2017-10-10",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171010"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171010/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171010/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171010/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171010/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20171004/",
+        "date": "2017-10-04",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171004"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171004/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171004/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171004/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20171004/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170921/",
+        "date": "2017-09-21",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170921"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170921/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170921/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170921/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170921/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170919/",
+        "date": "2017-09-19",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170919"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170919/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170919/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170919/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170919/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170918/",
+        "date": "2017-09-18",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170918"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170918/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170918/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170918/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170918/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170905/",
+        "date": "2017-09-05",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170905"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170905/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170905/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170905/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170905/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170830/",
+        "date": "2017-08-30",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170830"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170830/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170830/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170830/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170830/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170822/",
+        "date": "2017-08-22",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170822"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170822/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170822/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170822/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170822/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170815/",
+        "date": "2017-08-15",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170815"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170815/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170815/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170815/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170815/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170804/",
+        "date": "2017-08-04",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170804"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170804/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170804/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170804/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170804/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170803/",
+        "date": "2017-08-03",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170803"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170803/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170803/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170803/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170803/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170726/",
+        "date": "2017-07-26",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170726"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170726/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170726/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170726/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170726/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170624/",
+        "date": "2017-06-24",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170624"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170624/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170624/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170624/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170624/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170623/",
+        "date": "2017-06-23",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170623"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170623/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170623/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170623/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170623/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170622/",
+        "date": "2017-06-22",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170622"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170622/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170622/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170622/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170622/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170518/",
+        "date": "2017-05-18",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170518"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170518/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170518/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20170518/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Basic Card Payment",
+    "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
+    "shortname": "payment-method-basic-card",
+    "description": "<p>The Basic Card Payment specification describes the data formats used by the PaymentRequest API to support payment by payment cards such as credit or debit cards.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/payment-method-basic-card"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/payment-method-basic-card/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/payment-method-basic-card/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170727/",
+        "date": "2017-07-27",
+        "informative": false,
+        "title": "Basic Card Payment",
+        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
+        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170726/",
+        "date": "2017-07-26",
+        "informative": false,
+        "title": "Basic Card Payment",
+        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
+        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170721/",
+        "date": "2017-07-21",
+        "informative": false,
+        "title": "Basic Card Payment",
+        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
+        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170504/",
+        "date": "2017-05-04",
+        "informative": false,
+        "title": "Basic Card Payment",
+        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
+        "editor-draft": "https://w3c.github.io/webpayments-methods-card/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170315/",
+        "date": "2017-03-15",
+        "informative": false,
+        "title": "Basic Card Payment",
+        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
+        "editor-draft": "https://w3c.github.io/webpayments-methods-card/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170120/",
+        "date": "2017-01-20",
+        "informative": false,
+        "title": "Basic Card Payment",
+        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
+        "editor-draft": "https://w3c.github.io/webpayments-methods-card/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "https://www.w3.org/TR/2016/WD-payment-method-basic-card-20161220/",
+        "date": "2016-12-20",
+        "informative": false,
+        "title": "Basic Card Payment",
+        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
+        "editor-draft": "https://w3c.github.io/webpayments-methods-card/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "https://www.w3.org/TR/2016/WD-payment-method-basic-card-20161207/",
+        "date": "2016-12-07",
+        "informative": false,
+        "title": "Basic Card Payment",
+        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
+        "editor-draft": "https://w3c.github.io/webpayments-methods-card/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "uri": "http://www.w3.org/TR/2016/WD-payment-method-basic-card-20160421/",
+        "date": "2016-04-21",
+        "informative": false,
+        "title": "Basic Card Payment",
+        "shortlink": "http://www.w3.org/TR/payment-method-basic-card/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/specs/basic-card-payment.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Payment Method Identifiers",
+    "shortlink": "https://www.w3.org/TR/payment-method-id/",
+    "shortname": "payment-method-id",
+    "description": "<p>The Payment Request API requires that merchants supply a list of identifiers for supported payment methods. This document defines those identifier strings and how they are created.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/payment-method-id"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/payment-method-id/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/payment-method-id/versions/20160421",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/payment-method-id/versions/20170914",
+        "title": "Candidate Recommendation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/payment-method-id/",
+    "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-payment-method-id-20170914/",
+        "date": "2017-09-14",
+        "implementation-feedback-due": "2017-10-31",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "https://w3c.github.io/payment-method-id/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170914"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170914/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170914/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170914/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170907/",
+        "date": "2017-09-07",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "https://w3c.github.io/payment-method-id/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170907"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170907/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170907/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170907/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170907/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170831/",
+        "date": "2017-08-31",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "https://w3c.github.io/payment-method-id/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170831"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170831/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170831/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170831/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170831/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170816/",
+        "date": "2017-08-16",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "https://w3c.github.io/payment-method-id/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170816"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170816/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170816/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170816/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170816/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170815/",
+        "date": "2017-08-15",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "https://w3c.github.io/payment-method-id/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170815"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170815/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170815/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170815/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170815/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170726/",
+        "date": "2017-07-26",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "https://w3c.github.io/payment-method-id/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170726"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170726/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170726/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170726/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170726/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170623/",
+        "date": "2017-06-23",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "https://w3c.github.io/webpayments-method-identifiers/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170623"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170623/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170623/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170623/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170623/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170505/",
+        "date": "2017-05-05",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "http://w3c.github.io/webpayments-method-identifiers/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170505"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170505/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170505/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170505/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170505/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170504/",
+        "date": "2017-05-04",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "http://w3c.github.io/webpayments-method-identifiers/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170504"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170504/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170504/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170504/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170504/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170320/",
+        "date": "2017-03-20",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "http://w3c.github.io/webpayments-method-identifiers/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170320"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170320/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170320/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170320/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170320/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-id-20170223/",
+        "date": "2017-02-23",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "http://w3c.github.io/webpayments-method-identifiers/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170223"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170223/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170223/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170223/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20170223/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-payment-method-id-20161207/",
+        "date": "2016-12-07",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "http://w3c.github.io/webpayments-method-identifiers/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20161207"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20161207/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20161207/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20161207/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20161207/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-payment-method-id-20160705/",
+        "date": "2016-07-05",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "http://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "https://w3c.github.io/webpayments-method-identifiers/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20160705"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20160705/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20160705/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20160705/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20160705/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-payment-method-id-20160421/",
+        "date": "2016-04-21",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "http://www.w3.org/TR/payment-method-id/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/specs/method-identifiers.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20160421"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20160421/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20160421/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20160421/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Payment Method Manifest",
+    "shortlink": "https://www.w3.org/TR/payment-method-manifest/",
+    "shortname": "payment-method-manifest",
+    "description": "<p>This specification defines the machine-readable manifest file, known as a payment method manifest, describing how a payment method participates in the Web Payments ecosystem, and how such files are to be used.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/payment-method-manifest"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/payment-method-manifest/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/payment-method-manifest/versions/20171212",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/payment-method-manifest/versions/20171212",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/payment-method-manifest/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-method-manifest-20171212/",
+        "date": "2017-12-12",
+        "informative": false,
+        "title": "Payment Method Manifest",
+        "shortlink": "https://www.w3.org/TR/payment-method-manifest/",
+        "editor-draft": "https://w3c.github.io/payment-method-manifest/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-manifest/versions/20171212"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-manifest/versions/20171212/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-manifest/versions/20171212/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-manifest"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Payment Request API",
+    "shortlink": "https://www.w3.org/TR/payment-request/",
+    "shortname": "payment-request",
+    "description": "<p>This specification describes a web API to allow merchants (i.e. web sites selling physical or digital goods) to easily accept payments from different payment methods with minimal integration. User agents (e.g. browsers) will facilitate the payment flow between merchant and user.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/payment-request"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/payment-request/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/payment-request/versions/20160421",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/payment-request/versions/20180123",
+        "title": "Candidate Recommendation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/payment-request/",
+    "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180123/",
+        "date": "2018-01-23",
+        "implementation-feedback-due": "2017-10-31",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20180123"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20180123/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20180123/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20180123/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-payment-request-20170921/",
+        "date": "2017-09-21",
+        "implementation-feedback-due": "2017-10-31",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170921"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170921/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170921/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170921/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170921/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-payment-request-20170914/",
+        "date": "2017-09-14",
+        "implementation-feedback-due": "2017-10-31",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170914"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170914/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170914/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170914/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170914/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170913/",
+        "date": "2017-09-13",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170913"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170913/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170913/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170913/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170913/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170911/",
+        "date": "2017-09-11",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170911"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170911/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170911/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170911/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170911/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170908/",
+        "date": "2017-09-08",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170908"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170908/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170908/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170908/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170908/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170906/",
+        "date": "2017-09-06",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170906"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170906/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170906/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170906/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170906/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170905/",
+        "date": "2017-09-05",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170905"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170905/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170905/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170905/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170905/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170904/",
+        "date": "2017-09-04",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170904"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170904/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170904/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170904/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170904/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170901/",
+        "date": "2017-09-01",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170901"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170901/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170901/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170901/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170901/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170831/",
+        "date": "2017-08-31",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170831"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170831/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170831/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170831/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170831/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170825/",
+        "date": "2017-08-25",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170825"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170825/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170825/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170825/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170825/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170824/",
+        "date": "2017-08-24",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170824"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170824/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170824/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170824/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170824/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170822/",
+        "date": "2017-08-22",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170822"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170822/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170822/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170822/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170822/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170821/",
+        "date": "2017-08-21",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170821"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170821/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170821/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170821/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170821/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170817/",
+        "date": "2017-08-17",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170817"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170817/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170817/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170817/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170817/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170816/",
+        "date": "2017-08-16",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170816"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170816/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170816/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170816/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170816/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170815/",
+        "date": "2017-08-15",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170815"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170815/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170815/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170815/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170815/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170811/",
+        "date": "2017-08-11",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170811"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170811/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170811/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170811/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170811/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170810/",
+        "date": "2017-08-10",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170810"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170810/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170810/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170810/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170810/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170728/",
+        "date": "2017-07-28",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170728"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170728/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170728/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170728/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170728/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170725/",
+        "date": "2017-07-25",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170725"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170725/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170725/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170725/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170725/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170724/",
+        "date": "2017-07-24",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170724"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170724/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170724/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170724/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170724/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170721/",
+        "date": "2017-07-21",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170721"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170721/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170721/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170721/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170721/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170720/",
+        "date": "2017-07-20",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170720"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170720/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170720/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170720/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170720/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170628/",
+        "date": "2017-06-28",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170628"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170628/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170628/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170628/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170628/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170627/",
+        "date": "2017-06-27",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170627"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170627/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170627/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170627/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170627/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170503/",
+        "date": "2017-05-03",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170503"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170503/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170503/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170503/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170503/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170427/",
+        "date": "2017-04-27",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170427"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170427/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170427/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170427/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170427/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170420/",
+        "date": "2017-04-20",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170420"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170420/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170420/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170420/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170420/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170331/",
+        "date": "2017-03-31",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170331"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170331/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170331/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170331/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170331/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170330/",
+        "date": "2017-03-30",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170330"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170330/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170330/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170330/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170330/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170323/",
+        "date": "2017-03-23",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170323"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170323/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170323/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170323/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170323/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170322/",
+        "date": "2017-03-22",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170322"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170322/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170322/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170322/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170322/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170321/",
+        "date": "2017-03-21",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170321"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170321/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170321/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170321/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170321/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170316/",
+        "date": "2017-03-16",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170316"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170316/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170316/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170316/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170316/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170315/",
+        "date": "2017-03-15",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170315"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170315/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170315/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170315/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170315/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170310/",
+        "date": "2017-03-10",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170310"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170310/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170310/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170310/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170310/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170308/",
+        "date": "2017-03-08",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170308"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170308/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170308/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170308/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170308/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170307/",
+        "date": "2017-03-07",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170307"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170307/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170307/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170307/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170307/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170111/",
+        "date": "2017-01-11",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170111"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170111/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170111/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170111/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170111/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-payment-request-20170104/",
+        "date": "2017-01-04",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170104"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170104/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170104/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170104/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20170104/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-payment-request-20161214/",
+        "date": "2016-12-14",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161214"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161214/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161214/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161214/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161214/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-payment-request-20161213/",
+        "date": "2016-12-13",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161213"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161213/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161213/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161213/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161213/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-payment-request-20161209/",
+        "date": "2016-12-09",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161209"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161209/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161209/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161209/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161209/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-payment-request-20161208/",
+        "date": "2016-12-08",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161208"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161208/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161208/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161208/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161208/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-payment-request-20161207/",
+        "date": "2016-12-07",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161207"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161207/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161207/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161207/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161207/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-payment-request-20161206/",
+        "date": "2016-12-06",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161206"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161206/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161206/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161206/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20161206/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-payment-request-20160705/",
+        "date": "2016-07-05",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "http://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20160705"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20160705/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20160705/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20160705/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20160705/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-payment-request-20160421/",
+        "date": "2016-04-21",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "http://www.w3.org/TR/payment-request/",
+        "editor-draft": "https://w3c.github.io/browser-payment-api/specs/paymentrequest.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20160421"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20160421/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20160421/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20160421/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Web Payments HTTP Messages 1.0",
+    "shortlink": "https://www.w3.org/TR/webpayments-http-messages/",
+    "shortname": "webpayments-http-messages",
+    "description": "<p>This document specifies the Web Payments messages that are used to initiate and acknowledge a payment request via the HTTP protocol. The messages are typically passed between the software ecosystem that inititates, executes, and finalizes Web Payments.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webpayments-http-messages"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webpayments-http-messages/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webpayments-http-messages/versions/20160915",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webpayments-http-messages/versions/20160915",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webpayments-http-messages/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-webpayments-http-messages-20160915/",
+        "date": "2016-09-15",
+        "informative": false,
+        "title": "Web Payments HTTP Messages 1.0",
+        "shortlink": "https://www.w3.org/TR/webpayments-http-messages/",
+        "editor-draft": "https://w3c.github.io/webpayments-http-messages/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webpayments-http-messages/versions/20160915"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webpayments-http-messages/versions/20160915/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webpayments-http-messages/versions/20160915/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webpayments-http-messages"
+          }
+        }
+      }
+    ]
+  }
 ]
