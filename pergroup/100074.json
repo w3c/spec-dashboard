@@ -66,12 +66,40 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/wpub/versions/20180104",
+        "href": "https://api.w3.org/specifications/wpub/versions/20180315",
         "title": "Working Draft"
       }
     },
     "editorsdraft": "https://w3c.github.io/wpub/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2018/WD-wpub-20180315/",
+        "date": "2018-03-15",
+        "informative": false,
+        "title": "Web Publications",
+        "shortlink": "https://www.w3.org/TR/wpub/",
+        "editor-draft": "https://w3c.github.io/wpub/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/wpub/versions/20180315"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/wpub/versions/20180315/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/wpub/versions/20180315/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/wpub"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/wpub/versions/20180315/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -94,10 +122,62 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/wpub"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/wpub/versions/20180104/successors"
           }
         }
       }
     ]
   },
-  null
+  {
+    "title": "Web Annotation Extensions for Web Publications",
+    "shortlink": "https://www.w3.org/TR/wpub-ann/",
+    "shortname": "wpub-ann",
+    "description": "<p>This document relies on existing selection techniques, providing a common model and syntax defined by the Web Annotation Data Model. That specification developed a JSON-based approach to select targets or bodies of various types of Web Resources. This foundational model has been extended by adding selector types applicable to collective resources and a new model component for describing positions in text and byte streams.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/wpub-ann"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/wpub-ann/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/wpub-ann/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2018/WD-wpub-ann-20180104/",
+        "date": "2018-01-04",
+        "informative": false,
+        "title": "Web Annotation Extensions for Web Publications",
+        "shortlink": "https://www.w3.org/TR/wpub-ann/",
+        "editor-draft": "https://w3c.github.io/wpub-ann/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/wpub-ann"
+          }
+        }
+      }
+    ]
+  }
 ]
