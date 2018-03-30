@@ -1,13 +1,1571 @@
 [
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null
+  {
+    "title": "Clear Site Data",
+    "shortlink": "https://www.w3.org/TR/clear-site-data/",
+    "shortname": "clear-site-data",
+    "description": "<p>This document defines an imperative mechanism which allows web developers to instruct a user agent to clear a user’s locally stored data related to a host and its subdomains.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/clear-site-data"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/clear-site-data/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/clear-site-data/versions/20150804",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/clear-site-data/versions/20171130",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webappsec-clear-site-data/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-clear-site-data-20171130/",
+        "date": "2017-11-30",
+        "informative": false,
+        "title": "Clear Site Data",
+        "shortlink": "https://www.w3.org/TR/clear-site-data/",
+        "editor-draft": "https://w3c.github.io/webappsec-clear-site-data/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20171130"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20171130/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20171130/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clear-site-data"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20171130/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-clear-site-data-20160720/",
+        "date": "2016-07-20",
+        "informative": false,
+        "title": "Clear Site Data",
+        "shortlink": "http://www.w3.org/TR/clear-site-data/",
+        "editor-draft": "https://w3c.github.io/webappsec-clear-site-data/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20160720"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20160720/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20160720/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clear-site-data"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20160720/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20160720/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-clear-site-data-20150804/",
+        "date": "2015-08-04",
+        "informative": false,
+        "title": "Clear Site Data",
+        "shortlink": "http://www.w3.org/TR/clear-site-data/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/clear-site-data/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20150804"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20150804/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20150804/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clear-site-data"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clear-site-data/versions/20150804/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Confinement with Origin Web Labels",
+    "shortlink": "http://www.w3.org/TR/COWL/",
+    "shortname": "COWL",
+    "description": "<p>This specification defines an API for specifying privacy and integrity policies on data, in the form of origin labels, and a mechanism for confining code according to such policies. This allows Web application authors and server operators to shared data with untrusted - buggy but not malicious - code (e.g., in a mashup scenario) yet impose restrictions on how the code can share the data further.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/COWL"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/COWL/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/COWL/versions/20151015",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/COWL/versions/20151015",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webappsec-cowl/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-COWL-20151015/",
+        "date": "2015-10-15",
+        "informative": false,
+        "title": "Confinement with Origin Web Labels",
+        "shortlink": "http://www.w3.org/TR/COWL/",
+        "editor-draft": "https://w3c.github.io/webappsec-cowl/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/COWL/versions/20151015"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/COWL/versions/20151015/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/COWL/versions/20151015/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/COWL"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Credential Management Level 1",
+    "shortlink": "https://www.w3.org/TR/credential-management-1/",
+    "shortname": "credential-management-1",
+    "description": "<p>This specification describes an imperative API enabling a website to\r\nrequest a user’s credentials from a user agent, and to help the user agent\r\ncorrectly store user credentials for future use.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/credential-management-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/credential-management-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/credential-management-1/versions/20150430",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/credential-management-1/versions/20170804",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webappsec-credential-management/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-credential-management-1-20170804/",
+        "date": "2017-08-04",
+        "informative": false,
+        "title": "Credential Management Level 1",
+        "shortlink": "https://www.w3.org/TR/credential-management-1/",
+        "editor-draft": "https://w3c.github.io/webappsec-credential-management/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20170804"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20170804/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20170804/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/credential-management-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20170804/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-credential-management-1-20160425/",
+        "date": "2016-04-25",
+        "informative": false,
+        "title": "Credential Management Level 1",
+        "shortlink": "http://www.w3.org/TR/credential-management-1/",
+        "editor-draft": "https://w3c.github.io/webappsec-credential-management/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20160425"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20160425/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20160425/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/credential-management-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20160425/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20160425/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-credential-management-1-20150430/",
+        "date": "2015-04-30",
+        "informative": false,
+        "title": "Credential Management Level 1",
+        "shortlink": "http://www.w3.org/TR/credential-management-1/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/credentialmanagement/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20150430"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20150430/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20150430/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/credential-management-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/credential-management-1/versions/20150430/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Content Security Policy: Embedded Enforcement",
+    "shortlink": "https://www.w3.org/TR/csp-embedded-enforcement/",
+    "shortname": "csp-embedded-enforcement",
+    "description": "<p>This document defines a mechanism by which a web page can embed a nested browsing context if and only if it agrees to enforce a particular set of restrictions upon itself.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/csp-embedded-enforcement"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20151215",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20160909",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webappsec-csp/embedded/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-csp-embedded-enforcement-20160909/",
+        "date": "2016-09-09",
+        "informative": false,
+        "title": "Content Security Policy: Embedded Enforcement",
+        "shortlink": "https://www.w3.org/TR/csp-embedded-enforcement/",
+        "editor-draft": "https://w3c.github.io/webappsec-csp/embedded/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20160909"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20160909/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20160909/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20160909/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-csp-embedded-enforcement-20151215/",
+        "date": "2015-12-15",
+        "informative": false,
+        "title": "Content Security Policy: Embedded Enforcement",
+        "shortlink": "http://www.w3.org/TR/csp-embedded-enforcement/",
+        "editor-draft": "https://w3c.github.io/webappsec-csp/embedded/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20151215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20151215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20151215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/csp-embedded-enforcement/versions/20151215/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Content Security Policy Level 3",
+    "shortlink": "https://www.w3.org/TR/CSP3/",
+    "shortname": "CSP3",
+    "description": "<p>This document defines a mechanism by which web developers can control the resources which a particular page can fetch or execute, as well as a number of security-relevant policy decisions.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/CSP3"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/CSP3/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/CSP3/versions/20160126",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/CSP3/versions/20160913",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webappsec-csp/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-CSP3-20160913/",
+        "date": "2016-09-13",
+        "informative": false,
+        "title": "Content Security Policy Level 3",
+        "shortlink": "https://www.w3.org/TR/CSP3/",
+        "editor-draft": "https://w3c.github.io/webappsec-csp/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160913"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160913/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160913/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/CSP3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160913/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-CSP3-20160901/",
+        "date": "2016-09-01",
+        "informative": false,
+        "title": "Content Security Policy Level 3",
+        "shortlink": "https://www.w3.org/TR/CSP3/",
+        "editor-draft": "https://w3c.github.io/webappsec-csp/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160901"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160901/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160901/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/CSP3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160901/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160901/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-CSP3-20160818/",
+        "date": "2016-08-18",
+        "informative": false,
+        "title": "Content Security Policy Level 3",
+        "shortlink": "https://www.w3.org/TR/CSP3/",
+        "editor-draft": "https://w3c.github.io/webappsec-csp/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160818"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160818/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160818/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/CSP3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160818/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160818/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-CSP3-20160801/",
+        "date": "2016-08-01",
+        "informative": false,
+        "title": "Content Security Policy Level 3",
+        "shortlink": "https://www.w3.org/TR/CSP3/",
+        "editor-draft": "https://w3c.github.io/webappsec-csp/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160801"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160801/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160801/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/CSP3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160801/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160801/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-CSP3-20160621/",
+        "date": "2016-06-21",
+        "informative": false,
+        "title": "Content Security Policy Level 3",
+        "shortlink": "http://www.w3.org/TR/CSP3/",
+        "editor-draft": "https://w3c.github.io/webappsec-csp/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160621"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160621/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160621/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/CSP3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160621/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160621/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-CSP3-20160425/",
+        "date": "2016-04-25",
+        "informative": false,
+        "title": "Content Security Policy Level 3",
+        "shortlink": "http://www.w3.org/TR/CSP3/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160425"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160425/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160425/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/CSP3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160425/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160425/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-CSP3-20160126/",
+        "date": "2016-01-26",
+        "informative": false,
+        "title": "Content Security Policy Level 3",
+        "shortlink": "http://www.w3.org/TR/CSP/",
+        "editor-draft": "https://w3c.github.io/webappsec-csp/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160126"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160126/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160126/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/CSP3"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/CSP3/versions/20160126/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Mixed Content",
+    "shortlink": "https://www.w3.org/TR/mixed-content/",
+    "shortname": "mixed-content",
+    "description": "<p>This specification describes how and why user agents disallow\r\nrendering and execution of content loaded over unencrypted or\r\nunauthenticated connections in the context of an encrypted and\r\nauthenticated document.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/mixed-content"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/mixed-content/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/mixed-content/versions/20140722",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/mixed-content/versions/20160802",
+        "title": "Candidate Recommendation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webappsec-mixed-content/",
+    "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/CR-mixed-content-20160802/",
+        "date": "2016-08-02",
+        "implementation-feedback-due": "2016-09-02",
+        "informative": false,
+        "title": "Mixed Content",
+        "shortlink": "https://www.w3.org/TR/mixed-content/",
+        "editor-draft": "https://w3c.github.io/webappsec-mixed-content/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20160802"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20160802/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20160802/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/mixed-content"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20160802/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/CR-mixed-content-20151008/",
+        "date": "2015-10-08",
+        "implementation-feedback-due": "2015-10-22",
+        "informative": false,
+        "title": "Mixed Content",
+        "shortlink": "http://www.w3.org/TR/mixed-content/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/mixedcontent/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20151008"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20151008/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20151008/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/mixed-content"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20151008/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20151008/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/CR-mixed-content-20150317/",
+        "date": "2015-03-17",
+        "implementation-feedback-due": "2015-07-01",
+        "informative": false,
+        "title": "Mixed Content",
+        "shortlink": "http://www.w3.org/TR/mixed-content/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/mixedcontent/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20150317"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20150317/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20150317/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/mixed-content"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20150317/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20150317/successors"
+          }
+        }
+      },
+      {
+        "status": "Last Call",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-mixed-content-20141113/",
+        "date": "2014-11-13",
+        "last-call-feedback-due": "2014-12-11",
+        "informative": false,
+        "title": "Mixed Content",
+        "shortlink": "http://www.w3.org/TR/mixed-content/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/mixedcontent/",
+        "process-rules": "http://www.w3.org/2005/10/Process-20051014/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20141113"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20141113/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20141113/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/mixed-content"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20141113/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20141113/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-mixed-content-20140916/",
+        "date": "2014-09-16",
+        "informative": false,
+        "title": "Mixed Content",
+        "shortlink": "http://www.w3.org/TR/mixed-content/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/mixedcontent/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20140916"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20140916/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20140916/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/mixed-content"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20140916/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20140916/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-mixed-content-20140722/",
+        "date": "2014-07-22",
+        "informative": false,
+        "title": "Mixed Content",
+        "shortlink": "http://www.w3.org/TR/mixed-content/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/mixedcontent/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20140722"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20140722/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20140722/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/mixed-content"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/mixed-content/versions/20140722/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Permissions",
+    "shortlink": "https://www.w3.org/TR/permissions/",
+    "shortname": "permissions",
+    "description": "<p>The Permissions API allows a web application to be aware of the status of a given permission, to know whether it is granted, denied or if the user will be asked whether the permission should be granted.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/permissions"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/permissions/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/permissions/versions/20150407",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/permissions/versions/20170925",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/permissions/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/WD-permissions-20170925/",
+        "date": "2017-09-25",
+        "informative": false,
+        "title": "Permissions",
+        "shortlink": "https://www.w3.org/TR/permissions/",
+        "editor-draft": "https://w3c.github.io/permissions/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20170925"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20170925/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20170925/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/permissions"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20170925/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-permissions-20150407/",
+        "date": "2015-04-07",
+        "informative": false,
+        "title": "The Permissions API",
+        "shortlink": "http://www.w3.org/TR/permissions/",
+        "editor-draft": "https://w3c.github.io/permissions/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20150407"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20150407/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20150407/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/permissions"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/permissions/versions/20150407/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Referrer Policy",
+    "shortlink": "https://www.w3.org/TR/referrer-policy/",
+    "shortname": "referrer-policy",
+    "description": "<p>This document describes how an author can set a referrer\r\npolicy for documents they create, and the impact of such a policy on the\r\nreferer HTTP header for outgoing requests and navigations.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/referrer-policy"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/referrer-policy/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/referrer-policy/versions/20140807",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/referrer-policy/versions/20170126",
+        "title": "Candidate Recommendation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webappsec-referrer-policy/",
+    "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2017/CR-referrer-policy-20170126/",
+        "date": "2017-01-26",
+        "implementation-feedback-due": "2017-02-26",
+        "informative": false,
+        "title": "Referrer Policy",
+        "shortlink": "https://www.w3.org/TR/referrer-policy/",
+        "editor-draft": "https://w3c.github.io/webappsec-referrer-policy/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20170126"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20170126/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20170126/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/referrer-policy"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20170126/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-referrer-policy-20161222/",
+        "date": "2016-12-22",
+        "informative": false,
+        "title": "Referrer Policy",
+        "shortlink": "https://www.w3.org/TR/referrer-policy/",
+        "editor-draft": "https://w3c.github.io/webappsec-referrer-policy/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161222"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161222/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161222/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/referrer-policy"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161222/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161222/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/WD-referrer-policy-20161016/",
+        "date": "2016-10-16",
+        "informative": false,
+        "title": "Referrer Policy",
+        "shortlink": "https://www.w3.org/TR/referrer-policy/",
+        "editor-draft": "https://w3c.github.io/webappsec-referrer-policy/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161016"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161016/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161016/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/referrer-policy"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161016/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20161016/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-referrer-policy-20160601/",
+        "date": "2016-06-01",
+        "informative": false,
+        "title": "Referrer Policy",
+        "shortlink": "http://www.w3.org/TR/referrer-policy/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20160601"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20160601/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20160601/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/referrer-policy"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20160601/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20160601/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-referrer-policy-20140807/",
+        "date": "2014-08-07",
+        "informative": false,
+        "title": "Referrer Policy",
+        "shortlink": "http://www.w3.org/TR/referrer-policy/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/referrer-policy/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20140807"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20140807/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20140807/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/referrer-policy"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/referrer-policy/versions/20140807/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Secure Contexts",
+    "shortlink": "https://www.w3.org/TR/secure-contexts/",
+    "shortname": "secure-contexts",
+    "description": "<p>This specification provides guidelines for user agent implementors and\r\nspec authors for implementing features whose properties dictate that\r\nthey be exposed to the web only within a trustworthy environment.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/secure-contexts"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/secure-contexts/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/secure-contexts/versions/20141204",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/secure-contexts/versions/20160915",
+        "title": "Candidate Recommendation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webappsec-secure-contexts/",
+    "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2016/CR-secure-contexts-20160915/",
+        "date": "2016-09-15",
+        "implementation-feedback-due": "2016-10-20",
+        "informative": false,
+        "title": "Secure Contexts",
+        "shortlink": "https://www.w3.org/TR/secure-contexts/",
+        "editor-draft": "https://w3c.github.io/webappsec-secure-contexts/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160915"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160915/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160915/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/secure-contexts"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160915/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-secure-contexts-20160719/",
+        "date": "2016-07-19",
+        "informative": false,
+        "title": "Secure Contexts",
+        "shortlink": "http://www.w3.org/TR/secure-contexts/",
+        "editor-draft": "https://w3c.github.io/webappsec-secure-contexts/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160719"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160719/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160719/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/secure-contexts"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160719/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160719/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-secure-contexts-20160718/",
+        "date": "2016-07-18",
+        "informative": false,
+        "title": "Secure Contexts",
+        "shortlink": "http://www.w3.org/TR/secure-contexts/",
+        "editor-draft": "https://w3c.github.io/webappsec-secure-contexts/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160718"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160718/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160718/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/secure-contexts"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160718/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160718/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-secure-contexts-20160715/",
+        "date": "2016-07-15",
+        "informative": false,
+        "title": "Secure Contexts",
+        "shortlink": "http://www.w3.org/TR/secure-contexts/",
+        "editor-draft": "https://w3c.github.io/webappsec-secure-contexts/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160715"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160715/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160715/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/secure-contexts"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160715/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160715/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-secure-contexts-20160426/",
+        "date": "2016-04-26",
+        "informative": false,
+        "title": "Secure Contexts",
+        "shortlink": "http://www.w3.org/TR/secure-contexts/",
+        "editor-draft": "https://w3c.github.io/webappsec-secure-contexts/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160426"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160426/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160426/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/secure-contexts"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160426/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160426/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-powerful-features-20160413/",
+        "date": "2016-04-13",
+        "informative": false,
+        "title": "Secure Contexts",
+        "shortlink": "http://www.w3.org/TR/powerful-features/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160413"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160413/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160413/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/secure-contexts"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160413/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20160413/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-powerful-features-20150424/",
+        "date": "2015-04-24",
+        "informative": false,
+        "title": "Privileged Contexts",
+        "shortlink": "http://www.w3.org/TR/powerful-features/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20150424"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20150424/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20150424/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/secure-contexts"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20150424/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20150424/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-powerful-features-20141204/",
+        "date": "2014-12-04",
+        "informative": false,
+        "title": "Requirements for Powerful Features",
+        "shortlink": "http://www.w3.org/TR/powerful-features/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/powerfulfeatures/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20141204"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20141204/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20141204/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/secure-contexts"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/secure-contexts/versions/20141204/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "User Interface Security and the Visibility API",
+    "shortlink": "http://www.w3.org/TR/UISecurity/",
+    "shortname": "UISecurity",
+    "description": "<p>This document defines directives for the Content Security Policy mechanism to declare a set of input protections for a web resource's user interface, defines a non-normative set of heuristics for Web user agents to implement these input protections, and a reporting mechanism for when they are triggered.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/UISecurity"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/UISecurity/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/UISecurity/versions/20121120",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/UISecurity/versions/20160607",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "http://w3c.github.io/webappsec-uisecurity/index.html",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2016/WD-UISecurity-20160607/",
+        "date": "2016-06-07",
+        "informative": false,
+        "title": "User Interface Security and the Visibility API",
+        "shortlink": "http://www.w3.org/TR/UISecurity/",
+        "editor-draft": "http://w3c.github.io/webappsec-uisecurity/index.html",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20160607"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20160607/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20160607/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/UISecurity"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20160607/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Last Call",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2014/WD-UISecurity-20140318/",
+        "date": "2014-03-18",
+        "last-call-feedback-due": "2014-06-18",
+        "informative": false,
+        "title": "User Interface Security Directives for Content Security Policy",
+        "shortlink": "http://www.w3.org/TR/UISecurity/",
+        "editor-draft": "http://dvcs.w3.org/hg/user-interface-safety/raw-file/tip/user-interface-safety.html",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20140318"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20140318/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20140318/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/UISecurity"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20140318/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20140318/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2013/WD-UISecurity-20130523/",
+        "date": "2013-05-23",
+        "informative": false,
+        "title": "User Interface Security Directives for Content Security Policy",
+        "shortlink": "http://www.w3.org/TR/UISecurity/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20130523"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20130523/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20130523/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/UISecurity"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20130523/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20130523/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2012/WD-UISafety-20121120/",
+        "date": "2012-11-20",
+        "informative": false,
+        "title": "User Interface Safety Directives for Content Security Policy",
+        "shortlink": "http://www.w3.org/TR/UISafety/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20121120"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20121120/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20121120/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/UISecurity"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/UISecurity/versions/20121120/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "title": "Upgrade Insecure Requests",
+    "shortlink": "http://www.w3.org/TR/upgrade-insecure-requests/",
+    "shortname": "upgrade-insecure-requests",
+    "description": "<p>This document defines a mechanism which allows authors to instruct a user agent to upgrade a priori insecure resource requests to secure transport before fetching them.</p>",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/upgrade-insecure-requests"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150226",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20151008",
+        "title": "Candidate Recommendation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webappsec-upgrade-insecure-requests/",
+    "versions": [
+      {
+        "status": "Candidate Recommendation",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/CR-upgrade-insecure-requests-20151008/",
+        "date": "2015-10-08",
+        "implementation-feedback-due": "2015-11-08",
+        "informative": false,
+        "title": "Upgrade Insecure Requests",
+        "shortlink": "http://www.w3.org/TR/upgrade-insecure-requests/",
+        "editor-draft": "https://w3c.github.io/webappsec-upgrade-insecure-requests/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20151008"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20151008/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20151008/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20151008/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-upgrade-insecure-requests-20150424/",
+        "date": "2015-04-24",
+        "informative": false,
+        "title": "Upgrade Insecure Requests",
+        "shortlink": "http://www.w3.org/TR/upgrade-insecure-requests/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150424"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150424/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150424/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150424/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150424/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "http://www.w3.org/TR/2015/WD-upgrade-insecure-requests-20150226/",
+        "date": "2015-02-26",
+        "informative": false,
+        "title": "Upgrade Insecure Requests",
+        "shortlink": "http://www.w3.org/TR/upgrade-insecure-requests/",
+        "editor-draft": "https://w3c.github.io/webappsec/specs/upgrade/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150226"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150226/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150226/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/upgrade-insecure-requests/versions/20150226/successors"
+          }
+        }
+      }
+    ]
+  }
 ]
