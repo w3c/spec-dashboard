@@ -8,39 +8,271 @@
     "issues": [
       {
         "state": "open",
+        "number": 897,
+        "created_at": "2018-05-04T09:37:07Z",
+        "closed_at": null,
+        "title": "Replace [[FIDOReg]] with [[FIDO-Registry]]",
+        "labels": [
+          {
+            "id": 340917070,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/priority:low",
+            "name": "priority:low",
+            "color": "fe8181",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "emlun",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 896,
+        "created_at": "2018-05-03T00:53:17Z",
+        "closed_at": "2018-05-04T16:07:38Z",
+        "title": "Track initial COSE algorithm registrations made for WebAuthn",
+        "labels": [
+          {
+            "id": 686484283,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:breaking",
+            "name": "stat:breaking",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "selfissued",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 895,
+        "created_at": "2018-05-03T00:49:28Z",
+        "closed_at": "2018-05-03T00:55:08Z",
+        "title": "draft-jones-webauthn-cose-algorithms-01",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 894,
+        "created_at": "2018-05-02T13:09:21Z",
+        "closed_at": null,
+        "title": "Replace [[FIDOReg]] with [[FIDO-Registry]]?",
+        "labels": [
+          {
+            "id": 340917070,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/priority:low",
+            "name": "priority:low",
+            "color": "fe8181",
+            "default": false
+          },
+          {
+            "id": 723904637,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "emlun",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 893,
+        "created_at": "2018-05-02T13:05:04Z",
+        "closed_at": "2018-05-02T17:18:50Z",
+        "title": "Reference [[FIDO-Registry]] for raw EC public key format",
+        "labels": [
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "emlun",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 892,
+        "created_at": "2018-05-02T12:29:34Z",
+        "closed_at": "2018-05-02T15:19:32Z",
+        "title": "Use |authData| in both RP operations",
+        "labels": [
+          {
+            "id": 875206667,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:rp-ops",
+            "name": "subtype:rp-ops",
+            "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "emlun",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 891,
+        "created_at": "2018-05-02T11:06:27Z",
+        "closed_at": "2018-05-02T17:18:50Z",
+        "title": "Reference FIDO Registry for raw EC public key format",
+        "labels": [
+          {
+            "id": 340917070,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/priority:low",
+            "name": "priority:low",
+            "color": "fe8181",
+            "default": false
+          },
+          {
+            "id": 723904637,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "emlun",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 890,
+        "created_at": "2018-05-01T16:45:31Z",
+        "closed_at": "2018-05-01T17:48:29Z",
+        "title": "fix non-`null` breakage by using plain \"non-null\"",
+        "labels": [],
+        "assignee": "equalsJeffH",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 889,
+        "created_at": "2018-04-30T23:08:35Z",
+        "closed_at": null,
+        "title": "Return the employed AuthenticatorTransport when creating a new credential",
+        "labels": [
+          {
+            "id": 686484283,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:breaking",
+            "name": "stat:breaking",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 723904637,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false
+          },
+          {
+            "id": 545633395,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms/WebIDL",
+            "name": "subtype:algorithms/WebIDL",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "agl",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 888,
         "created_at": "2018-04-30T11:58:56Z",
         "closed_at": null,
         "title": "Fixed example with incorrect allowCredential. Improved existing examples",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "herrjemand",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 887,
         "created_at": "2018-04-30T11:35:29Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T17:17:12Z",
         "title": "Fixed incorrect field size that makes all letters to overlap each other",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "herrjemand",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 886,
         "created_at": "2018-04-29T19:32:39Z",
-        "closed_at": null,
+        "closed_at": "2018-04-30T14:33:34Z",
         "title": "Does it require a JavaScript library?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 885,
         "created_at": "2018-04-25T17:27:33Z",
-        "closed_at": null,
+        "closed_at": "2018-05-04T16:07:38Z",
         "title": "The RS1 IANA COSE Algorithm registration doesn't match the value in the spec",
         "labels": [
           {
@@ -48,6 +280,13 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:breaking",
             "name": "stat:breaking",
             "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 723904637,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
             "default": false
           },
           {
@@ -83,14 +322,14 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "emlun",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 883,
         "created_at": "2018-04-25T10:29:13Z",
-        "closed_at": null,
+        "closed_at": "2018-05-01T17:04:36Z",
         "title": "Clean up cross-spec refs in PR #861",
         "labels": [
           {
@@ -137,10 +376,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 881,
         "created_at": "2018-04-24T13:54:04Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T10:47:53Z",
         "title": "Clarify that authentication use case example requires pairing the phone first",
         "labels": [
           {
@@ -155,10 +394,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 880,
         "created_at": "2018-04-24T11:37:47Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T16:39:27Z",
         "title": "Change \"with string-valued keys\" to \"whose keys are strings\"",
         "labels": [
           {
@@ -180,12 +419,26 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 879,
         "created_at": "2018-04-23T16:32:15Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T15:19:32Z",
         "title": "Use |authData| instead of |aData| and |adata| in RP assertion verification operation",
         "labels": [
+          {
+            "id": 723904637,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false
+          },
+          {
+            "id": 875206667,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:rp-ops",
+            "name": "subtype:rp-ops",
+            "color": "c5def5",
+            "default": false
+          },
           {
             "id": 340917025,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -233,10 +486,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 875,
         "created_at": "2018-04-19T17:29:02Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T15:19:35Z",
         "title": "cleanup: interstital blank line",
         "labels": [
           {
@@ -251,10 +504,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 874,
         "created_at": "2018-04-18T07:32:57Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T10:47:53Z",
         "title": "Clarify examples: 1.1.1. Registration / 1.1.2. Authentication",
         "labels": [
           {
@@ -351,10 +604,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 870,
         "created_at": "2018-04-13T08:05:48Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T16:39:27Z",
         "title": "Description of CollectedClientData is outdated",
         "labels": [
           {
@@ -546,10 +799,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 861,
         "created_at": "2018-04-04T14:20:49Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T11:01:28Z",
         "title": "Clarify U2F attestation verification instructions",
         "labels": [
           {
@@ -571,10 +824,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 860,
         "created_at": "2018-04-04T14:04:26Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T11:24:16Z",
         "title": "Add missing description of PublicKeyCredentialDescriptor.transports",
         "labels": [
           {
@@ -660,10 +913,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 857,
         "created_at": "2018-03-29T15:47:30Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T11:01:28Z",
         "title": "Clarify U2F attestation verification",
         "labels": [
           {
@@ -755,10 +1008,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 852,
         "created_at": "2018-03-27T15:47:18Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T11:24:16Z",
         "title": "Missing 'transports' description",
         "labels": [
           {
@@ -794,14 +1047,14 @@
             "default": false
           }
         ],
-        "assignee": "idamlaj",
+        "assignee": "agl",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 850,
         "created_at": "2018-03-22T12:24:15Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T11:18:03Z",
         "title": "Add note about verifying U2F assertion signatures",
         "labels": [
           {
@@ -830,10 +1083,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 849,
         "created_at": "2018-03-21T19:51:40Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T11:18:22Z",
         "title": "Fix #848: Weirdness in RP UP verification",
         "labels": [
           {
@@ -855,10 +1108,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 848,
         "created_at": "2018-03-21T19:46:49Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T11:18:22Z",
         "title": "RP UP verification instruction is weird",
         "labels": [
           {
@@ -915,10 +1168,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 845,
         "created_at": "2018-03-18T14:37:19Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T11:18:03Z",
         "title": "Assertion signature verification procedure defined in Section 7.2 doesn't fit for the signature generated by FIDO-U2F token.",
         "labels": [
           {
@@ -1082,10 +1335,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 836,
         "created_at": "2018-03-13T01:06:10Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T17:13:17Z",
         "title": "Clarify the U2F Attestation format to have a single certificate",
         "labels": [
           {
@@ -1149,7 +1402,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -1171,10 +1424,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 831,
         "created_at": "2018-03-09T08:03:16Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T17:49:04Z",
         "title": "Review of WD08",
         "labels": [
           {
@@ -3046,7 +3299,7 @@
             "default": false
           }
         ],
-        "assignee": "selfissued",
+        "assignee": "emlun",
         "isPullRequest": false
       },
       {
@@ -6113,7 +6366,22 @@
         "created_at": "2017-10-10T06:58:22Z",
         "closed_at": null,
         "title": "Transaction authorization extensions are registration and authentication extension?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 545631731,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
         "assignee": "akshayku",
         "isPullRequest": false
       },
@@ -6839,6 +7107,20 @@
         "title": "address needs of various webauthn spec audiences",
         "labels": [
           {
+            "id": 392107391,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/spec:webauthn-registries",
+            "name": "spec:webauthn-registries",
+            "color": "e99695",
+            "default": false
+          },
+          {
+            "id": 723904637,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false
+          },
+          {
             "id": 446001970,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
@@ -6990,8 +7272,16 @@
         "created_at": "2017-09-20T18:08:44Z",
         "closed_at": null,
         "title": "Privacy Considerations should describe risks of storing userID/displayName in \"second-factor\" authenticators",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "akshayku",
         "isPullRequest": false
       },
       {
@@ -7032,7 +7322,15 @@
         "created_at": "2017-09-19T16:28:59Z",
         "closed_at": null,
         "title": "RP guidelines should allow RP to not check attestation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 723904637,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false
+          }
+        ],
         "assignee": "AngeloKai",
         "isPullRequest": false
       },
@@ -7041,9 +7339,17 @@
         "number": 575,
         "created_at": "2017-09-18T23:19:04Z",
         "closed_at": null,
-        "title": "isPlatformAuthenticatorAvailable() timeout really 10 minutes?",
-        "labels": [],
-        "assignee": null,
+        "title": "isUserVerifyingPlatformAuthenticatorAvailable() timeout really 10 minutes?",
+        "labels": [
+          {
+            "id": 340917025,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "christiaanbrand",
         "isPullRequest": false
       },
       {
@@ -9626,10 +9932,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 454,
         "created_at": "2017-05-07T23:49:24Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T17:37:11Z",
         "title": "Privacy section may wish to discuss recommended user-agent responses to leaks",
         "labels": [
           {
@@ -9647,7 +9953,7 @@
             "default": false
           }
         ],
-        "assignee": "AngeloKai",
+        "assignee": "emlun",
         "isPullRequest": false
       },
       {
@@ -10277,6 +10583,13 @@
         "title": "authenticator taxonomy",
         "labels": [
           {
+            "id": 723904637,
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false
+          },
+          {
             "id": 446001970,
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
@@ -10718,7 +11031,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "AngeloKai",
         "isPullRequest": false
       },
       {
@@ -11254,7 +11567,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "emlun",
         "isPullRequest": false
       },
       {
@@ -11765,7 +12078,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -12430,7 +12743,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "AngeloKai",
         "isPullRequest": false
       },
       {
@@ -13104,10 +13417,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 303,
         "created_at": "2016-12-01T23:03:14Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T18:33:58Z",
         "title": "Propose procedure for adding to attestation/extension registry",
         "labels": [
           {
@@ -13175,10 +13488,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 301,
         "created_at": "2016-11-09T19:01:04Z",
-        "closed_at": null,
+        "closed_at": "2018-05-02T17:24:28Z",
         "title": "Move {#sample-scenarios} (currently Section 10) to the top of the doc",
         "labels": [
           {
