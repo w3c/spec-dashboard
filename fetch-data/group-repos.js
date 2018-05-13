@@ -66,11 +66,16 @@ const queueGhRequest = function(url) {
     });
 };
 
-const urlToGHRepo = (url = "") => {
+const urlToGHRepo = (url = "", tr_shortname) => {
     const nofilter = x => true;
 
     const versionless = s => s.replace(/-[0-9]*$/,'');
-    const cssIssueFilter = shortname => x => x.title.match(new RegExp("\\[" + versionless(shortname) + "\\]"))
+   const cssIssueFilter = shortname => x => {
+       return x.title.match(new RegExp("\\[" + versionless(shortname) + "\\]"))
+              || x.title.match(new RegExp("\\[" + shortname + "\\]"))
+              || x.title.match(new RegExp("\\[" + tr_shortname + "\\]"))
+              || x.title.match(new RegExp("\\[" + versionless(tr_shortname) + "\\]"));
+   };
 
     const githubio = url.match(/^https?:\/\/([^\.]*)\.github\.io\/([^\/]*)\/?/);
     if (githubio) {
@@ -145,7 +150,7 @@ fs.readFile("./groups.json", (err, data) => {
         fs.readFile("./pergroup/" + wgid + ".json", (err, data) => {
             const specs = JSON.parse(data);
             Promise.all(
-                specs.map(s => Object.assign({}, s, {repo: urlToGHRepo(s.editorsdraft)}))
+                specs.map(s => Object.assign({}, s, {repo: urlToGHRepo(s.editorsdraft, s.shortname)}))
                     .filter(s => s.repo)
                     .map(s => {
                         const hash = {}
