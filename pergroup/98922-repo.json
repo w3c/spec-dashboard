@@ -8,29 +8,107 @@
     "issues": [
       {
         "state": "open",
-        "number": 179,
-        "created_at": "2018-05-20T16:01:18Z",
+        "number": 185,
+        "created_at": "2018-06-12T23:21:11Z",
         "closed_at": null,
-        "title": "Responses to Allen Brown's Review Comments",
+        "title": "Minor changes to disputed credential data model. Fixes #180.",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
-        "number": 178,
-        "created_at": "2018-05-19T20:52:01Z",
+        "number": 184,
+        "created_at": "2018-06-02T23:10:29Z",
         "closed_at": null,
-        "title": "Credentials Must always be Verifiable",
+        "title": "Renaming \"issued\" and \"expires\" to \"issuanceDate\" and \"expirationDate\"",
         "labels": [],
         "assignee": "msporny",
         "isPullRequest": false
       },
       {
         "state": "open",
+        "number": 183,
+        "created_at": "2018-05-31T17:03:55Z",
+        "closed_at": null,
+        "title": "Value of Type Property",
+        "labels": [
+          {
+            "id": 951725946,
+            "node_id": "MDU6TGFiZWw5NTE3MjU5NDY=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Type-Discussion",
+            "name": "Type-Discussion",
+            "color": "e896b7",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 182,
+        "created_at": "2018-05-29T19:15:47Z",
+        "closed_at": null,
+        "title": "Are CredentialStatus, TermsOfUse, and Evidence useful types?",
+        "labels": [
+          {
+            "id": 951725946,
+            "node_id": "MDU6TGFiZWw5NTE3MjU5NDY=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Type-Discussion",
+            "name": "Type-Discussion",
+            "color": "e896b7",
+            "default": false
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 181,
+        "created_at": "2018-05-29T14:49:09Z",
+        "closed_at": "2018-06-13T00:02:43Z",
+        "title": "Verifiable Claims --> Verifiable Credentials",
+        "labels": [],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 180,
+        "created_at": "2018-05-28T19:46:06Z",
+        "closed_at": null,
+        "title": "Disputed credential section is confusing",
+        "labels": [],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 179,
+        "created_at": "2018-05-20T16:01:18Z",
+        "closed_at": "2018-05-31T14:11:15Z",
+        "title": "Responses to Allen Brown's Review Comments",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 178,
+        "created_at": "2018-05-19T20:52:01Z",
+        "closed_at": "2018-06-13T01:23:47Z",
+        "title": "Credentials Must always be Verifiable",
+        "labels": [],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 177,
         "created_at": "2018-05-19T19:00:56Z",
-        "closed_at": null,
+        "closed_at": "2018-05-31T14:06:06Z",
         "title": "Add section on types. Related to #174.",
         "labels": [],
         "assignee": null,
@@ -47,22 +125,31 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 175,
         "created_at": "2018-05-15T15:27:58Z",
-        "closed_at": null,
+        "closed_at": "2018-06-12T22:39:00Z",
         "title": "May 2018 - Review comments from Allen Brown",
         "labels": [],
         "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 174,
         "created_at": "2018-05-10T21:14:32Z",
-        "closed_at": null,
+        "closed_at": "2018-06-12T22:38:18Z",
         "title": "Various questions related to the use of the \"type\" property",
-        "labels": [],
+        "labels": [
+          {
+            "id": 951725946,
+            "node_id": "MDU6TGFiZWw5NTE3MjU5NDY=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Type-Discussion",
+            "name": "Type-Discussion",
+            "color": "e896b7",
+            "default": false
+          }
+        ],
         "assignee": "msporny",
         "isPullRequest": false
       },
@@ -145,6 +232,7 @@
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -320,7 +408,16 @@
         "created_at": "2018-03-31T07:19:06Z",
         "closed_at": null,
         "title": "Need to restrict top level data types to those specified in the standard",
-        "labels": [],
+        "labels": [
+          {
+            "id": 951725946,
+            "node_id": "MDU6TGFiZWw5NTE3MjU5NDY=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Type-Discussion",
+            "name": "Type-Discussion",
+            "color": "e896b7",
+            "default": false
+          }
+        ],
         "assignee": "David-Chadwick",
         "isPullRequest": false
       },
@@ -435,14 +532,15 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 137,
         "created_at": "2018-03-22T08:27:43Z",
-        "closed_at": null,
+        "closed_at": "2018-06-13T00:45:11Z",
         "title": "Broken reference to LD-PROOFS",
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -461,6 +559,7 @@
         "labels": [
           {
             "id": 890387535,
+            "node_id": "MDU6TGFiZWw4OTAzODc1MzU=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Discuss",
             "name": "Discuss",
             "color": "254684",
@@ -468,6 +567,7 @@
           },
           {
             "id": 890391481,
+            "node_id": "MDU6TGFiZWw4OTAzOTE0ODE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/RelatedContent",
             "name": "RelatedContent",
             "color": "5ae2d9",
@@ -486,6 +586,7 @@
         "labels": [
           {
             "id": 890387535,
+            "node_id": "MDU6TGFiZWw4OTAzODc1MzU=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Discuss",
             "name": "Discuss",
             "color": "254684",
@@ -493,6 +594,7 @@
           },
           {
             "id": 890391481,
+            "node_id": "MDU6TGFiZWw4OTAzOTE0ODE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/RelatedContent",
             "name": "RelatedContent",
             "color": "5ae2d9",
@@ -521,6 +623,7 @@
         "labels": [
           {
             "id": 890387535,
+            "node_id": "MDU6TGFiZWw4OTAzODc1MzU=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Discuss",
             "name": "Discuss",
             "color": "254684",
@@ -528,6 +631,7 @@
           },
           {
             "id": 890387171,
+            "node_id": "MDU6TGFiZWw4OTAzODcxNzE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Profile",
             "name": "Profile",
             "color": "8d7ee5",
@@ -606,6 +710,7 @@
         "labels": [
           {
             "id": 890387535,
+            "node_id": "MDU6TGFiZWw4OTAzODc1MzU=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Discuss",
             "name": "Discuss",
             "color": "254684",
@@ -613,6 +718,7 @@
           },
           {
             "id": 890392297,
+            "node_id": "MDU6TGFiZWw4OTAzOTIyOTc=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Evidence",
             "name": "Evidence",
             "color": "c10d94",
@@ -620,6 +726,7 @@
           },
           {
             "id": 890391481,
+            "node_id": "MDU6TGFiZWw4OTAzOTE0ODE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/RelatedContent",
             "name": "RelatedContent",
             "color": "5ae2d9",
@@ -627,6 +734,7 @@
           },
           {
             "id": 890391852,
+            "node_id": "MDU6TGFiZWw4OTAzOTE4NTI=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Terms%20of%20Use",
             "name": "Terms of Use",
             "color": "e20bbf",
@@ -662,7 +770,16 @@
         "created_at": "2018-03-01T12:04:25Z",
         "closed_at": null,
         "title": "Explicitly state JSON Object Types",
-        "labels": [],
+        "labels": [
+          {
+            "id": 951725946,
+            "node_id": "MDU6TGFiZWw5NTE3MjU5NDY=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Type-Discussion",
+            "name": "Type-Discussion",
+            "color": "e896b7",
+            "default": false
+          }
+        ],
         "assignee": "gkellogg",
         "isPullRequest": false
       },
@@ -695,6 +812,7 @@
         "labels": [
           {
             "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Needs%20PR",
             "name": "Needs PR",
             "color": "b056ff",
@@ -723,6 +841,7 @@
         "labels": [
           {
             "id": 890387535,
+            "node_id": "MDU6TGFiZWw4OTAzODc1MzU=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Discuss",
             "name": "Discuss",
             "color": "254684",
@@ -730,6 +849,7 @@
           },
           {
             "id": 652237074,
+            "node_id": "MDU6TGFiZWw2NTIyMzcwNzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ValidationProcess",
             "name": "ValidationProcess",
             "color": "d4c5f9",
@@ -818,6 +938,7 @@
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -836,6 +957,7 @@
         "labels": [
           {
             "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Needs%20PR",
             "name": "Needs PR",
             "color": "b056ff",
@@ -854,6 +976,7 @@
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -882,6 +1005,7 @@
         "labels": [
           {
             "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Needs%20PR",
             "name": "Needs PR",
             "color": "b056ff",
@@ -920,6 +1044,7 @@
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -927,6 +1052,7 @@
           },
           {
             "id": 656256831,
+            "node_id": "MDU6TGFiZWw2NTYyNTY4MzE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/terminology",
             "name": "terminology",
             "color": "f9d0c4",
@@ -995,6 +1121,7 @@
         "labels": [
           {
             "id": 890387535,
+            "node_id": "MDU6TGFiZWw4OTAzODc1MzU=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Discuss",
             "name": "Discuss",
             "color": "254684",
@@ -1002,6 +1129,7 @@
           },
           {
             "id": 890391481,
+            "node_id": "MDU6TGFiZWw4OTAzOTE0ODE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/RelatedContent",
             "name": "RelatedContent",
             "color": "5ae2d9",
@@ -1050,6 +1178,7 @@
         "labels": [
           {
             "id": 836318184,
+            "node_id": "MDU6TGFiZWw4MzYzMTgxODQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CharterMention",
             "name": "CharterMention",
             "color": "c2e0c6",
@@ -1118,6 +1247,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -1196,6 +1326,7 @@
         "labels": [
           {
             "id": 881436750,
+            "node_id": "MDU6TGFiZWw4ODE0MzY3NTA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/defer",
             "name": "defer",
             "color": "1e890d",
@@ -1284,6 +1415,7 @@
         "labels": [
           {
             "id": 890387535,
+            "node_id": "MDU6TGFiZWw4OTAzODc1MzU=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Discuss",
             "name": "Discuss",
             "color": "254684",
@@ -1291,6 +1423,7 @@
           },
           {
             "id": 890391852,
+            "node_id": "MDU6TGFiZWw4OTAzOTE4NTI=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Terms%20of%20Use",
             "name": "Terms of Use",
             "color": "e20bbf",
@@ -1298,6 +1431,7 @@
           },
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -1386,6 +1520,7 @@
         "labels": [
           {
             "id": 656256831,
+            "node_id": "MDU6TGFiZWw2NTYyNTY4MzE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/terminology",
             "name": "terminology",
             "color": "f9d0c4",
@@ -1444,6 +1579,7 @@
         "labels": [
           {
             "id": 652237074,
+            "node_id": "MDU6TGFiZWw2NTIyMzcwNzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ValidationProcess",
             "name": "ValidationProcess",
             "color": "d4c5f9",
@@ -1462,6 +1598,7 @@
         "labels": [
           {
             "id": 652237293,
+            "node_id": "MDU6TGFiZWw2NTIyMzcyOTM=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/RevocationProcess",
             "name": "RevocationProcess",
             "color": "c5def5",
@@ -1479,10 +1616,11 @@
         "title": "Ideas for roles to add to the data model for next draft",
         "labels": [
           {
-            "id": 881436750,
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/defer",
-            "name": "defer",
-            "color": "1e890d",
+            "id": 881453822,
+            "node_id": "MDU6TGFiZWw4ODE0NTM4MjI=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Icebox",
+            "name": "Icebox",
+            "color": "2a57f9",
             "default": false
           }
         ],
@@ -1528,6 +1666,7 @@
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -1558,13 +1697,13 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 50,
         "created_at": "2017-06-01T15:22:55Z",
-        "closed_at": null,
+        "closed_at": "2018-06-14T17:02:32Z",
         "title": "Add Accessibility Use Case for under 3.3 Healthcare",
         "labels": [],
-        "assignee": "Ryladog",
+        "assignee": "jandrieu",
         "isPullRequest": false
       },
       {
@@ -1586,6 +1725,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -1654,6 +1794,7 @@
         "labels": [
           {
             "id": 881453822,
+            "node_id": "MDU6TGFiZWw4ODE0NTM4MjI=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/Icebox",
             "name": "Icebox",
             "color": "2a57f9",
@@ -1661,6 +1802,7 @@
           },
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -1668,6 +1810,7 @@
           },
           {
             "id": 490236251,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyNTE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
             "name": "security",
             "color": "d93f0b",
@@ -1686,6 +1829,7 @@
         "labels": [
           {
             "id": 482297544,
+            "node_id": "MDU6TGFiZWw0ODIyOTc1NDQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/feature%20request",
             "name": "feature request",
             "color": "d4c5f9",
@@ -1693,6 +1837,7 @@
           },
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -1700,6 +1845,7 @@
           },
           {
             "id": 490236464,
+            "node_id": "MDU6TGFiZWw0OTAyMzY0NjQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/substantive%20change",
             "name": "substantive change",
             "color": "0052cc",
@@ -1718,6 +1864,7 @@
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -1776,6 +1923,7 @@
         "labels": [
           {
             "id": 652237293,
+            "node_id": "MDU6TGFiZWw2NTIyMzcyOTM=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/RevocationProcess",
             "name": "RevocationProcess",
             "color": "c5def5",
@@ -1783,6 +1931,7 @@
           },
           {
             "id": 490236251,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyNTE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
             "name": "security",
             "color": "d93f0b",
@@ -1881,6 +2030,7 @@
         "labels": [
           {
             "id": 490236251,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyNTE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
             "name": "security",
             "color": "d93f0b",
@@ -1929,6 +2079,7 @@
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -1947,6 +2098,7 @@
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -1965,6 +2117,7 @@
         "labels": [
           {
             "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
             "name": "editorial",
             "color": "0e8a16",
@@ -1983,6 +2136,7 @@
         "labels": [
           {
             "id": 482297544,
+            "node_id": "MDU6TGFiZWw0ODIyOTc1NDQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/feature%20request",
             "name": "feature request",
             "color": "d4c5f9",
@@ -1990,6 +2144,7 @@
           },
           {
             "id": 490236464,
+            "node_id": "MDU6TGFiZWw0OTAyMzY0NjQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/substantive%20change",
             "name": "substantive change",
             "color": "0052cc",
@@ -2008,6 +2163,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2015,6 +2171,7 @@
           },
           {
             "id": 490236251,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyNTE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
             "name": "security",
             "color": "d93f0b",
@@ -2033,6 +2190,7 @@
         "labels": [
           {
             "id": 490236251,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyNTE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
             "name": "security",
             "color": "d93f0b",
@@ -2051,6 +2209,7 @@
         "labels": [
           {
             "id": 490236251,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyNTE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
             "name": "security",
             "color": "d93f0b",
@@ -2069,6 +2228,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2087,6 +2247,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2105,6 +2266,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2123,6 +2285,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2141,6 +2304,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2159,6 +2323,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2177,6 +2342,7 @@
         "labels": [
           {
             "id": 652237074,
+            "node_id": "MDU6TGFiZWw2NTIyMzcwNzQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ValidationProcess",
             "name": "ValidationProcess",
             "color": "d4c5f9",
@@ -2184,6 +2350,7 @@
           },
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2202,6 +2369,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2220,6 +2388,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2238,6 +2407,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2256,6 +2426,7 @@
         "labels": [
           {
             "id": 490236200,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyMDA=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/privacy",
             "name": "privacy",
             "color": "fbca04",
@@ -2274,6 +2445,7 @@
         "labels": [
           {
             "id": 490236464,
+            "node_id": "MDU6TGFiZWw0OTAyMzY0NjQ=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/substantive%20change",
             "name": "substantive change",
             "color": "0052cc",
@@ -2292,6 +2464,7 @@
         "labels": [
           {
             "id": 490236251,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyNTE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
             "name": "security",
             "color": "d93f0b",
@@ -2310,6 +2483,7 @@
         "labels": [
           {
             "id": 490236251,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyNTE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
             "name": "security",
             "color": "d93f0b",
@@ -2328,6 +2502,7 @@
         "labels": [
           {
             "id": 490236251,
+            "node_id": "MDU6TGFiZWw0OTAyMzYyNTE=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/security",
             "name": "security",
             "color": "d93f0b",
