@@ -48,7 +48,7 @@
   },
   {
     "title": "Web Audio API",
-    "shortlink": "http://www.w3.org/TR/webaudio/",
+    "shortlink": "https://www.w3.org/TR/webaudio/",
     "shortname": "webaudio",
     "description": "<p>This specification describes a high-level JavaScript API for processing and synthesizing audio in web applications. The primary paradigm is of an audio routing graph, where a number of AudioNode objects are connected together to define the overall audio rendering. The actual processing will primarily take place in the underlying implementation (typically optimized Assembly / C / C++ code), but direct JavaScript processing and synthesis is also supported.</p>",
     "_links": {
@@ -63,12 +63,40 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webaudio/versions/20151208",
+        "href": "https://api.w3.org/specifications/webaudio/versions/20180619",
         "title": "Working Draft"
       }
     },
     "editorsdraft": "https://webaudio.github.io/web-audio-api/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2018/WD-webaudio-20180619/",
+        "date": "2018-06-19",
+        "informative": false,
+        "title": "Web Audio API",
+        "shortlink": "https://www.w3.org/TR/webaudio/",
+        "editor-draft": "https://webaudio.github.io/web-audio-api/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webaudio/versions/20180619"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webaudio/versions/20180619/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webaudio/versions/20180619/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webaudio"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webaudio/versions/20180619/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -94,6 +122,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webaudio/versions/20151208/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webaudio/versions/20151208/successors"
           }
         }
       },
