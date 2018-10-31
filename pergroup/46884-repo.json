@@ -7,6 +7,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 1780,
+        "created_at": "2018-10-26T11:47:23Z",
+        "closed_at": null,
+        "title": "Change outputChannelCount dynamically after instantiation (and independently from input channelCount)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1779,
+        "created_at": "2018-10-25T15:20:56Z",
+        "closed_at": null,
+        "title": "Specify side effect when calling start() when AudioContext was blocked (fixes #1771)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 1778,
         "created_at": "2018-10-11T17:02:53Z",
@@ -36,10 +56,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1776,
         "created_at": "2018-10-02T20:44:34Z",
-        "closed_at": null,
+        "closed_at": "2018-10-19T06:08:34Z",
         "title": "Fix #1481: ABSN outputs mono silence when stopped",
         "labels": [],
         "assignee": null,
@@ -66,10 +86,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1773,
         "created_at": "2018-09-27T20:28:40Z",
-        "closed_at": null,
+        "closed_at": "2018-10-18T16:02:21Z",
         "title": "Revise sanity checks on AudioWorkletProcessor.process() method",
         "labels": [],
         "assignee": null,
@@ -109,7 +129,7 @@
         "closed_at": null,
         "title": "Allow UA to resume AudioContext as a side effect of start()",
         "labels": [],
-        "assignee": null,
+        "assignee": "mounirlamouri",
         "isPullRequest": false
       },
       {
@@ -152,10 +172,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1767,
         "created_at": "2018-09-24T10:02:57Z",
-        "closed_at": null,
+        "closed_at": "2018-10-18T16:02:21Z",
         "title": "Question about when to check if user's class implements AudioWorkletProcessor",
         "labels": [
           {
@@ -299,7 +319,7 @@
         "closed_at": null,
         "title": "context.resume() behavior when not allowed to start?",
         "labels": [],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -840,7 +860,7 @@
         "closed_at": null,
         "title": "channel count changes in filter nodes with tail time",
         "labels": [],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -850,7 +870,7 @@
         "closed_at": null,
         "title": "Clarify resolution for #25.",
         "labels": [],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -937,7 +957,7 @@
         "closed_at": null,
         "title": "setValueCurve duration when start time is clamped",
         "labels": [],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -1765,10 +1785,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1647,
         "created_at": "2018-05-30T14:04:28Z",
-        "closed_at": null,
+        "closed_at": "2018-10-25T12:04:08Z",
         "title": "Wavetable synthesis",
         "labels": [
           {
@@ -2502,7 +2522,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "hoch",
         "isPullRequest": false
       },
       {
@@ -2667,10 +2687,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1584,
         "created_at": "2018-04-25T23:47:46Z",
-        "closed_at": null,
+        "closed_at": "2018-10-25T12:12:49Z",
         "title": "[audioworklet] Worklets should signal AudioWorkletProcessorState transitions",
         "labels": [
           {
@@ -3296,6 +3316,14 @@
             "default": false
           },
           {
+            "id": 881458176,
+            "node_id": "MDU6TGFiZWw4ODE0NTgxNzY=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Prototype",
+            "name": "Needs Prototype",
+            "color": "93133e",
+            "default": false
+          },
+          {
             "id": 704317574,
             "node_id": "MDU6TGFiZWw3MDQzMTc1NzQ=",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Proposed%20v.next",
@@ -3603,7 +3631,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "hoch",
         "isPullRequest": false
       },
       {
@@ -4170,10 +4198,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1481,
         "created_at": "2018-02-02T19:40:18Z",
-        "closed_at": null,
+        "closed_at": "2018-10-19T06:08:34Z",
         "title": "Tighten spec on ABSN output channels?",
         "labels": [
           {
@@ -4212,14 +4240,14 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "hoch",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1479,
         "created_at": "2018-01-30T11:11:21Z",
-        "closed_at": null,
+        "closed_at": "2018-10-25T12:22:35Z",
         "title": "Surround (5.1 or 7.1) panning and spatial audio",
         "labels": [
           {
@@ -6073,10 +6101,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1356,
         "created_at": "2017-09-25T19:42:51Z",
-        "closed_at": null,
+        "closed_at": "2018-10-25T12:33:24Z",
         "title": "ScriptProcessorNode has no mention of tail-time",
         "labels": [
           {
@@ -6569,10 +6597,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1322,
         "created_at": "2017-09-14T20:11:12Z",
-        "closed_at": null,
+        "closed_at": "2018-10-25T12:39:54Z",
         "title": "[RFC] Bring back simple sample-based playback",
         "labels": [
           {
@@ -8563,10 +8591,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1202,
         "created_at": "2017-04-12T17:43:05Z",
-        "closed_at": null,
+        "closed_at": "2018-10-25T14:26:03Z",
         "title": "Disconnecting media  element from MediaElementAudioSourceNode",
         "labels": [
           {
@@ -14885,6 +14913,14 @@
             "default": false
           },
           {
+            "id": 881458176,
+            "node_id": "MDU6TGFiZWw4ODE0NTgxNzY=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Prototype",
+            "name": "Needs Prototype",
+            "color": "93133e",
+            "default": false
+          },
+          {
             "id": 881469622,
             "node_id": "MDU6TGFiZWw4ODE0Njk2MjI=",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Theme%20-%20V1%20Enhancement",
@@ -15927,6 +15963,14 @@
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/High%20Priority%20V2",
             "name": "High Priority V2",
             "color": "992b07",
+            "default": false
+          },
+          {
+            "id": 881458176,
+            "node_id": "MDU6TGFiZWw4ODE0NTgxNzY=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Prototype",
+            "name": "Needs Prototype",
+            "color": "93133e",
             "default": false
           },
           {
@@ -17469,10 +17513,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 577,
         "created_at": "2015-08-24T11:50:35Z",
-        "closed_at": null,
+        "closed_at": "2018-10-25T14:20:24Z",
         "title": "Expose under-runs in audio context",
         "labels": [
           {
@@ -17962,6 +18006,14 @@
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/High%20Priority%20V2",
             "name": "High Priority V2",
             "color": "992b07",
+            "default": false
+          },
+          {
+            "id": 881458176,
+            "node_id": "MDU6TGFiZWw4ODE0NTgxNzY=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Prototype",
+            "name": "Needs Prototype",
+            "color": "93133e",
             "default": false
           },
           {
@@ -23041,6 +23093,14 @@
             "default": false
           },
           {
+            "id": 881458176,
+            "node_id": "MDU6TGFiZWw4ODE0NTgxNzY=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Prototype",
+            "name": "Needs Prototype",
+            "color": "93133e",
+            "default": false
+          },
+          {
             "id": 881502760,
             "node_id": "MDU6TGFiZWw4ODE1MDI3NjA=",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Theme%20-%20Dynamics%20Processing",
@@ -26933,6 +26993,14 @@
             "default": false
           },
           {
+            "id": 881458176,
+            "node_id": "MDU6TGFiZWw4ODE0NTgxNzY=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Prototype",
+            "name": "Needs Prototype",
+            "color": "93133e",
+            "default": false
+          },
+          {
             "id": 881502760,
             "node_id": "MDU6TGFiZWw4ODE1MDI3NjA=",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Theme%20-%20Dynamics%20Processing",
@@ -27279,6 +27347,46 @@
     "issues": [
       {
         "state": "closed",
+        "number": 195,
+        "created_at": "2018-10-21T21:15:54Z",
+        "closed_at": "2018-10-22T07:18:10Z",
+        "title": "Are soundcard synths detected as an output port? - i.e.  What is considered an output port?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 194,
+        "created_at": "2018-10-18T03:15:42Z",
+        "closed_at": "2018-10-18T07:56:04Z",
+        "title": "fixup IDL, cross refs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 193,
+        "created_at": "2018-10-17T11:32:09Z",
+        "closed_at": "2018-10-18T07:56:04Z",
+        "title": "Fix up outdated references",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 192,
+        "created_at": "2018-10-16T10:19:02Z",
+        "closed_at": "2018-10-17T11:18:26Z",
+        "title": "Marking interfaces as [SecureContext]",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 188,
         "created_at": "2018-06-11T15:27:28Z",
         "closed_at": "2018-06-18T15:22:44Z",
@@ -27293,7 +27401,16 @@
         "created_at": "2018-05-19T22:57:25Z",
         "closed_at": null,
         "title": "Input Latency upper bound",
-        "labels": [],
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -27303,7 +27420,16 @@
         "created_at": "2018-03-29T17:55:13Z",
         "closed_at": null,
         "title": "classify MIDI messages as user gesture",
-        "labels": [],
+        "labels": [
+          {
+            "id": 58360570,
+            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/needs%20WG%20review",
+            "name": "needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -27328,18 +27454,18 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 183,
         "created_at": "2017-12-09T00:21:05Z",
-        "closed_at": null,
+        "closed_at": "2018-10-17T11:18:56Z",
         "title": "getMIDIAccess should be [SecureContext]",
         "labels": [
           {
-            "id": 184124502,
-            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
-            "name": "ready for editing",
-            "color": "eb6420",
+            "id": 1092927251,
+            "node_id": "MDU6TGFiZWwxMDkyOTI3MjUx",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/Pending%20PR",
+            "name": "Pending PR",
+            "color": "aafca9",
             "default": false
           }
         ],
@@ -27382,7 +27508,16 @@
         "created_at": "2017-06-22T22:33:10Z",
         "closed_at": null,
         "title": "Higher-level MIDI message access",
-        "labels": [],
+        "labels": [
+          {
+            "id": 58360570,
+            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/needs%20WG%20review",
+            "name": "needs WG review",
+            "color": "e11d21",
+            "default": false
+          }
+        ],
         "assignee": "cwilso",
         "isPullRequest": false
       },
@@ -27456,18 +27591,18 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 172,
         "created_at": "2016-12-05T07:53:46Z",
-        "closed_at": null,
+        "closed_at": "2018-10-18T07:57:13Z",
         "title": "Bad references",
         "labels": [
           {
-            "id": 184124502,
-            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
-            "name": "ready for editing",
-            "color": "eb6420",
+            "id": 1092927251,
+            "node_id": "MDU6TGFiZWwxMDkyOTI3MjUx",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/Pending%20PR",
+            "name": "Pending PR",
+            "color": "aafca9",
             "default": false
           }
         ],
