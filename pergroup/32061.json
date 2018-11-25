@@ -12087,7 +12087,7 @@
   },
   {
     "title": "Filter Effects Module Level 1",
-    "shortlink": "http://www.w3.org/TR/filter-effects-1/",
+    "shortlink": "https://www.w3.org/TR/filter-effects-1/",
     "shortname": "filter-effects-1",
     "description": "<p> Filter effects are a way of processing an element's rendering before it is displayed in the document. Typically, rendering an element via CSS or SVG can conceptually described as if the element, including its children, are drawn into a buffer (such as a raster image) and then that buffer is composited into the elements parent. Filters apply an effect before the compositing stage. Examples of such effects are blurring, changing color intensity and warping the image.</p> <p>Although originally designed for use in SVG, filter effects are a set a set of operations to apply on an image buffer and therefore can be applied to nearly any presentational environment, including CSS. They are triggered by a style instruction (the ‘filter’ property). This specification describes filters in a manner that allows them to be used in content styled by CSS, such as HTML and SVG. It also defines a CSS property value function that produces a CSS <image> value. </p>",
     "_links": {
@@ -12102,12 +12102,40 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/filter-effects-1/versions/20141125",
+        "href": "https://api.w3.org/specifications/filter-effects-1/versions/20181124",
         "title": "Working Draft"
       }
     },
-    "editorsdraft": "https://drafts.fxtf.org/filter-effects/",
+    "editorsdraft": "https://drafts.fxtf.org/filter-effects-1/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "uri": "https://www.w3.org/TR/2018/WD-filter-effects-1-20181124/",
+        "date": "2018-11-24",
+        "informative": false,
+        "title": "Filter Effects Module Level 1",
+        "shortlink": "https://www.w3.org/TR/filter-effects-1/",
+        "editor-draft": "https://drafts.fxtf.org/filter-effects-1/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/filter-effects-1/versions/20181124"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/filter-effects-1/versions/20181124/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/filter-effects-1/versions/20181124/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/filter-effects-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/filter-effects-1/versions/20181124/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -12133,6 +12161,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/filter-effects-1/versions/20141125/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/filter-effects-1/versions/20141125/successors"
           }
         }
       },
