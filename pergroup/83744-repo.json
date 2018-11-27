@@ -7,10 +7,167 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 327,
+        "created_at": "2018-10-08T15:55:28Z",
+        "closed_at": "2018-10-17T19:02:14Z",
+        "title": "Removed conflicts from Jake Archibald pull request",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 326,
+        "created_at": "2018-09-26T13:19:47Z",
+        "closed_at": "2018-09-26T14:29:42Z",
+        "title": "Code of Conduct",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
+        "number": 325,
+        "created_at": "2018-09-24T14:57:40Z",
+        "closed_at": null,
+        "title": "[WIP] showPaymentUI() method",
+        "labels": [
+          {
+            "id": 679687925,
+            "node_id": "MDU6TGFiZWw2Nzk2ODc5MjU=",
+            "url": "https://api.github.com/repos/w3c/payment-handler/labels/DO%20NOT%20MERGE",
+            "name": "DO NOT MERGE",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 895607865,
+            "node_id": "MDU6TGFiZWw4OTU2MDc4NjU=",
+            "url": "https://api.github.com/repos/w3c/payment-handler/labels/face-to-face%20discussion",
+            "name": "face-to-face discussion",
+            "color": "4338aa",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 324,
+        "created_at": "2018-09-19T15:20:26Z",
+        "closed_at": "2018-09-19T15:23:23Z",
+        "title": "(Editorial) Clarify validation expectation ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 323,
+        "created_at": "2018-09-19T14:51:17Z",
+        "closed_at": "2018-09-19T14:53:21Z",
+        "title": "(Editorial) fix storedInstrument per issue 316",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 322,
+        "created_at": "2018-09-19T14:32:00Z",
+        "closed_at": "2018-09-19T14:33:34Z",
+        "title": "(Editorial) link fix for issue 317",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 321,
+        "created_at": "2018-09-19T14:25:41Z",
+        "closed_at": null,
+        "title": "Update Open Window Algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 320,
+        "created_at": "2018-09-19T14:03:41Z",
+        "closed_at": "2018-09-19T14:04:45Z",
+        "title": "Added more security implementation notes from Rouslan; non-normative",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 319,
+        "created_at": "2018-09-15T17:37:21Z",
+        "closed_at": "2018-09-15T17:42:32Z",
+        "title": "Fix Web IDL typo: bool → boolean",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 318,
+        "created_at": "2018-09-12T18:01:01Z",
+        "closed_at": "2018-09-14T14:06:56Z",
+        "title": "Notify merchant that payment method (possibly including the billing address) changed in payment handler.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 317,
+        "created_at": "2018-09-12T15:57:00Z",
+        "closed_at": "2018-09-19T14:33:34Z",
+        "title": "Link for \"fetching image object\" is broken",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 316,
+        "created_at": "2018-09-12T15:54:04Z",
+        "closed_at": "2018-09-19T14:53:21Z",
+        "title": "Examples involving storedInstrument seem broken",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 315,
+        "created_at": "2018-08-27T13:22:18Z",
+        "closed_at": "2018-08-28T16:26:53Z",
+        "title": "Remove modifiers from CanMakePaymentEvent.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 314,
+        "created_at": "2018-08-21T23:09:28Z",
+        "closed_at": "2018-09-14T14:06:56Z",
+        "title": "Add support for communicating billing address to merchant (e.g., for VAT computation)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 313,
         "created_at": "2018-08-16T18:54:52Z",
-        "closed_at": null,
+        "closed_at": "2018-08-20T13:28:38Z",
         "title": "Incorporate the canMakePayment algorithm of the payment method good practices doc.",
         "labels": [],
         "assignee": null,
@@ -22,7 +179,16 @@
         "created_at": "2018-08-15T17:18:06Z",
         "closed_at": null,
         "title": "Add paymentRequestID to CanMakePaymentEvent?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 895607865,
+            "node_id": "MDU6TGFiZWw4OTU2MDc4NjU=",
+            "url": "https://api.github.com/repos/w3c/payment-handler/labels/face-to-face%20discussion",
+            "name": "face-to-face discussion",
+            "color": "4338aa",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -37,40 +203,40 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 310,
         "created_at": "2018-07-30T19:33:36Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T15:23:23Z",
         "title": "What should payees validate?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 309,
         "created_at": "2018-07-30T19:29:02Z",
-        "closed_at": null,
+        "closed_at": "2018-08-20T13:28:38Z",
         "title": "Need normative text for checking the origin of the SW scope against \"supported_origins\".",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 308,
         "created_at": "2018-07-30T19:24:52Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T13:34:16Z",
         "title": "What mechanism allows enforcing payment handler authenticity?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 307,
         "created_at": "2018-07-23T14:51:32Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T14:26:13Z",
         "title": "Payment Handler window `.focused` field",
         "labels": [],
         "assignee": null,
@@ -87,21 +253,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 305,
         "created_at": "2018-06-21T15:44:13Z",
-        "closed_at": null,
+        "closed_at": "2018-10-17T19:04:08Z",
         "title": "Simplifying functional event handling",
-        "labels": [
-          {
-            "id": 679687925,
-            "node_id": "MDU6TGFiZWw2Nzk2ODc5MjU=",
-            "url": "https://api.github.com/repos/w3c/payment-handler/labels/DO%20NOT%20MERGE",
-            "name": "DO NOT MERGE",
-            "color": "b60205",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -235,10 +392,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 292,
         "created_at": "2018-04-15T06:39:41Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T18:55:16Z",
         "title": "Remove link to issue 157",
         "labels": [],
         "assignee": null,
@@ -265,10 +422,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 289,
         "created_at": "2018-04-12T16:36:42Z",
-        "closed_at": null,
+        "closed_at": "2018-08-28T16:26:53Z",
         "title": "Remove modifiers from CanMakePaymentEvent?",
         "labels": [],
         "assignee": null,
@@ -385,21 +542,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 277,
         "created_at": "2018-03-28T19:45:19Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T18:39:58Z",
         "title": "Remove requestPermission()",
-        "labels": [
-          {
-            "id": 895607865,
-            "node_id": "MDU6TGFiZWw4OTU2MDc4NjU=",
-            "url": "https://api.github.com/repos/w3c/payment-handler/labels/face-to-face%20discussion",
-            "name": "face-to-face discussion",
-            "color": "4338aa",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -439,7 +587,16 @@
         "created_at": "2018-03-26T12:25:33Z",
         "closed_at": null,
         "title": "Review userHint",
-        "labels": [],
+        "labels": [
+          {
+            "id": 895607865,
+            "node_id": "MDU6TGFiZWw4OTU2MDc4NjU=",
+            "url": "https://api.github.com/repos/w3c/payment-handler/labels/face-to-face%20discussion",
+            "name": "face-to-face discussion",
+            "color": "4338aa",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -663,10 +820,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 251,
         "created_at": "2018-03-09T16:48:34Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T14:38:50Z",
         "title": "How would iDeal work?",
         "labels": [],
         "assignee": null,
@@ -710,10 +867,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 248,
         "created_at": "2018-02-06T21:15:31Z",
-        "closed_at": null,
+        "closed_at": "2018-10-03T15:42:29Z",
         "title": "Use payment method manifest for registration-time validation?",
         "labels": [],
         "assignee": null,
@@ -730,10 +887,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 246,
         "created_at": "2018-01-30T20:14:38Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T18:39:58Z",
         "title": "Proposal: Remove requestPermission()",
         "labels": [],
         "assignee": null,
@@ -835,7 +992,16 @@
         "created_at": "2017-11-28T08:52:16Z",
         "closed_at": null,
         "title": "What happens when clearing site data?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 895607865,
+            "node_id": "MDU6TGFiZWw4OTU2MDc4NjU=",
+            "url": "https://api.github.com/repos/w3c/payment-handler/labels/face-to-face%20discussion",
+            "name": "face-to-face discussion",
+            "color": "4338aa",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -894,7 +1060,7 @@
             "default": false
           }
         ],
-        "assignee": "marcoscaceres",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -986,31 +1152,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 224,
         "created_at": "2017-11-27T08:52:42Z",
-        "closed_at": null,
+        "closed_at": "2018-10-03T15:17:15Z",
         "title": "Only allows instrument.set() in active service worker",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 223,
         "created_at": "2017-11-20T13:53:13Z",
-        "closed_at": null,
+        "closed_at": "2018-10-03T15:17:15Z",
         "title": "SW registration code unclear/incorrect",
-        "labels": [
-          {
-            "id": 895607865,
-            "node_id": "MDU6TGFiZWw4OTU2MDc4NjU=",
-            "url": "https://api.github.com/repos/w3c/payment-handler/labels/face-to-face%20discussion",
-            "name": "face-to-face discussion",
-            "color": "4338aa",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1070,7 +1227,16 @@
         "created_at": "2017-09-18T17:40:30Z",
         "closed_at": null,
         "title": "Return origin of payment app in PaymentHandlerResponse data?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 895607865,
+            "node_id": "MDU6TGFiZWw4OTU2MDc4NjU=",
+            "url": "https://api.github.com/repos/w3c/payment-handler/labels/face-to-face%20discussion",
+            "name": "face-to-face discussion",
+            "color": "4338aa",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1165,10 +1331,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 207,
         "created_at": "2017-08-28T19:57:18Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T15:36:41Z",
         "title": "Add AbortPaymentEvent.",
         "labels": [
           {
@@ -2094,10 +2260,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 115,
         "created_at": "2017-03-21T09:46:56Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T14:40:08Z",
         "title": "Open Window Algorithm",
         "labels": [],
         "assignee": null,
@@ -2744,10 +2910,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 50,
         "created_at": "2016-09-26T15:21:20Z",
-        "closed_at": null,
+        "closed_at": "2018-09-19T14:36:42Z",
         "title": "Links to terms and common terminology",
         "labels": [],
         "assignee": null,
@@ -3254,19 +3420,107 @@
     "issues": [
       {
         "state": "open",
-        "number": 58,
-        "created_at": "2018-07-06T23:04:26Z",
+        "number": 65,
+        "created_at": "2018-11-21T06:32:10Z",
         "closed_at": null,
-        "title": "add BasicCardErrors",
+        "title": "Redact more things from billingAddress",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 64,
+        "created_at": "2018-11-14T10:43:57Z",
+        "closed_at": "2018-11-15T05:41:58Z",
+        "title": "chore(.travis.yml): enable ReSpec validation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 63,
+        "created_at": "2018-11-13T14:21:39Z",
+        "closed_at": "2018-11-14T07:05:13Z",
+        "title": "Fixed wrong interface name, links and grammatical errors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 62,
+        "created_at": "2018-11-01T12:23:26Z",
+        "closed_at": "2018-11-15T05:47:11Z",
+        "title": "Remove concept of types, supportedTypes, BasicCardType enum",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 61,
+        "created_at": "2018-10-02T02:33:51Z",
+        "closed_at": "2018-10-02T03:01:17Z",
+        "title": " Editorial: Fixed grammatical error and link to PaymentRequest interface",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 60,
+        "created_at": "2018-09-21T15:36:43Z",
+        "closed_at": null,
+        "title": "Define \"last one wins\" approach when Basic Card modifiers are equivalent",
+        "labels": [
+          {
+            "id": 1064900946,
+            "node_id": "MDU6TGFiZWwxMDY0OTAwOTQ2",
+            "url": "https://api.github.com/repos/w3c/payment-method-basic-card/labels/CR",
+            "name": "CR",
+            "color": "ff0000",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 59,
+        "created_at": "2018-09-21T15:32:00Z",
+        "closed_at": "2018-11-15T05:47:11Z",
+        "title": "Drop supportedTypes?",
+        "labels": [
+          {
+            "id": 1064900946,
+            "node_id": "MDU6TGFiZWwxMDY0OTAwOTQ2",
+            "url": "https://api.github.com/repos/w3c/payment-method-basic-card/labels/CR",
+            "name": "CR",
+            "color": "ff0000",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 58,
+        "created_at": "2018-07-06T23:04:26Z",
+        "closed_at": "2018-09-20T05:20:49Z",
+        "title": "add BasicCardErrors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 57,
         "created_at": "2018-06-30T16:41:37Z",
-        "closed_at": null,
+        "closed_at": "2018-09-20T05:20:49Z",
         "title": "Signaling payment handler details errors",
         "labels": [],
         "assignee": null,
@@ -3283,10 +3537,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 55,
         "created_at": "2018-05-08T14:53:47Z",
-        "closed_at": null,
+        "closed_at": "2018-11-21T04:36:43Z",
         "title": "Inconsistent naming of algorithms ",
         "labels": [],
         "assignee": null,
@@ -3303,21 +3557,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 53,
         "created_at": "2018-04-30T05:50:54Z",
-        "closed_at": null,
-        "title": "add: User changes payment method section",
-        "labels": [
-          {
-            "id": 928427283,
-            "node_id": "MDU6TGFiZWw5Mjg0MjcyODM=",
-            "url": "https://api.github.com/repos/w3c/payment-method-basic-card/labels/DO%20NOT%20MERGE",
-            "name": "DO NOT MERGE",
-            "color": "b60205",
-            "default": false
-          }
-        ],
+        "closed_at": "2018-09-20T05:16:13Z",
+        "title": "User changes payment method",
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -3357,15 +3602,24 @@
         "created_at": "2018-03-12T09:37:29Z",
         "closed_at": null,
         "title": "Brand selection",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1136263828,
+            "node_id": "MDU6TGFiZWwxMTM2MjYzODI4",
+            "url": "https://api.github.com/repos/w3c/payment-method-basic-card/labels/Future%20feature%20candidate",
+            "name": "Future feature candidate",
+            "color": "0e8a16",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 48,
         "created_at": "2018-01-29T05:32:28Z",
-        "closed_at": null,
+        "closed_at": "2018-11-21T05:36:25Z",
         "title": "Broken link basiccardresponse-member-formats-manual.https.html",
         "labels": [],
         "assignee": null,
@@ -3382,10 +3636,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 46,
         "created_at": "2018-01-22T09:20:25Z",
-        "closed_at": null,
+        "closed_at": "2018-11-22T05:51:09Z",
         "title": "Add \"store\" card support",
         "labels": [],
         "assignee": null,
@@ -3570,10 +3824,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 29,
         "created_at": "2017-04-03T20:04:00Z",
-        "closed_at": null,
+        "closed_at": "2018-11-21T05:49:08Z",
         "title": "Add an excludedFields BasicCardRequest parameter",
         "labels": [
           {
@@ -3832,9 +4086,9 @@
         "number": 5,
         "created_at": "2016-08-10T20:05:12Z",
         "closed_at": null,
-        "title": "Leave Off Unneeded Information",
+        "title": "Leave Off Unneeded Information from BillingAddress",
         "labels": [],
-        "assignee": null,
+        "assignee": "ianbjacobs",
         "isPullRequest": false
       },
       {
@@ -3921,10 +4175,69 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 57,
+        "created_at": "2018-10-01T15:03:30Z",
+        "closed_at": "2018-10-02T00:22:22Z",
+        "title": "Editorial: Fixed duplication of url and spec name to sync with linked doc",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
+        "number": 56,
+        "created_at": "2018-09-30T08:42:04Z",
+        "closed_at": null,
+        "title": "Prepare for Proposed Recommendation",
+        "labels": [
+          {
+            "id": 657159530,
+            "node_id": "MDU6TGFiZWw2NTcxNTk1MzA=",
+            "url": "https://api.github.com/repos/w3c/payment-method-id/labels/Process%20aid",
+            "name": "Process aid",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 55,
+        "created_at": "2018-09-27T14:05:57Z",
+        "closed_at": "2018-09-30T07:31:04Z",
+        "title": "Updated the link to the test-suit",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 54,
+        "created_at": "2018-09-26T02:47:50Z",
+        "closed_at": null,
+        "title": "Generate an implementation report",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 53,
+        "created_at": "2018-09-26T02:29:10Z",
+        "closed_at": "2018-09-26T13:24:07Z",
+        "title": "Editorial: describe relationship to pay manifest",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 52,
         "created_at": "2018-07-30T19:18:28Z",
-        "closed_at": null,
+        "closed_at": "2018-09-26T13:24:07Z",
         "title": "What can I do with a URL-based payment method identifier?",
         "labels": [],
         "assignee": null,
@@ -4616,6 +4929,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 30,
+        "created_at": "2018-10-12T13:24:08Z",
+        "closed_at": null,
+        "title": "Redesign of \"extract header list values\" expected",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 29,
+        "created_at": "2018-08-27T20:36:11Z",
+        "closed_at": null,
+        "title": "Regular expressions for \"supported_origins\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 28,
         "created_at": "2018-04-26T00:52:59Z",
         "closed_at": null,
@@ -4931,24 +5264,790 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 814,
+        "created_at": "2018-11-27T04:20:29Z",
+        "closed_at": null,
+        "title": "De-duplicate \"user aborts the payment request\" and \"abort the update",
+        "labels": [
+          {
+            "id": 345172385,
+            "node_id": "MDU6TGFiZWwzNDUxNzIzODU=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 813,
+        "created_at": "2018-11-26T06:18:30Z",
+        "closed_at": null,
+        "title": "Should PaymentMethodData be converted at construction time?",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 812,
+        "created_at": "2018-11-23T08:10:27Z",
+        "closed_at": null,
+        "title": "fix: convert PaymentMethodData.data",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 811,
+        "created_at": "2018-11-21T01:58:35Z",
+        "closed_at": null,
+        "title": "Attach 'payment request is showing boolean' to top-level browsing context",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 810,
+        "created_at": "2018-11-20T06:03:27Z",
+        "closed_at": null,
+        "title": "Clarify when the user can abort the payment request algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 809,
+        "created_at": "2018-11-19T05:33:29Z",
+        "closed_at": null,
+        "title": "Rethink \"payment request is showing\" boolean",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 807147143,
+            "node_id": "MDU6TGFiZWw4MDcxNDcxNDM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 808,
+        "created_at": "2018-11-19T04:30:40Z",
+        "closed_at": null,
+        "title": "fix: while retrying complete() returns a rejected promise",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 807,
+        "created_at": "2018-11-15T06:09:48Z",
+        "closed_at": null,
+        "title": "Warn when errorFields don't match request[[options]]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
-        "number": 763,
-        "created_at": "2018-08-18T17:00:13Z",
-        "closed_at": "2018-08-18T18:36:36Z",
-        "title": "Merchant yang ditentukan standar alamat pengiriman",
+        "number": 806,
+        "created_at": "2018-11-05T03:34:13Z",
+        "closed_at": "2018-11-10T02:29:34Z",
+        "title": "Change what canMakePayment() means",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 805,
+        "created_at": "2018-11-01T07:39:44Z",
+        "closed_at": "2018-11-05T02:21:59Z",
+        "title": "fix: retry()'s errorFields should be optional per WebIDL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 804,
+        "created_at": "2018-11-01T07:33:38Z",
+        "closed_at": "2018-11-05T02:21:59Z",
+        "title": "retry(errorFields) should be optional",
+        "labels": [
+          {
+            "id": 332152662,
+            "node_id": "MDU6TGFiZWwzMzIxNTI2NjI=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 802,
+        "created_at": "2018-10-26T11:28:58Z",
+        "closed_at": "2018-11-14T23:27:31Z",
+        "title": "Added section and paragraph on accessibility considerations",
+        "labels": [
+          {
+            "id": 543429511,
+            "node_id": "MDU6TGFiZWw1NDM0Mjk1MTE=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Blocked",
+            "name": "Blocked",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 801,
+        "created_at": "2018-10-24T12:58:50Z",
+        "closed_at": null,
+        "title": "Way of detecting if can make payment with some instrument",
+        "labels": [
+          {
+            "id": 686556788,
+            "node_id": "MDU6TGFiZWw2ODY1NTY3ODg=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Future%20Candidate%20Feature",
+            "name": "Future Candidate Feature",
+            "color": "006b75",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 800,
+        "created_at": "2018-10-24T12:51:26Z",
+        "closed_at": "2018-11-10T02:29:34Z",
+        "title": "Meaning of canMakePayment()",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 807147143,
+            "node_id": "MDU6TGFiZWw4MDcxNDcxNDM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 799,
+        "created_at": "2018-10-24T12:41:23Z",
+        "closed_at": null,
+        "title": "Consider specifying a testing IDL for a mock payment UI",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
         "state": "closed",
-        "number": 762,
-        "created_at": "2018-08-18T16:57:32Z",
-        "closed_at": "2018-08-18T18:36:08Z",
-        "title": "Merchant yang ditentukan standar alamat pengiriman",
+        "number": 798,
+        "created_at": "2018-10-24T08:41:08Z",
+        "closed_at": "2018-10-24T09:57:01Z",
+        "title": "Make Basic Card Payment Method Spec an informative reference",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 797,
+        "created_at": "2018-10-22T16:48:48Z",
+        "closed_at": "2018-11-27T06:15:12Z",
+        "title": "Treat scroll as a user gesture for PaymentRequest.show()",
+        "labels": [
+          {
+            "id": 332152667,
+            "node_id": "MDU6TGFiZWwzMzIxNTI2Njc=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 796,
+        "created_at": "2018-10-22T10:48:51Z",
+        "closed_at": null,
+        "title": "Clarify when the user can abort the payment request algorithm",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 807147143,
+            "node_id": "MDU6TGFiZWw4MDcxNDcxNDM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 795,
+        "created_at": "2018-10-17T00:26:04Z",
+        "closed_at": null,
+        "title": "Clarify the behavior of calling PaymentResponse.complete() while [[retryPromise]] is pending",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 807147143,
+            "node_id": "MDU6TGFiZWw4MDcxNDcxNDM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 794,
+        "created_at": "2018-10-09T02:19:19Z",
+        "closed_at": "2018-10-18T13:14:03Z",
+        "title": "Remove PaymentItem.type",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 793,
+        "created_at": "2018-10-02T22:26:57Z",
+        "closed_at": null,
+        "title": "Should we validate  nonsense payer error properties?",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 807147143,
+            "node_id": "MDU6TGFiZWw4MDcxNDcxNDM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 792,
+        "created_at": "2018-10-02T22:20:26Z",
+        "closed_at": null,
+        "title": "consider requiring an error (non-empty dict) for .retry()?",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 332152667,
+            "node_id": "MDU6TGFiZWwzMzIxNTI2Njc=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 791,
+        "created_at": "2018-10-02T15:29:38Z",
+        "closed_at": null,
+        "title": "test suite that checks whether shipping options can be updated",
+        "labels": [
+          {
+            "id": 332152667,
+            "node_id": "MDU6TGFiZWwzMzIxNTI2Njc=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 790,
+        "created_at": "2018-10-01T05:01:30Z",
+        "closed_at": "2018-10-01T06:14:33Z",
+        "title": "Editorial: fixed grammatical errors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 789,
+        "created_at": "2018-09-30T07:11:03Z",
+        "closed_at": "2018-10-02T09:00:08Z",
+        "title": "Rename `PayerErrorFields` to `PayerErrors`",
+        "labels": [
+          {
+            "id": 492987756,
+            "node_id": "MDU6TGFiZWw0OTI5ODc3NTY=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/do%20not%20merge%20yet",
+            "name": "do not merge yet",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 788,
+        "created_at": "2018-09-28T10:26:54Z",
+        "closed_at": "2018-09-28T10:58:41Z",
+        "title": "Fix #787 : Fix the links to the `data-tests` in the spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 787,
+        "created_at": "2018-09-28T10:22:57Z",
+        "closed_at": "2018-09-28T10:58:42Z",
+        "title": "Fix the links to the `data-tests` in the spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 786,
+        "created_at": "2018-09-28T08:54:06Z",
+        "closed_at": "2018-09-28T09:26:01Z",
+        "title": "Fix #785 : data-test should be changed to data-tests in spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 785,
+        "created_at": "2018-09-28T08:50:58Z",
+        "closed_at": "2018-09-28T09:27:22Z",
+        "title": "\"data-test\" should be changed to \"data-tests\" in spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 784,
+        "created_at": "2018-09-27T21:30:40Z",
+        "closed_at": "2018-09-28T05:58:16Z",
+        "title": "Fix #779 : Confirm test and specs align",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 783,
+        "created_at": "2018-09-27T07:11:34Z",
+        "closed_at": "2018-09-27T08:13:58Z",
+        "title": "Editorial: fix link to basic card error dictionary in examples",
+        "labels": [
+          {
+            "id": 345172385,
+            "node_id": "MDU6TGFiZWwzNDUxNzIzODU=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": "mnoorenberghe",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 782,
+        "created_at": "2018-09-27T06:58:19Z",
+        "closed_at": "2018-10-02T09:00:08Z",
+        "title": "Rename `PayerErrorFields` to be like `AddressErrors` and `BasicCardErrors`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 781,
+        "created_at": "2018-09-26T09:18:53Z",
+        "closed_at": "2018-09-28T09:29:21Z",
+        "title": "fix: give dictionary members sensible defaults",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 780,
+        "created_at": "2018-09-26T09:16:49Z",
+        "closed_at": "2018-10-18T07:46:56Z",
+        "title": "Sensible defaults for dictionary members ",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 779,
+        "created_at": "2018-09-26T05:14:38Z",
+        "closed_at": null,
+        "title": "Confirm tests and specs align",
+        "labels": [
+          {
+            "id": 345172385,
+            "node_id": "MDU6TGFiZWwzNDUxNzIzODU=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 657045534,
+            "node_id": "MDU6TGFiZWw2NTcwNDU1MzQ=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Process%20aid",
+            "name": "Process aid",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 778,
+        "created_at": "2018-09-18T04:26:40Z",
+        "closed_at": "2018-09-18T14:06:56Z",
+        "title": "Not able to add shipping options dynamically for apple pay",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 777,
+        "created_at": "2018-09-12T22:15:23Z",
+        "closed_at": null,
+        "title": "To address branded button issues and improve privacy, add browser support for payment method selection before the sheet",
+        "labels": [
+          {
+            "id": 686556788,
+            "node_id": "MDU6TGFiZWw2ODY1NTY3ODg=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Future%20Candidate%20Feature",
+            "name": "Future Candidate Feature",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 346625763,
+            "node_id": "MDU6TGFiZWwzNDY2MjU3NjM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/proposal%20-%20needs%20discussion",
+            "name": "proposal - needs discussion",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 776,
+        "created_at": "2018-09-12T05:38:50Z",
+        "closed_at": "2018-09-13T04:40:05Z",
+        "title": "Add MerchantValidationEvent.prototype.methodName",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 775,
+        "created_at": "2018-09-11T21:28:58Z",
+        "closed_at": "2018-09-13T04:40:04Z",
+        "title": "Do we need to identify payment method in MerchantValidationEvent?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 774,
+        "created_at": "2018-09-11T19:04:59Z",
+        "closed_at": null,
+        "title": "Some clarifications with Payment Request API",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 773,
+        "created_at": "2018-09-07T15:37:23Z",
+        "closed_at": "2018-09-07T16:37:04Z",
+        "title": "Make billing address optional",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 772,
+        "created_at": "2018-09-07T02:19:59Z",
+        "closed_at": null,
+        "title": "Extract actionable items from Shopify study",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 771,
+        "created_at": "2018-08-30T03:19:25Z",
+        "closed_at": "2018-09-04T07:40:27Z",
+        "title": "fix: give PaymentMethodChangeEventInit defaults",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 770,
+        "created_at": "2018-08-30T03:03:54Z",
+        "closed_at": "2018-09-04T07:40:27Z",
+        "title": "Can PaymentMethodChangeEventInit really have a required member?",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 332152662,
+            "node_id": "MDU6TGFiZWwzMzIxNTI2NjI=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 769,
+        "created_at": "2018-08-30T00:22:55Z",
+        "closed_at": "2018-08-30T01:55:02Z",
+        "title": "Section 3.11 (onpaymentmethodchange attribute) mentions the wrong event interface",
+        "labels": [
+          {
+            "id": 345172385,
+            "node_id": "MDU6TGFiZWwzNDUxNzIzODU=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          },
+          {
+            "id": 332152662,
+            "node_id": "MDU6TGFiZWwzMzIxNTI2NjI=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 768,
+        "created_at": "2018-08-28T04:02:23Z",
+        "closed_at": "2018-09-19T09:03:45Z",
+        "title": "Add paymentMethodErrors, payerErrors, to PaymentDetailsUpdate",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 767,
+        "created_at": "2018-08-28T02:35:42Z",
+        "closed_at": null,
+        "title": "Update spec to use \"event constructing steps\"",
+        "labels": [
+          {
+            "id": 345172385,
+            "node_id": "MDU6TGFiZWwzNDUxNzIzODU=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 766,
+        "created_at": "2018-08-27T10:28:37Z",
+        "closed_at": "2018-09-19T09:03:45Z",
+        "title": "PaymentDetailsUpdate needs to include payerErrors",
+        "labels": [
+          {
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 332152662,
+            "node_id": "MDU6TGFiZWwzMzIxNTI2NjI=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/bug",
+            "name": "bug",
+            "color": "fc2929",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 765,
+        "created_at": "2018-08-27T02:08:35Z",
+        "closed_at": "2018-10-18T14:31:54Z",
+        "title": "Remove PaymentAddress' languageCode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 764,
+        "created_at": "2018-08-24T05:03:08Z",
+        "closed_at": "2018-08-27T02:00:52Z",
+        "title": "editorial: mark languageCode at risk",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
       },
       {
         "state": "open",
@@ -4983,7 +6082,16 @@
         "created_at": "2018-08-15T16:14:29Z",
         "closed_at": null,
         "title": "Should the PaymentRequest ID be passed to canMakePayment?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 346625763,
+            "node_id": "MDU6TGFiZWwzNDY2MjU3NjM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/proposal%20-%20needs%20discussion",
+            "name": "proposal - needs discussion",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5112,10 +6220,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 751,
         "created_at": "2018-07-06T21:41:10Z",
-        "closed_at": null,
+        "closed_at": "2018-08-30T16:18:46Z",
         "title": "Add support for merchant validation",
         "labels": [
           {
@@ -5154,7 +6262,7 @@
         "number": 749,
         "created_at": "2018-07-06T14:27:11Z",
         "closed_at": null,
-        "title": "Support payment method errors",
+        "title": "Support requesting billing address",
         "labels": [
           {
             "id": 646713110,
@@ -5369,10 +6477,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 735,
         "created_at": "2018-06-22T19:37:27Z",
-        "closed_at": null,
+        "closed_at": "2018-11-14T23:27:31Z",
         "title": "Follow up on APA Comments on Web Payments FPWDs",
         "labels": [],
         "assignee": null,
@@ -5966,10 +7074,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 697,
         "created_at": "2018-03-23T14:44:33Z",
-        "closed_at": null,
+        "closed_at": "2018-09-05T10:29:14Z",
         "title": "Add link to SecureContext test",
         "labels": [],
         "assignee": null,
@@ -6222,12 +7330,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 680,
         "created_at": "2018-02-06T09:52:24Z",
-        "closed_at": null,
+        "closed_at": "2018-10-10T02:45:26Z",
         "title": "Guidance on shipping options (mostly for devs)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 345172385,
+            "node_id": "MDU6TGFiZWwzNDUxNzIzODU=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6849,10 +7966,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 646,
         "created_at": "2017-11-07T20:36:24Z",
-        "closed_at": null,
+        "closed_at": "2018-08-30T16:18:46Z",
         "title": "Add support for merchant validation",
         "labels": [
           {
@@ -7529,10 +8646,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 608,
         "created_at": "2017-09-05T06:59:07Z",
-        "closed_at": null,
+        "closed_at": "2018-10-18T14:31:54Z",
         "title": "Describe how to implement PaymentAddress.languageCode ",
         "labels": [
           {
@@ -7542,9 +8659,17 @@
             "name": "CR-Exit",
             "color": "b60205",
             "default": false
+          },
+          {
+            "id": 807147143,
+            "node_id": "MDU6TGFiZWw4MDcxNDcxNDM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
+            "default": false
           }
         ],
-        "assignee": "zkoch",
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -7669,11 +8794,19 @@
         "title": "Integration with Feature Policy",
         "labels": [
           {
-            "id": 686556788,
-            "node_id": "MDU6TGFiZWw2ODY1NTY3ODg=",
-            "url": "https://api.github.com/repos/w3c/payment-request/labels/Future%20Candidate%20Feature",
-            "name": "Future Candidate Feature",
-            "color": "006b75",
+            "id": 686687813,
+            "node_id": "MDU6TGFiZWw2ODY2ODc4MTM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
+            "name": "CR-Exit",
+            "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 345172385,
+            "node_id": "MDU6TGFiZWwzNDUxNzIzODU=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Editorial",
+            "name": "Editorial",
+            "color": "1d76db",
             "default": false
           },
           {
@@ -8229,10 +9362,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 560,
         "created_at": "2017-07-17T04:28:50Z",
-        "closed_at": null,
+        "closed_at": "2018-09-05T10:23:07Z",
         "title": "Populate implementation report",
         "labels": [
           {
@@ -17262,6 +18395,14 @@
             "url": "https://api.github.com/repos/w3c/payment-request/labels/CR-Exit",
             "name": "CR-Exit",
             "color": "b60205",
+            "default": false
+          },
+          {
+            "id": 807147143,
+            "node_id": "MDU6TGFiZWw4MDcxNDcxNDM=",
+            "url": "https://api.github.com/repos/w3c/payment-request/labels/Has%20Pull%20Request",
+            "name": "Has Pull Request",
+            "color": "1ea88a",
             "default": false
           }
         ],

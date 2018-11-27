@@ -4,6 +4,2613 @@
       "owner": "w3c",
       "name": "trace-context"
     },
-    "recTrack": true
+    "recTrack": true,
+    "issues": [
+      {
+        "state": "open",
+        "number": 205,
+        "created_at": "2018-11-26T17:46:35Z",
+        "closed_at": null,
+        "title": "Replace \"span\" nomenclature",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 204,
+        "created_at": "2018-11-26T17:07:00Z",
+        "closed_at": null,
+        "title": "Graph construction is unclear with current form of traceparent / tracestate",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 203,
+        "created_at": "2018-11-23T17:57:48Z",
+        "closed_at": null,
+        "title": "abstract needs editing",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 202,
+        "created_at": "2018-11-20T21:07:54Z",
+        "closed_at": null,
+        "title": "How does the trace-context distinguish \"child of\" from \"follows from\"?",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 201,
+        "created_at": "2018-11-06T07:36:05Z",
+        "closed_at": "2018-11-07T06:40:26Z",
+        "title": "mention cloud events",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 200,
+        "created_at": "2018-11-05T19:33:06Z",
+        "closed_at": "2018-11-05T21:29:09Z",
+        "title": "support STRICT_LEVEL environment variable",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 199,
+        "created_at": "2018-11-04T18:29:41Z",
+        "closed_at": "2018-11-04T21:29:21Z",
+        "title": "Update docs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 198,
+        "created_at": "2018-10-29T02:16:10Z",
+        "closed_at": null,
+        "title": "Tracing propagation over plain TLS",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 197,
+        "created_at": "2018-10-25T12:04:19Z",
+        "closed_at": null,
+        "title": "Use IETF Dictionary for tracestate",
+        "labels": [
+          {
+            "id": 922723152,
+            "node_id": "MDU6TGFiZWw5MjI3MjMxNTI=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/Decision",
+            "name": "Decision",
+            "color": "4fef4f",
+            "default": false
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 196,
+        "created_at": "2018-10-22T14:22:27Z",
+        "closed_at": "2018-10-25T12:07:40Z",
+        "title": "Don't allow spaces in tracestate to make parsing easier",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 195,
+        "created_at": "2018-10-21T20:23:34Z",
+        "closed_at": null,
+        "title": "Question on test-harness cases around invalid tracestate",
+        "labels": [
+          {
+            "id": 901358420,
+            "node_id": "MDU6TGFiZWw5MDEzNTg0MjA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/enhancement",
+            "name": "enhancement",
+            "color": "33e8df",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 194,
+        "created_at": "2018-10-19T21:28:09Z",
+        "closed_at": null,
+        "title": "Trace-id and Span-id - What makes up valid bytes?",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 193,
+        "created_at": "2018-10-17T17:54:34Z",
+        "closed_at": null,
+        "title": "Clarity on the definition of Span-id",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 192,
+        "created_at": "2018-10-04T21:42:19Z",
+        "closed_at": "2018-10-05T17:44:08Z",
+        "title": "export test data in JSON format",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 191,
+        "created_at": "2018-10-03T16:02:26Z",
+        "closed_at": "2018-11-05T17:50:27Z",
+        "title": "failure to parse clarification (already covered in tests)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 190,
+        "created_at": "2018-10-03T15:40:43Z",
+        "closed_at": "2018-10-16T15:15:52Z",
+        "title": "Editorial: fix the list in markdown",
+        "labels": [
+          {
+            "id": 901358130,
+            "node_id": "MDU6TGFiZWw5MDEzNTgxMzA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/editorial",
+            "name": "editorial",
+            "color": "d1517c",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 189,
+        "created_at": "2018-10-03T05:25:23Z",
+        "closed_at": "2018-10-10T17:02:40Z",
+        "title": "fix example - = is not allowed as a tracestate entry value",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 188,
+        "created_at": "2018-10-03T05:18:57Z",
+        "closed_at": "2018-11-04T21:30:27Z",
+        "title": "allow empty headers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 187,
+        "created_at": "2018-09-28T19:08:02Z",
+        "closed_at": "2018-09-28T19:21:00Z",
+        "title": "add CI badges",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 186,
+        "created_at": "2018-09-28T18:50:14Z",
+        "closed_at": "2018-09-28T18:52:09Z",
+        "title": "Do Not Merge",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 185,
+        "created_at": "2018-09-28T18:30:47Z",
+        "closed_at": "2018-09-28T18:44:22Z",
+        "title": "integrate with Travis CI",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 184,
+        "created_at": "2018-09-27T18:33:45Z",
+        "closed_at": "2018-09-28T17:15:58Z",
+        "title": "return error code for test results",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 183,
+        "created_at": "2018-09-25T18:39:34Z",
+        "closed_at": "2018-09-28T17:16:22Z",
+        "title": "fix tracestate sample",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 182,
+        "created_at": "2018-09-24T19:03:02Z",
+        "closed_at": "2018-09-25T18:25:00Z",
+        "title": "adjust OWS implementation to meet with RFC7230",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 181,
+        "created_at": "2018-09-24T17:23:24Z",
+        "closed_at": "2018-10-03T15:10:35Z",
+        "title": "Change in example's tracestate value is confusing",
+        "labels": [
+          {
+            "id": 566433565,
+            "node_id": "MDU6TGFiZWw1NjY0MzM1NjU=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 180,
+        "created_at": "2018-09-11T23:32:27Z",
+        "closed_at": "2018-10-03T17:06:58Z",
+        "title": "switch to a single recorded flag",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 179,
+        "created_at": "2018-09-11T22:08:38Z",
+        "closed_at": "2018-09-17T17:12:58Z",
+        "title": "As we moved to CR milestone - clarifying the status of specs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 178,
+        "created_at": "2018-09-11T21:43:35Z",
+        "closed_at": "2018-09-25T17:34:59Z",
+        "title": "Update 2018-09-11.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 177,
+        "created_at": "2018-09-11T19:08:21Z",
+        "closed_at": "2018-09-11T21:30:18Z",
+        "title": "add meeting notes for w3c call 2018-09-11",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 176,
+        "created_at": "2018-09-11T17:26:34Z",
+        "closed_at": "2018-09-13T23:03:09Z",
+        "title": "add tracestate test",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 175,
+        "created_at": "2018-09-10T18:40:07Z",
+        "closed_at": null,
+        "title": "Action on tracestate header larger than 512 is confusing",
+        "labels": [
+          {
+            "id": 901358420,
+            "node_id": "MDU6TGFiZWw5MDEzNTg0MjA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/enhancement",
+            "name": "enhancement",
+            "color": "33e8df",
+            "default": true
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 174,
+        "created_at": "2018-09-07T19:46:50Z",
+        "closed_at": "2018-09-07T19:52:49Z",
+        "title": "add more test cases, improve debug output",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 173,
+        "created_at": "2018-08-28T21:28:41Z",
+        "closed_at": "2018-08-29T18:14:37Z",
+        "title": "WIP: Trace Context Language Cleanup",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 172,
+        "created_at": "2018-08-28T20:58:52Z",
+        "closed_at": "2018-11-05T18:20:01Z",
+        "title": "What to do when malformed headers are received?",
+        "labels": [
+          {
+            "id": 901358130,
+            "node_id": "MDU6TGFiZWw5MDEzNTgxMzA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/editorial",
+            "name": "editorial",
+            "color": "d1517c",
+            "default": false
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 171,
+        "created_at": "2018-08-28T20:56:47Z",
+        "closed_at": "2018-11-05T18:19:41Z",
+        "title": "What to do when empty tracestate?",
+        "labels": [
+          {
+            "id": 901358130,
+            "node_id": "MDU6TGFiZWw5MDEzNTgxMzA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/editorial",
+            "name": "editorial",
+            "color": "d1517c",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 170,
+        "created_at": "2018-08-28T18:40:29Z",
+        "closed_at": "2018-08-28T23:55:17Z",
+        "title": "Create 2018-0-28.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 169,
+        "created_at": "2018-08-28T17:59:11Z",
+        "closed_at": "2018-11-06T07:36:51Z",
+        "title": "discuss where to place reference implementations",
+        "labels": [
+          {
+            "id": 901005799,
+            "node_id": "MDU6TGFiZWw5MDEwMDU3OTk=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/w3c",
+            "name": "w3c",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 168,
+        "created_at": "2018-08-27T22:57:43Z",
+        "closed_at": null,
+        "title": "Value format section is confusing",
+        "labels": [
+          {
+            "id": 901358130,
+            "node_id": "MDU6TGFiZWw5MDEzNTgxMzA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/editorial",
+            "name": "editorial",
+            "color": "d1517c",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 167,
+        "created_at": "2018-08-24T16:12:50Z",
+        "closed_at": "2018-11-05T18:22:03Z",
+        "title": "Let's discuss recorded flag before FPWD announcement",
+        "labels": [
+          {
+            "id": 901358420,
+            "node_id": "MDU6TGFiZWw5MDEzNTg0MjA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/enhancement",
+            "name": "enhancement",
+            "color": "33e8df",
+            "default": true
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 166,
+        "created_at": "2018-08-24T04:18:44Z",
+        "closed_at": "2018-09-07T17:19:45Z",
+        "title": "Implement Test Harness",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 165,
+        "created_at": "2018-08-24T01:21:26Z",
+        "closed_at": null,
+        "title": "Document procedures for spec changes",
+        "labels": [
+          {
+            "id": 901005799,
+            "node_id": "MDU6TGFiZWw5MDEwMDU3OTk=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/w3c",
+            "name": "w3c",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 164,
+        "created_at": "2018-08-23T23:42:43Z",
+        "closed_at": "2018-08-24T16:09:10Z",
+        "title": "explanation why mutations of tracestate are not required",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 163,
+        "created_at": "2018-08-23T16:30:19Z",
+        "closed_at": "2018-08-23T23:54:36Z",
+        "title": "update status of the document to FPWD. Working towards completing thi…",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 162,
+        "created_at": "2018-08-23T16:16:21Z",
+        "closed_at": "2018-09-11T23:35:06Z",
+        "title": "Add clarification for #142",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 161,
+        "created_at": "2018-08-21T21:17:56Z",
+        "closed_at": "2018-08-23T05:07:06Z",
+        "title": "Some minor corrections to grammar",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 160,
+        "created_at": "2018-08-16T23:00:45Z",
+        "closed_at": "2018-08-23T23:52:27Z",
+        "title": "Update charter.html after Ian's feedback",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 159,
+        "created_at": "2018-08-14T17:41:51Z",
+        "closed_at": "2018-08-15T01:11:24Z",
+        "title": "demand hex for span-id and trace-id",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 158,
+        "created_at": "2018-08-14T17:14:45Z",
+        "closed_at": "2018-08-23T23:53:52Z",
+        "title": "added ordering rationale:",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 157,
+        "created_at": "2018-08-13T19:47:30Z",
+        "closed_at": "2018-08-14T17:46:34Z",
+        "title": "Language about security risks",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 156,
+        "created_at": "2018-08-10T19:59:48Z",
+        "closed_at": "2018-08-13T22:38:29Z",
+        "title": "notes from implementors workshop",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 155,
+        "created_at": "2018-08-09T22:18:20Z",
+        "closed_at": "2018-08-10T01:42:05Z",
+        "title": "Fix minor typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 154,
+        "created_at": "2018-08-09T17:47:53Z",
+        "closed_at": "2018-08-09T18:07:42Z",
+        "title": "Various tweaks for a new WG",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 153,
+        "created_at": "2018-08-07T23:31:26Z",
+        "closed_at": "2018-08-08T00:38:49Z",
+        "title": "Allow @ in tracestate key names for multi-tenant vendors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 152,
+        "created_at": "2018-08-07T23:13:59Z",
+        "closed_at": "2018-09-17T22:57:13Z",
+        "title": "which mailing list to use",
+        "labels": [
+          {
+            "id": 901005799,
+            "node_id": "MDU6TGFiZWw5MDEwMDU3OTk=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/w3c",
+            "name": "w3c",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": "AloisReitbauer",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 151,
+        "created_at": "2018-08-07T23:03:20Z",
+        "closed_at": "2018-08-08T00:37:55Z",
+        "title": "cosmetics",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 150,
+        "created_at": "2018-08-07T22:55:56Z",
+        "closed_at": "2018-08-08T00:35:57Z",
+        "title": "response headers rationale",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 149,
+        "created_at": "2018-08-07T21:17:06Z",
+        "closed_at": null,
+        "title": "Integrate Timing Information in Trace-Context",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 148,
+        "created_at": "2018-08-07T21:00:58Z",
+        "closed_at": "2018-08-08T00:38:11Z",
+        "title": "Do we need a response header?",
+        "labels": [
+          {
+            "id": 922723152,
+            "node_id": "MDU6TGFiZWw5MjI3MjMxNTI=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/Decision",
+            "name": "Decision",
+            "color": "4fef4f",
+            "default": false
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 147,
+        "created_at": "2018-08-07T20:34:37Z",
+        "closed_at": "2018-08-07T21:19:49Z",
+        "title": "added browsers and mobile apps into the charter",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 146,
+        "created_at": "2018-08-07T19:10:50Z",
+        "closed_at": null,
+        "title": "How and when are you allowed to restart a trace",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 145,
+        "created_at": "2018-08-07T17:19:40Z",
+        "closed_at": "2018-08-07T19:40:35Z",
+        "title": "rename options to flags",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 144,
+        "created_at": "2018-08-07T17:01:03Z",
+        "closed_at": "2018-08-07T17:03:19Z",
+        "title": "Fix changed Trace-Id that confused the example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 143,
+        "created_at": "2018-08-07T05:23:58Z",
+        "closed_at": "2018-08-07T17:01:37Z",
+        "title": "add wording about keeping random value right",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 142,
+        "created_at": "2018-08-07T01:19:56Z",
+        "closed_at": "2018-08-07T16:58:23Z",
+        "title": "Change traced flag semantics and add recorded flag",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 141,
+        "created_at": "2018-08-06T20:55:56Z",
+        "closed_at": "2018-08-07T16:47:10Z",
+        "title": "versioning proposal during the implemetors workshop",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 140,
+        "created_at": "2018-08-06T17:05:36Z",
+        "closed_at": "2018-08-07T17:05:23Z",
+        "title": "Leading zeroes for smaller trace-id. Should it be documented?",
+        "labels": [
+          {
+            "id": 901358420,
+            "node_id": "MDU6TGFiZWw5MDEzNTg0MjA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/enhancement",
+            "name": "enhancement",
+            "color": "33e8df",
+            "default": true
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 139,
+        "created_at": "2018-08-06T16:38:22Z",
+        "closed_at": "2018-08-07T17:04:45Z",
+        "title": "Add instana as known implementation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 138,
+        "created_at": "2018-08-06T16:29:48Z",
+        "closed_at": "2018-08-07T17:03:47Z",
+        "title": "update milestones in charter",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 137,
+        "created_at": "2018-07-27T10:48:20Z",
+        "closed_at": "2018-08-09T21:34:29Z",
+        "title": "Allow multiple tracestate entries for one vendor",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 136,
+        "created_at": "2018-07-24T21:55:23Z",
+        "closed_at": "2018-07-31T17:36:24Z",
+        "title": "Change reports from CG to WG",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 135,
+        "created_at": "2018-07-23T11:43:12Z",
+        "closed_at": "2018-07-23T16:58:01Z",
+        "title": "fix ABNF",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 134,
+        "created_at": "2018-07-17T12:49:20Z",
+        "closed_at": "2018-07-17T18:33:33Z",
+        "title": "Reduce the total number of elements in the tracestate list.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 133,
+        "created_at": "2018-07-11T17:34:40Z",
+        "closed_at": "2018-07-11T17:36:41Z",
+        "title": "minor typo fix",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 132,
+        "created_at": "2018-07-10T21:55:35Z",
+        "closed_at": "2018-07-11T05:01:38Z",
+        "title": "minor typo fix",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 131,
+        "created_at": "2018-07-10T19:38:10Z",
+        "closed_at": "2018-07-10T20:08:44Z",
+        "title": "fix ABNF",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 130,
+        "created_at": "2018-07-03T18:00:04Z",
+        "closed_at": "2018-07-06T23:45:27Z",
+        "title": "Meeting notes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 129,
+        "created_at": "2018-06-24T05:46:33Z",
+        "closed_at": "2018-06-24T05:57:23Z",
+        "title": "Meeting notes 2018-06-18",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 128,
+        "created_at": "2018-06-19T21:50:46Z",
+        "closed_at": "2018-06-19T21:51:03Z",
+        "title": "Meeting notes 2018-06-18",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 127,
+        "created_at": "2018-05-25T12:45:00Z",
+        "closed_at": "2018-05-26T22:36:40Z",
+        "title": "Correct url encoding of :",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 126,
+        "created_at": "2018-05-17T08:29:40Z",
+        "closed_at": "2018-08-07T21:21:29Z",
+        "title": "charter could be clearer about who the expected implementers are",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 125,
+        "created_at": "2018-05-15T16:03:19Z",
+        "closed_at": "2018-05-15T22:23:17Z",
+        "title": "Fix example of how to parse the trace options",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 124,
+        "created_at": "2018-05-09T17:56:20Z",
+        "closed_at": "2018-05-10T15:29:38Z",
+        "title": "comment on header names",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 123,
+        "created_at": "2018-05-03T10:03:36Z",
+        "closed_at": "2018-08-23T23:53:52Z",
+        "title": "Structure of TraceState",
+        "labels": [
+          {
+            "id": 922723152,
+            "node_id": "MDU6TGFiZWw5MjI3MjMxNTI=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/Decision",
+            "name": "Decision",
+            "color": "4fef4f",
+            "default": false
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 122,
+        "created_at": "2018-05-03T08:14:50Z",
+        "closed_at": "2018-08-07T16:58:31Z",
+        "title": "Do we need a sampling bit in trace-parent?",
+        "labels": [
+          {
+            "id": 922723152,
+            "node_id": "MDU6TGFiZWw5MjI3MjMxNTI=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/Decision",
+            "name": "Decision",
+            "color": "4fef4f",
+            "default": false
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 121,
+        "created_at": "2018-05-02T08:27:00Z",
+        "closed_at": "2018-05-03T09:41:39Z",
+        "title": "Clarify semantics of sampling bit - potentially remove it",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 120,
+        "created_at": "2018-04-29T21:07:56Z",
+        "closed_at": null,
+        "title": "IETF/IANA registration of header fields",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          },
+          {
+            "id": 901005799,
+            "node_id": "MDU6TGFiZWw5MDEwMDU3OTk=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/w3c",
+            "name": "w3c",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": "AloisReitbauer",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 119,
+        "created_at": "2018-04-28T16:52:09Z",
+        "closed_at": "2018-05-10T15:30:34Z",
+        "title": "Clarify the HTTP header name choice for trace",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 118,
+        "created_at": "2018-04-27T17:53:38Z",
+        "closed_at": "2018-04-27T20:28:55Z",
+        "title": "make traceoptions require to get feedback",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 117,
+        "created_at": "2018-04-23T16:32:21Z",
+        "closed_at": "2018-08-24T16:09:10Z",
+        "title": "Allow to mutate mutliple keys of tracestate",
+        "labels": [
+          {
+            "id": 901358420,
+            "node_id": "MDU6TGFiZWw5MDEzNTg0MjA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/enhancement",
+            "name": "enhancement",
+            "color": "33e8df",
+            "default": true
+          },
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 116,
+        "created_at": "2018-04-21T01:21:09Z",
+        "closed_at": "2018-04-24T15:36:52Z",
+        "title": "Clarifies that trace options is a bit field",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 115,
+        "created_at": "2018-04-21T01:03:42Z",
+        "closed_at": "2018-08-06T17:53:51Z",
+        "title": "Are traceparent fields optional or fixed width?",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 114,
+        "created_at": "2018-04-19T19:48:28Z",
+        "closed_at": "2018-04-24T15:35:30Z",
+        "title": "mutate of tracestate",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 113,
+        "created_at": "2018-04-19T19:25:09Z",
+        "closed_at": "2018-04-19T19:36:02Z",
+        "title": "Update README.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 112,
+        "created_at": "2018-04-19T13:12:05Z",
+        "closed_at": "2018-04-19T14:42:55Z",
+        "title": "Typo- and link-corrections ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 111,
+        "created_at": "2018-04-17T18:08:20Z",
+        "closed_at": "2018-06-19T21:44:34Z",
+        "title": "explain aggressive limit",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 110,
+        "created_at": "2018-04-17T07:25:44Z",
+        "closed_at": "2018-05-23T06:05:49Z",
+        "title": "privacy considerations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 109,
+        "created_at": "2018-04-16T23:37:36Z",
+        "closed_at": null,
+        "title": "Explain aggressive 512 limit of tracestate in spec",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 108,
+        "created_at": "2018-04-13T18:29:19Z",
+        "closed_at": "2018-04-18T02:24:12Z",
+        "title": "mutating of trace state",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 107,
+        "created_at": "2018-04-13T18:16:57Z",
+        "closed_at": "2018-05-16T06:45:58Z",
+        "title": "ABNF definition for tracestate",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 106,
+        "created_at": "2018-04-13T17:42:23Z",
+        "closed_at": "2018-04-17T05:53:23Z",
+        "title": "Switching work into develop branch",
+        "labels": [
+          {
+            "id": 901005799,
+            "node_id": "MDU6TGFiZWw5MDEwMDU3OTk=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/w3c",
+            "name": "w3c",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 105,
+        "created_at": "2018-04-13T17:29:32Z",
+        "closed_at": "2018-04-14T00:11:43Z",
+        "title": "remove mention of correlation context header name",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 104,
+        "created_at": "2018-04-13T13:34:38Z",
+        "closed_at": "2018-04-14T06:38:57Z",
+        "title": "Update charter based on W3C feedback",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 103,
+        "created_at": "2018-04-13T13:03:45Z",
+        "closed_at": "2018-04-13T13:03:59Z",
+        "title": "Merge pull request #1 from w3c/master",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 102,
+        "created_at": "2018-04-13T01:22:15Z",
+        "closed_at": "2018-04-14T04:50:20Z",
+        "title": "Change requests to the editors draft",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 101,
+        "created_at": "2018-04-11T16:51:53Z",
+        "closed_at": "2018-04-13T12:57:21Z",
+        "title": "Preparing report for the first publishing",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 100,
+        "created_at": "2018-04-10T23:27:37Z",
+        "closed_at": "2018-04-13T12:56:19Z",
+        "title": "moved the list of people from distributed tracing workshop into meeti…",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 99,
+        "created_at": "2018-04-10T21:46:36Z",
+        "closed_at": "2018-04-10T23:04:37Z",
+        "title": "Submit 04-10 meeting notes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 98,
+        "created_at": "2018-04-10T21:18:33Z",
+        "closed_at": "2018-04-19T14:43:30Z",
+        "title": "Charter questions from W3C review",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 97,
+        "created_at": "2018-04-08T20:13:45Z",
+        "closed_at": "2018-04-08T22:11:16Z",
+        "title": "Fix 16 bit -> 8 bits in comment",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 96,
+        "created_at": "2018-04-05T23:47:31Z",
+        "closed_at": "2018-04-06T16:36:11Z",
+        "title": "ABNF for traceparent",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 95,
+        "created_at": "2018-04-05T21:41:10Z",
+        "closed_at": "2018-04-06T16:34:05Z",
+        "title": "Removing demo app to avoid confusion",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 94,
+        "created_at": "2018-04-03T01:19:39Z",
+        "closed_at": "2018-08-07T18:54:12Z",
+        "title": "Is the W3C 3-clause BSD License acceptable for integration tests? ",
+        "labels": [
+          {
+            "id": 901005799,
+            "node_id": "MDU6TGFiZWw5MDEwMDU3OTk=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/w3c",
+            "name": "w3c",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 93,
+        "created_at": "2018-04-02T20:58:30Z",
+        "closed_at": "2018-04-18T02:26:51Z",
+        "title": "Define behaviour on how Trace-ID are to be modified. ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 92,
+        "created_at": "2018-04-02T20:39:01Z",
+        "closed_at": "2018-08-05T07:17:57Z",
+        "title": "Find alternative meeting time",
+        "labels": [
+          {
+            "id": 901005799,
+            "node_id": "MDU6TGFiZWw5MDEwMDU3OTk=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/w3c",
+            "name": "w3c",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 91,
+        "created_at": "2018-03-28T18:54:02Z",
+        "closed_at": "2018-03-29T01:34:54Z",
+        "title": "Create 2018-03-28.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 90,
+        "created_at": "2018-03-27T18:40:54Z",
+        "closed_at": "2018-03-27T21:46:32Z",
+        "title": "added Google calendar link",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 89,
+        "created_at": "2018-03-22T21:12:44Z",
+        "closed_at": "2018-04-02T20:56:39Z",
+        "title": "Update demo app to show which modifications are possible",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 88,
+        "created_at": "2018-03-19T06:56:17Z",
+        "closed_at": "2018-04-02T21:00:25Z",
+        "title": "Add tracestate name registery",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 87,
+        "created_at": "2018-03-16T05:13:42Z",
+        "closed_at": null,
+        "title": "Compatibility and Interoperability Test Suite",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 86,
+        "created_at": "2018-03-15T21:25:43Z",
+        "closed_at": "2018-04-02T20:58:49Z",
+        "title": "mutating of traceparent",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 85,
+        "created_at": "2018-03-15T17:25:22Z",
+        "closed_at": "2018-03-16T09:38:46Z",
+        "title": "fix report links",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 84,
+        "created_at": "2018-03-15T17:16:47Z",
+        "closed_at": "2018-03-17T00:25:55Z",
+        "title": "remove hyphens all over the docs to avoid any confusion",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 83,
+        "created_at": "2018-03-13T20:32:36Z",
+        "closed_at": "2018-03-14T06:39:25Z",
+        "title": "added team communication section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 82,
+        "created_at": "2018-03-13T19:24:32Z",
+        "closed_at": "2018-03-15T17:29:56Z",
+        "title": "Create working version again",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 81,
+        "created_at": "2018-03-12T01:41:39Z",
+        "closed_at": "2018-05-16T15:56:51Z",
+        "title": "Describe headers using ABNF format",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 80,
+        "created_at": "2018-03-12T01:20:22Z",
+        "closed_at": "2018-08-24T16:09:49Z",
+        "title": "Position zero in tracestate identifies the traceparent",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 79,
+        "created_at": "2018-03-09T17:09:45Z",
+        "closed_at": "2018-03-26T13:09:35Z",
+        "title": "Should there be a recommendation on how trace IDs are generated?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 78,
+        "created_at": "2018-03-09T15:36:11Z",
+        "closed_at": "2018-03-13T10:04:43Z",
+        "title": "Fix wording in trace_state/readme.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 77,
+        "created_at": "2018-03-01T18:30:09Z",
+        "closed_at": "2018-03-01T18:32:37Z",
+        "title": "Note explicitly that this is a draft charter",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 76,
+        "created_at": "2018-02-28T18:30:37Z",
+        "closed_at": "2018-02-28T18:32:28Z",
+        "title": "remove a stray #",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 75,
+        "created_at": "2018-02-28T07:03:47Z",
+        "closed_at": "2018-02-28T18:17:40Z",
+        "title": "Finalize charter",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 74,
+        "created_at": "2018-02-28T02:03:15Z",
+        "closed_at": "2018-02-28T07:02:57Z",
+        "title": "Added meeting notes for the meeting that took place on 2018/02/27",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 73,
+        "created_at": "2018-02-27T09:41:08Z",
+        "closed_at": "2018-02-27T09:43:08Z",
+        "title": "adjusted completion date of spec.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 72,
+        "created_at": "2018-02-27T08:19:51Z",
+        "closed_at": "2018-03-12T10:52:26Z",
+        "title": "Reorganizes content to reflect decisions made since last workshop",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 71,
+        "created_at": "2018-02-26T21:17:30Z",
+        "closed_at": "2018-04-13T18:29:50Z",
+        "title": "Add comment on ordering of properties and state key/value pairs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 70,
+        "created_at": "2018-02-24T22:29:27Z",
+        "closed_at": "2018-02-25T06:09:15Z",
+        "title": "Fix tiny HTML typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 69,
+        "created_at": "2018-02-24T10:33:24Z",
+        "closed_at": null,
+        "title": "Investigate Server-Timing for passing back response headers",
+        "labels": [
+          {
+            "id": 901005799,
+            "node_id": "MDU6TGFiZWw5MDEwMDU3OTk=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/w3c",
+            "name": "w3c",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 68,
+        "created_at": "2018-02-23T22:29:40Z",
+        "closed_at": "2018-02-23T23:11:30Z",
+        "title": "Fix titles after header names change.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 67,
+        "created_at": "2018-02-23T15:18:06Z",
+        "closed_at": "2018-02-23T22:13:54Z",
+        "title": "changed from member submission to draft",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 66,
+        "created_at": "2018-02-21T21:31:21Z",
+        "closed_at": "2018-02-26T21:25:31Z",
+        "title": "clarify spaces behavior",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 65,
+        "created_at": "2018-02-14T04:59:13Z",
+        "closed_at": "2018-02-14T05:07:55Z",
+        "title": "fix typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 64,
+        "created_at": "2018-02-13T12:24:03Z",
+        "closed_at": "2018-03-13T21:32:49Z",
+        "title": "Team Teleconference",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 63,
+        "created_at": "2018-02-12T22:03:15Z",
+        "closed_at": "2018-02-21T21:32:09Z",
+        "title": "Fixes examples for Trace-State",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 62,
+        "created_at": "2018-02-12T21:42:04Z",
+        "closed_at": "2018-02-12T21:47:53Z",
+        "title": "Fixes some typos in charter.html",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 61,
+        "created_at": "2018-02-12T18:41:26Z",
+        "closed_at": "2018-02-12T19:53:00Z",
+        "title": "cleanup of spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 60,
+        "created_at": "2018-02-12T13:45:16Z",
+        "closed_at": "2018-03-12T10:53:24Z",
+        "title": "Charter Definition",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 59,
+        "created_at": "2018-02-07T18:35:15Z",
+        "closed_at": "2018-02-08T03:52:57Z",
+        "title": "renamed headers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 58,
+        "created_at": "2018-02-05T08:51:16Z",
+        "closed_at": null,
+        "title": "Provide vendor/open source product name register for tracestate",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 57,
+        "created_at": "2018-02-05T07:13:46Z",
+        "closed_at": "2018-03-12T10:52:26Z",
+        "title": "Refactor spec towards trace-parent and trace-state",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 56,
+        "created_at": "2018-02-02T18:00:50Z",
+        "closed_at": "2018-02-07T18:47:41Z",
+        "title": "List of workshop participants endorsed the spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 55,
+        "created_at": "2018-02-01T19:56:20Z",
+        "closed_at": "2018-08-15T21:17:51Z",
+        "title": "Add language about abuse and risks for context and sampling flag entering/leaving organizational boundaries via public APIs, outbound calls",
+        "labels": [
+          {
+            "id": 901357257,
+            "node_id": "MDU6TGFiZWw5MDEzNTcyNTc=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/privacy",
+            "name": "privacy",
+            "color": "bffca1",
+            "default": false
+          },
+          {
+            "id": 901357168,
+            "node_id": "MDU6TGFiZWw5MDEzNTcxNjg=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/security",
+            "name": "security",
+            "color": "b60205",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 54,
+        "created_at": "2018-01-23T17:04:53Z",
+        "closed_at": "2018-08-07T17:05:04Z",
+        "title": "Define behavior when library do not understand the version number",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 53,
+        "created_at": "2018-01-21T10:05:28Z",
+        "closed_at": "2018-01-23T16:48:33Z",
+        "title": "Should standard define a way to tell which tracing vendor is being used?",
+        "labels": [
+          {
+            "id": 566433570,
+            "node_id": "MDU6TGFiZWw1NjY0MzM1NzA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 52,
+        "created_at": "2018-01-21T09:55:53Z",
+        "closed_at": "2018-01-22T18:10:18Z",
+        "title": "Just a couple of fixes in text",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 51,
+        "created_at": "2018-01-18T21:12:43Z",
+        "closed_at": "2018-03-21T18:28:32Z",
+        "title": "Define response headers behavior - old",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 50,
+        "created_at": "2018-01-17T21:28:52Z",
+        "closed_at": "2018-08-08T00:38:25Z",
+        "title": "Define behavior for response header context propagation",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 49,
+        "created_at": "2018-01-17T21:22:35Z",
+        "closed_at": "2018-01-17T23:57:07Z",
+        "title": "split one report into two",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 48,
+        "created_at": "2018-01-04T18:13:22Z",
+        "closed_at": "2018-01-04T18:25:16Z",
+        "title": "Create CONTRIBUTING.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 47,
+        "created_at": "2018-01-04T18:02:15Z",
+        "closed_at": "2018-01-05T18:00:01Z",
+        "title": "Initial drafts for report and demo app",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 46,
+        "created_at": "2018-01-04T17:52:52Z",
+        "closed_at": "2018-01-04T18:24:08Z",
+        "title": "moved leftovers from distributed-tracing repository: proper license, …",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 45,
+        "created_at": "2017-12-22T16:48:11Z",
+        "closed_at": "2018-01-04T16:53:48Z",
+        "title": "add comment that repository was moved",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 44,
+        "created_at": "2017-12-20T23:50:28Z",
+        "closed_at": "2018-01-04T18:26:34Z",
+        "title": "Migrate to W3C",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 43,
+        "created_at": "2017-12-06T19:05:23Z",
+        "closed_at": "2017-12-06T19:08:44Z",
+        "title": "Correct links to rationale files.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 42,
+        "created_at": "2017-11-07T18:46:08Z",
+        "closed_at": "2017-11-18T06:43:20Z",
+        "title": "trace-context-ext header",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 41,
+        "created_at": "2017-11-04T00:59:32Z",
+        "closed_at": "2018-01-23T16:51:29Z",
+        "title": "Define purpose of correlation context",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 40,
+        "created_at": "2017-11-02T03:13:47Z",
+        "closed_at": "2017-11-07T07:34:59Z",
+        "title": "Try to make examples a bit less crap",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 39,
+        "created_at": "2017-10-19T16:53:25Z",
+        "closed_at": "2018-02-03T00:01:05Z",
+        "title": "added request-context headr",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 38,
+        "created_at": "2017-10-14T12:53:27Z",
+        "closed_at": "2018-05-02T08:33:43Z",
+        "title": "Backend Detection",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 37,
+        "created_at": "2017-10-14T12:52:43Z",
+        "closed_at": "2018-05-02T08:29:37Z",
+        "title": "Async Downstream Correlation",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 36,
+        "created_at": "2017-10-14T11:57:05Z",
+        "closed_at": "2018-11-05T18:17:53Z",
+        "title": "Correlation Context Should be Split",
+        "labels": [
+          {
+            "id": 897499943,
+            "node_id": "MDU6TGFiZWw4OTc0OTk5NDM=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/correlation-context",
+            "name": "correlation-context",
+            "color": "bfd4f2",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 35,
+        "created_at": "2017-10-14T11:54:06Z",
+        "closed_at": null,
+        "title": "Additional Protocol Support",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 34,
+        "created_at": "2017-10-14T01:22:19Z",
+        "closed_at": "2017-10-14T01:26:54Z",
+        "title": "Setup gitter",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 33,
+        "created_at": "2017-10-11T16:11:46Z",
+        "closed_at": "2018-02-01T06:12:17Z",
+        "title": "Missing elements in the spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 32,
+        "created_at": "2017-10-09T23:15:50Z",
+        "closed_at": "2018-01-23T17:05:43Z",
+        "title": "Version in header",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 31,
+        "created_at": "2017-10-09T15:22:23Z",
+        "closed_at": "2018-04-13T18:33:24Z",
+        "title": "What is the milestone of this spec?",
+        "labels": [
+          {
+            "id": 901005799,
+            "node_id": "MDU6TGFiZWw5MDEwMDU3OTk=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/w3c",
+            "name": "w3c",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 30,
+        "created_at": "2017-10-04T18:44:21Z",
+        "closed_at": "2017-10-14T01:34:13Z",
+        "title": "Refactor the repository structure.",
+        "labels": [],
+        "assignee": "mtwo",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 29,
+        "created_at": "2017-09-29T03:51:38Z",
+        "closed_at": "2017-09-29T04:08:41Z",
+        "title": "Remove some meaningless words about goal.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 28,
+        "created_at": "2017-09-28T14:30:50Z",
+        "closed_at": "2017-09-28T16:36:26Z",
+        "title": "Make sure the link will always be right, even after we released this spec.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 27,
+        "created_at": "2017-09-28T14:12:05Z",
+        "closed_at": "2017-09-28T14:15:24Z",
+        "title": "Remove the HTTP description.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 26,
+        "created_at": "2017-09-26T16:44:59Z",
+        "closed_at": "2017-10-19T16:10:48Z",
+        "title": "Catalog of well-known Correlation Context key names",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 25,
+        "created_at": "2017-09-26T16:43:24Z",
+        "closed_at": "2018-02-01T06:05:48Z",
+        "title": "What should be the max length of all Correlation Context name-value pairs combined?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 24,
+        "created_at": "2017-09-26T16:41:17Z",
+        "closed_at": "2018-11-05T18:16:50Z",
+        "title": "Support for a PII property of a Correlation Context value",
+        "labels": [
+          {
+            "id": 897499943,
+            "node_id": "MDU6TGFiZWw4OTc0OTk5NDM=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/correlation-context",
+            "name": "correlation-context",
+            "color": "bfd4f2",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 23,
+        "created_at": "2017-09-26T16:39:22Z",
+        "closed_at": "2018-11-05T18:15:59Z",
+        "title": "One level down correlation context propagation (TTL=1)",
+        "labels": [
+          {
+            "id": 897499943,
+            "node_id": "MDU6TGFiZWw4OTc0OTk5NDM=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/correlation-context",
+            "name": "correlation-context",
+            "color": "bfd4f2",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 22,
+        "created_at": "2017-09-26T16:37:18Z",
+        "closed_at": "2018-11-05T18:15:03Z",
+        "title": "Support for a type property of a Correlation Context value",
+        "labels": [
+          {
+            "id": 897499943,
+            "node_id": "MDU6TGFiZWw4OTc0OTk5NDM=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/correlation-context",
+            "name": "correlation-context",
+            "color": "bfd4f2",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 21,
+        "created_at": "2017-09-25T23:25:14Z",
+        "closed_at": "2017-09-28T23:57:35Z",
+        "title": "first version of correlation context header",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 20,
+        "created_at": "2017-09-25T20:23:51Z",
+        "closed_at": "2017-09-26T00:36:44Z",
+        "title": "Companion header for name-values pairs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 19,
+        "created_at": "2017-09-24T06:12:27Z",
+        "closed_at": "2018-02-03T00:01:44Z",
+        "title": "Variable-length IDs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 18,
+        "created_at": "2017-09-23T01:50:07Z",
+        "closed_at": "2017-09-24T02:39:20Z",
+        "title": "Copies goal from http to top-level and copies rationale from google doc",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 17,
+        "created_at": "2017-09-23T01:47:41Z",
+        "closed_at": "2018-03-28T18:57:16Z",
+        "title": "Define the charter more precisely",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 16,
+        "created_at": "2017-09-22T17:15:45Z",
+        "closed_at": "2018-03-27T23:03:07Z",
+        "title": "Remove \"hexadecimal\" restriction",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 15,
+        "created_at": "2017-09-20T21:13:23Z",
+        "closed_at": "2018-01-23T16:47:40Z",
+        "title": "Suggest Prefix encoding instead of a version number",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 14,
+        "created_at": "2017-09-18T03:09:02Z",
+        "closed_at": "2018-01-23T17:16:37Z",
+        "title": "About vendor identification",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 13,
+        "created_at": "2017-09-16T16:26:35Z",
+        "closed_at": "2018-01-23T17:10:38Z",
+        "title": "Standardize format for \"simple\" baggages (a.k.a \"tags\")",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 12,
+        "created_at": "2017-09-15T20:36:59Z",
+        "closed_at": "2017-10-04T18:52:19Z",
+        "title": "Make TraceOptions optional.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 11,
+        "created_at": "2017-09-15T20:10:27Z",
+        "closed_at": "2017-09-19T20:01:08Z",
+        "title": "Update gitignore to ignore all major IDEs and editors.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 10,
+        "created_at": "2017-09-15T20:01:05Z",
+        "closed_at": "2017-09-19T20:00:49Z",
+        "title": "Add a minimal README.md.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 9,
+        "created_at": "2017-09-12T19:27:30Z",
+        "closed_at": "2017-09-12T20:05:40Z",
+        "title": "remove extra `)`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 8,
+        "created_at": "2017-09-08T18:25:26Z",
+        "closed_at": "2018-08-07T18:58:46Z",
+        "title": "Do we need sampling to be more than one bit in trace-parent to define priority",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 7,
+        "created_at": "2017-07-20T18:16:46Z",
+        "closed_at": "2018-03-28T18:56:24Z",
+        "title": "List all the libraries that are willing to use this format",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 6,
+        "created_at": "2017-07-14T06:15:05Z",
+        "closed_at": "2018-05-02T08:13:53Z",
+        "title": "Describe strategies used to work with sites who don't have fixed-width IDs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5,
+        "created_at": "2017-07-11T07:36:46Z",
+        "closed_at": null,
+        "title": "Discuss Binary Format",
+        "labels": [
+          {
+            "id": 918188204,
+            "node_id": "MDU6TGFiZWw5MTgxODgyMDQ=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context",
+            "name": "trace-context",
+            "color": "d8ea8f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4,
+        "created_at": "2017-04-10T18:15:11Z",
+        "closed_at": "2018-03-26T13:11:17Z",
+        "title": "List all the projects that are willing to change and use this format",
+        "labels": [
+          {
+            "id": 566433570,
+            "node_id": "MDU6TGFiZWw1NjY0MzM1NzA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": "bogdandrutu",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3,
+        "created_at": "2017-04-10T18:11:35Z",
+        "closed_at": "2017-07-14T13:38:54Z",
+        "title": "Little endian vs Big endian",
+        "labels": [
+          {
+            "id": 566433570,
+            "node_id": "MDU6TGFiZWw1NjY0MzM1NzA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": "bogdandrutu",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2,
+        "created_at": "2017-04-10T18:06:53Z",
+        "closed_at": "2018-03-21T16:43:44Z",
+        "title": "Special character between trace context fieds",
+        "labels": [
+          {
+            "id": 566433570,
+            "node_id": "MDU6TGFiZWw1NjY0MzM1NzA=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": "bogdandrutu",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1,
+        "created_at": "2017-03-31T20:17:49Z",
+        "closed_at": "2017-09-06T17:36:49Z",
+        "title": "Add the HTTP header format proposal for TraceContext propagation.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      }
+    ]
   }
 }
