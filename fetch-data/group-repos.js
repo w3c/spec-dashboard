@@ -12,16 +12,11 @@ const ghCache = {};
 const httpIze = u => u.replace(/^https:/, 'http:');
 
 const queueGhRequest = function(url) {
-    return queue.add(function() {
+    if (!ghCache[url]) {
+      ghCache[url] = queue.add(function() {
         return new Promise(function (resolve, reject) {
-            if (ghCache[url]) {
-                if (ghCache[url].nextPage) {
-                    return queueGhRequest(ghCache[url].nextPage).then(obj => resolve(ghCache[url].responseObject.concat(obj))).catch(reject);
-                } else {
-                    return resolve(ghCache[url].responseObject);
-                }
-            }
             setTimeout(function() {
+                console.log("requesting " + url);
                 request({
                     method: 'GET',
                     url: url,
@@ -54,9 +49,8 @@ const queueGhRequest = function(url) {
                             ret.nextPage = parsed.next.url;
                         }
                     }
-                    ghCache[url] = ret;
                     if (ret.nextPage) {
-                        queueGhRequest(ret.nextPage).then(obj => resolve(ret.responseObject.concat(obj))).catch(reject);
+                        ghCache[url] = queueGhRequest(ret.nextPage).then(obj => resolve(ret.responseObject.concat(obj))).catch(reject);
                     } else {
                         resolve(ret.responseObject);
                     }
@@ -64,6 +58,8 @@ const queueGhRequest = function(url) {
             }, retryAfter*1000);
         });
     });
+    }
+    return ghCache[url];
 };
 
 const urlToGHRepo = (url = "", tr_shortname) => {
