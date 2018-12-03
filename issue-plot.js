@@ -27,7 +27,7 @@ fetch("groups.json")
                                 document.querySelector("h1").textContent += " for " + groups[groupid].name;
 
                                 document.querySelector("body").appendChild(document.createElement("ol"));
-                                const annotatedSpecs = specs.map(s => {if (!repos[s.shortlink]) return s; const a = Object.assign({}, s); a.title = s.title + " (" + repos[s.shortlink].issues.filter(i => !i.isPullRequest && i.state == "open").length + " open issues)"; return a;});
+                                const annotatedSpecs = specs.map(s => {if (!repos[s.shortlink] || !repos[s.shortlink].issues) return s; const a = Object.assign({}, s); a.title = s.title + " (" + repos[s.shortlink].issues.filter(i => !i.isPullRequest && i.state == "open").length + " open issues)"; return a;});
                                 specToc(annotatedSpecs, document.querySelector("ol"), "issues.html?groupdi=" + groupid + "&shortname=");
                             } else {
                                 const spec = specs.filter(s => s.shortname === shortname)[0];
