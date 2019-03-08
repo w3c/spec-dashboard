@@ -85,6 +85,10 @@ const urlToGHRepo = (url = "", tr_shortname) => {
     if (rawgit) {
         return {owner: rawgit[1], name: rawgit[2], issuefilter: nofilter};
     }
+    const staticaly = url.match(/^https:\/\/cdn.staticaly.com\/gh\/([^\/]*)\/([^\/]*)/);
+    if (staticaly) {
+        return {owner: staticaly[1], name: staticaly[2], issuefilter: nofilter};
+    }
     const whatwg = url.match(/https:\/\/([^\.]*).spec.whatwg.org\//);
     if (whatwg) {
         return {owner: "whatwg", name: whatwg[1], issuefilter: nofilter};
