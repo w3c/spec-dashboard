@@ -7,6 +7,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 42,
+        "created_at": "2019-02-02T01:20:45Z",
+        "closed_at": null,
+        "title": "Need mappings for meter role",
+        "labels": [],
+        "assignee": "joanmarie",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 41,
+        "created_at": "2019-01-31T04:02:58Z",
+        "closed_at": "2019-02-05T19:14:36Z",
+        "title": "Update UIA state and property change events for accuracy",
+        "labels": [],
+        "assignee": "joanmarie",
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 40,
         "created_at": "2018-12-18T18:33:32Z",
@@ -101,8 +121,17 @@
         "created_at": "2018-11-09T19:48:15Z",
         "closed_at": null,
         "title": "Review UIA events for ARIA state/property changes",
-        "labels": [],
-        "assignee": "melanierichards",
+        "labels": [
+          {
+            "id": 1221988328,
+            "node_id": "MDU6TGFiZWwxMjIxOTg4MzI4",
+            "url": "https://api.github.com/repos/w3c/core-aam/labels/needs-tests",
+            "name": "needs-tests",
+            "color": "0415a5",
+            "default": false
+          }
+        ],
+        "assignee": "joanmarie",
         "isPullRequest": false
       },
       {
@@ -500,19 +529,318 @@
     "issues": [
       {
         "state": "open",
-        "number": 893,
-        "created_at": "2019-01-25T00:23:24Z",
+        "number": 914,
+        "created_at": "2019-03-14T18:24:35Z",
         "closed_at": null,
-        "title": "The ARIA 1.1 Combobox design pattern endorses unlabelled form fields as normative spec.",
+        "title": "Unclear sentence in editor's note in scrollbar role",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
         "state": "open",
+        "number": 913,
+        "created_at": "2019-02-28T19:20:47Z",
+        "closed_at": null,
+        "title": "Consider a quick way for authors to note which roles etc have a host language equivalent?",
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 912,
+        "created_at": "2019-02-27T13:24:49Z",
+        "closed_at": "2019-02-27T13:57:00Z",
+        "title": "Editorial: Fix invalid HTML markup in an example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 911,
+        "created_at": "2019-02-25T16:42:15Z",
+        "closed_at": null,
+        "title": "Issue 875 need role for fieldeset/legend",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 910,
+        "created_at": "2019-02-25T09:01:26Z",
+        "closed_at": null,
+        "title": "nested role=tree",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 909,
+        "created_at": "2019-02-23T23:16:46Z",
+        "closed_at": null,
+        "title": "Clarify combobox label placement",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 908,
+        "created_at": "2019-02-21T21:02:28Z",
+        "closed_at": null,
+        "title": "Consider new abstract role \"phrase\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 907,
+        "created_at": "2019-02-21T16:35:34Z",
+        "closed_at": null,
+        "title": "Progressmeter/scrubber for audio/video not well handled in ARIA",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 906,
+        "created_at": "2019-02-20T23:18:05Z",
+        "closed_at": null,
+        "title": "Add Translatable Attributes section",
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 905,
+        "created_at": "2019-02-20T13:14:03Z",
+        "closed_at": null,
+        "title": "Need role(s) for semantic emphasis (parity for strong and em elements)",
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false
+          },
+          {
+            "id": 823959942,
+            "node_id": "MDU6TGFiZWw4MjM5NTk5NDI=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/role-parity",
+            "name": "role-parity",
+            "color": "2dce93",
+            "default": false
+          }
+        ],
+        "assignee": "joanmarie",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 904,
+        "created_at": "2019-02-20T13:04:02Z",
+        "closed_at": "2019-02-21T19:05:48Z",
+        "title": "Add the subscript and superscript roles",
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false
+          }
+        ],
+        "assignee": "joanmarie",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 903,
+        "created_at": "2019-02-19T21:59:18Z",
+        "closed_at": null,
+        "title": "Fix issue #553: rowgroup role-description of required context roles mismatches characteristics table",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 902,
+        "created_at": "2019-02-19T18:03:31Z",
+        "closed_at": "2019-02-19T21:09:30Z",
+        "title": "Question about image with alt=\"\" and aria-label=\"foo\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 901,
+        "created_at": "2019-02-13T19:44:41Z",
+        "closed_at": null,
+        "title": "Add additional details regarding the new caption role",
+        "labels": [],
+        "assignee": "joanmarie",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 900,
+        "created_at": "2019-02-13T18:32:53Z",
+        "closed_at": null,
+        "title": "Change references from W3C to WHATWG version of HTML spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 899,
+        "created_at": "2019-02-12T05:45:32Z",
+        "closed_at": null,
+        "title": "ARIA Spec could be more flexible when elements with \"nameFrom:author\" are left unlabeled by the author",
+        "labels": [
+          {
+            "id": 1254875463,
+            "node_id": "MDU6TGFiZWwxMjU0ODc1NDYz",
+            "url": "https://api.github.com/repos/w3c/aria/labels/F2F",
+            "name": "F2F",
+            "color": "f9d3c2",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 898,
+        "created_at": "2019-02-07T19:39:12Z",
+        "closed_at": null,
+        "title": "Need an aria-datetime attribute for parity with HTML datetime attr",
+        "labels": [
+          {
+            "id": 1059926915,
+            "node_id": "MDU6TGFiZWwxMDU5OTI2OTE1",
+            "url": "https://api.github.com/repos/w3c/aria/labels/attribute-parity",
+            "name": "attribute-parity",
+            "color": "1de0d9",
+            "default": false
+          }
+        ],
+        "assignee": "melanierichards",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 897,
+        "created_at": "2019-02-02T01:34:50Z",
+        "closed_at": "2019-02-07T19:05:16Z",
+        "title": "Remove contents as a supported name source for rowgroup",
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 896,
+        "created_at": "2019-02-01T22:28:27Z",
+        "closed_at": null,
+        "title": "Should rowgroup really support name from: contents?",
+        "labels": [
+          {
+            "id": 1217830541,
+            "node_id": "MDU6TGFiZWwxMjE3ODMwNTQx",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Needs%20implementations",
+            "name": "Needs implementations",
+            "color": "d69bef",
+            "default": false
+          }
+        ],
+        "assignee": "joanmarie",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 895,
+        "created_at": "2019-01-31T17:43:24Z",
+        "closed_at": null,
+        "title": "Add new time role",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 894,
+        "created_at": "2019-01-30T20:39:44Z",
+        "closed_at": "2019-01-31T19:08:24Z",
+        "title": "Change the superclass of range from widget to structure",
+        "labels": [],
+        "assignee": "joanmarie",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 893,
+        "created_at": "2019-01-25T00:23:24Z",
+        "closed_at": null,
+        "title": "The ARIA 1.1 Combobox design pattern endorses unlabelled form fields as normative spec.",
+        "labels": [
+          {
+            "id": 1254875463,
+            "node_id": "MDU6TGFiZWwxMjU0ODc1NDYz",
+            "url": "https://api.github.com/repos/w3c/aria/labels/F2F",
+            "name": "F2F",
+            "color": "f9d3c2",
+            "default": false
+          }
+        ],
+        "assignee": "accdc",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 892,
         "created_at": "2019-01-24T18:50:32Z",
-        "closed_at": null,
+        "closed_at": "2019-01-31T19:10:56Z",
         "title": "Range should subclass structure rather than widget",
         "labels": [],
         "assignee": "joanmarie",
@@ -549,18 +877,34 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 888,
         "created_at": "2019-01-15T21:29:07Z",
-        "closed_at": null,
+        "closed_at": "2019-02-02T01:12:36Z",
         "title": "Add 'meter' role",
         "labels": [
           {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
+            "id": 1217829987,
+            "node_id": "MDU6TGFiZWwxMjE3ODI5OTg3",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Needs%20authoring%20guidance",
+            "name": "Needs authoring guidance",
+            "color": "e59475",
+            "default": false
+          },
+          {
+            "id": 1217830541,
+            "node_id": "MDU6TGFiZWwxMjE3ODMwNTQx",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Needs%20implementations",
+            "name": "Needs implementations",
+            "color": "d69bef",
+            "default": false
+          },
+          {
+            "id": 1217829890,
+            "node_id": "MDU6TGFiZWwxMjE3ODI5ODkw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Needs%20mappings",
+            "name": "Needs mappings",
+            "color": "fcbff4",
             "default": false
           }
         ],
@@ -591,7 +935,7 @@
         "number": 886,
         "created_at": "2019-01-14T15:37:20Z",
         "closed_at": null,
-        "title": "Issue 867: add draft specification for role label",
+        "title": "Issue 876: add draft specification for role label",
         "labels": [
           {
             "id": 1126891910,
@@ -719,6 +1063,14 @@
         "title": "need role for time element",
         "labels": [
           {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false
+          },
+          {
             "id": 823959942,
             "node_id": "MDU6TGFiZWw4MjM5NTk5NDI=",
             "url": "https://api.github.com/repos/w3c/aria/labels/role-parity",
@@ -738,6 +1090,30 @@
         "title": "need role for sub and sup",
         "labels": [
           {
+            "id": 1217829987,
+            "node_id": "MDU6TGFiZWwxMjE3ODI5OTg3",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Needs%20authoring%20guidance",
+            "name": "Needs authoring guidance",
+            "color": "e59475",
+            "default": false
+          },
+          {
+            "id": 1217830541,
+            "node_id": "MDU6TGFiZWwxMjE3ODMwNTQx",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Needs%20implementations",
+            "name": "Needs implementations",
+            "color": "d69bef",
+            "default": false
+          },
+          {
+            "id": 1217829890,
+            "node_id": "MDU6TGFiZWwxMjE3ODI5ODkw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Needs%20mappings",
+            "name": "Needs mappings",
+            "color": "fcbff4",
+            "default": false
+          },
+          {
             "id": 823959942,
             "node_id": "MDU6TGFiZWw4MjM5NTk5NDI=",
             "url": "https://api.github.com/repos/w3c/aria/labels/role-parity",
@@ -746,7 +1122,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "joanmarie",
         "isPullRequest": false
       },
       {
@@ -803,7 +1179,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "schne324",
         "isPullRequest": false
       },
       {
@@ -814,6 +1190,14 @@
         "title": "Need cite role",
         "labels": [
           {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false
+          },
+          {
             "id": 823959942,
             "node_id": "MDU6TGFiZWw4MjM5NTk5NDI=",
             "url": "https://api.github.com/repos/w3c/aria/labels/role-parity",
@@ -822,14 +1206,14 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "pkra",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 872,
         "created_at": "2019-01-09T21:32:42Z",
-        "closed_at": null,
+        "closed_at": "2019-03-02T00:01:07Z",
         "title": "Create address role",
         "labels": [
           {
@@ -841,14 +1225,14 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "jnurthen",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 871,
         "created_at": "2019-01-08T03:52:52Z",
-        "closed_at": null,
+        "closed_at": "2019-02-20T23:15:21Z",
         "title": "\"Placeholder for compact list of roles\" appears under 5.4 Definition of Roles ",
         "labels": [],
         "assignee": null,
@@ -1266,7 +1650,16 @@
         "created_at": "2018-10-26T14:06:48Z",
         "closed_at": null,
         "title": "Consider prohibiting author naming certain roles",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1254875463,
+            "node_id": "MDU6TGFiZWwxMjU0ODc1NDYz",
+            "url": "https://api.github.com/repos/w3c/aria/labels/F2F",
+            "name": "F2F",
+            "color": "f9d3c2",
+            "default": false
+          }
+        ],
         "assignee": "carmacleod",
         "isPullRequest": false
       },
@@ -1640,7 +2033,7 @@
         "number": 805,
         "created_at": "2018-08-20T20:03:21Z",
         "closed_at": null,
-        "title": "initial draft for issue #699",
+        "title": "initial draft for role=\"generic\" issue #699",
         "labels": [
           {
             "id": 1055957797,
@@ -2582,10 +2975,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 731,
         "created_at": "2018-05-03T20:46:11Z",
-        "closed_at": null,
+        "closed_at": "2019-03-07T19:28:44Z",
         "title": "aria-hidden content misleading",
         "labels": [],
         "assignee": null,
@@ -2756,7 +3149,7 @@
         "closed_at": null,
         "title": "Combobox: aria-controls or owns should be on input, not on combobox element, and only when combobox is expanded",
         "labels": [],
-        "assignee": null,
+        "assignee": "mcking65",
         "isPullRequest": false
       },
       {
@@ -6994,10 +7387,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 501,
         "created_at": "2016-12-14T20:41:17Z",
-        "closed_at": null,
+        "closed_at": "2019-02-24T17:27:04Z",
         "title": "Allow null value of aria-activedescendent when element does not have DOM focus",
         "labels": [
           {
@@ -7738,7 +8131,7 @@
         "number": 451,
         "created_at": "2016-10-10T22:19:06Z",
         "closed_at": null,
-        "title": "[BLOCKED] New ARIA role for a <meter> element?",
+        "title": "New ARIA role for a <meter> element?",
         "labels": [
           {
             "id": 468533483,
@@ -15321,6 +15714,387 @@
     "issues": [
       {
         "state": "open",
+        "number": 1000,
+        "created_at": "2019-03-14T17:57:10Z",
+        "closed_at": null,
+        "title": "Guidelines for range related properties",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 999,
+        "created_at": "2019-03-10T17:08:00Z",
+        "closed_at": null,
+        "title": "Navigation Treeview Example - need help with deciding where to put aria-expanded",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 998,
+        "created_at": "2019-03-08T18:23:09Z",
+        "closed_at": null,
+        "title": "Toolbar Example: Add missing descriptive tooltips #986 fix",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 997,
+        "created_at": "2019-03-08T16:30:58Z",
+        "closed_at": null,
+        "title": "Fixing spelling mistake in comments",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 996,
+        "created_at": "2019-03-04T14:14:41Z",
+        "closed_at": null,
+        "title": "Terms accessible name, accessible label, label, may not be familiar to readers",
+        "labels": [
+          {
+            "id": 365998393,
+            "node_id": "MDU6TGFiZWwzNjU5OTgzOTM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 995,
+        "created_at": "2019-03-03T05:44:02Z",
+        "closed_at": "2019-03-04T16:29:31Z",
+        "title": "Add aria-labelledby on every section which already has a visible heading?",
+        "labels": [
+          {
+            "id": 354259936,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 994,
+        "created_at": "2019-02-28T13:48:04Z",
+        "closed_at": null,
+        "title": "Guideline for labeling and describing",
+        "labels": [],
+        "assignee": "mcking65",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 993,
+        "created_at": "2019-02-26T20:11:07Z",
+        "closed_at": "2019-02-27T08:10:56Z",
+        "title": "Add allow_failures to Travis",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 992,
+        "created_at": "2019-02-25T17:44:59Z",
+        "closed_at": null,
+        "title": "Deployment is canceled because Regression Tests Coverage Report job fails",
+        "labels": [
+          {
+            "id": 1170021553,
+            "node_id": "MDU6TGFiZWwxMTcwMDIxNTUz",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Build%20Process",
+            "name": "Build Process",
+            "color": "8ad34a",
+            "default": false
+          },
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 991,
+        "created_at": "2019-02-24T11:11:21Z",
+        "closed_at": null,
+        "title": "The solution for handling top-level menu items which are also hyperlinks?",
+        "labels": [
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/code%20example",
+            "name": "code example",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          },
+          {
+            "id": 354259936,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 990,
+        "created_at": "2019-02-24T03:14:32Z",
+        "closed_at": null,
+        "title": "Example of ARIA 1.1 combobox without autoselect",
+        "labels": [
+          {
+            "id": 354259936,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": "mcking65",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 989,
+        "created_at": "2019-02-18T04:28:46Z",
+        "closed_at": null,
+        "title": "Navigation Menu Button: menuitem role automatically hides semantics?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 988,
+        "created_at": "2019-02-16T05:50:42Z",
+        "closed_at": null,
+        "title": "Combobox Example 3: List with Inline Autocomplete doesn't work with mouse",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 987,
+        "created_at": "2019-02-10T04:54:23Z",
+        "closed_at": null,
+        "title": "Toolbar Example: Make clicking padding move focus into toolbar",
+        "labels": [
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/code%20example",
+            "name": "code example",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          },
+          {
+            "id": 717037865,
+            "node_id": "MDU6TGFiZWw3MTcwMzc4NjU=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "b60205",
+            "default": true
+          },
+          {
+            "id": 354259934,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzQ=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "128A0C",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 986,
+        "created_at": "2019-02-10T04:47:28Z",
+        "closed_at": null,
+        "title": "Toolbar Example: Add missing descriptive tooltips",
+        "labels": [
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/code%20example",
+            "name": "code example",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          },
+          {
+            "id": 717037865,
+            "node_id": "MDU6TGFiZWw3MTcwMzc4NjU=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "b60205",
+            "default": true
+          },
+          {
+            "id": 354259934,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzQ=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "128A0C",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 985,
+        "created_at": "2019-02-10T02:23:30Z",
+        "closed_at": "2019-02-11T19:05:38Z",
+        "title": "Training PR -- For Review Tutorial on Feb 11, 2019 -- will be closed without merge after tutorial",
+        "labels": [],
+        "assignee": "annabbott",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 984,
+        "created_at": "2019-02-06T15:38:30Z",
+        "closed_at": "2019-02-06T20:32:55Z",
+        "title": "fix broken links reported by link checker",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 983,
+        "created_at": "2019-02-05T09:37:10Z",
+        "closed_at": null,
+        "title": "ARIA 1.1 Combobox with Listbox Popup Examples - Mouse Hover style vs key board selection style",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 982,
+        "created_at": "2019-02-05T08:22:34Z",
+        "closed_at": null,
+        "title": "ARIA 1.1 Combobox with Listbox Popup Examples - issue with onBlur",
+        "labels": [
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/code%20example",
+            "name": "code example",
+            "color": "006b75",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 981,
+        "created_at": "2019-02-04T22:00:05Z",
+        "closed_at": "2019-02-04T23:14:42Z",
+        "title": "Stylelint 2",
+        "labels": [],
+        "assignee": "mcking65",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 980,
+        "created_at": "2019-02-04T19:44:17Z",
+        "closed_at": "2019-02-04T19:46:55Z",
+        "title": "Stylelint (clean)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 979,
+        "created_at": "2019-02-02T01:24:19Z",
+        "closed_at": null,
+        "title": "Guidance for the new meter role",
+        "labels": [
+          {
+            "id": 525882854,
+            "node_id": "MDU6TGFiZWw1MjU4ODI4NTQ=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/pattern",
+            "name": "pattern",
+            "color": "006b75",
+            "default": false
+          }
+        ],
+        "assignee": "jnurthen",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 978,
         "created_at": "2019-01-28T17:58:34Z",
         "closed_at": null,
@@ -15912,10 +16686,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 946,
         "created_at": "2018-11-22T16:02:18Z",
-        "closed_at": null,
+        "closed_at": "2019-02-04T21:54:52Z",
         "title": "Add Stylelint",
         "labels": [],
         "assignee": "mcking65",
@@ -16099,10 +16873,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 935,
         "created_at": "2018-10-29T02:04:17Z",
-        "closed_at": null,
+        "closed_at": "2019-02-10T05:03:22Z",
         "title": "Add Landmarks browser extension to Landmarks example Resources page",
         "labels": [
           {
@@ -16155,11 +16929,11 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 932,
         "created_at": "2018-10-23T21:16:29Z",
-        "closed_at": null,
-        "title": "Break: AGP Styles in (CSS) demo files.",
+        "closed_at": "2019-02-04T23:19:09Z",
+        "title": "Example CSS files do not conform with APG coding guidelines",
         "labels": [
           {
             "id": 431710669,
@@ -16168,6 +16942,22 @@
             "name": "Feedback",
             "color": "d93f0b",
             "default": false
+          },
+          {
+            "id": 521362776,
+            "node_id": "MDU6TGFiZWw1MjEzNjI3NzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Maintenance",
+            "name": "Maintenance",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
           }
         ],
         "assignee": null,
@@ -17278,10 +18068,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 848,
         "created_at": "2018-08-21T05:17:24Z",
-        "closed_at": null,
+        "closed_at": "2019-02-10T08:43:12Z",
         "title": "Separate test and build by exploiting checks API",
         "labels": [
           {
@@ -17404,7 +18194,7 @@
         "closed_at": null,
         "title": "build: Initial cSpell setup",
         "labels": [],
-        "assignee": null,
+        "assignee": "sh0ji",
         "isPullRequest": true
       },
       {
@@ -18221,10 +19011,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 792,
         "created_at": "2018-07-20T06:24:06Z",
-        "closed_at": null,
+        "closed_at": "2019-02-10T08:05:45Z",
         "title": "examples.js: Closing `li` tag omitted from HTML source display when `li` is empty and has role separator",
         "labels": [
           {
@@ -19014,10 +19804,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 752,
         "created_at": "2018-07-02T19:52:59Z",
-        "closed_at": null,
+        "closed_at": "2019-02-10T08:07:49Z",
         "title": "Create utility to index the roles, properties and states used in examples",
         "labels": [
           {
@@ -19931,10 +20721,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 704,
         "created_at": "2018-06-05T19:41:45Z",
-        "closed_at": null,
+        "closed_at": "2019-02-10T08:01:35Z",
         "title": "Spinbutton: What should aria-valuenow be when a user gives invalid input, when should it update?",
         "labels": [
           {
@@ -23971,10 +24761,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 539,
         "created_at": "2017-11-26T05:40:20Z",
-        "closed_at": null,
+        "closed_at": "2019-02-10T04:59:34Z",
         "title": "Review toolbar example",
         "labels": [
           {
@@ -23994,7 +24784,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "mcking65",
         "isPullRequest": false
       },
       {
@@ -24069,17 +24859,9 @@
             "name": "code example",
             "color": "006b75",
             "default": false
-          },
-          {
-            "id": 354259934,
-            "node_id": "MDU6TGFiZWwzNTQyNTk5MzQ=",
-            "url": "https://api.github.com/repos/w3c/aria-practices/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "128A0C",
-            "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "jongund",
         "isPullRequest": false
       },
       {
@@ -29573,7 +30355,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "spectranaut",
         "isPullRequest": false
       },
       {
@@ -29600,7 +30382,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "zcorpan",
         "isPullRequest": false
       },
       {
@@ -29681,7 +30463,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "spectranaut",
         "isPullRequest": false
       },
       {
@@ -29708,7 +30490,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "zcorpan",
         "isPullRequest": false
       },
       {
@@ -33124,7 +33906,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "zcorpan",
         "isPullRequest": false
       },
       {
@@ -33232,7 +34014,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "zcorpan",
         "isPullRequest": false
       },
       {
@@ -33483,7 +34265,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "jongund",
         "isPullRequest": false
       },
       {
@@ -33697,10 +34479,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 43,
         "created_at": "2016-05-10T00:33:29Z",
-        "closed_at": null,
+        "closed_at": "2019-02-10T07:49:50Z",
         "title": "Draft carousel design pattern",
         "labels": [
           {
@@ -33911,7 +34693,7 @@
         "number": 34,
         "created_at": "2016-04-30T21:25:02Z",
         "closed_at": null,
-        "title": "Develop example of Date Picker design pattern",
+        "title": "Develop example of date picker design pattern using a combobox that opens a dialog",
         "labels": [
           {
             "id": 366736938,
@@ -34586,10 +35368,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3,
         "created_at": "2016-04-29T03:03:31Z",
-        "closed_at": null,
+        "closed_at": "2019-02-10T08:37:10Z",
         "title": "Clean up “common” folder",
         "labels": [
           {
