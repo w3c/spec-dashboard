@@ -8,9 +8,82 @@
     "issues": [
       {
         "state": "open",
+        "number": 149,
+        "created_at": "2019-03-22T18:43:53Z",
+        "closed_at": null,
+        "title": "DocumentLoader should be more visible in the specs",
+        "labels": [
+          {
+            "id": 965702764,
+            "node_id": "MDU6TGFiZWw5NjU3MDI3NjQ=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "58820a",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 148,
+        "created_at": "2019-03-22T18:37:49Z",
+        "closed_at": null,
+        "title": "Add security considerations section for URI schemes",
+        "labels": [
+          {
+            "id": 965701772,
+            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/hr:security",
+            "name": "hr:security",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 965702764,
+            "node_id": "MDU6TGFiZWw5NjU3MDI3NjQ=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "58820a",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 147,
+        "created_at": "2019-03-22T18:32:59Z",
+        "closed_at": null,
+        "title": "Add security consideration about IRI concatenation",
+        "labels": [
+          {
+            "id": 965701772,
+            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/hr:security",
+            "name": "hr:security",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 965702764,
+            "node_id": "MDU6TGFiZWw5NjU3MDI3NjQ=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "58820a",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 146,
         "created_at": "2019-03-20T05:53:52Z",
-        "closed_at": null,
+        "closed_at": "2019-03-21T10:05:58Z",
         "title": "typo (?) in section 9 intro - https://w3c.github.io/json-ld-syntax/#json-ld-grammar",
         "labels": [],
         "assignee": null,
@@ -129,7 +202,16 @@
         "created_at": "2019-02-21T23:07:24Z",
         "closed_at": null,
         "title": "Rename `@sealed` to `@protected`",
-        "labels": [],
+        "labels": [
+          {
+            "id": 965703045,
+            "node_id": "MDU6TGFiZWw5NjU3MDMwNDU=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:enhancement",
+            "name": "spec:enhancement",
+            "color": "c11537",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -139,7 +221,16 @@
         "created_at": "2019-02-21T23:00:46Z",
         "closed_at": null,
         "title": "Additional restriction to `@sealed` term clearing",
-        "labels": [],
+        "labels": [
+          {
+            "id": 965703045,
+            "node_id": "MDU6TGFiZWw5NjU3MDMwNDU=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:enhancement",
+            "name": "spec:enhancement",
+            "color": "c11537",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -159,7 +250,16 @@
         "created_at": "2019-02-20T18:40:11Z",
         "closed_at": null,
         "title": "Does HTML's `<base>` effect `@context` IRI resolution?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 965702764,
+            "node_id": "MDU6TGFiZWw5NjU3MDI3NjQ=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "58820a",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -209,7 +309,16 @@
         "created_at": "2019-02-11T22:31:32Z",
         "closed_at": null,
         "title": "Define term without @id if term previously defined",
-        "labels": [],
+        "labels": [
+          {
+            "id": 965703045,
+            "node_id": "MDU6TGFiZWw5NjU3MDMwNDU=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:enhancement",
+            "name": "spec:enhancement",
+            "color": "c11537",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -423,10 +532,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 116,
         "created_at": "2019-01-18T20:09:28Z",
-        "closed_at": null,
+        "closed_at": "2019-03-22T17:59:43Z",
         "title": "Allow partial definition / redefinition of terms",
         "labels": [
           {
@@ -2644,6 +2753,55 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 75,
+        "created_at": "2019-03-24T21:54:32Z",
+        "closed_at": null,
+        "title": "Round-tripping of large numbers without decimals incorrect",
+        "labels": [
+          {
+            "id": 965725360,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzNjA=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/spec:bug",
+            "name": "spec:bug",
+            "color": "ba39ce",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 74,
+        "created_at": "2019-03-23T23:52:26Z",
+        "closed_at": null,
+        "title": "compaction and expansion of indexes using a property",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 73,
+        "created_at": "2019-03-22T21:58:25Z",
+        "closed_at": "2019-03-24T00:03:46Z",
+        "title": "Add JavaScript Object property name tests.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 72,
+        "created_at": "2019-03-20T22:54:38Z",
+        "closed_at": null,
+        "title": "Support JSON Literals.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "closed",
         "number": 71,
