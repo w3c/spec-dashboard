@@ -7,10 +7,59 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 573,
+        "created_at": "2019-03-26T22:00:38Z",
+        "closed_at": "2019-03-26T22:26:45Z",
+        "title": "Allow flexible depth for screen-based ray input",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
+        "number": 572,
+        "created_at": "2019-03-26T21:30:24Z",
+        "closed_at": null,
+        "title": "Clarify cacheability of XRViews",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 570,
+        "created_at": "2019-03-25T20:52:10Z",
+        "closed_at": null,
+        "title": "Clarify behavior of buttons/axes at reserved indices",
+        "labels": [],
+        "assignee": "toji",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 569,
+        "created_at": "2019-03-23T00:29:11Z",
+        "closed_at": null,
+        "title": "Update spec and explainer to clarify pose and transform semantics",
+        "labels": [
+          {
+            "id": 1071806687,
+            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
+            "name": "agenda",
+            "color": "4ee8b2",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 568,
         "created_at": "2019-03-21T21:36:24Z",
-        "closed_at": null,
+        "closed_at": "2019-03-25T18:29:38Z",
         "title": "Validate position DOMPointInit",
         "labels": [],
         "assignee": null,
@@ -40,6 +89,14 @@
             "name": "agenda",
             "color": "4ee8b2",
             "default": false
+          },
+          {
+            "id": 1196205083,
+            "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/potential%20breaking%20change",
+            "name": "potential breaking change",
+            "color": "d32a6b",
+            "default": false
           }
         ],
         "assignee": null,
@@ -62,7 +119,7 @@
         "closed_at": null,
         "title": "requestReferenceSpace() should talk more about when you can reject the request",
         "labels": [],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -71,16 +128,7 @@
         "created_at": "2019-03-15T16:58:42Z",
         "closed_at": null,
         "title": "Indicate when compositing is using depth values",
-        "labels": [
-          {
-            "id": 1071806687,
-            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
-            "name": "agenda",
-            "color": "4ee8b2",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -112,11 +160,11 @@
         "title": "Change XRRigidTransform inverse from a method to an attribute",
         "labels": [
           {
-            "id": 1071806687,
-            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
-            "name": "agenda",
-            "color": "4ee8b2",
+            "id": 1196205083,
+            "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/potential%20breaking%20change",
+            "name": "potential breaking change",
+            "color": "d32a6b",
             "default": false
           }
         ],
@@ -129,7 +177,16 @@
         "created_at": "2019-03-12T16:43:56Z",
         "closed_at": null,
         "title": "Tracking loss and tracking recovery",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1071806687,
+            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
+            "name": "agenda",
+            "color": "4ee8b2",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -494,16 +551,7 @@
         "created_at": "2019-02-15T23:59:02Z",
         "closed_at": "2019-02-19T18:15:45Z",
         "title": "Changed XRHandedness enum to use 'none' instead of ''",
-        "labels": [
-          {
-            "id": 1071806687,
-            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
-            "name": "agenda",
-            "color": "4ee8b2",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -582,7 +630,16 @@
         "created_at": "2019-02-12T17:59:35Z",
         "closed_at": null,
         "title": " Add verticalFieldOfView to XRRenderState",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1071806687,
+            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
+            "name": "agenda",
+            "color": "4ee8b2",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -852,14 +909,6 @@
         "closed_at": "2019-03-01T18:10:01Z",
         "title": "Gamepad-based button/axis state",
         "labels": [
-          {
-            "id": 1071806687,
-            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
-            "name": "agenda",
-            "color": "4ee8b2",
-            "default": false
-          },
           {
             "id": 1251569453,
             "node_id": "MDU6TGFiZWwxMjUxNTY5NDUz",
@@ -1166,16 +1215,7 @@
         "created_at": "2019-01-15T05:20:39Z",
         "closed_at": "2019-02-01T19:52:38Z",
         "title": "Add renderId to XRInputSource",
-        "labels": [
-          {
-            "id": 1071806687,
-            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
-            "name": "agenda",
-            "color": "4ee8b2",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": "toji",
         "isPullRequest": true
       },
@@ -1451,16 +1491,7 @@
         "created_at": "2019-01-04T02:06:10Z",
         "closed_at": "2019-02-01T19:54:30Z",
         "title": "Custom interface for controller button/axis state (Variant A)",
-        "labels": [
-          {
-            "id": 1071806687,
-            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
-            "name": "agenda",
-            "color": "4ee8b2",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": "toji",
         "isPullRequest": true
       },
