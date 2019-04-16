@@ -8,6 +8,44 @@
     "issues": [
       {
         "state": "open",
+        "number": 589,
+        "created_at": "2019-04-15T22:18:26Z",
+        "closed_at": null,
+        "title": "Change originOffset w/ Reference Space constructor",
+        "labels": [
+          {
+            "id": 1196205083,
+            "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/potential%20breaking%20change",
+            "name": "potential breaking change",
+            "color": "d32a6b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 588,
+        "created_at": "2019-04-15T18:16:55Z",
+        "closed_at": null,
+        "title": "Mark up readonly attributes with `[SameObject]` wherever applicable",
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/good%20starter%20bug",
+            "name": "good starter bug",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 587,
         "created_at": "2019-04-12T22:51:51Z",
         "closed_at": null,
@@ -17,20 +55,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 586,
         "created_at": "2019-04-12T22:09:14Z",
-        "closed_at": null,
+        "closed_at": "2019-04-15T19:36:35Z",
         "title": "`inverse` attribute always returns the same object",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 585,
         "created_at": "2019-04-12T21:56:56Z",
-        "closed_at": null,
+        "closed_at": "2019-04-15T18:03:31Z",
         "title": "Reject outstanding promises on session shut down",
         "labels": [],
         "assignee": null,
@@ -91,7 +129,24 @@
         "created_at": "2019-04-02T17:25:17Z",
         "closed_at": null,
         "title": "Should origin offset be a new reference space instead?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1071806687,
+            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
+            "name": "agenda",
+            "color": "4ee8b2",
+            "default": false
+          },
+          {
+            "id": 1196205083,
+            "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/potential%20breaking%20change",
+            "name": "potential breaking change",
+            "color": "d32a6b",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -126,10 +181,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 576,
         "created_at": "2019-04-01T22:58:48Z",
-        "closed_at": null,
+        "closed_at": "2019-04-15T19:36:35Z",
         "title": "Should XRRigidTransform.inverse.inverse return the original object?",
         "labels": [],
         "assignee": null,
@@ -352,10 +407,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 556,
         "created_at": "2019-03-11T16:48:16Z",
-        "closed_at": null,
+        "closed_at": "2019-04-15T18:03:31Z",
         "title": "Clarify/Add requirement to explicitly reject promises in error cases",
         "labels": [],
         "assignee": "toji",
@@ -1061,14 +1116,6 @@
         "title": "Consider removing utility functions / properties from the spec",
         "labels": [
           {
-            "id": 1071806687,
-            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
-            "name": "agenda",
-            "color": "4ee8b2",
-            "default": false
-          },
-          {
             "id": 1196205083,
             "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/potential%20breaking%20change",
@@ -1336,6 +1383,14 @@
             "name": "editor triage",
             "color": "bf8733",
             "default": false
+          },
+          {
+            "id": 1196205083,
+            "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/potential%20breaking%20change",
+            "name": "potential breaking change",
+            "color": "d32a6b",
+            "default": false
           }
         ],
         "assignee": null,
@@ -1376,16 +1431,7 @@
         "created_at": "2019-01-16T16:52:36Z",
         "closed_at": null,
         "title": "Discuss use of sensor activity as a possible fingerprinting vector.",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1395,16 +1441,7 @@
         "created_at": "2019-01-16T16:46:51Z",
         "closed_at": null,
         "title": "Define the creation of a swap chain, or remove references",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1414,16 +1451,7 @@
         "created_at": "2019-01-15T23:49:04Z",
         "closed_at": null,
         "title": "Expand the last two steps of the getViewerPose() and getInputPose() algorithms",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": "toji",
         "isPullRequest": false
       },
@@ -1433,16 +1461,7 @@
         "created_at": "2019-01-15T23:36:52Z",
         "closed_at": "2019-03-05T19:07:18Z",
         "title": "Handle passing null XRReferenceSpaces to getViewerPose() or getInputPose()",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": "toji",
         "isPullRequest": false
       },
@@ -1452,16 +1471,7 @@
         "created_at": "2019-01-15T20:23:39Z",
         "closed_at": null,
         "title": "Expand upon the XR Compositor",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1471,16 +1481,7 @@
         "created_at": "2019-01-15T20:16:51Z",
         "closed_at": null,
         "title": "Document how to poll the device pose.",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1546,16 +1547,7 @@
         "created_at": "2019-01-14T23:34:58Z",
         "closed_at": null,
         "title": "Mid-frame viewport changes need to be prevented",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1565,16 +1557,7 @@
         "created_at": "2019-01-14T23:12:10Z",
         "closed_at": "2019-02-12T22:25:28Z",
         "title": "Need some intro text for XRInputPose",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1584,16 +1567,7 @@
         "created_at": "2019-01-14T23:09:33Z",
         "closed_at": "2019-02-13T23:15:30Z",
         "title": "Need some intro text for XRInputSource",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": "toji",
         "isPullRequest": false
       },
@@ -1603,16 +1577,7 @@
         "created_at": "2019-01-14T23:01:56Z",
         "closed_at": "2019-01-15T23:25:16Z",
         "title": "Describe circumstances when an XRReferenceSpace might be rejected",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1622,16 +1587,7 @@
         "created_at": "2019-01-14T22:22:25Z",
         "closed_at": "2019-02-19T23:47:52Z",
         "title": "Need to define the Normalize step for XRRigidTransform",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": "toji",
         "isPullRequest": false
       },
@@ -1641,16 +1597,7 @@
         "created_at": "2019-01-11T16:37:59Z",
         "closed_at": null,
         "title": "Describe circumstances when a reference space type might be rejected.",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1660,16 +1607,7 @@
         "created_at": "2019-01-10T17:43:27Z",
         "closed_at": null,
         "title": "Restrictions on an immersive session",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1679,16 +1617,7 @@
         "created_at": "2019-01-10T17:32:39Z",
         "closed_at": null,
         "title": "Document effects when session is blurred",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1698,16 +1627,7 @@
         "created_at": "2019-01-10T16:49:10Z",
         "closed_at": null,
         "title": "Document what happens when the session has ended",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1727,16 +1647,7 @@
         "created_at": "2019-01-10T16:35:54Z",
         "closed_at": null,
         "title": "Document how the list of active input sources is maintained",
-        "labels": [
-          {
-            "id": 1193367986,
-            "node_id": "MDU6TGFiZWwxMTkzMzY3OTg2",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editorial%20issue",
-            "name": "editorial issue",
-            "color": "bfdadc",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3302,7 +3213,16 @@
         "created_at": "2017-12-14T03:58:56Z",
         "closed_at": null,
         "title": "Should the Feature Policy feature name be changed from \"vr\"?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1299505662,
+            "node_id": "MDU6TGFiZWwxMjk5NTA1NjYy",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editor%20triage",
+            "name": "editor triage",
+            "color": "bf8733",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
