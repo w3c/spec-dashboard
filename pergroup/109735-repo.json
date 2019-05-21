@@ -8,6 +8,76 @@
     "issues": [
       {
         "state": "open",
+        "number": 662,
+        "created_at": "2019-05-21T00:56:03Z",
+        "closed_at": null,
+        "title": "Update Explainer Text for new requestReferenceSpace modes names",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 661,
+        "created_at": "2019-05-20T23:28:09Z",
+        "closed_at": null,
+        "title": "Better define gamepad placeholder buttons and axes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 660,
+        "created_at": "2019-05-20T23:00:52Z",
+        "closed_at": null,
+        "title": "Clarify what value a touchpad should report when not being touched.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 659,
+        "created_at": "2019-05-20T21:53:15Z",
+        "closed_at": "2019-05-20T22:45:35Z",
+        "title": "Rename getPose arg referenceSpace->baseSpace",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 658,
+        "created_at": "2019-05-20T21:34:30Z",
+        "closed_at": null,
+        "title": "Inconsistency between explainer and spec for inline sessions with no device.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 657,
+        "created_at": "2019-05-17T22:17:53Z",
+        "closed_at": "2019-05-20T20:22:25Z",
+        "title": "Properly format conditionals",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 656,
+        "created_at": "2019-05-17T21:00:58Z",
+        "closed_at": null,
+        "title": "Single-canvas inline, drop XRPresentationContext",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 655,
         "created_at": "2019-05-17T00:55:26Z",
         "closed_at": null,
@@ -17,10 +87,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 654,
         "created_at": "2019-05-17T00:04:28Z",
-        "closed_at": null,
+        "closed_at": "2019-05-17T21:37:36Z",
         "title": "Some matrix clarifications",
         "labels": [],
         "assignee": null,
@@ -47,10 +117,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 651,
         "created_at": "2019-05-16T00:49:23Z",
-        "closed_at": null,
+        "closed_at": "2019-05-17T21:45:36Z",
         "title": "Explicitly spec out when requestReferenceSpace() can reject queries",
         "labels": [],
         "assignee": null,
@@ -87,10 +157,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 647,
         "created_at": "2019-05-14T23:29:07Z",
-        "closed_at": null,
+        "closed_at": "2019-05-20T20:22:25Z",
         "title": "Do not use successive steps for handling conditionals in algorithms",
         "labels": [],
         "assignee": null,
@@ -213,11 +283,11 @@
         "title": "Simplification: Enable single-canvas inline, defer desktop mirroring",
         "labels": [
           {
-            "id": 1071806687,
-            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
-            "name": "agenda",
-            "color": "4ee8b2",
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
             "default": false
           },
           {
@@ -462,9 +532,17 @@
             "name": "external spec dependency",
             "color": "c206cc",
             "default": false
+          },
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "cwilso",
         "isPullRequest": false
       },
       {
@@ -1142,7 +1220,16 @@
         "created_at": "2019-04-05T20:50:43Z",
         "closed_at": null,
         "title": "Describe in detail the way used to obtain XRRay.matrix",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1321,8 +1408,25 @@
         "created_at": "2019-03-25T20:52:10Z",
         "closed_at": null,
         "title": "Clarify behavior of buttons/axes at reserved indices",
-        "labels": [],
-        "assignee": "toji",
+        "labels": [
+          {
+            "id": 1350280010,
+            "node_id": "MDU6TGFiZWwxMzUwMjgwMDEw",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/external%20spec%20dependency",
+            "name": "external spec dependency",
+            "color": "c206cc",
+            "default": false
+          },
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          }
+        ],
+        "assignee": "cwilso",
         "isPullRequest": false
       },
       {
@@ -1412,10 +1516,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 564,
         "created_at": "2019-03-18T23:01:52Z",
-        "closed_at": null,
+        "closed_at": "2019-05-17T21:45:36Z",
         "title": "requestReferenceSpace() should talk more about when you can reject the request",
         "labels": [
           {
@@ -1569,10 +1673,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 551,
         "created_at": "2019-03-01T18:02:06Z",
-        "closed_at": null,
+        "closed_at": "2019-05-18T00:02:08Z",
         "title": "Determine how to use Gamepad events, if at all.",
         "labels": [
           {
@@ -1584,7 +1688,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
