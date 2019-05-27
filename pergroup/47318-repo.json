@@ -863,6 +863,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 208,
+        "created_at": "2019-05-16T13:25:41Z",
+        "closed_at": null,
+        "title": "Missing MediaTrack Settings",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 207,
+        "created_at": "2019-05-08T09:49:39Z",
+        "closed_at": "2019-05-14T10:37:56Z",
+        "title": "Change mailing-list to public-webrtc",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 206,
         "created_at": "2019-04-01T19:06:08Z",
         "closed_at": null,
@@ -4847,6 +4867,46 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 80,
+        "created_at": "2019-05-24T23:23:48Z",
+        "closed_at": null,
+        "title": "Is mute event expected to be dispatched at MediaStreamTrack when enabled is set to false?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 79,
+        "created_at": "2019-05-20T09:58:32Z",
+        "closed_at": null,
+        "title": "Revert \"Add note about Webgl using preserveDrawingBuffer.\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 78,
+        "created_at": "2019-04-27T18:56:39Z",
+        "closed_at": null,
+        "title": "MediaStreamTrack does not dispatch \"ended\" event at Chromium when src of HTMLMediaElement is changed, Firefox does dispatch \"ended\" event; which implementation is correct?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 77,
+        "created_at": "2019-04-18T09:32:53Z",
+        "closed_at": null,
+        "title": "Should tracks captured from a media element fire \"ended\" when ending?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 76,
         "created_at": "2019-03-23T20:11:04Z",
@@ -5829,19 +5889,274 @@
     "issues": [
       {
         "state": "open",
-        "number": 576,
-        "created_at": "2019-04-04T07:47:27Z",
+        "number": 598,
+        "created_at": "2019-05-23T17:35:28Z",
         "closed_at": null,
-        "title": "Remove \"onoverconstrained\" (Fix for #573)",
+        "title": "Should deviceId be partitioned by top level origin and document origin",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 597,
+        "created_at": "2019-05-23T09:14:45Z",
+        "closed_at": null,
+        "title": "Echo Cancellation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 596,
+        "created_at": "2019-05-22T07:12:03Z",
+        "closed_at": "2019-05-23T14:34:52Z",
+        "title": "Add Henrik Boström to the list of editors.",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 595,
+        "created_at": "2019-05-21T20:17:17Z",
+        "closed_at": null,
+        "title": "Interpret the empty string as if the constraint is not specified",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 594,
+        "created_at": "2019-05-21T14:49:24Z",
+        "closed_at": null,
+        "title": "Add a NOTE to clarify the applicability of constraints to tracks.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 593,
+        "created_at": "2019-05-21T14:21:36Z",
+        "closed_at": null,
+        "title": "Fix typo in sink label.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 592,
+        "created_at": "2019-05-21T13:52:48Z",
+        "closed_at": "2019-05-23T14:34:23Z",
+        "title": "Upgrade respec version",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 591,
+        "created_at": "2019-05-17T14:57:38Z",
+        "closed_at": null,
+        "title": "Recommend UUID for deviceId and groupId",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 590,
+        "created_at": "2019-05-17T14:55:24Z",
+        "closed_at": null,
+        "title": "Unify device id description",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 589,
+        "created_at": "2019-05-17T14:48:16Z",
+        "closed_at": null,
+        "title": "Clarify groupId persistency",
+        "labels": [
+          {
+            "id": 156531721,
+            "node_id": "MDU6TGFiZWwxNTY1MzE3MjE=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 588,
+        "created_at": "2019-05-16T15:20:47Z",
+        "closed_at": "2019-05-24T11:08:00Z",
+        "title": "Remove the 'volume' constraint.",
+        "labels": [
+          {
+            "id": 156531721,
+            "node_id": "MDU6TGFiZWwxNTY1MzE3MjE=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 587,
+        "created_at": "2019-05-16T05:30:10Z",
+        "closed_at": null,
+        "title": "Clarify that some device ids may not be origin-unique",
+        "labels": [
+          {
+            "id": 1364488530,
+            "node_id": "MDU6TGFiZWwxMzY0NDg4NTMw",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/June%202019%20interim",
+            "name": "June 2019 interim",
+            "color": "bfdadc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 585,
+        "created_at": "2019-05-09T07:45:13Z",
+        "closed_at": "2019-05-24T11:07:59Z",
+        "title": "Remove or rename 'volume'",
+        "labels": [
+          {
+            "id": 291554148,
+            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
+        "assignee": "armax00",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 584,
+        "created_at": "2019-05-02T13:56:45Z",
+        "closed_at": null,
+        "title": "ResizeMode (crop-and-scale) is underspecified",
+        "labels": [],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 583,
+        "created_at": "2019-05-01T05:37:30Z",
+        "closed_at": "2019-05-09T14:43:41Z",
+        "title": "When an HTMLMediaElement has srcObject set to a MediaStream where the MediaStreamTrack is muted the HTMLMediaElement muted attribute should be set to muted to reflect muted input and muted output",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 582,
+        "created_at": "2019-04-29T06:08:12Z",
+        "closed_at": "2019-05-09T14:41:46Z",
+        "title": "#577 make echo cancellation scope more explicit",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 581,
+        "created_at": "2019-04-26T08:12:52Z",
+        "closed_at": "2019-05-23T14:34:23Z",
+        "title": "Travis is failing git checkout with \"reference is not a tree\"",
+        "labels": [],
+        "assignee": "dontcallmedom",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 580,
+        "created_at": "2019-04-26T07:21:47Z",
+        "closed_at": "2019-04-26T08:05:23Z",
+        "title": "Just testing... ignore this",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 579,
+        "created_at": "2019-04-26T06:57:24Z",
+        "closed_at": "2019-04-26T07:01:59Z",
+        "title": " Remove \"onoverconstrained\" re-upload",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 578,
+        "created_at": "2019-04-25T12:38:17Z",
+        "closed_at": null,
+        "title": "Add note on applicability of constraints to tracks in other specs",
+        "labels": [
+          {
+            "id": 291554148,
+            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 577,
+        "created_at": "2019-04-23T12:35:35Z",
+        "closed_at": "2019-05-09T14:46:07Z",
+        "title": "echo cancellation scope",
+        "labels": [],
+        "assignee": "alvestrand",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 576,
+        "created_at": "2019-04-04T07:47:27Z",
+        "closed_at": "2019-04-26T08:06:59Z",
+        "title": "Remove \"onoverconstrained\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 575,
         "created_at": "2019-03-25T20:16:39Z",
-        "closed_at": null,
+        "closed_at": "2019-04-25T14:52:19Z",
         "title": "Proposal: DecodeConcatVideoData (input multiple files or streams) => Output: single webm file",
         "labels": [
           {
@@ -5867,11 +6182,11 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 573,
         "created_at": "2019-03-07T17:33:58Z",
-        "closed_at": null,
-        "title": "Why do we have overconstrained event?",
+        "closed_at": "2019-04-26T08:06:59Z",
+        "title": "Remove overconstrained event (Why do we have overconstrained event?)",
         "labels": [
           {
             "id": 1235196951,
@@ -5888,14 +6203,6 @@
             "name": "PR exists",
             "color": "009800",
             "default": false
-          },
-          {
-            "id": 123211620,
-            "node_id": "MDU6TGFiZWwxMjMyMTE2MjA=",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/question",
-            "name": "question",
-            "color": "cc317c",
-            "default": true
           }
         ],
         "assignee": "henbos",
@@ -5956,7 +6263,16 @@
         "created_at": "2019-02-14T12:31:59Z",
         "closed_at": null,
         "title": "OverconstrainedError should be a DOMException",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1364496941,
+            "node_id": "MDU6TGFiZWwxMzY0NDk2OTQx",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
         "assignee": "henbos",
         "isPullRequest": false
       },
@@ -6196,6 +6512,14 @@
             "name": "April 2019 Interim",
             "color": "0052cc",
             "default": false
+          },
+          {
+            "id": 1364488530,
+            "node_id": "MDU6TGFiZWwxMzY0NDg4NTMw",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/June%202019%20interim",
+            "name": "June 2019 interim",
+            "color": "bfdadc",
+            "default": false
           }
         ],
         "assignee": "jan-ivar",
@@ -6246,8 +6570,17 @@
         "created_at": "2018-10-14T07:00:55Z",
         "closed_at": null,
         "title": "Typo in sink label",
-        "labels": [],
-        "assignee": "jan-ivar",
+        "labels": [
+          {
+            "id": 291554148,
+            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
+        "assignee": "armax00",
         "isPullRequest": false
       },
       {
@@ -13530,6 +13863,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 167,
+        "created_at": "2019-05-09T15:59:43Z",
+        "closed_at": null,
+        "title": "Add replaceTrack method to MediaStream",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 166,
         "created_at": "2019-03-22T19:41:34Z",
         "closed_at": null,
@@ -15329,10 +15672,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4,
         "created_at": "2015-02-23T14:16:19Z",
-        "closed_at": null,
+        "closed_at": "2019-05-23T15:22:15Z",
         "title": "MediaRecorder needs to define effect of adding / removing tracks in its input MediaStream",
         "labels": [],
         "assignee": null,
@@ -15656,6 +15999,45 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 107,
+        "created_at": "2019-05-14T23:00:46Z",
+        "closed_at": null,
+        "title": "Screenshot (still image) capability ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 106,
+        "created_at": "2019-04-29T17:44:45Z",
+        "closed_at": null,
+        "title": "Add user activation check when calling getDisplayMedia",
+        "labels": [
+          {
+            "id": 1215959506,
+            "node_id": "MDU6TGFiZWwxMjE1OTU5NTA2",
+            "url": "https://api.github.com/repos/w3c/mediacapture-screen-share/labels/editors%20can%20integrate",
+            "name": "editors can integrate",
+            "color": "50fce5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 105,
+        "created_at": "2019-04-28T17:41:59Z",
+        "closed_at": null,
+        "title": "Provide a means to select only part of a screen to capture",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 104,
@@ -17166,23 +17548,398 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 2198,
+        "created_at": "2019-05-23T14:30:40Z",
+        "closed_at": "2019-05-23T14:32:32Z",
+        "title": "Make rtp timestamp required",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2197,
+        "created_at": "2019-05-23T13:56:56Z",
+        "closed_at": "2019-05-23T14:32:32Z",
+        "title": "Make RTCRtpContributingSource::rtpTimestamp required",
+        "labels": [
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2196,
+        "created_at": "2019-05-15T20:27:38Z",
+        "closed_at": "2019-05-16T14:13:07Z",
+        "title": "Silence OperationError in addIceCandidate if stopped.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2195,
+        "created_at": "2019-05-15T18:39:14Z",
+        "closed_at": "2019-05-16T14:09:33Z",
+        "title": "getCSRC/SSRC() results in descending timestamp order, no future values.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2194,
+        "created_at": "2019-05-15T17:42:28Z",
+        "closed_at": "2019-05-16T14:07:28Z",
+        "title": "Count datachannel label/protocol length in utf-8.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
         "state": "open",
-        "number": 2171,
-        "created_at": "2019-04-13T21:16:19Z",
+        "number": 2193,
+        "created_at": "2019-05-03T10:41:43Z",
         "closed_at": null,
-        "title": "Clarify \"multiple sources of media stitched together\" at Note describing replaceTrack",
+        "title": "Add a security/privacy note about remote SDP",
+        "labels": [],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2192,
+        "created_at": "2019-05-02T00:17:58Z",
+        "closed_at": "2019-05-09T14:34:56Z",
+        "title": "Remove default values of RTCConfiguration and set them in RTCPeerConnection constructor",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2191,
+        "created_at": "2019-04-30T01:50:30Z",
+        "closed_at": "2019-05-16T14:07:27Z",
+        "title": "Says to count datachannel label & protocol in bytes, but they're USVString",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2190,
+        "created_at": "2019-04-26T10:23:52Z",
+        "closed_at": "2019-05-09T14:25:09Z",
+        "title": "Clarify `RTCRtpContributingSource` and `RTCRtpSynchronizationSource`.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2189,
+        "created_at": "2019-04-25T19:51:02Z",
+        "closed_at": "2019-05-16T14:09:33Z",
+        "title": "Define time order of results from getContributingSources() et al",
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2188,
+        "created_at": "2019-04-25T13:55:08Z",
+        "closed_at": null,
+        "title": "Define which constraints are applicable in WebRTC",
+        "labels": [
+          {
+            "id": 229237950,
+            "node_id": "MDU6TGFiZWwyMjkyMzc5NTA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20submitter%20action",
+            "name": "Needs submitter action",
+            "color": "eb6420",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2187,
+        "created_at": "2019-04-25T11:32:31Z",
+        "closed_at": "2019-04-25T14:39:22Z",
+        "title": "Clarify a step in \"update negotiation needed\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2186,
+        "created_at": "2019-04-25T10:20:08Z",
+        "closed_at": "2019-05-02T14:42:33Z",
+        "title": "Adds a note clarifying removeTrack()",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2185,
+        "created_at": "2019-04-25T10:07:58Z",
+        "closed_at": "2019-04-25T14:34:58Z",
+        "title": "Mark getDefaultIceServers() as feature at risk.",
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2184,
+        "created_at": "2019-04-25T10:05:48Z",
+        "closed_at": "2019-04-25T14:34:58Z",
+        "title": "Mark getDefaultIceServers() as feature at risk",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2183,
+        "created_at": "2019-04-25T09:33:22Z",
+        "closed_at": "2019-04-25T09:47:53Z",
+        "title": "There are redundant steps in setCodecPreferences",
+        "labels": [],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2182,
+        "created_at": "2019-04-25T05:49:00Z",
+        "closed_at": null,
+        "title": "Make sure prflx remote candidates do not leak information when exposed by getSelectedCandidatePair",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2181,
+        "created_at": "2019-04-25T05:43:26Z",
+        "closed_at": "2019-04-25T14:25:42Z",
+        "title": "Cap expires to 365 days at most",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2180,
+        "created_at": "2019-04-24T22:13:54Z",
+        "closed_at": "2019-05-02T14:40:54Z",
+        "title": "Clarify \"multiple sources of media stitched together\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2179,
+        "created_at": "2019-04-24T19:55:40Z",
+        "closed_at": "2019-04-24T22:40:18Z",
+        "title": "Allow to import existing certificate",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
-        "number": 2170,
-        "created_at": "2019-04-11T14:29:22Z",
-        "closed_at": null,
-        "title": "data channel default binaryType value is 'blob'",
+        "state": "closed",
+        "number": 2178,
+        "created_at": "2019-04-24T14:50:37Z",
+        "closed_at": "2019-05-09T14:13:40Z",
+        "title": "Add rtpTimestamp to RTCRtpContributingSource",
         "labels": [],
         "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2177,
+        "created_at": "2019-04-24T14:34:34Z",
+        "closed_at": "2019-05-09T14:13:40Z",
+        "title": "Add RTP timestamp to RTCRtpContributingSource",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2176,
+        "created_at": "2019-04-17T14:00:14Z",
+        "closed_at": null,
+        "title": "Spec steps on stop() underestimate BUNDLE problem.",
+        "labels": [
+          {
+            "id": 1335550217,
+            "node_id": "MDU6TGFiZWwxMzM1NTUwMjE3",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/June%202019%20Virtual%20Interim",
+            "name": "June 2019 Virtual Interim",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2175,
+        "created_at": "2019-04-17T12:37:13Z",
+        "closed_at": null,
+        "title": "Permission API for receive-only media and data use cases",
+        "labels": [
+          {
+            "id": 1335550217,
+            "node_id": "MDU6TGFiZWwxMzM1NTUwMjE3",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/June%202019%20Virtual%20Interim",
+            "name": "June 2019 Virtual Interim",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2173,
+        "created_at": "2019-04-15T21:13:29Z",
+        "closed_at": null,
+        "title": "Timing of setRemoteDescription's identity validation is unclear",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2172,
+        "created_at": "2019-04-15T14:00:14Z",
+        "closed_at": "2019-05-09T14:25:08Z",
+        "title": "Clarify the definition of \"playout\" for `RTCRtpContributingSource`.",
+        "labels": [
+          {
+            "id": 1335332111,
+            "node_id": "MDU6TGFiZWwxMzM1MzMyMTEx",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Discuss%20at%20editor's%20meeting",
+            "name": "Discuss at editor's meeting",
+            "color": "74e570",
+            "default": false
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2171,
+        "created_at": "2019-04-13T21:16:19Z",
+        "closed_at": null,
+        "title": "Clarify \"multiple sources of media stitched together\" at Note describing replaceTrack",
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
+        "assignee": "aboba",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2170,
+        "created_at": "2019-04-11T14:29:22Z",
+        "closed_at": "2019-04-25T14:45:20Z",
+        "title": "data channel default binaryType value is 'blob'",
+        "labels": [],
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -17191,15 +17948,24 @@
         "created_at": "2019-04-10T00:14:13Z",
         "closed_at": null,
         "title": "Add pc.restartIce() method.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1335550217,
+            "node_id": "MDU6TGFiZWwxMzM1NTUwMjE3",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/June%202019%20Virtual%20Interim",
+            "name": "June 2019 Virtual Interim",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2168,
         "created_at": "2019-04-09T21:21:28Z",
-        "closed_at": null,
+        "closed_at": "2019-04-17T14:23:55Z",
         "title": "Add stopping state (transceiver.stop() queues to stable). Rename old unsafe stop to reject()",
         "labels": [],
         "assignee": "jan-ivar",
@@ -17212,6 +17978,14 @@
         "closed_at": null,
         "title": "{iceRestart: true} works poorly with negotiationneeded",
         "labels": [
+          {
+            "id": 1335550217,
+            "node_id": "MDU6TGFiZWwxMzM1NTUwMjE3",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/June%202019%20Virtual%20Interim",
+            "name": "June 2019 Virtual Interim",
+            "color": "d93f0b",
+            "default": false
+          },
           {
             "id": 273487504,
             "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
@@ -17245,12 +18019,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2164,
         "created_at": "2019-04-07T20:13:59Z",
-        "closed_at": null,
-        "title": "Silence OperationError in addIceCandidate from rollback",
-        "labels": [],
+        "closed_at": "2019-05-16T14:13:07Z",
+        "title": "Silence OperationError in addIceCandidate from stop()",
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": false
       },
@@ -17280,7 +18063,16 @@
         "created_at": "2019-04-04T16:25:52Z",
         "closed_at": null,
         "title": "Too many test links in the spec, some redundant",
-        "labels": [],
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": false
       },
@@ -17312,12 +18104,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2159,
         "created_at": "2019-04-04T08:26:23Z",
-        "closed_at": null,
+        "closed_at": "2019-04-25T14:39:22Z",
         "title": "Clarify update negotiation needed",
-        "labels": [],
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
         "assignee": "henbos",
         "isPullRequest": false
       },
@@ -17408,10 +18209,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2152,
         "created_at": "2019-04-01T15:31:38Z",
-        "closed_at": null,
+        "closed_at": "2019-04-25T09:35:24Z",
         "title": "Remove redundant steps in setCodecParameters",
         "labels": [
           {
@@ -17449,14 +18250,6 @@
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/April%202019%20Interim",
             "name": "April 2019 Interim",
             "color": "fef2c0",
-            "default": false
-          },
-          {
-            "id": 273487504,
-            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "009800",
             "default": false
           }
         ],
@@ -17583,7 +18376,24 @@
         "created_at": "2019-03-24T10:32:38Z",
         "closed_at": null,
         "title": "Set the configuration is unnecessarily checking for some members being set",
-        "labels": [],
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false
+          }
+        ],
         "assignee": "youennf",
         "isPullRequest": false
       },
@@ -17646,12 +18456,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2137,
         "created_at": "2019-03-22T14:16:45Z",
-        "closed_at": null,
+        "closed_at": "2019-05-02T00:22:48Z",
         "title": "Strengthen generateCertificate expires capping",
-        "labels": [],
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
         "assignee": "youennf",
         "isPullRequest": false
       },
@@ -17681,7 +18500,16 @@
         "created_at": "2019-03-21T16:35:40Z",
         "closed_at": null,
         "title": "getSelectedCandidatePair needs special treatment for PRFLX candidates",
-        "labels": [],
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
         "assignee": "youennf",
         "isPullRequest": false
       },
@@ -17819,6 +18647,14 @@
         "title": "RTCIceTransport.getRemoteCandidates() does not return prflx candidates",
         "labels": [
           {
+            "id": 166555996,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5OTY=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Chair%20decision%20needed",
+            "name": "Chair decision needed",
+            "color": "5319e7",
+            "default": false
+          },
+          {
             "id": 124889634,
             "node_id": "MDU6TGFiZWwxMjQ4ODk2MzQ=",
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/wontfix",
@@ -17883,11 +18719,11 @@
             "default": false
           },
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false
           }
         ],
@@ -17952,10 +18788,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2116,
         "created_at": "2019-03-06T15:16:31Z",
-        "closed_at": null,
+        "closed_at": "2019-04-25T10:24:30Z",
         "title": "Simulcast stats",
         "labels": [
           {
@@ -18162,10 +18998,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2103,
         "created_at": "2019-02-14T13:35:03Z",
-        "closed_at": null,
+        "closed_at": "2019-04-25T10:23:42Z",
         "title": "Add RTCRtpSender.getSynchronizationSources() to expose audioLevel",
         "labels": [],
         "assignee": "henbos",
@@ -18428,25 +19264,6 @@
           }
         ],
         "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 2086,
-        "created_at": "2019-01-25T14:04:41Z",
-        "closed_at": null,
-        "title": "(How) does SCTP handle CPU-bound congestion on JavaScript thread?",
-        "labels": [
-          {
-            "id": 561026533,
-            "node_id": "MDU6TGFiZWw1NjEwMjY1MzM=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Icebox",
-            "name": "Icebox",
-            "color": "1d76db",
-            "default": false
-          }
-        ],
-        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -19325,10 +20142,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2043,
         "created_at": "2018-12-11T23:58:49Z",
-        "closed_at": null,
+        "closed_at": "2019-05-02T00:21:04Z",
         "title": "set-pc-configuration is unclear on how to match certificates",
         "labels": [
           {
@@ -19671,10 +20488,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2024,
         "created_at": "2018-11-05T11:55:47Z",
-        "closed_at": null,
+        "closed_at": "2019-05-02T14:42:33Z",
         "title": "Differences between pc.removeTrack(sender) and sender.replaceTrack(null)",
         "labels": [
           {
@@ -19683,6 +20500,14 @@
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
             "name": "Editorial",
             "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false
           },
           {
@@ -19705,6 +20530,14 @@
         "title": "Should we remove getDefaultIceServers?",
         "labels": [
           {
+            "id": 166555996,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5OTY=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Chair%20decision%20needed",
+            "name": "Chair decision needed",
+            "color": "5319e7",
+            "default": false
+          },
+          {
             "id": 871912082,
             "node_id": "MDU6TGFiZWw4NzE5MTIwODI=",
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/January%202019%20interim",
@@ -19721,7 +20554,7 @@
             "default": false
           }
         ],
-        "assignee": "henbos",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -19956,6 +20789,22 @@
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Chair%20decision%20needed",
             "name": "Chair decision needed",
             "color": "5319e7",
+            "default": false
+          },
+          {
+            "id": 1335550217,
+            "node_id": "MDU6TGFiZWwxMzM1NTUwMjE3",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/June%202019%20Virtual%20Interim",
+            "name": "June 2019 Virtual Interim",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false
           }
         ],
@@ -20532,10 +21381,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1979,
         "created_at": "2018-08-31T05:59:06Z",
-        "closed_at": null,
+        "closed_at": "2019-04-25T09:58:41Z",
         "title": "how to use datachannel bufferedamountlow threshold callback?",
         "labels": [
           {
@@ -21473,10 +22322,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1921,
         "created_at": "2018-06-29T08:33:40Z",
-        "closed_at": null,
+        "closed_at": "2019-04-25T09:53:59Z",
         "title": "RTCRtpReceiver.getStreams() and RTCRtpSender.getStreams()",
         "labels": [
           {
@@ -25996,25 +26845,6 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 1635,
-        "created_at": "2017-10-12T17:45:12Z",
-        "closed_at": null,
-        "title": "Need for Initial Bitrate by the Application/RtpSender?",
-        "labels": [
-          {
-            "id": 561026533,
-            "node_id": "MDU6TGFiZWw1NjEwMjY1MzM=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Icebox",
-            "name": "Icebox",
-            "color": "1d76db",
-            "default": false
-          }
-        ],
-        "assignee": "vr000m",
-        "isPullRequest": false
       },
       {
         "state": "closed",
@@ -50100,11 +50930,129 @@
     "issues": [
       {
         "state": "open",
+        "number": 31,
+        "created_at": "2017-10-12T17:45:12Z",
+        "closed_at": null,
+        "title": "Need for Initial Bitrate by the Application/RtpSender?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 30,
+        "created_at": "2019-01-25T14:04:41Z",
+        "closed_at": null,
+        "title": "(How) does SCTP handle CPU-bound congestion on JavaScript thread?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 29,
+        "created_at": "2019-05-16T02:38:25Z",
+        "closed_at": "2019-05-17T17:59:09Z",
+        "title": "Clarification on audio/video formats",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 28,
+        "created_at": "2019-05-16T02:28:19Z",
+        "closed_at": "2019-05-16T02:29:41Z",
+        "title": "Data sharing and leveraging the GPU",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 27,
+        "created_at": "2019-05-15T23:34:23Z",
+        "closed_at": "2019-05-15T23:34:34Z",
+        "title": "Update index.html",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 26,
+        "created_at": "2019-05-15T23:22:52Z",
+        "closed_at": "2019-05-15T23:33:43Z",
+        "title": "Minimize \"offer\" term",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 25,
+        "created_at": "2019-05-15T23:20:12Z",
+        "closed_at": "2019-05-15T23:31:03Z",
+        "title": "Clarify \"single message\" requirement",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 24,
+        "created_at": "2019-05-15T23:18:10Z",
+        "closed_at": "2019-05-15T23:30:35Z",
+        "title": "Clarifying \"without a corresponding sender\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 23,
+        "created_at": "2019-05-15T23:08:27Z",
+        "closed_at": "2019-05-15T23:10:05Z",
+        "title": "Update \"parallel forking\" language and remove \"early media\" requirement",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 22,
+        "created_at": "2019-04-17T03:22:47Z",
+        "closed_at": null,
+        "title": "Should DataChannels have a getStats() method, should they be usable as selector to the getStats algorithm?",
+        "labels": [
+          {
+            "id": 1309723957,
+            "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "68d8c7",
+            "default": false
+          }
+        ],
+        "assignee": "na-g",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 21,
         "created_at": "2019-03-27T18:26:44Z",
         "closed_at": null,
         "title": "Requirements Secure Web Conferencing ",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1360041285,
+            "node_id": "MDU6TGFiZWwxMzYwMDQxMjg1",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/June%202019%20Interim",
+            "name": "June 2019 Interim",
+            "color": "bfdadc",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -50148,37 +51096,37 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 17,
         "created_at": "2018-10-08T12:59:31Z",
-        "closed_at": null,
+        "closed_at": "2019-05-17T18:00:18Z",
         "title": "Allocate RAW data capture buffer as shared GPU memory buffer",
         "labels": [
           {
-            "id": 1012724711,
-            "node_id": "MDU6TGFiZWwxMDEyNzI0NzEx",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/question",
-            "name": "question",
-            "color": "d876e3",
-            "default": true
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
+            "default": false
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 16,
         "created_at": "2018-10-08T12:16:03Z",
-        "closed_at": null,
+        "closed_at": "2019-05-17T17:59:44Z",
         "title": "N20 Raw media should support various pixel formats",
         "labels": [
           {
-            "id": 1309723957,
-            "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "68d8c7",
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
             "default": false
           }
         ],
@@ -50191,8 +51139,25 @@
         "created_at": "2018-10-07T15:45:49Z",
         "closed_at": null,
         "title": "Distributed hash tables",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1360041285,
+            "node_id": "MDU6TGFiZWwxMzYwMDQxMjg1",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/June%202019%20Interim",
+            "name": "June 2019 Interim",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 1012724711,
+            "node_id": "MDU6TGFiZWwxMDEyNzI0NzEx",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true
+          }
+        ],
+        "assignee": "maxogden",
         "isPullRequest": false
       },
       {
@@ -50201,55 +51166,72 @@
         "created_at": "2018-10-06T17:21:07Z",
         "closed_at": null,
         "title": "N29: A way to obtain user consent for one-way media and data use cases",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1360041285,
+            "node_id": "MDU6TGFiZWwxMzYwMDQxMjg1",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/June%202019%20Interim",
+            "name": "June 2019 Interim",
+            "color": "bfdadc",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 13,
         "created_at": "2018-10-06T16:52:41Z",
-        "closed_at": null,
+        "closed_at": "2019-05-16T02:30:04Z",
         "title": "N23: Why share media between worker and main thread?",
         "labels": [
           {
-            "id": 1012724711,
-            "node_id": "MDU6TGFiZWwxMDEyNzI0NzEx",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/question",
-            "name": "question",
-            "color": "d876e3",
-            "default": true
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
+            "default": false
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 12,
         "created_at": "2018-10-06T16:49:57Z",
-        "closed_at": null,
+        "closed_at": "2019-05-15T23:34:50Z",
         "title": "N14: Already supported by 1.0?",
         "labels": [
           {
-            "id": 1012724711,
-            "node_id": "MDU6TGFiZWwxMDEyNzI0NzEx",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/question",
-            "name": "question",
-            "color": "d876e3",
-            "default": true
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
+            "default": false
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 11,
         "created_at": "2018-10-06T16:21:22Z",
-        "closed_at": null,
+        "closed_at": "2019-05-16T02:35:50Z",
         "title": "\"Cannot be supported in 1.0\"",
         "labels": [
+          {
+            "id": 1363451133,
+            "node_id": "MDU6TGFiZWwxMzYzNDUxMTMz",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Editorial",
+            "name": "Editorial",
+            "color": "d4c5f9",
+            "default": false
+          },
           {
             "id": 1309723957,
             "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
@@ -50270,30 +51252,30 @@
         "title": "Mobility: Peer reflexive candidates",
         "labels": [
           {
-            "id": 1012724711,
-            "node_id": "MDU6TGFiZWwxMDEyNzI0NzEx",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/question",
-            "name": "question",
-            "color": "d876e3",
-            "default": true
+            "id": 1309723957,
+            "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "68d8c7",
+            "default": false
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 9,
         "created_at": "2018-10-06T15:15:29Z",
-        "closed_at": null,
+        "closed_at": "2019-05-13T21:15:21Z",
         "title": "Mobility backup candidate pairs",
         "labels": [
           {
-            "id": 1012724711,
-            "node_id": "MDU6TGFiZWwxMDEyNzI0NzEx",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/question",
-            "name": "question",
-            "color": "d876e3",
+            "id": 1012724706,
+            "node_id": "MDU6TGFiZWwxMDEyNzI0NzA2",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/duplicate",
+            "name": "duplicate",
+            "color": "cfd3d7",
             "default": true
           }
         ],
@@ -50301,18 +51283,26 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 8,
         "created_at": "2018-10-06T13:42:34Z",
-        "closed_at": null,
+        "closed_at": "2019-05-15T23:35:21Z",
         "title": "Can we move away from the terms \"offer\" and \"answer\"?",
         "labels": [
           {
-            "id": 1309723957,
-            "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "68d8c7",
+            "id": 1363451133,
+            "node_id": "MDU6TGFiZWwxMzYzNDUxMTMz",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Editorial",
+            "name": "Editorial",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
             "default": false
           }
         ],
@@ -50320,18 +51310,26 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 7,
         "created_at": "2018-10-04T17:20:10Z",
-        "closed_at": null,
+        "closed_at": "2019-05-15T23:35:12Z",
         "title": "N11: \"as a single message\" is implementation, not requirement",
         "labels": [
           {
-            "id": 1309723957,
-            "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "68d8c7",
+            "id": 1363451133,
+            "node_id": "MDU6TGFiZWwxMzYzNDUxMTMz",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Editorial",
+            "name": "Editorial",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
             "default": false
           }
         ],
@@ -50339,18 +51337,26 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 6,
         "created_at": "2018-10-04T16:53:33Z",
-        "closed_at": null,
+        "closed_at": "2019-05-15T23:35:03Z",
         "title": "N08: \"receive audio/video without a corresponding sender\" - not a new requirement?",
         "labels": [
           {
-            "id": 1309723957,
-            "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "68d8c7",
+            "id": 1363451133,
+            "node_id": "MDU6TGFiZWwxMzYzNDUxMTMz",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Editorial",
+            "name": "Editorial",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
             "default": false
           }
         ],
@@ -50365,6 +51371,14 @@
         "title": "N03: \"Bandwidth limit across mesh endpoints\" needs clarification or modification",
         "labels": [
           {
+            "id": 1360041285,
+            "node_id": "MDU6TGFiZWwxMzYwMDQxMjg1",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/June%202019%20Interim",
+            "name": "June 2019 Interim",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
             "id": 1309723957,
             "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
             "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Ready%20for%20PR",
@@ -50377,18 +51391,26 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4,
         "created_at": "2018-10-04T16:48:08Z",
-        "closed_at": null,
+        "closed_at": "2019-05-15T23:10:33Z",
         "title": "N04: The term \"early media\" MUST NOT be used on its own, and MAY be removed.",
         "labels": [
           {
-            "id": 1309723957,
-            "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "68d8c7",
+            "id": 1363451133,
+            "node_id": "MDU6TGFiZWwxMzYzNDUxMTMz",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Editorial",
+            "name": "Editorial",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
             "default": false
           }
         ],
@@ -50396,18 +51418,26 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3,
         "created_at": "2018-09-24T03:51:56Z",
-        "closed_at": null,
+        "closed_at": "2019-05-15T23:10:23Z",
         "title": "The term \"parallel forking\" is overloaded and should not be used",
         "labels": [
           {
-            "id": 1309723957,
-            "node_id": "MDU6TGFiZWwxMzA5NzIzOTU3",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "68d8c7",
+            "id": 1363451133,
+            "node_id": "MDU6TGFiZWwxMzYzNDUxMTMz",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/Editorial",
+            "name": "Editorial",
+            "color": "d4c5f9",
+            "default": false
+          },
+          {
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
             "default": false
           }
         ],
@@ -50441,12 +51471,12 @@
         "title": "IoT use-case requires direct one-way media support",
         "labels": [
           {
-            "id": 1012724711,
-            "node_id": "MDU6TGFiZWwxMDEyNzI0NzEx",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/question",
-            "name": "question",
-            "color": "d876e3",
-            "default": true
+            "id": 1360041285,
+            "node_id": "MDU6TGFiZWwxMzYwMDQxMjg1",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/June%202019%20Interim",
+            "name": "June 2019 Interim",
+            "color": "bfdadc",
+            "default": false
           }
         ],
         "assignee": null,
@@ -50461,6 +51491,161 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 439,
+        "created_at": "2019-05-27T09:57:48Z",
+        "closed_at": null,
+        "title": "Clarify the lifetime of remote-* stats objects",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 438,
+        "created_at": "2019-05-24T12:53:55Z",
+        "closed_at": null,
+        "title": "Move packetsDiscardedOnSend to RTCIceCandidatePairStats",
+        "labels": [
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
+        "assignee": "vr000m",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 437,
+        "created_at": "2019-05-21T12:00:12Z",
+        "closed_at": null,
+        "title": "RTCStats.id should not be \"predictable\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 436,
+        "created_at": "2019-05-20T13:35:58Z",
+        "closed_at": null,
+        "title": "Fix RTCMediaSourceStats typo",
+        "labels": [
+          {
+            "id": 867275345,
+            "node_id": "MDU6TGFiZWw4NjcyNzUzNDU=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editorial",
+            "name": "Editorial",
+            "color": "e99695",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 435,
+        "created_at": "2019-05-15T10:09:21Z",
+        "closed_at": "2019-05-20T13:33:07Z",
+        "title": "Add RTCMediaSourceStats dictionaries for pre-encoding metrics",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 434,
+        "created_at": "2019-04-29T10:44:17Z",
+        "closed_at": null,
+        "title": "Add RTCInboundRtpStreamStats.totalDecodeTime",
+        "labels": [
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 433,
+        "created_at": "2019-04-24T11:26:08Z",
+        "closed_at": null,
+        "title": "The spec has incorrect assumptions abound SR and RR",
+        "labels": [
+          {
+            "id": 867275345,
+            "node_id": "MDU6TGFiZWw4NjcyNzUzNDU=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editorial",
+            "name": "Editorial",
+            "color": "e99695",
+            "default": false
+          }
+        ],
+        "assignee": "vr000m",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 432,
+        "created_at": "2019-04-16T18:36:13Z",
+        "closed_at": null,
+        "title": "OPUS -- Exposing SILK or CELT mode in getStats",
+        "labels": [],
+        "assignee": "aboba",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 431,
+        "created_at": "2019-04-15T19:41:55Z",
+        "closed_at": "2019-04-16T15:06:10Z",
+        "title": "Additional Audio/Video Quality Metrics",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 430,
+        "created_at": "2019-04-15T19:40:06Z",
+        "closed_at": null,
+        "title": "RTCVideo*Stats: Video Device Errors",
+        "labels": [
+          {
+            "id": 729375312,
+            "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
+            "name": "Submitter input needed",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 429,
+        "created_at": "2019-04-15T19:33:16Z",
+        "closed_at": "2019-04-17T13:48:27Z",
+        "title": "RTCSenderAudioTrackAttachmentStats: Audio Device Errors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 428,
@@ -50478,7 +51663,7 @@
         "closed_at": null,
         "title": "Request to add neteq waiting time to stats report",
         "labels": [],
-        "assignee": null,
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -50498,7 +51683,7 @@
         "closed_at": null,
         "title": "Byte/packet counter type consistency (retransmittedPacketsSent is unsigned long long)",
         "labels": [],
-        "assignee": null,
+        "assignee": "vr000m",
         "isPullRequest": false
       },
       {
@@ -50518,34 +51703,43 @@
         "closed_at": null,
         "title": "targetBitrate should not be \"measured over 1 second window\"",
         "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 422,
-        "created_at": "2019-04-03T12:57:40Z",
-        "closed_at": null,
-        "title": "Capture vs encode frameWidth, frameHeight and framesPerSecond",
-        "labels": [],
         "assignee": "henbos",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
+        "number": 422,
+        "created_at": "2019-04-03T12:57:40Z",
+        "closed_at": "2019-05-20T13:33:07Z",
+        "title": "Capture vs encode frameWidth, frameHeight and framesPerSecond",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 421,
         "created_at": "2019-04-03T11:48:38Z",
-        "closed_at": null,
+        "closed_at": "2019-05-15T16:05:10Z",
         "title": "totalPacketSendDelay added",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 420,
         "created_at": "2019-04-03T11:36:11Z",
-        "closed_at": null,
+        "closed_at": "2019-05-15T16:05:10Z",
         "title": "Stats for the delay of packets being sent",
         "labels": [
           {
@@ -50827,23 +52021,32 @@
         "created_at": "2019-03-06T15:07:13Z",
         "closed_at": null,
         "title": "Add SVC stats in RTC[In/Out]boundRtpStreamStats",
-        "labels": [],
+        "labels": [
+          {
+            "id": 490238153,
+            "node_id": "MDU6TGFiZWw0OTAyMzgxNTM=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
+            "name": "Icebox",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
         "assignee": "vr000m",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 400,
         "created_at": "2019-03-06T15:07:12Z",
-        "closed_at": null,
+        "closed_at": "2019-05-20T13:33:07Z",
         "title": "Add RTCMediaSourceStats",
         "labels": [
           {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
             "default": false
           }
         ],

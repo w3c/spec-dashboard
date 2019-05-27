@@ -7,22 +7,41 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
+        "number": 669,
+        "created_at": "2019-05-24T19:17:51Z",
+        "closed_at": "2019-05-25T21:45:43Z",
+        "title": "Add [SameObject] to XRSession.inputSources",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 668,
         "created_at": "2019-05-24T04:23:04Z",
-        "closed_at": null,
+        "closed_at": "2019-05-24T14:02:19Z",
         "title": "Ja ",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 667,
         "created_at": "2019-05-23T19:57:23Z",
-        "closed_at": null,
+        "closed_at": "2019-05-25T21:45:43Z",
         "title": "Should XRSession.inputSources be tagged [SameObject]",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -49,6 +68,22 @@
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
             "name": "agenda",
             "color": "4ee8b2",
+            "default": false
+          },
+          {
+            "id": 1350280010,
+            "node_id": "MDU6TGFiZWwxMzUwMjgwMDEw",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/external%20spec%20dependency",
+            "name": "external spec dependency",
+            "color": "c206cc",
+            "default": false
+          },
+          {
+            "id": 1196205083,
+            "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/potential%20breaking%20change",
+            "name": "potential breaking change",
+            "color": "d32a6b",
             "default": false
           }
         ],
@@ -111,7 +146,16 @@
         "created_at": "2019-05-20T21:34:30Z",
         "closed_at": null,
         "title": "Inconsistency between explainer and spec for inline sessions with no device.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/good%20starter%20bug",
+            "name": "good starter bug",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -284,10 +328,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 642,
         "created_at": "2019-05-14T20:53:06Z",
-        "closed_at": null,
+        "closed_at": "2019-05-25T21:46:28Z",
         "title": "Updated the explainer with new origin offset mechanics.",
         "labels": [
           {
@@ -399,10 +443,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 634,
         "created_at": "2019-05-09T22:16:54Z",
-        "closed_at": null,
+        "closed_at": "2019-05-25T21:46:28Z",
         "title": "Update origin offset handling in the explainer.",
         "labels": [
           {
@@ -488,6 +532,14 @@
         "closed_at": null,
         "title": "Determine how to handle detached Typed Arrays",
         "labels": [
+          {
+            "id": 1071806687,
+            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
+            "name": "agenda",
+            "color": "4ee8b2",
+            "default": false
+          },
           {
             "id": 1196205083,
             "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
@@ -2056,7 +2108,16 @@
         "created_at": "2019-02-21T20:59:38Z",
         "closed_at": null,
         "title": "Clarify when XRPose.emulatedPosition should be true",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          }
+        ],
         "assignee": "NellWaliczek",
         "isPullRequest": false
       },
@@ -2603,7 +2664,7 @@
             "default": false
           }
         ],
-        "assignee": "toji",
+        "assignee": "NellWaliczek",
         "isPullRequest": false
       },
       {
@@ -4583,7 +4644,16 @@
         "created_at": "2017-12-14T03:58:56Z",
         "closed_at": null,
         "title": "Should the Feature Policy feature name be changed from \"vr\"?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1196205083,
+            "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/potential%20breaking%20change",
+            "name": "potential breaking change",
+            "color": "d32a6b",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5232,7 +5302,16 @@
         "created_at": "2017-06-16T05:35:40Z",
         "closed_at": null,
         "title": "Handling tracking loss",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          }
+        ],
         "assignee": "NellWaliczek",
         "isPullRequest": false
       },
