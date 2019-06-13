@@ -8,6 +8,85 @@
     "issues": [
       {
         "state": "open",
+        "number": 694,
+        "created_at": "2019-06-13T08:21:38Z",
+        "closed_at": null,
+        "title": "Provide access to camera frame in \"immersive-ar\" mode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 693,
+        "created_at": "2019-06-13T00:10:29Z",
+        "closed_at": null,
+        "title": "Specify the use of |session| in the XRWebGLLayer constructor algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 692,
+        "created_at": "2019-06-12T23:08:10Z",
+        "closed_at": null,
+        "title": "Clarify usage of ButtonIndex",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 691,
+        "created_at": "2019-06-12T20:03:58Z",
+        "closed_at": null,
+        "title": "Decide on test API to match \"VR complete\" and update Web Platform Tests",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 690,
+        "created_at": "2019-06-11T20:19:22Z",
+        "closed_at": "2019-06-11T21:35:11Z",
+        "title": "Change required gamepad index to -1",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 689,
+        "created_at": "2019-06-11T17:15:50Z",
+        "closed_at": null,
+        "title": "add permissions proposal",
+        "labels": [
+          {
+            "id": 1071806687,
+            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
+            "name": "agenda",
+            "color": "4ee8b2",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 688,
+        "created_at": "2019-06-10T16:39:12Z",
+        "closed_at": "2019-06-10T20:34:19Z",
+        "title": "Remove XRLayer base type.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 687,
         "created_at": "2019-06-06T16:18:59Z",
         "closed_at": null,
@@ -22,7 +101,16 @@
         "created_at": "2019-06-05T21:56:48Z",
         "closed_at": null,
         "title": "Further specify algorithm for populating XRRigidTransform.matrix",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -47,22 +135,30 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 683,
         "created_at": "2019-06-05T09:13:19Z",
-        "closed_at": null,
+        "closed_at": "2019-06-10T22:15:58Z",
         "title": "\"XRInputPose is not defined\" after Chrome75 Update",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 682,
         "created_at": "2019-06-03T20:29:45Z",
-        "closed_at": null,
+        "closed_at": "2019-06-11T21:44:12Z",
         "title": "Remove XRSession parameter from XRLayer.getNativeFramebufferScaleFactor()",
         "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          },
           {
             "id": 1196205083,
             "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
@@ -86,10 +182,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 680,
         "created_at": "2019-05-31T21:59:37Z",
-        "closed_at": null,
+        "closed_at": "2019-06-10T22:31:50Z",
         "title": "Consider moving baseLayer from XRRenderState[Init] to XRSession",
         "labels": [],
         "assignee": null,
@@ -101,7 +197,24 @@
         "created_at": "2019-05-31T21:28:50Z",
         "closed_at": null,
         "title": "Consider removing XRWebGLLayer's `context` attribute",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          },
+          {
+            "id": 1196205083,
+            "node_id": "MDU6TGFiZWwxMTk2MjA1MDgz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/potential%20breaking%20change",
+            "name": "potential breaking change",
+            "color": "d32a6b",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -111,7 +224,16 @@
         "created_at": "2019-05-31T19:29:51Z",
         "closed_at": null,
         "title": "Consider replacing \"list of pending render states\" with \"pending render state\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -121,7 +243,16 @@
         "created_at": "2019-05-31T19:24:23Z",
         "closed_at": null,
         "title": "Describe the purpose of XRRenderState",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -131,7 +262,16 @@
         "created_at": "2019-05-31T19:20:27Z",
         "closed_at": null,
         "title": "Provide a description for each method",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -195,10 +335,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 670,
         "created_at": "2019-05-28T21:27:25Z",
-        "closed_at": null,
+        "closed_at": "2019-06-10T22:46:06Z",
         "title": "Finalize API shape for supporting multiple layers",
         "labels": [
           {
@@ -1560,18 +1700,18 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 583,
         "created_at": "2019-04-05T23:54:15Z",
-        "closed_at": null,
+        "closed_at": "2019-06-11T21:35:10Z",
         "title": "Decide what to do with Gamepad.index",
         "labels": [
           {
-            "id": 1350280010,
-            "node_id": "MDU6TGFiZWwxMzUwMjgwMDEw",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/external%20spec%20dependency",
-            "name": "external spec dependency",
-            "color": "c206cc",
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
             "default": false
           }
         ],
@@ -1660,7 +1800,7 @@
         "closed_at": null,
         "title": "Define a registry for defining how UAs expose input devices",
         "labels": [],
-        "assignee": null,
+        "assignee": "cwilso",
         "isPullRequest": false
       },
       {
@@ -2061,16 +2201,7 @@
         "created_at": "2019-03-01T00:29:54Z",
         "closed_at": null,
         "title": "Format of Gamepad identifiers",
-        "labels": [
-          {
-            "id": 1325301991,
-            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
-            "name": "fixed by pending PR",
-            "color": "64e519",
-            "default": false
-          }
-        ],
+        "labels": [],
         "assignee": "toji",
         "isPullRequest": false
       },
@@ -5318,12 +5449,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 268,
         "created_at": "2017-08-01T23:20:21Z",
-        "closed_at": null,
+        "closed_at": "2019-06-10T20:34:18Z",
         "title": "Is XRLayer useful?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          }
+        ],
         "assignee": "NellWaliczek",
         "isPullRequest": false
       },
