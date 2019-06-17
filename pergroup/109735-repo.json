@@ -8,6 +8,106 @@
     "issues": [
       {
         "state": "open",
+        "number": 708,
+        "created_at": "2019-06-15T15:45:59Z",
+        "closed_at": null,
+        "title": "Remove references to swap chain",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 707,
+        "created_at": "2019-06-15T14:25:20Z",
+        "closed_at": null,
+        "title": "Second try @ Remove context Attribute from XRWebGLLayer ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 706,
+        "created_at": "2019-06-14T22:42:06Z",
+        "closed_at": null,
+        "title": "Move racy parts of requestSession() to the main thread",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 705,
+        "created_at": "2019-06-14T22:14:42Z",
+        "closed_at": null,
+        "title": "Unset xrCompatible flags on session shutdown",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 704,
+        "created_at": "2019-06-14T21:54:50Z",
+        "closed_at": null,
+        "title": "Allow inline sessions without requiring the presence of an XR device",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 703,
+        "created_at": "2019-06-14T21:50:10Z",
+        "closed_at": "2019-06-14T22:19:56Z",
+        "title": "Some XRRenderState clarifications",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 702,
+        "created_at": "2019-06-14T21:21:18Z",
+        "closed_at": null,
+        "title": "Privacy: Interaction of existing permission-based features with WebXR feature consent",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 701,
+        "created_at": "2019-06-14T18:34:01Z",
+        "closed_at": "2019-06-14T21:07:13Z",
+        "title": "Replace 'list of pending render states' with 'pending render state'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 700,
+        "created_at": "2019-06-14T18:26:23Z",
+        "closed_at": "2019-06-14T20:23:37Z",
+        "title": "Use TAG recommendations for returning promises",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 699,
+        "created_at": "2019-06-14T14:56:20Z",
+        "closed_at": "2019-06-15T14:28:03Z",
+        "title": "Remove context Attribute from XRWebGLLayer",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 698,
         "created_at": "2019-06-14T04:19:56Z",
         "closed_at": null,
@@ -57,10 +157,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 693,
         "created_at": "2019-06-13T00:10:29Z",
-        "closed_at": null,
+        "closed_at": "2019-06-14T21:46:24Z",
         "title": "Specify the use of |session| in the XRWebGLLayer constructor algorithm",
         "labels": [],
         "assignee": null,
@@ -239,6 +339,14 @@
         "title": "Consider removing XRWebGLLayer's `context` attribute",
         "labels": [
           {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
+          {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
@@ -259,10 +367,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 678,
         "created_at": "2019-05-31T19:29:51Z",
-        "closed_at": null,
+        "closed_at": "2019-06-14T21:07:13Z",
         "title": "Consider replacing \"list of pending render states\" with \"pending render state\"",
         "labels": [
           {
@@ -274,16 +382,24 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 677,
         "created_at": "2019-05-31T19:24:23Z",
-        "closed_at": null,
+        "closed_at": "2019-06-14T22:19:56Z",
         "title": "Describe the purpose of XRRenderState",
         "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
           {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
@@ -293,7 +409,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -527,6 +643,14 @@
         "title": "Inconsistency between explainer and spec for inline sessions with no device.",
         "labels": [
           {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
+          {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
@@ -535,7 +659,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -669,12 +793,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 644,
         "created_at": "2019-05-14T22:22:22Z",
-        "closed_at": null,
+        "closed_at": "2019-06-14T20:23:36Z",
         "title": "Include synchronous steps in procedural algorithms",
         "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
           {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
@@ -684,7 +816,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -695,6 +827,14 @@
         "title": "requestSession() should set \"pending immersive session\" synchronously",
         "labels": [
           {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
+          {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
@@ -703,7 +843,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -819,6 +959,14 @@
         "title": "Clarify the relationship between \"XR device\" and \"inline\"",
         "labels": [
           {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
+          {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
@@ -827,7 +975,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -1325,6 +1473,14 @@
         "title": "When a session is shut down, should this clear the xrCompatible flag?",
         "labels": [
           {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
+          {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
@@ -1333,7 +1489,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -3245,6 +3401,14 @@
         "title": "Define the creation of a swap chain, or remove references",
         "labels": [
           {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
+          {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
@@ -3253,7 +3417,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
