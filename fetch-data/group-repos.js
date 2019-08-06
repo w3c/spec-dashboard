@@ -1,66 +1,12 @@
 const fs = require('fs'),
       config = require('../config.json'),
-      Queue = require('promise-queue'),
-      parse = require('parse-link-header'),
-      request = require('request');
-
-var queue = new Queue(Infinity, 1);
-var retryAfter = 0;
-
-const ghCache = {};
+      ghrequest = require('gh-api-request');
 
 const httpIze = u => u.replace(/^https:/, 'http:');
 
-const queueGhRequest = function(url) {
-    if (!ghCache[url]) {
-      ghCache[url] = queue.add(function() {
-        return new Promise(function (resolve, reject) {
-            setTimeout(function() {
-                console.log("requesting " + url);
-                request({
-                    method: 'GET',
-                    url: url,
-                    headers: {
-                        'User-Agent': 'W3C spec dashboard https://github.com/w3c/spec-dashboard',
-                        'Authorization': 'token ' + config.ghapitoken
-                    }
-                }, function (error, response, body) {
-                    const ret = {};
-                    if (error) return reject(error);
-                    if (response.headers['retry-after']) {
-                        retryAfter = response.headers['retry-after'];
-                    }
-                    if (response.statusCode == 403 && response.headers['retry-after']) {
-                        // requeue for later
-                        return queueGhRequest(url);
-                    } else if (response.statusCode > 400) reject({status: response.statusCode, body: body});
-                    let obj = [];
-                    if (body) {
-                        try {
-                            obj = JSON.parse(body);
-                        } catch (e){
-                            reject(e);
-                        }
-                    }
-                    ret.responseObject = obj;
-                    if (response.headers['link']) {
-                        const parsed = parse(response.headers['link']);
-                        if (parsed.next) {
-                            ret.nextPage = parsed.next.url;
-                        }
-                    }
-                    if (ret.nextPage) {
-                        ghCache[url] = queueGhRequest(ret.nextPage).then(obj => resolve(ret.responseObject.concat(obj))).catch(reject);
-                    } else {
-                        resolve(ret.responseObject);
-                    }
-                });
-            }, retryAfter*1000);
-        });
-    });
-    }
-    return ghCache[url];
-};
+ghrequest.ghToken = config.ghapitoken;
+ghrequest.userAgent = 'W3C spec dashboard https://github.com/w3c/spec-dashboard';
+const queueGhRequest = ghrequest.request;
 
 const urlToGHRepo = (url = "", tr_shortname) => {
     const nofilter = x => true;
