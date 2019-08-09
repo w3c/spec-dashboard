@@ -84,8 +84,8 @@ const urlToGHRepo = (url = "", tr_shortname) => {
 };
 
 
-const selectedgroups = process.argv[3] ? process.argv[3].split(",").map(n => parseInt(n,10)) : false;
-const restrictGroups = g => !selectedgroups || selectedgroups.includes(g.id);
+const selectedgroups = process.argv[3] ? process.argv[3].split(",") : false;
+const restrictGroups = g => !selectedgroups || selectedgroups.includes(g);
 
 fs.readFile("./groups.json", (err, data) => {
     if (err) return console.error(err);
