@@ -84,6 +84,9 @@ const urlToGHRepo = (url = "", tr_shortname) => {
 };
 
 
+const selectedgroups = process.argv[3] ? process.argv[3].split(",").map(n => parseInt(n,10)) : false;
+const restrictGroups = g => !selectedgroups || selectedgroups.includes(g.id);
+
 fs.readFile("./groups.json", (err, data) => {
     if (err) return console.error(err);
     const groups = JSON.parse(data);
@@ -92,7 +95,7 @@ fs.readFile("./groups.json", (err, data) => {
 
     fs.writeFileSync("./pergroup/repo-update.json", JSON.stringify(new Date()));
 
-    Object.keys(groups).forEach(wgid => {
+  Object.keys(groups).filter(restrictGroups).forEach(wgid => {
         fs.readFile("./pergroup/" + wgid + ".json", (err, data) => {
             const specs = JSON.parse(data);
             Promise.all(
