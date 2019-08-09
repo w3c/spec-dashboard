@@ -93,6 +93,7 @@ fs.readFile("./groups.json", (err, data) => {
 
     const updateIssues = process.argv[2] == "--update-issues";
 
+  if (!updateIssues)
     fs.writeFileSync("./pergroup/repo-update.json", JSON.stringify(new Date()));
 
   Object.keys(groups).filter(restrictGroups).forEach(wgid => {
