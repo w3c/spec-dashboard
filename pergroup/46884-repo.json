@@ -7,6 +7,778 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 2021,
+        "created_at": "2019-08-08T20:40:09Z",
+        "closed_at": null,
+        "title": "AudioWorkletProcessor constructor leads to infinite recursion",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2020,
+        "created_at": "2019-08-08T20:09:22Z",
+        "closed_at": null,
+        "title": "Clarify \"callable process\" in AudioWorkletProcessor construction algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2019,
+        "created_at": "2019-08-08T20:05:01Z",
+        "closed_at": null,
+        "title": "Fix type on AudioWorkletProcessor.port description",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2018,
+        "created_at": "2019-08-07T22:21:57Z",
+        "closed_at": null,
+        "title": "There are still issues with the setup of an AudioWorkletNode's parameters",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2017,
+        "created_at": "2019-08-07T20:13:52Z",
+        "closed_at": "2019-08-08T19:59:04Z",
+        "title": "Clarify `parameters` argument in AudioWorkletProcessor.process()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2016,
+        "created_at": "2019-08-05T20:08:52Z",
+        "closed_at": "2019-08-08T19:59:04Z",
+        "title": "Clarify `parameters` in AudioWorkletProcessor.process()",
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2015,
+        "created_at": "2019-07-29T15:31:01Z",
+        "closed_at": "2019-07-29T16:31:19Z",
+        "title": "Fix #2007: Fix typo in MediaStreamAudioSourceNode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2014,
+        "created_at": "2019-07-29T15:23:00Z",
+        "closed_at": "2019-07-29T16:31:44Z",
+        "title": "Fix #2001: Put back links to tail-time",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2013,
+        "created_at": "2019-07-25T22:45:26Z",
+        "closed_at": "2019-07-29T15:28:54Z",
+        "title": "Remove 'nullalble' type and default 'null' value from AudioWorkletNodeOptions.processorOptions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2012,
+        "created_at": "2019-07-25T19:18:01Z",
+        "closed_at": "2019-08-02T16:36:41Z",
+        "title": "Clarifying registerProcess() algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2011,
+        "created_at": "2019-07-25T15:00:17Z",
+        "closed_at": "2019-07-29T15:28:54Z",
+        "title": "AudioWorkletNodeOptions.processorOptions should not default to null.",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2010,
+        "created_at": "2019-07-24T17:00:14Z",
+        "closed_at": "2019-07-26T15:37:55Z",
+        "title": "Fix #1884: No errors from copyFromChannel/copyToChannel",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2009,
+        "created_at": "2019-07-24T16:06:42Z",
+        "closed_at": null,
+        "title": "MediaStreamAudioSourceNode with no audio tracks?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2008,
+        "created_at": "2019-07-22T11:19:42Z",
+        "closed_at": null,
+        "title": "Integration between event-loop of AudioWorkletGlobalScope and rendering loop",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2007,
+        "created_at": "2019-07-19T18:26:53Z",
+        "closed_at": "2019-07-29T16:31:20Z",
+        "title": "Typo in MediaStreamAudioSourceNode constructor",
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2006,
+        "created_at": "2019-07-19T16:55:20Z",
+        "closed_at": null,
+        "title": "Allow user-selectable render quantum size",
+        "labels": [
+          {
+            "id": 109541361,
+            "node_id": "MDU6TGFiZWwxMDk1NDEzNjE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Feature%20Request/Missing%20Feature",
+            "name": "Feature Request/Missing Feature",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2005,
+        "created_at": "2019-07-18T21:42:47Z",
+        "closed_at": "2019-08-08T18:27:47Z",
+        "title": "Split the instantiation algorithm of AWN/AWP into each constructor",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2004,
+        "created_at": "2019-07-18T17:12:24Z",
+        "closed_at": "2019-07-18T19:42:23Z",
+        "title": "Add a link to suspend() method in the OfflineAudioContext.startRendering algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2003,
+        "created_at": "2019-07-18T17:00:42Z",
+        "closed_at": "2019-07-19T15:58:15Z",
+        "title": "Use ErrorEvent against AudioWorkletNode.onprocessorerror",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2002,
+        "created_at": "2019-07-18T16:55:18Z",
+        "closed_at": "2019-07-18T18:18:19Z",
+        "title": "Fix #1943: Describe how WaveShaper curve works",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2001,
+        "created_at": "2019-07-17T20:59:01Z",
+        "closed_at": "2019-07-29T16:31:46Z",
+        "title": "Links to \"tail-time\" in node properties",
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": "rtoy",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2000,
+        "created_at": "2019-07-17T16:55:48Z",
+        "closed_at": "2019-07-26T15:40:49Z",
+        "title": "Revise the initialization of AudioWorkletProcessor.port",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1999,
+        "created_at": "2019-07-15T09:12:15Z",
+        "closed_at": "2019-07-18T15:30:12Z",
+        "title": "Replace `var` to `const` or `let` in sample code",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1998,
+        "created_at": "2019-07-15T04:06:19Z",
+        "closed_at": "2019-07-15T07:20:55Z",
+        "title": "feat: Add `scope` attribute for `<th />`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1997,
+        "created_at": "2019-07-15T03:36:07Z",
+        "closed_at": "2019-07-15T07:19:47Z",
+        "title": "Escape characters ('&', '<', '>')",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1996,
+        "created_at": "2019-07-12T15:46:28Z",
+        "closed_at": "2019-07-17T15:56:50Z",
+        "title": "Add an algorithm step to convert an IDL dictionary to an ES object.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1995,
+        "created_at": "2019-07-11T20:28:10Z",
+        "closed_at": "2019-07-17T15:58:16Z",
+        "title": "Remove redundant validity check in AudioWorkletNode instantiation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1994,
+        "created_at": "2019-07-11T20:11:28Z",
+        "closed_at": "2019-07-17T16:05:59Z",
+        "title": "Fix Audio Worklet code examples",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1993,
+        "created_at": "2019-07-11T18:15:28Z",
+        "closed_at": null,
+        "title": "Update the WebIDL interfaces for the new optional dictionnary defaulting",
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1992,
+        "created_at": "2019-07-11T17:59:02Z",
+        "closed_at": "2019-07-17T16:07:14Z",
+        "title": "Use iterable instead of array for `parameterDescriptors`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1991,
+        "created_at": "2019-07-11T15:55:03Z",
+        "closed_at": "2019-07-11T17:33:33Z",
+        "title": "Delete `webrtc-integration.html`.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1990,
+        "created_at": "2019-07-09T20:27:41Z",
+        "closed_at": "2019-07-11T17:33:33Z",
+        "title": "`webrtc-integration.html` uses lagacy APIs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1989,
+        "created_at": "2019-07-09T17:35:37Z",
+        "closed_at": null,
+        "title": "Please update to Web IDL changes to optional dictionary defaulting",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1987,
+        "created_at": "2019-07-09T09:00:05Z",
+        "closed_at": "2019-07-11T16:09:58Z",
+        "title": "refactor: Update legacy APIs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1986,
+        "created_at": "2019-07-09T00:07:06Z",
+        "closed_at": null,
+        "title": "Proporsal `NoteNode`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1985,
+        "created_at": "2019-07-08T22:57:29Z",
+        "closed_at": null,
+        "title": "Add event interfaces for `AudioParam` scheduling methods",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1984,
+        "created_at": "2019-07-07T03:38:15Z",
+        "closed_at": "2019-07-19T15:58:15Z",
+        "title": "Handling of exceptions in audio worklet is not very clear",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1976,
+        "created_at": "2019-07-05T21:25:11Z",
+        "closed_at": null,
+        "title": "AudioWorkletProcessor's [[node reference]] seems to be write-only",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1975,
+        "created_at": "2019-07-05T21:24:01Z",
+        "closed_at": null,
+        "title": "What happens if the constructor registered for an AudioWorkletProcessor subclass throws?",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1974,
+        "created_at": "2019-07-05T21:22:49Z",
+        "closed_at": null,
+        "title": "Setting of [[callable process]] when constructing an AudioWorkletProcessor is missing a word",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1973,
+        "created_at": "2019-07-05T21:04:28Z",
+        "closed_at": "2019-08-08T19:31:53Z",
+        "title": "VUMeter example uses AudioWorkletProcessor's port in a way that can't work per spec",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1972,
+        "created_at": "2019-07-05T20:49:15Z",
+        "closed_at": "2019-08-08T18:27:50Z",
+        "title": "parameterDescriptors handling during AudioWorkletNode initialization is probably wrong",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1971,
+        "created_at": "2019-07-05T20:38:22Z",
+        "closed_at": "2019-07-17T15:56:50Z",
+        "title": "AudioWorkletNode options serialization is underdefined",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1970,
+        "created_at": "2019-07-05T20:29:19Z",
+        "closed_at": null,
+        "title": "\"active source\" flag handling is a weird monkeypatch",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1969,
+        "created_at": "2019-07-05T20:24:01Z",
+        "closed_at": null,
+        "title": "It would be clearer if the various validation of AudioWorkletNodeOptions were an explicit step or set of steps",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1968,
+        "created_at": "2019-07-05T20:17:55Z",
+        "closed_at": null,
+        "title": "Use of Get in registerProcessor does not seem to handle abrupt completions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1967,
+        "created_at": "2019-07-05T20:09:30Z",
+        "closed_at": null,
+        "title": "Invoking JS in the rendering loop needs a bunch of setup that doesn't seem to be in the spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1966,
+        "created_at": "2019-07-05T19:53:40Z",
+        "closed_at": null,
+        "title": "parameterDescriptors is not looked up by the AudioWorkletProcessor constructor",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1965,
+        "created_at": "2019-07-05T19:48:02Z",
+        "closed_at": null,
+        "title": "options handling in AudioWorkletProcessor constructor is a bit confusing",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1964,
+        "created_at": "2019-07-05T19:39:04Z",
+        "closed_at": null,
+        "title": "Typo (?) in descrption of AudiWorkletProcessor's `port` attribute",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1963,
+        "created_at": "2019-07-05T19:37:41Z",
+        "closed_at": "2019-08-08T19:33:17Z",
+        "title": "NewTarget check for AudioWorkletProcessor isn't actually possible with a Web IDL constructor",
+        "labels": [],
+        "assignee": "hoch",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1962,
+        "created_at": "2019-06-27T18:52:12Z",
+        "closed_at": "2019-06-28T16:32:34Z",
+        "title": "Rewrite the convolver buffer setter steps in an algorithm, remove the connection provision from the setter",
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1961,
+        "created_at": "2019-06-27T18:20:13Z",
+        "closed_at": "2019-06-28T17:47:18Z",
+        "title": "Handle the exception the can be thrown when detaching an ArrayBuffer",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1960,
+        "created_at": "2019-06-27T17:59:57Z",
+        "closed_at": "2019-06-28T16:32:56Z",
+        "title": "Consistently use 'forward' instead of 'front' when talking about vectors",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1959,
+        "created_at": "2019-06-27T11:32:24Z",
+        "closed_at": "2019-06-27T15:55:41Z",
+        "title": "DC Offset is ignored when calling AudioContext.createPeriodicWave()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1958,
+        "created_at": "2019-06-26T20:10:20Z",
+        "closed_at": "2019-06-28T16:33:04Z",
+        "title": "Explain why the MediaStreamAudioSourceNode has a slot",
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1957,
+        "created_at": "2019-06-26T20:02:39Z",
+        "closed_at": "2019-06-28T16:33:13Z",
+        "title": "Update the length of the  parameter sequence after #1471.",
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1956,
+        "created_at": "2019-06-26T20:02:36Z",
+        "closed_at": "2019-06-27T18:00:53Z",
+        "title": "Put the example for queuing a control message next to the definition of the context",
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1955,
+        "created_at": "2019-06-26T13:50:46Z",
+        "closed_at": "2019-06-26T19:48:39Z",
+        "title": "fix 1954 adding heading to change log",
+        "labels": [],
+        "assignee": "mdjp",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1954,
+        "created_at": "2019-06-26T13:40:48Z",
+        "closed_at": "2019-06-27T15:56:43Z",
+        "title": "Add heading to change log from initial CR to transition request",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1953,
+        "created_at": "2019-06-26T03:33:34Z",
+        "closed_at": "2019-06-26T17:45:15Z",
+        "title": "WebAudio",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1952,
+        "created_at": "2019-06-25T20:11:44Z",
+        "closed_at": "2019-06-28T16:33:38Z",
+        "title": "Make the Background section of Processing model non-normative.",
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1951,
+        "created_at": "2019-06-25T19:52:53Z",
+        "closed_at": "2019-06-26T19:20:17Z",
+        "title": "Address 1899",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1950,
+        "created_at": "2019-06-25T18:12:22Z",
+        "closed_at": "2019-06-26T19:20:03Z",
+        "title": "Address #1906",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1949,
+        "created_at": "2019-06-20T18:29:14Z",
+        "closed_at": "2019-06-25T17:22:04Z",
+        "title": "Update changelog through 2019-06-20",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 1948,
         "created_at": "2019-06-13T17:52:39Z",
@@ -17,20 +789,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1947,
         "created_at": "2019-06-11T15:42:55Z",
-        "closed_at": null,
+        "closed_at": "2019-07-17T16:07:14Z",
         "title": "Spec is inconsistent about whether parameterDescriptors is an array or an iterable",
         "labels": [],
         "assignee": "hoch",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1946,
         "created_at": "2019-06-11T15:39:07Z",
-        "closed_at": null,
+        "closed_at": "2019-08-02T16:36:41Z",
         "title": "Population of \"node name to parameter descriptor map\" needs to be defined",
         "labels": [],
         "assignee": "hoch",
@@ -57,10 +829,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1943,
         "created_at": "2019-06-05T17:46:14Z",
-        "closed_at": null,
+        "closed_at": "2019-07-18T18:18:20Z",
         "title": "Describe how WaveShaperNode shapes the input with the curve",
         "labels": [
           {
@@ -72,7 +844,7 @@
             "default": false
           }
         ],
-        "assignee": "svgeesus",
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
@@ -182,13 +954,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1935,
         "created_at": "2019-05-31T09:33:32Z",
-        "closed_at": null,
+        "closed_at": "2019-06-28T16:33:13Z",
         "title": "length of AudioWorkletProcessor.process() parameter sequences with inactive inputs",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -206,9 +987,9 @@
         "number": 1933,
         "created_at": "2019-05-31T07:41:13Z",
         "closed_at": null,
-        "title": "Confusion between WebIDL and ECMAScript types in AudioWorkletProcessor.process() and its parameters",
+        "title": "Improve description of parameters for process() calls on client objects extending AudioWorkletProcessor",
         "labels": [],
-        "assignee": null,
+        "assignee": "hoch",
         "isPullRequest": false
       },
       {
@@ -271,10 +1052,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1927,
         "created_at": "2019-05-23T13:26:27Z",
-        "closed_at": null,
+        "closed_at": "2019-06-25T18:08:21Z",
         "title": "MediaStreamAudioSourceNode vs. ended tracks",
         "labels": [],
         "assignee": null,
@@ -300,13 +1081,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1925,
         "created_at": "2019-05-22T17:18:06Z",
-        "closed_at": null,
+        "closed_at": "2019-06-28T17:34:48Z",
         "title": "front vs forward",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -553,10 +1343,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1906,
         "created_at": "2019-05-17T17:53:45Z",
-        "closed_at": null,
+        "closed_at": "2019-06-26T19:54:27Z",
         "title": "Steps in rendering algorithm",
         "labels": [
           {
@@ -591,10 +1381,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1904,
         "created_at": "2019-05-17T17:18:10Z",
-        "closed_at": null,
+        "closed_at": "2019-06-28T17:34:55Z",
         "title": "Strange Note in algorithm for swapping a control message queue",
         "labels": [
           {
@@ -604,16 +1394,24 @@
             "name": "Editorial/Documentation",
             "color": "fbca04",
             "default": false
+          },
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
           }
         ],
         "assignee": "padenot",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1903,
         "created_at": "2019-05-17T17:09:55Z",
-        "closed_at": null,
+        "closed_at": "2019-06-28T17:43:37Z",
         "title": "Funny sentence about priority and latency",
         "labels": [
           {
@@ -622,6 +1420,14 @@
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
             "name": "Editorial/Documentation",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
             "default": false
           }
         ],
@@ -686,10 +1492,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1899,
         "created_at": "2019-05-16T22:54:58Z",
-        "closed_at": null,
+        "closed_at": "2019-06-26T19:51:44Z",
         "title": "Missing synchronous markers",
         "labels": [
           {
@@ -840,10 +1646,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1889,
         "created_at": "2019-05-15T23:09:09Z",
-        "closed_at": null,
+        "closed_at": "2019-06-28T17:37:01Z",
         "title": "Internal slot [[input track]] defined but not used",
         "labels": [
           {
@@ -852,6 +1658,14 @@
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
             "name": "Editorial/Documentation",
             "color": "fbca04",
+            "default": false
+          },
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
             "default": false
           }
         ],
@@ -926,10 +1740,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1884,
         "created_at": "2019-05-15T16:20:07Z",
-        "closed_at": null,
+        "closed_at": "2019-07-26T15:37:58Z",
         "title": "Valid range for startInChannel for copyToBuffer and copyFromBuffer",
         "labels": [
           {
@@ -1202,10 +2016,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1867,
         "created_at": "2019-05-10T17:24:22Z",
-        "closed_at": null,
+        "closed_at": "2019-07-18T19:42:22Z",
         "title": "OfflineAudioContext.startRendering algorithm should reference suspend algorithm?",
         "labels": [
           {
@@ -1288,20 +2102,29 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1862,
         "created_at": "2019-05-10T13:23:10Z",
-        "closed_at": null,
+        "closed_at": "2019-07-29T15:40:01Z",
         "title": "ConvolverNode's \"buffer\" attribute doesn't actually define the setter steps",
-        "labels": [],
+        "labels": [
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
         "assignee": "padenot",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1861,
         "created_at": "2019-05-10T07:44:02Z",
-        "closed_at": null,
+        "closed_at": "2019-06-28T17:47:27Z",
         "title": "Add tests for ArrayBuffer detaching that throws and account for it in prose",
         "labels": [],
         "assignee": "padenot",
@@ -2271,10 +3094,10 @@
         "isPullRequest": false
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 1802,
         "created_at": "2018-12-19T17:48:13Z",
-        "closed_at": "2019-03-14T16:44:37Z",
+        "closed_at": null,
         "title": "Clarify interaction between user-invoked suspend and autoplay policy",
         "labels": [
           {
@@ -2283,6 +3106,14 @@
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Clarification%20(Requires%20change)",
             "name": "Clarification (Requires change)",
             "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 839350650,
+            "node_id": "MDU6TGFiZWw4MzkzNTA2NTA=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Privacy",
+            "name": "Privacy",
+            "color": "0b821f",
             "default": false
           }
         ],
@@ -2367,10 +3198,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1796,
         "created_at": "2018-11-19T14:52:47Z",
-        "closed_at": null,
+        "closed_at": "2019-06-20T15:44:55Z",
         "title": "Spec cancelAndHoldAtTime more precisely",
         "labels": [
           {
@@ -13015,14 +13846,6 @@
             "default": false
           },
           {
-            "id": 742420783,
-            "node_id": "MDU6TGFiZWw3NDI0MjA3ODM=",
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/High%20Priority%20V2",
-            "name": "High Priority V2",
-            "color": "992b07",
-            "default": false
-          },
-          {
             "id": 881471892,
             "node_id": "MDU6TGFiZWw4ODE0NzE4OTI=",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Theme%20-%20Encoding/Decoding",
@@ -15345,14 +16168,6 @@
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Feature%20Request/Missing%20Feature",
             "name": "Feature Request/Missing Feature",
             "color": "0052cc",
-            "default": false
-          },
-          {
-            "id": 742420783,
-            "node_id": "MDU6TGFiZWw3NDI0MjA3ODM=",
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/High%20Priority%20V2",
-            "name": "High Priority V2",
-            "color": "992b07",
             "default": false
           },
           {
@@ -25711,14 +26526,6 @@
             "default": false
           },
           {
-            "id": 742420783,
-            "node_id": "MDU6TGFiZWw3NDI0MjA3ODM=",
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/High%20Priority%20V2",
-            "name": "High Priority V2",
-            "color": "992b07",
-            "default": false
-          },
-          {
             "id": 881458176,
             "node_id": "MDU6TGFiZWw4ODE0NTgxNzY=",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Prototype",
@@ -29971,6 +30778,76 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 205,
+        "created_at": "2019-07-11T15:17:45Z",
+        "closed_at": null,
+        "title": "A typo in example 8",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 204,
+        "created_at": "2019-07-11T06:50:54Z",
+        "closed_at": null,
+        "title": "chore(.pr-preview.json): enable pull request previews",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 203,
+        "created_at": "2019-07-11T06:48:36Z",
+        "closed_at": null,
+        "title": "set default for optional dictionary",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 202,
+        "created_at": "2019-07-11T06:48:23Z",
+        "closed_at": null,
+        "title": "Chore: ReSpec fixes + enable xref",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 201,
+        "created_at": "2019-07-03T03:23:19Z",
+        "closed_at": null,
+        "title": "MIDIPort close() does not cover the \"pending\" case",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 200,
+        "created_at": "2019-06-24T04:30:27Z",
+        "closed_at": "2019-06-24T22:00:54Z",
+        "title": "Making MIDI{Input|Output}Map interfaces as [SecureContext]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 199,
+        "created_at": "2019-06-24T03:59:03Z",
+        "closed_at": "2019-06-26T06:01:00Z",
+        "title": "MIDIInputMap and MIDIOutputMap should be also [SecureContext]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 198,
