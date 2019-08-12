@@ -5,7 +5,11 @@ if (querystring) {
     if (comp[1]) {
         var shortname = comp[1].split("=")[1];
     }
+  if (comp[2]) {
+    var excludedLabels = comp[2].split("=")[1].split(",").map(decodeURIComponent);
+  }
 }
+console.log(excludedLabels);
 
 const logError = err => document.querySelector("#msg").textContent = err;
 
@@ -41,7 +45,7 @@ fetch("groups.json")
     }).catch(logError);
 
 function dashboard(repoinfo) {
-    const issues = repoinfo.issues.filter(i => !i.isPullRequest);
+  const issues = repoinfo.issues.filter(i => !i.isPullRequest).filter(i => (!excludedLabels || !excludedLabels.length) || (!i.labels.find(l => excludedLabels.includes(l.name))));
     const repo = repoinfo.repo;
     var margin = {top: 30, right: 50, bottom: 30, left: 50},
         width = 800 - margin.left - margin.right,
