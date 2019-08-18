@@ -5968,20 +5968,29 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 611,
         "created_at": "2019-07-22T14:54:49Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:35:11Z",
         "title": "Remove \"The relative order of the tracks in the set is User Agent defined and the API will never put any requirements on the order.\", et al.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 123211617,
+            "node_id": "MDU6TGFiZWwxMjMyMTE2MTc=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 610,
         "created_at": "2019-07-20T07:29:54Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:32:16Z",
         "title": "Violation.",
         "labels": [],
         "assignee": "youennf",
@@ -6004,7 +6013,7 @@
         "closed_at": null,
         "title": "Is enumerateDevices list order significant?",
         "labels": [],
-        "assignee": null,
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -6013,8 +6022,17 @@
         "created_at": "2019-07-09T19:39:34Z",
         "closed_at": null,
         "title": "fixed, per origin, device ID creates tracking risk",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1502425184,
+            "node_id": "MDU6TGFiZWwxNTAyNDI1MTg0",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -6033,8 +6051,25 @@
         "created_at": "2019-06-11T12:29:55Z",
         "closed_at": null,
         "title": "MediaTrackSettings lacks support of channel layout",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1502425184,
+            "node_id": "MDU6TGFiZWwxNTAyNDI1MTg0",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 123211617,
+            "node_id": "MDU6TGFiZWwxMjMyMTE2MTc=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true
+          }
+        ],
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -6044,7 +6079,7 @@
         "closed_at": null,
         "title": "oldList definition in enumerateDevices is unclear",
         "labels": [],
-        "assignee": null,
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -6146,10 +6181,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 595,
         "created_at": "2019-05-21T20:17:17Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:31:22Z",
         "title": "Interpret the empty string as if the constraint is not specified",
         "labels": [
           {
@@ -6203,10 +6238,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 591,
         "created_at": "2019-05-17T14:57:38Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:30:52Z",
         "title": "Recommend UUID for deviceId and groupId",
         "labels": [
           {
@@ -14149,6 +14184,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 179,
+        "created_at": "2019-08-16T00:41:18Z",
+        "closed_at": null,
+        "title": "Add method that allows user specification of which tracks go with what number in the container-dependent ordering",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 178,
         "created_at": "2019-08-11T13:10:53Z",
@@ -16553,10 +16598,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 105,
         "created_at": "2019-04-28T17:41:59Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:44:38Z",
         "title": "Provide a means to select only part of a screen to capture",
         "labels": [
           {
@@ -17399,7 +17444,7 @@
             "default": false
           }
         ],
-        "assignee": "uysalere",
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -18132,9 +18177,38 @@
     "issues": [
       {
         "state": "open",
-        "number": 2272,
-        "created_at": "2019-08-14T19:28:03Z",
+        "number": 2276,
+        "created_at": "2019-08-16T22:13:51Z",
         "closed_at": null,
+        "title": "RTCIceTransport selected candidate pair behavior when changing state",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2275,
+        "created_at": "2019-08-15T16:16:57Z",
+        "closed_at": null,
+        "title": "Status of Document: Update \"features at risk\" list",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": "aboba",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2274,
+        "created_at": "2019-08-15T16:01:42Z",
+        "closed_at": "2019-08-15T16:05:16Z",
         "title": "Change \"stuns\" to \"stun\" in examples",
         "labels": [],
         "assignee": null,
@@ -18142,19 +18216,48 @@
       },
       {
         "state": "open",
+        "number": 2273,
+        "created_at": "2019-08-15T14:20:02Z",
+        "closed_at": null,
+        "title": "ICE restart and terminal RTCIceTransport.state \"failed\" state",
+        "labels": [],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2272,
+        "created_at": "2019-08-14T19:28:03Z",
+        "closed_at": "2019-08-15T16:02:17Z",
+        "title": "Change \"stuns\" to \"stun\" in examples",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2271,
         "created_at": "2019-08-14T08:02:27Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:24:05Z",
         "title": "Remove example on media before signaling",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2270,
         "created_at": "2019-08-14T07:47:45Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T16:05:36Z",
         "title": "stuns: usage in examples",
         "labels": [
           {
@@ -18178,20 +18281,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2269,
         "created_at": "2019-08-13T22:03:22Z",
-        "closed_at": null,
+        "closed_at": "2019-08-16T22:15:09Z",
         "title": "RTCIceTransport selected candidate pair behavior when changing state",
         "labels": [],
         "assignee": "aboba",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2268,
         "created_at": "2019-08-13T21:09:32Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:19:40Z",
         "title": "Effect of ICE failed state",
         "labels": [],
         "assignee": "aboba",
@@ -18301,10 +18404,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2262,
         "created_at": "2019-08-09T08:54:59Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:15:49Z",
         "title": "Add a test-coverage focused view to the spec",
         "labels": [],
         "assignee": null,
@@ -18340,20 +18443,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2259,
         "created_at": "2019-08-08T14:38:19Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:13:45Z",
         "title": "Mark RTCDataChannel/RTCRtpSendParameters.priority as \"feature at risk\"",
         "labels": [],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2258,
         "created_at": "2019-08-08T14:27:21Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:13:45Z",
         "title": "Mark RTCDataChannel/RTCRtpSendParameters.priority as \"feature at risk\"",
         "labels": [
           {
@@ -18379,20 +18482,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2256,
         "created_at": "2019-08-05T19:16:51Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:11:50Z",
         "title": "Mark getSupportedAlgorithms as a \"feature at risk\"",
         "labels": [],
         "assignee": "aboba",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2255,
         "created_at": "2019-08-05T19:13:03Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:24:57Z",
         "title": "Mark getSupportedAlgorithms as a \"feature at risk\"",
         "labels": [
           {
@@ -18423,7 +18526,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -18446,10 +18549,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2252,
         "created_at": "2019-08-04T21:30:05Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:10:54Z",
         "title": "Clear [[LastCreatedOffer/Answer]] in SRD(answer) as well (editorial)",
         "labels": [
           {
@@ -18490,7 +18593,16 @@
         "created_at": "2019-08-02T19:55:57Z",
         "closed_at": null,
         "title": "Add a [[DocumentOrigin]] internal slot to RTCPeerConnection.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -18514,20 +18626,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2247,
         "created_at": "2019-08-01T18:17:39Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:06:19Z",
         "title": "Mark OAuth as a \"feature at risk\"",
         "labels": [],
         "assignee": "aboba",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2246,
         "created_at": "2019-08-01T18:11:08Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:25:26Z",
         "title": "Mark Oauth as a \"feature at risk\"",
         "labels": [
           {
@@ -18543,10 +18655,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2245,
         "created_at": "2019-08-01T18:05:53Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:04:35Z",
         "title": "Mark VAD and dtx as \"features at risk\"",
         "labels": [],
         "assignee": "aboba",
@@ -18695,10 +18807,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2236,
         "created_at": "2019-07-23T09:46:37Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:25:39Z",
         "title": "Mark voiceActivityDetection and dtx as Feature At Risk (Was: Is voiceActivityDetection still needed?)",
         "labels": [
           {
@@ -18938,11 +19050,11 @@
         "title": "Add initialization of DataChannelId on connection",
         "labels": [
           {
-            "id": 907371927,
-            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
-            "name": "Needs Test",
-            "color": "37ce2f",
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
             "default": false
           },
           {
@@ -19667,10 +19779,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2176,
         "created_at": "2019-04-17T14:00:14Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T16:09:36Z",
         "title": "Spec steps on stop() underestimate BUNDLE problem.",
         "labels": [
           {
@@ -19937,10 +20049,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2161,
         "created_at": "2019-04-04T16:25:52Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:15:49Z",
         "title": "Too many test links in the spec, some redundant",
         "labels": [
           {
@@ -20236,10 +20348,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2145,
         "created_at": "2019-03-26T20:18:23Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T16:07:59Z",
         "title": "createOffer does not guard against \"have-remote-offer\"",
         "labels": [
           {
@@ -22499,7 +22611,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -22937,10 +23049,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2004,
         "created_at": "2018-10-06T10:39:58Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:26:35Z",
         "title": "No procedure for the ICE failed state",
         "labels": [
           {
@@ -27634,10 +27746,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1709,
         "created_at": "2018-01-02T10:05:44Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:24:05Z",
         "title": "example 14: render before verifying the remote fingerprint?",
         "labels": [
           {
@@ -27661,10 +27773,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1708,
         "created_at": "2018-01-02T09:47:05Z",
-        "closed_at": null,
+        "closed_at": "2019-08-15T14:24:05Z",
         "title": "Example 14 never sends any media",
         "labels": [
           {
@@ -53593,6 +53705,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 473,
+        "created_at": "2019-08-16T11:43:42Z",
+        "closed_at": "2019-08-16T14:07:00Z",
+        "title": "Move RTCCodecStats.implementation to RTC[In/Out]boundRtpStreamStats.[decoder/encoder]Implementation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 472,
         "created_at": "2019-08-14T14:03:27Z",
@@ -53899,18 +54021,18 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 445,
         "created_at": "2019-06-13T10:11:45Z",
-        "closed_at": null,
+        "closed_at": "2019-08-16T14:07:00Z",
         "title": "We should move RTCCodecStats.implementation to RTC[In/Out]boundRtpStreamStats",
         "labels": [
           {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
             "default": false
           }
         ],
