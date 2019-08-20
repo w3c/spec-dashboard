@@ -8,6 +8,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 2030,
+        "created_at": "2019-08-19T20:20:08Z",
+        "closed_at": null,
+        "title": "Fix the broken ordered list in registerProcessor()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2029,
+        "created_at": "2019-08-19T17:17:55Z",
+        "closed_at": null,
+        "title": "Use [[node reference]] to fire ErrorEvent from AWP to AWN",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2027,
         "created_at": "2019-08-17T17:23:28Z",
         "closed_at": null,
@@ -97,13 +117,13 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2018,
         "created_at": "2019-08-07T22:21:57Z",
-        "closed_at": null,
+        "closed_at": "2019-08-19T20:49:21Z",
         "title": "There are still issues with the setup of an AudioWorkletNode's parameters",
         "labels": [],
-        "assignee": null,
+        "assignee": "hoch",
         "isPullRequest": false
       },
       {
@@ -508,10 +528,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1975,
         "created_at": "2019-07-05T21:24:01Z",
-        "closed_at": null,
+        "closed_at": "2019-08-19T21:03:30Z",
         "title": "What happens if the constructor registered for an AudioWorkletProcessor subclass throws?",
         "labels": [],
         "assignee": "padenot",
@@ -583,8 +603,17 @@
         "created_at": "2019-07-05T20:17:55Z",
         "closed_at": null,
         "title": "Use of Get in registerProcessor does not seem to handle abrupt completions",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 704317574,
+            "node_id": "MDU6TGFiZWw3MDQzMTc1NzQ=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Proposed%20v.next",
+            "name": "Proposed v.next",
+            "color": "b60205",
+            "default": false
+          }
+        ],
+        "assignee": "hoch",
         "isPullRequest": false
       },
       {
@@ -594,7 +623,7 @@
         "closed_at": null,
         "title": "Invoking JS in the rendering loop needs a bunch of setup that doesn't seem to be in the spec",
         "labels": [],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -608,10 +637,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1965,
         "created_at": "2019-07-05T19:48:02Z",
-        "closed_at": null,
+        "closed_at": "2019-08-19T20:58:14Z",
         "title": "options handling in AudioWorkletProcessor constructor is a bit confusing",
         "labels": [],
         "assignee": "hoch",
