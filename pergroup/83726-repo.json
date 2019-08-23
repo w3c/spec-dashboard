@@ -1335,6 +1335,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 1039,
+        "created_at": "2019-08-22T17:23:55Z",
+        "closed_at": "2019-08-22T18:33:44Z",
+        "title": "Consider making the accessible name optional for the table role",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1038,
+        "created_at": "2019-08-21T19:27:26Z",
+        "closed_at": null,
+        "title": "Requesting new feature for label synonyms",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 1037,
         "created_at": "2019-08-21T01:24:23Z",
@@ -1365,13 +1385,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1034,
         "created_at": "2019-08-19T08:14:42Z",
-        "closed_at": null,
+        "closed_at": "2019-08-22T19:06:15Z",
         "title": "Implicit role=presentation except for Required Owned Elements",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 88491190,
+            "node_id": "MDU6TGFiZWw4ODQ5MTE5MA==",
+            "url": "https://api.github.com/repos/w3c/aria/labels/duplicate",
+            "name": "duplicate",
+            "color": "cccccc",
+            "default": true
+          }
+        ],
+        "assignee": "mcking65",
         "isPullRequest": false
       },
       {
@@ -1419,6 +1448,16 @@
         "created_at": "2019-08-12T11:19:47Z",
         "closed_at": null,
         "title": "`listitem` role seems to be missing `directory` as required context role",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1029,
+        "created_at": "2019-08-08T17:27:31Z",
+        "closed_at": "2019-08-22T20:36:46Z",
+        "title": "fix(grid): removes aria-level from grid",
         "labels": [
           {
             "id": 1126891910,
@@ -1429,16 +1468,6 @@
             "default": false
           }
         ],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 1029,
-        "created_at": "2019-08-08T17:27:31Z",
-        "closed_at": null,
-        "title": "fix(grid): removes aria-level from grid",
-        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5136,14 +5165,6 @@
         "title": "Definition of \"owned\" is not strict enough; should actually be direct children, not any descendant",
         "labels": [
           {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
-            "default": false
-          },
-          {
             "id": 88491189,
             "node_id": "MDU6TGFiZWw4ODQ5MTE4OQ==",
             "url": "https://api.github.com/repos/w3c/aria/labels/bug",
@@ -5214,10 +5235,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 743,
         "created_at": "2018-05-08T18:17:56Z",
-        "closed_at": null,
+        "closed_at": "2019-08-22T20:36:45Z",
         "title": "Consider removing aria-level from grid",
         "labels": [
           {
@@ -18172,11 +18193,99 @@
     "issues": [
       {
         "state": "open",
+        "number": 1138,
+        "created_at": "2019-08-22T13:27:55Z",
+        "closed_at": null,
+        "title": "alert is not output (IE 11, JAWS)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1137,
+        "created_at": "2019-08-22T03:51:22Z",
+        "closed_at": null,
+        "title": "\"Collapsible Dropdown Listbox\" as button with listbox?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1136,
+        "created_at": "2019-08-22T01:52:34Z",
+        "closed_at": null,
+        "title": "Explanation about aria-labelledby with hidden content not clear",
+        "labels": [
+          {
+            "id": 431710669,
+            "node_id": "MDU6TGFiZWw0MzE3MTA2Njk=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Feedback",
+            "name": "Feedback",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true
+          },
+          {
+            "id": 366002436,
+            "node_id": "MDU6TGFiZWwzNjYwMDI0MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/documentation",
+            "name": "documentation",
+            "color": "f9d0c4",
+            "default": true
+          },
+          {
+            "id": 525886203,
+            "node_id": "MDU6TGFiZWw1MjU4ODYyMDM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/guidance",
+            "name": "guidance",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 1135,
         "created_at": "2019-08-21T05:30:11Z",
-        "closed_at": null,
+        "closed_at": "2019-08-22T05:27:23Z",
         "title": "Focus highlighting does not work with aria-activedescendant ",
-        "labels": [],
+        "labels": [
+          {
+            "id": 431710669,
+            "node_id": "MDU6TGFiZWw0MzE3MTA2Njk=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Feedback",
+            "name": "Feedback",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 366002436,
+            "node_id": "MDU6TGFiZWwzNjYwMDI0MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/documentation",
+            "name": "documentation",
+            "color": "f9d0c4",
+            "default": true
+          },
+          {
+            "id": 525886203,
+            "node_id": "MDU6TGFiZWw1MjU4ODYyMDM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/guidance",
+            "name": "guidance",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
