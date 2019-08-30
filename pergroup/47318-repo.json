@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 83,
+        "created_at": "2019-08-29T14:59:32Z",
+        "closed_at": null,
+        "title": "Selecting audio output in case device info permission is not granted",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 82,
         "created_at": "2019-06-24T19:19:48Z",
         "closed_at": null,
@@ -4987,10 +4997,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 78,
         "created_at": "2019-04-27T18:56:39Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T18:05:55Z",
         "title": "MediaStreamTrack does not dispatch \"ended\" event at Chromium when src of HTMLMediaElement is changed, Firefox does dispatch \"ended\" event; which implementation is correct?",
         "labels": [],
         "assignee": null,
@@ -5994,7 +6004,7 @@
         "closed_at": null,
         "title": "Update to constructor operations",
         "labels": [],
-        "assignee": null,
+        "assignee": "dontcallmedom",
         "isPullRequest": false
       },
       {
@@ -18376,12 +18386,32 @@
     "issues": [
       {
         "state": "open",
+        "number": 2284,
+        "created_at": "2019-08-29T14:48:09Z",
+        "closed_at": null,
+        "title": "Should peer identity specific steps be marked as \"Feature at risk\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2283,
+        "created_at": "2019-08-29T14:39:54Z",
+        "closed_at": null,
+        "title": "Merge the steps for updating candidate pair and ice transport state",
+        "labels": [],
+        "assignee": "aboba",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2282,
         "created_at": "2019-08-29T09:00:04Z",
         "closed_at": null,
         "title": "Update to constructor operations",
         "labels": [],
-        "assignee": null,
+        "assignee": "dontcallmedom",
         "isPullRequest": false
       },
       {
@@ -18409,7 +18439,16 @@
         "created_at": "2019-08-27T18:41:49Z",
         "closed_at": null,
         "title": "Update \"Features at risk\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
         "assignee": "aboba",
         "isPullRequest": true
       },
@@ -18708,20 +18747,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2261,
         "created_at": "2019-08-08T15:00:58Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T14:25:31Z",
         "title": "Mark RTCRtpEncodingParameters.maxFramerate as \"feature at risk\"",
         "labels": [],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2260,
         "created_at": "2019-08-08T15:00:21Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T14:25:31Z",
         "title": "Mark RTCRtpEncodingParameters.maxFramerate as \"feature at risk\"",
         "labels": [
           {
@@ -18877,7 +18916,16 @@
         "created_at": "2019-08-02T23:25:47Z",
         "closed_at": null,
         "title": "Clarify SRD() won't reject on identity failure wo/target peer identity.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -19929,6 +19977,14 @@
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20submitter%20action",
             "name": "Needs submitter action",
             "color": "eb6420",
+            "default": false
+          },
+          {
+            "id": 1490875475,
+            "node_id": "MDU6TGFiZWwxNDkwODc1NDc1",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "e99695",
             "default": false
           }
         ],
@@ -54053,6 +54109,63 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 480,
+        "created_at": "2019-08-29T16:34:25Z",
+        "closed_at": null,
+        "title": "What should we do about onstatsended?",
+        "labels": [
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2019-08-29T16:21:17Z",
+        "closed_at": null,
+        "title": "Should we move track/sender/receiver to the obsolete section?",
+        "labels": [
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 478,
+        "created_at": "2019-08-29T15:28:10Z",
+        "closed_at": null,
+        "title": "Should we have transceiver stats?",
+        "labels": [
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 477,
         "created_at": "2019-08-27T12:48:36Z",
@@ -54490,6 +54603,14 @@
             "name": "Ready for PR",
             "color": "c2e0c6",
             "default": false
+          },
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
           }
         ],
         "assignee": "henbos",
@@ -54538,6 +54659,14 @@
             "name": "Ready for PR",
             "color": "c2e0c6",
             "default": false
+          },
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
           }
         ],
         "assignee": "jan-ivar",
@@ -54556,6 +54685,14 @@
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editorial",
             "name": "Editorial",
             "color": "e99695",
+            "default": false
+          },
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
             "default": false
           }
         ],
@@ -54613,6 +54750,14 @@
             "name": "Editorial",
             "color": "e99695",
             "default": false
+          },
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false
           }
         ],
         "assignee": "vr000m",
@@ -54654,7 +54799,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "aboba",
         "isPullRequest": false
       },
       {
@@ -54683,7 +54828,16 @@
         "created_at": "2019-04-09T17:14:48Z",
         "closed_at": null,
         "title": "Request to add neteq waiting time to stats report",
-        "labels": [],
+        "labels": [
+          {
+            "id": 490238153,
+            "node_id": "MDU6TGFiZWw0OTAyMzgxNTM=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
+            "name": "Icebox",
+            "color": "c5def5",
+            "default": false
+          }
+        ],
         "assignee": "henbos",
         "isPullRequest": false
       },
@@ -54713,7 +54867,16 @@
         "created_at": "2019-04-05T12:42:15Z",
         "closed_at": null,
         "title": "Receiver attachment stats missing",
-        "labels": [],
+        "labels": [
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
         "assignee": "henbos",
         "isPullRequest": false
       },
@@ -54722,8 +54885,17 @@
         "number": 423,
         "created_at": "2019-04-04T09:11:49Z",
         "closed_at": null,
-        "title": "targetBitrate should not be \"measured over 1 second window\"",
-        "labels": [],
+        "title": "Make targetBitrate obsolete (was: targetBitrate should not be \"measured over 1 second window\")",
+        "labels": [
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
         "assignee": "henbos",
         "isPullRequest": false
       },
@@ -54999,10 +55171,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 403,
         "created_at": "2019-03-06T20:51:06Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T16:36:58Z",
         "title": "Impact on Track Stats because of moving stats from sender/receiver to appropriate in/outbound rtp",
         "labels": [],
         "assignee": "karthikbr82",
@@ -55048,6 +55220,14 @@
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
             "name": "Icebox",
             "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
             "default": false
           }
         ],
@@ -55106,6 +55286,14 @@
             "name": "Ready for PR",
             "color": "c2e0c6",
             "default": false
+          },
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
           }
         ],
         "assignee": "karthikbr82",
@@ -55117,7 +55305,16 @@
         "created_at": "2019-03-06T15:04:27Z",
         "closed_at": null,
         "title": "Add RTCOutboundRtpStreamStats.framesDiscardedOnSend",
-        "labels": [],
+        "labels": [
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
         "assignee": "vr000m",
         "isPullRequest": false
       },
@@ -55212,10 +55409,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 392,
         "created_at": "2019-02-20T20:45:03Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T13:57:20Z",
         "title": "framesDecoded is on both \"receiver\" and \"inbound-rtp\"",
         "labels": [],
         "assignee": "henbos",
@@ -55227,7 +55424,16 @@
         "created_at": "2019-02-13T20:01:12Z",
         "closed_at": null,
         "title": "audioLevel can be removed from \"track\"|\"receiver\"|\"sender\" stats",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
         "assignee": "henbos",
         "isPullRequest": false
       },
@@ -55324,6 +55530,14 @@
             "name": "Submitter input needed",
             "color": "c5def5",
             "default": false
+          },
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
           }
         ],
         "assignee": "vr000m",
@@ -55418,12 +55632,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 375,
         "created_at": "2018-09-28T21:10:24Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T13:48:30Z",
         "title": "Is exposing a remote peer IP address through RTCIceCandidateStats.address a privacy issue",
         "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false
+          },
           {
             "id": 1087625463,
             "node_id": "MDU6TGFiZWwxMDg3NjI1NDYz",
@@ -55450,6 +55672,14 @@
             "name": "TPAC 2018",
             "color": "cadd75",
             "default": false
+          },
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
           }
         ],
         "assignee": "youennf",
@@ -55461,7 +55691,16 @@
         "created_at": "2018-09-19T13:24:25Z",
         "closed_at": null,
         "title": "Inconsistent usage of not applicable/not present",
-        "labels": [],
+        "labels": [
+          {
+            "id": 867275345,
+            "node_id": "MDU6TGFiZWw4NjcyNzUzNDU=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editorial",
+            "name": "Editorial",
+            "color": "e99695",
+            "default": false
+          }
+        ],
         "assignee": "vr000m",
         "isPullRequest": false
       },
@@ -55526,10 +55765,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 366,
         "created_at": "2018-09-12T14:56:09Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T13:44:14Z",
         "title": "Call out which stats are expected to trigger StatsEnded events",
         "labels": [
           {
@@ -55557,6 +55796,14 @@
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202018",
             "name": "TPAC 2018",
             "color": "cadd75",
+            "default": false
+          },
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
             "default": false
           }
         ],
@@ -55607,6 +55854,14 @@
             "name": "TPAC 2018",
             "color": "cadd75",
             "default": false
+          },
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
           }
         ],
         "assignee": "vr000m",
@@ -55638,27 +55893,53 @@
         "created_at": "2018-08-01T15:54:19Z",
         "closed_at": null,
         "title": "identifying the ice generation of a candidate pair",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1510524966,
+            "node_id": "MDU6TGFiZWwxNTEwNTI0OTY2",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "d93f0b",
+            "default": false
+          }
+        ],
         "assignee": "aboba",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 357,
         "created_at": "2018-07-10T03:34:55Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T13:35:41Z",
         "title": "References to \"objectDeleted\" can be removed",
-        "labels": [],
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false
+          }
+        ],
         "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 356,
         "created_at": "2018-07-10T02:53:42Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T13:31:59Z",
         "title": "RTCIceCandidateStats.deleted can be removed",
         "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false
+          },
           {
             "id": 1087625463,
             "node_id": "MDU6TGFiZWwxMDg3NjI1NDYz",
@@ -55692,22 +55973,13 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 353,
         "created_at": "2018-06-21T10:32:23Z",
-        "closed_at": null,
+        "closed_at": "2019-08-29T13:21:54Z",
         "title": "Input/output resolution and audio energy",
-        "labels": [
-          {
-            "id": 490238153,
-            "node_id": "MDU6TGFiZWw0OTAyMzgxNTM=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
-            "name": "Icebox",
-            "color": "c5def5",
-            "default": false
-          }
-        ],
-        "assignee": null,
+        "labels": [],
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -55756,7 +56028,16 @@
         "created_at": "2018-05-04T17:01:18Z",
         "closed_at": null,
         "title": "add a graph showing the relationship of stats to the spec",
-        "labels": [],
+        "labels": [
+          {
+            "id": 867275345,
+            "node_id": "MDU6TGFiZWw4NjcyNzUzNDU=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editorial",
+            "name": "Editorial",
+            "color": "e99695",
+            "default": false
+          }
+        ],
         "assignee": "vr000m",
         "isPullRequest": false
       },
@@ -55805,6 +56086,14 @@
         "closed_at": null,
         "title": "Write a \"how to add more stats\" guideline document",
         "labels": [
+          {
+            "id": 867275345,
+            "node_id": "MDU6TGFiZWw4NjcyNzUzNDU=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editorial",
+            "name": "Editorial",
+            "color": "e99695",
+            "default": false
+          },
           {
             "id": 730625160,
             "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
@@ -56096,6 +56385,14 @@
         "closed_at": null,
         "title": "Clarify stats hierarchies",
         "labels": [
+          {
+            "id": 867275345,
+            "node_id": "MDU6TGFiZWw4NjcyNzUzNDU=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editorial",
+            "name": "Editorial",
+            "color": "e99695",
+            "default": false
+          },
           {
             "id": 730625160,
             "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
