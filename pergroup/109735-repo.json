@@ -7,12 +7,49 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 830,
+        "created_at": "2019-09-05T20:44:25Z",
+        "closed_at": "2019-09-05T20:58:58Z",
+        "title": "Handle detached buffers in projectionMatrix",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 829,
+        "created_at": "2019-09-05T18:48:43Z",
+        "closed_at": null,
+        "title": "Disallow stereo inline sessions for now",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 828,
         "created_at": "2019-09-04T22:23:37Z",
         "closed_at": null,
         "title": "TAG Feedback: Code sample demonstrating how to use XRViewerPose transforms",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1299505662,
+            "node_id": "MDU6TGFiZWwxMjk5NTA1NjYy",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/editor%20triage",
+            "name": "editor triage",
+            "color": "bf8733",
+            "default": false
+          },
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -104,16 +141,33 @@
         "number": 823,
         "created_at": "2019-09-04T18:23:47Z",
         "closed_at": null,
-        "title": "Feature Policy should not control exposure of navigator.xr",
-        "labels": [],
+        "title": "[Feature Policy] should not control exposure of navigator.xr",
+        "labels": [
+          {
+            "id": 1531986078,
+            "node_id": "MDU6TGFiZWwxNTMxOTg2MDc4",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/face-to-face",
+            "name": "face-to-face",
+            "color": "ededed",
+            "default": false
+          },
+          {
+            "id": 1539172673,
+            "node_id": "MDU6TGFiZWwxNTM5MTcyNjcz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/feature%20policy",
+            "name": "feature policy",
+            "color": "f4e61d",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 822,
         "created_at": "2019-09-02T09:17:45Z",
-        "closed_at": null,
+        "closed_at": "2019-09-05T16:25:15Z",
         "title": "Demo issue for building TPAC Agenda",
         "labels": [
           {
@@ -164,7 +218,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -193,7 +247,7 @@
         "closed_at": null,
         "title": "WebXR phrasing is not extensible & potentially incorrectly treats “immersive session” as synonymous with “immersive-vr”",
         "labels": [],
-        "assignee": "toji",
+        "assignee": "NellWaliczek",
         "isPullRequest": false
       },
       {
@@ -261,7 +315,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -295,12 +349,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 808,
         "created_at": "2019-08-16T16:47:24Z",
-        "closed_at": null,
+        "closed_at": "2019-09-05T20:58:57Z",
         "title": "Should XRRigidTransform.matrix be [SameObject]?",
         "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
           {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
@@ -310,7 +372,7 @@
             "default": true
           }
         ],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -458,7 +520,16 @@
         "created_at": "2019-08-09T18:58:34Z",
         "closed_at": null,
         "title": "Informing apps which optional features were granted?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1539204295,
+            "node_id": "MDU6TGFiZWwxNTM5MjA0Mjk1",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/consent%20tracking",
+            "name": "consent tracking",
+            "color": "62db5e",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -508,7 +579,7 @@
         "closed_at": null,
         "title": "Clarify when a requiredFeature is allowed to pass",
         "labels": [],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -708,8 +779,25 @@
         "created_at": "2019-07-18T23:17:54Z",
         "closed_at": null,
         "title": "[Feature Policy] Establish guidance about policy-controlled features for new XR features",
-        "labels": [],
-        "assignee": "toji",
+        "labels": [
+          {
+            "id": 1531986078,
+            "node_id": "MDU6TGFiZWwxNTMxOTg2MDc4",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/face-to-face",
+            "name": "face-to-face",
+            "color": "ededed",
+            "default": false
+          },
+          {
+            "id": 1539172673,
+            "node_id": "MDU6TGFiZWwxNTM5MTcyNjcz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/feature%20policy",
+            "name": "feature policy",
+            "color": "f4e61d",
+            "default": false
+          }
+        ],
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -745,8 +833,25 @@
         "created_at": "2019-07-17T21:30:53Z",
         "closed_at": null,
         "title": "[Feature Policy] Consider implications and practicality of requiring authors to enable policy-controlled features for underlying sensors",
-        "labels": [],
-        "assignee": "toji",
+        "labels": [
+          {
+            "id": 1531986078,
+            "node_id": "MDU6TGFiZWwxNTMxOTg2MDc4",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/face-to-face",
+            "name": "face-to-face",
+            "color": "ededed",
+            "default": false
+          },
+          {
+            "id": 1539172673,
+            "node_id": "MDU6TGFiZWwxNTM5MTcyNjcz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/feature%20policy",
+            "name": "feature policy",
+            "color": "f4e61d",
+            "default": false
+          }
+        ],
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -765,7 +870,16 @@
         "created_at": "2019-07-16T22:05:34Z",
         "closed_at": null,
         "title": "Explore solution for mid-session consent prompts",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1539195106,
+            "node_id": "MDU6TGFiZWwxNTM5MTk1MTA2",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/trusted%20UI",
+            "name": "trusted UI",
+            "color": "fc9f9c",
+            "default": false
+          }
+        ],
         "assignee": "NellWaliczek",
         "isPullRequest": false
       },
@@ -775,8 +889,25 @@
         "created_at": "2019-07-15T23:21:57Z",
         "closed_at": null,
         "title": "[Feature Policy] Confirm whether WebXR features can/should reuse existing feature names",
-        "labels": [],
-        "assignee": "toji",
+        "labels": [
+          {
+            "id": 1531986078,
+            "node_id": "MDU6TGFiZWwxNTMxOTg2MDc4",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/face-to-face",
+            "name": "face-to-face",
+            "color": "ededed",
+            "default": false
+          },
+          {
+            "id": 1539172673,
+            "node_id": "MDU6TGFiZWwxNTM5MTcyNjcz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/feature%20policy",
+            "name": "feature policy",
+            "color": "f4e61d",
+            "default": false
+          }
+        ],
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -785,8 +916,25 @@
         "created_at": "2019-07-12T22:29:28Z",
         "closed_at": null,
         "title": "[Feature Policy] Validate the plan for dependent policy-controlled features",
-        "labels": [],
-        "assignee": "toji",
+        "labels": [
+          {
+            "id": 1531986078,
+            "node_id": "MDU6TGFiZWwxNTMxOTg2MDc4",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/face-to-face",
+            "name": "face-to-face",
+            "color": "ededed",
+            "default": false
+          },
+          {
+            "id": 1539172673,
+            "node_id": "MDU6TGFiZWwxNTM5MTcyNjcz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/feature%20policy",
+            "name": "feature policy",
+            "color": "f4e61d",
+            "default": false
+          }
+        ],
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -1078,6 +1226,14 @@
             "name": "privacy-and-security",
             "color": "9d38e0",
             "default": false
+          },
+          {
+            "id": 1539195106,
+            "node_id": "MDU6TGFiZWwxNTM5MTk1MTA2",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/trusted%20UI",
+            "name": "trusted UI",
+            "color": "fc9f9c",
+            "default": false
           }
         ],
         "assignee": "NellWaliczek",
@@ -1110,6 +1266,14 @@
         "closed_at": null,
         "title": "Allow features to be marked as deferrable",
         "labels": [
+          {
+            "id": 1539204295,
+            "node_id": "MDU6TGFiZWwxNTM5MjA0Mjk1",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/consent%20tracking",
+            "name": "consent tracking",
+            "color": "62db5e",
+            "default": false
+          },
           {
             "id": 1414169680,
             "node_id": "MDU6TGFiZWwxNDE0MTY5Njgw",
@@ -1291,6 +1455,22 @@
         "title": "[Feature Policy] What should be the policy-controlled features for WebXR?",
         "labels": [
           {
+            "id": 1531986078,
+            "node_id": "MDU6TGFiZWwxNTMxOTg2MDc4",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/face-to-face",
+            "name": "face-to-face",
+            "color": "ededed",
+            "default": false
+          },
+          {
+            "id": 1539172673,
+            "node_id": "MDU6TGFiZWwxNTM5MTcyNjcz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/feature%20policy",
+            "name": "feature policy",
+            "color": "f4e61d",
+            "default": false
+          },
+          {
             "id": 1414169680,
             "node_id": "MDU6TGFiZWwxNDE0MTY5Njgw",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/privacy-and-security",
@@ -1299,7 +1479,7 @@
             "default": false
           }
         ],
-        "assignee": "toji",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -1353,6 +1533,14 @@
             "name": "privacy-and-security",
             "color": "9d38e0",
             "default": false
+          },
+          {
+            "id": 1539195106,
+            "node_id": "MDU6TGFiZWwxNTM5MTk1MTA2",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/trusted%20UI",
+            "name": "trusted UI",
+            "color": "fc9f9c",
+            "default": false
           }
         ],
         "assignee": "NellWaliczek",
@@ -1365,6 +1553,14 @@
         "closed_at": null,
         "title": "Should applications be able to determine that the user declined consent?",
         "labels": [
+          {
+            "id": 1539204295,
+            "node_id": "MDU6TGFiZWwxNTM5MjA0Mjk1",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/consent%20tracking",
+            "name": "consent tracking",
+            "color": "62db5e",
+            "default": false
+          },
           {
             "id": 1414169680,
             "node_id": "MDU6TGFiZWwxNDE0MTY5Njgw",
@@ -1438,6 +1634,14 @@
         "closed_at": null,
         "title": "Querying user consent status",
         "labels": [
+          {
+            "id": 1539204295,
+            "node_id": "MDU6TGFiZWwxNTM5MjA0Mjk1",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/consent%20tracking",
+            "name": "consent tracking",
+            "color": "62db5e",
+            "default": false
+          },
           {
             "id": 1414169680,
             "node_id": "MDU6TGFiZWwxNDE0MTY5Njgw",
@@ -1518,6 +1722,14 @@
             "name": "privacy-and-security",
             "color": "9d38e0",
             "default": false
+          },
+          {
+            "id": 1539195106,
+            "node_id": "MDU6TGFiZWwxNTM5MTk1MTA2",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/trusted%20UI",
+            "name": "trusted UI",
+            "color": "fc9f9c",
+            "default": false
           }
         ],
         "assignee": "NellWaliczek",
@@ -1536,6 +1748,14 @@
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/privacy-and-security",
             "name": "privacy-and-security",
             "color": "9d38e0",
+            "default": false
+          },
+          {
+            "id": 1539195106,
+            "node_id": "MDU6TGFiZWwxNTM5MTk1MTA2",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/trusted%20UI",
+            "name": "trusted UI",
+            "color": "fc9f9c",
             "default": false
           }
         ],
@@ -3384,7 +3604,16 @@
         "created_at": "2019-04-30T20:43:42Z",
         "closed_at": null,
         "title": "Add Linear/Angular Acceleration/Velocity for XRInputSource",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1531986078,
+            "node_id": "MDU6TGFiZWwxNTMxOTg2MDc4",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/face-to-face",
+            "name": "face-to-face",
+            "color": "ededed",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6491,16 +6720,6 @@
         "title": "Light estimation for AR",
         "labels": [],
         "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 399,
-        "created_at": "2018-09-18T15:54:56Z",
-        "closed_at": null,
-        "title": "Rationalize CSS environment-blending and WebXR XREnvironmentBlendMode",
-        "labels": [],
-        "assignee": "cwilso",
         "isPullRequest": false
       },
       {
