@@ -5065,10 +5065,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 73,
         "created_at": "2018-08-20T16:46:50Z",
-        "closed_at": null,
+        "closed_at": "2019-09-11T03:44:49Z",
         "title": "Clarify 'origin' concept",
         "labels": [],
         "assignee": null,
@@ -5120,8 +5120,17 @@
         "created_at": "2017-12-04T13:42:59Z",
         "closed_at": null,
         "title": "Investigate and document the fingerprintability of user media rendering",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1548729602,
+            "node_id": "MDU6TGFiZWwxNTQ4NzI5NjAy",
+            "url": "https://api.github.com/repos/w3c/mediacapture-fromelement/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -14966,6 +14975,14 @@
             "name": "CR blocking",
             "color": "1d76db",
             "default": false
+          },
+          {
+            "id": 1513808738,
+            "node_id": "MDU6TGFiZWwxNTEzODA4NzM4",
+            "url": "https://api.github.com/repos/w3c/mediacapture-record/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "f9d0c4",
+            "default": false
           }
         ],
         "assignee": null,
@@ -15118,12 +15135,12 @@
         "title": "Make stop() idempotent.",
         "labels": [
           {
-            "id": 123216227,
-            "node_id": "MDU6TGFiZWwxMjMyMTYyMjc=",
-            "url": "https://api.github.com/repos/w3c/mediacapture-record/labels/question",
-            "name": "question",
-            "color": "cc317c",
-            "default": true
+            "id": 1513808738,
+            "node_id": "MDU6TGFiZWwxNTEzODA4NzM4",
+            "url": "https://api.github.com/repos/w3c/mediacapture-record/labels/TPAC%202019",
+            "name": "TPAC 2019",
+            "color": "f9d0c4",
+            "default": false
           }
         ],
         "assignee": "jan-ivar",
@@ -54612,6 +54629,35 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 484,
+        "created_at": "2019-09-10T13:42:29Z",
+        "closed_at": null,
+        "title": "RTCPeerConnectionStats is missing state stats (connection, ice, gathering, signaling)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 483,
+        "created_at": "2019-09-10T13:22:05Z",
+        "closed_at": null,
+        "title": "RTCTransportStats is missing iceState",
+        "labels": [
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 482,
