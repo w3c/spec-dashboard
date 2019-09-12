@@ -16890,6 +16890,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 119,
+        "created_at": "2019-09-11T14:27:54Z",
+        "closed_at": null,
+        "title": "Clarify getUserMedia constraints do not apply unless listed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 118,
+        "created_at": "2019-09-11T14:19:03Z",
+        "closed_at": null,
+        "title": "Clarify that restrictOwnAudio applies to document",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 117,
         "created_at": "2019-09-05T23:03:38Z",
@@ -18665,11 +18685,86 @@
     "issues": [
       {
         "state": "open",
+        "number": 2298,
+        "created_at": "2019-09-12T00:56:36Z",
+        "closed_at": null,
+        "title": "Fire events and update state correctly for rollback.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2297,
+        "created_at": "2019-09-11T21:06:47Z",
+        "closed_at": null,
+        "title": "Disallow serialization of RTCCertificate except for storage.",
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2296,
+        "created_at": "2019-09-11T18:52:32Z",
+        "closed_at": null,
+        "title": "Fire ended locally on close() (Remove 'abruptly' option in stop algo).",
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2295,
+        "created_at": "2019-09-11T14:51:48Z",
+        "closed_at": null,
+        "title": "Make rollback clear both pending and local description.",
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2294,
         "created_at": "2019-09-09T09:16:40Z",
         "closed_at": null,
         "title": "Local versus remote rollback, and clarifying implicit SRD-rollbacks",
         "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          },
           {
             "id": 1490875475,
             "node_id": "MDU6TGFiZWwxNDkwODc1NDc1",
@@ -19287,11 +19382,11 @@
         "title": "Consider making RTCCertificate throw when serialized when _forStorage_ is false",
         "labels": [
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false
           }
         ],
@@ -19573,6 +19668,14 @@
         "closed_at": null,
         "title": "Clarify that getSynchronizationSources() should return information even if the track has no sink (<video> tag)",
         "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false
+          },
           {
             "id": 1040788740,
             "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
@@ -28685,11 +28788,11 @@
         "title": "Should rollback fire addtrack/removetrack events? ",
         "labels": [
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false
           },
           {
@@ -30649,11 +30752,11 @@
         "title": "Inconsistent setting of receiver.track.readyState violates Mediacapture",
         "labels": [
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false
           }
         ],
