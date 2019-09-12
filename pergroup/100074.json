@@ -17,12 +17,40 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/audiobooks/versions/20190830",
+        "href": "https://api.w3.org/specifications/audiobooks/versions/20190911",
         "title": "Working Draft"
       }
     },
     "editorsdraft": "https://w3c.github.io/audiobooks/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/audiobooks/",
+        "uri": "https://www.w3.org/TR/2019/WD-audiobooks-20190911/",
+        "date": "2019-09-11",
+        "informative": false,
+        "title": "Audiobook Profile for Publication Manifest",
+        "shortlink": "https://www.w3.org/TR/audiobooks/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20190911"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20190911/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20190911/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/audiobooks"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20190911/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -48,6 +76,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/audiobooks/versions/20190830/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20190830/successors"
           }
         }
       },
@@ -99,12 +130,40 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/pub-manifest/versions/20190827",
+        "href": "https://api.w3.org/specifications/pub-manifest/versions/20190911",
         "title": "Working Draft"
       }
     },
     "editorsdraft": "https://w3c.github.io/pub-manifest/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/pub-manifest/",
+        "uri": "https://www.w3.org/TR/2019/WD-pub-manifest-20190911/",
+        "date": "2019-09-11",
+        "informative": false,
+        "title": "Publication Manifest",
+        "shortlink": "https://www.w3.org/TR/pub-manifest/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20190911"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20190911/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20190911/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/pub-manifest"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20190911/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -127,6 +186,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/pub-manifest"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20190827/successors"
           }
         }
       }
