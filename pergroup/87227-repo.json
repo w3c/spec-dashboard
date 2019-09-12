@@ -8,12 +8,83 @@
     "issues": [
       {
         "state": "open",
+        "number": 1299,
+        "created_at": "2019-09-11T17:09:13Z",
+        "closed_at": null,
+        "title": "Recommend RPs to store transport hints",
+        "labels": [
+          {
+            "id": 875206667,
+            "node_id": "MDU6TGFiZWw4NzUyMDY2Njc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:rp-ops",
+            "name": "subtype:rp-ops",
+            "color": "c5def5",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "emlun",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1298,
+        "created_at": "2019-09-11T16:31:52Z",
+        "closed_at": null,
+        "title": "Divide security/privacy considerations into subsections by audience",
+        "labels": [
+          {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
+            "name": "subtype:privacy-cons",
+            "color": "bfd400",
+            "default": false
+          },
+          {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
+            "name": "subtype:security-cons",
+            "color": "0e8a16",
+            "default": false
+          },
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          }
+        ],
+        "assignee": "emlun",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1297,
         "created_at": "2019-09-10T21:04:19Z",
         "closed_at": null,
         "title": "Consider rewording restrictions around origin",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "sbweeden",
         "isPullRequest": false
       },
       {
@@ -22,8 +93,25 @@
         "created_at": "2019-09-10T18:36:23Z",
         "closed_at": null,
         "title": "Consider whether browsers should truncate `name` and `displayName`.",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "agl",
         "isPullRequest": false
       },
       {
@@ -72,6 +160,14 @@
         "title": "Requiring user gesture to call WebAuthn API",
         "labels": [
           {
+            "id": 686484283,
+            "node_id": "MDU6TGFiZWw2ODY0ODQyODM=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:breaking",
+            "name": "stat:breaking",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
             "id": 340916444,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -80,7 +176,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "agl",
         "isPullRequest": false
       },
       {
@@ -107,7 +203,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "agl",
         "isPullRequest": false
       },
       {
@@ -148,10 +244,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1289,
         "created_at": "2019-08-29T00:50:31Z",
-        "closed_at": null,
+        "closed_at": "2019-09-11T18:49:23Z",
         "title": "Initial proposal to fix #1287 ",
         "labels": [
           {
@@ -202,10 +298,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1287,
         "created_at": "2019-08-27T09:39:53Z",
-        "closed_at": null,
+        "closed_at": "2019-09-11T18:49:23Z",
         "title": "Browsers adding extensions.",
         "labels": [
           {
@@ -2557,6 +2653,14 @@
         "title": "finish up on \"provide transport info during registration\"",
         "labels": [
           {
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false
+          },
+          {
             "id": 340917025,
             "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -2573,7 +2677,7 @@
             "default": false
           }
         ],
-        "assignee": "equalsJeffH",
+        "assignee": "emlun",
         "isPullRequest": false
       },
       {
@@ -6071,11 +6175,11 @@
             "default": false
           },
           {
-            "id": 340917034,
-            "node_id": "MDU6TGFiZWwzNDA5MTcwMzQ=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:OKtoDo",
-            "name": "stat:OKtoDo",
-            "color": "bfd4f2",
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
             "default": false
           },
           {
