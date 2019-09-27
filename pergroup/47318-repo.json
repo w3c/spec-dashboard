@@ -6045,20 +6045,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 624,
         "created_at": "2019-09-19T04:45:47Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:50:02Z",
         "title": "Remove unmaintained changelog",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 623,
         "created_at": "2019-09-12T17:33:34Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:56:40Z",
         "title": "Clarify crop-and-scale",
         "labels": [],
         "assignee": null,
@@ -6114,22 +6114,31 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 618,
         "created_at": "2019-08-30T14:19:39Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:56:14Z",
         "title": "Clarify that devicechange event is skippable if there is no change of devices",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 617,
         "created_at": "2019-08-30T13:48:32Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:54:11Z",
         "title": "Remove oldList and make it clear that groupId scope is the document",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1120811800,
+            "node_id": "MDU6TGFiZWwxMTIwODExODAw",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "7aea6b",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -6610,11 +6619,11 @@
         "title": "ResizeMode (crop-and-scale) is underspecified",
         "labels": [
           {
-            "id": 291554148,
-            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "009800",
+            "id": 1364496941,
+            "node_id": "MDU6TGFiZWwxMzY0NDk2OTQx",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
             "default": false
           },
           {
@@ -6863,10 +6872,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 565,
         "created_at": "2019-01-25T05:55:52Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:56:14Z",
         "title": "Should a devicechange event be fired when the list of devices stays the same",
         "labels": [
           {
@@ -14498,9 +14507,19 @@
     "issues": [
       {
         "state": "open",
+        "number": 190,
+        "created_at": "2019-09-26T16:32:24Z",
+        "closed_at": null,
+        "title": "Defer deciding codec until data is available and onstart fires",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 189,
         "created_at": "2019-09-23T22:23:02Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T15:00:09Z",
         "title": "Set mimeType = \"\" by default (editorial).",
         "labels": [],
         "assignee": null,
@@ -14556,10 +14575,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 184,
         "created_at": "2019-09-03T15:01:09Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T15:01:16Z",
         "title": "(Editorial) Fix link of `inactive` in \"if stream is inactive\"",
         "labels": [],
         "assignee": null,
@@ -14665,10 +14684,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 174,
         "created_at": "2019-06-27T13:01:56Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T15:01:33Z",
         "title": "(Editorial) Make timeslice unsigned everywhere",
         "labels": [],
         "assignee": null,
@@ -18773,11 +18792,49 @@
     "issues": [
       {
         "state": "open",
+        "number": 2312,
+        "created_at": "2019-09-26T21:23:48Z",
+        "closed_at": null,
+        "title": "s/[[sendEncodings]]/[[SendEncodings]]/ (editorial)",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2311,
+        "created_at": "2019-09-26T14:34:45Z",
+        "closed_at": null,
+        "title": "Add RTCRtpEncodingParameters.ptime as feature at risk",
+        "labels": [
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 2310,
         "created_at": "2019-09-26T10:30:55Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:38:50Z",
         "title": "Add adaptivePtime to RTCConfiguration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -18787,7 +18844,16 @@
         "created_at": "2019-09-25T21:44:35Z",
         "closed_at": null,
         "title": "Add adaptivePtime to RTCConfiguration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -18802,20 +18868,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2307,
         "created_at": "2019-09-25T15:26:50Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:12:26Z",
         "title": "Fixed typo \"muted event\" => \"mute event\"",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2306,
         "created_at": "2019-09-25T09:11:31Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T15:43:52Z",
         "title": "Explicit rollbacks",
         "labels": [],
         "assignee": "henbos",
@@ -18854,7 +18920,16 @@
         "created_at": "2019-09-22T12:53:02Z",
         "closed_at": null,
         "title": "Make RTCStats.id unpredictable and alphanumerical.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -18891,7 +18966,16 @@
         "created_at": "2019-09-20T02:44:17Z",
         "closed_at": null,
         "title": "Update mandatory to implement stats based on recent restructuring",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false
+          }
+        ],
         "assignee": "henbos",
         "isPullRequest": false
       },
@@ -18901,8 +18985,17 @@
         "created_at": "2019-09-18T16:52:51Z",
         "closed_at": null,
         "title": "do we need RTCCbrStatus?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 124889630,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2MzA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/WebRTC%20NV",
+            "name": "WebRTC NV",
+            "color": "84b6eb",
+            "default": false
+          }
+        ],
+        "assignee": "aboba",
         "isPullRequest": false
       },
       {
@@ -18913,15 +19006,15 @@
         "title": "Prefer variable ptime (audio frame lengths)",
         "labels": [
           {
-            "id": 124889633,
-            "node_id": "MDU6TGFiZWwxMjQ4ODk2MzM=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/question",
-            "name": "question",
-            "color": "cc317c",
-            "default": true
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -18930,8 +19023,17 @@
         "created_at": "2019-09-12T17:34:21Z",
         "closed_at": null,
         "title": "Persistent RTC Connection by using iceCandidatePoolSize",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 124889633,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2MzM=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
@@ -19056,10 +19158,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2292,
         "created_at": "2019-09-06T08:08:42Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:05:50Z",
         "title": "Constructor operations, un-split legacy IDL, respec upgrade",
         "labels": [
           {
@@ -19104,10 +19206,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2289,
         "created_at": "2019-09-05T14:11:55Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:05:50Z",
         "title": "Overloaded operations disallowed across partial interfaces in WebIDL",
         "labels": [
           {
@@ -19204,15 +19306,24 @@
         "created_at": "2019-08-29T14:39:54Z",
         "closed_at": null,
         "title": "Merge the steps for updating candidate pair and ice transport state",
-        "labels": [],
-        "assignee": "aboba",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2282,
         "created_at": "2019-08-29T09:00:04Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:05:50Z",
         "title": "Update to constructor operations",
         "labels": [
           {
@@ -19303,10 +19414,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2277,
         "created_at": "2019-08-22T09:11:17Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:05:50Z",
         "title": "Update spec to new IDL syntax for optional dictionaries",
         "labels": [
           {
@@ -19643,10 +19754,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2257,
         "created_at": "2019-08-06T14:17:31Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T15:46:45Z",
         "title": "Consider making RTCCertificate throw when serialized when _forStorage_ is false",
         "labels": [
           {
@@ -19691,10 +19802,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2254,
         "created_at": "2019-08-05T01:18:12Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:42:20Z",
         "title": "Checks in https://w3c.github.io/webrtc-pc/#dom-RTCDTMFSender-insertDTMF could be simplified",
         "labels": [
           {
@@ -19748,10 +19859,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2251,
         "created_at": "2019-08-03T00:47:04Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T14:08:18Z",
         "title": "Don't fire SRD() events until target peer identity has been verified.",
         "labels": [
           {
@@ -19811,6 +19922,14 @@
         "closed_at": null,
         "title": "degradationPreference is under-specified",
         "labels": [
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 1490875475,
             "node_id": "MDU6TGFiZWwxNDkwODc1NDc1",
@@ -20123,6 +20242,14 @@
         "closed_at": null,
         "title": "RTCPeerConnectionIceErrorEvent: hostCandidate clarification",
         "labels": [
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 1490875475,
             "node_id": "MDU6TGFiZWwxNDkwODc1NDc1",
@@ -21979,6 +22106,14 @@
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/April%202019%20Interim",
             "name": "April 2019 Interim",
             "color": "fef2c0",
+            "default": false
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
             "default": false
           },
           {
@@ -28163,6 +28298,14 @@
         "closed_at": null,
         "title": "reducing audio packet rate while track is disabled",
         "labels": [
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false
+          },
           {
             "id": 1490875475,
             "node_id": "MDU6TGFiZWwxNDkwODc1NDc1",
@@ -54189,6 +54332,16 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 55,
+        "created_at": "2019-09-26T20:20:28Z",
+        "closed_at": "2019-09-26T20:31:19Z",
+        "title": "Requirements for Secure Web Conferencing (Revised)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 54,
         "created_at": "2019-09-25T21:00:58Z",
@@ -54248,10 +54401,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 49,
         "created_at": "2019-09-09T22:16:16Z",
-        "closed_at": null,
+        "closed_at": "2019-09-26T20:20:49Z",
         "title": "Requirements for Secure Web Conferencing (Revised)",
         "labels": [],
         "assignee": null,
