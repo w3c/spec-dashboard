@@ -8,11 +8,48 @@
     "issues": [
       {
         "state": "open",
+        "number": 275,
+        "created_at": "2019-09-30T19:13:18Z",
+        "closed_at": null,
+        "title": "Add note that `null` is preserved in JSON literals.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 274,
+        "created_at": "2019-09-30T19:01:49Z",
+        "closed_at": "2019-09-30T19:13:43Z",
+        "title": "Update fragment used in 7.3",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 273,
         "created_at": "2019-09-30T08:15:38Z",
         "closed_at": null,
         "title": "Example 16 - navigation unclear",
-        "labels": [],
+        "labels": [
+          {
+            "id": 965704142,
+            "node_id": "MDU6TGFiZWw5NjU3MDQxNDI=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/propose%20closing",
+            "name": "propose closing",
+            "color": "bf5315",
+            "default": false
+          },
+          {
+            "id": 965706317,
+            "node_id": "MDU6TGFiZWw5NjU3MDYzMTc=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/wr:commenter-no-response",
+            "name": "wr:commenter-no-response",
+            "color": "a9f9e5",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -51,7 +88,7 @@
         "number": 269,
         "created_at": "2019-09-25T19:50:45Z",
         "closed_at": null,
-        "title": "Description of `@type` in 9.16 should mention its use in context definition",
+        "title": "Description of `@type` in 9.16 should mention its use as a key on context",
         "labels": [
           {
             "id": 965702764,
@@ -160,6 +197,14 @@
         "title": "Missing keywords in 9.15 & 9.16",
         "labels": [
           {
+            "id": 965704142,
+            "node_id": "MDU6TGFiZWw5NjU3MDQxNDI=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/propose%20closing",
+            "name": "propose closing",
+            "color": "bf5315",
+            "default": false
+          },
+          {
             "id": 965702764,
             "node_id": "MDU6TGFiZWw5NjU3MDI3NjQ=",
             "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:editorial",
@@ -244,6 +289,14 @@
         "title": "Use of null value with JSON literals",
         "labels": [
           {
+            "id": 965704142,
+            "node_id": "MDU6TGFiZWw5NjU3MDQxNDI=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/propose%20closing",
+            "name": "propose closing",
+            "color": "bf5315",
+            "default": false
+          },
+          {
             "id": 965702958,
             "node_id": "MDU6TGFiZWw5NjU3MDI5NTg=",
             "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:bug",
@@ -258,24 +311,16 @@
             "name": "spec:editorial",
             "color": "58820a",
             "default": false
-          },
-          {
-            "id": 965702416,
-            "node_id": "MDU6TGFiZWw5NjU3MDI0MTY=",
-            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/test:needs%20tests",
-            "name": "test:needs tests",
-            "color": "e587ca",
-            "default": false
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 256,
         "created_at": "2019-09-17T00:36:33Z",
-        "closed_at": null,
+        "closed_at": "2019-09-30T19:13:43Z",
         "title": "What's the use of 7.3?",
         "labels": [
           {
@@ -4782,6 +4827,35 @@
     "issues": [
       {
         "state": "open",
+        "number": 161,
+        "created_at": "2019-09-30T19:17:58Z",
+        "closed_at": null,
+        "title": "lazy-evaluation of 1.1 mode",
+        "labels": [
+          {
+            "id": 965725364,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzNjQ=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/spec:substantive",
+            "name": "spec:substantive",
+            "color": "cff9a4",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 160,
+        "created_at": "2019-09-30T18:10:55Z",
+        "closed_at": null,
+        "title": "How to handle [Exposed=Windows]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 159,
         "created_at": "2019-09-28T17:39:48Z",
         "closed_at": null,
@@ -4831,10 +4905,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 154,
         "created_at": "2019-09-23T08:02:39Z",
-        "closed_at": null,
+        "closed_at": "2019-09-30T18:34:07Z",
         "title": "Prevent keyword alias to be declared as prefix",
         "labels": [],
         "assignee": "gkellogg",
@@ -4847,6 +4921,14 @@
         "closed_at": null,
         "title": "keyword alias with `\"@prefix\"=true` ?",
         "labels": [
+          {
+            "id": 965725357,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzNTc=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/propose%20closing",
+            "name": "propose closing",
+            "color": "bf5315",
+            "default": false
+          },
           {
             "id": 965725360,
             "node_id": "MDU6TGFiZWw5NjU3MjUzNjA=",
