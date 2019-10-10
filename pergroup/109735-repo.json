@@ -7,6 +7,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 870,
+        "created_at": "2019-10-09T18:07:04Z",
+        "closed_at": "2019-10-09T21:43:36Z",
+        "title": "Add note about strong references in reset events",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 869,
         "created_at": "2019-10-08T19:24:57Z",
@@ -310,10 +320,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 845,
         "created_at": "2019-09-17T05:11:49Z",
-        "closed_at": null,
+        "closed_at": "2019-10-09T21:43:36Z",
         "title": "\"reset\" event doesn't specify how we know which spaces to dispatch on",
         "labels": [],
         "assignee": "Manishearth",
@@ -325,17 +335,8 @@
         "created_at": "2019-09-16T04:06:18Z",
         "closed_at": null,
         "title": "Should emulatedPosition be true when a tracked local-floor space is using an emulated height?",
-        "labels": [
-          {
-            "id": 1320816381,
-            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "c2e0c6",
-            "default": true
-          }
-        ],
-        "assignee": "toji",
+        "labels": [],
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -781,7 +782,7 @@
         "closed_at": null,
         "title": "Spec language precludes non-visual uses",
         "labels": [],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -1255,7 +1256,16 @@
         "created_at": "2019-07-22T21:54:53Z",
         "closed_at": null,
         "title": "Remove unnecessary or redundant information from \"Security, Privacy, and Comfort Considerations\" ",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1708,7 +1718,16 @@
         "created_at": "2019-06-29T20:19:17Z",
         "closed_at": null,
         "title": "Ensure \"Focused and Visible\" addresses OS-level focus",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1605905463,
+            "node_id": "MDU6TGFiZWwxNjA1OTA1NDYz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/focus%20and%20visibility",
+            "name": "focus and visibility",
+            "color": "5319e7",
+            "default": false
+          }
+        ],
         "assignee": "toji",
         "isPullRequest": false
       },
@@ -2092,14 +2111,6 @@
         "title": "Should applications be able to determine that the user declined consent?",
         "labels": [
           {
-            "id": 1071806687,
-            "node_id": "MDU6TGFiZWwxMDcxODA2Njg3",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/agenda",
-            "name": "agenda",
-            "color": "4ee8b2",
-            "default": false
-          },
-          {
             "id": 1539204295,
             "node_id": "MDU6TGFiZWwxNTM5MjA0Mjk1",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/consent%20tracking",
@@ -2116,7 +2127,7 @@
             "default": false
           }
         ],
-        "assignee": "NellWaliczek",
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -2197,7 +2208,7 @@
             "default": false
           }
         ],
-        "assignee": "NellWaliczek",
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -2261,14 +2272,6 @@
         "closed_at": null,
         "title": "Is Trusted Immersive UI a conformance requirement?",
         "labels": [
-          {
-            "id": 1320816381,
-            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
-            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
-            "name": "help wanted",
-            "color": "c2e0c6",
-            "default": true
-          },
           {
             "id": 1414169680,
             "node_id": "MDU6TGFiZWwxNDE0MTY5Njgw",
@@ -2543,7 +2546,7 @@
             "default": false
           }
         ],
-        "assignee": "NellWaliczek",
+        "assignee": "Manishearth",
         "isPullRequest": false
       },
       {
@@ -2638,6 +2641,14 @@
         "closed_at": null,
         "title": "Specify the relationship between session visibilityState and window state",
         "labels": [
+          {
+            "id": 1605905463,
+            "node_id": "MDU6TGFiZWwxNjA1OTA1NDYz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/focus%20and%20visibility",
+            "name": "focus and visibility",
+            "color": "5319e7",
+            "default": false
+          },
           {
             "id": 1414169680,
             "node_id": "MDU6TGFiZWwxNDE0MTY5Njgw",
@@ -6081,7 +6092,7 @@
             "default": false
           }
         ],
-        "assignee": "toji",
+        "assignee": "asajeffrey",
         "isPullRequest": false
       },
       {
@@ -7631,8 +7642,17 @@
         "created_at": "2018-05-31T17:25:04Z",
         "closed_at": null,
         "title": "Clarification of mouse behavior when in an exclusive view",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1605905463,
+            "node_id": "MDU6TGFiZWwxNjA1OTA1NDYz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/focus%20and%20visibility",
+            "name": "focus and visibility",
+            "color": "5319e7",
+            "default": false
+          }
+        ],
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -9060,6 +9080,14 @@
         "closed_at": null,
         "title": "Behavior of window.requestAnimationFrame and window.requestIdleCallback when presenting",
         "labels": [
+          {
+            "id": 1605905463,
+            "node_id": "MDU6TGFiZWwxNjA1OTA1NDYz",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/focus%20and%20visibility",
+            "name": "focus and visibility",
+            "color": "5319e7",
+            "default": false
+          },
           {
             "id": 1320816381,
             "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
@@ -11378,13 +11406,665 @@
       "owner": "immersive-web",
       "name": "webxr-ar-module"
     },
-    "recTrack": true
+    "recTrack": true,
+    "issues": [
+      {
+        "state": "closed",
+        "number": 39,
+        "created_at": "2019-10-09T22:53:39Z",
+        "closed_at": "2019-10-10T00:34:07Z",
+        "title": "Add a non-normative note re: handling alpha-blend with no alpha channel.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 38,
+        "created_at": "2019-10-08T19:37:32Z",
+        "closed_at": null,
+        "title": "Move immersive-ar enum declaration back into core spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 37,
+        "created_at": "2019-10-08T15:25:04Z",
+        "closed_at": "2019-10-08T17:21:17Z",
+        "title": "fixed status text in SOTD (forgot to edit after copy from gamepads module)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 36,
+        "created_at": "2019-10-07T05:25:26Z",
+        "closed_at": "2019-10-07T19:43:18Z",
+        "title": "updated for FPWD (target Oct/07)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 35,
+        "created_at": "2019-10-03T17:34:55Z",
+        "closed_at": "2019-10-03T17:38:14Z",
+        "title": "Add self as editor",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 34,
+        "created_at": "2019-09-30T21:44:49Z",
+        "closed_at": "2019-10-08T16:22:47Z",
+        "title": "Change to FPWD",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 33,
+        "created_at": "2019-09-30T06:53:49Z",
+        "closed_at": "2019-09-30T15:54:03Z",
+        "title": "modified (as gamepads one)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 32,
+        "created_at": "2019-09-26T10:38:02Z",
+        "closed_at": null,
+        "title": "Consider merging `immersive-ar` into WebXR",
+        "labels": [
+          {
+            "id": 1576082454,
+            "node_id": "MDU6TGFiZWwxNTc2MDgyNDU0",
+            "url": "https://api.github.com/repos/immersive-web/webxr-ar-module/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "7ae22b",
+            "default": false
+          }
+        ],
+        "assignee": "toji",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 31,
+        "created_at": "2019-09-24T20:26:37Z",
+        "closed_at": "2019-09-25T15:42:37Z",
+        "title": "Add note about immersive-ar sessions supporting all the same features as immersive-vr",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 30,
+        "created_at": "2019-09-15T14:49:18Z",
+        "closed_at": "2019-10-09T17:36:58Z",
+        "title": "[editorial] Prepare for FPWD",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 29,
+        "created_at": "2019-09-14T02:46:08Z",
+        "closed_at": null,
+        "title": "Should handheld and headset AR use the same XRSessionMode?",
+        "labels": [
+          {
+            "id": 1514000162,
+            "node_id": "MDU6TGFiZWwxNTE0MDAwMTYy",
+            "url": "https://api.github.com/repos/immersive-web/webxr-ar-module/labels/agenda",
+            "name": "agenda",
+            "color": "ededed",
+            "default": false
+          }
+        ],
+        "assignee": "Manishearth",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 28,
+        "created_at": "2019-09-14T02:41:38Z",
+        "closed_at": null,
+        "title": "Should there be a single \"immersive\" XRSessionMode?",
+        "labels": [],
+        "assignee": "toji",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 27,
+        "created_at": "2019-09-14T02:35:46Z",
+        "closed_at": null,
+        "title": "Decide on the progressive enhancement strategy for WebXR",
+        "labels": [],
+        "assignee": "Manishearth",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 26,
+        "created_at": "2019-09-13T17:04:46Z",
+        "closed_at": "2019-09-13T18:01:13Z",
+        "title": "Two word clarification of the environmentBlendMode attrib",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 25,
+        "created_at": "2019-09-11T23:36:33Z",
+        "closed_at": "2019-09-12T01:23:24Z",
+        "title": "Clean up additive blend mode, mention premultiplied alpha",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 24,
+        "created_at": "2018-09-18T15:54:56Z",
+        "closed_at": null,
+        "title": "Rationalize CSS environment-blending and WebXR XREnvironmentBlendMode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 23,
+        "created_at": "2019-09-03T23:34:18Z",
+        "closed_at": null,
+        "title": "XRLayers should never be composited using 'lighter'",
+        "labels": [
+          {
+            "id": 1546452209,
+            "node_id": "MDU6TGFiZWwxNTQ2NDUyMjA5",
+            "url": "https://api.github.com/repos/immersive-web/webxr-ar-module/labels/composition",
+            "name": "composition",
+            "color": "006b75",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 22,
+        "created_at": "2019-09-03T13:24:44Z",
+        "closed_at": "2019-09-04T16:32:33Z",
+        "title": "Use an AR-module specific abstract",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 21,
+        "created_at": "2019-08-23T20:09:15Z",
+        "closed_at": "2019-09-25T15:42:37Z",
+        "title": "Specify which reference spaces have to be supported for immersive-ar sessions",
+        "labels": [
+          {
+            "id": 1576082454,
+            "node_id": "MDU6TGFiZWwxNTc2MDgyNDU0",
+            "url": "https://api.github.com/repos/immersive-web/webxr-ar-module/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "7ae22b",
+            "default": false
+          }
+        ],
+        "assignee": "Manishearth",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 20,
+        "created_at": "2019-08-22T22:04:11Z",
+        "closed_at": "2019-08-29T21:18:23Z",
+        "title": "Restructuring the AR spec text to improve clarity",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 19,
+        "created_at": "2019-08-21T05:48:12Z",
+        "closed_at": "2019-08-22T19:30:03Z",
+        "title": "Updated text around environment blend mode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 18,
+        "created_at": "2019-08-21T04:27:43Z",
+        "closed_at": "2019-08-21T17:03:46Z",
+        "title": "Some rewording of environment blend mode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 17,
+        "created_at": "2019-08-20T02:31:25Z",
+        "closed_at": "2019-10-10T00:34:07Z",
+        "title": "`immersive-ar` on `alpha-blend` devices with no alpha channel",
+        "labels": [
+          {
+            "id": 1546452209,
+            "node_id": "MDU6TGFiZWwxNTQ2NDUyMjA5",
+            "url": "https://api.github.com/repos/immersive-web/webxr-ar-module/labels/composition",
+            "name": "composition",
+            "color": "006b75",
+            "default": false
+          }
+        ],
+        "assignee": "toji",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 16,
+        "created_at": "2019-08-19T16:57:25Z",
+        "closed_at": "2019-09-17T00:27:07Z",
+        "title": "'immersive-vr' blend mode value on additive light displays",
+        "labels": [
+          {
+            "id": 1546452209,
+            "node_id": "MDU6TGFiZWwxNTQ2NDUyMjA5",
+            "url": "https://api.github.com/repos/immersive-web/webxr-ar-module/labels/composition",
+            "name": "composition",
+            "color": "006b75",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 15,
+        "created_at": "2019-08-16T07:28:30Z",
+        "closed_at": "2019-09-13T18:01:13Z",
+        "title": "What is the environment blend mode for devices that optionally support camera passthrough?",
+        "labels": [
+          {
+            "id": 1546452209,
+            "node_id": "MDU6TGFiZWwxNTQ2NDUyMjA5",
+            "url": "https://api.github.com/repos/immersive-web/webxr-ar-module/labels/composition",
+            "name": "composition",
+            "color": "006b75",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 14,
+        "created_at": "2019-08-16T07:26:59Z",
+        "closed_at": "2019-09-12T02:03:00Z",
+        "title": "Figure out what the additive blend mode should do with alpha values",
+        "labels": [
+          {
+            "id": 1546452209,
+            "node_id": "MDU6TGFiZWwxNTQ2NDUyMjA5",
+            "url": "https://api.github.com/repos/immersive-web/webxr-ar-module/labels/composition",
+            "name": "composition",
+            "color": "006b75",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 13,
+        "created_at": "2019-08-16T00:04:02Z",
+        "closed_at": "2019-08-17T04:45:47Z",
+        "title": "Transfers hit testing and XRRay content to CG",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 12,
+        "created_at": "2019-08-14T18:52:21Z",
+        "closed_at": "2019-08-16T19:30:07Z",
+        "title": "Fill in text on automatic composition",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 11,
+        "created_at": "2019-08-14T18:15:23Z",
+        "closed_at": "2019-08-16T19:30:07Z",
+        "title": "Fill in text about performing automatic composition",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 9,
+        "created_at": "2019-01-17T18:32:21Z",
+        "closed_at": null,
+        "title": "Enable developers to distinguish between screen-based and head-worn sessions",
+        "labels": [],
+        "assignee": "Manishearth",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5,
+        "created_at": "2019-07-02T19:18:22Z",
+        "closed_at": null,
+        "title": "Add camera data threat to privacy & security explainer",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3,
+        "created_at": "2019-08-05T21:01:23Z",
+        "closed_at": "2019-08-19T22:25:34Z",
+        "title": "Clarify `environmentBlendMode` semantics",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2,
+        "created_at": "2019-08-13T20:57:20Z",
+        "closed_at": "2019-08-15T17:13:31Z",
+        "title": "Completes the migration of XREnvironmentBlend mode from the webxr repo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1,
+        "created_at": "2019-07-31T21:10:31Z",
+        "closed_at": "2019-08-13T19:55:53Z",
+        "title": "Repurpose repo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      }
+    ]
   },
   "https://www.w3.org/TR/webxr-gamepads-module-1/": {
     "repo": {
       "owner": "immersive-web",
       "name": "webxr-gamepads-module"
     },
-    "recTrack": true
+    "recTrack": true,
+    "issues": [
+      {
+        "state": "closed",
+        "number": 20,
+        "created_at": "2019-09-24T06:31:38Z",
+        "closed_at": "2019-09-25T15:43:58Z",
+        "title": "updated SVG image for font size (no change on contents/text)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 19,
+        "created_at": "2019-09-21T03:55:22Z",
+        "closed_at": null,
+        "title": "XR Gamepad behavior in 2D browser windows",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 18,
+        "created_at": "2019-09-20T05:38:20Z",
+        "closed_at": null,
+        "title": "Ensure that the returned gamepad object is live",
+        "labels": [
+          {
+            "id": 1587649018,
+            "node_id": "MDU6TGFiZWwxNTg3NjQ5MDE4",
+            "url": "https://api.github.com/repos/immersive-web/webxr-gamepads-module/labels/potential%20breaking%20change",
+            "name": "potential breaking change",
+            "color": "d32a6b",
+            "default": false
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 17,
+        "created_at": "2019-09-20T03:03:58Z",
+        "closed_at": null,
+        "title": "Is xr-standard's button 0 meant just for triggers or also for other primary buttons?",
+        "labels": [],
+        "assignee": "NellWaliczek",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 16,
+        "created_at": "2019-09-20T03:03:53Z",
+        "closed_at": null,
+        "title": "Add link to the registry",
+        "labels": [
+          {
+            "id": 1474935853,
+            "node_id": "MDU6TGFiZWwxNDc0OTM1ODUz",
+            "url": "https://api.github.com/repos/immersive-web/webxr-gamepads-module/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "008672",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 15,
+        "created_at": "2019-09-19T08:05:30Z",
+        "closed_at": "2019-09-19T12:38:42Z",
+        "title": "Remove duplicate spec text",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 14,
+        "created_at": "2019-09-19T07:04:38Z",
+        "closed_at": "2019-09-20T03:06:09Z",
+        "title": "Replace \"grip\" -> \"squeeze'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 13,
+        "created_at": "2019-09-15T16:43:41Z",
+        "closed_at": "2019-10-07T22:24:46Z",
+        "title": "[WIP] updated as FPWD",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 12,
+        "created_at": "2019-09-15T14:48:00Z",
+        "closed_at": null,
+        "title": "[editorial] Prepare for FPWD",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 11,
+        "created_at": "2019-09-12T20:37:28Z",
+        "closed_at": "2019-09-12T21:24:04Z",
+        "title": "Update the requirements for a non-null gamepads",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 10,
+        "created_at": "2019-08-30T22:39:48Z",
+        "closed_at": "2019-09-21T00:45:14Z",
+        "title": "WPT: Add IDL for this module to WPT interface tests",
+        "labels": [],
+        "assignee": "toji",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 9,
+        "created_at": "2019-08-30T01:24:02Z",
+        "closed_at": "2019-08-30T03:49:28Z",
+        "title": "Button indices 1 and 2 swapped in the diagram",
+        "labels": [],
+        "assignee": "toji",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 8,
+        "created_at": "2019-08-30T01:18:38Z",
+        "closed_at": "2019-09-20T03:11:13Z",
+        "title": "Menu button vs. grip trigger for controllers with both",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 7,
+        "created_at": "2019-08-21T02:17:07Z",
+        "closed_at": "2019-09-25T15:44:19Z",
+        "title": "[editorial] Size (font, plate) in xr-standard-mapping.svg",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 6,
+        "created_at": "2019-08-16T18:40:52Z",
+        "closed_at": null,
+        "title": "Parts of section 3 should be moved to the Gamepad specification to avoid monkey patching",
+        "labels": [],
+        "assignee": "toji",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5,
+        "created_at": "2019-08-16T18:32:22Z",
+        "closed_at": "2019-09-19T12:38:42Z",
+        "title": "In section 2, the specification should not redefine what is an XRInputSource",
+        "labels": [
+          {
+            "id": 1474935853,
+            "node_id": "MDU6TGFiZWwxNDc0OTM1ODUz",
+            "url": "https://api.github.com/repos/immersive-web/webxr-gamepads-module/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "008672",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4,
+        "created_at": "2019-07-19T21:28:02Z",
+        "closed_at": null,
+        "title": "Gamepad button events",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3,
+        "created_at": "2019-07-19T21:49:42Z",
+        "closed_at": "2019-09-12T21:24:04Z",
+        "title": "Reconsidering the rules for when XRInputSource.gamepad should be null",
+        "labels": [],
+        "assignee": "toji",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2,
+        "created_at": "2019-08-01T20:57:01Z",
+        "closed_at": "2019-09-20T03:06:09Z",
+        "title": "Term \"Grip Trigger\" might be ambiguous for xr-standard mapping",
+        "labels": [
+          {
+            "id": 1474935853,
+            "node_id": "MDU6TGFiZWwxNDc0OTM1ODUz",
+            "url": "https://api.github.com/repos/immersive-web/webxr-gamepads-module/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "008672",
+            "default": true
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1,
+        "created_at": "2019-07-30T00:27:06Z",
+        "closed_at": "2019-08-09T18:21:29Z",
+        "title": "Repurposes repository for development of the WebXR Gamepads Module",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      }
+    ]
   }
 }
