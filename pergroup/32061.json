@@ -2393,12 +2393,41 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-contain-1/versions/20190430",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/css-contain-1/versions/20191015",
+        "title": "Proposed Recommendation"
       }
     },
     "editorsdraft": "https://drafts.csswg.org/css-contain/",
     "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/css-contain/",
+        "uri": "https://www.w3.org/TR/2019/PR-css-contain-1-20191015/",
+        "date": "2019-10-15",
+        "pr-reviews-date": "2019-11-13",
+        "informative": false,
+        "title": "CSS Containment Module Level 1",
+        "shortlink": "https://www.w3.org/TR/css-contain-1/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-contain-1/versions/20191015"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-contain-1/versions/20191015/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-contain-1/versions/20191015/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-contain-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-contain-1/versions/20191015/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -2425,6 +2454,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-contain-1/versions/20190430/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-contain-1/versions/20190430/successors"
           }
         }
       },
@@ -2580,6 +2612,57 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/css-contain-1/versions/20170221/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/css-contain-2/",
+    "description": "<p>This CSS module describes the contain property, which indicates that the element’s subtree is independent of the rest of the page. This enables heavy optimizations by user agents when used well.</p>",
+    "title": "CSS Containment Module Level 2",
+    "shortname": "css-contain-2",
+    "editor-draft": "https://drafts.csswg.org/css-contain-2/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/css-contain-2"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/css-contain-2/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/css-contain-2/versions/20191015",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/css-contain-2/versions/20191015",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://drafts.csswg.org/css-contain-2/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/css-contain-2/",
+        "uri": "https://www.w3.org/TR/2019/WD-css-contain-2-20191015/",
+        "date": "2019-10-15",
+        "informative": false,
+        "title": "CSS Containment Module Level 2",
+        "shortlink": "https://www.w3.org/TR/css-contain-2/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-contain-2/versions/20191015"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-contain-2/versions/20191015/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-contain-2/versions/20191015/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-contain-2"
           }
         }
       }
