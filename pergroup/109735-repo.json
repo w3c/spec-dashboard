@@ -8,11 +8,40 @@
     "issues": [
       {
         "state": "open",
+        "number": 893,
+        "created_at": "2019-10-21T23:03:27Z",
+        "closed_at": null,
+        "title": "Define squeeze events",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 892,
+        "created_at": "2019-10-21T22:09:05Z",
+        "closed_at": null,
+        "title": "Evaluate how/if WebXR should interact with audio-only devices.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 891,
         "created_at": "2019-10-18T18:05:25Z",
         "closed_at": null,
         "title": "Clarify semantics of preserveDrawingBuffer",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -131,7 +160,16 @@
         "created_at": "2019-10-16T15:13:55Z",
         "closed_at": null,
         "title": "Corrections and clarifications for description/steps for updateRenderState()",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -170,7 +208,16 @@
         "created_at": "2019-10-15T17:39:21Z",
         "closed_at": null,
         "title": "Note somewhere that you should be always be queueing up the next rAF within rAF",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -180,7 +227,16 @@
         "created_at": "2019-10-14T23:52:19Z",
         "closed_at": null,
         "title": "Expose events for a squeeze(grip) action",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -189,9 +245,9 @@
         "number": 875,
         "created_at": "2019-10-14T23:42:16Z",
         "closed_at": null,
-        "title": "[WIP] Fill out section on trusted UI",
+        "title": "Fill out section on trusted UI",
         "labels": [],
-        "assignee": null,
+        "assignee": "Manishearth",
         "isPullRequest": true
       },
       {
@@ -251,7 +307,7 @@
         "closed_at": null,
         "title": "Move \"immersive-ar\" mode back into the core spec",
         "labels": [],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": true
       },
       {
@@ -562,7 +618,7 @@
         "number": 844,
         "created_at": "2019-09-16T04:06:18Z",
         "closed_at": null,
-        "title": "Should emulatedPosition be true when a tracked local-floor space is using an emulated height?",
+        "title": "Should we expose an emulatedFloor for reporting when floor-level is emulated?",
         "labels": [],
         "assignee": "Manishearth",
         "isPullRequest": false
@@ -2131,7 +2187,16 @@
         "created_at": "2019-06-25T21:00:12Z",
         "closed_at": null,
         "title": "Should calling XRSession.requestAnimationFrame in a Window.animationFrameCallback be banned?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2533,6 +2598,14 @@
         "title": "Is Trusted Immersive UI a conformance requirement?",
         "labels": [
           {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
+          {
             "id": 1414169680,
             "node_id": "MDU6TGFiZWwxNDE0MTY5Njgw",
             "url": "https://api.github.com/repos/immersive-web/webxr/labels/privacy-and-security",
@@ -2559,6 +2632,14 @@
         "closed_at": null,
         "title": "What is Trusted Immersive UI?",
         "labels": [
+          {
+            "id": 1325301991,
+            "node_id": "MDU6TGFiZWwxMzI1MzAxOTkx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/fixed%20by%20pending%20PR",
+            "name": "fixed by pending PR",
+            "color": "64e519",
+            "default": false
+          },
           {
             "id": 1414169680,
             "node_id": "MDU6TGFiZWwxNDE0MTY5Njgw",
@@ -4678,7 +4759,16 @@
         "created_at": "2019-04-23T19:52:35Z",
         "closed_at": null,
         "title": "What happens if a canvas with an xrCompatible context is attached to the DOM?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1320816381,
+            "node_id": "MDU6TGFiZWwxMzIwODE2Mzgx",
+            "url": "https://api.github.com/repos/immersive-web/webxr/labels/help%20wanted",
+            "name": "help wanted",
+            "color": "c2e0c6",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -12128,6 +12218,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 23,
+        "created_at": "2019-10-21T21:51:41Z",
+        "closed_at": null,
+        "title": "Should hand-based input sources have a Gamepad?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 22,
