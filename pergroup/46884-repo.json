@@ -8,6 +8,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 2094,
+        "created_at": "2019-10-29T16:14:31Z",
+        "closed_at": null,
+        "title": "Generalize the algorithm and the prose for AudioBufferSourceNode to have symmetric behaviour between forward and reverse playback",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2093,
+        "created_at": "2019-10-29T16:12:26Z",
+        "closed_at": null,
+        "title": " Fix inconsistencies between the prose and algorithm for the offset parameter of the AudioBufferSourceNode start method",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2092,
         "created_at": "2019-10-28T14:11:31Z",
         "closed_at": null,
@@ -62,7 +82,16 @@
         "created_at": "2019-10-23T18:12:09Z",
         "closed_at": null,
         "title": "Minor issues with BiquadFilter AudioParams",
-        "labels": [],
+        "labels": [
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -220,8 +249,17 @@
         "created_at": "2019-10-03T08:43:49Z",
         "closed_at": null,
         "title": "Clarification on `AudioBufferSourceNode` looping, and loop points",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false
+          }
+        ],
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -230,8 +268,17 @@
         "created_at": "2019-10-02T17:31:06Z",
         "closed_at": null,
         "title": "cancelScheduledValues with setValueCurveAtTime",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 138856832,
+            "node_id": "MDU6TGFiZWwxMzg4NTY4MzI=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Ready%20for%20Editing",
+            "name": "Ready for Editing",
+            "color": "bfe5bf",
+            "default": false
+          }
+        ],
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
@@ -696,10 +743,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2033,
         "created_at": "2019-08-20T16:52:59Z",
-        "closed_at": null,
+        "closed_at": "2019-10-30T10:58:34Z",
         "title": "AudioBufferSourceNode: Clarify if playhead truncation should happen when changing loop endpoints",
         "labels": [
           {
@@ -711,7 +758,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -741,11 +788,11 @@
         "title": "AudioBufferSourceNode: Clarify offset truncation for negative playbackRates",
         "labels": [
           {
-            "id": 138856832,
-            "node_id": "MDU6TGFiZWwxMzg4NTY4MzI=",
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Ready%20for%20Editing",
-            "name": "Ready for Editing",
-            "color": "bfe5bf",
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
             "default": false
           }
         ],
