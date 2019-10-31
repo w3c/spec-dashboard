@@ -7,10 +7,29 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
+        "number": 1338,
+        "created_at": "2019-10-30T16:30:01Z",
+        "closed_at": "2019-10-30T18:47:28Z",
+        "title": "Re-merge PR #1324",
+        "labels": [
+          {
+            "id": 375711228,
+            "node_id": "MDU6TGFiZWwzNzU3MTEyMjg=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:process",
+            "name": "type:process",
+            "color": "fef2c0",
+            "default": false
+          }
+        ],
+        "assignee": "emlun",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 1337,
         "created_at": "2019-10-29T21:43:38Z",
-        "closed_at": null,
+        "closed_at": "2019-10-30T19:53:24Z",
         "title": "Fix #1285 - Remove icons from PublicKeyCredentialEntity",
         "labels": [
           {
@@ -30,7 +49,7 @@
             "default": false
           }
         ],
-        "assignee": null,
+        "assignee": "jcjones",
         "isPullRequest": true
       },
       {
@@ -39,15 +58,32 @@
         "created_at": "2019-10-28T21:30:23Z",
         "closed_at": null,
         "title": "Prohibit Create Credential from cross-origin iframes",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 686484283,
+            "node_id": "MDU6TGFiZWw2ODY0ODQyODM=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:breaking",
+            "name": "stat:breaking",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false
+          }
+        ],
+        "assignee": "jcjones",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1335,
         "created_at": "2019-10-24T23:30:51Z",
-        "closed_at": null,
+        "closed_at": "2019-10-30T19:16:29Z",
         "title": "name the protocol",
         "labels": [
           {
@@ -109,10 +145,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1332,
         "created_at": "2019-10-21T23:43:33Z",
-        "closed_at": null,
+        "closed_at": "2019-10-30T19:13:49Z",
         "title": "Update note in RP definition to indicate that non-WebAuthn FIDO clien…",
         "labels": [
           {
@@ -936,10 +972,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1297,
         "created_at": "2019-09-10T21:04:19Z",
-        "closed_at": null,
+        "closed_at": "2019-10-30T19:15:35Z",
         "title": "Consider rewording restrictions around origin",
         "labels": [
           {
@@ -1235,10 +1271,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1285,
         "created_at": "2019-08-23T19:52:01Z",
-        "closed_at": null,
+        "closed_at": "2019-10-30T19:53:26Z",
         "title": "Specify if clients are expected to follow redirects for icon URLs",
         "labels": [
           {
@@ -3945,6 +3981,14 @@
         "title": "Add explicit description on what should be done in incognito/private browsing mode",
         "labels": [
           {
+            "id": 1631598003,
+            "node_id": "MDU6TGFiZWwxNjMxNTk4MDAz",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:puntable",
+            "name": "stat:puntable",
+            "color": "c2e0c6",
+            "default": false
+          },
+          {
             "id": 446001970,
             "node_id": "MDU6TGFiZWw0NDYwMDE5NzA=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
@@ -5543,12 +5587,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1105,
         "created_at": "2018-10-22T14:52:07Z",
-        "closed_at": null,
+        "closed_at": "2019-10-30T19:24:38Z",
         "title": "Refer to IntersectionObserver from the Security Considerations",
         "labels": [
+          {
+            "id": 1631598003,
+            "node_id": "MDU6TGFiZWwxNjMxNTk4MDAz",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:puntable",
+            "name": "stat:puntable",
+            "color": "c2e0c6",
+            "default": false
+          },
           {
             "id": 446001927,
             "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
@@ -24335,6 +24387,14 @@
         "closed_at": null,
         "title": "Add clearer definition of API use cases to the spec ",
         "labels": [
+          {
+            "id": 1631598003,
+            "node_id": "MDU6TGFiZWwxNjMxNTk4MDAz",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:puntable",
+            "name": "stat:puntable",
+            "color": "c2e0c6",
+            "default": false
+          },
           {
             "id": 340917025,
             "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
