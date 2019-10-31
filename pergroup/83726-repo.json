@@ -12,7 +12,24 @@
         "created_at": "2019-10-30T05:02:48Z",
         "closed_at": null,
         "title": "Example 3 is wrong",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1179400818,
+            "node_id": "MDU6TGFiZWwxMTc5NDAwODE4",
+            "url": "https://api.github.com/repos/w3c/accname/labels/editorial",
+            "name": "editorial",
+            "color": "60ed44",
+            "default": false
+          },
+          {
+            "id": 762811462,
+            "node_id": "MDU6TGFiZWw3NjI4MTE0NjI=",
+            "url": "https://api.github.com/repos/w3c/accname/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "7057ff",
+            "default": true
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1456,9 +1473,19 @@
     "issues": [
       {
         "state": "open",
+        "number": 1108,
+        "created_at": "2019-10-30T15:29:09Z",
+        "closed_at": null,
+        "title": "Editorial: Remove parenthesis from headings",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 1107,
         "created_at": "2019-10-30T11:39:20Z",
-        "closed_at": null,
+        "closed_at": "2019-10-30T13:18:43Z",
         "title": "Why is aria-current=page limited to pagination links?",
         "labels": [],
         "assignee": null,
@@ -6224,18 +6251,26 @@
         "isPullRequest": false
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 749,
         "created_at": "2018-05-09T22:51:49Z",
-        "closed_at": "2019-10-02T18:24:09Z",
+        "closed_at": null,
         "title": "Annotations",
         "labels": [
           {
-            "id": 468533483,
-            "node_id": "MDU6TGFiZWw0Njg1MzM0ODM=",
-            "url": "https://api.github.com/repos/w3c/aria/labels/ARIA%201.2",
-            "name": "ARIA 1.2",
-            "color": "e99695",
+            "id": 925628651,
+            "node_id": "MDU6TGFiZWw5MjU2Mjg2NTE=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/ARIA%201.3",
+            "name": "ARIA 1.3",
+            "color": "bfdadc",
+            "default": false
+          },
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
             "default": false
           }
         ],
@@ -19325,6 +19360,49 @@
     },
     "recTrack": false,
     "issues": [
+      {
+        "state": "open",
+        "number": 1237,
+        "created_at": "2019-10-31T00:52:22Z",
+        "closed_at": null,
+        "title": "How to deal with disabled tabs in an automatically activated tablist",
+        "labels": [
+          {
+            "id": 431710669,
+            "node_id": "MDU6TGFiZWw0MzE3MTA2Njk=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Feedback",
+            "name": "Feedback",
+            "color": "d93f0b",
+            "default": false
+          },
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "006b75",
+            "default": false
+          },
+          {
+            "id": 354259936,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true
+          }
+        ],
+        "assignee": "ZoeBijl",
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 1236,
