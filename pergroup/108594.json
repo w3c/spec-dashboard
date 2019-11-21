@@ -1,6 +1,6 @@
 [
   {
-    "shortlink": "https://www.w3.org/TR/trace-context/",
+    "shortlink": "https://www.w3.org/TR/trace-context-1/",
     "description": "<p>Distributed tracing is a set of tools and practices to monitor the health and reliability of a distributed application. A distributed application is an application that consists of multiple components that are deployed and operated separately. It is also known as micro-service.</p>",
     "title": "Trace Context",
     "shortname": "trace-context",
@@ -17,12 +17,41 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/trace-context/versions/20190813",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/trace-context/versions/20191121",
+        "title": "Proposed Recommendation"
       }
     },
     "editorsdraft": "https://w3c.github.io/trace-context/",
     "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/trace-context/",
+        "uri": "https://www.w3.org/TR/2019/PR-trace-context-1-20191121/",
+        "date": "2019-11-21",
+        "pr-reviews-date": "2020-01-10",
+        "informative": false,
+        "title": "Trace Context",
+        "shortlink": "https://www.w3.org/TR/trace-context-1/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/trace-context/versions/20191121"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/trace-context/versions/20191121/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/trace-context/versions/20191121/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/trace-context"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/trace-context/versions/20191121/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -49,6 +78,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/trace-context/versions/20190813/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/trace-context/versions/20190813/successors"
           }
         }
       },
