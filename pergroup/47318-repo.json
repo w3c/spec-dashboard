@@ -3235,6 +3235,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 174,
+        "created_at": "2019-11-27T04:46:08Z",
+        "closed_at": null,
+        "title": "Re-add the camera/depth map intrinsics",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 173,
         "created_at": "2019-07-19T06:27:09Z",
         "closed_at": null,
@@ -17381,10 +17391,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 32,
         "created_at": "2019-11-21T10:32:49Z",
-        "closed_at": null,
+        "closed_at": "2019-11-27T11:18:49Z",
         "title": "Add conformance section",
         "labels": [],
         "assignee": null,
@@ -19703,19 +19713,109 @@
     "issues": [
       {
         "state": "open",
+        "number": 2377,
+        "created_at": "2019-11-27T10:41:50Z",
+        "closed_at": null,
+        "title": "Set receiver.[[ReceiveCodecs]] on all descriptions.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2376,
+        "created_at": "2019-11-27T10:25:52Z",
+        "closed_at": null,
+        "title": "Note that ICE transport state can go to completed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2375,
+        "created_at": "2019-11-26T17:44:26Z",
+        "closed_at": null,
+        "title": "Construct RTCErrors with name 'OperationError' instead of 'RTCError'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2374,
+        "created_at": "2019-11-26T16:57:40Z",
+        "closed_at": null,
+        "title": "Mark RTCError attributes at risk",
+        "labels": [
+          {
+            "id": 1591911122,
+            "node_id": "MDU6TGFiZWwxNTkxOTExMTIy",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/At%20risk",
+            "name": "At risk",
+            "color": "d93f0b",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2373,
+        "created_at": "2019-11-26T15:22:50Z",
+        "closed_at": null,
+        "title": "Revert [[ReceiveCodecs]] on rollback",
+        "labels": [
+          {
+            "id": 1187916982,
+            "node_id": "MDU6TGFiZWwxMTg3OTE2OTgy",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Please%20take%20a%20look",
+            "name": "Please take a look",
+            "color": "90edd1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2372,
+        "created_at": "2019-11-26T15:01:31Z",
+        "closed_at": null,
+        "title": "Revert transports on rollback",
+        "labels": [
+          {
+            "id": 1187916982,
+            "node_id": "MDU6TGFiZWwxMTg3OTE2OTgy",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Please%20take%20a%20look",
+            "name": "Please take a look",
+            "color": "90edd1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2371,
         "created_at": "2019-11-26T11:58:34Z",
         "closed_at": null,
         "title": "setCodecPreferences() and removing a codec after initial negotiation",
         "labels": [
           {
-            "id": 1649763021,
-            "node_id": "MDU6TGFiZWwxNjQ5NzYzMDIx",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/November%202019%20Virtual%20Interim",
-            "name": "November 2019 Virtual Interim",
-            "color": "1d76db",
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
             "default": false,
-            "description": ""
+            "description": "Needs a WPT test"
           }
         ],
         "assignee": "henbos",
@@ -19736,6 +19836,15 @@
             "color": "fef2c0",
             "default": false,
             "description": null
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "jan-ivar",
@@ -19754,6 +19863,15 @@
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/November%202019%20Virtual%20Interim",
             "name": "November 2019 Virtual Interim",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
             "default": false,
             "description": ""
           }
@@ -19778,6 +19896,15 @@
             "description": ""
           },
           {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          },
+          {
             "id": 1696914806,
             "node_id": "MDU6TGFiZWwxNjk2OTE0ODA2",
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/rollback",
@@ -19797,6 +19924,15 @@
         "closed_at": null,
         "title": "Clarify what happens when rolling back an ICE restart",
         "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          },
           {
             "id": 1649763021,
             "node_id": "MDU6TGFiZWwxNjQ5NzYzMDIx",
@@ -19903,6 +20039,15 @@
             "color": "1d76db",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
           },
           {
             "id": 1696914806,
@@ -20582,6 +20727,15 @@
             "color": "1d76db",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
           }
         ],
         "assignee": "henbos",
@@ -20888,6 +21042,15 @@
             "color": "1d76db",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "alvestrand",
@@ -20934,10 +21097,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2313,
         "created_at": "2019-09-27T15:09:56Z",
-        "closed_at": null,
+        "closed_at": "2019-11-26T16:10:30Z",
         "title": "[[SendCodecs]] is updated based on answers, but [[SendEncodings]] is updated based on remote description",
         "labels": [
           {
