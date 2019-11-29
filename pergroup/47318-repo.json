@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 87,
+        "created_at": "2019-11-28T14:34:00Z",
+        "closed_at": null,
+        "title": "Setting the audio output for a whole context or page",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 86,
         "created_at": "2019-11-06T08:25:41Z",
         "closed_at": null,
@@ -6128,6 +6138,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 646,
+        "created_at": "2019-11-28T16:06:39Z",
+        "closed_at": null,
+        "title": "Should enumerateDevices by default return an empty list?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 645,
+        "created_at": "2019-11-28T16:04:51Z",
+        "closed_at": null,
+        "title": "enumerateDevices should only provide device info permission for granted device types",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 644,
         "created_at": "2019-11-26T01:17:38Z",
         "closed_at": null,
@@ -6167,10 +6197,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 641,
         "created_at": "2019-11-13T21:08:16Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:51:13Z",
         "title": "Replace device-info permission by a browsing context boolean flag",
         "labels": [],
         "assignee": null,
@@ -6277,30 +6307,30 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 633,
         "created_at": "2019-10-24T09:24:07Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:47:56Z",
         "title": "Update applyConstraints to be a no-op in case track is ended",
         "labels": [
           {
-            "id": 264597009,
-            "node_id": "MDU6TGFiZWwyNjQ1OTcwMDk=",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Submitter%20action%20needed",
-            "name": "Submitter action needed",
-            "color": "eb6420",
+            "id": 1120811800,
+            "node_id": "MDU6TGFiZWwxMTIwODExODAw",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "7aea6b",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 632,
         "created_at": "2019-10-24T09:21:56Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:45:37Z",
         "title": "Filter more aggressively the result of enumerateDevices if list-permission is not granted",
         "labels": [
           {
@@ -19712,61 +19742,99 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
-        "number": 2377,
-        "created_at": "2019-11-27T10:41:50Z",
-        "closed_at": null,
-        "title": "Set receiver.[[ReceiveCodecs]] on all descriptions.",
+        "state": "closed",
+        "number": 2388,
+        "created_at": "2019-11-28T16:45:15Z",
+        "closed_at": "2019-11-28T16:45:25Z",
+        "title": "Fix travis error introduced by PR 2380",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
-        "number": 2376,
-        "created_at": "2019-11-27T10:25:52Z",
+        "number": 2387,
+        "created_at": "2019-11-28T16:27:10Z",
         "closed_at": null,
-        "title": "Note that ICE transport state can go to completed",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 2375,
-        "created_at": "2019-11-26T17:44:26Z",
-        "closed_at": null,
-        "title": "Construct RTCErrors with name 'OperationError' instead of 'RTCError'",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 2374,
-        "created_at": "2019-11-26T16:57:40Z",
-        "closed_at": null,
-        "title": "Mark RTCError attributes at risk",
+        "title": "Move Cullen Jennings from 'Editors' to 'Former editors'",
         "labels": [
           {
-            "id": 1591911122,
-            "node_id": "MDU6TGFiZWwxNTkxOTExMTIy",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/At%20risk",
-            "name": "At risk",
-            "color": "d93f0b",
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
             "default": false,
-            "description": ""
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2386,
+        "created_at": "2019-11-28T15:44:37Z",
+        "closed_at": null,
+        "title": "Editors vs Former editors",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
           }
         ],
         "assignee": "henbos",
         "isPullRequest": false
       },
       {
+        "state": "closed",
+        "number": 2385,
+        "created_at": "2019-11-28T14:50:31Z",
+        "closed_at": "2019-11-28T16:17:59Z",
+        "title": "Note that getSynchronizationSources works without sinks",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
-        "number": 2373,
-        "created_at": "2019-11-26T15:22:50Z",
+        "number": 2384,
+        "created_at": "2019-11-28T13:12:07Z",
         "closed_at": null,
-        "title": "Revert [[ReceiveCodecs]] on rollback",
+        "title": "Add explicit \"rollback\" steps",
         "labels": [
           {
             "id": 1187916982,
@@ -19782,10 +19850,275 @@
         "isPullRequest": true
       },
       {
+        "state": "closed",
+        "number": 2383,
+        "created_at": "2019-11-28T11:56:02Z",
+        "closed_at": "2019-11-28T16:20:20Z",
+        "title": "Remove RTCRtpReceiveParameters.encodings",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2382,
+        "created_at": "2019-11-28T11:51:50Z",
+        "closed_at": "2019-11-28T16:20:20Z",
+        "title": "Remove RTCRtpReceiveParameters.encodings",
+        "labels": [
+          {
+            "id": 1591911122,
+            "node_id": "MDU6TGFiZWwxNTkxOTExMTIy",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/At%20risk",
+            "name": "At risk",
+            "color": "d93f0b",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2381,
+        "created_at": "2019-11-28T11:46:46Z",
+        "closed_at": "2019-11-28T15:21:56Z",
+        "title": "Remove getDefaultIceServers reference from \"at risk\" section",
+        "labels": [
+          {
+            "id": 1187916982,
+            "node_id": "MDU6TGFiZWwxMTg3OTE2OTgy",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Please%20take%20a%20look",
+            "name": "Please take a look",
+            "color": "90edd1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2380,
+        "created_at": "2019-11-28T11:30:03Z",
+        "closed_at": "2019-11-28T16:21:48Z",
+        "title": "Mark RTCError attributes \"at risk\"",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2379,
+        "created_at": "2019-11-28T10:09:13Z",
+        "closed_at": "2019-11-28T13:27:06Z",
+        "title": "Move henbos/webrtc-provisional-stats to w3c/webrtc-provisional-stats",
+        "labels": [
+          {
+            "id": 1595279092,
+            "node_id": "MDU6TGFiZWwxNTk1Mjc5MDky",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/WebRTC%20Extensions",
+            "name": "WebRTC Extensions",
+            "color": "baf3fc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "dontcallmedom",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2378,
+        "created_at": "2019-11-28T10:07:15Z",
+        "closed_at": "2019-11-28T13:26:17Z",
+        "title": "Move henbos/webrtc-extensions to w3c/webrtc-extensions",
+        "labels": [
+          {
+            "id": 1595279092,
+            "node_id": "MDU6TGFiZWwxNTk1Mjc5MDky",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/WebRTC%20Extensions",
+            "name": "WebRTC Extensions",
+            "color": "baf3fc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "dontcallmedom",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2377,
+        "created_at": "2019-11-27T10:41:50Z",
+        "closed_at": "2019-11-29T06:52:36Z",
+        "title": "Set receiver.[[ReceiveCodecs]] on all descriptions.",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
+        "number": 2376,
+        "created_at": "2019-11-27T10:25:52Z",
+        "closed_at": null,
+        "title": "Note that ICE transport state can go to completed",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2375,
+        "created_at": "2019-11-26T17:44:26Z",
+        "closed_at": "2019-11-28T16:21:51Z",
+        "title": "Construct RTCErrors with name 'OperationError' instead of 'RTCError'",
+        "labels": [
+          {
+            "id": 229237950,
+            "node_id": "MDU6TGFiZWwyMjkyMzc5NTA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20submitter%20action",
+            "name": "Needs submitter action",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2374,
+        "created_at": "2019-11-26T16:57:40Z",
+        "closed_at": "2019-11-28T16:21:48Z",
+        "title": "Mark RTCError attributes at risk",
+        "labels": [
+          {
+            "id": 1591911122,
+            "node_id": "MDU6TGFiZWwxNTkxOTExMTIy",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/At%20risk",
+            "name": "At risk",
+            "color": "d93f0b",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2373,
+        "created_at": "2019-11-26T15:22:50Z",
+        "closed_at": "2019-11-28T15:15:46Z",
+        "title": "Revert [[ReceiveCodecs]] on rollback",
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          },
+          {
+            "id": 1187916982,
+            "node_id": "MDU6TGFiZWwxMTg3OTE2OTgy",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Please%20take%20a%20look",
+            "name": "Please take a look",
+            "color": "90edd1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2372,
         "created_at": "2019-11-26T15:01:31Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:14:09Z",
         "title": "Revert transports on rollback",
         "labels": [
           {
@@ -19809,6 +20142,15 @@
         "title": "setCodecPreferences() and removing a codec after initial negotiation",
         "labels": [
           {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          },
+          {
             "id": 907371927,
             "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
@@ -19816,6 +20158,15 @@
             "color": "37ce2f",
             "default": false,
             "description": "Needs a WPT test"
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "henbos",
@@ -19851,10 +20202,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2369,
         "created_at": "2019-11-25T12:43:14Z",
-        "closed_at": null,
+        "closed_at": "2019-11-29T06:52:35Z",
         "title": "[[ReceiveCodecs]] is only set on answer. How to achieve early media?",
         "labels": [
           {
@@ -19867,23 +20218,23 @@
             "description": ""
           },
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false,
-            "description": ""
+            "description": null
           }
         ],
         "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2368,
         "created_at": "2019-11-25T12:22:13Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:15:46Z",
         "title": "Clarify what happens to codecs when rolling back",
         "labels": [
           {
@@ -19918,10 +20269,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2367,
         "created_at": "2019-11-25T12:19:10Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T10:03:05Z",
         "title": "Clarify what happens when rolling back an ICE restart",
         "labels": [
           {
@@ -19956,12 +20307,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2366,
         "created_at": "2019-11-22T15:56:17Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:11:47Z",
         "title": "Update Mandatory stats to match refactoring",
         "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          },
           {
             "id": 1187916982,
             "node_id": "MDU6TGFiZWwxMTg3OTE2OTgy",
@@ -19976,10 +20336,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2365,
         "created_at": "2019-11-22T15:21:04Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:10:07Z",
         "title": "Remove [[WEBIDL-1]] reference in favor of [[WEBIDL]]",
         "labels": [
           {
@@ -20019,16 +20379,25 @@
             "color": "0e8a16",
             "default": false,
             "description": null
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": "youennf",
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2363,
         "created_at": "2019-11-21T15:53:54Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:14:09Z",
         "title": "Transports on offer need to be rolled back",
         "labels": [
           {
@@ -20109,7 +20478,7 @@
         "closed_at": null,
         "title": "Should SCTP transport enter \"closed\" state when DTLS transport does?",
         "labels": [],
-        "assignee": null,
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
@@ -20444,7 +20813,7 @@
         "closed_at": null,
         "title": "RTCCertificate security boundary",
         "labels": [],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -20671,13 +21040,13 @@
             "description": null
           },
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false,
-            "description": ""
+            "description": null
           },
           {
             "id": 1696914806,
@@ -20713,10 +21082,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2330,
         "created_at": "2019-10-16T23:55:05Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T16:21:50Z",
         "title": "Backwards compat concerns with RTCError",
         "labels": [
           {
@@ -20818,11 +21187,11 @@
         "title": "Removing degradationPreference",
         "labels": [
           {
-            "id": 306875762,
-            "node_id": "MDU6TGFiZWwzMDY4NzU3NjI=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20assignee%20action",
-            "name": "Needs assignee action",
-            "color": "d4c5f9",
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
             "default": false,
             "description": null
           }
@@ -20889,10 +21258,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2323,
         "created_at": "2019-10-07T10:43:39Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T10:11:55Z",
         "title": "Find a home for 1.1 features, extensions and features at risk (was: Move features at risk to an extension spec)",
         "labels": [
           {
@@ -20978,10 +21347,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2319,
         "created_at": "2019-10-03T11:33:01Z",
-        "closed_at": null,
+        "closed_at": "2019-11-27T17:22:27Z",
         "title": "Add more specificity on the format of RTCStats.ids",
         "labels": [],
         "assignee": "henbos",
@@ -21044,13 +21413,13 @@
             "description": ""
           },
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false,
-            "description": ""
+            "description": null
           }
         ],
         "assignee": "alvestrand",
@@ -21069,6 +21438,15 @@
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/November%202019%20Virtual%20Interim",
             "name": "November 2019 Virtual Interim",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
             "default": false,
             "description": ""
           }
@@ -21091,9 +21469,18 @@
             "color": "1d76db",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": "jan-ivar",
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
@@ -21304,10 +21691,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2302,
         "created_at": "2019-09-20T02:44:17Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:11:47Z",
         "title": "Update mandatory to implement stats based on recent restructuring",
         "labels": [
           {
@@ -22349,13 +22736,13 @@
             "description": ""
           },
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false,
-            "description": ""
+            "description": null
           },
           {
             "id": 1490875475,
@@ -22481,10 +22868,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2240,
         "created_at": "2019-07-26T09:44:58Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T16:17:59Z",
         "title": "Clarify that getSynchronizationSources() should return information even if the track has no sink (<video> tag)",
         "labels": [
           {
@@ -22497,13 +22884,13 @@
             "description": null
           },
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false,
-            "description": ""
+            "description": null
           }
         ],
         "assignee": "henbos",
@@ -23152,10 +23539,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2207,
         "created_at": "2019-06-13T14:06:04Z",
-        "closed_at": null,
+        "closed_at": "2019-11-28T15:10:07Z",
         "title": "Remove [WEBIDL-1] reference in favor of [WEBIDL]",
         "labels": [
           {
@@ -59113,6 +59500,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 521,
+        "created_at": "2019-11-28T14:13:56Z",
+        "closed_at": null,
+        "title": "Remove RTCNetworkType and networkType fields",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "closed",
         "number": 520,
