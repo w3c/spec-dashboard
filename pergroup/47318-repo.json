@@ -5072,6 +5072,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 82,
+        "created_at": "2019-12-05T15:04:53Z",
+        "closed_at": null,
+        "title": "Clarify if CanvasCaptureMediaStreamTrack mute, unmute, and ended events are expected to be fired",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 81,
         "created_at": "2019-05-31T13:36:09Z",
@@ -6517,10 +6527,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 620,
         "created_at": "2019-09-06T08:18:28Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T14:47:49Z",
         "title": "MediaDeviceInfo reuse in successive calls of enumerateDevices is not clear",
         "labels": [],
         "assignee": null,
@@ -6637,10 +6647,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 612,
         "created_at": "2019-08-21T13:00:06Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T14:56:49Z",
         "title": "Move enumerateDevices behind permission",
         "labels": [
           {
@@ -17451,6 +17461,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 33,
+        "created_at": "2019-12-05T14:38:15Z",
+        "closed_at": null,
+        "title": "degradationPreference is under-specified",
+        "labels": [],
+        "assignee": "alvestrand",
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 32,
         "created_at": "2019-11-21T10:32:49Z",
@@ -19773,29 +19793,178 @@
     "issues": [
       {
         "state": "open",
+        "number": 2400,
+        "created_at": "2019-12-05T19:41:02Z",
+        "closed_at": null,
+        "title": "Fire statechange, iceconnectionstatechange & connectionstatechange events in same task.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2399,
+        "created_at": "2019-12-05T15:57:46Z",
+        "closed_at": "2019-12-05T16:02:17Z",
+        "title": "Removing degradationPreference",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2398,
+        "created_at": "2019-12-05T15:42:08Z",
+        "closed_at": null,
+        "title": "Update Perfect Negotiation example with the right error code",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2397,
+        "created_at": "2019-12-05T15:26:38Z",
+        "closed_at": null,
+        "title": "Can we have non-origin-clean MediaStreamTracks?",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2396,
+        "created_at": "2019-12-05T15:21:34Z",
+        "closed_at": null,
+        "title": "Add \"process remote tracks\" steps to enable reusing steps in rollback",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2395,
+        "created_at": "2019-12-05T14:46:04Z",
+        "closed_at": "2019-12-05T15:45:57Z",
+        "title": "Do not send audio when track is disabled",
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2394,
+        "created_at": "2019-12-05T14:16:44Z",
+        "closed_at": "2019-12-05T15:58:13Z",
+        "title": "Removing degradationPreference",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2393,
         "created_at": "2019-12-05T02:04:21Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:39:39Z",
         "title": "Add Perfect Negotiation example.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2392,
         "created_at": "2019-12-04T22:16:35Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:31:07Z",
         "title": "Make getParameters() idempotent + queue task to clear [[LastReturnedParameters]]",
-        "labels": [],
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2391,
         "created_at": "2019-12-04T04:00:33Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:29:41Z",
         "title": "Add a couple of identity hooks (editorial)",
         "labels": [
           {
@@ -19817,15 +19986,25 @@
         "created_at": "2019-12-03T10:17:53Z",
         "closed_at": null,
         "title": "Remove constructs and steps related to identity handling",
-        "labels": [],
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2389,
         "created_at": "2019-12-02T16:40:59Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:46:17Z",
         "title": "Fix a few references",
         "labels": [
           {
@@ -19862,10 +20041,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2387,
         "created_at": "2019-11-28T16:27:10Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:15:06Z",
         "title": "Move Cullen Jennings from 'Editors' to 'Former editors'",
         "labels": [
           {
@@ -19882,10 +20061,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2386,
         "created_at": "2019-11-28T15:44:37Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T23:11:04Z",
         "title": "Editors vs Former editors",
         "labels": [
           {
@@ -19896,18 +20075,9 @@
             "color": "fef2c0",
             "default": false,
             "description": null
-          },
-          {
-            "id": 273487504,
-            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "009800",
-            "default": false,
-            "description": null
           }
         ],
-        "assignee": "henbos",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -19949,10 +20119,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2384,
         "created_at": "2019-11-28T13:12:07Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:13:52Z",
         "title": "Add explicit \"rollback\" steps",
         "labels": [
           {
@@ -19965,13 +20135,13 @@
             "description": "Needs a WPT test"
           },
           {
-            "id": 229237950,
-            "node_id": "MDU6TGFiZWwyMjkyMzc5NTA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20submitter%20action",
-            "name": "Needs submitter action",
-            "color": "eb6420",
+            "id": 1187916982,
+            "node_id": "MDU6TGFiZWwxMTg3OTE2OTgy",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Please%20take%20a%20look",
+            "name": "Please take a look",
+            "color": "90edd1",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": null,
@@ -20301,10 +20471,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2370,
         "created_at": "2019-11-26T00:26:28Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:39:39Z",
         "title": "Add a perfect negotiation example",
         "labels": [
           {
@@ -20639,10 +20809,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2358,
         "created_at": "2019-11-15T04:36:00Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:20:17Z",
         "title": "Upgrade to ReSpec 24.32.1 produced 281 warnings",
         "labels": [
           {
@@ -20954,12 +21124,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2343,
         "created_at": "2019-11-01T13:08:32Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:08:56Z",
         "title": "RTCCertificate security boundary",
-        "labels": [],
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": false
       },
@@ -21161,10 +21341,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2333,
         "created_at": "2019-10-17T20:50:09Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:08:56Z",
         "title": "Strengthen secure module language around keying material & add security note",
         "labels": [
           {
@@ -21181,21 +21361,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2332,
         "created_at": "2019-10-17T14:23:21Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:13:51Z",
         "title": "Explicit rollback steps (was: Firing the right events in \"rollback\": Which description to use?)",
         "labels": [
-          {
-            "id": 381483688,
-            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
-            "name": "Editorial",
-            "color": "fef2c0",
-            "default": false,
-            "description": null
-          },
           {
             "id": 273487504,
             "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
@@ -21288,21 +21459,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2328,
         "created_at": "2019-10-16T07:18:32Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:08:07Z",
         "title": "Add accessibility considerations regarding real-time text",
         "labels": [
-          {
-            "id": 229237950,
-            "node_id": "MDU6TGFiZWwyMjkyMzc5NTA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20submitter%20action",
-            "name": "Needs submitter action",
-            "color": "eb6420",
-            "default": false,
-            "description": null
-          },
           {
             "id": 1187916982,
             "node_id": "MDU6TGFiZWwxMTg3OTE2OTgy",
@@ -21337,10 +21499,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2326,
         "created_at": "2019-10-08T17:17:00Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T14:16:59Z",
         "title": "Removing degradationPreference",
         "labels": [
           {
@@ -21357,10 +21519,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2325,
         "created_at": "2019-10-08T17:07:06Z",
-        "closed_at": null,
+        "closed_at": "2019-12-06T06:57:05Z",
         "title": "Removing degradationPreference",
         "labels": [
           {
@@ -21592,10 +21754,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2315,
         "created_at": "2019-10-01T00:25:01Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:31:07Z",
         "title": "Racy setParameters()/getParameters() behavior",
         "labels": [
           {
@@ -22899,6 +23061,15 @@
             "color": "37ce2f",
             "default": false,
             "description": "Needs a WPT test"
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "youennf",
@@ -22985,10 +23156,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2248,
         "created_at": "2019-08-01T21:12:33Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T14:38:10Z",
         "title": "degradationPreference is under-specified",
         "labels": [
           {
@@ -27513,11 +27684,11 @@
         "title": "Redundant queuing in connection state computations. ",
         "labels": [
           {
-            "id": 381483688,
-            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
-            "name": "Editorial",
-            "color": "fef2c0",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false,
             "description": null
           }
@@ -31994,20 +32165,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1764,
         "created_at": "2018-02-05T19:50:48Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T15:47:12Z",
         "title": "reducing audio packet rate while track is disabled",
         "labels": [
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false,
-            "description": ""
+            "description": null
           },
           {
             "id": 1490875475,
@@ -58625,11 +58796,31 @@
     "issues": [
       {
         "state": "open",
+        "number": 6,
+        "created_at": "2019-12-05T13:35:19Z",
+        "closed_at": null,
+        "title": "Prepare spec for TAG review",
+        "labels": [],
+        "assignee": "alvestrand",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 5,
         "created_at": "2019-11-12T13:34:56Z",
         "closed_at": null,
         "title": "Add priority to DSCP spec",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1716650284,
+            "node_id": "MDU6TGFiZWwxNzE2NjUwMjg0",
+            "url": "https://api.github.com/repos/w3c/webrtc-dscp-exp/labels/Please%20take%20a%20look",
+            "name": "Please take a look",
+            "color": "d5f9a4",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -67926,6 +68117,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 23,
+        "created_at": "2019-12-05T21:45:15Z",
+        "closed_at": null,
+        "title": "\"S\" mode considerations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 22,
         "created_at": "2019-10-15T20:32:53Z",
         "closed_at": null,
@@ -67955,10 +68156,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 20,
         "created_at": "2019-08-09T22:01:30Z",
-        "closed_at": null,
+        "closed_at": "2019-12-05T21:10:30Z",
         "title": "Remove dependency diagrams in Appendix B",
         "labels": [],
         "assignee": null,
