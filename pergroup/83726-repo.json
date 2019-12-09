@@ -1524,6 +1524,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 1130,
+        "created_at": "2019-12-09T11:48:40Z",
+        "closed_at": null,
+        "title": "aria-disabled non-focusable descendents",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1129,
         "created_at": "2019-12-07T14:48:56Z",
         "closed_at": null,
@@ -20499,10 +20509,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1280,
         "created_at": "2019-12-03T22:13:50Z",
-        "closed_at": null,
+        "closed_at": "2019-12-09T03:29:31Z",
         "title": "Should Accordion Header expanding read Accordion Panel by default?",
         "labels": [
           {
@@ -22689,7 +22699,26 @@
         "created_at": "2019-09-10T18:34:34Z",
         "closed_at": null,
         "title": "Clarify combobox down-arrow interaction when a value is already selected",
-        "labels": [],
+        "labels": [
+          {
+            "id": 366002436,
+            "node_id": "MDU6TGFiZWwzNjYwMDI0MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/documentation",
+            "name": "documentation",
+            "color": "f9d0c4",
+            "default": true,
+            "description": "Related to any documenting prose in any APG content or resource"
+          },
+          {
+            "id": 525882854,
+            "node_id": "MDU6TGFiZWw1MjU4ODI4NTQ=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/pattern%20section",
+            "name": "pattern section",
+            "color": "006b75",
+            "default": false,
+            "description": "Related to an APG design pattern section"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -23545,6 +23574,15 @@
             "color": "84b6eb",
             "default": true,
             "description": "Addition or improvement that doesn't fix a bug or errant guidance."
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "006b75",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
           }
         ],
         "assignee": "jongund",
@@ -23668,10 +23706,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1119,
         "created_at": "2019-08-01T08:36:55Z",
-        "closed_at": null,
+        "closed_at": "2019-12-09T06:46:51Z",
         "title": "Example 1 and 2 of aria 1.1 Combobox | Suggestions are not announced to screen readers",
         "labels": [
           {
@@ -23701,7 +23739,7 @@
         "number": 1118,
         "created_at": "2019-07-30T15:22:46Z",
         "closed_at": null,
-        "title": "Should tabpanel be a `ul` element?",
+        "title": "Should tablist be a `ul` element?",
         "labels": [],
         "assignee": "ZoeBijl",
         "isPullRequest": false
@@ -25123,16 +25161,16 @@
             "description": "Changes to prose that don't alter intended meaning, e.g., phrasing, grammar. May fix inaccuracies."
           },
           {
-            "id": 525886203,
-            "node_id": "MDU6TGFiZWw1MjU4ODYyMDM=",
-            "url": "https://api.github.com/repos/w3c/aria-practices/labels/guidance%20section",
-            "name": "guidance section",
-            "color": "fef2c0",
+            "id": 525882854,
+            "node_id": "MDU6TGFiZWw1MjU4ODI4NTQ=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/pattern%20section",
+            "name": "pattern section",
+            "color": "006b75",
             "default": false,
-            "description": "Related to an APG guidance section."
+            "description": "Related to an APG design pattern section"
           }
         ],
-        "assignee": null,
+        "assignee": "mcking65",
         "isPullRequest": false
       },
       {
@@ -25220,27 +25258,28 @@
             "color": "006b75",
             "default": false,
             "description": "Related to a design pattern implementation example page"
-          },
-          {
-            "id": 525882854,
-            "node_id": "MDU6TGFiZWw1MjU4ODI4NTQ=",
-            "url": "https://api.github.com/repos/w3c/aria-practices/labels/pattern%20section",
-            "name": "pattern section",
-            "color": "006b75",
-            "default": false,
-            "description": "Related to an APG design pattern section"
           }
         ],
         "assignee": "carmacleod",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1025,
         "created_at": "2019-05-01T20:36:32Z",
-        "closed_at": null,
+        "closed_at": "2019-12-09T08:21:41Z",
         "title": "Allow 1.1 values for aria-haspopup in 1.0 pattern",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354259937,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5Mzc=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff",
+            "default": true,
+            "description": "Task force doesn't believe there is a need to make the requested change"
+          }
+        ],
         "assignee": "carmacleod",
         "isPullRequest": false
       },
@@ -25843,10 +25882,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 990,
         "created_at": "2019-02-24T03:14:32Z",
-        "closed_at": null,
+        "closed_at": "2019-12-09T08:06:50Z",
         "title": "Example of ARIA 1.1 combobox without autocomplete",
         "labels": [
           {
@@ -25915,7 +25954,26 @@
         "created_at": "2019-02-16T05:50:42Z",
         "closed_at": null,
         "title": "Combobox Example 3: List with Inline Autocomplete doesn't work with mouse",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": "Code defects; not for inaccurate prose"
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "006b75",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26039,7 +26097,26 @@
         "created_at": "2019-02-05T09:37:10Z",
         "closed_at": null,
         "title": "ARIA 1.1 Combobox with Listbox Popup Examples - Mouse Hover style vs key board selection style",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": "Code defects; not for inaccurate prose"
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "006b75",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26122,12 +26199,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 978,
         "created_at": "2019-01-28T17:58:34Z",
-        "closed_at": null,
+        "closed_at": "2019-12-09T08:12:59Z",
         "title": "The aria-owns attribute is used within the ARIA Combobox 1.0 design patterns which does not take into account support discrepancies with aria-owns that leads to critical accessibility issues in some browser and AT combinations.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 525882854,
+            "node_id": "MDU6TGFiZWw1MjU4ODI4NTQ=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/pattern%20section",
+            "name": "pattern section",
+            "color": "006b75",
+            "default": false,
+            "description": "Related to an APG design pattern section"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26610,10 +26697,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 953,
         "created_at": "2018-12-08T12:02:49Z",
-        "closed_at": null,
+        "closed_at": "2019-12-09T08:25:41Z",
         "title": "ARIA 1.0 Combobox examples: duplicate IDs",
         "labels": [],
         "assignee": null,
@@ -27793,12 +27880,31 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 886,
         "created_at": "2018-09-13T21:15:20Z",
-        "closed_at": null,
+        "closed_at": "2019-12-09T08:28:49Z",
         "title": "ARIA practices spec and examples are not aligned on ARIA 1.1 combobox labelling",
-        "labels": [],
+        "labels": [
+          {
+            "id": 431710669,
+            "node_id": "MDU6TGFiZWw0MzE3MTA2Njk=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Feedback",
+            "name": "Feedback",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Issue raised by or for collecting input from people outside APG task force"
+          },
+          {
+            "id": 354259936,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true,
+            "description": "Issue asking a question"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -28087,7 +28193,26 @@
         "created_at": "2018-08-27T13:11:07Z",
         "closed_at": null,
         "title": " Bug in example combobox/aria1.1pattern/grid-combo.html: key \"escape\" does not close popup",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": "Code defects; not for inaccurate prose"
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "006b75",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -28097,7 +28222,35 @@
         "created_at": "2018-08-27T12:15:53Z",
         "closed_at": null,
         "title": "Bug in documentation combobox/aria1.1pattern/grid-combo.html: \"aria-selected\" on row or gridcell?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1569968087,
+            "node_id": "MDU6TGFiZWwxNTY5OTY4MDg3",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Inaccuracy",
+            "name": "Inaccuracy",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Incorrect statement in documentation"
+          },
+          {
+            "id": 366002436,
+            "node_id": "MDU6TGFiZWwzNjYwMDI0MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/documentation",
+            "name": "documentation",
+            "color": "f9d0c4",
+            "default": true,
+            "description": "Related to any documenting prose in any APG content or resource"
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "006b75",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -28137,7 +28290,35 @@
         "created_at": "2018-08-23T21:13:30Z",
         "closed_at": null,
         "title": " Bug in documentation combobox/aria1.0pattern/combobox-autocomplete-list.html: \"enter\" key when focus is on textbox",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1569968087,
+            "node_id": "MDU6TGFiZWwxNTY5OTY4MDg3",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Inaccuracy",
+            "name": "Inaccuracy",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Incorrect statement in documentation"
+          },
+          {
+            "id": 366002436,
+            "node_id": "MDU6TGFiZWwzNjYwMDI0MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/documentation",
+            "name": "documentation",
+            "color": "f9d0c4",
+            "default": true,
+            "description": "Related to any documenting prose in any APG content or resource"
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "006b75",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -28342,7 +28523,35 @@
         "created_at": "2018-08-18T17:21:24Z",
         "closed_at": null,
         "title": "Listbox Examples - Dependencies - Utils.js?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 431710669,
+            "node_id": "MDU6TGFiZWw0MzE3MTA2Njk=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Feedback",
+            "name": "Feedback",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Issue raised by or for collecting input from people outside APG task force"
+          },
+          {
+            "id": 521362776,
+            "node_id": "MDU6TGFiZWw1MjEzNjI3NzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Infrastructure",
+            "name": "Infrastructure",
+            "color": "bfdadc",
+            "default": false,
+            "description": "Related to maintaining task force and repo operations, processes, systems, documentation"
+          },
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": "Code defects; not for inaccurate prose"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -29371,6 +29580,15 @@
         "title": "Bug in examples: textbox \"id\" test for combobox/aria1.1pattern/listbox-combo.html",
         "labels": [
           {
+            "id": 1569968087,
+            "node_id": "MDU6TGFiZWwxNTY5OTY4MDg3",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Inaccuracy",
+            "name": "Inaccuracy",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Incorrect statement in documentation"
+          },
+          {
             "id": 354259931,
             "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
             "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
@@ -29380,13 +29598,13 @@
             "description": "Code defects; not for inaccurate prose"
           },
           {
-            "id": 366736938,
-            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
-            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
-            "name": "example of pattern implementation",
-            "color": "006b75",
-            "default": false,
-            "description": "Related to a design pattern implementation example page"
+            "id": 366002436,
+            "node_id": "MDU6TGFiZWwzNjYwMDI0MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/documentation",
+            "name": "documentation",
+            "color": "f9d0c4",
+            "default": true,
+            "description": "Related to any documenting prose in any APG content or resource"
           },
           {
             "id": 993128257,
