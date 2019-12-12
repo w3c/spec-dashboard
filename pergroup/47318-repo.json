@@ -19823,11 +19823,111 @@
     "issues": [
       {
         "state": "open",
+        "number": 2412,
+        "created_at": "2019-12-12T10:58:42Z",
+        "closed_at": null,
+        "title": "Is the testing policy being applied / working?",
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2411,
+        "created_at": "2019-12-11T20:51:11Z",
+        "closed_at": null,
+        "title": "Make configuration argument optional in setConfiguration",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2410,
+        "created_at": "2019-12-11T20:49:34Z",
+        "closed_at": null,
+        "title": "Argument in RTCPeerConnection.setConfiguration should be optional",
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2409,
+        "created_at": "2019-12-11T20:19:37Z",
+        "closed_at": null,
+        "title": "Remove one now-redundant mention of rollback (editorial)",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2408,
+        "created_at": "2019-12-11T14:13:24Z",
+        "closed_at": null,
+        "title": "Steps needed to rollback data channels",
+        "labels": [
+          {
+            "id": 1696914806,
+            "node_id": "MDU6TGFiZWwxNjk2OTE0ODA2",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/rollback",
+            "name": "rollback",
+            "color": "9ff9aa",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2407,
         "created_at": "2019-12-11T05:03:53Z",
         "closed_at": null,
         "title": "Prepare for CR publication",
-        "labels": [],
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -19907,7 +20007,17 @@
         "created_at": "2019-12-09T09:12:01Z",
         "closed_at": null,
         "title": "Specify that SCTP transport goes to \"closed\" on DTLS close",
-        "labels": [],
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -19917,7 +20027,17 @@
         "created_at": "2019-12-05T19:41:02Z",
         "closed_at": null,
         "title": "Fire statechange, iceconnectionstatechange & connectionstatechange events in same task.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -60270,10 +60390,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 523,
         "created_at": "2019-12-10T19:14:32Z",
-        "closed_at": null,
+        "closed_at": "2019-12-11T16:24:37Z",
         "title": "roundTripTime vs currentRoundTripTime",
         "labels": [],
         "assignee": null,
@@ -60286,7 +60406,7 @@
         "closed_at": null,
         "title": "statistics for BWE probes?",
         "labels": [],
-        "assignee": null,
+        "assignee": "vr000m",
         "isPullRequest": false
       },
       {
@@ -60295,7 +60415,17 @@
         "created_at": "2019-11-28T14:13:56Z",
         "closed_at": null,
         "title": "Remove RTCNetworkType and networkType fields",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -60315,8 +60445,18 @@
         "created_at": "2019-11-22T14:55:55Z",
         "closed_at": null,
         "title": "RTCIceServerStats relayProtocol",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 729375312,
+            "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
+            "name": "Submitter input needed",
+            "color": "1c23ef",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "vr000m",
         "isPullRequest": true
       },
       {
@@ -60461,9 +60601,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": "vr000m",
@@ -60525,7 +60665,17 @@
         "created_at": "2019-09-22T12:58:11Z",
         "closed_at": null,
         "title": "Clarify qualityLimitationReason",
-        "labels": [],
+        "labels": [
+          {
+            "id": 729375312,
+            "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
+            "name": "Submitter input needed",
+            "color": "1c23ef",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -60555,15 +60705,25 @@
         "created_at": "2019-09-22T12:39:09Z",
         "closed_at": null,
         "title": "Add RTCTransportStats.iceUfrag",
-        "labels": [],
+        "labels": [
+          {
+            "id": 729375312,
+            "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
+            "name": "Submitter input needed",
+            "color": "1c23ef",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 501,
         "created_at": "2019-09-21T09:38:12Z",
-        "closed_at": null,
+        "closed_at": "2019-12-11T15:54:57Z",
         "title": "Added note about channels for all sample based metrics",
         "labels": [],
         "assignee": null,
@@ -60580,10 +60740,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 499,
         "created_at": "2019-09-21T09:03:14Z",
-        "closed_at": null,
+        "closed_at": "2019-12-11T16:06:06Z",
         "title": "Make RTCMediaStreamStats obsolete",
         "labels": [],
         "assignee": null,
@@ -61035,10 +61195,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 470,
         "created_at": "2019-08-14T13:32:55Z",
-        "closed_at": null,
+        "closed_at": "2019-12-11T16:06:06Z",
         "title": "RTCMediaStreamStats can be made obsolete",
         "labels": [
           {
@@ -61363,10 +61523,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 448,
         "created_at": "2019-06-25T14:32:58Z",
-        "closed_at": null,
+        "closed_at": "2019-12-11T15:54:57Z",
         "title": "Audio samples and channels",
         "labels": [
           {
@@ -61717,9 +61877,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": "aboba",
@@ -62489,9 +62649,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": "vr000m",
@@ -62529,9 +62689,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": null,
@@ -63089,9 +63249,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": "alvestrand",
@@ -64193,9 +64353,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": "ssilkin",
@@ -64262,9 +64422,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": "alvestrand",
@@ -64412,9 +64572,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": null,
@@ -64588,9 +64748,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 738583330,
@@ -64795,9 +64955,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 793995376,
@@ -64862,9 +65022,9 @@
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
             "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Submitter%20input%20needed",
             "name": "Submitter input needed",
-            "color": "c5def5",
+            "color": "1c23ef",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": null,
