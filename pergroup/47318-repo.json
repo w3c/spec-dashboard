@@ -19822,6 +19822,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 2413,
+        "created_at": "2019-12-13T09:51:43Z",
+        "closed_at": "2019-12-13T12:31:40Z",
+        "title": "Make tone optional and constructor dictionary parameter optional",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 2412,
         "created_at": "2019-12-12T10:58:42Z",
@@ -19842,20 +19852,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2411,
         "created_at": "2019-12-11T20:51:11Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:33:44Z",
         "title": "Make configuration argument optional in setConfiguration",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2410,
         "created_at": "2019-12-11T20:49:34Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:33:44Z",
         "title": "Argument in RTCPeerConnection.setConfiguration should be optional",
         "labels": [
           {
@@ -19872,10 +19882,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2409,
         "created_at": "2019-12-11T20:19:37Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:33:30Z",
         "title": "Remove one now-redundant mention of rollback (editorial)",
         "labels": [
           {
@@ -19912,10 +19922,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2407,
         "created_at": "2019-12-11T05:03:53Z",
-        "closed_at": null,
+        "closed_at": "2019-12-13T12:39:32Z",
         "title": "Prepare for CR publication",
         "labels": [
           {
@@ -19932,10 +19942,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2406,
         "created_at": "2019-12-11T01:34:07Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:28:33Z",
         "title": "Fix race in perfect negotiation example.",
         "labels": [
           {
@@ -19946,26 +19956,45 @@
             "color": "fef2c0",
             "default": false,
             "description": null
+          },
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
           }
         ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2405,
         "created_at": "2019-12-10T03:05:57Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:25:45Z",
         "title": "Chain the firing of negotiationneeded.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2404,
         "created_at": "2019-12-10T02:53:02Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:25:44Z",
         "title": "Tight race between ONN and onmessage in perfect negotiation",
         "labels": [
           {
@@ -19982,32 +20011,41 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2403,
         "created_at": "2019-12-09T20:43:49Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:19:17Z",
         "title": "Use proper WHATWG references for webmessaging, xhr, web sockets",
-        "labels": [],
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2402,
         "created_at": "2019-12-09T09:47:47Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:18:14Z",
         "title": "Reject RID renegotiation",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 2401,
-        "created_at": "2019-12-09T09:12:01Z",
-        "closed_at": null,
-        "title": "Specify that SCTP transport goes to \"closed\" on DTLS close",
         "labels": [
+          {
+            "id": 1335332111,
+            "node_id": "MDU6TGFiZWwxMzM1MzMyMTEx",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Discuss%20at%20editor's%20meeting",
+            "name": "Discuss at editor's meeting",
+            "color": "74e570",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 907371927,
             "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
@@ -20022,12 +20060,50 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
+        "number": 2401,
+        "created_at": "2019-12-09T09:12:01Z",
+        "closed_at": "2019-12-12T17:15:50Z",
+        "title": "Specify that SCTP transport goes to \"closed\" on DTLS close",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2400,
         "created_at": "2019-12-05T19:41:02Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T16:14:08Z",
         "title": "Fire statechange, iceconnectionstatechange & connectionstatechange events in same task.",
         "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
           {
             "id": 907371927,
             "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
@@ -21038,10 +21114,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2360,
         "created_at": "2019-11-16T07:33:21Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T17:15:50Z",
         "title": "Should SCTP transport enter \"closed\" state when DTLS transport does?",
         "labels": [
           {
@@ -22052,10 +22128,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2314,
         "created_at": "2019-09-28T01:26:26Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:18:14Z",
         "title": "Can simulcast offers renegotiate rids?",
         "labels": [
           {
@@ -27946,10 +28022,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2020,
         "created_at": "2018-11-01T15:19:54Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T16:14:08Z",
         "title": "Redundant queuing in connection state computations. ",
         "labels": [
           {
@@ -60410,10 +60486,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 521,
         "created_at": "2019-11-28T14:13:56Z",
-        "closed_at": null,
+        "closed_at": "2019-12-12T15:56:48Z",
         "title": "Remove RTCNetworkType and networkType fields",
         "labels": [
           {
