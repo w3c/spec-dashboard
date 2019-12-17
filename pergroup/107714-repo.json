@@ -7,6 +7,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 318,
+        "created_at": "2019-12-17T02:44:46Z",
+        "closed_at": null,
+        "title": "Why xsd:double? Why not xsd:decimal?",
+        "labels": [
+          {
+            "id": 965702764,
+            "node_id": "MDU6TGFiZWw5NjU3MDI3NjQ=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "58820a",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "gkellogg",
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 317,
         "created_at": "2019-12-06T23:59:13Z",
@@ -812,10 +832,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 263,
         "created_at": "2019-09-23T15:03:23Z",
-        "closed_at": null,
+        "closed_at": "2019-12-16T15:54:29Z",
         "title": "Flagging an action for CR (RDF vocabulary file update)",
         "labels": [
           {
@@ -2698,15 +2718,6 @@
         "title": "IRIs are terms can be misdefined",
         "labels": [
           {
-            "id": 965701772,
-            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
-            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/hr:security",
-            "name": "hr:security",
-            "color": "d93f0b",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 965704142,
             "node_id": "MDU6TGFiZWw5NjU3MDQxNDI=",
             "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/propose%20closing",
@@ -2723,6 +2734,15 @@
             "color": "4be23b",
             "default": false,
             "description": "Requirement Satisfied"
+          },
+          {
+            "id": 965701772,
+            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "d93f0b",
+            "default": false,
+            "description": ""
           },
           {
             "id": 965702958,
@@ -2852,20 +2872,20 @@
         "title": "Add security considerations section for URI schemes",
         "labels": [
           {
-            "id": 965701772,
-            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
-            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/hr:security",
-            "name": "hr:security",
-            "color": "d93f0b",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 965704142,
             "node_id": "MDU6TGFiZWw5NjU3MDQxNDI=",
             "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/propose%20closing",
             "name": "propose closing",
             "color": "bf5315",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 965701772,
+            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "d93f0b",
             "default": false,
             "description": ""
           },
@@ -2890,20 +2910,20 @@
         "title": "Add security consideration about IRI concatenation",
         "labels": [
           {
-            "id": 965701772,
-            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
-            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/hr:security",
-            "name": "hr:security",
-            "color": "d93f0b",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 965704142,
             "node_id": "MDU6TGFiZWw5NjU3MDQxNDI=",
             "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/propose%20closing",
             "name": "propose closing",
             "color": "bf5315",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 965701772,
+            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "d93f0b",
             "default": false,
             "description": ""
           },
@@ -3551,8 +3571,8 @@
           {
             "id": 965701837,
             "node_id": "MDU6TGFiZWw5NjU3MDE4Mzc=",
-            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/hr:privacy",
-            "name": "hr:privacy",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "5287f9",
             "default": false,
             "description": ""
@@ -3560,8 +3580,8 @@
           {
             "id": 965701772,
             "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
-            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/hr:security",
-            "name": "hr:security",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/security-tracker",
+            "name": "security-tracker",
             "color": "d93f0b",
             "default": false,
             "description": ""
@@ -3859,8 +3879,8 @@
           {
             "id": 965701772,
             "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
-            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/hr:security",
-            "name": "hr:security",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/security-tracker",
+            "name": "security-tracker",
             "color": "d93f0b",
             "default": false,
             "description": ""
@@ -5767,15 +5787,6 @@
         "title": "HTTP parameters for specifying context or frame",
         "labels": [
           {
-            "id": 965701772,
-            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
-            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/hr:security",
-            "name": "hr:security",
-            "color": "d93f0b",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 1684315899,
             "node_id": "MDU6TGFiZWwxNjg0MzE1ODk5",
             "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/satisfied",
@@ -5783,6 +5794,15 @@
             "color": "4be23b",
             "default": false,
             "description": "Requirement Satisfied"
+          },
+          {
+            "id": 965701772,
+            "node_id": "MDU6TGFiZWw5NjU3MDE3NzI=",
+            "url": "https://api.github.com/repos/w3c/json-ld-syntax/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "d93f0b",
+            "default": false,
+            "description": ""
           },
           {
             "id": 965703045,
