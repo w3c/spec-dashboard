@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 1355,
+        "created_at": "2019-12-17T01:12:48Z",
+        "closed_at": null,
+        "title": "Why does WebAuthn require a challenge when asking the client to register a new credential?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1354,
         "created_at": "2019-12-11T20:44:01Z",
         "closed_at": null,
@@ -361,11 +371,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340916444,
@@ -976,20 +986,20 @@
         "title": "Privacy leak via credential IDs also applies to resident credentials",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -1316,20 +1326,20 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 446001927,
             "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
             "color": "0e8a16",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -2371,20 +2381,20 @@
         "title": "Add to sec cons a brief discussion of the sec properties accrued by authnr & client platform proximity",
         "labels": [
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           },
@@ -2554,6 +2564,15 @@
         "title": "navigator.credentials.get() option to suppress chrome UI popup if allowCredentials is not present in the authenticator",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 340916443,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDM=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
@@ -2581,15 +2600,6 @@
             "description": "Things affecting the user experience in registration and authn ceremonies"
           },
           {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
-            "default": false,
-            "description": null
-          },
-          {
             "id": 340916444,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -2612,11 +2622,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -2708,20 +2718,20 @@
         "title": "Privacy risk from revealing allowed credentials",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -4563,6 +4573,15 @@
         "title": "Add explicit description on what should be done in incognito/private browsing mode",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 1631598003,
             "node_id": "MDU6TGFiZWwxNjMxNTk4MDAz",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:puntable",
@@ -4577,15 +4596,6 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -5423,20 +5433,20 @@
         "title": "Recommend minimal basic attestation batches",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 446001970,
             "node_id": "MDU6TGFiZWw0NDYwMDE5NzA=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -5808,6 +5818,15 @@
         "title": "Attestation privacy advice creates large scale security risks",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
@@ -5822,15 +5841,6 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -6286,6 +6296,15 @@
         "title": "Refer to IntersectionObserver from the Security Considerations",
         "labels": [
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 1631598003,
             "node_id": "MDU6TGFiZWwxNjMxNTk4MDAz",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:puntable",
@@ -6293,15 +6312,6 @@
             "color": "c2e0c6",
             "default": false,
             "description": "Punt to next draft if needed"
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
-            "default": false,
-            "description": null
           },
           {
             "id": 340917025,
@@ -6540,11 +6550,11 @@
           {
             "id": 446001927,
             "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
             "color": "0e8a16",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -6712,20 +6722,20 @@
         "title": "Leap of Faith not only for Self and None Attestation Types",
         "labels": [
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           },
@@ -7657,20 +7667,20 @@
         "title": "Provide transport information during registration.",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 686484283,
             "node_id": "MDU6TGFiZWw2ODY0ODQyODM=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:breaking",
             "name": "stat:breaking",
             "color": "d93f0b",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -7918,11 +7928,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -7992,29 +8002,29 @@
             "description": null
           },
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           },
@@ -8081,11 +8091,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -8550,20 +8560,20 @@
         "title": "Security threat: Username enumeration",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -9193,11 +9203,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": "emlun",
@@ -11132,11 +11142,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -11382,11 +11392,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -12470,6 +12480,15 @@
         "title": "Allow client to refuse too short challenges",
         "labels": [
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 392107965,
             "node_id": "MDU6TGFiZWwzOTIxMDc5NjU=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Won't%20Fix",
@@ -12497,15 +12516,6 @@
             "description": null
           },
           {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
-            "default": false,
-            "description": null
-          },
-          {
             "id": 340916444,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
@@ -12528,11 +12538,11 @@
           {
             "id": 446001927,
             "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
             "color": "0e8a16",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -14390,11 +14400,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -14766,6 +14776,15 @@
         "title": "fix #610 privacy CA now known as attestation CA",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 550833158,
             "node_id": "MDU6TGFiZWw1NTA4MzMxNTg=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:attestation",
@@ -14780,15 +14799,6 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -15117,11 +15127,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -15252,11 +15262,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -15279,20 +15289,20 @@
         "title": "document preventions of RP-driven de-anonymization attempts in privacy-cons",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -15319,11 +15329,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -16372,11 +16382,11 @@
           {
             "id": 446001927,
             "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
             "color": "0e8a16",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -16935,20 +16945,20 @@
         "title": "Add privacy consideration about terminating getAssertion early",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 545633395,
             "node_id": "MDU6TGFiZWw1NDU2MzMzOTU=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms/WebIDL",
             "name": "subtype:algorithms/WebIDL",
             "color": "bfdadc",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -17156,11 +17166,11 @@
           {
             "id": 446001927,
             "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
             "color": "0e8a16",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340917025,
@@ -18853,6 +18863,15 @@
         "title": " PublicKeyCredentialUserEntity difference between name, displayName and id not clear",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 340916443,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDM=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
@@ -18867,15 +18886,6 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -19208,6 +19218,15 @@
         "title": "Per TCG: \"privacy CA\" is now \"Attestation CA\"",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
@@ -19231,15 +19250,6 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -19573,11 +19583,11 @@
           {
             "id": 446006785,
             "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
             "color": "bfd400",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": null,
@@ -20643,11 +20653,11 @@
           {
             "id": 446001927,
             "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
             "color": "0e8a16",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": "AngeloKai",
@@ -23054,20 +23064,20 @@
         "title": "Privacy section may wish to discuss recommended user-agent responses to leaks",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -24291,20 +24301,20 @@
         "title": "explain challenge's security importance and use in both registration and authentication operations",
         "labels": [
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 446001970,
             "node_id": "MDU6TGFiZWw0NDYwMDE5NzA=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           },
@@ -24598,20 +24608,20 @@
         "title": "\"credential ID\" not signed over by authenticatorGetAssertion operation",
         "labels": [
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 545633395,
             "node_id": "MDU6TGFiZWw1NDU2MzMzOTU=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms/WebIDL",
             "name": "subtype:algorithms/WebIDL",
             "color": "bfdadc",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           },
@@ -26745,20 +26755,20 @@
         "title": "overall security considerations section or document",
         "labels": [
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           },
@@ -26950,20 +26960,20 @@
         "title": "Inline and clarify the \"Relaxing the Same-Origin Restriction\" algorithm",
         "labels": [
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 446001970,
             "node_id": "MDU6TGFiZWw0NDYwMDE5NzA=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           },
@@ -29741,6 +29751,15 @@
         "title": "Privacy across Account IDs",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 340916443,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDM=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
@@ -29755,15 +29774,6 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -30124,20 +30134,20 @@
         "title": "Privacy concerns with blacklist/whitelist",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 340916443,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDM=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
             "name": "stat:Discuss",
             "color": "207de5",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -31072,20 +31082,20 @@
         "title": "credential id privacy",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 340916443,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDM=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
             "name": "stat:Discuss",
             "color": "207de5",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -31110,20 +31120,20 @@
         "title": "imageURL privacy",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 446001970,
             "node_id": "MDU6TGFiZWw0NDYwMDE5NzA=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
             "default": false,
             "description": null
           },
@@ -31394,20 +31404,20 @@
         "title": "impl guidelines for signature counter",
         "labels": [
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 446001970,
             "node_id": "MDU6TGFiZWw0NDYwMDE5NzA=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           },
@@ -31982,11 +31992,11 @@
           {
             "id": 446001927,
             "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
             "color": "0e8a16",
             "default": false,
-            "description": null
+            "description": ""
           },
           {
             "id": 340916444,
@@ -32089,6 +32099,24 @@
         "title": "Privacy across OS accounts",
         "labels": [
           {
+            "id": 446006785,
+            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "bfd400",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 340916443,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDM=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
@@ -32112,24 +32140,6 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:impl-cons",
             "name": "subtype:impl-cons",
             "color": "c2e0c6",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446006785,
-            "node_id": "MDU6TGFiZWw0NDYwMDY3ODU=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:privacy-cons",
-            "name": "subtype:privacy-cons",
-            "color": "bfd400",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           }
@@ -32405,20 +32415,20 @@
             "description": null
           },
           {
+            "id": 446001927,
+            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 723904637,
             "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
             "name": "stat:pr-open",
             "color": "59f237",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 446001927,
-            "node_id": "MDU6TGFiZWw0NDYwMDE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:security-cons",
-            "name": "subtype:security-cons",
-            "color": "0e8a16",
             "default": false,
             "description": null
           },
