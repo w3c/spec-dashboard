@@ -19843,6 +19843,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 2416,
+        "created_at": "2019-12-18T14:19:35Z",
+        "closed_at": null,
+        "title": "Reinstate credential attribute in RTCIceServer",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2415,
+        "created_at": "2019-12-18T14:01:17Z",
+        "closed_at": null,
+        "title": "RTCIceServer.credential removed by mistake",
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2414,
         "created_at": "2019-12-14T22:53:49Z",
         "closed_at": null,
@@ -20707,13 +20737,13 @@
         "title": "Construct RTCErrors with name 'OperationError' instead of 'RTCError'",
         "labels": [
           {
-            "id": 229237950,
-            "node_id": "MDU6TGFiZWwyMjkyMzc5NTA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20submitter%20action",
-            "name": "Needs submitter action",
-            "color": "eb6420",
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
             "default": false,
-            "description": null
+            "description": "Needs a WPT test"
           }
         ],
         "assignee": null,
@@ -23422,31 +23452,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2253,
         "created_at": "2019-08-05T01:02:56Z",
-        "closed_at": null,
+        "closed_at": "2019-12-18T16:34:43Z",
         "title": "RTCDTMFToneChangeEventInit.tone is required",
-        "labels": [
-          {
-            "id": 907371927,
-            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
-            "name": "Needs Test",
-            "color": "37ce2f",
-            "default": false,
-            "description": "Needs a WPT test"
-          },
-          {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "youennf",
         "isPullRequest": false
       },
@@ -23812,17 +23823,7 @@
         "created_at": "2019-07-19T19:23:14Z",
         "closed_at": "2019-07-25T14:34:02Z",
         "title": "Support setLocalDescription() without arguments.",
-        "labels": [
-          {
-            "id": 907371927,
-            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
-            "name": "Needs Test",
-            "color": "37ce2f",
-            "default": false,
-            "description": "Needs a WPT test"
-          }
-        ],
+        "labels": [],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -24047,17 +24048,7 @@
         "created_at": "2019-07-08T08:01:27Z",
         "closed_at": "2019-07-18T14:39:09Z",
         "title": "Add the \"closing\" event to datachannel",
-        "labels": [
-          {
-            "id": 907371927,
-            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
-            "name": "Needs Test",
-            "color": "37ce2f",
-            "default": false,
-            "description": "Needs a WPT test"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -31658,10 +31649,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1817,
         "created_at": "2018-03-26T20:21:40Z",
-        "closed_at": null,
+        "closed_at": "2019-12-18T16:43:36Z",
         "title": "DOMException(name=<Exception>) or instances of <Exception>?",
         "labels": [
           {
@@ -31770,26 +31761,7 @@
         "created_at": "2018-03-21T23:06:20Z",
         "closed_at": "2019-04-04T14:48:31Z",
         "title": "Does direction matter for rejected m= sections?",
-        "labels": [
-          {
-            "id": 907371927,
-            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
-            "name": "Needs Test",
-            "color": "37ce2f",
-            "default": false,
-            "description": "Needs a WPT test"
-          },
-          {
-            "id": 273487504,
-            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "009800",
-            "default": false,
-            "description": null
-          }
-        ],
+        "labels": [],
         "assignee": "jan-ivar",
         "isPullRequest": false
       },
