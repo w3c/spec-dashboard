@@ -8,19 +8,39 @@
     "issues": [
       {
         "state": "open",
-        "number": 2115,
-        "created_at": "2019-12-17T21:42:12Z",
+        "number": 2117,
+        "created_at": "2019-12-19T18:06:16Z",
         "closed_at": null,
-        "title": "Replace HTML entities in code algorithms",
+        "title": "Fix #2113:  BiquadFilter gain lower bound is lower",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 2116,
+        "created_at": "2019-12-19T15:42:01Z",
+        "closed_at": null,
+        "title": "Add a note about MessagePort listener and garbage collection",
+        "labels": [],
+        "assignee": "padenot",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2115,
+        "created_at": "2019-12-17T21:42:12Z",
+        "closed_at": "2019-12-19T17:34:01Z",
+        "title": "Replace HTML entities in code algorithms",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2114,
         "created_at": "2019-12-17T18:28:06Z",
-        "closed_at": null,
+        "closed_at": "2019-12-19T17:33:48Z",
         "title": "Fix #2112: Wrap long IDL lines",
         "labels": [],
         "assignee": null,
@@ -32,15 +52,34 @@
         "created_at": "2019-12-14T01:06:25Z",
         "closed_at": null,
         "title": "BiquadFilter gain lower bound can be lower.",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2112,
         "created_at": "2019-12-13T18:24:14Z",
-        "closed_at": null,
+        "closed_at": "2019-12-19T17:33:49Z",
         "title": "Wrap some long IDL lines",
         "labels": [
           {
@@ -53,7 +92,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
@@ -67,10 +106,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2110,
         "created_at": "2019-12-09T09:37:27Z",
-        "closed_at": null,
+        "closed_at": "2019-12-19T17:06:50Z",
         "title": "Update the spec to refer to the new activation mechanism in HTML",
         "labels": [],
         "assignee": "padenot",
@@ -97,10 +136,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2107,
         "created_at": "2019-12-06T21:50:57Z",
-        "closed_at": null,
+        "closed_at": "2019-12-19T17:06:49Z",
         "title": "Update references to HTML user activation behavior",
         "labels": [
           {
@@ -660,16 +699,16 @@
         "title": "Would it be helpful to restrict use of `AudioWorkletProcessor.port().postMessage()` in order to facilitate garbage collection?",
         "labels": [
           {
-            "id": 138856832,
-            "node_id": "MDU6TGFiZWwxMzg4NTY4MzI=",
-            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Ready%20for%20Editing",
-            "name": "Ready for Editing",
-            "color": "bfe5bf",
+            "id": 139631809,
+            "node_id": "MDU6TGFiZWwxMzk2MzE4MDk=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/In%20PR%20Review",
+            "name": "In PR Review",
+            "color": "f7c6c7",
             "default": false,
             "description": null
           }
         ],
-        "assignee": "rtoy",
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
