@@ -8,9 +8,98 @@
     "issues": [
       {
         "state": "open",
+        "number": 1366,
+        "created_at": "2020-01-22T23:00:46Z",
+        "closed_at": null,
+        "title": "Add “enterprise” attestation type.",
+        "labels": [
+          {
+            "id": 550833158,
+            "node_id": "MDU6TGFiZWw1NTA4MzMxNTg=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:attestation",
+            "name": "subtype:attestation",
+            "color": "d4c5f9",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "agl",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1365,
+        "created_at": "2020-01-22T22:39:52Z",
+        "closed_at": null,
+        "title": "update CTAP reference to point to fido-client-to-authenticator-protocol-v2.0-ps-20190130.html",
+        "labels": [
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "equalsJeffH",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1364,
+        "created_at": "2020-01-22T22:30:20Z",
+        "closed_at": null,
+        "title": "remove 'lightning' AuthenticatorTransport enum value",
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "equalsJeffH",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1363,
+        "created_at": "2020-01-22T22:08:43Z",
+        "closed_at": null,
+        "title": "Provide the public key in `AuthenticatorAttestationResponse`",
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 1362,
         "created_at": "2020-01-15T23:06:11Z",
-        "closed_at": null,
+        "closed_at": "2020-01-22T21:59:32Z",
         "title": "Use of CBOR, and Uint8Array/ArrayBuffer",
         "labels": [],
         "assignee": null,
@@ -53,6 +142,15 @@
         "title": "link to latest CTAP spec",
         "labels": [
           {
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false,
+            "description": null
+          },
+          {
             "id": 340917025,
             "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
@@ -62,7 +160,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -153,10 +251,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1356,
         "created_at": "2020-01-04T11:51:45Z",
-        "closed_at": null,
+        "closed_at": "2020-01-22T21:55:24Z",
         "title": "Dependence on Browser state for Primary Factor login",
         "labels": [],
         "assignee": null,
@@ -193,10 +291,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1353,
         "created_at": "2019-12-06T18:24:34Z",
-        "closed_at": null,
+        "closed_at": "2020-01-22T21:08:59Z",
         "title": "Add a WebDriver Extension Capability",
         "labels": [],
         "assignee": "nsatragno",
@@ -232,10 +330,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1351,
         "created_at": "2019-11-29T19:28:05Z",
-        "closed_at": null,
+        "closed_at": "2020-01-22T21:08:59Z",
         "title": "Add a capability to the WebAuthn WebDriver extension",
         "labels": [
           {
@@ -1278,10 +1376,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1306,
         "created_at": "2019-09-21T16:29:10Z",
-        "closed_at": null,
+        "closed_at": "2020-01-23T09:17:10Z",
         "title": "Conflict between WebAuthn and CTAP2 handling of userVerification mapping",
         "labels": [],
         "assignee": "agl",
@@ -1632,13 +1730,13 @@
         "title": "Removing “lightning” from AuthenticatorTransport",
         "labels": [
           {
-            "id": 1343771945,
-            "node_id": "MDU6TGFiZWwxMzQzNzcxOTQ1",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Blocked",
-            "name": "stat:Blocked",
-            "color": "e25356",
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
             "default": false,
-            "description": "Prerequisites are not yet satisfied"
+            "description": null
           },
           {
             "id": 340916444,
@@ -5450,15 +5548,6 @@
         "closed_at": null,
         "title": "add notion of \"enterprise\" attestation",
         "labels": [
-          {
-            "id": 1343771945,
-            "node_id": "MDU6TGFiZWwxMzQzNzcxOTQ1",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Blocked",
-            "name": "stat:Blocked",
-            "color": "e25356",
-            "default": false,
-            "description": "Prerequisites are not yet satisfied"
-          },
           {
             "id": 549973029,
             "node_id": "MDU6TGFiZWw1NDk5NzMwMjk=",
