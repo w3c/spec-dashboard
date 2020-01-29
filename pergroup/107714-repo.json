@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 327,
+        "created_at": "2020-01-28T23:36:46Z",
+        "closed_at": null,
+        "title": "Update description of i18n datatype",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 326,
         "created_at": "2020-01-25T21:34:38Z",
         "closed_at": null,
@@ -6212,10 +6222,30 @@
     "issues": [
       {
         "state": "open",
-        "number": 357,
-        "created_at": "2020-01-28T00:11:17Z",
+        "number": 365,
+        "created_at": "2020-01-29T00:46:02Z",
         "closed_at": null,
-        "title": "Missing type checking of values in IRI Compaction?",
+        "title": "Use mf:requires for optional test behavior",
+        "labels": [
+          {
+            "id": 965725367,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzNjc=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/test:needs%20implementation",
+            "name": "test:needs implementation",
+            "color": "e4c2f9",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 364,
+        "created_at": "2020-01-29T00:32:23Z",
+        "closed_at": null,
+        "title": "typo and question",
         "labels": [
           {
             "id": 965725379,
@@ -6223,6 +6253,142 @@
             "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:response-sent",
             "name": "wr:response-sent",
             "color": "24039b",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 965725384,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzODQ=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:spec-updated",
+            "name": "wr:spec-updated",
+            "color": "2add6c",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 363,
+        "created_at": "2020-01-28T23:47:19Z",
+        "closed_at": null,
+        "title": "Normalize language tags to lower case",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 362,
+        "created_at": "2020-01-28T22:54:44Z",
+        "closed_at": null,
+        "title": "Clarify that API options use default values from JsonLdOptions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 361,
+        "created_at": "2020-01-28T22:15:56Z",
+        "closed_at": null,
+        "title": "Clarify when value is a map in IRI Compaction.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 360,
+        "created_at": "2020-01-28T22:02:29Z",
+        "closed_at": "2020-01-28T22:08:22Z",
+        "title": "Be more explicit about map values in IRI Compaction.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 359,
+        "created_at": "2020-01-28T19:40:45Z",
+        "closed_at": null,
+        "title": "Missing Nullable type modifiers in definition of JsonLdOptions",
+        "labels": [
+          {
+            "id": 965725373,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzNzM=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:commenter-agreed",
+            "name": "wr:commenter-agreed",
+            "color": "5ce060",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 965725383,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzODM=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:spec-updated-partial",
+            "name": "wr:spec-updated-partial",
+            "color": "db13a9",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "gkellogg",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 358,
+        "created_at": "2020-01-28T19:31:50Z",
+        "closed_at": null,
+        "title": "Confusing/contradictory text regarding options passed to Compaction",
+        "labels": [
+          {
+            "id": 965725381,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzODE=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:pending",
+            "name": "wr:pending",
+            "color": "bbf76c",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 965725383,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzODM=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:spec-updated-partial",
+            "name": "wr:spec-updated-partial",
+            "color": "db13a9",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "gkellogg",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 357,
+        "created_at": "2020-01-28T00:11:17Z",
+        "closed_at": null,
+        "title": "Missing type checking of values in IRI Compaction?",
+        "labels": [
+          {
+            "id": 965725381,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzODE=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:pending",
+            "name": "wr:pending",
+            "color": "bbf76c",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 965725383,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzODM=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:spec-updated-partial",
+            "name": "wr:spec-updated-partial",
+            "color": "db13a9",
             "default": false,
             "description": null
           }
@@ -6535,11 +6701,20 @@
             "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
           },
           {
-            "id": 965725376,
-            "node_id": "MDU6TGFiZWw5NjU3MjUzNzY=",
-            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:open",
-            "name": "wr:open",
-            "color": "f7bbd1",
+            "id": 965725373,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzNzM=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:commenter-agreed",
+            "name": "wr:commenter-agreed",
+            "color": "5ce060",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 965725383,
+            "node_id": "MDU6TGFiZWw5NjU3MjUzODM=",
+            "url": "https://api.github.com/repos/w3c/json-ld-api/labels/wr:spec-updated-partial",
+            "name": "wr:spec-updated-partial",
+            "color": "db13a9",
             "default": false,
             "description": null
           }
