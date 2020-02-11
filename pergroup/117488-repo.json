@@ -7,6 +7,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 189,
+        "created_at": "2020-02-11T10:29:57Z",
+        "closed_at": "2020-02-11T10:30:09Z",
+        "title": "Test Issue if I can",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 188,
+        "created_at": "2020-02-10T15:29:07Z",
+        "closed_at": null,
+        "title": "Add support for experimental context",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 187,
         "created_at": "2020-02-07T19:51:25Z",
@@ -361,13 +381,13 @@
         "title": "Public key \"id\" and \"type\" members duplicate JWK \"kid\" and \"kty\" members",
         "labels": [
           {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
             "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
+            "description": "Editors should update the spec then close"
           }
         ],
         "assignee": null,
@@ -558,7 +578,17 @@
         "created_at": "2020-01-29T11:01:00Z",
         "closed_at": null,
         "title": "Correct misleading language about no dependence upon centralized registries or authorities",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1826575778,
+            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/extensibility",
+            "name": "extensibility",
+            "color": "ffc26d",
+            "default": false,
+            "description": "related to extensibility, json-ld contexts, external properties, etc"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -718,7 +748,17 @@
         "created_at": "2020-01-21T13:48:02Z",
         "closed_at": null,
         "title": "Include discussion of eIDAS levels-of-assurance",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -828,7 +868,17 @@
         "created_at": "2019-12-13T18:38:34Z",
         "closed_at": null,
         "title": "Consider adding a well-defined method-specific section to the DID Document",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1826575778,
+            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/extensibility",
+            "name": "extensibility",
+            "color": "ffc26d",
+            "default": false,
+            "description": "related to extensibility, json-ld contexts, external properties, etc"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1152,10 +1202,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 124,
         "created_at": "2019-11-25T23:20:34Z",
-        "closed_at": null,
+        "closed_at": "2020-02-10T18:37:56Z",
         "title": "Regarding PII Embedded in Key Formats",
         "labels": [
           {
@@ -2258,6 +2308,15 @@
             "color": "5386bc",
             "default": false,
             "description": "Discuss during a WG call"
+          },
+          {
+            "id": 1826575778,
+            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/extensibility",
+            "name": "extensibility",
+            "color": "ffc26d",
+            "default": false,
+            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "ChristopherA",
@@ -2420,13 +2479,22 @@
         "title": "If an existing DID Document has a Service Endpoint fragment, what are the primary keys to be used if that Service Endpoint needs to be replaced, updated, or deleted?",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "Discuss during a WG call"
+            "description": "Issue will be closed shortly if no objections"
+          },
+          {
+            "id": 1697549506,
+            "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/question",
+            "name": "question",
+            "color": "f9a4f7",
+            "default": true,
+            "description": ""
           }
         ],
         "assignee": "ChristopherA",
@@ -2447,6 +2515,15 @@
             "color": "7eb520",
             "default": false,
             "description": "Editors should update the spec then close"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "msporny",
@@ -2487,6 +2564,15 @@
             "color": "5386bc",
             "default": false,
             "description": "Discuss during a WG call"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "dlongley",
@@ -2913,6 +2999,15 @@
             "color": "5386bc",
             "default": false,
             "description": "Discuss during a WG call"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "jandrieu",
@@ -2935,6 +3030,15 @@
             "description": "Discuss during a WG call"
           },
           {
+            "id": 1826575778,
+            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/extensibility",
+            "name": "extensibility",
+            "color": "ffc26d",
+            "default": false,
+            "description": "related to extensibility, json-ld contexts, external properties, etc"
+          },
+          {
             "id": 1587792407,
             "node_id": "MDU6TGFiZWwxNTg3NzkyNDA3",
             "url": "https://api.github.com/repos/w3c/did-core/labels/high%20priority",
@@ -2955,22 +3059,13 @@
         "title": "[Authentication] Is Authentication the correct mechanism for specifying the ownership of a Thing? ",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "Discuss during a WG call"
-          },
-          {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/pr%20pending",
-            "name": "pr pending",
-            "color": "fef2c0",
-            "default": false,
-            "description": "There is an open PR to address this issue"
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "dlongley",
@@ -2991,6 +3086,15 @@
             "color": "7eb520",
             "default": false,
             "description": "Editors should update the spec then close"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "rhiaro",
@@ -3322,13 +3426,13 @@
         "title": "Figure out three fundamental roles of DIDs (controller, subject, XXX)",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
             "default": false,
-            "description": "Discuss during a WG call"
+            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "jandrieu",
