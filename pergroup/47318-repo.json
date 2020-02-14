@@ -18163,6 +18163,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 136,
+        "created_at": "2020-02-13T14:27:53Z",
+        "closed_at": null,
+        "title": "Should fire ended track event when shared window/tab is closed.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 135,
         "created_at": "2020-01-28T15:49:15Z",
         "closed_at": null,
@@ -20236,6 +20246,75 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 2475,
+        "created_at": "2020-02-13T11:53:13Z",
+        "closed_at": "2020-02-13T15:23:51Z",
+        "title": "Chapter 8 testing: Mark what needs or doesn't need testing",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2474,
+        "created_at": "2020-02-13T07:06:26Z",
+        "closed_at": "2020-02-13T15:19:59Z",
+        "title": "Test coverage review of Chapter 4.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2473,
+        "created_at": "2020-02-13T06:14:47Z",
+        "closed_at": null,
+        "title": "Annotating section 5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2472,
+        "created_at": "2020-02-13T01:41:07Z",
+        "closed_at": "2020-02-13T15:12:22Z",
+        "title": "Check signalingState in queued task before firing ONN.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2471,
+        "created_at": "2020-02-12T22:16:57Z",
+        "closed_at": "2020-02-13T15:12:22Z",
+        "title": "Don't fire negotiationneeded outside of stable",
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 2470,
         "created_at": "2020-02-06T14:25:30Z",
@@ -20296,12 +20375,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2467,
         "created_at": "2020-02-06T14:23:44Z",
-        "closed_at": null,
+        "closed_at": "2020-02-13T15:19:58Z",
         "title": "Test coverage chapter 4",
         "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          },
           {
             "id": 617322300,
             "node_id": "MDU6TGFiZWw2MTczMjIzMDA=",
@@ -61116,7 +61204,7 @@
         "closed_at": null,
         "title": "Define reception time for jitterBufferDelay stat",
         "labels": [],
-        "assignee": null,
+        "assignee": "vr000m",
         "isPullRequest": false
       },
       {
@@ -61286,14 +61374,14 @@
         "closed_at": null,
         "title": "Stats objects creation and WebRTC objects lifecycle",
         "labels": [],
-        "assignee": null,
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 538,
         "created_at": "2020-01-28T16:06:18Z",
-        "closed_at": null,
+        "closed_at": "2020-02-12T15:11:14Z",
         "title": "RTCInboundRtpStreamStats.estimatedEndToEndDelay",
         "labels": [],
         "assignee": null,
@@ -61305,17 +61393,7 @@
         "created_at": "2020-01-28T13:39:13Z",
         "closed_at": null,
         "title": "End-to-end delay metrics",
-        "labels": [
-          {
-            "id": 124889688,
-            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "159818",
-            "default": false,
-            "description": null
-          }
-        ],
+        "labels": [],
         "assignee": "henbos",
         "isPullRequest": false
       },
