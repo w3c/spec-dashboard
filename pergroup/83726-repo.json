@@ -37,20 +37,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 74,
         "created_at": "2020-02-02T13:52:38Z",
-        "closed_at": null,
+        "closed_at": "2020-02-28T14:08:33Z",
         "title": "Add pr-preview",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 73,
         "created_at": "2020-02-02T13:30:36Z",
-        "closed_at": null,
+        "closed_at": "2020-02-28T14:08:33Z",
         "title": "Add Preview and Diff links to pulls in this repo",
         "labels": [],
         "assignee": null,
@@ -950,6 +950,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 67,
+        "created_at": "2020-02-27T19:03:33Z",
+        "closed_at": null,
+        "title": "add self links to role mapping table",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 66,
+        "created_at": "2020-02-27T19:00:30Z",
+        "closed_at": "2020-02-27T19:41:24Z",
+        "title": "summary elements in role mapping table have undefined id",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 65,
         "created_at": "2020-02-26T15:37:12Z",
@@ -1714,12 +1734,22 @@
     "issues": [
       {
         "state": "open",
+        "number": 1207,
+        "created_at": "2020-02-27T17:59:28Z",
+        "closed_at": null,
+        "title": "Add info about layout and bounds to generic",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1206,
         "created_at": "2020-02-24T04:07:48Z",
         "closed_at": null,
         "title": "Fallback table for required attribute values needs updating",
         "labels": [],
-        "assignee": null,
+        "assignee": "carmacleod",
         "isPullRequest": false
       },
       {
@@ -1995,6 +2025,15 @@
             "color": "bfdadc",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 1592007070,
+            "node_id": "MDU6TGFiZWwxNTkyMDA3MDcw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/has%20PR",
+            "name": "has PR",
+            "color": "cc1099",
+            "default": false,
+            "description": "PR exists that will close this issue"
           }
         ],
         "assignee": "carmacleod",
@@ -2471,7 +2510,7 @@
             "description": ""
           }
         ],
-        "assignee": "accdc",
+        "assignee": "jnurthen",
         "isPullRequest": false
       },
       {
@@ -2818,13 +2857,13 @@
         "title": "revise meter authoring advice",
         "labels": [
           {
-            "id": 925628651,
-            "node_id": "MDU6TGFiZWw5MjU2Mjg2NTE=",
-            "url": "https://api.github.com/repos/w3c/aria/labels/ARIA%201.3",
-            "name": "ARIA 1.3",
-            "color": "bfdadc",
+            "id": 468533483,
+            "node_id": "MDU6TGFiZWw0Njg1MzM0ODM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/ARIA%201.2",
+            "name": "ARIA 1.2",
+            "color": "e99695",
             "default": false,
-            "description": ""
+            "description": null
           }
         ],
         "assignee": null,
@@ -21728,10 +21767,68 @@
     "issues": [
       {
         "state": "open",
+        "number": 1346,
+        "created_at": "2020-02-29T05:27:38Z",
+        "closed_at": null,
+        "title": "An in-range update of vnu-jar is breaking the build 🚨",
+        "labels": [
+          {
+            "id": 1459451715,
+            "node_id": "MDU6TGFiZWwxNDU5NDUxNzE1",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/greenkeeper",
+            "name": "greenkeeper",
+            "color": "00c775",
+            "default": false,
+            "description": "Raised by or about greenkeeper.io dependency management package"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1345,
+        "created_at": "2020-02-28T10:03:21Z",
+        "closed_at": null,
+        "title": "Combobox examples with both and list autocomplete: Add regression tests for Backspace",
+        "labels": [
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": "Addition or improvement that doesn't fix a bug or errant guidance."
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "006b75",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          },
+          {
+            "id": 993128257,
+            "node_id": "MDU6TGFiZWw5OTMxMjgyNTc=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/regression-testing",
+            "name": "regression-testing",
+            "color": "ea91da",
+            "default": false,
+            "description": "Related to AVA regression tests of example pages or AVA framework implementation within repo"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1344,
         "created_at": "2020-02-24T22:21:40Z",
         "closed_at": null,
-        "title": "Implement multiselect keyboard shorcuts",
+        "title": "Listboxes with Rearrangeable Options: Add keyboard commands for multiple selection",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -21747,10 +21844,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1342,
         "created_at": "2020-02-22T11:51:27Z",
-        "closed_at": null,
+        "closed_at": "2020-02-28T09:38:00Z",
         "title": "Update run-node to the latest version 🚀",
         "labels": [
           {
@@ -21767,11 +21864,11 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1341,
         "created_at": "2020-02-21T09:20:47Z",
-        "closed_at": null,
-        "title": "Add grouped listbox example link to main page",
+        "closed_at": "2020-02-28T20:11:09Z",
+        "title": "Listbox Design Pattern: Add link to grouped listbox example",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -21823,14 +21920,14 @@
         "closed_at": null,
         "title": "Combobox examples with listbox popup: Add properties and states to listbox control button",
         "labels": [],
-        "assignee": null,
+        "assignee": "zcorpan",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1335,
         "created_at": "2020-02-16T20:42:32Z",
-        "closed_at": null,
+        "closed_at": "2020-02-28T21:51:55Z",
         "title": "Combobox with list and both autocomplete: Fix issue with listbox not updating",
         "labels": [],
         "assignee": null,
@@ -21876,10 +21973,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1332,
         "created_at": "2020-02-16T06:53:02Z",
-        "closed_at": null,
+        "closed_at": "2020-02-28T21:51:55Z",
         "title": "Combobox examples with both and list autocomplete: Editing value in text input does not correctly update suggestion list",
         "labels": [
           {
@@ -22044,10 +22141,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1322,
         "created_at": "2020-02-04T17:48:29Z",
-        "closed_at": null,
+        "closed_at": "2020-02-28T10:44:57Z",
         "title": "Fix color contrast of code comments in examples",
         "labels": [],
         "assignee": null,
