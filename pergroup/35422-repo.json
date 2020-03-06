@@ -7,11 +7,11 @@
     "recTrack": false,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 105,
         "created_at": "2020-03-03T09:46:58Z",
-        "closed_at": null,
-        "title": "Steve misc updates - NOT READY TO MERGE",
+        "closed_at": "2020-03-06T13:02:10Z",
+        "title": "Steve misc updates",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -2883,10 +2883,10 @@
     "recTrack": false,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 1071,
         "created_at": "2020-03-04T17:02:30Z",
-        "closed_at": null,
+        "closed_at": "2020-03-05T19:06:25Z",
         "title": "Status message added to 2.4.11",
         "labels": [
           {
@@ -2926,6 +2926,15 @@
             "color": "cc317c",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -2936,9 +2945,28 @@
         "number": 1069,
         "created_at": "2020-03-04T14:01:39Z",
         "closed_at": null,
-        "title": "\"Technical definition of accessibility support\" missing in Understanding 2.1",
-        "labels": [],
-        "assignee": null,
+        "title": "`<blockquote ... data-include=\"...\">` not processed in Understanding 2.1 conformance",
+        "labels": [
+          {
+            "id": 76240579,
+            "node_id": "MDU6TGFiZWw3NjI0MDU3OQ==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Technical%20(bug)",
+            "name": "Technical (bug)",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 466389488,
+            "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
+            "name": "WCAG 2.1",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "michael-n-cooper",
         "isPullRequest": false
       },
       {
@@ -2947,7 +2975,17 @@
         "created_at": "2020-03-04T13:45:03Z",
         "closed_at": null,
         "title": "Understanding WCAG 2.1 docs still incorrectly say WCAG 2.0",
-        "labels": [],
+        "labels": [
+          {
+            "id": 466389488,
+            "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
+            "name": "WCAG 2.1",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2958,6 +2996,15 @@
         "closed_at": null,
         "title": "2.4.11 Focus Visible (Enhanced) Remove F78 and F55",
         "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 962495901,
             "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
@@ -3045,6 +3092,15 @@
             "description": ""
           },
           {
+            "id": 962595250,
+            "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Understanding",
+            "name": "Understanding",
+            "color": "ab56d8",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 1279011060,
             "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
             "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
@@ -3063,7 +3119,35 @@
         "created_at": "2020-03-02T23:13:11Z",
         "closed_at": null,
         "title": "Why is using the title attribute a Sufficient Technique for 2.4.4 Link Purpose?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962595250,
+            "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Understanding",
+            "name": "Understanding",
+            "color": "ab56d8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3073,7 +3157,26 @@
         "created_at": "2020-03-02T14:16:42Z",
         "closed_at": null,
         "title": "Cases where more than one \"Meaningful Sequence\" is required for total meaning",
-        "labels": [],
+        "labels": [
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "bruce-usab",
         "isPullRequest": false
       },
@@ -3116,12 +3219,49 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1060,
         "created_at": "2020-03-01T17:49:23Z",
-        "closed_at": null,
+        "closed_at": "2020-03-06T01:36:23Z",
         "title": "WCAG 2.2: \"Focus visible (enhance)\" link should be \"Focus visible (enhanced)\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3130,8 +3270,36 @@
         "number": 1059,
         "created_at": "2020-03-01T17:16:14Z",
         "closed_at": null,
-        "title": "Issue with \"Focus indication area\"",
-        "labels": [],
+        "title": "\"Focus indication area\" for apparent movement",
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3179,7 +3347,35 @@
         "created_at": "2020-02-28T21:29:42Z",
         "closed_at": null,
         "title": "2.4.11 Focus Visible (Enhanced) Add user agent exception",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3189,7 +3385,35 @@
         "created_at": "2020-02-28T19:33:00Z",
         "closed_at": null,
         "title": "2.4.11 Focus Visible (Enhanced) Outline Offset Success Criterion",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3199,17 +3423,55 @@
         "created_at": "2020-02-28T17:34:31Z",
         "closed_at": null,
         "title": "Grammar and clarity of SC2.4.11 Focus Visible (Enhanced)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1054,
         "created_at": "2020-02-28T15:52:59Z",
-        "closed_at": null,
+        "closed_at": "2020-03-06T01:14:34Z",
         "title": "2.4.11 Focus Visible (enhanced) is included in the 2.1 Understanding Documentation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 76240579,
+            "node_id": "MDU6TGFiZWw3NjI0MDU3OQ==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Technical%20(bug)",
+            "name": "Technical (bug)",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3219,7 +3481,35 @@
         "created_at": "2020-02-27T19:05:20Z",
         "closed_at": null,
         "title": "Feedback on Focus Visible (Enhanced): Too Much Math",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3308,6 +3598,15 @@
             "description": ""
           },
           {
+            "id": 1012597106,
+            "node_id": "MDU6TGFiZWwxMDEyNTk3MTA2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/ErratumRaised",
+            "name": "ErratumRaised",
+            "color": "5319e7",
+            "default": false,
+            "description": "Potential erratum for a Recommendation"
+          },
+          {
             "id": 466389488,
             "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
             "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
@@ -3326,7 +3625,17 @@
         "created_at": "2020-02-25T12:09:02Z",
         "closed_at": null,
         "title": "Possible 1.4.1 failure in WCAG 2.1 normative document",
-        "labels": [],
+        "labels": [
+          {
+            "id": 76240579,
+            "node_id": "MDU6TGFiZWw3NjI0MDU3OQ==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Technical%20(bug)",
+            "name": "Technical (bug)",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3435,7 +3744,26 @@
         "created_at": "2020-02-11T12:24:25Z",
         "closed_at": null,
         "title": "Intent vs. Benefits and conformance (with SC 1.2.3 and SC 1.2.5)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3607,7 +3935,26 @@
         "created_at": "2020-02-05T13:40:27Z",
         "closed_at": null,
         "title": "Retiring technique H59 Using the link element and navigation tools",
-        "labels": [],
+        "labels": [
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3647,7 +3994,44 @@
         "created_at": "2020-02-03T19:59:28Z",
         "closed_at": null,
         "title": "Note and benefits contradict each other in 1.4.1 (Use of color)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1610617728,
+            "node_id": "MDU6TGFiZWwxNjEwNjE3NzI4",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/1.4.1%20Color%20alone",
+            "name": "1.4.1 Color alone",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962595250,
+            "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Understanding",
+            "name": "Understanding",
+            "color": "ab56d8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3667,7 +4051,26 @@
         "created_at": "2020-02-01T21:22:30Z",
         "closed_at": null,
         "title": "Spatial Navigation to Bypass Blocks",
-        "labels": [],
+        "labels": [
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3677,8 +4080,18 @@
         "created_at": "2020-02-01T18:25:57Z",
         "closed_at": null,
         "title": "[Editorial] \"Text Alternatives\" reference",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "alastc",
         "isPullRequest": false
       },
       {
@@ -3696,6 +4109,24 @@
             "color": "ef83ea",
             "default": false,
             "description": "Accessibility Conformance Testing Task Force"
+          },
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -3914,7 +4345,35 @@
         "created_at": "2020-01-22T13:16:58Z",
         "closed_at": null,
         "title": "The meta refresh element and HTTP Refresh header with zero timeout can trigger 2.3.1/2.3.2",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1361111352,
+            "node_id": "MDU6TGFiZWwxMzYxMTExMzUy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Needs%20assigning",
+            "name": "Needs assigning",
+            "color": "b5a9f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -25815,10 +26274,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 1071,
         "created_at": "2020-03-04T17:02:30Z",
-        "closed_at": null,
+        "closed_at": "2020-03-05T19:06:25Z",
         "title": "Status message added to 2.4.11",
         "labels": [
           {
@@ -25858,6 +26317,15 @@
             "color": "cc317c",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -25868,9 +26336,28 @@
         "number": 1069,
         "created_at": "2020-03-04T14:01:39Z",
         "closed_at": null,
-        "title": "\"Technical definition of accessibility support\" missing in Understanding 2.1",
-        "labels": [],
-        "assignee": null,
+        "title": "`<blockquote ... data-include=\"...\">` not processed in Understanding 2.1 conformance",
+        "labels": [
+          {
+            "id": 76240579,
+            "node_id": "MDU6TGFiZWw3NjI0MDU3OQ==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Technical%20(bug)",
+            "name": "Technical (bug)",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 466389488,
+            "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
+            "name": "WCAG 2.1",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "michael-n-cooper",
         "isPullRequest": false
       },
       {
@@ -25879,7 +26366,17 @@
         "created_at": "2020-03-04T13:45:03Z",
         "closed_at": null,
         "title": "Understanding WCAG 2.1 docs still incorrectly say WCAG 2.0",
-        "labels": [],
+        "labels": [
+          {
+            "id": 466389488,
+            "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
+            "name": "WCAG 2.1",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -25890,6 +26387,15 @@
         "closed_at": null,
         "title": "2.4.11 Focus Visible (Enhanced) Remove F78 and F55",
         "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 962495901,
             "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
@@ -25977,6 +26483,15 @@
             "description": ""
           },
           {
+            "id": 962595250,
+            "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Understanding",
+            "name": "Understanding",
+            "color": "ab56d8",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 1279011060,
             "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
             "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
@@ -25995,7 +26510,35 @@
         "created_at": "2020-03-02T23:13:11Z",
         "closed_at": null,
         "title": "Why is using the title attribute a Sufficient Technique for 2.4.4 Link Purpose?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962595250,
+            "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Understanding",
+            "name": "Understanding",
+            "color": "ab56d8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26005,7 +26548,26 @@
         "created_at": "2020-03-02T14:16:42Z",
         "closed_at": null,
         "title": "Cases where more than one \"Meaningful Sequence\" is required for total meaning",
-        "labels": [],
+        "labels": [
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "bruce-usab",
         "isPullRequest": false
       },
@@ -26048,12 +26610,49 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1060,
         "created_at": "2020-03-01T17:49:23Z",
-        "closed_at": null,
+        "closed_at": "2020-03-06T01:36:23Z",
         "title": "WCAG 2.2: \"Focus visible (enhance)\" link should be \"Focus visible (enhanced)\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26062,8 +26661,36 @@
         "number": 1059,
         "created_at": "2020-03-01T17:16:14Z",
         "closed_at": null,
-        "title": "Issue with \"Focus indication area\"",
-        "labels": [],
+        "title": "\"Focus indication area\" for apparent movement",
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26111,7 +26738,35 @@
         "created_at": "2020-02-28T21:29:42Z",
         "closed_at": null,
         "title": "2.4.11 Focus Visible (Enhanced) Add user agent exception",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26121,7 +26776,35 @@
         "created_at": "2020-02-28T19:33:00Z",
         "closed_at": null,
         "title": "2.4.11 Focus Visible (Enhanced) Outline Offset Success Criterion",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26131,17 +26814,55 @@
         "created_at": "2020-02-28T17:34:31Z",
         "closed_at": null,
         "title": "Grammar and clarity of SC2.4.11 Focus Visible (Enhanced)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1054,
         "created_at": "2020-02-28T15:52:59Z",
-        "closed_at": null,
+        "closed_at": "2020-03-06T01:14:34Z",
         "title": "2.4.11 Focus Visible (enhanced) is included in the 2.1 Understanding Documentation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 76240579,
+            "node_id": "MDU6TGFiZWw3NjI0MDU3OQ==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Technical%20(bug)",
+            "name": "Technical (bug)",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26151,7 +26872,35 @@
         "created_at": "2020-02-27T19:05:20Z",
         "closed_at": null,
         "title": "Feedback on Focus Visible (Enhanced): Too Much Math",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1684471482,
+            "node_id": "MDU6TGFiZWwxNjg0NDcxNDgy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.4.x%20Focus%20visible%20(enhanced)",
+            "name": "2.4.x Focus visible (enhanced)",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26240,6 +26989,15 @@
             "description": ""
           },
           {
+            "id": 1012597106,
+            "node_id": "MDU6TGFiZWwxMDEyNTk3MTA2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/ErratumRaised",
+            "name": "ErratumRaised",
+            "color": "5319e7",
+            "default": false,
+            "description": "Potential erratum for a Recommendation"
+          },
+          {
             "id": 466389488,
             "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
             "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
@@ -26258,7 +27016,17 @@
         "created_at": "2020-02-25T12:09:02Z",
         "closed_at": null,
         "title": "Possible 1.4.1 failure in WCAG 2.1 normative document",
-        "labels": [],
+        "labels": [
+          {
+            "id": 76240579,
+            "node_id": "MDU6TGFiZWw3NjI0MDU3OQ==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Technical%20(bug)",
+            "name": "Technical (bug)",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26367,7 +27135,26 @@
         "created_at": "2020-02-11T12:24:25Z",
         "closed_at": null,
         "title": "Intent vs. Benefits and conformance (with SC 1.2.3 and SC 1.2.5)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26539,7 +27326,26 @@
         "created_at": "2020-02-05T13:40:27Z",
         "closed_at": null,
         "title": "Retiring technique H59 Using the link element and navigation tools",
-        "labels": [],
+        "labels": [
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26579,7 +27385,44 @@
         "created_at": "2020-02-03T19:59:28Z",
         "closed_at": null,
         "title": "Note and benefits contradict each other in 1.4.1 (Use of color)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1610617728,
+            "node_id": "MDU6TGFiZWwxNjEwNjE3NzI4",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/1.4.1%20Color%20alone",
+            "name": "1.4.1 Color alone",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962495901,
+            "node_id": "MDU6TGFiZWw5NjI0OTU5MDE=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Public%20Comment",
+            "name": "Public Comment",
+            "color": "ea6d38",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962595250,
+            "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Understanding",
+            "name": "Understanding",
+            "color": "ab56d8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26599,7 +27442,26 @@
         "created_at": "2020-02-01T21:22:30Z",
         "closed_at": null,
         "title": "Spatial Navigation to Bypass Blocks",
-        "labels": [],
+        "labels": [
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26609,8 +27471,18 @@
         "created_at": "2020-02-01T18:25:57Z",
         "closed_at": null,
         "title": "[Editorial] \"Text Alternatives\" reference",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "alastc",
         "isPullRequest": false
       },
       {
@@ -26628,6 +27500,24 @@
             "color": "ef83ea",
             "default": false,
             "description": "Accessibility Conformance Testing Task Force"
+          },
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -26846,7 +27736,35 @@
         "created_at": "2020-01-22T13:16:58Z",
         "closed_at": null,
         "title": "The meta refresh element and HTTP Refresh header with zero timeout can trigger 2.3.1/2.3.2",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1361111352,
+            "node_id": "MDU6TGFiZWwxMzYxMTExMzUy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Needs%20assigning",
+            "name": "Needs assigning",
+            "color": "b5a9f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
