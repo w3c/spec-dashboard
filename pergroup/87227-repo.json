@@ -8,12 +8,62 @@
     "issues": [
       {
         "state": "open",
+        "number": 1387,
+        "created_at": "2020-03-11T22:25:32Z",
+        "closed_at": null,
+        "title": "Default to ES256 if pubKeyCredParams is empty",
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "nsatragno",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1386,
+        "created_at": "2020-03-11T18:54:14Z",
+        "closed_at": null,
+        "title": "Remove unimplemented extensions",
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "ve7jtb",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1385,
         "created_at": "2020-03-06T22:57:35Z",
         "closed_at": null,
         "title": "correct usage of userHandle?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "emlun",
         "isPullRequest": false
       },
       {
@@ -41,7 +91,7 @@
         "number": 1383,
         "created_at": "2020-03-05T16:52:39Z",
         "closed_at": null,
-        "title": "`credentials.create` should fail with \"NotSupportedError\" if `options.pubKeyCredParams` is empty",
+        "title": "`credentials.create` should default to ES256 if `options.pubKeyCredParams` is empty",
         "labels": [
           {
             "id": 340916444,
@@ -62,8 +112,18 @@
         "created_at": "2020-02-29T00:43:32Z",
         "closed_at": null,
         "title": "Addition of a network transport",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "nickmooney",
         "isPullRequest": false
       },
       {
@@ -101,8 +161,18 @@
         "created_at": "2020-02-26T23:22:19Z",
         "closed_at": null,
         "title": "factor-in the notion of client-side discoverable cred and revise & deprecate the \"resident cred\"",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "equalsJeffH",
         "isPullRequest": false
       },
       {
@@ -151,7 +221,17 @@
         "created_at": "2020-02-26T19:59:40Z",
         "closed_at": null,
         "title": "Inputs to WebAuthn methods should not include strict Enum types",
-        "labels": [],
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "jcjones",
         "isPullRequest": false
       },
@@ -229,7 +309,17 @@
         "created_at": "2020-02-11T00:41:45Z",
         "closed_at": null,
         "title": "Consider allowing cross-domain credential use",
-        "labels": [],
+        "labels": [
+          {
+            "id": 340916443,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDM=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
+            "name": "stat:Discuss",
+            "color": "207de5",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -264,10 +354,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1369,
         "created_at": "2020-01-30T11:23:20Z",
-        "closed_at": null,
+        "closed_at": "2020-03-11T19:09:44Z",
         "title": "Add clearer recommendation on what to do with transport hints",
         "labels": [
           {
@@ -293,10 +383,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1368,
         "created_at": "2020-01-29T20:32:17Z",
-        "closed_at": null,
+        "closed_at": "2020-03-11T19:09:44Z",
         "title": "Clarity on transport hints",
         "labels": [
           {
@@ -1777,10 +1867,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1304,
         "created_at": "2019-09-20T02:29:34Z",
-        "closed_at": null,
+        "closed_at": "2020-03-11T19:13:33Z",
         "title": "way to return a platform specific Name for the thing that gets registered.",
         "labels": [
           {
@@ -2096,10 +2186,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1293,
         "created_at": "2019-09-04T20:05:18Z",
-        "closed_at": null,
+        "closed_at": "2020-03-11T19:13:23Z",
         "title": "Requiring user gesture to call WebAuthn API",
         "labels": [
           {
