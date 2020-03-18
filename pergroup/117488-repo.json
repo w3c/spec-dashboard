@@ -8,6 +8,66 @@
     "issues": [
       {
         "state": "open",
+        "number": 231,
+        "created_at": "2020-03-18T11:41:18Z",
+        "closed_at": null,
+        "title": "remove untestable normative statement regarding did method specs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 230,
+        "created_at": "2020-03-18T09:37:49Z",
+        "closed_at": null,
+        "title": "change example of a revoked key to use a more common example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 229,
+        "created_at": "2020-03-18T09:10:26Z",
+        "closed_at": null,
+        "title": "remove issue referencing object capabilities",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 228,
+        "created_at": "2020-03-18T09:02:31Z",
+        "closed_at": null,
+        "title": "Section about encrypted data in DID docs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 227,
+        "created_at": "2020-03-17T16:00:54Z",
+        "closed_at": null,
+        "title": "Update broken URL for BIP113",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 226,
+        "created_at": "2020-03-17T12:28:33Z",
+        "closed_at": null,
+        "title": "Remove the term \"CRUD\". Addresses #167.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 225,
         "created_at": "2020-03-16T11:44:32Z",
         "closed_at": null,
@@ -37,12 +97,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 222,
         "created_at": "2020-03-15T19:32:57Z",
-        "closed_at": null,
+        "closed_at": "2020-03-17T16:09:12Z",
         "title": "Attempt to fix ABNF for  id-char and param-char",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -170,7 +240,7 @@
         "number": 213,
         "created_at": "2020-03-03T13:02:39Z",
         "closed_at": null,
-        "title": "clarify what a DID identifies",
+        "title": "Clarify what a DID identifies",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -428,13 +498,13 @@
         "title": "Add resolution procedure for relative URL references",
         "labels": [
           {
-            "id": 1838604038,
-            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "5319e7",
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
             "default": false,
-            "description": "Issue is ready for a PR"
+            "description": "There is an open PR to address this issue"
           }
         ],
         "assignee": "msporny",
@@ -1055,6 +1125,15 @@
         "title": "Term \"CRUD operations\" is used without being defined",
         "labels": [
           {
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          },
+          {
             "id": 1580539231,
             "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
             "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
@@ -1383,7 +1462,7 @@
             "description": "Editors should update the spec then close"
           }
         ],
-        "assignee": "bumblefudge",
+        "assignee": "peacekeeper",
         "isPullRequest": false
       },
       {
@@ -1496,10 +1575,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 143,
         "created_at": "2019-12-13T18:38:34Z",
-        "closed_at": null,
+        "closed_at": "2020-03-17T21:55:31Z",
         "title": "Consider adding a well-defined method-specific section to the DID Document",
         "labels": [
           {
@@ -3246,15 +3325,6 @@
         "closed_at": null,
         "title": "Is method-specific-id supposed to be equivalent to param-char?",
         "labels": [
-          {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
-            "default": false,
-            "description": "There is an open PR to address this issue"
-          },
           {
             "id": 1580539231,
             "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
