@@ -5752,6 +5752,36 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 77,
+        "created_at": "2020-03-25T10:07:57Z",
+        "closed_at": null,
+        "title": "Account for typographical pseudo-elements",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 76,
+        "created_at": "2020-03-24T18:03:25Z",
+        "closed_at": null,
+        "title": "Make fully-transparent text non-contentful",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 75,
+        "created_at": "2020-03-24T16:06:58Z",
+        "closed_at": null,
+        "title": "Should transparent (alpha-value=0) text be considered contentful",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 74,
         "created_at": "2020-03-23T14:12:51Z",
@@ -5877,7 +5907,17 @@
         "created_at": "2020-03-05T17:25:20Z",
         "closed_at": null,
         "title": "Timestamps should be specified in an interoperative way",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1931527560,
+            "node_id": "MDU6TGFiZWwxOTMxNTI3NTYw",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/closed?",
+            "name": "closed?",
+            "color": "38e2ad",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5917,7 +5957,17 @@
         "created_at": "2020-03-03T19:37:00Z",
         "closed_at": null,
         "title": "Clarify whether First Contentful Paint considers content outside the viewport",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1931526715,
+            "node_id": "MDU6TGFiZWwxOTMxNTI2NzE1",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/requires-discussion",
+            "name": "requires-discussion",
+            "color": "0641cc",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5927,7 +5977,17 @@
         "created_at": "2020-03-03T09:19:08Z",
         "closed_at": null,
         "title": "Allow optional implementation of first-paint",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1931526715,
+            "node_id": "MDU6TGFiZWwxOTMxNTI2NzE1",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/requires-discussion",
+            "name": "requires-discussion",
+            "color": "0641cc",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5957,35 +6017,55 @@
         "created_at": "2020-03-03T08:11:59Z",
         "closed_at": null,
         "title": "Clarify what happens to a page which consists of just an iframe",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1931526715,
+            "node_id": "MDU6TGFiZWwxOTMxNTI2NzE1",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/requires-discussion",
+            "name": "requires-discussion",
+            "color": "0641cc",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 53,
         "created_at": "2020-03-03T08:07:29Z",
-        "closed_at": null,
+        "closed_at": "2020-03-24T14:35:12Z",
         "title": "Clarify whether \"first paint\" or \"first contentful paint\" ever happens to a blank page",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 52,
         "created_at": "2020-03-03T08:03:05Z",
-        "closed_at": null,
+        "closed_at": "2020-03-24T15:35:14Z",
         "title": "Consider taking form controls into account for first contentful paint",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1931527560,
+            "node_id": "MDU6TGFiZWwxOTMxNTI3NTYw",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/closed?",
+            "name": "closed?",
+            "color": "38e2ad",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 51,
         "created_at": "2020-03-03T08:00:25Z",
-        "closed_at": null,
+        "closed_at": "2020-03-24T14:31:12Z",
         "title": "First contentful paint should take the poster image / first frame of video into account",
         "labels": [],
         "assignee": null,
@@ -6057,7 +6137,17 @@
         "created_at": "2019-08-15T14:34:39Z",
         "closed_at": null,
         "title": "Add attribution information about what triggers paint",
-        "labels": [],
+        "labels": [
+          {
+            "id": 442560939,
+            "node_id": "MDU6TGFiZWw0NDI1NjA5Mzk=",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6067,7 +6157,17 @@
         "created_at": "2019-08-14T21:14:42Z",
         "closed_at": null,
         "title": "LargestContentfulPaint and PaintTiming are separate specs",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1931509328,
+            "node_id": "MDU6TGFiZWwxOTMxNTA5MzI4",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/non-blocking",
+            "name": "non-blocking",
+            "color": "b59017",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6097,7 +6197,17 @@
         "created_at": "2019-02-08T03:00:38Z",
         "closed_at": null,
         "title": "surprising (if not understandable) results for first-paint when `document.visibilityState === 'hidden'`",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1931509328,
+            "node_id": "MDU6TGFiZWwxOTMxNTA5MzI4",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/non-blocking",
+            "name": "non-blocking",
+            "color": "b59017",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6117,7 +6227,17 @@
         "created_at": "2019-01-21T20:20:55Z",
         "closed_at": null,
         "title": "Be more precise about first paint vs first contentful paint",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1931526715,
+            "node_id": "MDU6TGFiZWwxOTMxNTI2NzE1",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/requires-discussion",
+            "name": "requires-discussion",
+            "color": "0641cc",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6187,7 +6307,17 @@
         "created_at": "2018-08-16T19:01:50Z",
         "closed_at": null,
         "title": "What is the scope of timings?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1931527560,
+            "node_id": "MDU6TGFiZWwxOTMxNTI3NTYw",
+            "url": "https://api.github.com/repos/w3c/paint-timing/labels/closed?",
+            "name": "closed?",
+            "color": "38e2ad",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6302,10 +6432,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 20,
         "created_at": "2017-11-06T22:25:48Z",
-        "closed_at": null,
+        "closed_at": "2020-03-24T14:12:31Z",
         "title": "Define whether clipped contents should be included in first contextual paint",
         "labels": [
           {
@@ -10195,10 +10325,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 201,
         "created_at": "2020-03-16T17:38:39Z",
-        "closed_at": null,
+        "closed_at": "2020-03-24T20:46:07Z",
         "title": "An editorial suggestion to simplify the \"Process reporting endpoints for response\" algorithm",
         "labels": [],
         "assignee": null,
@@ -21799,6 +21929,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 70,
+        "created_at": "2020-03-24T20:07:15Z",
+        "closed_at": null,
+        "title": "Pass realms in UserTiming constructors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 69,
