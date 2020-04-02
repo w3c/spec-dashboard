@@ -8,6 +8,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 859,
+        "created_at": "2020-04-01T23:12:47Z",
+        "closed_at": null,
+        "title": "Update MDN Browser Compat Data",
+        "labels": [
+          {
+            "id": 1312453565,
+            "node_id": "MDU6TGFiZWwxMzEyNDUzNTY1",
+            "url": "https://api.github.com/repos/w3c/manifest/labels/chore",
+            "name": "chore",
+            "color": "f9dd5c",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "aarongustafson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 858,
         "created_at": "2020-03-31T06:04:09Z",
         "closed_at": null,
@@ -32,15 +52,25 @@
         "created_at": "2020-03-27T03:20:55Z",
         "closed_at": null,
         "title": "More precise control over app window features",
-        "labels": [],
+        "labels": [
+          {
+            "id": 54783581,
+            "node_id": "MDU6TGFiZWw1NDc4MzU4MQ==",
+            "url": "https://api.github.com/repos/w3c/manifest/labels/Feature%20Request",
+            "name": "Feature Request",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 855,
         "created_at": "2020-03-25T21:40:31Z",
-        "closed_at": null,
+        "closed_at": "2020-04-01T23:30:12Z",
         "title": "how to handle cancel button for pwa prompt",
         "labels": [
           {
@@ -62,7 +92,26 @@
         "created_at": "2020-03-11T10:52:13Z",
         "closed_at": null,
         "title": "Use the newly defined ImageResource",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1954958734,
+            "node_id": "MDU6TGFiZWwxOTU0OTU4NzM0",
+            "url": "https://api.github.com/repos/w3c/manifest/labels/BLOCKED",
+            "name": "BLOCKED",
+            "color": "8e0f1e",
+            "default": false,
+            "description": "Blocked for some reason"
+          },
+          {
+            "id": 1319512982,
+            "node_id": "MDU6TGFiZWwxMzE5NTEyOTgy",
+            "url": "https://api.github.com/repos/w3c/manifest/labels/refactor",
+            "name": "refactor",
+            "color": "efe702",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -192,7 +241,17 @@
         "created_at": "2020-01-24T22:38:33Z",
         "closed_at": null,
         "title": "Add manifest option for PWAs to be registered as scheme/protocol handlers",
-        "labels": [],
+        "labels": [
+          {
+            "id": 54783581,
+            "node_id": "MDU6TGFiZWw1NDc4MzU4MQ==",
+            "url": "https://api.github.com/repos/w3c/manifest/labels/Feature%20Request",
+            "name": "Feature Request",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -227,10 +286,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 843,
         "created_at": "2020-01-20T02:41:22Z",
-        "closed_at": null,
+        "closed_at": "2020-04-01T12:53:44Z",
         "title": "Moves BeforeInstallPrompt and related text to a non-normative annex.",
         "labels": [],
         "assignee": null,
@@ -317,11 +376,11 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 836,
         "created_at": "2019-12-13T06:43:23Z",
-        "closed_at": null,
-        "title": "Remove beforeinstallprompt event + window.oninstalled",
+        "closed_at": "2020-04-01T12:53:45Z",
+        "title": "Remove beforeinstallprompt and appinstalled events.",
         "labels": [
           {
             "id": 975380672,
@@ -337,10 +396,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 835,
         "created_at": "2019-12-09T21:38:50Z",
-        "closed_at": null,
+        "closed_at": "2020-04-01T12:53:44Z",
         "title": "beforeinstallprompt : Prompting user makes it to hard to discern whether the user truly wanted to \"install\" a web app",
         "labels": [],
         "assignee": null,
@@ -442,8 +501,18 @@
         "created_at": "2019-11-29T03:04:34Z",
         "closed_at": null,
         "title": "Spec what it means to support \"manifest\" via <link>'s relList ",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1319512982,
+            "node_id": "MDU6TGFiZWwxMzE5NTEyOTgy",
+            "url": "https://api.github.com/repos/w3c/manifest/labels/refactor",
+            "name": "refactor",
+            "color": "efe702",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "aarongustafson",
         "isPullRequest": false
       },
       {
@@ -761,7 +830,7 @@
         "number": 798,
         "created_at": "2019-09-19T06:44:22Z",
         "closed_at": null,
-        "title": "Some mechanism to maybe a feature policy",
+        "title": "Some mechanism to maybe define a feature policy",
         "labels": [
           {
             "id": 54783581,
@@ -787,10 +856,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 796,
         "created_at": "2019-09-19T04:47:57Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T00:22:44Z",
         "title": "make BeforeInstallPrompt optional",
         "labels": [
           {
@@ -1089,7 +1158,7 @@
         "number": 778,
         "created_at": "2019-08-06T18:46:25Z",
         "closed_at": null,
-        "title": "\"manifest\" link relation, IANA status?",
+        "title": "Add link type \"manifest\" to HTML",
         "labels": [
           {
             "id": 1312435249,
@@ -1110,7 +1179,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "aarongustafson",
         "isPullRequest": false
       },
       {
@@ -1323,10 +1392,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 762,
         "created_at": "2019-04-18T05:56:08Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T00:24:43Z",
         "title": "Navigation during installation ",
         "labels": [
           {
@@ -1343,10 +1412,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 761,
         "created_at": "2019-04-18T05:54:30Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T01:08:03Z",
         "title": "Add internal slot for \"install is showing\".",
         "labels": [
           {
@@ -1702,10 +1771,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 735,
         "created_at": "2018-11-08T04:55:31Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T00:28:32Z",
         "title": "Broken fragments in spec",
         "labels": [
           {
@@ -2032,10 +2101,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 706,
         "created_at": "2018-08-08T07:30:54Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T01:00:36Z",
         "title": "service worker sections: mixed up inputs and outputs, some suggestions",
         "labels": [
           {
@@ -2222,20 +2291,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 692,
         "created_at": "2018-06-14T05:43:38Z",
-        "closed_at": null,
+        "closed_at": "2020-04-01T12:53:44Z",
         "title": "Separate BeforeInstallPrompt from automatic prompt",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 691,
         "created_at": "2018-06-14T04:36:31Z",
-        "closed_at": null,
+        "closed_at": "2020-04-01T12:53:45Z",
         "title": "Clarify circumstances in which BeforeInstallPromptEvent.prompt() may be called",
         "labels": [
           {
@@ -2951,10 +3020,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 636,
         "created_at": "2018-01-09T08:28:29Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T00:30:42Z",
         "title": "Use case for appuninstall event",
         "labels": [
           {
@@ -3583,8 +3652,18 @@
         "number": 586,
         "created_at": "2017-06-22T08:48:49Z",
         "closed_at": null,
-        "title": "Document the unique identifier or tuple of identifiers for a PWA",
-        "labels": [],
+        "title": "Add a unique identifier for a PWA",
+        "labels": [
+          {
+            "id": 54783581,
+            "node_id": "MDU6TGFiZWw1NDc4MzU4MQ==",
+            "url": "https://api.github.com/repos/w3c/manifest/labels/Feature%20Request",
+            "name": "Feature Request",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3698,10 +3777,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 578,
         "created_at": "2017-05-10T07:36:14Z",
-        "closed_at": null,
+        "closed_at": "2020-04-01T12:53:45Z",
         "title": "Provide a way to find out the result of the install prompt without prompt()",
         "labels": [],
         "assignee": null,
@@ -4178,10 +4257,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 536,
         "created_at": "2016-12-06T14:12:09Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T00:58:24Z",
         "title": "The new explainer ties the manifest with the concept of install ability ",
         "labels": [],
         "assignee": null,
@@ -4408,10 +4487,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 514,
         "created_at": "2016-11-02T06:32:25Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T00:32:36Z",
         "title": "Should appinstalled / beforeinstallprompt fire on native app installation?",
         "labels": [],
         "assignee": null,
@@ -4758,10 +4837,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 481,
         "created_at": "2016-07-29T13:55:38Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T00:50:22Z",
         "title": "Define how the manifest is fetched",
         "labels": [
           {
@@ -5073,10 +5152,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 465,
         "created_at": "2016-04-26T09:23:05Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T00:56:05Z",
         "title": "Need to specify client of image objects when fetching  ",
         "labels": [
           {
@@ -13348,6 +13427,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 149,
+        "created_at": "2020-04-02T08:58:22Z",
+        "closed_at": null,
+        "title": "Blob URL store entries are not removed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 148,
@@ -26312,10 +26401,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 414,
         "created_at": "2020-02-22T08:33:31Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T07:41:24Z",
         "title": "Editorial: Align with Web IDL specification",
         "labels": [],
         "assignee": null,
@@ -35869,6 +35958,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 195,
+        "created_at": "2020-04-02T11:04:42Z",
+        "closed_at": null,
+        "title": "chore: use GitHub action to validate and auto-publish",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 194,
         "created_at": "2020-03-06T06:45:01Z",
         "closed_at": null,
@@ -40306,10 +40405,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 239,
         "created_at": "2019-07-11T06:23:00Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T07:37:05Z",
         "title": "set default for optional dictionary",
         "labels": [],
         "assignee": null,
@@ -43263,10 +43362,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 144,
         "created_at": "2020-04-01T08:17:34Z",
-        "closed_at": null,
+        "closed_at": "2020-04-02T00:04:45Z",
         "title": "Navigator Share",
         "labels": [],
         "assignee": null,
