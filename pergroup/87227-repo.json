@@ -7,13 +7,23 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 1404,
         "created_at": "2020-04-08T09:19:35Z",
-        "closed_at": null,
+        "closed_at": "2020-04-08T19:21:25Z",
         "title": "Outdated link for operation timeout: DOMException: The operation either timed out or was not allowed. See: https://w3c.github.io/webauthn/#sec-assertion-privacy.",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 573653000,
+            "node_id": "MDU6TGFiZWw1NzM2NTMwMDA=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/priority:implementation",
+            "name": "priority:implementation",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "nsatragno",
         "isPullRequest": false
       },
       {
@@ -22,8 +32,18 @@
         "created_at": "2020-04-06T19:43:21Z",
         "closed_at": null,
         "title": "Why does credentialId need to be unique across all users?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340916443,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDM=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
+            "name": "stat:Discuss",
+            "color": "207de5",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "emlun",
         "isPullRequest": false
       },
       {
@@ -112,7 +132,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "ve7jtb",
         "isPullRequest": true
       },
       {
@@ -210,7 +230,17 @@
         "created_at": "2020-03-24T23:30:27Z",
         "closed_at": null,
         "title": "Prohibit Create Credential from cross-origin iframes",
-        "labels": [],
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "jcjones",
         "isPullRequest": true
       },
