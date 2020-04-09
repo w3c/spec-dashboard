@@ -7,6 +7,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 253,
+        "created_at": "2020-04-08T21:04:53Z",
+        "closed_at": null,
+        "title": "Added DID resolution and dereferencing contracts.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 252,
+        "created_at": "2020-04-07T16:43:58Z",
+        "closed_at": "2020-04-07T18:07:18Z",
+        "title": "Fix typos.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 251,
         "created_at": "2020-04-03T16:18:31Z",
@@ -43,7 +63,7 @@
         "closed_at": null,
         "title": "Need term for relying party",
         "labels": [],
-        "assignee": null,
+        "assignee": "jandrieu",
         "isPullRequest": false
       },
       {
@@ -77,10 +97,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 245,
         "created_at": "2020-03-31T07:51:26Z",
-        "closed_at": null,
+        "closed_at": "2020-04-07T16:09:41Z",
         "title": "Fix references that should be non-normative",
         "labels": [],
         "assignee": null,
@@ -107,10 +127,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 242,
         "created_at": "2020-03-30T10:46:33Z",
-        "closed_at": null,
+        "closed_at": "2020-04-08T11:29:19Z",
         "title": "Clarify id value for json-ld",
         "labels": [],
         "assignee": null,
@@ -131,8 +151,27 @@
         "number": 240,
         "created_at": "2020-03-24T23:08:56Z",
         "closed_at": null,
-        "title": "Support for publicKeyJwk (JWKs in DIDs) is blocked by a review of all possible security interactions between JWKs and the existing verificationMethods",
-        "labels": [],
+        "title": "Should did-core restrict the use of JWK?",
+        "labels": [
+          {
+            "id": 1580539267,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
+            "name": "discuss",
+            "color": "5386bc",
+            "default": false,
+            "description": "Discuss during a WG call"
+          },
+          {
+            "id": 1697549506,
+            "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/question",
+            "name": "question",
+            "color": "f9a4f7",
+            "default": true,
+            "description": ""
+          }
+        ],
         "assignee": "msporny",
         "isPullRequest": false
       },
@@ -197,13 +236,23 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 234,
         "created_at": "2020-03-19T20:09:20Z",
-        "closed_at": null,
+        "closed_at": "2020-04-08T19:07:06Z",
         "title": "Clarify language around what the items in `service` should/must be",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1697549506,
+            "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/question",
+            "name": "question",
+            "color": "f9a4f7",
+            "default": true,
+            "description": ""
+          }
+        ],
+        "assignee": "llorllale",
         "isPullRequest": false
       },
       {
@@ -212,7 +261,17 @@
         "created_at": "2020-03-18T16:37:54Z",
         "closed_at": null,
         "title": "Can we nuance our mental model on DID control slightly?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -403,15 +462,6 @@
         "title": "Should we restrict the value of `id` when used to identify a subject?",
         "labels": [
           {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
-            "default": false,
-            "description": "There is an open PR to address this issue"
-          },
-          {
             "id": 1580539231,
             "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
             "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
@@ -419,6 +469,15 @@
             "color": "7eb520",
             "default": false,
             "description": "Editors should update the spec then close"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "iherman",
@@ -492,6 +551,15 @@
         "title": "Shall we need more words on how DIDs support for a centralized identity systems?",
         "labels": [
           {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          },
+          {
             "id": 1697549506,
             "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
             "url": "https://api.github.com/repos/w3c/did-core/labels/question",
@@ -501,7 +569,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "YueJing95",
         "isPullRequest": false
       },
       {
@@ -1239,15 +1307,6 @@
             "color": "7eb520",
             "default": false,
             "description": "Editors should update the spec then close"
-          },
-          {
-            "id": 1838604038,
-            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "5319e7",
-            "default": false,
-            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "selfissued",
@@ -1904,7 +1963,7 @@
         "number": 139,
         "created_at": "2019-12-06T15:26:42Z",
         "closed_at": null,
-        "title": "Add \"id\" DID URL matrix parameter instead of \"service\".",
+        "title": "Add \"id\" DID parameter instead of \"service\".",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -3255,7 +3314,17 @@
         "created_at": "2019-10-05T00:56:39Z",
         "closed_at": null,
         "title": "Add \"service-type\" DID URL matrix parameter.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -3275,7 +3344,17 @@
         "created_at": "2019-10-05T00:56:37Z",
         "closed_at": null,
         "title": "Add \"key-type\" DID URL matrix parameter.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4567,10 +4646,10 @@
     "recTrack": false,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 74,
         "created_at": "2020-04-02T09:43:08Z",
-        "closed_at": null,
+        "closed_at": "2020-04-09T03:44:27Z",
         "title": "Putting original authors back in",
         "labels": [],
         "assignee": null,
