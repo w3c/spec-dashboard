@@ -1,3 +1,662 @@
 [
-  null
+  {
+    "shortlink": "https://www.w3.org/TR/did-core/",
+    "description": "<p>This document specifies a common data model, a URL format, and a set of operations for DIDs, DID documents, and DID methods.</p>",
+    "title": "Decentralized Identifiers (DIDs) v1.0",
+    "shortname": "did-core",
+    "editor-draft": "https://w3c.github.io/did-core/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/did-core"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/did-core/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/did-core/versions/20191107",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/did-core/versions/20200408",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/did-core/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200408/",
+        "date": "2020-04-08",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200408"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200408/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200408/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200408/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200407/",
+        "date": "2020-04-07",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200407"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200407/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200407/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200407/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200407/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200403/",
+        "date": "2020-04-03",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200403"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200403/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200403/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200403/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200403/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200402/",
+        "date": "2020-04-02",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200402"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200402/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200402/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200402/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200402/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200330/",
+        "date": "2020-03-30",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200330"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200330/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200330/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200330/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200330/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200323/",
+        "date": "2020-03-23",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200323"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200323/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200323/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200323/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200323/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200319/",
+        "date": "2020-03-19",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200319"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200319/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200319/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200319/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200319/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200305/",
+        "date": "2020-03-05",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200305"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200305/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200305/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200305/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200305/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200304/",
+        "date": "2020-03-04",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200304"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200304/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200304/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200304/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200304/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200225/",
+        "date": "2020-02-25",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200225"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200225/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200225/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200225/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200225/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-core-20200223/",
+        "date": "2020-02-23",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200223"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200223/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200223/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200223/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20200223/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2019/WD-did-core-20191209/",
+        "date": "2019-12-09",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191209"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191209/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191209/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191209/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191209/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2019/WD-did-core-20191127/",
+        "date": "2019-11-27",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191127"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191127/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191127/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191127/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191127/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2019/WD-did-core-20191125/",
+        "date": "2019-11-25",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191125"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191125/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191125/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191125/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191125/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2019/WD-did-core-20191113/",
+        "date": "2019-11-13",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191113"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191113/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191113/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191113/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191113/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-core/",
+        "uri": "https://www.w3.org/TR/2019/WD-did-core-20191107/",
+        "date": "2019-11-07",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.0",
+        "shortlink": "https://www.w3.org/TR/did-core/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191107"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191107/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191107/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-core"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-core/versions/20191107/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/did-use-cases/",
+    "description": "<p>This document sets out use cases and requirements for a new type of identifier.</p>",
+    "title": "Use Cases and Requirements for Decentralized Identifiers",
+    "shortname": "did-use-cases",
+    "editor-draft": "https://w3c.github.io/did-use-cases/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/did-use-cases"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/did-use-cases/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/did-use-cases/versions/20191128",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/did-use-cases/versions/20200401",
+        "title": "Working Draft"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/did-use-cases/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/did-use-cases/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-use-cases-20200401/",
+        "date": "2020-04-01",
+        "informative": false,
+        "title": "Use Cases and Requirements for Decentralized Identifiers",
+        "shortlink": "https://www.w3.org/TR/did-use-cases/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20200401"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20200401/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20200401/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-use-cases"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20200401/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/did-use-cases/",
+        "uri": "https://www.w3.org/TR/2020/WD-did-use-cases-20200130/",
+        "date": "2020-01-30",
+        "informative": false,
+        "title": "Use Cases and Requirements for Decentralized Identifiers",
+        "shortlink": "https://www.w3.org/TR/did-use-cases/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20200130"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20200130/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20200130/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-use-cases"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20200130/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20200130/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/did-use-cases/",
+        "uri": "https://www.w3.org/TR/2019/WD-did-use-cases-20191204/",
+        "date": "2019-12-04",
+        "informative": false,
+        "title": "Use Cases and Requirements for Decentralized Identifiers",
+        "shortlink": "https://www.w3.org/TR/did-use-cases/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20191204"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20191204/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20191204/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-use-cases"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20191204/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20191204/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/did-use-cases/",
+        "uri": "https://www.w3.org/TR/2019/WD-did-use-cases-20191128/",
+        "date": "2019-11-28",
+        "informative": false,
+        "title": "Use Cases and Requirements for Decentralized Identifiers",
+        "shortlink": "https://www.w3.org/TR/did-use-cases/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20191128"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20191128/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20191128/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-use-cases"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-use-cases/versions/20191128/successors"
+          }
+        }
+      }
+    ]
+  }
 ]
