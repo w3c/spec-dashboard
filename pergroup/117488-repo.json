@@ -8,10 +8,40 @@
     "issues": [
       {
         "state": "open",
+        "number": 265,
+        "created_at": "2020-04-21T02:15:20Z",
+        "closed_at": null,
+        "title": "Add normative DID Resolution Metadata section.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 264,
+        "created_at": "2020-04-21T02:07:26Z",
+        "closed_at": null,
+        "title": "Add normative DID URL Dereferencing section.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 263,
+        "created_at": "2020-04-21T01:58:25Z",
+        "closed_at": null,
+        "title": "Add normative DID Resolution section.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 262,
         "created_at": "2020-04-20T01:12:04Z",
         "closed_at": null,
-        "title": "Add DID Resolution and Dereferencing to Architecture section (non-normative).",
+        "title": "Add non-normative DID Resolution and Dereferencing sections to Architecture.",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -131,6 +161,15 @@
             "color": "5386bc",
             "default": false,
             "description": "Discuss during a WG call"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "jricher",
@@ -212,7 +251,17 @@
         "created_at": "2020-04-01T13:51:09Z",
         "closed_at": null,
         "title": "Add initial content for DID Resolution.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -257,10 +306,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 243,
         "created_at": "2020-03-30T11:01:54Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T01:29:49Z",
         "title": "Working dfn for 'resource', for #182",
         "labels": [],
         "assignee": null,
@@ -1271,15 +1320,6 @@
         "title": "Use of undefined term \"resource\"",
         "labels": [
           {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
-            "default": false,
-            "description": "There is an open PR to address this issue"
-          },
-          {
             "id": 1580539231,
             "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
             "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
@@ -1287,6 +1327,15 @@
             "color": "7eb520",
             "default": false,
             "description": "Editors should update the spec then close"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "selfissued",
