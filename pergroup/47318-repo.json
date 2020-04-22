@@ -1820,6 +1820,15 @@
             "color": "fbca04",
             "default": false,
             "description": null
+          },
+          {
+            "id": 1993375055,
+            "node_id": "MDU6TGFiZWwxOTkzMzc1MDU1",
+            "url": "https://api.github.com/repos/w3c/mediacapture-image/labels/tag-tracker",
+            "name": "tag-tracker",
+            "color": "7fff00",
+            "default": false,
+            "description": "Group bringing to attention of the TAG, or tracked by the TAG but not needing response."
           }
         ],
         "assignee": null,
@@ -6248,9 +6257,29 @@
     "issues": [
       {
         "state": "open",
+        "number": 685,
+        "created_at": "2020-04-20T19:03:55Z",
+        "closed_at": null,
+        "title": "Don't fire mute event on already muted track. Ditto unmute/unmuted.",
+        "labels": [
+          {
+            "id": 291554148,
+            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 684,
         "created_at": "2020-04-16T14:55:45Z",
-        "closed_at": null,
+        "closed_at": "2020-04-20T15:16:36Z",
         "title": "respec 25.4.2 upgrade: errors",
         "labels": [],
         "assignee": "dontcallmedom",
@@ -6273,7 +6302,7 @@
             "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
           }
         ],
-        "assignee": null,
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -21014,6 +21043,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 2514,
+        "created_at": "2020-04-20T20:59:36Z",
+        "closed_at": null,
+        "title": "Validate back-to-back offers as if answers were applied in between.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2513,
         "created_at": "2020-04-17T16:10:31Z",
         "closed_at": null,
@@ -21028,7 +21067,17 @@
         "created_at": "2020-04-14T20:26:03Z",
         "closed_at": null,
         "title": "Calling SRD twice isn't web compatible",
-        "labels": [],
+        "labels": [
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": false
       },
@@ -62580,6 +62629,166 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 570,
+        "created_at": "2020-04-21T13:46:40Z",
+        "closed_at": null,
+        "title": "Make trackIds obsolete",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 569,
+        "created_at": "2020-04-21T12:43:23Z",
+        "closed_at": null,
+        "title": "Add \"required\" specifiers within dictionaries",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 568,
+        "created_at": "2020-04-21T11:35:25Z",
+        "closed_at": null,
+        "title": "playout delay",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 567,
+        "created_at": "2020-04-21T11:22:09Z",
+        "closed_at": null,
+        "title": "clarifies JB metric measurement",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 566,
+        "created_at": "2020-04-21T11:03:01Z",
+        "closed_at": "2020-04-21T11:07:47Z",
+        "title": "remoteSource obsolete, relayedSource added",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 565,
+        "created_at": "2020-04-21T10:49:15Z",
+        "closed_at": "2020-04-21T11:10:22Z",
+        "title": "Add ICE ufrag to RTCTransportStats",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 564,
+        "created_at": "2020-04-21T10:12:49Z",
+        "closed_at": "2020-04-21T10:32:40Z",
+        "title": "Add iceState to RTCTransportStats",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 563,
+        "created_at": "2020-04-21T09:27:02Z",
+        "closed_at": "2020-04-21T10:21:05Z",
+        "title": "Update targetBitrate definition",
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 562,
+        "created_at": "2020-04-21T09:26:57Z",
+        "closed_at": "2020-04-21T09:41:44Z",
+        "title": "Move Priority to the obsolete section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 561,
+        "created_at": "2020-04-21T08:54:56Z",
+        "closed_at": "2020-04-21T09:40:59Z",
+        "title": "Noted that byte counts don't include connectivity checks.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 560,
+        "created_at": "2020-04-21T08:28:48Z",
+        "closed_at": "2020-04-21T10:21:05Z",
+        "title": "targetBitrate should be defined as current encoder target settings",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 559,
+        "created_at": "2020-04-21T08:11:47Z",
+        "closed_at": null,
+        "title": "RTCScalableVideoCodecLayerStats added",
+        "labels": [
+          {
+            "id": 490238153,
+            "node_id": "MDU6TGFiZWw0OTAyMzgxNTM=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
+            "name": "Icebox",
+            "color": "c5def5",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 558,
+        "created_at": "2020-04-21T07:45:28Z",
+        "closed_at": null,
+        "title": "Lifetime of \"outbound-rtp\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 557,
         "created_at": "2020-03-31T12:07:58Z",
@@ -62600,10 +62809,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 556,
         "created_at": "2020-03-25T14:29:35Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T09:40:59Z",
         "title": "Clarify that ICE ping bytes are not included in payload bytes",
         "labels": [
           {
@@ -62616,7 +62825,7 @@
             "description": null
           }
         ],
-        "assignee": "henbos",
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
@@ -62976,13 +63185,13 @@
         "title": "Flatten the stats hierarchy",
         "labels": [
           {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
+            "id": 867275345,
+            "node_id": "MDU6TGFiZWw4NjcyNzUzNDU=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editorial",
+            "name": "Editorial",
+            "color": "e99695",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
         "assignee": "henbos",
@@ -63006,11 +63215,11 @@
         "title": "Mark trackId references obsolete and add other references if/where necessary",
         "labels": [
           {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
             "default": false,
             "description": null
           }
@@ -63029,10 +63238,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 529,
         "created_at": "2020-01-15T14:40:03Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T09:41:43Z",
         "title": "Move RTCMediaHandlerStats::priority to the obsolete section",
         "labels": [
           {
@@ -63045,22 +63254,22 @@
             "description": null
           }
         ],
-        "assignee": "henbos",
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 528,
         "created_at": "2020-01-15T14:39:50Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T11:07:47Z",
         "title": "Move RTCMediaHandlerStats::remoteSource to the obsolete section",
         "labels": [
           {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
             "default": false,
             "description": null
           }
@@ -63349,10 +63558,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 510,
         "created_at": "2019-10-02T15:39:54Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T12:36:30Z",
         "title": "Effect of ICE restart on \"transport\" and \"candidate\" / \"candidate-pair\"",
         "labels": [],
         "assignee": "henbos",
@@ -63394,7 +63603,17 @@
         "created_at": "2019-10-02T14:11:56Z",
         "closed_at": null,
         "title": "What does a \"transport\" consider as \"payload\"?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "vr000m",
         "isPullRequest": false
       },
@@ -63739,10 +63958,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 483,
         "created_at": "2019-09-10T13:22:05Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T10:32:39Z",
         "title": "RTCTransportStats is missing iceState",
         "labels": [
           {
@@ -63755,7 +63974,7 @@
             "description": null
           }
         ],
-        "assignee": "vr000m",
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
@@ -64053,10 +64272,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 467,
         "created_at": "2019-08-14T11:47:08Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T10:14:05Z",
         "title": "Deleted was removed in #462, was not added to Obsolete section",
         "labels": [
           {
@@ -64069,7 +64288,7 @@
             "description": null
           }
         ],
-        "assignee": "youennf",
+        "assignee": "vr000m",
         "isPullRequest": false
       },
       {
@@ -64088,7 +64307,17 @@
         "created_at": "2019-07-25T08:14:26Z",
         "closed_at": null,
         "title": "Measuring background noise (energy)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 490238153,
+            "node_id": "MDU6TGFiZWw0OTAyMzgxNTM=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
+            "name": "Icebox",
+            "color": "c5def5",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "karthikbr82",
         "isPullRequest": false
       },
@@ -64249,27 +64478,27 @@
             "description": ""
           }
         ],
-        "assignee": "vr000m",
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 453,
         "created_at": "2019-06-26T13:29:12Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T11:07:47Z",
         "title": "Add remoteSource to \"media-source\"",
         "labels": [
           {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
             "default": false,
             "description": null
           }
         ],
-        "assignee": "henbos",
+        "assignee": "vr000m",
         "isPullRequest": false
       },
       {
@@ -64485,8 +64714,18 @@
         "created_at": "2019-05-31T12:35:30Z",
         "closed_at": null,
         "title": "Clarify jitterBufferDelay/jitterBufferEmittedCount for video",
-        "labels": [],
-        "assignee": "henbos",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "vr000m",
         "isPullRequest": false
       },
       {
@@ -64578,10 +64817,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 436,
         "created_at": "2019-05-20T13:35:58Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T08:16:28Z",
         "title": "Fix RTCMediaSourceStats typo",
         "labels": [
           {
@@ -64592,18 +64831,9 @@
             "color": "e99695",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
-            "default": false,
-            "description": null
           }
         ],
-        "assignee": "henbos",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -64701,6 +64931,15 @@
         "closed_at": null,
         "title": "RTCVideo*Stats: Video Device Errors",
         "labels": [
+          {
+            "id": 490238153,
+            "node_id": "MDU6TGFiZWw0OTAyMzgxNTM=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
+            "name": "Icebox",
+            "color": "c5def5",
+            "default": false,
+            "description": null
+          },
           {
             "id": 729375312,
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
@@ -64805,10 +65044,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 423,
         "created_at": "2019-04-04T09:11:49Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T08:29:21Z",
         "title": "Make targetBitrate obsolete (was: targetBitrate should not be \"measured over 1 second window\")",
         "labels": [
           {
@@ -64821,7 +65060,7 @@
             "description": null
           }
         ],
-        "assignee": "henbos",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -65181,11 +65420,11 @@
         "title": "Add SVC stats in RTC[In/Out]boundRtpStreamStats",
         "labels": [
           {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
             "default": false,
             "description": null
           },
@@ -65199,7 +65438,7 @@
             "description": ""
           }
         ],
-        "assignee": "vr000m",
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -65392,7 +65631,17 @@
         "created_at": "2019-03-06T13:36:44Z",
         "closed_at": null,
         "title": "Correlating RTCInboundRtpStreamStats with simulcast streams",
-        "labels": [],
+        "labels": [
+          {
+            "id": 490238153,
+            "node_id": "MDU6TGFiZWw0OTAyMzgxNTM=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
+            "name": "Icebox",
+            "color": "c5def5",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "vr000m",
         "isPullRequest": false
       },
@@ -65407,10 +65656,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 391,
         "created_at": "2019-02-13T20:01:12Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T12:02:00Z",
         "title": "audioLevel can be removed from \"track\"|\"receiver\"|\"sender\" stats",
         "labels": [],
         "assignee": "henbos",
@@ -65522,6 +65771,15 @@
         "closed_at": null,
         "title": "RTCAudioHandlerStats: Signal/Noise Ratio",
         "labels": [
+          {
+            "id": 490238153,
+            "node_id": "MDU6TGFiZWw0OTAyMzgxNTM=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
+            "name": "Icebox",
+            "color": "c5def5",
+            "default": false,
+            "description": null
+          },
           {
             "id": 729375312,
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
@@ -65684,10 +65942,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 374,
         "created_at": "2018-09-28T21:06:18Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T11:58:58Z",
         "title": "Exposing RTCIceCandidateStats.networkType might trigger fingerprinting",
         "labels": [
           {
@@ -65977,10 +66235,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 358,
         "created_at": "2018-08-01T15:54:19Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T11:10:22Z",
         "title": "identifying the ice generation of a candidate pair",
         "labels": [
           {
@@ -66002,7 +66260,7 @@
             "description": ""
           }
         ],
-        "assignee": "henbos",
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
@@ -66199,15 +66457,6 @@
             "color": "e99695",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
-            "default": false,
-            "description": null
           }
         ],
         "assignee": "henbos",
@@ -66414,10 +66663,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 329,
         "created_at": "2018-02-15T10:51:54Z",
-        "closed_at": null,
+        "closed_at": "2020-04-21T11:59:13Z",
         "title": "\"make travissetup\" does not work on mac",
         "labels": [
           {
@@ -66508,15 +66757,6 @@
             "color": "e99695",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
-            "default": false,
-            "description": null
           }
         ],
         "assignee": "vr000m",
@@ -66797,7 +67037,7 @@
             "description": null
           }
         ],
-        "assignee": "vr000m",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -67924,6 +68164,15 @@
         "closed_at": null,
         "title": "Add stat to reflect the redundancy of FEC/RED data",
         "labels": [
+          {
+            "id": 490238153,
+            "node_id": "MDU6TGFiZWw0OTAyMzgxNTM=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Icebox",
+            "name": "Icebox",
+            "color": "c5def5",
+            "default": false,
+            "description": null
+          },
           {
             "id": 729375312,
             "node_id": "MDU6TGFiZWw3MjkzNzUzMTI=",
