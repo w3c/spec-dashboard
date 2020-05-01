@@ -6347,29 +6347,77 @@
     "issues": [
       {
         "state": "open",
-        "number": 690,
-        "created_at": "2020-04-29T13:52:28Z",
+        "number": 692,
+        "created_at": "2020-04-30T14:34:35Z",
         "closed_at": null,
-        "title": "If getUserMedia access is not granted, devicechange event should only be fired if devices of a given type go from 0 to 1 or 1 to 0",
+        "title": "The devicechange event should not fire for changes of a device kind that cannot be used for a given browsing context",
         "labels": [],
         "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
         "state": "open",
-        "number": 689,
-        "created_at": "2020-04-28T22:09:01Z",
+        "number": 691,
+        "created_at": "2020-04-30T13:59:08Z",
         "closed_at": null,
-        "title": "Clear [[storedDeviceList]] on setting [[canExposeDeviceInfo]] to true",
+        "title": "Only fire devicechange on 0->1 & 1->0 kind devices pre-gUM.",
         "labels": [],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 690,
+        "created_at": "2020-04-29T13:52:28Z",
+        "closed_at": null,
+        "title": "If getUserMedia access is not granted, devicechange event should only be fired if devices of a given type go from 0 to 1 or 1 to 0",
+        "labels": [
+          {
+            "id": 1120811800,
+            "node_id": "MDU6TGFiZWwxMTIwODExODAw",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "7aea6b",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 291554148,
+            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 1513773658,
+            "node_id": "MDU6TGFiZWwxNTEzNzczNjU4",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 689,
+        "created_at": "2020-04-28T22:09:01Z",
+        "closed_at": "2020-04-30T14:36:25Z",
+        "title": "Clear [[storedDeviceList]] on setting [[canExposeDeviceInfo]] to true",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 688,
         "created_at": "2020-04-24T19:38:33Z",
-        "closed_at": null,
+        "closed_at": "2020-04-30T14:36:25Z",
         "title": "Only fire devicechange event when devices physically added/removed",
         "labels": [
           {
@@ -6378,6 +6426,15 @@
             "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/April%202020%20Interim",
             "name": "April 2020 Interim",
             "color": "006b75",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1120811800,
+            "node_id": "MDU6TGFiZWwxMTIwODExODAw",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "7aea6b",
             "default": false,
             "description": ""
           },
@@ -6395,12 +6452,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 687,
         "created_at": "2020-04-24T18:40:52Z",
-        "closed_at": null,
+        "closed_at": "2020-04-30T20:44:17Z",
         "title": "Remove UUID recommendation for deviceId and groupId.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 156531721,
+            "node_id": "MDU6TGFiZWwxNTY1MzE3MjE=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -6455,20 +6522,29 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 682,
         "created_at": "2020-04-07T16:20:45Z",
-        "closed_at": null,
+        "closed_at": "2020-04-30T20:44:17Z",
         "title": "Stop recommending UUID for deviceId/groupId",
         "labels": [
           {
-            "id": 1513773658,
-            "node_id": "MDU6TGFiZWwxNTEzNzczNjU4",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/privacy-tracker",
-            "name": "privacy-tracker",
+            "id": 291554148,
+            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 1831510905,
+            "node_id": "MDU6TGFiZWwxODMxNTEwOTA1",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/privacy-needs-resolution",
+            "name": "privacy-needs-resolution",
             "color": "d4af37",
             "default": false,
-            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+            "description": "Issue the Privacy Group has raised and looks for a response on."
           }
         ],
         "assignee": "jan-ivar",
@@ -6640,7 +6716,7 @@
             "description": "Issue the Internationalization Group has raised and looks for a response on."
           }
         ],
-        "assignee": null,
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
@@ -6651,13 +6727,13 @@
         "title": "Deprecate inputDeviceInfo.getCapabilities() for better privacy",
         "labels": [
           {
-            "id": 1513773658,
-            "node_id": "MDU6TGFiZWwxNTEzNzczNjU4",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/privacy-tracker",
-            "name": "privacy-tracker",
+            "id": 1831510905,
+            "node_id": "MDU6TGFiZWwxODMxNTEwOTA1",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/privacy-needs-resolution",
+            "name": "privacy-needs-resolution",
             "color": "d4af37",
             "default": false,
-            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+            "description": "Issue the Privacy Group has raised and looks for a response on."
           }
         ],
         "assignee": null,
@@ -21221,6 +21297,35 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 2521,
+        "created_at": "2020-04-30T13:46:49Z",
+        "closed_at": null,
+        "title": "Don't send closed or error events on closed data channels.",
+        "labels": [
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 2520,
         "created_at": "2020-04-28T18:27:56Z",
@@ -21237,7 +21342,7 @@
         "closed_at": null,
         "title": "addIceCandidate may not need to throw an error when no remoteDescription",
         "labels": [],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -21257,7 +21362,7 @@
             "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
           }
         ],
-        "assignee": null,
+        "assignee": "alvestrand",
         "isPullRequest": false
       },
       {
@@ -21336,7 +21441,17 @@
         "created_at": "2020-04-14T19:40:21Z",
         "closed_at": null,
         "title": "Should not fire errors on closed datachannels",
-        "labels": [],
+        "labels": [
+          {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          }
+        ],
         "assignee": "alvestrand",
         "isPullRequest": false
       },
@@ -21500,10 +21615,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2500,
         "created_at": "2020-03-26T15:09:25Z",
-        "closed_at": null,
+        "closed_at": "2020-04-30T14:13:56Z",
         "title": "respec error: non-existant Web Platform Test",
         "labels": [
           {
