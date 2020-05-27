@@ -8,6 +8,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 294,
+        "created_at": "2020-05-27T04:41:14Z",
+        "closed_at": null,
+        "title": "Create a seperate top level block for defining proof purposes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 293,
+        "created_at": "2020-05-26T15:39:24Z",
+        "closed_at": null,
+        "title": "Remove `proof`",
+        "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          }
+        ],
+        "assignee": "rhiaro",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 292,
         "created_at": "2020-05-22T14:04:25Z",
         "closed_at": null,
@@ -32,7 +62,17 @@
         "created_at": "2020-05-22T13:51:23Z",
         "closed_at": null,
         "title": "PING Horizontal Review",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1673981891,
+            "node_id": "MDU6TGFiZWwxNjczOTgxODkx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/horizontal%20review",
+            "name": "horizontal review",
+            "color": "d93f0b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -52,7 +92,17 @@
         "created_at": "2020-05-19T23:01:36Z",
         "closed_at": null,
         "title": "Should DID Methods expose Proof Purposes for DID Operations?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1697549506,
+            "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/question",
+            "name": "question",
+            "color": "f9a4f7",
+            "default": true,
+            "description": ""
+          }
+        ],
         "assignee": "csuwildcat",
         "isPullRequest": false
       },
@@ -122,8 +172,18 @@
         "created_at": "2020-05-13T09:22:11Z",
         "closed_at": null,
         "title": "Verification method block should be a first citizen like public keys",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
+          }
+        ],
+        "assignee": "rhiaro",
         "isPullRequest": false
       },
       {
@@ -142,8 +202,18 @@
         "created_at": "2020-05-12T03:05:58Z",
         "closed_at": null,
         "title": "Specifications needed for supported key representations publicKeyJwk, publcKeyPem, and publicKeyBase58",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          }
+        ],
+        "assignee": "selfissued",
         "isPullRequest": false
       },
       {
@@ -152,8 +222,18 @@
         "created_at": "2020-05-12T03:01:32Z",
         "closed_at": null,
         "title": "Remove uses of publicKeyHex ",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          }
+        ],
+        "assignee": "selfissued",
         "isPullRequest": false
       },
       {
@@ -1233,13 +1313,13 @@
         "title": "Who or what can be a DID Controller?",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
             "default": false,
-            "description": "Discuss during a WG call"
+            "description": "There is an open PR to address this issue"
           },
           {
             "id": 1697549506,
@@ -1479,10 +1559,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 200,
         "created_at": "2020-02-20T23:57:12Z",
-        "closed_at": null,
+        "closed_at": "2020-05-26T23:31:32Z",
         "title": "DID URL dereferencing and its relationship to different encodings/representations",
         "labels": [
           {
@@ -1662,6 +1742,15 @@
             "color": "5386bc",
             "default": false,
             "description": "Discuss during a WG call"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "jandrieu",
@@ -1815,10 +1904,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 181,
         "created_at": "2020-01-31T15:12:29Z",
-        "closed_at": null,
+        "closed_at": "2020-05-27T02:39:40Z",
         "title": "Use of undefined term \"verifiable timestamps\"",
         "labels": [
           {
@@ -2464,10 +2553,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 153,
         "created_at": "2020-01-22T04:09:51Z",
-        "closed_at": null,
+        "closed_at": "2020-05-27T07:42:11Z",
         "title": "Allowing embedded custom contexts",
         "labels": [
           {
@@ -4920,7 +5009,7 @@
             "description": "Discuss during the next WG call"
           }
         ],
-        "assignee": "selfissued",
+        "assignee": "rhiaro",
         "isPullRequest": false
       },
       {
