@@ -8,6 +8,56 @@
     "issues": [
       {
         "state": "open",
+        "number": 299,
+        "created_at": "2020-05-27T21:28:37Z",
+        "closed_at": null,
+        "title": "Define resolution function with data types, property values, and full metadata structures",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 298,
+        "created_at": "2020-05-27T21:28:11Z",
+        "closed_at": null,
+        "title": "Define resolution function with data types, property values, and simple metadata structures",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 297,
+        "created_at": "2020-05-27T21:27:55Z",
+        "closed_at": null,
+        "title": "Define resolution function with data types and property values",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 296,
+        "created_at": "2020-05-27T21:27:41Z",
+        "closed_at": null,
+        "title": "Define resolution function with data types",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 295,
+        "created_at": "2020-05-27T21:27:29Z",
+        "closed_at": null,
+        "title": "Define simple type-less resolution function",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 294,
         "created_at": "2020-05-27T04:41:14Z",
         "closed_at": null,
@@ -1372,15 +1422,6 @@
         "title": "Add section on extensibility and conformance",
         "labels": [
           {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
-            "default": false,
-            "description": "There is an open PR to address this issue"
-          },
-          {
             "id": 1580539231,
             "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
             "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
@@ -1397,6 +1438,15 @@
             "color": "ffc26d",
             "default": false,
             "description": "related to extensibility, json-ld contexts, external properties, etc"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "jricher",
@@ -2076,6 +2126,15 @@
             "color": "7eb520",
             "default": false,
             "description": "Editors should update the spec then close"
+          },
+          {
+            "id": 1732574802,
+            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/metadata",
+            "name": "metadata",
+            "color": "931416",
+            "default": false,
+            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": "selfissued",
@@ -2196,7 +2255,7 @@
             "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
-        "assignee": "selfissued",
+        "assignee": "rhiaro",
         "isPullRequest": false
       },
       {
@@ -2483,26 +2542,6 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
-        "number": 157,
-        "created_at": "2020-01-26T02:05:17Z",
-        "closed_at": null,
-        "title": "Why are we using didv in our core context?",
-        "labels": [
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
-          }
-        ],
-        "assignee": "OR13",
-        "isPullRequest": false
-      },
-      {
         "state": "closed",
         "number": 156,
         "created_at": "2020-01-25T18:18:36Z",
@@ -2573,10 +2612,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 152,
         "created_at": "2020-01-21T19:44:40Z",
-        "closed_at": null,
+        "closed_at": "2020-05-28T00:46:29Z",
         "title": "Do we need a DID method-type feature (capturing new discussion)",
         "labels": [
           {
