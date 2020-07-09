@@ -8,12 +8,91 @@
     "issues": [
       {
         "state": "open",
+        "number": 1453,
+        "created_at": "2020-07-08T19:23:08Z",
+        "closed_at": null,
+        "title": "add additional attestation format(s) from Apple",
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1452,
+        "created_at": "2020-07-08T17:55:06Z",
+        "closed_at": null,
+        "title": "Update RP ID definition to allow URL syntax or arbitrary strings",
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "equalsJeffH",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1451,
+        "created_at": "2020-07-08T16:31:49Z",
+        "closed_at": "2020-07-08T19:08:01Z",
+        "title": "Use conforming appidExclude client extension output",
+        "labels": [
+          {
+            "id": 545631731,
+            "node_id": "MDU6TGFiZWw1NDU2MzE3MzE=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:extensions",
+            "name": "subtype:extensions",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "selfissued",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 1450,
         "created_at": "2020-07-02T16:06:43Z",
-        "closed_at": null,
+        "closed_at": "2020-07-08T19:05:53Z",
         "title": "Prohibit compressed points in COSE keys.",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "agl",
         "isPullRequest": true
       },
       {
@@ -47,12 +126,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1447,
         "created_at": "2020-06-28T11:12:39Z",
-        "closed_at": null,
+        "closed_at": "2020-07-08T19:05:53Z",
         "title": "Unclear whether compressed curve points need to be supported by RPs",
         "labels": [
+          {
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false,
+            "description": null
+          },
           {
             "id": 340917025,
             "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
@@ -96,12 +184,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1445,
         "created_at": "2020-06-23T21:20:21Z",
-        "closed_at": null,
+        "closed_at": "2020-07-08T19:08:01Z",
         "title": "§9.2 requires client extension output but appidExclude sets none",
         "labels": [
+          {
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false,
+            "description": null
+          },
           {
             "id": 545631731,
             "node_id": "MDU6TGFiZWw1NDU2MzE3MzE=",
@@ -539,7 +636,7 @@
         "number": 1425,
         "created_at": "2020-05-27T15:48:36Z",
         "closed_at": null,
-        "title": "Add Yubico's proposed recovery extension",
+        "title": "Add recovery extension",
         "labels": [
           {
             "id": 1631598003,
@@ -932,6 +1029,15 @@
         "closed_at": null,
         "title": "update RP ID definition to allow URL syntax or arbitrary strings",
         "labels": [
+          {
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false,
+            "description": null
+          },
           {
             "id": 340916444,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
@@ -9869,6 +9975,15 @@
             "color": "d96bef",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 1631598003,
+            "node_id": "MDU6TGFiZWwxNjMxNTk4MDAz",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:puntable",
+            "name": "stat:puntable",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Punt to next draft if needed"
           },
           {
             "id": 766892790,
