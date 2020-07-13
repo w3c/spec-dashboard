@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 345,
+        "created_at": "2020-07-12T15:19:33Z",
+        "closed_at": null,
+        "title": "Restructure Core Properties section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 344,
         "created_at": "2020-07-12T05:00:49Z",
         "closed_at": null,
@@ -72,8 +82,18 @@
         "created_at": "2020-07-02T16:58:10Z",
         "closed_at": null,
         "title": "Remove proof and service example from CBOR section",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          }
+        ],
+        "assignee": "jonnycrunch",
         "isPullRequest": false
       },
       {
@@ -212,7 +232,17 @@
         "created_at": "2020-06-22T13:22:30Z",
         "closed_at": null,
         "title": "Update data model parts of spec to refer to Infra specification",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          }
+        ],
         "assignee": "rhiaro",
         "isPullRequest": false
       },
@@ -1512,6 +1542,15 @@
         "closed_at": null,
         "title": "Clear explanation on how can A DID have more than one controller",
         "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          },
           {
             "id": 1697549506,
             "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
@@ -3263,15 +3302,6 @@
         "title": "What are entityship and start-of-authority (SOA) problems?",
         "labels": [
           {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
-            "default": false,
-            "description": "There is an open PR to address this issue"
-          },
-          {
             "id": 1580539231,
             "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
             "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
@@ -3279,6 +3309,15 @@
             "color": "7eb520",
             "default": false,
             "description": "Editors should update the spec then close"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "selfissued",
@@ -4093,13 +4132,13 @@
         "title": "When is a DID subject not a DID controller (if ever)?",
         "labels": [
           {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "There is an open PR to address this issue"
+            "description": "Issue will be closed shortly if no objections"
           },
           {
             "id": 1697549506,
