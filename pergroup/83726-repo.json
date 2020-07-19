@@ -1874,6 +1874,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 1303,
+        "created_at": "2020-07-19T07:51:20Z",
+        "closed_at": null,
+        "title": "Prohibit rowcount and rowindex on rows in treegrid and prohibit posinset and setsize on rows in tables and grids",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1302,
+        "created_at": "2020-07-18T13:01:40Z",
+        "closed_at": null,
+        "title": "Can a complementary landmark be nested inside the main landmark",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1301,
         "created_at": "2020-07-16T22:52:06Z",
         "closed_at": null,
@@ -23129,12 +23149,41 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 1455,
+        "created_at": "2020-07-19T06:46:03Z",
+        "closed_at": "2020-07-19T08:22:54Z",
+        "title": "Update indices and coverage reports",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 1454,
         "created_at": "2020-07-17T14:45:55Z",
         "closed_at": null,
         "title": "Update menubar editor example to use in-line SVG images for state and property information",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": "Addition or improvement that doesn't fix a bug or errant guidance."
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "bce82c",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": "jongund",
         "isPullRequest": false
       },
@@ -23152,7 +23201,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -23223,7 +23272,26 @@
         "created_at": "2020-07-15T00:39:09Z",
         "closed_at": null,
         "title": "Bugs with regression test script: tests running when they should not, and not running when they should",
-        "labels": [],
+        "labels": [
+          {
+            "id": 521362776,
+            "node_id": "MDU6TGFiZWw1MjEzNjI3NzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Infrastructure",
+            "name": "Infrastructure",
+            "color": "bfdadc",
+            "default": false,
+            "description": "Related to maintaining task force and repo operations, processes, systems, documentation"
+          },
+          {
+            "id": 993128257,
+            "node_id": "MDU6TGFiZWw5OTMxMjgyNTc=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/regression-testing",
+            "name": "regression-testing",
+            "color": "ea91da",
+            "default": false,
+            "description": "Related to AVA regression tests of example pages or AVA framework implementation within repo"
+          }
+        ],
         "assignee": "spectranaut",
         "isPullRequest": false
       },
@@ -23282,7 +23350,35 @@
         "created_at": "2020-07-13T19:17:39Z",
         "closed_at": null,
         "title": "Multi-Select Listbox - Navigation keys toggle selection state [Safari][Voiceover]",
-        "labels": [],
+        "labels": [
+          {
+            "id": 431710669,
+            "node_id": "MDU6TGFiZWw0MzE3MTA2Njk=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Feedback",
+            "name": "Feedback",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Issue raised by or for collecting input from people outside APG task force"
+          },
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": "Code defects; not for inaccurate prose"
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "bce82c",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -23321,7 +23417,35 @@
         "created_at": "2020-07-12T20:24:18Z",
         "closed_at": null,
         "title": "The semantics of \"greyed\" is ambiguous when describing a list item's appearance",
-        "labels": [],
+        "labels": [
+          {
+            "id": 366002436,
+            "node_id": "MDU6TGFiZWwzNjYwMDI0MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/documentation",
+            "name": "documentation",
+            "color": "f9d0c4",
+            "default": true,
+            "description": "Related to any documenting prose in any APG content or resource"
+          },
+          {
+            "id": 365998393,
+            "node_id": "MDU6TGFiZWwzNjU5OTgzOTM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false,
+            "description": "Changes to prose that don't alter intended meaning, e.g., phrasing, grammar. May fix inaccuracies."
+          },
+          {
+            "id": 525886203,
+            "node_id": "MDU6TGFiZWw1MjU4ODYyMDM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/guidance%20section",
+            "name": "guidance section",
+            "color": "fef2c0",
+            "default": false,
+            "description": "Related to an APG guidance section."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -23331,16 +23455,44 @@
         "created_at": "2020-07-10T16:14:48Z",
         "closed_at": null,
         "title": "[Question] aria-rowcount and aria-rowindex vs. aria-setsize and aria-posinset for treegrid",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2214595337,
+            "node_id": "MDU6TGFiZWwyMjE0NTk1MzM3",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/agenda",
+            "name": "agenda",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Include in upcoming Authoring Practices Task Force meeting"
+          },
+          {
+            "id": 525886203,
+            "node_id": "MDU6TGFiZWw1MjU4ODYyMDM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/guidance%20section",
+            "name": "guidance section",
+            "color": "fef2c0",
+            "default": false,
+            "description": "Related to an APG guidance section."
+          },
+          {
+            "id": 354259936,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzY=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true,
+            "description": "Issue asking a question"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1441,
         "created_at": "2020-07-10T15:41:17Z",
-        "closed_at": null,
-        "title": "Update landmarks to make the HTML techniques active when page is loaded",
+        "closed_at": "2020-07-19T01:55:17Z",
+        "title": "Landmark Example pages: Make HTML techniques tab active on page load",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -23351,7 +23503,26 @@
         "created_at": "2020-07-08T15:02:48Z",
         "closed_at": null,
         "title": "Firefox crashing when interacting with Date Picker Combobox example when using JAWS or NVDA",
-        "labels": [],
+        "labels": [
+          {
+            "id": 721829567,
+            "node_id": "MDU6TGFiZWw3MjE4Mjk1Njc=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Not%20for%20Practices",
+            "name": "Not for Practices",
+            "color": "045aef",
+            "default": false,
+            "description": "Outside scope of APG but may be used to track external dependencies"
+          },
+          {
+            "id": 2214611476,
+            "node_id": "MDU6TGFiZWwyMjE0NjExNDc2",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/browser-dependency",
+            "name": "browser-dependency",
+            "color": "d4c5f9",
+            "default": false,
+            "description": "Track browser bugs of particular interest; not a practices issue but may impact APG."
+          }
+        ],
         "assignee": "jongund",
         "isPullRequest": false
       },
@@ -23515,7 +23686,44 @@
         "created_at": "2020-07-03T17:29:35Z",
         "closed_at": null,
         "title": "Add example of separator role to menu (button)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1650355960,
+            "node_id": "MDU6TGFiZWwxNjUwMzU1OTYw",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/Simple",
+            "name": "Simple",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Time or effort required for resolution anticipated to be modest."
+          },
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": "Addition or improvement that doesn't fix a bug or errant guidance."
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "bce82c",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          },
+          {
+            "id": 717037865,
+            "node_id": "MDU6TGFiZWw3MTcwMzc4NjU=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "b60205",
+            "default": true,
+            "description": "Issue with Straightforward resolution; could be  good learning experience for new contributors"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -23560,12 +23768,31 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1428,
         "created_at": "2020-06-22T21:01:06Z",
-        "closed_at": null,
-        "title": "Modal Dialog Example",
-        "labels": [],
+        "closed_at": "2020-07-19T08:46:30Z",
+        "title": "Modal Dialog Example: utils.js missing from js list on example page",
+        "labels": [
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": "Code defects; not for inaccurate prose"
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "bce82c",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -24056,12 +24283,31 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1391,
         "created_at": "2020-04-27T13:56:23Z",
-        "closed_at": null,
+        "closed_at": "2020-07-19T01:55:17Z",
         "title": "Landmark Example update to make HTML technique first view",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": "Addition or improvement that doesn't fix a bug or errant guidance."
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "bce82c",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -24436,12 +24682,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1359,
         "created_at": "2020-03-24T20:28:13Z",
-        "closed_at": null,
+        "closed_at": "2020-07-19T00:40:39Z",
         "title": "Navigation Menubar Example: Improve high contrast support and refactor javascript",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2214619465,
+            "node_id": "MDU6TGFiZWwyMjE0NjE5NDY1",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/assistive-technology-dependency",
+            "name": "assistive-technology-dependency",
+            "color": "d88b6a",
+            "default": false,
+            "description": "Identify PRs and issues that document assistive tech issues that are outside APG scope"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -24484,10 +24740,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1357,
         "created_at": "2020-03-19T23:42:08Z",
-        "closed_at": null,
+        "closed_at": "2020-07-19T00:40:38Z",
         "title": "navigation menubar example: Improve high contrast support and refactor  Javascript",
         "labels": [
           {
@@ -25896,7 +26152,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -26520,7 +26776,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -26540,7 +26796,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -27522,7 +27778,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -28169,7 +28425,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -28511,7 +28767,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -35292,7 +35548,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -36242,7 +36498,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -36735,7 +36991,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -37190,7 +37446,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           },
           {
             "id": 354259937,
@@ -37285,7 +37541,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -37783,7 +38039,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": "mcking65",
@@ -39281,7 +39537,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
@@ -42422,7 +42678,7 @@
             "name": "Not for Practices",
             "color": "045aef",
             "default": false,
-            "description": "Outside scope of APG"
+            "description": "Outside scope of APG but may be used to track external dependencies"
           }
         ],
         "assignee": null,
