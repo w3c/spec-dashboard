@@ -8,12 +8,42 @@
     "issues": [
       {
         "state": "open",
+        "number": 362,
+        "created_at": "2020-07-28T23:29:20Z",
+        "closed_at": null,
+        "title": "Update context requirements for JSON-LD producers/consumers.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 361,
+        "created_at": "2020-07-28T22:49:34Z",
+        "closed_at": null,
+        "title": "Define serializations for Numbers, Dates, other properties",
+        "labels": [],
+        "assignee": "jricher",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 360,
+        "created_at": "2020-07-28T14:17:32Z",
+        "closed_at": null,
+        "title": "Simplify DID URL ABNF",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 359,
         "created_at": "2020-07-24T14:35:12Z",
         "closed_at": null,
         "title": "Allow serviceEndpoint to be a string, array, or object",
         "labels": [],
-        "assignee": null,
+        "assignee": "csuwildcat",
         "isPullRequest": false
       },
       {
@@ -22,8 +52,18 @@
         "created_at": "2020-07-24T14:16:32Z",
         "closed_at": null,
         "title": "Inconsistency between using key or value to define different types",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -62,7 +102,7 @@
             "description": "issues and PRs related to key formats, specs, algorithms, etc."
           }
         ],
-        "assignee": null,
+        "assignee": "OR13",
         "isPullRequest": false
       },
       {
@@ -126,10 +166,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 350,
         "created_at": "2020-07-16T10:48:40Z",
-        "closed_at": null,
+        "closed_at": "2020-07-28T13:31:13Z",
         "title": "Swap relying party for requesting party Will fix #248",
         "labels": [],
         "assignee": null,
@@ -166,10 +206,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 347,
         "created_at": "2020-07-14T20:49:09Z",
-        "closed_at": null,
+        "closed_at": "2020-07-28T13:18:25Z",
         "title": "Add Metadata section based on infra data structures.",
         "labels": [
           {
@@ -242,7 +282,7 @@
         "closed_at": null,
         "title": "Getting IANA Registration for some additional CBOR Tags",
         "labels": [],
-        "assignee": null,
+        "assignee": "ChristopherA",
         "isPullRequest": false
       },
       {
@@ -336,10 +376,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 333,
         "created_at": "2020-06-25T07:43:43Z",
-        "closed_at": null,
+        "closed_at": "2020-07-28T22:35:00Z",
         "title": "DID Syntax",
         "labels": [
           {
@@ -371,7 +411,7 @@
         "closed_at": null,
         "title": "rename master branch",
         "labels": [],
-        "assignee": null,
+        "assignee": "brentzundel",
         "isPullRequest": false
       },
       {
@@ -432,13 +472,13 @@
         "title": "Update data model parts of spec to refer to Infra specification",
         "labels": [
           {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "There is an open PR to address this issue"
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "rhiaro",
@@ -509,8 +549,27 @@
         "created_at": "2020-06-18T13:27:52Z",
         "closed_at": null,
         "title": "Privacy Considerations for service endpoints",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 2220620588,
+            "node_id": "MDU6TGFiZWwyMjIwNjIwNTg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/privacy-consideration",
+            "name": "privacy-consideration",
+            "color": "f998c9",
+            "default": false,
+            "description": "Issue is related to privacy considerations section."
+          },
+          {
+            "id": 2220619776,
+            "node_id": "MDU6TGFiZWwyMjIwNjE5Nzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/security-consideration",
+            "name": "security-consideration",
+            "color": "dd7c1a",
+            "default": false,
+            "description": "Issue is related to security considerations section."
+          }
+        ],
+        "assignee": "agropper",
         "isPullRequest": false
       },
       {
@@ -1968,22 +2027,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 248,
         "created_at": "2020-04-01T20:35:37Z",
-        "closed_at": null,
+        "closed_at": "2020-07-28T13:31:14Z",
         "title": "Need term for relying party",
-        "labels": [
-          {
-            "id": 1838604038,
-            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "5319e7",
-            "default": false,
-            "description": "Issue is ready for a PR"
-          }
-        ],
+        "labels": [],
         "assignee": "jandrieu",
         "isPullRequest": false
       },
@@ -2724,6 +2773,15 @@
         "title": "JSON-LD Contexts in Registry",
         "labels": [
           {
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          },
+          {
             "id": 1826575778,
             "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
             "url": "https://api.github.com/repos/w3c/did-core/labels/extensibility",
@@ -2731,15 +2789,6 @@
             "color": "ffc26d",
             "default": false,
             "description": "related to extensibility, json-ld contexts, external properties, etc"
-          },
-          {
-            "id": 1697549506,
-            "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/question",
-            "name": "question",
-            "color": "f9a4f7",
-            "default": true,
-            "description": ""
           }
         ],
         "assignee": "jricher",
@@ -2813,13 +2862,13 @@
         "title": "Add sections on DID Resolution",
         "labels": [
           {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "There is an open PR to address this issue"
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "peacekeeper",
@@ -4368,13 +4417,13 @@
         "title": "When is a DID subject not a DID controller (if ever)?",
         "labels": [
           {
-            "id": 1697549506,
-            "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/question",
-            "name": "question",
-            "color": "f9a4f7",
-            "default": true,
-            "description": ""
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "rhiaro",
