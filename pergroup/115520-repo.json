@@ -11267,6 +11267,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 5799,
+        "created_at": "2020-08-07T20:44:11Z",
+        "closed_at": null,
+        "title": "Fix #4562: add support for internationalized email addresses",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 5797,
         "created_at": "2020-08-06T18:55:54Z",
         "closed_at": null,
@@ -11816,15 +11826,25 @@
         "created_at": "2020-07-29T20:41:45Z",
         "closed_at": null,
         "title": "Added find-in-page definitions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 423985111,
+            "node_id": "MDU6TGFiZWw0MjM5ODUxMTE=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/i18n-tracker",
+            "name": "i18n-tracker",
+            "color": "f9c9ff",
+            "default": false,
+            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5769,
         "created_at": "2020-07-29T16:25:50Z",
-        "closed_at": null,
+        "closed_at": "2020-08-07T15:51:08Z",
         "title": "Add preservesPitch to HTMLMediaElement",
         "labels": [],
         "assignee": "foolip",
@@ -12278,7 +12298,35 @@
         "created_at": "2020-07-15T21:49:01Z",
         "closed_at": null,
         "title": "Define X-Frame-Options processing",
-        "labels": [],
+        "labels": [
+          {
+            "id": 255178143,
+            "node_id": "MDU6TGFiZWwyNTUxNzgxNDM=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/addition/proposal",
+            "name": "addition/proposal",
+            "color": "006b75",
+            "default": false,
+            "description": "New features or enhancements"
+          },
+          {
+            "id": 377132241,
+            "node_id": "MDU6TGFiZWwzNzcxMzIyNDE=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/security/privacy",
+            "name": "security/privacy",
+            "color": "0052cc",
+            "default": false,
+            "description": "There are security or privacy implications"
+          },
+          {
+            "id": 370052564,
+            "node_id": "MDU6TGFiZWwzNzAwNTI1NjQ=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/topic:%20navigation",
+            "name": "topic: navigation",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -120017,10 +120065,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 262,
         "created_at": "2015-10-19T13:53:36Z",
-        "closed_at": null,
+        "closed_at": "2020-08-07T15:51:52Z",
         "title": "HTMLMediaElement.preservesPitch",
         "labels": [
           {
