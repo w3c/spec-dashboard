@@ -11267,12 +11267,89 @@
     "issues": [
       {
         "state": "open",
+        "number": 5804,
+        "created_at": "2020-08-11T02:57:58Z",
+        "closed_at": null,
+        "title": "Confusing description of invalid value default for the `formmethod` attribute",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5803,
+        "created_at": "2020-08-10T21:02:22Z",
+        "closed_at": null,
+        "title": "BroadcastChannel needs partitioning",
+        "labels": [
+          {
+            "id": 255177504,
+            "node_id": "MDU6TGFiZWwyNTUxNzc1MDQ=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/normative%20change",
+            "name": "normative change",
+            "color": "207de5",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 377132241,
+            "node_id": "MDU6TGFiZWwzNzcxMzIyNDE=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/security/privacy",
+            "name": "security/privacy",
+            "color": "0052cc",
+            "default": false,
+            "description": "There are security or privacy implications"
+          },
+          {
+            "id": 570971672,
+            "node_id": "MDU6TGFiZWw1NzA5NzE2NzI=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/topic:%20serialize%20and%20transfer",
+            "name": "topic: serialize and transfer",
+            "color": "009800",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 744121899,
+            "node_id": "MDU6TGFiZWw3NDQxMjE4OTk=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/topic:%20storage",
+            "name": "topic: storage",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5802,
+        "created_at": "2020-08-10T19:35:20Z",
+        "closed_at": null,
+        "title": "Dialog should be better-behaved on misuse, probably",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5801,
+        "created_at": "2020-08-09T16:52:19Z",
+        "closed_at": null,
+        "title": "HTML element for barcodes/qr codes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 5800,
         "created_at": "2020-08-08T12:53:14Z",
         "closed_at": null,
         "title": "Fix 3 editorial typos",
         "labels": [],
-        "assignee": null,
+        "assignee": "domenic",
         "isPullRequest": true
       },
       {
@@ -11281,8 +11358,45 @@
         "created_at": "2020-08-07T20:44:11Z",
         "closed_at": null,
         "title": "Fix #4562: add support for internationalized email addresses",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 255178143,
+            "node_id": "MDU6TGFiZWwyNTUxNzgxNDM=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/addition/proposal",
+            "name": "addition/proposal",
+            "color": "006b75",
+            "default": false,
+            "description": "New features or enhancements"
+          },
+          {
+            "id": 423985111,
+            "node_id": "MDU6TGFiZWw0MjM5ODUxMTE=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/i18n-tracker",
+            "name": "i18n-tracker",
+            "color": "f9c9ff",
+            "default": false,
+            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
+          },
+          {
+            "id": 257427609,
+            "node_id": "MDU6TGFiZWwyNTc0Mjc2MDk=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/needs%20implementer%20interest",
+            "name": "needs implementer interest",
+            "color": "5319e7",
+            "default": false,
+            "description": "Moving the issue forward requires implementers to express interest"
+          },
+          {
+            "id": 402537936,
+            "node_id": "MDU6TGFiZWw0MDI1Mzc5MzY=",
+            "url": "https://api.github.com/repos/whatwg/html/labels/topic:%20forms",
+            "name": "topic: forms",
+            "color": "009800",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "annevk",
         "isPullRequest": true
       },
       {
@@ -11659,7 +11773,7 @@
             "description": "There are security or privacy implications"
           }
         ],
-        "assignee": null,
+        "assignee": "domenic",
         "isPullRequest": true
       },
       {
@@ -11847,7 +11961,7 @@
             "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
           }
         ],
-        "assignee": null,
+        "assignee": "domenic",
         "isPullRequest": true
       },
       {
@@ -11998,20 +12112,30 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5760,
         "created_at": "2020-07-24T23:25:23Z",
-        "closed_at": null,
+        "closed_at": "2020-08-10T18:12:18Z",
         "title": "Extend \"window open steps\" to observe COOP",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1359414069,
+            "node_id": "MDU6TGFiZWwxMzU5NDE0MDY5",
+            "url": "https://api.github.com/repos/whatwg/html/labels/topic:%20cross-origin-opener-policy",
+            "name": "topic: cross-origin-opener-policy",
+            "color": "009800",
+            "default": false,
+            "description": "Issues and ideas around the new \"inverse of rel=noopener\" header."
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5759,
         "created_at": "2020-07-24T17:58:57Z",
-        "closed_at": null,
+        "closed_at": "2020-08-10T18:12:18Z",
         "title": "Window opening steps return WindowProxy despite COOP",
         "labels": [
           {
@@ -12083,7 +12207,7 @@
         "closed_at": null,
         "title": "Introduce \"cross-origin-isolated\" permission",
         "labels": [],
-        "assignee": null,
+        "assignee": "domenic",
         "isPullRequest": true
       },
       {
@@ -12277,6 +12401,15 @@
             "color": "b60205",
             "default": false,
             "description": "Moving the issue forward requires someone to write tests"
+          },
+          {
+            "id": 1359414069,
+            "node_id": "MDU6TGFiZWwxMzU5NDE0MDY5",
+            "url": "https://api.github.com/repos/whatwg/html/labels/topic:%20cross-origin-opener-policy",
+            "name": "topic: cross-origin-opener-policy",
+            "color": "009800",
+            "default": false,
+            "description": "Issues and ideas around the new \"inverse of rel=noopener\" header."
           }
         ],
         "assignee": "annevk",
@@ -12337,7 +12470,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "annevk",
         "isPullRequest": true
       },
       {
@@ -16800,7 +16933,7 @@
             "description": "Relates to shadow trees (as defined in DOM)"
           }
         ],
-        "assignee": null,
+        "assignee": "annevk",
         "isPullRequest": true
       },
       {
