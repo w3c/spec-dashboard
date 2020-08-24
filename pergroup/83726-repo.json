@@ -23379,6 +23379,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 1504,
+        "created_at": "2020-08-23T21:39:45Z",
+        "closed_at": null,
+        "title": "fix: Use GH_TOKEN token for protected branch",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1503,
         "created_at": "2020-08-22T14:28:08Z",
         "closed_at": null,
@@ -23388,10 +23398,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1502,
         "created_at": "2020-08-22T01:26:31Z",
-        "closed_at": null,
+        "closed_at": "2020-08-24T05:49:28Z",
         "title": "chore: Remove extra files in gh-pages",
         "labels": [],
         "assignee": null,
@@ -23527,11 +23537,11 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1490,
         "created_at": "2020-08-09T22:40:48Z",
-        "closed_at": null,
-        "title": "Remove outdated menubar example files",
+        "closed_at": "2020-08-24T06:16:01Z",
+        "title": "Menubar Examples: Remove outdated files",
         "labels": [],
         "assignee": "spectranaut",
         "isPullRequest": true
@@ -23905,12 +23915,31 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1457,
         "created_at": "2020-07-20T20:33:42Z",
-        "closed_at": null,
-        "title": "Remove (or replace) all remaining instances of \"menubar-1\" and \"menubar-2\"",
-        "labels": [],
+        "closed_at": "2020-08-24T06:16:01Z",
+        "title": "Menubar Examples: Remove (or replace) all remaining instances of \"menubar-1\" and \"menubar-2\"",
+        "labels": [
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": "Addition or improvement that doesn't fix a bug or errant guidance."
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "bce82c",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -24708,7 +24737,26 @@
         "created_at": "2020-05-28T12:16:09Z",
         "closed_at": "2020-08-22T00:39:08Z",
         "title": "Flaky Regression Tests",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": "Code defects; not for inaccurate prose"
+          },
+          {
+            "id": 993128257,
+            "node_id": "MDU6TGFiZWw5OTMxMjgyNTc=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/regression-testing",
+            "name": "regression-testing",
+            "color": "ea91da",
+            "default": false,
+            "description": "Related to AVA regression tests of example pages or AVA framework implementation within repo"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
