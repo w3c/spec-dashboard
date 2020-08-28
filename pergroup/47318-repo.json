@@ -8,6 +8,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 110,
+        "created_at": "2020-08-27T21:14:25Z",
+        "closed_at": null,
+        "title": "Reference webidl properly to fix respec errors.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 109,
+        "created_at": "2020-08-27T09:25:34Z",
+        "closed_at": null,
+        "title": "Add an algorithm to expose audio output devices through enumerateDevices",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 108,
         "created_at": "2020-08-25T12:07:23Z",
         "closed_at": null,
@@ -1195,6 +1215,26 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 255,
+        "created_at": "2020-01-12T17:09:41Z",
+        "closed_at": null,
+        "title": "How to avoid wide-lens backfacing camera on new phones?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 254,
+        "created_at": "2020-08-27T08:34:50Z",
+        "closed_at": null,
+        "title": "Enforcing user gesture for getUserMedia in case of PTZ request",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 253,
@@ -6046,10 +6086,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 88,
         "created_at": "2020-08-25T12:07:21Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T06:47:58Z",
         "title": "Use autolinks from ReSpec where possible",
         "labels": [],
         "assignee": null,
@@ -7181,10 +7221,30 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
+        "number": 718,
+        "created_at": "2020-08-27T09:28:30Z",
+        "closed_at": "2020-08-27T14:58:46Z",
+        "title": "Extend enumerateDevices algorithm to handle non camera and microphone devices",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 717,
+        "created_at": "2020-08-26T14:21:49Z",
+        "closed_at": "2020-08-27T14:54:45Z",
+        "title": "Make it clear that User Agent can use another track in the allowed track set if some of the tracks fail.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 716,
         "created_at": "2020-08-24T07:23:21Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T14:51:42Z",
         "title": "Fix definitions ReSpec no longer finds",
         "labels": [
           {
@@ -7201,10 +7261,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 715,
         "created_at": "2020-08-21T18:27:06Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T14:51:42Z",
         "title": "respec errors",
         "labels": [
           {
@@ -7270,20 +7330,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 712,
         "created_at": "2020-08-20T14:12:53Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T05:33:51Z",
         "title": "[Feature] registerStream(deviceId = '0', stream = MediaStream)",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 711,
         "created_at": "2020-08-14T09:18:40Z",
-        "closed_at": null,
+        "closed_at": "2020-08-26T12:51:29Z",
         "title": "What happens for live tracks in case permission is revoked",
         "labels": [],
         "assignee": "youennf",
@@ -7300,20 +7360,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 709,
         "created_at": "2020-08-03T14:49:23Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T14:54:45Z",
         "title": "Bug in spec: circular dependency for enumerateDevices()",
         "labels": [],
         "assignee": "youennf",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 708,
         "created_at": "2020-08-02T15:56:59Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T05:19:07Z",
         "title": "Implementers must not refuse to open sources set as default at the machine: \"DOMException: Could not start audio source\" is not in the specification",
         "labels": [],
         "assignee": null,
@@ -7448,26 +7508,6 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 698,
-        "created_at": "2020-06-18T07:17:36Z",
-        "closed_at": null,
-        "title": "Expose the type of device in MediaDeviceInfo",
-        "labels": [
-          {
-            "id": 2176817996,
-            "node_id": "MDU6TGFiZWwyMTc2ODE3OTk2",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/MediaCapture%20Extensions",
-            "name": "MediaCapture Extensions",
-            "color": "f95e85",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": "youennf",
-        "isPullRequest": false
       },
       {
         "state": "open",
@@ -8239,46 +8279,6 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
-        "number": 656,
-        "created_at": "2020-01-12T21:19:22Z",
-        "closed_at": null,
-        "title": "No way to reliably choose correct camera & microphone upfront",
-        "labels": [
-          {
-            "id": 1851063826,
-            "node_id": "MDU6TGFiZWwxODUxMDYzODI2",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/February%202020%20Interim",
-            "name": "February 2020 Interim",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": "jan-ivar",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 655,
-        "created_at": "2020-01-12T17:09:41Z",
-        "closed_at": null,
-        "title": "How to avoid wide-lens backfacing camera on new phones?",
-        "labels": [
-          {
-            "id": 1851063826,
-            "node_id": "MDU6TGFiZWwxODUxMDYzODI2",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/February%202020%20Interim",
-            "name": "February 2020 Interim",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": "jan-ivar",
-        "isPullRequest": false
-      },
-      {
         "state": "closed",
         "number": 654,
         "created_at": "2020-01-09T18:13:53Z",
@@ -8297,62 +8297,6 @@
         "labels": [],
         "assignee": "jan-ivar",
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 652,
-        "created_at": "2019-12-16T21:22:04Z",
-        "closed_at": null,
-        "title": "In-content device selection a mistake. Too complicated, leaks info",
-        "labels": [
-          {
-            "id": 1851063826,
-            "node_id": "MDU6TGFiZWwxODUxMDYzODI2",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/February%202020%20Interim",
-            "name": "February 2020 Interim",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 1774152393,
-            "node_id": "MDU6TGFiZWwxNzc0MTUyMzkz",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/January%202020%20Interim",
-            "name": "January 2020 Interim",
-            "color": "bfd4f2",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 2176817996,
-            "node_id": "MDU6TGFiZWwyMTc2ODE3OTk2",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/MediaCapture%20Extensions",
-            "name": "MediaCapture Extensions",
-            "color": "f95e85",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 291554148,
-            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "009800",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 1513773658,
-            "node_id": "MDU6TGFiZWwxNTEzNzczNjU4",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/privacy-tracker",
-            "name": "privacy-tracker",
-            "color": "d4af37",
-            "default": false,
-            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
-          }
-        ],
-        "assignee": "jan-ivar",
-        "isPullRequest": false
       },
       {
         "state": "closed",
@@ -8375,10 +8319,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 649,
         "created_at": "2019-12-05T00:32:08Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T04:41:52Z",
         "title": "#632 broke ability for site to say \"give me first device\" even in Firefox",
         "labels": [],
         "assignee": null,
@@ -8823,10 +8767,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 628,
         "created_at": "2019-10-07T11:35:57Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T04:26:20Z",
         "title": "applying constraints on an ended track",
         "labels": [],
         "assignee": "youennf",
@@ -9102,10 +9046,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 608,
         "created_at": "2019-07-16T18:10:57Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T04:16:43Z",
         "title": "Is enumerateDevices list order significant?",
         "labels": [
           {
@@ -9150,26 +9094,6 @@
         "labels": [],
         "assignee": "caribouW3",
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 605,
-        "created_at": "2019-06-11T12:29:55Z",
-        "closed_at": null,
-        "title": "MediaTrackSettings lacks support of channel layout",
-        "labels": [
-          {
-            "id": 123211617,
-            "node_id": "MDU6TGFiZWwxMjMyMTE2MTc=",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Next%20Version",
-            "name": "Next Version",
-            "color": "84b6eb",
-            "default": false,
-            "description": "Used for \"not going to be solved in the current cycle-to-PR\""
-          }
-        ],
-        "assignee": "henbos",
-        "isPullRequest": false
       },
       {
         "state": "closed",
@@ -11680,7 +11604,7 @@
             "description": null
           }
         ],
-        "assignee": "alvestrand",
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -20612,10 +20536,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 146,
         "created_at": "2020-08-25T12:07:25Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T00:07:42Z",
         "title": "Use respec auto link features",
         "labels": [],
         "assignee": null,
@@ -22797,9 +22721,88 @@
     "issues": [
       {
         "state": "open",
+        "number": 2569,
+        "created_at": "2020-08-28T11:10:22Z",
+        "closed_at": null,
+        "title": "Fix indenting",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2568,
+        "created_at": "2020-08-27T16:45:04Z",
+        "closed_at": "2020-08-27T16:47:49Z",
+        "title": "Fix indenting",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2567,
+        "created_at": "2020-08-27T16:09:24Z",
+        "closed_at": "2020-08-27T16:27:53Z",
+        "title": "Add github action to tidy the spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2566,
+        "created_at": "2020-08-27T14:12:03Z",
+        "closed_at": null,
+        "title": "Update Perfect Negotiation example to have the boolean",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 2565,
         "created_at": "2020-08-25T08:40:02Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T13:58:17Z",
         "title": "Upgrade WebIDL to use undefined instead of void",
         "labels": [
           {
@@ -22840,6 +22843,15 @@
             "color": "fef2c0",
             "default": false,
             "description": null
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "alvestrand",
@@ -22876,10 +22888,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2559,
         "created_at": "2020-07-27T00:22:58Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T14:54:24Z",
         "title": "Update to latest ReSpec version",
         "labels": [
           {
@@ -22896,10 +22908,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2558,
         "created_at": "2020-07-23T13:01:51Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T16:27:53Z",
         "title": "\"Make tidy\" is missing",
         "labels": [
           {
@@ -22908,6 +22920,15 @@
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
             "name": "Editorial",
             "color": "fef2c0",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 306875762,
+            "node_id": "MDU6TGFiZWwzMDY4NzU3NjI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20assignee%20action",
+            "name": "Needs assignee action",
+            "color": "d4c5f9",
             "default": false,
             "description": null
           }
@@ -22950,6 +22971,15 @@
             "color": "fef2c0",
             "default": false,
             "description": null
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "henbos",
@@ -23233,26 +23263,6 @@
         ],
         "assignee": null,
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 2539,
-        "created_at": "2020-06-15T07:43:38Z",
-        "closed_at": null,
-        "title": "RTCRtpSender.getCapabilities() may not return correct information in sync",
-        "labels": [
-          {
-            "id": 1831426396,
-            "node_id": "MDU6TGFiZWwxODMxNDI2Mzk2",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/privacy-tracker",
-            "name": "privacy-tracker",
-            "color": "d4af37",
-            "default": false,
-            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
-          }
-        ],
-        "assignee": "alvestrand",
-        "isPullRequest": false
       },
       {
         "state": "closed",
@@ -24200,10 +24210,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2483,
         "created_at": "2020-02-27T15:53:33Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T14:26:17Z",
         "title": "What is the behavior when the RTP extension for rotation is sent?",
         "labels": [
           {
@@ -24473,6 +24483,15 @@
         "title": "Test coverage chapter 5",
         "labels": [
           {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 617322300,
             "node_id": "MDU6TGFiZWw2MTczMjIzMDA=",
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Test%20suite%20issue",
@@ -24707,6 +24726,15 @@
         "closed_at": null,
         "title": "`getCapabilities` seems to leak hardware capabilities w/o a permission",
         "labels": [
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 1831426396,
             "node_id": "MDU6TGFiZWwxODMxNDI2Mzk2",
@@ -25089,6 +25117,15 @@
         "closed_at": null,
         "title": "Review test coverage of the entire document",
         "labels": [
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 617322300,
             "node_id": "MDU6TGFiZWw2MTczMjIzMDA=",
@@ -26012,10 +26049,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2398,
         "created_at": "2019-12-05T15:42:08Z",
-        "closed_at": null,
+        "closed_at": "2020-08-27T14:38:13Z",
         "title": "Update Perfect Negotiation example with the right error code",
         "labels": [
           {
@@ -26048,6 +26085,15 @@
             "description": null
           },
           {
+            "id": 907371927,
+            "node_id": "MDU6TGFiZWw5MDczNzE5Mjc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "37ce2f",
+            "default": false,
+            "description": "Needs a WPT test"
+          },
+          {
             "id": 661202842,
             "node_id": "MDU6TGFiZWw2NjEyMDI4NDI=",
             "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/No%20specification%20change%20needed",
@@ -26055,6 +26101,15 @@
             "color": "0e8a16",
             "default": false,
             "description": null
+          },
+          {
+            "id": 1040788740,
+            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfdadc",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "jan-ivar",
