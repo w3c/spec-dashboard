@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 91,
+        "created_at": "2020-09-01T10:24:32Z",
+        "closed_at": null,
+        "title": "Step 2.E. Ignores Multiple Chosen Options",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 90,
         "created_at": "2020-08-28T16:42:27Z",
         "closed_at": null,
@@ -23410,6 +23420,64 @@
     "issues": [
       {
         "state": "open",
+        "number": 1508,
+        "created_at": "2020-09-01T08:25:06Z",
+        "closed_at": null,
+        "title": "Radio Group Examples: Fix Firefox wobble when navigating",
+        "labels": [
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": "Code defects; not for inaccurate prose"
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "bce82c",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
+        "assignee": "jongund",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1507,
+        "created_at": "2020-09-01T04:33:15Z",
+        "closed_at": null,
+        "title": "Raise browser bugs and ARIA test issues related to aria-selected on gridcell as revealed in PR 1494",
+        "labels": [
+          {
+            "id": 2214619465,
+            "node_id": "MDU6TGFiZWwyMjE0NjE5NDY1",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/assistive-technology-dependency",
+            "name": "assistive-technology-dependency",
+            "color": "d88b6a",
+            "default": false,
+            "description": "Identify PRs and issues that document assistive tech issues that are outside APG scope"
+          },
+          {
+            "id": 2214611476,
+            "node_id": "MDU6TGFiZWwyMjE0NjExNDc2",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/browser-dependency",
+            "name": "browser-dependency",
+            "color": "d4c5f9",
+            "default": false,
+            "description": "Track browser bugs of particular interest; not a practices issue but may impact APG."
+          }
+        ],
+        "assignee": "carmacleod",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1506,
         "created_at": "2020-08-25T19:42:09Z",
         "closed_at": null,
@@ -23529,11 +23597,11 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1494,
         "created_at": "2020-08-12T14:37:40Z",
-        "closed_at": null,
-        "title": "fixed aria-selection bug when using space key",
+        "closed_at": "2020-09-01T05:53:41Z",
+        "title": "Date Picker Dialog: fix aria-select  bug when using space key",
         "labels": [
           {
             "id": 354259931,
@@ -23638,10 +23706,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1485,
         "created_at": "2020-08-03T18:30:59Z",
-        "closed_at": null,
+        "closed_at": "2020-09-01T08:00:54Z",
         "title": "Update radiogroup examples: High Contrast Support and APG Coding Practices",
         "labels": [],
         "assignee": null,
@@ -23678,12 +23746,31 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1481,
         "created_at": "2020-08-01T11:12:35Z",
-        "closed_at": null,
+        "closed_at": "2020-09-01T08:00:54Z",
         "title": "Radio group: Contrasts insufficient (according to WCAG SC 1.4.11)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354259931,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzE=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": "Code defects; not for inaccurate prose"
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "bce82c",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -23702,7 +23789,7 @@
         "number": 1479,
         "created_at": "2020-07-30T14:33:52Z",
         "closed_at": null,
-        "title": "use dark background with white text for selected date",
+        "title": "Date Picker Calendar Grids: Fix color contrast for selected date",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -23800,7 +23887,7 @@
         "number": 1472,
         "created_at": "2020-07-27T18:41:30Z",
         "closed_at": null,
-        "title": "Updated color picker slider example: High Contrast, APG Coding Practices and Mobile Support",
+        "title": "Color Picker Slider Example: Improve high contrast support, Conformance with APG coding practices, and mobile support",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -26814,12 +26901,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1286,
         "created_at": "2019-12-17T00:18:08Z",
-        "closed_at": null,
+        "closed_at": "2020-09-01T08:20:04Z",
         "title": "radiogroup pattern omits semantic use of label element for radios",
-        "labels": [],
+        "labels": [
+          {
+            "id": 354259937,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5Mzc=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff",
+            "default": true,
+            "description": "Task force doesn't believe there is a need to make the requested change"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
