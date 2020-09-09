@@ -8,6 +8,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 393,
+        "created_at": "2020-09-08T21:28:59Z",
+        "closed_at": null,
+        "title": "Replace \"client\" with more appropriate terms",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 392,
+        "created_at": "2020-09-08T20:06:58Z",
+        "closed_at": null,
+        "title": "Specify format of version-time DID parameter value.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 391,
         "created_at": "2020-09-08T10:27:28Z",
         "closed_at": null,
@@ -152,7 +172,17 @@
         "created_at": "2020-08-26T13:59:03Z",
         "closed_at": null,
         "title": "Specify date and time format of version-time DID parameter value",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          }
+        ],
         "assignee": "peacekeeper",
         "isPullRequest": false
       },
@@ -505,10 +535,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 352,
         "created_at": "2020-07-21T05:25:57Z",
-        "closed_at": null,
+        "closed_at": "2020-09-08T22:36:54Z",
         "title": "Adds a note about controllership and and ownership of the identifier",
         "labels": [],
         "assignee": null,
@@ -2042,10 +2072,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 269,
         "created_at": "2020-04-28T07:41:35Z",
-        "closed_at": null,
+        "closed_at": "2020-09-08T22:38:51Z",
         "title": "transfer of controllership and it's intersection with the subject of an identifier",
         "labels": [
           {
@@ -2252,6 +2282,15 @@
         "closed_at": null,
         "title": "Definition of the term \"client\" in regard to SSI principles",
         "labels": [
+          {
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          },
           {
             "id": 1580539231,
             "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
@@ -3894,13 +3933,13 @@
             "description": "Related to JOSE specifications"
           },
           {
-            "id": 2055693582,
-            "node_id": "MDU6TGFiZWwyMDU1NjkzNTgy",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/needs-special-call",
-            "name": "needs-special-call",
-            "color": "d93f0b",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "Needs a special topic call to make progress"
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "OR13",
@@ -4581,13 +4620,13 @@
         "title": "Should the DID parameters be normative in the spec?",
         "labels": [
           {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "There is an open PR to address this issue"
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "peacekeeper",
@@ -5530,6 +5569,15 @@
             "color": "931416",
             "default": false,
             "description": "issues and PRs related to metadata"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "selfissued",
@@ -5879,15 +5927,6 @@
         "title": "Does DID Document metadata belong in the Document?",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
-            "default": false,
-            "description": "Needs further discussion before a pull request can be created"
-          },
-          {
             "id": 1732574802,
             "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
             "url": "https://api.github.com/repos/w3c/did-core/labels/metadata",
@@ -5895,6 +5934,15 @@
             "color": "931416",
             "default": false,
             "description": "issues and PRs related to metadata"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "peacekeeper",
@@ -6507,13 +6555,13 @@
         "title": "Details on the use of method-specific DID parameters",
         "labels": [
           {
-            "id": 1715041388,
-            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "fef2c0",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "There is an open PR to address this issue"
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "talltree",
@@ -6783,10 +6831,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 23,
         "created_at": "2019-09-20T06:44:01Z",
-        "closed_at": null,
+        "closed_at": "2020-09-08T15:45:10Z",
         "title": "publicKeyJwk, publicKeyHex, publicKeyBase64, publicKeyBase58 missing from context.",
         "labels": [
           {
