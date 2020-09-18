@@ -8,9 +8,39 @@
     "issues": [
       {
         "state": "open",
+        "number": 2249,
+        "created_at": "2020-09-17T23:40:20Z",
+        "closed_at": null,
+        "title": "Fix #2227: Mention ABSN.start acquires the contents of the buffer",
+        "labels": [],
+        "assignee": "rtoy",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2248,
+        "created_at": "2020-09-17T23:20:06Z",
+        "closed_at": null,
+        "title": "ABSN.start sends a control message on a suspended context?",
+        "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20WG%20review",
+            "name": "Needs WG review",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 2247,
         "created_at": "2020-09-16T18:04:58Z",
-        "closed_at": null,
+        "closed_at": "2020-09-18T11:02:31Z",
         "title": "PR Review doesn't seem to be working",
         "labels": [
           {
@@ -23,7 +53,7 @@
             "description": "Administrative issues wrt to the repository itself"
           }
         ],
-        "assignee": null,
+        "assignee": "padenot",
         "isPullRequest": false
       },
       {
@@ -269,8 +299,18 @@
         "created_at": "2020-07-26T22:18:29Z",
         "closed_at": null,
         "title": "Clarify buffer.copyToChannel() must be called before source.buffer = buffer else nothing is played",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 109540893,
+            "node_id": "MDU6TGFiZWwxMDk1NDA4OTM=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Editorial/Documentation",
+            "name": "Editorial/Documentation",
+            "color": "fbca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "rtoy",
         "isPullRequest": false
       },
       {
