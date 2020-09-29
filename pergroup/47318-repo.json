@@ -1246,6 +1246,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 264,
+        "created_at": "2020-09-29T08:24:17Z",
+        "closed_at": "2020-09-29T08:33:13Z",
+        "title": "Replace OverConstrainedError with TypeError",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 263,
+        "created_at": "2020-09-28T13:49:17Z",
+        "closed_at": null,
+        "title": "Does PTZ look good to you?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 262,
         "created_at": "2020-09-18T14:02:39Z",
@@ -1260,7 +1280,7 @@
         "number": 261,
         "created_at": "2020-09-17T21:11:53Z",
         "closed_at": null,
-        "title": "Deny mandatory PTZ contraints in basic getUserMedia contraints",
+        "title": "Reject with TypeError on required PTZ contraints in basic getUserMedia contraints",
         "labels": [
           {
             "id": 2018267379,
@@ -1351,7 +1371,17 @@
         "created_at": "2020-08-31T20:27:47Z",
         "closed_at": null,
         "title": "Clarify meaning of PTZ constraints presence",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2018267379,
+            "node_id": "MDU6TGFiZWwyMDE4MjY3Mzc5",
+            "url": "https://api.github.com/repos/w3c/mediacapture-image/labels/PTZ",
+            "name": "PTZ",
+            "color": "3e2a93",
+            "default": false,
+            "description": "Pan-Tilt-Zoom"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1526,10 +1556,10 @@
         "isPullRequest": false
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 245,
         "created_at": "2020-08-14T13:45:22Z",
-        "closed_at": "2020-09-24T14:21:25Z",
+        "closed_at": null,
         "title": "Sanitize PTZ capabilities/settings based on PTZ permission",
         "labels": [
           {
@@ -1812,10 +1842,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 229,
         "created_at": "2020-06-18T07:44:49Z",
-        "closed_at": null,
+        "closed_at": "2020-09-29T08:33:13Z",
         "title": "Document OverConstrainedError for PTZ in explainer",
         "labels": [
           {
@@ -7370,6 +7400,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 729,
+        "created_at": "2020-09-28T13:01:02Z",
+        "closed_at": null,
+        "title": "applyConstraints algorithm is imprecise in how to select the actual settings values",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 728,
