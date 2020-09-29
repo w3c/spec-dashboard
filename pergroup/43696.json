@@ -2563,32 +2563,60 @@
     ]
   },
   {
-    "shortlink": "https://www.w3.org/TR/wake-lock/",
-    "description": "<p>This document specifies an API that allows web applications to request a wake lock. A wake lock prevents some aspect of the device from entering a power-saving state (e.g., preventing the system from turning off the screen).</p>",
-    "title": "Wake Lock API",
-    "shortname": "wake-lock",
+    "shortlink": "https://www.w3.org/TR/screen-wake-lock/",
+    "description": "<p>This document specifies an API that allows web applications to request a screen wake lock. Under the right conditions, and if allowed, the screen wake lock prevents the system from turning off a device's screen.</p>",
+    "title": "Screen Wake Lock API",
+    "shortname": "screen-wake-lock",
     "editor-draft": "https://w3c.github.io/screen-wake-lock/",
     "_links": {
       "self": {
-        "href": "https://api.w3.org/specifications/wake-lock"
+        "href": "https://api.w3.org/specifications/screen-wake-lock"
       },
       "version-history": {
-        "href": "https://api.w3.org/specifications/wake-lock/versions"
+        "href": "https://api.w3.org/specifications/screen-wake-lock/versions"
       },
       "first-version": {
-        "href": "https://api.w3.org/specifications/wake-lock/versions/20150212",
+        "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150212",
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/wake-lock/versions/20171214",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20200929",
+        "title": "Working Draft"
       },
       "series": {
-        "href": "https://api.w3.org/specification-series/wake-lock"
+        "href": "https://api.w3.org/specification-series/screen-wake-lock"
       }
     },
     "editorsdraft": "https://w3c.github.io/screen-wake-lock/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/screen-wake-lock/",
+        "uri": "https://www.w3.org/TR/2020/WD-screen-wake-lock-20200929/",
+        "date": "2020-09-29",
+        "informative": false,
+        "title": "Screen Wake Lock API",
+        "shortlink": "https://www.w3.org/TR/screen-wake-lock/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20200929"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20200929/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20200929/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20200929/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -2602,19 +2630,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171214"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171214"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171214/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171214/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171214/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171214/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171214/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171214/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171214/successors"
           }
         }
       },
@@ -2630,22 +2661,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171204"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171204"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171204/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171204/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171204/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171204/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171204/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171204/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171204/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171204/successors"
           }
         }
       },
@@ -2661,22 +2692,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171123"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171123"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171123/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171123/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171123/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171123/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171123/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171123/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171123/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171123/successors"
           }
         }
       },
@@ -2692,22 +2723,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171121"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171121"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171121/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171121/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171121/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171121/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171121/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171121/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171121/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171121/successors"
           }
         }
       },
@@ -2723,22 +2754,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171120"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171120"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171120/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171120/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171120/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171120/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171120/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171120/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20171120/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20171120/successors"
           }
         }
       },
@@ -2754,22 +2785,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170912"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170912"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170912/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170912/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170912/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170912/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170912/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170912/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170912/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170912/successors"
           }
         }
       },
@@ -2785,22 +2816,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170824"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170824"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170824/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170824/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170824/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170824/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170824/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170824/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170824/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170824/successors"
           }
         }
       },
@@ -2816,22 +2847,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170724"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170724"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170724/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170724/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170724/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170724/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170724/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170724/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170724/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170724/successors"
           }
         }
       },
@@ -2847,22 +2878,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170719"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170719"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170719/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170719/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170719/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170719/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170719/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170719/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170719/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170719/successors"
           }
         }
       },
@@ -2878,22 +2909,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170717"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170717"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170717/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170717/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170717/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170717/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170717/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170717/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170717/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170717/successors"
           }
         }
       },
@@ -2909,22 +2940,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170629"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170629"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170629/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170629/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170629/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170629/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170629/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170629/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170629/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170629/successors"
           }
         }
       },
@@ -2940,22 +2971,22 @@
         "process-rules": "https://www.w3.org/2017/Process-20170301/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170613"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170613"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170613/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170613/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170613/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170613/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170613/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170613/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170613/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170613/successors"
           }
         }
       },
@@ -2971,22 +3002,22 @@
         "process-rules": "https://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170222"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170222"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170222/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170222/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170222/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170222/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170222/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170222/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170222/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170222/successors"
           }
         }
       },
@@ -3002,22 +3033,22 @@
         "process-rules": "https://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170215"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170215"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170215/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170215/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170215/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170215/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170215/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170215/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170215/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170215/successors"
           }
         }
       },
@@ -3033,22 +3064,22 @@
         "process-rules": "https://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170127"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170127"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170127/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170127/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170127/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170127/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170127/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170127/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20170127/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20170127/successors"
           }
         }
       },
@@ -3064,22 +3095,22 @@
         "process-rules": "https://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20161220"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20161220"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20161220/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20161220/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20161220/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20161220/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20161220/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20161220/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20161220/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20161220/successors"
           }
         }
       },
@@ -3095,22 +3126,22 @@
         "process-rules": "https://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160803"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160803"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160803/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160803/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160803/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160803/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160803/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160803/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160803/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160803/successors"
           }
         }
       },
@@ -3126,22 +3157,22 @@
         "process-rules": "http://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160714"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160714"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160714/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160714/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160714/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160714/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160714/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160714/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160714/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160714/successors"
           }
         }
       },
@@ -3157,22 +3188,22 @@
         "process-rules": "http://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160620"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160620"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160620/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160620/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160620/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160620/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160620/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160620/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160620/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160620/successors"
           }
         }
       },
@@ -3188,22 +3219,22 @@
         "process-rules": "http://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160617"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160617"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160617/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160617/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160617/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160617/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160617/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160617/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160617/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160617/successors"
           }
         }
       },
@@ -3219,22 +3250,22 @@
         "process-rules": "http://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160603"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160603"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160603/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160603/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160603/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160603/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160603/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160603/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160603/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160603/successors"
           }
         }
       },
@@ -3250,22 +3281,22 @@
         "process-rules": "http://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160316"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160316"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160316/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160316/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160316/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160316/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160316/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160316/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160316/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160316/successors"
           }
         }
       },
@@ -3281,22 +3312,22 @@
         "process-rules": "http://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160129"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160129"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160129/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160129/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160129/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160129/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160129/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160129/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20160129/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20160129/successors"
           }
         }
       },
@@ -3312,22 +3343,22 @@
         "process-rules": "http://www.w3.org/2015/Process-20150901/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20150904"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150904"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20150904/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150904/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20150904/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150904/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20150904/predecessors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150904/predecessors"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20150904/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150904/successors"
           }
         }
       },
@@ -3343,19 +3374,19 @@
         "process-rules": "http://www.w3.org/2014/Process-20140801/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20150212"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150212"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20150212/editors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150212/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20150212/deliverers"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150212/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/wake-lock"
+            "href": "https://api.w3.org/specifications/screen-wake-lock"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/wake-lock/versions/20150212/successors"
+            "href": "https://api.w3.org/specifications/screen-wake-lock/versions/20150212/successors"
           }
         }
       }
