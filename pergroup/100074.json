@@ -2,7 +2,7 @@
   {
     "shortlink": "https://www.w3.org/TR/audiobooks/",
     "description": "<p>This specification provides a draft version of an Audiobook Profile for a Web Publication. It also references a framework for packaging audiobooks.</p>",
-    "title": "Audiobook Profile for Web Publications",
+    "title": "Audiobooks",
     "shortname": "audiobooks",
     "editor-draft": "https://w3c.github.io/audiobooks/",
     "_links": {
@@ -17,8 +17,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/audiobooks/versions/20200914",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/audiobooks/versions/20201001",
+        "title": "Proposed Recommendation"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/audiobooks"
@@ -26,6 +26,36 @@
     },
     "editorsdraft": "https://w3c.github.io/audiobooks/",
     "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/audiobooks/",
+        "uri": "https://www.w3.org/TR/2020/PR-audiobooks-20201001/",
+        "date": "2020-10-01",
+        "pr-reviews-date": "2020-10-30",
+        "informative": false,
+        "title": "Audiobooks",
+        "shortlink": "https://www.w3.org/TR/audiobooks/",
+        "errata": "https://w3c.github.io/audiobooks/errata/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20201001"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20201001/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20201001/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/audiobooks"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20201001/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -51,6 +81,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/audiobooks/versions/20200914/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/audiobooks/versions/20200914/successors"
           }
         }
       },
@@ -351,8 +384,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/pub-manifest/versions/20200914",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/pub-manifest/versions/20201001",
+        "title": "Proposed Recommendation"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/pub-manifest"
@@ -360,6 +393,36 @@
     },
     "editorsdraft": "https://w3c.github.io/pub-manifest/",
     "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/pub-manifest/",
+        "uri": "https://www.w3.org/TR/2020/PR-pub-manifest-20201001/",
+        "date": "2020-10-01",
+        "pr-reviews-date": "2020-10-30",
+        "informative": false,
+        "title": "Publication Manifest",
+        "shortlink": "https://www.w3.org/TR/pub-manifest/",
+        "errata": "https://w3c.github.io/pub-manifest/errata/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20201001"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20201001/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20201001/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/pub-manifest"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20201001/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -385,6 +448,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/pub-manifest/versions/20200914/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/pub-manifest/versions/20200914/successors"
           }
         }
       },
@@ -631,114 +697,6 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/pub-manifest/versions/20190827/successors"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "shortlink": "https://www.w3.org/TR/pwpub/",
-    "description": "<p>This specification defines a packaging format for combining the resources of a Web Publication into a single portable file.</p>",
-    "title": "Packaged Web Publications",
-    "shortname": "pwpub",
-    "editor-draft": "https://w3c.github.io/pwpub/",
-    "_links": {
-      "self": {
-        "href": "https://api.w3.org/specifications/pwpub"
-      },
-      "version-history": {
-        "href": "https://api.w3.org/specifications/pwpub/versions"
-      },
-      "first-version": {
-        "href": "https://api.w3.org/specifications/pwpub/versions/20180104",
-        "title": "Working Draft"
-      },
-      "latest-version": {
-        "href": "https://api.w3.org/specifications/pwpub/versions/20180104",
-        "title": "Working Draft"
-      },
-      "series": {
-        "href": "https://api.w3.org/specification-series/pwpub"
-      }
-    },
-    "editorsdraft": "https://w3c.github.io/pwpub/",
-    "versions": [
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/pwpub/",
-        "uri": "https://www.w3.org/TR/2018/WD-pwpub-20180104/",
-        "date": "2018-01-04",
-        "informative": false,
-        "title": "Packaged Web Publications",
-        "shortlink": "https://www.w3.org/TR/pwpub/",
-        "process-rules": "https://www.w3.org/2017/Process-20170301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/pwpub/versions/20180104"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/pwpub/versions/20180104/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/pwpub/versions/20180104/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/pwpub"
-          }
-        }
-      }
-    ]
-  },
-  {
-    "shortlink": "https://www.w3.org/TR/wpub-ann/",
-    "description": "<p>This document relies on existing selection techniques, providing a common model and syntax defined by the Web Annotation Data Model. That specification developed a JSON-based approach to select targets or bodies of various types of Web Resources. This foundational model has been extended by adding selector types applicable to collective resources and a new model component for describing positions in text and byte streams.</p>",
-    "title": "Web Annotation Extensions for Web Publications",
-    "shortname": "wpub-ann",
-    "editor-draft": "https://w3c.github.io/wpub-ann/",
-    "_links": {
-      "self": {
-        "href": "https://api.w3.org/specifications/wpub-ann"
-      },
-      "version-history": {
-        "href": "https://api.w3.org/specifications/wpub-ann/versions"
-      },
-      "first-version": {
-        "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104",
-        "title": "Working Draft"
-      },
-      "latest-version": {
-        "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104",
-        "title": "Working Draft"
-      },
-      "series": {
-        "href": "https://api.w3.org/specification-series/wpub-ann"
-      }
-    },
-    "editorsdraft": "https://w3c.github.io/wpub-ann/",
-    "versions": [
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/wpub-ann/",
-        "uri": "https://www.w3.org/TR/2018/WD-wpub-ann-20180104/",
-        "date": "2018-01-04",
-        "informative": false,
-        "title": "Web Annotation Extensions for Web Publications",
-        "shortlink": "https://www.w3.org/TR/wpub-ann/",
-        "process-rules": "https://www.w3.org/2017/Process-20170301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/wpub-ann/versions/20180104/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/wpub-ann"
           }
         }
       }
