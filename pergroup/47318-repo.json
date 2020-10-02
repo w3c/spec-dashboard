@@ -7472,6 +7472,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 731,
+        "created_at": "2020-10-02T09:06:41Z",
+        "closed_at": null,
+        "title": "Add requirements to support downsampling and frame decimation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 730,
+        "created_at": "2020-10-01T14:33:45Z",
+        "closed_at": null,
+        "title": "Clarify when to fire devicechange event for changes of device capabilities",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 729,
         "created_at": "2020-09-28T13:01:02Z",
         "closed_at": null,
@@ -7556,8 +7576,18 @@
         "created_at": "2020-09-10T08:49:59Z",
         "closed_at": null,
         "title": "Mandate implementations to support video frame subsampling",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1364496941,
+            "node_id": "MDU6TGFiZWwxMzY0NDk2OTQx",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -7597,17 +7627,7 @@
             "description": null
           }
         ],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 719,
-        "created_at": "2020-09-02T18:13:57Z",
-        "closed_at": null,
-        "title": "Broader API proposals for device selection and permissions",
-        "labels": [],
-        "assignee": null,
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -7756,7 +7776,7 @@
         "closed_at": null,
         "title": "Bug in spec: circular dependency for enumerateDevices()",
         "labels": [],
-        "assignee": "youennf",
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -7869,16 +7889,6 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
-        "number": 702,
-        "created_at": "2020-07-01T16:50:58Z",
-        "closed_at": null,
-        "title": "MediaStreamTrack resizeMode constraint is too vague to request specific strategy",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
         "state": "closed",
         "number": 701,
         "created_at": "2020-06-25T14:05:33Z",
@@ -7969,10 +7979,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 693,
         "created_at": "2020-05-04T07:30:50Z",
-        "closed_at": null,
+        "closed_at": "2020-10-01T14:34:05Z",
         "title": "enumerateDevices() should print correct MediaDeviceInfo",
         "labels": [],
         "assignee": null,
@@ -8370,6 +8380,24 @@
         "title": "Deprecate inputDeviceInfo.getCapabilities() for better privacy",
         "labels": [
           {
+            "id": 2391682878,
+            "node_id": "MDU6TGFiZWwyMzkxNjgyODc4",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Feature%20at%20risk",
+            "name": "Feature at risk",
+            "color": "b53234",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 2391664037,
+            "node_id": "MDU6TGFiZWwyMzkxNjY0MDM3",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/TPAC%202020",
+            "name": "TPAC 2020",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 1831510905,
             "node_id": "MDU6TGFiZWwxODMxNTEwOTA1",
             "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/privacy-needs-resolution",
@@ -8379,7 +8407,7 @@
             "description": "Issue the Privacy Group has raised and looks for a response on."
           }
         ],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -8429,35 +8457,6 @@
           }
         ],
         "assignee": "jan-ivar",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 669,
-        "created_at": "2020-03-20T08:45:17Z",
-        "closed_at": null,
-        "title": "\"user-chooses\": Does required constraints make any sense now?",
-        "labels": [
-          {
-            "id": 1916225909,
-            "node_id": "MDU6TGFiZWwxOTE2MjI1OTA5",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/April%202020%20Interim",
-            "name": "April 2020 Interim",
-            "color": "006b75",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 1920778048,
-            "node_id": "MDU6TGFiZWwxOTIwNzc4MDQ4",
-            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/March%202020%20Interim",
-            "name": "March 2020 Interim",
-            "color": "323f93",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -8548,10 +8547,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 665,
         "created_at": "2020-03-09T09:53:43Z",
-        "closed_at": null,
+        "closed_at": "2020-10-01T14:17:10Z",
         "title": "'label' needs direction and language metadata",
         "labels": [
           {
@@ -8784,6 +8783,15 @@
         "title": "Should enumerateDevices by default return an empty list?",
         "labels": [
           {
+            "id": 2391664037,
+            "node_id": "MDU6TGFiZWwyMzkxNjY0MDM3",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/TPAC%202020",
+            "name": "TPAC 2020",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 1831510905,
             "node_id": "MDU6TGFiZWwxODMxNTEwOTA1",
             "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/privacy-needs-resolution",
@@ -8793,7 +8801,7 @@
             "description": "Issue the Privacy Group has raised and looks for a response on."
           }
         ],
-        "assignee": null,
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -8919,6 +8927,15 @@
             "description": ""
           },
           {
+            "id": 2391664037,
+            "node_id": "MDU6TGFiZWwyMzkxNjY0MDM3",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/TPAC%202020",
+            "name": "TPAC 2020",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 1831510905,
             "node_id": "MDU6TGFiZWwxODMxNTEwOTA1",
             "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/privacy-needs-resolution",
@@ -8928,7 +8945,7 @@
             "description": "Issue the Privacy Group has raised and looks for a response on."
           }
         ],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -21015,6 +21032,16 @@
     "issues": [
       {
         "state": "closed",
+        "number": 147,
+        "created_at": "2020-10-01T15:32:18Z",
+        "closed_at": "2020-10-01T15:35:01Z",
+        "title": "getThisTabMedia draft",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 146,
         "created_at": "2020-08-25T12:07:25Z",
         "closed_at": "2020-08-27T00:07:42Z",
@@ -23198,10 +23225,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 2583,
         "created_at": "2020-09-29T12:48:13Z",
-        "closed_at": null,
+        "closed_at": "2020-10-01T14:10:13Z",
         "title": "Align with other specifications (non-normative changes)",
         "labels": [
           {
@@ -23212,16 +23239,25 @@
             "color": "fef2c0",
             "default": false,
             "description": null
+          },
+          {
+            "id": 166555932,
+            "node_id": "MDU6TGFiZWwxNjY1NTU5MzI=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
           }
         ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2582,
         "created_at": "2020-09-28T00:32:58Z",
-        "closed_at": null,
+        "closed_at": "2020-10-01T14:02:51Z",
         "title": "Update to latest ReSpec version",
         "labels": [
           {
@@ -23264,6 +23300,15 @@
         "closed_at": null,
         "title": "Stopping senders and receivers: Present or absent?",
         "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          },
           {
             "id": 1040788740,
             "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
