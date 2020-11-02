@@ -166,10 +166,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 443,
         "created_at": "2020-10-25T13:21:18Z",
-        "closed_at": null,
+        "closed_at": "2020-11-01T21:49:32Z",
         "title": "editorial: Clarify importance of ordering of property values",
         "labels": [
           {
@@ -186,10 +186,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 442,
         "created_at": "2020-10-25T12:39:05Z",
-        "closed_at": null,
+        "closed_at": "2020-11-01T21:48:54Z",
         "title": "editorial: fix stray link to issues",
         "labels": [
           {
@@ -226,10 +226,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 440,
         "created_at": "2020-10-19T11:23:14Z",
-        "closed_at": null,
+        "closed_at": "2020-11-01T21:45:26Z",
         "title": "Remove \"unauthorized\" and add \"deactivated\" error code.",
         "labels": [],
         "assignee": null,
@@ -311,8 +311,27 @@
         "created_at": "2020-10-08T16:05:11Z",
         "closed_at": null,
         "title": "Restrictions on `@context` property values in DID Documents",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
+          },
+          {
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
+          }
+        ],
+        "assignee": "OR13",
         "isPullRequest": false
       },
       {
@@ -440,9 +459,18 @@
             "color": "fef2c0",
             "default": false,
             "description": "There is an open PR to address this issue"
+          },
+          {
+            "id": 2472424020,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0MDIw",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p1",
+            "name": "pre-cr-p1",
+            "color": "fc97b2",
+            "default": false,
+            "description": "Pre-CR high priority issue."
           }
         ],
-        "assignee": null,
+        "assignee": "tplooker",
         "isPullRequest": false
       },
       {
@@ -481,7 +509,17 @@
         "created_at": "2020-09-25T13:37:38Z",
         "closed_at": null,
         "title": "How should resolvers handle the accept header?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
+          }
+        ],
         "assignee": "peacekeeper",
         "isPullRequest": false
       },
@@ -533,6 +571,15 @@
         "title": "DID Document vs. DID Subject",
         "labels": [
           {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          },
+          {
             "id": 1697549506,
             "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
             "url": "https://api.github.com/repos/w3c/did-core/labels/question",
@@ -542,7 +589,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -680,7 +727,26 @@
         "created_at": "2020-09-19T10:59:03Z",
         "closed_at": null,
         "title": "Precise specification of the DID Core Vocabulary",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2472424829,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0ODI5",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p2",
+            "name": "pre-cr-p2",
+            "color": "e5df3b",
+            "default": false,
+            "description": "Pre-CR medium priority issue."
+          },
+          {
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
+          }
+        ],
         "assignee": "iherman",
         "isPullRequest": false
       },
@@ -946,8 +1012,18 @@
         "created_at": "2020-09-02T13:15:46Z",
         "closed_at": null,
         "title": "need to clarify revocation vs. rotation",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
+          }
+        ],
+        "assignee": "dhh1128",
         "isPullRequest": false
       },
       {
@@ -1008,13 +1084,22 @@
         "title": "Service Endpoints in the DID Doc might be an anti-pattern",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
             "default": false,
-            "description": "Needs further discussion before a pull request can be created"
+            "description": "Pre-CR low priority issue."
+          },
+          {
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "msporny",
@@ -1116,7 +1201,17 @@
         "created_at": "2020-08-11T23:48:32Z",
         "closed_at": null,
         "title": "Proposed Appendices on DID Identification Architecture",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
+          }
+        ],
         "assignee": "talltree",
         "isPullRequest": false
       },
@@ -1186,7 +1281,17 @@
         "created_at": "2020-08-10T15:19:27Z",
         "closed_at": null,
         "title": "Ability for DID in a Method to be known as more than one ID, with a canonical selection",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2472424020,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0MDIw",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p1",
+            "name": "pre-cr-p1",
+            "color": "fc97b2",
+            "default": false,
+            "description": "Pre-CR high priority issue."
+          }
+        ],
         "assignee": "csuwildcat",
         "isPullRequest": false
       },
@@ -1777,6 +1882,24 @@
             "color": "ff9707",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
+          },
+          {
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "brentzundel",
@@ -1906,6 +2029,24 @@
             "color": "8eedcb",
             "default": false,
             "description": "issues and PRs related to key formats, specs, algorithms, etc."
+          },
+          {
+            "id": 2472424829,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0ODI5",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p2",
+            "name": "pre-cr-p2",
+            "color": "e5df3b",
+            "default": false,
+            "description": "Pre-CR medium priority issue."
+          },
+          {
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "msporny",
@@ -2066,13 +2207,13 @@
         "title": "Should we rename \"verification relationships\" to \"authorization relationships\"?",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "Needs further discussion before a pull request can be created"
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": "kdenhartog",
@@ -3426,7 +3567,26 @@
         "created_at": "2020-04-01T23:50:55Z",
         "closed_at": null,
         "title": "How to mitigate the single source of failure wrt/ \"Trust into the Universal Resolver\"?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          },
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
+          }
+        ],
         "assignee": "peacekeeper",
         "isPullRequest": false
       },
@@ -3545,6 +3705,24 @@
             "color": "d4c5f9",
             "default": false,
             "description": "Related to JOSE specifications"
+          },
+          {
+            "id": 2472424829,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0ODI5",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p2",
+            "name": "pre-cr-p2",
+            "color": "e5df3b",
+            "default": false,
+            "description": "Pre-CR medium priority issue."
+          },
+          {
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "msporny",
@@ -4001,6 +4179,24 @@
             "color": "ffc26d",
             "default": false,
             "description": "related to extensibility, json-ld contexts, external properties, etc"
+          },
+          {
+            "id": 2472424829,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0ODI5",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p2",
+            "name": "pre-cr-p2",
+            "color": "e5df3b",
+            "default": false,
+            "description": "Pre-CR medium priority issue."
+          },
+          {
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "msporny",
@@ -4081,15 +4277,6 @@
         "title": "How to treat unknown properties",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
-            "default": false,
-            "description": "Needs further discussion before a pull request can be created"
-          },
-          {
             "id": 1826575778,
             "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
             "url": "https://api.github.com/repos/w3c/did-core/labels/extensibility",
@@ -4097,6 +4284,24 @@
             "color": "ffc26d",
             "default": false,
             "description": "related to extensibility, json-ld contexts, external properties, etc"
+          },
+          {
+            "id": 2055693582,
+            "node_id": "MDU6TGFiZWwyMDU1NjkzNTgy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/needs-special-call",
+            "name": "needs-special-call",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Needs a special topic call to make progress"
+          },
+          {
+            "id": 2472424020,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0MDIw",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p1",
+            "name": "pre-cr-p1",
+            "color": "fc97b2",
+            "default": false,
+            "description": "Pre-CR high priority issue."
           }
         ],
         "assignee": "jricher",
@@ -4237,13 +4442,22 @@
         "title": "Clarification on what DIDs might identify",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
+            "id": 2055693582,
+            "node_id": "MDU6TGFiZWwyMDU1NjkzNTgy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/needs-special-call",
+            "name": "needs-special-call",
+            "color": "d93f0b",
             "default": false,
-            "description": "Needs further discussion before a pull request can be created"
+            "description": "Needs a special topic call to make progress"
+          },
+          {
+            "id": 2472424020,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0MDIw",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p1",
+            "name": "pre-cr-p1",
+            "color": "fc97b2",
+            "default": false,
+            "description": "Pre-CR high priority issue."
           }
         ],
         "assignee": "brentzundel",
@@ -5074,6 +5288,15 @@
             "color": "cc9610",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 2472424829,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0ODI5",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p2",
+            "name": "pre-cr-p2",
+            "color": "e5df3b",
+            "default": false,
+            "description": "Pre-CR medium priority issue."
           }
         ],
         "assignee": "talltree",
@@ -5329,6 +5552,24 @@
             "color": "7eb520",
             "default": false,
             "description": "Editors should update the spec then close"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          },
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
           }
         ],
         "assignee": "peacekeeper",
@@ -6165,6 +6406,15 @@
             "color": "d93f0b",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 2472424829,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0ODI5",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p2",
+            "name": "pre-cr-p2",
+            "color": "e5df3b",
+            "default": false,
+            "description": "Pre-CR medium priority issue."
           }
         ],
         "assignee": "iherman",
@@ -6194,6 +6444,15 @@
             "color": "F9C9FF",
             "default": false,
             "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
+          },
+          {
+            "id": 2472424829,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0ODI5",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p2",
+            "name": "pre-cr-p2",
+            "color": "e5df3b",
+            "default": false,
+            "description": "Pre-CR medium priority issue."
           }
         ],
         "assignee": "iherman",
@@ -6701,15 +6960,6 @@
         "title": "Privacy Considerations - Specifically call out GDPR",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
-            "default": false,
-            "description": "Needs further discussion before a pull request can be created"
-          },
-          {
             "id": 1580539231,
             "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
             "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
@@ -6719,13 +6969,22 @@
             "description": "Editors should update the spec then close"
           },
           {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
             "default": false,
-            "description": "issues and PRs related to metadata"
+            "description": "Pre-CR low priority issue."
+          },
+          {
+            "id": 1838604038,
+            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "5319e7",
+            "default": false,
+            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "talltree",
@@ -6756,6 +7015,24 @@
             "color": "5386bc",
             "default": false,
             "description": "Needs further discussion before a pull request can be created"
+          },
+          {
+            "id": 2055693582,
+            "node_id": "MDU6TGFiZWwyMDU1NjkzNTgy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/needs-special-call",
+            "name": "needs-special-call",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Needs a special topic call to make progress"
+          },
+          {
+            "id": 2472424020,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0MDIw",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p1",
+            "name": "pre-cr-p1",
+            "color": "fc97b2",
+            "default": false,
+            "description": "Pre-CR high priority issue."
           }
         ],
         "assignee": "csuwildcat",
@@ -6966,15 +7243,6 @@
         "title": "Registry handling",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
-            "default": false,
-            "description": "Needs further discussion before a pull request can be created"
-          },
-          {
             "id": 1826575778,
             "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
             "url": "https://api.github.com/repos/w3c/did-core/labels/extensibility",
@@ -6982,6 +7250,24 @@
             "color": "ffc26d",
             "default": false,
             "description": "related to extensibility, json-ld contexts, external properties, etc"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
+          },
+          {
+            "id": 2472424829,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0ODI5",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p2",
+            "name": "pre-cr-p2",
+            "color": "e5df3b",
+            "default": false,
+            "description": "Pre-CR medium priority issue."
           }
         ],
         "assignee": "wyc",
@@ -7544,13 +7830,22 @@
         "title": "Cheap DIDs and the option to migrate DIDs between ledgers using standard DID Deprecation Registries",
         "labels": [
           {
-            "id": 1580539267,
-            "node_id": "MDU6TGFiZWwxNTgwNTM5MjY3",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/discuss",
-            "name": "discuss",
-            "color": "5386bc",
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
             "default": false,
-            "description": "Needs further discussion before a pull request can be created"
+            "description": "Issue will be closed shortly if no objections"
+          },
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
           }
         ],
         "assignee": "dmitrizagidulin",
