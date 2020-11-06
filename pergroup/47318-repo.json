@@ -1267,6 +1267,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 272,
+        "created_at": "2020-11-05T23:48:19Z",
+        "closed_at": null,
+        "title": "Does ImageCapture work on non-camera tracks?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 271,
+        "created_at": "2020-11-04T23:21:36Z",
+        "closed_at": null,
+        "title": "Replace PTZ boolean normalization with boolean constraints",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 270,
         "created_at": "2020-10-21T09:00:07Z",
         "closed_at": null,
@@ -7512,6 +7532,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 746,
+        "created_at": "2020-11-05T00:52:19Z",
+        "closed_at": null,
+        "title": "OverconstrainedError extends DOMException + algo fixes",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 745,
+        "created_at": "2020-11-04T22:27:50Z",
+        "closed_at": null,
+        "title": "Add permission revocation algorithm",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 744,
         "created_at": "2020-11-03T18:22:59Z",
         "closed_at": null,
@@ -7716,7 +7756,17 @@
         "created_at": "2020-10-02T09:06:41Z",
         "closed_at": null,
         "title": "Add requirements to support downsampling and frame decimation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 156531721,
+            "node_id": "MDU6TGFiZWwxNTY1MzE3MjE=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -10389,6 +10439,15 @@
             "description": ""
           },
           {
+            "id": 291554148,
+            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          },
+          {
             "id": 1364496941,
             "node_id": "MDU6TGFiZWwxMzY0NDk2OTQx",
             "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Ready%20for%20PR",
@@ -10398,7 +10457,7 @@
             "description": ""
           }
         ],
-        "assignee": "henbos",
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -11042,7 +11101,7 @@
         "closed_at": null,
         "title": "Origin isolation",
         "labels": [],
-        "assignee": "stefhak",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -11646,10 +11705,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 484,
         "created_at": "2017-09-10T12:09:50Z",
-        "closed_at": null,
+        "closed_at": "2020-11-05T20:35:48Z",
         "title": "Can IDL typedef for MediaStreamError be (DOMException or OverconstrainedError)?",
         "labels": [
           {
@@ -12327,6 +12386,15 @@
         "closed_at": null,
         "title": "Move permissions algorithms back to getUserMedia spec",
         "labels": [
+          {
+            "id": 291554148,
+            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          },
           {
             "id": 151898314,
             "node_id": "MDU6TGFiZWwxNTE4OTgzMTQ=",
@@ -23690,6 +23758,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 2597,
+        "created_at": "2020-11-05T14:59:53Z",
+        "closed_at": null,
+        "title": "Allow piggybacking getCapabilities on most recent offer or answer",
+        "labels": [
+          {
+            "id": 2482775211,
+            "node_id": "MDU6TGFiZWwyNDgyNzc1MjEx",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/December%202020%20Virtual%20Interim",
+            "name": "December 2020 Virtual Interim",
+            "color": "0e8a16",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2596,
+        "created_at": "2020-11-05T14:31:17Z",
+        "closed_at": "2020-11-05T15:26:53Z",
+        "title": "Require scaleResolutionDownBy to be defined in setParameters",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2595,
         "created_at": "2020-11-03T10:49:14Z",
         "closed_at": null,
@@ -23729,16 +23827,6 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
-        "number": 2593,
-        "created_at": "2020-11-02T10:11:38Z",
-        "closed_at": null,
-        "title": "Invalid TURN credentials: What function should fail?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
         "state": "closed",
         "number": 2592,
         "created_at": "2020-10-30T02:34:49Z",
@@ -23769,10 +23857,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2590,
         "created_at": "2020-10-26T00:40:16Z",
-        "closed_at": null,
+        "closed_at": "2020-11-05T15:28:21Z",
         "title": "Update to latest ReSpec version",
         "labels": [
           {
@@ -23809,10 +23897,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2588,
         "created_at": "2020-10-11T12:10:04Z",
-        "closed_at": null,
+        "closed_at": "2020-11-05T15:27:56Z",
         "title": "typo correction",
         "labels": [
           {
@@ -24156,10 +24244,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2570,
         "created_at": "2020-08-30T15:48:04Z",
-        "closed_at": null,
+        "closed_at": "2020-11-05T15:31:21Z",
         "title": "Creation of MediaStreamTrack from raw PCM stream; Example 18 with a JSON file instead of messaging",
         "labels": [
           {
@@ -24413,10 +24501,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2556,
         "created_at": "2020-07-09T14:15:02Z",
-        "closed_at": null,
+        "closed_at": "2020-11-05T15:26:53Z",
         "title": "What happens if you make values undefined in setParameters?",
         "labels": [
           {
@@ -24429,13 +24517,13 @@
             "description": null
           },
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
             "default": false,
-            "description": ""
+            "description": null
           }
         ],
         "assignee": "henbos",
@@ -26183,13 +26271,22 @@
         "title": "`getCapabilities` seems to leak hardware capabilities w/o a permission",
         "labels": [
           {
-            "id": 1040788740,
-            "node_id": "MDU6TGFiZWwxMDQwNzg4NzQw",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "bfdadc",
+            "id": 2482775211,
+            "node_id": "MDU6TGFiZWwyNDgyNzc1MjEx",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/December%202020%20Virtual%20Interim",
+            "name": "December 2020 Virtual Interim",
+            "color": "0e8a16",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 273487504,
+            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
           },
           {
             "id": 1831426396,
@@ -26199,15 +26296,6 @@
             "color": "d4af37",
             "default": false,
             "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
-          },
-          {
-            "id": 124889633,
-            "node_id": "MDU6TGFiZWwxMjQ4ODk2MzM=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/question",
-            "name": "question",
-            "color": "cc317c",
-            "default": true,
-            "description": null
           }
         ],
         "assignee": "henbos",
