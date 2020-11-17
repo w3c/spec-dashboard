@@ -2,7 +2,7 @@
   {
     "shortlink": "https://www.w3.org/TR/webauthn-2/",
     "description": "<p>This specification defines an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users. Conceptually, one or more public key credentials, each scoped to a given WebAuthn Relying Party, are created by and bound to authenticators as requested by the web application. The user agent mediates access to authenticators and their public key credentials in order to preserve user privacy. Authenticators are responsible for ensuring that no operation is performed without user consent. Authenticators provide cryptographic proof of their properties to Relying Parties via attestation. This specification also describes the functional model for WebAuthn conformant authenticators, including their signature and attestation functionality.</p>",
-    "title": "Web Authentication:An API for accessing Public Key Credentials Level 2",
+    "title": "Web Authentication:An API for accessing Public Key CredentialsLevel 2",
     "shortname": "webauthn-2",
     "editor-draft": "https://w3c.github.io/webauthn/",
     "series-version": "2",
@@ -18,7 +18,7 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webauthn-2/versions/20200730",
+        "href": "https://api.w3.org/specifications/webauthn-2/versions/20201116",
         "title": "Working Draft"
       },
       "series": {
@@ -27,6 +27,34 @@
     },
     "editorsdraft": "https://w3c.github.io/webauthn/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webauthn/",
+        "uri": "https://www.w3.org/TR/2020/WD-webauthn-2-20201116/",
+        "date": "2020-11-16",
+        "informative": false,
+        "title": "Web Authentication:An API for accessing Public Key CredentialsLevel 2",
+        "shortlink": "https://www.w3.org/TR/webauthn-2/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20201116"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20201116/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20201116/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webauthn-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20201116/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -52,6 +80,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webauthn-2/versions/20200730/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20200730/successors"
           }
         }
       },
