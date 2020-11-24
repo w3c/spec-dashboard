@@ -7532,6 +7532,75 @@
     "issues": [
       {
         "state": "open",
+        "number": 754,
+        "created_at": "2020-11-24T11:11:19Z",
+        "closed_at": null,
+        "title": "Editorial: \"muted\" attribute refers to itself",
+        "labels": [
+          {
+            "id": 291554148,
+            "node_id": "MDU6TGFiZWwyOTE1NTQxNDg=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "009800",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 151898314,
+            "node_id": "MDU6TGFiZWwxNTE4OTgzMTQ=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 753,
+        "created_at": "2020-11-23T08:42:06Z",
+        "closed_at": null,
+        "title": "Adapt GitHub CI to platform change",
+        "labels": [
+          {
+            "id": 151898314,
+            "node_id": "MDU6TGFiZWwxNTE4OTgzMTQ=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 752,
+        "created_at": "2020-11-22T01:56:41Z",
+        "closed_at": null,
+        "title": "Broken foreground detection",
+        "labels": [
+          {
+            "id": 151898314,
+            "node_id": "MDU6TGFiZWwxNTE4OTgzMTQ=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 751,
         "created_at": "2020-11-20T07:27:47Z",
         "closed_at": null,
@@ -11110,7 +11179,17 @@
         "created_at": "2018-08-10T07:06:10Z",
         "closed_at": null,
         "title": "Origin isolation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1831455381,
+            "node_id": "MDU6TGFiZWwxODMxNDU1Mzgx",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -23730,23 +23809,43 @@
     "issues": [
       {
         "state": "open",
-        "number": 2607,
-        "created_at": "2020-11-21T09:38:10Z",
+        "number": 2610,
+        "created_at": "2020-11-24T10:44:11Z",
         "closed_at": null,
-        "title": "H",
+        "title": "Remove voiceActivityFlag from spec",
         "labels": [],
         "assignee": null,
-        "isPullRequest": false
+        "isPullRequest": true
       },
       {
         "state": "open",
-        "number": 2606,
-        "created_at": "2020-11-21T07:38:36Z",
+        "number": 2609,
+        "created_at": "2020-11-24T07:22:50Z",
         "closed_at": null,
-        "title": "W",
+        "title": "Fix RTCPeerConnectionIceErrorEventInit.statusText to match RTCPeerCon…",
         "labels": [],
         "assignee": null,
-        "isPullRequest": false
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2608,
+        "created_at": "2020-11-23T08:42:18Z",
+        "closed_at": null,
+        "title": "Adapt GitHub CI to platform change",
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
       },
       {
         "state": "open",
@@ -23903,7 +24002,17 @@
         "created_at": "2020-11-05T14:31:17Z",
         "closed_at": "2020-11-05T15:26:53Z",
         "title": "Require scaleResolutionDownBy to be defined in setParameters",
-        "labels": [],
+        "labels": [
+          {
+            "id": 381483688,
+            "node_id": "MDU6TGFiZWwzODE0ODM2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/Editorial",
+            "name": "Editorial",
+            "color": "fef2c0",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -26401,44 +26510,6 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 2460,
-        "created_at": "2020-02-04T20:03:16Z",
-        "closed_at": null,
-        "title": "`getCapabilities` seems to leak hardware capabilities w/o a permission",
-        "labels": [
-          {
-            "id": 2482775211,
-            "node_id": "MDU6TGFiZWwyNDgyNzc1MjEx",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/December%202020%20Virtual%20Interim",
-            "name": "December 2020 Virtual Interim",
-            "color": "0e8a16",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 273487504,
-            "node_id": "MDU6TGFiZWwyNzM0ODc1MDQ=",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "009800",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 1831426396,
-            "node_id": "MDU6TGFiZWwxODMxNDI2Mzk2",
-            "url": "https://api.github.com/repos/w3c/webrtc-pc/labels/privacy-tracker",
-            "name": "privacy-tracker",
-            "color": "d4af37",
-            "default": false,
-            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
-          }
-        ],
-        "assignee": "henbos",
-        "isPullRequest": false
       },
       {
         "state": "closed",
@@ -67112,6 +67183,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 17,
+        "created_at": "2020-11-23T14:06:13Z",
+        "closed_at": null,
+        "title": "Improve explainer according to TAG question",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 16,
