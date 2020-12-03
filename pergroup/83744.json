@@ -2528,8 +2528,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/payment-request/versions/20191212",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/payment-request/versions/20201203",
+        "title": "Candidate Recommendation Snapshot"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/payment-request"
@@ -2537,6 +2537,35 @@
     },
     "editorsdraft": "https://w3c.github.io/payment-request/",
     "versions": [
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "uri": "https://www.w3.org/TR/2020/CR-payment-request-20201203/",
+        "date": "2020-12-03",
+        "implementation-feedback-due": "2020-12-31",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20201203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20201203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20201203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20201203/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -2563,6 +2592,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/payment-request/versions/20191212/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20191212/successors"
           }
         }
       },
