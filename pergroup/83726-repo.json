@@ -12,8 +12,18 @@
         "created_at": "2020-11-25T11:46:42Z",
         "closed_at": null,
         "title": "Trim whitespace from computed accessible name/description",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 762811464,
+            "node_id": "MDU6TGFiZWw3NjI4MTE0NjQ=",
+            "url": "https://api.github.com/repos/w3c/accname/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true,
+            "description": null
+          }
+        ],
+        "assignee": "accdc",
         "isPullRequest": false
       },
       {
@@ -421,7 +431,17 @@
         "created_at": "2019-09-03T18:11:46Z",
         "closed_at": null,
         "title": "Missing rules for the lang attribute",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1606470510,
+            "node_id": "MDU6TGFiZWwxNjA2NDcwNTEw",
+            "url": "https://api.github.com/repos/w3c/accname/labels/i18n-tracker",
+            "name": "i18n-tracker",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
+          }
+        ],
         "assignee": "scottaohara",
         "isPullRequest": false
       },
@@ -2084,19 +2104,59 @@
     "issues": [
       {
         "state": "open",
-        "number": 1364,
-        "created_at": "2020-12-03T04:09:38Z",
+        "number": 1367,
+        "created_at": "2020-12-04T03:13:49Z",
         "closed_at": null,
-        "title": "What happens if aria-activedescendant points to an invisible node?",
+        "title": "Stability of v1.2 spec?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
         "state": "open",
+        "number": 1366,
+        "created_at": "2020-12-03T19:59:16Z",
+        "closed_at": null,
+        "title": "Update menuitem wording to explain how group role fits in",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1365,
+        "created_at": "2020-12-03T16:20:34Z",
+        "closed_at": null,
+        "title": "Attribute with natural language but no language metadata",
+        "labels": [
+          {
+            "id": 1606468063,
+            "node_id": "MDU6TGFiZWwxNjA2NDY4MDYz",
+            "url": "https://api.github.com/repos/w3c/aria/labels/i18n-needs-resolution",
+            "name": "i18n-needs-resolution",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Issue the Internationalization Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": "MelSumner",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1364,
+        "created_at": "2020-12-03T04:09:38Z",
+        "closed_at": null,
+        "title": "What happens if aria-activedescendant points to an invisible node?",
+        "labels": [],
+        "assignee": "accdc",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 1363,
         "created_at": "2020-11-30T20:21:05Z",
-        "closed_at": null,
+        "closed_at": "2020-12-03T23:56:44Z",
         "title": "planar role for representing 2D and 3D position",
         "labels": [],
         "assignee": null,
@@ -2129,7 +2189,7 @@
         "closed_at": null,
         "title": "Consider a new aria-live property that reads on page load",
         "labels": [],
-        "assignee": null,
+        "assignee": "sinabahram",
         "isPullRequest": false
       },
       {
@@ -2148,8 +2208,18 @@
         "created_at": "2020-11-25T15:06:47Z",
         "closed_at": null,
         "title": "role option within role graphics-object?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 88491193,
+            "node_id": "MDU6TGFiZWw4ODQ5MTE5Mw==",
+            "url": "https://api.github.com/repos/w3c/aria/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true,
+            "description": null
+          }
+        ],
+        "assignee": "AmeliaBR",
         "isPullRequest": false
       },
       {
@@ -2163,12 +2233,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1356,
         "created_at": "2020-11-24T21:31:21Z",
-        "closed_at": null,
+        "closed_at": "2020-12-04T00:55:38Z",
         "title": "Add section element to fix heading levels",
-        "labels": [],
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2179,7 +2259,7 @@
         "closed_at": null,
         "title": "What is a \"multi-selectable tablist\"?",
         "labels": [],
-        "assignee": null,
+        "assignee": "jnurthen",
         "isPullRequest": false
       },
       {
@@ -10076,7 +10156,7 @@
         "number": 771,
         "created_at": "2018-05-25T21:48:21Z",
         "closed_at": null,
-        "title": "Consider addition of a property for input controls to provide untranslated Unicode braille key input events",
+        "title": "Consider addition of a property for input controls to provide untranslated Unicode Braille Patterns (U+2800..U+28FF)",
         "labels": [
           {
             "id": 1126891910,
@@ -16416,7 +16496,7 @@
         "number": 432,
         "created_at": "2016-09-09T15:45:39Z",
         "closed_at": null,
-        "title": "Need a \"4-way\" slider",
+        "title": "Need a \"4-way\" picker to allow picking or moving an object within a 2D space",
         "labels": [
           {
             "id": 1918700170,
@@ -24068,6 +24148,84 @@
     "issues": [
       {
         "state": "open",
+        "number": 1654,
+        "created_at": "2020-12-04T10:00:54Z",
+        "closed_at": null,
+        "title": "Bump selenium-webdriver from 4.0.0-alpha.7 to 4.0.0-alpha.8",
+        "labels": [
+          {
+            "id": 1525602200,
+            "node_id": "MDU6TGFiZWwxNTI1NjAyMjAw",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/dependencies",
+            "name": "dependencies",
+            "color": "0366d6",
+            "default": false,
+            "description": "Pull requests that update a dependency file in a third-party package"
+          },
+          {
+            "id": 2384933294,
+            "node_id": "MDU6TGFiZWwyMzg0OTMzMjk0",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/javascript",
+            "name": "javascript",
+            "color": "168700",
+            "default": false,
+            "description": "Pull requests that update Javascript code"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1653,
+        "created_at": "2020-12-04T02:15:56Z",
+        "closed_at": null,
+        "title": "fix: Allow spinbutton to roll over min/max values",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1652,
+        "created_at": "2020-12-03T21:17:34Z",
+        "closed_at": "2020-12-04T09:35:25Z",
+        "title": "Open in Codepen: add button to 5 more examples",
+        "labels": [
+          {
+            "id": 354259933,
+            "node_id": "MDU6TGFiZWwzNTQyNTk5MzM=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": "Addition or improvement that doesn't fix a bug or errant guidance."
+          },
+          {
+            "id": 366736938,
+            "node_id": "MDU6TGFiZWwzNjY3MzY5Mzg=",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/example%20of%20pattern%20implementation",
+            "name": "example of pattern implementation",
+            "color": "bce82c",
+            "default": false,
+            "description": "Related to a design pattern implementation example page"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1651,
+        "created_at": "2020-12-03T18:48:39Z",
+        "closed_at": null,
+        "title": "Open in codepen: add to disclosure navigation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1650,
         "created_at": "2020-12-03T10:03:08Z",
         "closed_at": null,
@@ -24110,7 +24268,7 @@
         "number": 1648,
         "created_at": "2020-12-03T02:29:08Z",
         "closed_at": null,
-        "title": "Open in Codepen: add to navigational treeview examples, move PNGs to inline SVGs",
+        "title": "Open in Codepen: add to disclosure examples, move PNGs to inline SVGs",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -24273,10 +24431,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1637,
         "created_at": "2020-11-30T10:01:04Z",
-        "closed_at": null,
+        "closed_at": "2020-12-03T17:53:08Z",
         "title": "Bump prettier from 2.1.2 to 2.2.1",
         "labels": [
           {
@@ -24302,10 +24460,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1636,
         "created_at": "2020-11-24T10:01:12Z",
-        "closed_at": null,
+        "closed_at": "2020-12-04T09:39:17Z",
         "title": "Bump lint-staged from 10.5.1 to 10.5.2",
         "labels": [
           {
@@ -24585,10 +24743,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1621,
         "created_at": "2020-11-18T10:01:02Z",
-        "closed_at": null,
+        "closed_at": "2020-12-04T09:49:51Z",
         "title": "Bump stylelint from 13.7.2 to 13.8.0",
         "labels": [
           {
