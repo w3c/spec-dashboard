@@ -1542,17 +1542,7 @@
             "description": "Pan-Tilt-Zoom"
           }
         ],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 255,
-        "created_at": "2020-01-12T17:09:41Z",
-        "closed_at": null,
-        "title": "How to avoid wide-lens backfacing camera on new phones?",
-        "labels": [],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -2216,6 +2206,16 @@
         "created_at": "2020-02-18T07:54:49Z",
         "closed_at": "2020-08-06T14:52:30Z",
         "title": "\"Tap to auto-focus\" feature",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 255,
+        "created_at": "2020-01-12T17:09:41Z",
+        "closed_at": null,
+        "title": "How to avoid wide-lens backfacing camera on new phones?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -7623,15 +7623,25 @@
         "created_at": "2020-12-07T17:15:47Z",
         "closed_at": null,
         "title": "default audio output should be first in the enumerateDevice returned list",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1364496941,
+            "node_id": "MDU6TGFiZWwxMzY0NDk2OTQx",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 755,
         "created_at": "2020-12-07T00:26:53Z",
-        "closed_at": null,
+        "closed_at": "2020-12-10T15:35:26Z",
         "title": "Update to latest ReSpec version",
         "labels": [
           {
@@ -7673,7 +7683,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "dontcallmedom",
         "isPullRequest": false
       },
       {
@@ -8056,10 +8066,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 727,
         "created_at": "2020-09-27T18:43:40Z",
-        "closed_at": null,
+        "closed_at": "2020-12-10T15:37:30Z",
         "title": "Default device selection and listing inconsistencies",
         "labels": [],
         "assignee": null,
@@ -8082,7 +8092,7 @@
         "closed_at": null,
         "title": "Simplify device selection algorithm",
         "labels": [],
-        "assignee": null,
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -66081,16 +66091,6 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
-        "number": 31,
-        "created_at": "2019-04-15T21:13:29Z",
-        "closed_at": null,
-        "title": "Timing of setRemoteDescription's identity validation is unclear",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
         "state": "closed",
         "number": 30,
         "created_at": "2019-12-04T03:36:28Z",
@@ -66112,20 +66112,10 @@
       },
       {
         "state": "open",
-        "number": 28,
-        "created_at": "2017-10-26T08:56:02Z",
+        "number": 31,
+        "created_at": "2019-04-15T21:13:29Z",
         "closed_at": null,
-        "title": "Isolated Media Streams requires modification on permission algorithms in GUM and Permissions specs",
-        "labels": [],
-        "assignee": "alvestrand",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 27,
-        "created_at": "2017-05-29T22:07:35Z",
-        "closed_at": null,
-        "title": "Failure of transmission of isolated stream",
+        "title": "Timing of setRemoteDescription's identity validation is unclear",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -66172,112 +66162,22 @@
       },
       {
         "state": "open",
-        "number": 22,
-        "created_at": "2016-12-02T04:03:28Z",
+        "number": 8,
+        "created_at": "2018-07-15T14:05:38Z",
         "closed_at": null,
-        "title": "Handing SDP with more than one identity ",
+        "title": "Identity needs to refer to track not stream",
         "labels": [],
-        "assignee": "martinthomson",
+        "assignee": null,
         "isPullRequest": false
       },
       {
         "state": "open",
-        "number": 21,
-        "created_at": "2017-05-29T22:04:47Z",
+        "number": 6,
+        "created_at": "2018-07-15T13:50:13Z",
         "closed_at": null,
-        "title": "Error for when peer identity is wrong",
+        "title": "RTCError suberrors for identity should move to identity spec",
         "labels": [],
-        "assignee": "fluffy",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 20,
-        "created_at": "2017-05-31T16:44:08Z",
-        "closed_at": null,
-        "title": "Section 9.4: peerIdentity mismatches",
-        "labels": [],
-        "assignee": "martinthomson",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 19,
-        "created_at": "2017-05-29T22:07:06Z",
-        "closed_at": null,
-        "title": "Lifetime of pc.PeerIdentity",
-        "labels": [],
-        "assignee": "martinthomson",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 18,
-        "created_at": "2017-07-06T09:48:31Z",
-        "closed_at": null,
-        "title": "setConfiguration({ peerIdentity }) when there is no initial peerIdentity",
-        "labels": [],
-        "assignee": "adam-be",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 17,
-        "created_at": "2017-07-24T09:38:14Z",
-        "closed_at": null,
-        "title": "Specifying third party IdP for validating assertion",
-        "labels": [],
-        "assignee": "martinthomson",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 16,
-        "created_at": "2017-05-31T16:45:31Z",
-        "closed_at": null,
-        "title": "Section 10.4.1: target peerIdentity",
-        "labels": [],
-        "assignee": "martinthomson",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 15,
-        "created_at": "2017-07-21T08:38:55Z",
-        "closed_at": null,
-        "title": "Format of provider string for setIdentityProvider and validation",
-        "labels": [],
-        "assignee": "martinthomson",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 14,
-        "created_at": "2017-07-26T09:34:47Z",
-        "closed_at": null,
-        "title": "Ambiguous definition for IdP errors",
-        "labels": [],
-        "assignee": "martinthomson",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 13,
-        "created_at": "2017-05-29T22:07:21Z",
-        "closed_at": null,
-        "title": "Clarity in section 9.7 example 11",
-        "labels": [],
-        "assignee": "jan-ivar",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 12,
-        "created_at": "2017-10-11T13:05:45Z",
-        "closed_at": null,
-        "title": "RTCIdentityProviderGlobalScope looks wrong",
-        "labels": [],
-        "assignee": "martinthomson",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -66292,32 +66192,22 @@
       },
       {
         "state": "open",
-        "number": 10,
-        "created_at": "2017-07-24T04:26:24Z",
+        "number": 28,
+        "created_at": "2017-10-26T08:56:02Z",
         "closed_at": null,
-        "title": "Origin value for IdP proxy script",
+        "title": "Isolated Media Streams requires modification on permission algorithms in GUM and Permissions specs",
+        "labels": [],
+        "assignee": "alvestrand",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 12,
+        "created_at": "2017-10-11T13:05:45Z",
+        "closed_at": null,
+        "title": "RTCIdentityProviderGlobalScope looks wrong",
         "labels": [],
         "assignee": "martinthomson",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 9,
-        "created_at": "2017-06-18T02:26:02Z",
-        "closed_at": null,
-        "title": "`addTransceiver(track)` doesn't mention checking the origin of track",
-        "labels": [],
-        "assignee": "adam-be",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 8,
-        "created_at": "2018-07-15T14:05:38Z",
-        "closed_at": null,
-        "title": "Identity needs to refer to track not stream",
-        "labels": [],
-        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -66326,26 +66216,6 @@
         "created_at": "2017-10-11T13:02:35Z",
         "closed_at": null,
         "title": "Instantiating an IdP Proxy should be defined in terms of Fetch",
-        "labels": [],
-        "assignee": "martinthomson",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 6,
-        "created_at": "2018-07-15T13:50:13Z",
-        "closed_at": null,
-        "title": "RTCError suberrors for identity should move to identity spec",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 5,
-        "created_at": "2017-05-31T16:42:52Z",
-        "closed_at": null,
-        "title": "Section 9.1: when is IdP ready?",
         "labels": [],
         "assignee": "martinthomson",
         "isPullRequest": false
@@ -66372,6 +66242,76 @@
       },
       {
         "state": "open",
+        "number": 14,
+        "created_at": "2017-07-26T09:34:47Z",
+        "closed_at": null,
+        "title": "Ambiguous definition for IdP errors",
+        "labels": [],
+        "assignee": "martinthomson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1,
+        "created_at": "2017-07-26T03:09:46Z",
+        "closed_at": null,
+        "title": "Default identity provider",
+        "labels": [],
+        "assignee": "martinthomson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 17,
+        "created_at": "2017-07-24T09:38:14Z",
+        "closed_at": null,
+        "title": "Specifying third party IdP for validating assertion",
+        "labels": [],
+        "assignee": "martinthomson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 10,
+        "created_at": "2017-07-24T04:26:24Z",
+        "closed_at": null,
+        "title": "Origin value for IdP proxy script",
+        "labels": [],
+        "assignee": "martinthomson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 15,
+        "created_at": "2017-07-21T08:38:55Z",
+        "closed_at": null,
+        "title": "Format of provider string for setIdentityProvider and validation",
+        "labels": [],
+        "assignee": "martinthomson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 18,
+        "created_at": "2017-07-06T09:48:31Z",
+        "closed_at": null,
+        "title": "setConfiguration({ peerIdentity }) when there is no initial peerIdentity",
+        "labels": [],
+        "assignee": "adam-be",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 9,
+        "created_at": "2017-06-18T02:26:02Z",
+        "closed_at": null,
+        "title": "`addTransceiver(track)` doesn't mention checking the origin of track",
+        "labels": [],
+        "assignee": "adam-be",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2,
         "created_at": "2017-06-01T11:13:26Z",
         "closed_at": null,
@@ -66382,10 +66322,80 @@
       },
       {
         "state": "open",
-        "number": 1,
-        "created_at": "2017-07-26T03:09:46Z",
+        "number": 16,
+        "created_at": "2017-05-31T16:45:31Z",
         "closed_at": null,
-        "title": "Default identity provider",
+        "title": "Section 10.4.1: target peerIdentity",
+        "labels": [],
+        "assignee": "martinthomson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 20,
+        "created_at": "2017-05-31T16:44:08Z",
+        "closed_at": null,
+        "title": "Section 9.4: peerIdentity mismatches",
+        "labels": [],
+        "assignee": "martinthomson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5,
+        "created_at": "2017-05-31T16:42:52Z",
+        "closed_at": null,
+        "title": "Section 9.1: when is IdP ready?",
+        "labels": [],
+        "assignee": "martinthomson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 27,
+        "created_at": "2017-05-29T22:07:35Z",
+        "closed_at": null,
+        "title": "Failure of transmission of isolated stream",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 13,
+        "created_at": "2017-05-29T22:07:21Z",
+        "closed_at": null,
+        "title": "Clarity in section 9.7 example 11",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 19,
+        "created_at": "2017-05-29T22:07:06Z",
+        "closed_at": null,
+        "title": "Lifetime of pc.PeerIdentity",
+        "labels": [],
+        "assignee": "martinthomson",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 21,
+        "created_at": "2017-05-29T22:04:47Z",
+        "closed_at": null,
+        "title": "Error for when peer identity is wrong",
+        "labels": [],
+        "assignee": "fluffy",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 22,
+        "created_at": "2016-12-02T04:03:28Z",
+        "closed_at": null,
+        "title": "Handing SDP with more than one identity ",
         "labels": [],
         "assignee": "martinthomson",
         "isPullRequest": false
@@ -66535,16 +66545,6 @@
         "created_at": "2020-02-05T10:24:43Z",
         "closed_at": null,
         "title": "Local IP obfuscation",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 58,
-        "created_at": "2018-10-22T13:30:12Z",
-        "closed_at": null,
-        "title": "Obtain user consent for one-way media and data use cases",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -66820,46 +66820,6 @@
       },
       {
         "state": "closed",
-        "number": 36,
-        "created_at": "2018-01-19T08:20:37Z",
-        "closed_at": "2019-08-27T20:06:45Z",
-        "title": "Integrate CSP access control into algorithms",
-        "labels": [
-          {
-            "id": 1150245454,
-            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "e99695",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 35,
-        "created_at": "2018-01-09T00:03:03Z",
-        "closed_at": "2019-08-27T22:03:48Z",
-        "title": "WebRTC bypass CSP connect-src policies",
-        "labels": [
-          {
-            "id": 1150245454,
-            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
-            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
-            "name": "PR exists",
-            "color": "e99695",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
         "number": 34,
         "created_at": "2019-06-17T19:06:20Z",
         "closed_at": "2019-07-16T01:30:45Z",
@@ -66887,26 +66847,6 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 31,
-        "created_at": "2017-10-12T17:45:12Z",
-        "closed_at": null,
-        "title": "Need for Initial Bitrate by the Application/RtpSender?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 30,
-        "created_at": "2019-01-25T14:04:41Z",
-        "closed_at": "2019-06-03T16:48:03Z",
-        "title": "(How) does SCTP handle CPU-bound congestion on JavaScript thread?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
       },
       {
         "state": "closed",
@@ -67020,6 +66960,16 @@
       },
       {
         "state": "closed",
+        "number": 30,
+        "created_at": "2019-01-25T14:04:41Z",
+        "closed_at": "2019-06-03T16:48:03Z",
+        "title": "(How) does SCTP handle CPU-bound congestion on JavaScript thread?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 20,
         "created_at": "2018-12-04T16:36:48Z",
         "closed_at": "2018-12-04T16:50:38Z",
@@ -67057,6 +67007,16 @@
         "labels": [],
         "assignee": "aboba",
         "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 58,
+        "created_at": "2018-10-22T13:30:12Z",
+        "closed_at": null,
+        "title": "Obtain user consent for one-way media and data use cases",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
       },
       {
         "state": "closed",
@@ -67485,6 +67445,56 @@
             "description": ""
           }
         ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 36,
+        "created_at": "2018-01-19T08:20:37Z",
+        "closed_at": "2019-08-27T20:06:45Z",
+        "title": "Integrate CSP access control into algorithms",
+        "labels": [
+          {
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 35,
+        "created_at": "2018-01-09T00:03:03Z",
+        "closed_at": "2019-08-27T22:03:48Z",
+        "title": "WebRTC bypass CSP connect-src policies",
+        "labels": [
+          {
+            "id": 1150245454,
+            "node_id": "MDU6TGFiZWwxMTUwMjQ1NDU0",
+            "url": "https://api.github.com/repos/w3c/webrtc-nv-use-cases/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 31,
+        "created_at": "2017-10-12T17:45:12Z",
+        "closed_at": null,
+        "title": "Need for Initial Bitrate by the Application/RtpSender?",
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       }
@@ -67953,16 +67963,6 @@
         "title": "Security considerations need to mention portscanning as an issue",
         "labels": [],
         "assignee": "alvestrand",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 571,
-        "created_at": "2020-02-03T12:12:24Z",
-        "closed_at": null,
-        "title": "Unclear result of stats filtering by sender/receiver.",
-        "labels": [],
-        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -68482,6 +68482,16 @@
         "title": "Stats objects creation and WebRTC objects lifecycle",
         "labels": [],
         "assignee": "alvestrand",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 571,
+        "created_at": "2020-02-03T12:12:24Z",
+        "closed_at": null,
+        "title": "Unclear result of stats filtering by sender/receiver.",
+        "labels": [],
+        "assignee": null,
         "isPullRequest": false
       },
       {
