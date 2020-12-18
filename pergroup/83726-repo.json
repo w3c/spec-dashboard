@@ -2104,11 +2104,70 @@
     "issues": [
       {
         "state": "open",
+        "number": 1375,
+        "created_at": "2020-12-18T00:32:52Z",
+        "closed_at": null,
+        "title": "Use \"containing/contained by\" wording instead of arrow abbreviations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1374,
+        "created_at": "2020-12-17T19:06:53Z",
+        "closed_at": "2020-12-17T19:25:01Z",
+        "title": "1.2 ARIA's combobox references 1.1 APG",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1373,
+        "created_at": "2020-12-17T16:42:38Z",
+        "closed_at": null,
+        "title": "Conflict when using aria-roledescription and attributes that affect the role",
+        "labels": [],
+        "assignee": "stes-acc",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1372,
+        "created_at": "2020-12-17T15:17:06Z",
+        "closed_at": null,
+        "title": "aria-roledescription for child elements?",
+        "labels": [],
+        "assignee": "stes-acc",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1371,
         "created_at": "2020-12-16T17:48:38Z",
         "closed_at": null,
         "title": "Detectability of assistive technology",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2495545596,
+            "node_id": "MDU6TGFiZWwyNDk1NTQ1NTk2",
+            "url": "https://api.github.com/repos/w3c/aria/labels/1.3-Blocking",
+            "name": "1.3-Blocking",
+            "color": "bf2438",
+            "default": false,
+            "description": "Blocking issues for 1.3 WRWD"
+          },
+          {
+            "id": 1831510730,
+            "node_id": "MDU6TGFiZWwxODMxNTEwNzMw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/privacy-needs-resolution",
+            "name": "privacy-needs-resolution",
+            "color": "d4af37",
+            "default": false,
+            "description": "Issue the Privacy Group has raised and looks for a response on."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2138,8 +2197,18 @@
         "created_at": "2020-12-11T03:56:49Z",
         "closed_at": null,
         "title": "Consider whether or not to change markup for left and right pointing arrows",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "carmacleod",
         "isPullRequest": false
       },
       {
@@ -2243,10 +2312,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1359,
         "created_at": "2020-11-25T17:15:10Z",
-        "closed_at": null,
+        "closed_at": "2020-12-17T19:28:04Z",
         "title": "Tighten up Required Context Role: group",
         "labels": [
           {
@@ -2283,10 +2352,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1357,
         "created_at": "2020-11-25T14:18:54Z",
-        "closed_at": null,
+        "closed_at": "2020-12-17T19:28:04Z",
         "title": "Small but important omission in option role spec",
         "labels": [],
         "assignee": null,
@@ -24237,9 +24306,88 @@
     "issues": [
       {
         "state": "open",
+        "number": 1695,
+        "created_at": "2020-12-18T10:01:06Z",
+        "closed_at": null,
+        "title": "Bump cspell from 4.2.5 to 5.0.8",
+        "labels": [
+          {
+            "id": 1525602200,
+            "node_id": "MDU6TGFiZWwxNTI1NjAyMjAw",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/dependencies",
+            "name": "dependencies",
+            "color": "0366d6",
+            "default": false,
+            "description": "Pull requests that update a dependency file in a third-party package"
+          },
+          {
+            "id": 2384933294,
+            "node_id": "MDU6TGFiZWwyMzg0OTMzMjk0",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/javascript",
+            "name": "javascript",
+            "color": "168700",
+            "default": false,
+            "description": "Pull requests that update Javascript code"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1694,
+        "created_at": "2020-12-18T02:33:33Z",
+        "closed_at": null,
+        "title": "Add \"Open in Codepen\" button to Treegrid example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1693,
+        "created_at": "2020-12-18T02:06:41Z",
+        "closed_at": null,
+        "title": "Add \"Open in Codepen\" to link example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1692,
+        "created_at": "2020-12-18T01:06:47Z",
+        "closed_at": null,
+        "title": "Button IDL styling does not work on all browsers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1691,
+        "created_at": "2020-12-18T00:58:40Z",
+        "closed_at": null,
+        "title": "Add remaining missing keyboard tests",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1690,
+        "created_at": "2020-12-17T22:47:18Z",
+        "closed_at": null,
+        "title": "Update multi thumb slider",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 1689,
         "created_at": "2020-12-17T10:00:58Z",
-        "closed_at": null,
+        "closed_at": "2020-12-18T10:01:10Z",
         "title": "Bump cspell from 4.2.5 to 5.0.7",
         "labels": [
           {
