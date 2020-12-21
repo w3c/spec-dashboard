@@ -8,6 +8,56 @@
     "issues": [
       {
         "state": "open",
+        "number": 513,
+        "created_at": "2020-12-21T12:04:45Z",
+        "closed_at": null,
+        "title": "Add SVIP contract number.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 512,
+        "created_at": "2020-12-21T12:04:37Z",
+        "closed_at": null,
+        "title": "Add StandICT.eu contract number.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 511,
+        "created_at": "2020-12-20T23:02:47Z",
+        "closed_at": null,
+        "title": "Add section on \"Service Privacy\" to Privacy Considerations.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 510,
+        "created_at": "2020-12-20T21:28:06Z",
+        "closed_at": null,
+        "title": "Allow serviceEndpoint to be an array. Address #506.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 509,
+        "created_at": "2020-12-20T19:22:21Z",
+        "closed_at": null,
+        "title": "Specify datetime precision for serializations.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 508,
         "created_at": "2020-12-18T12:31:43Z",
         "closed_at": null,
@@ -32,18 +82,56 @@
         "created_at": "2020-12-15T02:06:44Z",
         "closed_at": null,
         "title": "Correct the serviceEndpoint property to allow for a string or array of strings",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          },
+          {
+            "id": 2472424020,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0MDIw",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p1",
+            "name": "pre-cr-p1",
+            "color": "fc97b2",
+            "default": false,
+            "description": "Pre-CR high priority issue."
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 505,
         "created_at": "2020-12-15T01:05:39Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T20:44:57Z",
         "title": "The definition of \"the top-level\" of the abstract data model is unclear ",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          },
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -52,15 +140,25 @@
         "created_at": "2020-12-15T00:57:49Z",
         "closed_at": null,
         "title": "Issues in \"Note on Persistence\" in DID Syntax section",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
+          }
+        ],
+        "assignee": "talltree",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 503,
         "created_at": "2020-12-15T00:52:55Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T16:31:31Z",
         "title": "Minor cross reference fixes to the terminology section",
         "labels": [
           {
@@ -153,6 +251,15 @@
         "title": "Datetime data type missing timezone and precision",
         "labels": [
           {
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          },
+          {
             "id": 2472424020,
             "node_id": "MDU6TGFiZWwyNDcyNDI0MDIw",
             "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p1",
@@ -160,25 +267,16 @@
             "color": "fc97b2",
             "default": false,
             "description": "Pre-CR high priority issue."
-          },
-          {
-            "id": 1838604038,
-            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "5319e7",
-            "default": false,
-            "description": "Issue is ready for a PR"
           }
         ],
         "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 497,
         "created_at": "2020-12-14T14:43:39Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T16:27:57Z",
         "title": "Minor typo fixes to Sec. 1, 6 and 7",
         "labels": [
           {
@@ -195,13 +293,32 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 496,
         "created_at": "2020-12-14T14:35:26Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T20:09:33Z",
         "title": " Inconsistent definition/name of DID Document (or abstract data model?)",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          },
+          {
+            "id": 2472424829,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0ODI5",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p2",
+            "name": "pre-cr-p2",
+            "color": "e5df3b",
+            "default": false,
+            "description": "Pre-CR medium priority issue."
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -210,8 +327,18 @@
         "created_at": "2020-12-14T14:22:32Z",
         "closed_at": null,
         "title": "`updated` property's initial value is not defined clearly",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 2472424020,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0MDIw",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p1",
+            "name": "pre-cr-p1",
+            "color": "fc97b2",
+            "default": false,
+            "description": "Pre-CR high priority issue."
+          }
+        ],
+        "assignee": "peacekeeper",
         "isPullRequest": false
       },
       {
@@ -229,6 +356,15 @@
             "color": "fef2c0",
             "default": false,
             "description": "There is an open PR to address this issue"
+          },
+          {
+            "id": 2472425612,
+            "node_id": "MDU6TGFiZWwyNDcyNDI1NjEy",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p3",
+            "name": "pre-cr-p3",
+            "color": "40d665",
+            "default": false,
+            "description": "Pre-CR low priority issue."
           }
         ],
         "assignee": "kdenhartog",
@@ -255,20 +391,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 492,
         "created_at": "2020-12-14T11:09:33Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T16:25:50Z",
         "title": "Changing DID method name description to match the ABNF definition to allow digits",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 491,
         "created_at": "2020-12-14T11:07:14Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T18:35:32Z",
         "title": "DID method name should be ASCII alphanumeric in lowercase",
         "labels": [
           {
@@ -279,16 +415,25 @@
             "color": "fef2c0",
             "default": false,
             "description": "There is an open PR to address this issue"
+          },
+          {
+            "id": 2472424020,
+            "node_id": "MDU6TGFiZWwyNDcyNDI0MDIw",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pre-cr-p1",
+            "name": "pre-cr-p1",
+            "color": "fc97b2",
+            "default": false,
+            "description": "Pre-CR high priority issue."
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 490,
         "created_at": "2020-12-12T20:02:12Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T16:22:47Z",
         "title": "Refactor verification methods section",
         "labels": [],
         "assignee": null,
@@ -305,50 +450,50 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 488,
         "created_at": "2020-12-12T18:45:18Z",
-        "closed_at": null,
-        "title": "Close #432",
+        "closed_at": "2020-12-20T16:07:48Z",
+        "title": "Remove reference to @base issue discussion.",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 487,
         "created_at": "2020-12-12T18:41:16Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T16:06:47Z",
         "title": "Define representation-not-supported error",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 486,
         "created_at": "2020-12-12T18:30:02Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T16:04:45Z",
         "title": "Add note on representation properties lexical and value space",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 485,
         "created_at": "2020-12-12T18:11:42Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T16:02:56Z",
         "title": "Add advisement on computing the cryptographic hash of a context",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 484,
         "created_at": "2020-12-11T00:22:00Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T16:01:39Z",
         "title": "At Risk statement for ABNF not allowing an empty method-id-string",
         "labels": [],
         "assignee": null,
@@ -603,10 +748,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 464,
         "created_at": "2020-11-19T22:50:24Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T18:10:42Z",
         "title": "DID Core must define how to compute the digest to secure did spec registry entries contexts",
         "labels": [
           {
@@ -741,10 +886,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 456,
         "created_at": "2020-11-10T16:21:21Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T18:29:10Z",
         "title": "Data Model and Representations \"Value and Lexical Space\"",
         "labels": [
           {
@@ -1285,10 +1430,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 423,
         "created_at": "2020-10-01T19:46:17Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T18:27:23Z",
         "title": "Add NOTE about Verification Method types and remove the redundant languages on key representations from DID Core",
         "labels": [
           {
@@ -1412,10 +1557,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 416,
         "created_at": "2020-09-24T21:03:38Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T18:33:06Z",
         "title": "JSON-LD context specific questions about DID Core specification",
         "labels": [
           {
@@ -2468,10 +2613,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 478,
         "created_at": "2020-08-03T18:41:49Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T19:28:36Z",
         "title": "How should contributors register the same DID Method on multiple networks?",
         "labels": [
           {
@@ -3244,10 +3389,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 325,
         "created_at": "2020-06-20T19:51:47Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T18:11:24Z",
         "title": "According to the working draft as of 8 June 2020, raw secp256r1 public keys must be 32-byte long",
         "labels": [
           {
@@ -4965,10 +5110,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 240,
         "created_at": "2020-03-24T23:08:56Z",
-        "closed_at": null,
+        "closed_at": "2020-12-20T18:12:01Z",
         "title": "Should did-core restrict the use of JWK?",
         "labels": [
           {
@@ -6404,6 +6549,15 @@
             "color": "d4c5f9",
             "default": false,
             "description": "Related to JOSE specifications"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           },
           {
             "id": 2472424020,
