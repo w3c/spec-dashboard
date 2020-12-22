@@ -899,7 +899,7 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/css-backgrounds-3/",
-    "description": "<p>CSS is a language for describing the rendering of structured documents (such as HTML and XML) on screen, on paper, in speech, etc. This draft contains the features of CSS level 3 relating to borders and backgrounds. It includes and extends the functionality of CSS level 2 [CSS21], which builds on CSS level 1 [CSS1] . The main extensions compared to level 2 are borders consisting of images, boxes with multiple backgrounds, boxes with rounded corners and boxes with shadows.</p> <p>This module replaces two earlier drafts: CSS3 Backgrounds and CSS3 Border.</p>",
+    "description": "<p>This draft contains the features of CSS relating to borders and backgrounds. The main extensions compared to level 2 are borders consisting of images, boxes with multiple backgrounds, boxes with rounded corners and boxes with shadows.</p>",
     "title": "CSS Backgrounds and Borders Module Level 3",
     "shortname": "css-backgrounds-3",
     "editor-draft": "https://drafts.csswg.org/css-backgrounds/",
@@ -916,8 +916,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-backgrounds-3/versions/20171017",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/css-backgrounds-3/versions/20201222",
+        "title": "Candidate Recommendation Snapshot"
       },
       "supersedes": {
         "href": "https://api.w3.org/specifications/css-backgrounds-3/supersedes"
@@ -928,6 +928,35 @@
     },
     "editorsdraft": "https://drafts.csswg.org/css-backgrounds/",
     "versions": [
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/css-backgrounds/",
+        "uri": "https://www.w3.org/TR/2020/CR-css-backgrounds-3-20201222/",
+        "date": "2020-12-22",
+        "implementation-feedback-due": "2021-02-22",
+        "informative": false,
+        "title": "CSS Backgrounds and Borders Module Level 3",
+        "shortlink": "https://www.w3.org/TR/css-backgrounds-3/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-backgrounds-3/versions/20201222"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-backgrounds-3/versions/20201222/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-backgrounds-3/versions/20201222/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-backgrounds-3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-backgrounds-3/versions/20201222/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -954,6 +983,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-backgrounds-3/versions/20171017/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-backgrounds-3/versions/20171017/successors"
           }
         }
       },
@@ -1328,7 +1360,7 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/css-box-3/",
-    "description": "<p>CSS (Cascading Style Sheets) describes the rendering of documents on various media. When textual documents (e.g., HTML) are laid out on visual media (e.g., screen or print), CSS models the document as a hierarchy of boxes containing words, lines, paragraphs, tables, etc. each with properties such as size, color and font.</p> <p>This module describes the basic types of boxes, with their padding and margin, and the normal “flow” (i.e., the sequence of blocks of text with margins in-between). It also defines “floating” boxes, but other kinds of layout, such as tables, absolute positioning, ruby annotations, grid layouts, columns and numbered pages, are described by other modules. Also, the layout of text inside each line (including the handling of left-to-right and right-to-left scripts) is defined elsewhere.</p> <p>Boxes may contain either horizontal or vertical lines of text. Boxes of different orientations may be mixed in one flow. (This is a level 3 feature.)</p>",
+    "description": "<p>This specification describes the margin and padding properties, which create spacing in and around a CSS box.</p>",
     "title": "CSS Box Model Module Level 3",
     "shortname": "css-box-3",
     "editor-draft": "https://drafts.csswg.org/css-box-3/",
@@ -1345,8 +1377,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-box-3/versions/20201028",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/css-box-3/versions/20201222",
+        "title": "Candidate Recommendation Snapshot"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/css-box"
@@ -1354,6 +1386,35 @@
     },
     "editorsdraft": "https://drafts.csswg.org/css-box-3/",
     "versions": [
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/css-box-3/",
+        "uri": "https://www.w3.org/TR/2020/CR-css-box-3-20201222/",
+        "date": "2020-12-22",
+        "implementation-feedback-due": "2021-02-22",
+        "informative": false,
+        "title": "CSS Box Model Module Level 3",
+        "shortlink": "https://www.w3.org/TR/css-box-3/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-box-3/versions/20201222"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-box-3/versions/20201222/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-box-3/versions/20201222/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-box-3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-box-3/versions/20201222/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -1379,6 +1440,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-box-3/versions/20201028/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-box-3/versions/20201028/successors"
           }
         }
       },
@@ -1948,7 +2012,7 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/css-cascade-3/",
-    "description": "<p>This CSS3 module describes how values are assigned to properties. CSS allows several style sheets to influence the rendering of a document, and the process of combining these style sheets is called “cascading”. If no value can be found through cascading, a value can be inherited from the parent element or the property's initial value is used.</p>",
+    "description": "<p>This CSS module describes how to collate style rules and assign values to all properties on all elements. By way of cascading and inheritance, values are propagated for all properties on all elements.</p>",
     "title": "CSS Cascading and Inheritance Level 3",
     "shortname": "css-cascade-3",
     "editor-draft": "https://drafts.csswg.org/css-cascade-3/",
@@ -1965,8 +2029,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-cascade-3/versions/20200817",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/css-cascade-3/versions/20201222",
+        "title": "Proposed Recommendation"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/css-cascade"
@@ -1974,6 +2038,35 @@
     },
     "editorsdraft": "https://drafts.csswg.org/css-cascade-3/",
     "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/css-cascade-3/",
+        "uri": "https://www.w3.org/TR/2020/PR-css-cascade-3-20201222/",
+        "date": "2020-12-22",
+        "pr-reviews-date": "2021-02-08",
+        "informative": false,
+        "title": "CSS Cascading and Inheritance Level 3",
+        "shortlink": "https://www.w3.org/TR/css-cascade-3/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-cascade-3/versions/20201222"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-cascade-3/versions/20201222/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-cascade-3/versions/20201222/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-cascade-3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-cascade-3/versions/20201222/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -1999,6 +2092,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-cascade-3/versions/20200817/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-cascade-3/versions/20200817/successors"
           }
         }
       },
@@ -11358,7 +11454,7 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/css-text-3/",
-    "description": "<p>This CSS3 module defines properties for text manipulation and specifies their processing model. It covers line breaking, justification and alignment, white space handling, text decoration and text transformation.</p>",
+    "description": "<p>This CSS module defines properties for text manipulation and specifies their processing model. It covers line breaking, justification and alignment, white space handling, and text transformation.</p>",
     "title": "CSS Text Module Level 3",
     "shortname": "css-text-3",
     "editor-draft": "https://drafts.csswg.org/css-text-3/",
@@ -11375,8 +11471,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-text-3/versions/20201119",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/css-text-3/versions/20201222",
+        "title": "Candidate Recommendation Snapshot"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/css-text"
@@ -11384,6 +11480,35 @@
     },
     "editorsdraft": "https://drafts.csswg.org/css-text-3/",
     "versions": [
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/css-text-3/",
+        "uri": "https://www.w3.org/TR/2020/CR-css-text-3-20201222/",
+        "date": "2020-12-22",
+        "implementation-feedback-due": "2021-02-22",
+        "informative": false,
+        "title": "CSS Text Module Level 3",
+        "shortlink": "https://www.w3.org/TR/css-text-3/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-text-3/versions/20201222"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-text-3/versions/20201222/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-text-3/versions/20201222/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-text-3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-text-3/versions/20201222/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -11409,6 +11534,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-text-3/versions/20201119/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-text-3/versions/20201119/successors"
           }
         }
       },
