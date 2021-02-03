@@ -8,6 +8,106 @@
     "issues": [
       {
         "state": "open",
+        "number": 598,
+        "created_at": "2021-02-03T12:30:51Z",
+        "closed_at": null,
+        "title": "IANA consideration should be its own section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 597,
+        "created_at": "2021-02-03T11:53:05Z",
+        "closed_at": null,
+        "title": "Add diagram \"resolve() and resolveRepresentation()\".",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 596,
+        "created_at": "2021-02-03T11:53:03Z",
+        "closed_at": null,
+        "title": "Add diagram \"production and consumption\".",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 595,
+        "created_at": "2021-02-03T11:53:00Z",
+        "closed_at": null,
+        "title": "Add diagram \"DID document entries\".",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 594,
+        "created_at": "2021-02-03T06:02:12Z",
+        "closed_at": null,
+        "title": "Mark CBOR as a feature at risk.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 593,
+        "created_at": "2021-02-02T22:54:01Z",
+        "closed_at": null,
+        "title": "Remove DagCBOR from the specification.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 592,
+        "created_at": "2021-02-02T22:47:37Z",
+        "closed_at": null,
+        "title": "Make DID Resolution section concrete and testable (abstract + Typescript). ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 591,
+        "created_at": "2021-02-02T15:52:53Z",
+        "closed_at": "2021-02-03T04:40:39Z",
+        "title": "Make DID Resolution section concrete and testable (Typescript). ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 590,
+        "created_at": "2021-02-02T13:53:52Z",
+        "closed_at": null,
+        "title": "\"Personal data\" or \"PII\"",
+        "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 589,
         "created_at": "2021-02-01T16:35:02Z",
         "closed_at": null,
@@ -37,11 +137,11 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 587,
         "created_at": "2021-02-01T04:37:32Z",
-        "closed_at": null,
-        "title": "Make DID Resolution section concrete and testable.",
+        "closed_at": "2021-02-03T04:40:20Z",
+        "title": "Make DID Resolution section concrete and testable (WebIDL).",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -61,6 +161,15 @@
             "color": "e2bc2f",
             "default": false,
             "description": "Do not merge - waiting on resolution to issue"
+          },
+          {
+            "id": 1594108376,
+            "node_id": "MDU6TGFiZWwxNTk0MTA4Mzc2",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/pending%20close",
+            "name": "pending close",
+            "color": "cc4502",
+            "default": false,
+            "description": "Issue will be closed shortly if no objections"
           }
         ],
         "assignee": null,
@@ -263,10 +372,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 575,
         "created_at": "2021-01-25T09:51:28Z",
-        "closed_at": null,
+        "closed_at": "2021-02-02T22:35:21Z",
         "title": "Global uniqueness of method-specific-id is not necessary, also hard to achieve",
         "labels": [
           {
@@ -283,10 +392,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 574,
         "created_at": "2021-01-25T01:48:56Z",
-        "closed_at": null,
+        "closed_at": "2021-02-02T13:51:54Z",
         "title": "Revised text on persistence",
         "labels": [],
         "assignee": null,
@@ -581,10 +690,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 552,
         "created_at": "2021-01-17T21:57:21Z",
-        "closed_at": null,
+        "closed_at": "2021-02-03T04:43:18Z",
         "title": "Add feature at risk for DagCBOR.",
         "labels": [
           {
@@ -615,15 +724,6 @@
             "color": "fef2c0",
             "default": false,
             "description": "There is an open PR to address this issue"
-          },
-          {
-            "id": 2055693582,
-            "node_id": "MDU6TGFiZWwyMDU1NjkzNTgy",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/needs-special-call",
-            "name": "needs-special-call",
-            "color": "d93f0b",
-            "default": false,
-            "description": "Needs a special topic call to make progress"
           },
           {
             "id": 2472424020,
@@ -1422,10 +1522,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 504,
         "created_at": "2020-12-15T00:57:49Z",
-        "closed_at": null,
+        "closed_at": "2021-02-02T14:17:46Z",
         "title": "Issues in \"Note on Persistence\" in DID Syntax section",
         "labels": [
           {
@@ -9848,10 +9948,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 72,
         "created_at": "2019-10-15T13:12:01Z",
-        "closed_at": null,
+        "closed_at": "2021-02-02T14:15:48Z",
         "title": "Privacy Considerations - Specifically call out GDPR",
         "labels": [
           {
