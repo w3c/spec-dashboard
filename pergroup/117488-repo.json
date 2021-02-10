@@ -8,11 +8,131 @@
     "issues": [
       {
         "state": "open",
+        "number": 616,
+        "created_at": "2021-02-10T03:31:33Z",
+        "closed_at": null,
+        "title": "Service privacy section updated",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 615,
+        "created_at": "2021-02-10T03:02:57Z",
+        "closed_at": null,
+        "title": "Fix editorial issues with Architecture Overview section.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 614,
+        "created_at": "2021-02-10T02:25:00Z",
+        "closed_at": null,
+        "title": "Editorial clean up for Design Goals section.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 613,
+        "created_at": "2021-02-10T02:05:18Z",
+        "closed_at": null,
+        "title": "Editorial cleanup of simple example section.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 612,
+        "created_at": "2021-02-10T01:56:12Z",
+        "closed_at": null,
+        "title": "Replacing Figure 1 with a new 'Brief Architecture Overview' diagram",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 611,
+        "created_at": "2021-02-10T01:18:50Z",
+        "closed_at": null,
+        "title": "Editorial rework of Introduction section.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 610,
+        "created_at": "2021-02-09T23:57:34Z",
+        "closed_at": null,
+        "title": "Describe `@context` as JSON member in JSON-LD production/consumption.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 609,
+        "created_at": "2021-02-09T22:57:07Z",
+        "closed_at": null,
+        "title": "Prepare Status of the Document section for Candidate Recommendation.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 608,
+        "created_at": "2021-02-09T22:41:02Z",
+        "closed_at": null,
+        "title": "Editorial clean up of Abstract section.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 607,
+        "created_at": "2021-02-09T22:18:23Z",
+        "closed_at": null,
+        "title": "Add Candidate Recommendation variables to spec.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 606,
+        "created_at": "2021-02-09T21:38:21Z",
+        "closed_at": null,
+        "title": "Reference Canonical CBOR rules, and some other fixes.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 605,
         "created_at": "2021-02-08T18:00:54Z",
         "closed_at": null,
         "title": "fixing `i.e.,` and `e.g.,` punctuation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1580539231,
+            "node_id": "MDU6TGFiZWwxNTgwNTM5MjMx",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/editorial",
+            "name": "editorial",
+            "color": "7eb520",
+            "default": false,
+            "description": "Editors should update the spec then close"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -71,7 +191,7 @@
         "number": 601,
         "created_at": "2021-02-06T17:31:51Z",
         "closed_at": null,
-        "title": "Make DID Resolution section concrete and testable (proof by construction testability)",
+        "title": "Clean up DID Resolution section; enable testability via proof by construction",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -81,7 +201,7 @@
         "number": 600,
         "created_at": "2021-02-04T03:48:00Z",
         "closed_at": null,
-        "title": "Adding an overview diagram to replace the current architecture overview diagram",
+        "title": "Adding a detailed overview diagram to appendix",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -292,13 +412,13 @@
         "title": "Deterministic canonical form for CBOR/DagCBOR not implementable, prevents other representations",
         "labels": [
           {
-            "id": 2055693582,
-            "node_id": "MDU6TGFiZWwyMDU1NjkzNTgy",
-            "url": "https://api.github.com/repos/w3c/did-core/labels/needs-special-call",
-            "name": "needs-special-call",
-            "color": "d93f0b",
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did-core/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "fef2c0",
             "default": false,
-            "description": "Needs a special topic call to make progress"
+            "description": "There is an open PR to address this issue"
           },
           {
             "id": 2472424020,
@@ -314,10 +434,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 584,
         "created_at": "2021-01-28T14:46:02Z",
-        "closed_at": null,
+        "closed_at": "2021-02-09T15:47:22Z",
         "title": "alsoKnownAs at risk?",
         "labels": [
           {
@@ -392,10 +512,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 580,
         "created_at": "2021-01-26T15:28:02Z",
-        "closed_at": null,
+        "closed_at": "2021-02-09T15:46:35Z",
         "title": "Is it acceptable to implicitly suggest implementing version control for a VDR?",
         "labels": [
           {
@@ -2220,10 +2340,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 468,
         "created_at": "2020-11-24T10:00:07Z",
-        "closed_at": null,
+        "closed_at": "2021-02-09T15:46:07Z",
         "title": "Should \"deactivated\" be an error code?",
         "labels": [
           {
@@ -2489,7 +2609,7 @@
         "number": 453,
         "created_at": "2020-11-05T05:01:29Z",
         "closed_at": null,
-        "title": "The relationship between Verifiable Data Registry and DID Document haven't shown in Figure 1",
+        "title": "Updating architecture overview diagrams",
         "labels": [
           {
             "id": 2472425612,
@@ -4068,10 +4188,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 373,
         "created_at": "2020-08-11T23:48:32Z",
-        "closed_at": null,
+        "closed_at": "2021-02-09T15:51:00Z",
         "title": "Proposed Appendices on DID Identification Architecture",
         "labels": [
           {
@@ -11700,6 +11820,16 @@
     "issues": [
       {
         "state": "closed",
+        "number": 142,
+        "created_at": "2021-02-09T17:51:50Z",
+        "closed_at": "2021-02-09T18:04:35Z",
+        "title": "Moving Domain map to the short use cases section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 141,
         "created_at": "2021-02-05T16:55:37Z",
         "closed_at": "2021-02-05T16:57:54Z",
@@ -11729,10 +11859,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 138,
         "created_at": "2021-01-26T17:04:53Z",
-        "closed_at": null,
+        "closed_at": "2021-02-09T18:11:13Z",
         "title": "Minor editorials",
         "labels": [],
         "assignee": null,
