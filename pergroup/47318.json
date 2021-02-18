@@ -447,8 +447,8 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/image-capture/",
-    "description": "<p>This specification defines an API to grab still pictures from a capture\r\ndevice generating a video stream.</p>",
-    "title": "\"MediaStream Image Capture\"",
+    "description": "<p>This document specifies methods and camera settings to produce photographic image capture. The source of images is, or can be referenced via a MediaStreamTrack.</p>",
+    "title": "MediaStream Image Capture",
     "shortname": "image-capture",
     "editor-draft": "https://w3c.github.io/mediacapture-image/",
     "_links": {
@@ -463,7 +463,7 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/image-capture/versions/20170621",
+        "href": "https://api.w3.org/specifications/image-capture/versions/20210218",
         "title": "Working Draft"
       },
       "series": {
@@ -472,6 +472,34 @@
     },
     "editorsdraft": "https://w3c.github.io/mediacapture-image/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/mediacapture-image/",
+        "uri": "https://www.w3.org/TR/2021/WD-image-capture-20210218/",
+        "date": "2021-02-18",
+        "informative": false,
+        "title": "MediaStream Image Capture",
+        "shortlink": "https://www.w3.org/TR/image-capture/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/image-capture/versions/20210218"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/image-capture/versions/20210218/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/image-capture/versions/20210218/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/image-capture"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/image-capture/versions/20210218/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -497,6 +525,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/image-capture/versions/20170621/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/image-capture/versions/20170621/successors"
           }
         }
       },
