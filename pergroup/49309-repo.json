@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "closed",
+        "number": 70,
+        "created_at": "2021-02-17T13:48:19Z",
+        "closed_at": "2021-02-17T13:50:10Z",
+        "title": "Update index.html",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 69,
         "created_at": "2021-02-07T12:48:32Z",
         "closed_at": "2021-02-08T19:31:09Z",
@@ -2024,6 +2034,55 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 156,
+        "created_at": "2021-02-18T00:43:28Z",
+        "closed_at": "2021-02-18T07:48:06Z",
+        "title": "update editorship",
+        "labels": [
+          {
+            "id": 270347287,
+            "node_id": "MDU6TGFiZWwyNzAzNDcyODc=",
+            "url": "https://api.github.com/repos/w3c/webappsec-credential-management/labels/editorial",
+            "name": "editorial",
+            "color": "ededed",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "equalsJeffH",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 155,
+        "created_at": "2021-02-18T00:31:56Z",
+        "closed_at": null,
+        "title": "Add \"conditional mediation\"",
+        "labels": [
+          {
+            "id": 270347088,
+            "node_id": "MDU6TGFiZWwyNzAzNDcwODg=",
+            "url": "https://api.github.com/repos/w3c/webappsec-credential-management/labels/CREDENTIAL",
+            "name": "CREDENTIAL",
+            "color": "ededed",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 267559445,
+            "node_id": "MDU6TGFiZWwyNjc1NTk0NDU=",
+            "url": "https://api.github.com/repos/w3c/webappsec-credential-management/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": null
+          }
+        ],
+        "assignee": "equalsJeffH",
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 154,
         "created_at": "2021-02-12T22:38:13Z",
@@ -3971,6 +4030,56 @@
     "issues": [
       {
         "state": "open",
+        "number": 465,
+        "created_at": "2021-02-18T06:58:13Z",
+        "closed_at": null,
+        "title": "Serialize JSON by reference to Infra spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 464,
+        "created_at": "2021-02-18T05:41:16Z",
+        "closed_at": null,
+        "title": "Match hash-algorithm parts case-insensitively (as CSP2)",
+        "labels": [
+          {
+            "id": 2751452962,
+            "node_id": "MDU6TGFiZWwyNzUxNDUyOTYy",
+            "url": "https://api.github.com/repos/w3c/webappsec-csp/labels/needs%20tests",
+            "name": "needs tests",
+            "color": "B60205",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 463,
+        "created_at": "2021-02-18T05:20:56Z",
+        "closed_at": "2021-02-18T07:59:24Z",
+        "title": "Use “hash-algorithm” name (not old CSP2 “hash-algo” name)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 462,
+        "created_at": "2021-02-18T03:46:38Z",
+        "closed_at": "2021-02-18T08:39:25Z",
+        "title": "Fix calls to “percent-decode” algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 461,
         "created_at": "2021-02-10T09:22:11Z",
         "closed_at": null,
@@ -4036,7 +4145,7 @@
         "closed_at": null,
         "title": "Use Infra for JSON",
         "labels": [],
-        "assignee": null,
+        "assignee": "sideshowbarker",
         "isPullRequest": false
       },
       {
@@ -4100,23 +4209,13 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 448,
         "created_at": "2020-11-05T08:03:23Z",
-        "closed_at": null,
+        "closed_at": "2021-02-18T08:39:25Z",
         "title": "Percent-decode is used incorrectly",
-        "labels": [
-          {
-            "id": 267559570,
-            "node_id": "MDU6TGFiZWwyNjc1NTk1NzA=",
-            "url": "https://api.github.com/repos/w3c/webappsec-csp/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true,
-            "description": null
-          }
-        ],
-        "assignee": null,
+        "labels": [],
+        "assignee": "sideshowbarker",
         "isPullRequest": false
       },
       {
@@ -4135,18 +4234,8 @@
         "created_at": "2020-11-04T12:07:32Z",
         "closed_at": null,
         "title": "Address Bikeshed warnings",
-        "labels": [
-          {
-            "id": 267559570,
-            "node_id": "MDU6TGFiZWwyNjc1NTk1NzA=",
-            "url": "https://api.github.com/repos/w3c/webappsec-csp/labels/bug",
-            "name": "bug",
-            "color": "fc2929",
-            "default": true,
-            "description": null
-          }
-        ],
-        "assignee": null,
+        "labels": [],
+        "assignee": "sideshowbarker",
         "isPullRequest": false
       },
       {
@@ -4410,13 +4499,13 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 418,
         "created_at": "2020-01-06T13:13:21Z",
-        "closed_at": null,
+        "closed_at": "2021-02-18T07:59:24Z",
         "title": "hash-algo",
         "labels": [],
-        "assignee": null,
+        "assignee": "sideshowbarker",
         "isPullRequest": false
       },
       {
@@ -5620,10 +5709,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 296,
         "created_at": "2018-02-23T13:38:48Z",
-        "closed_at": null,
+        "closed_at": "2021-02-18T04:00:08Z",
         "title": "Remove gh-pages branch?",
         "labels": [],
         "assignee": null,
@@ -5966,7 +6055,7 @@
         "closed_at": null,
         "title": "Please clearly mark older versions as obsolete",
         "labels": [],
-        "assignee": null,
+        "assignee": "sideshowbarker",
         "isPullRequest": false
       },
       {
@@ -9684,6 +9773,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 40,
+        "created_at": "2021-02-17T12:38:25Z",
+        "closed_at": "2021-02-17T12:42:23Z",
+        "title": "Update index.html",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 39,
+        "created_at": "2021-02-17T10:52:53Z",
+        "closed_at": "2021-02-17T11:09:33Z",
+        "title": "Travis CI: Use \"main\" branch, not \"master\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 37,
         "created_at": "2020-12-01T18:21:28Z",
@@ -10083,10 +10192,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 229,
         "created_at": "2020-12-18T01:03:29Z",
-        "closed_at": null,
+        "closed_at": "2021-02-17T00:57:37Z",
         "title": "Expose PermissionName as IDL",
         "labels": [],
         "assignee": null,
