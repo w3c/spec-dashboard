@@ -18,8 +18,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webauthn-2/versions/20201222",
-        "title": "Candidate Recommendation Snapshot"
+        "href": "https://api.w3.org/specifications/webauthn-2/versions/20210225",
+        "title": "Proposed Recommendation"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/webauthn"
@@ -27,6 +27,35 @@
     },
     "editorsdraft": "https://w3c.github.io/webauthn/",
     "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webauthn/",
+        "uri": "https://www.w3.org/TR/2021/PR-webauthn-2-20210225/",
+        "date": "2021-02-25",
+        "pr-reviews-date": "2021-03-26",
+        "informative": false,
+        "title": "Web Authentication: An API for accessing Public Key Credentials - Level 2",
+        "shortlink": "https://www.w3.org/TR/webauthn-2/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20210225"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20210225/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20210225/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webauthn-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20210225/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
@@ -53,6 +82,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webauthn-2/versions/20201222/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webauthn-2/versions/20201222/successors"
           }
         }
       },
