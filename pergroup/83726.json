@@ -173,7 +173,7 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/wai-aria-1.2/",
-    "description": "<p>Recommends approaches for developers of rich internet applications to make widgets, navigation, and behaviors accessible using WAI-ARIA roles, states, and properties. The primary focus of WAI-ARIA 1.2 is to add roles that correspond to HTML 5 semantics.</p>",
+    "description": "<p>Accessibility of web content requires semantic information about widgets, structures, and behaviors, in order to allow assistive technologies to convey appropriate information to persons with disabilities. This specification provides an ontology of roles, states, and properties that define accessible user interface elements and can be used to improve the accessibility and interoperability of web content and applications. These semantics are designed to allow an author to properly convey user interface behaviors and structural information to assistive technologies in document-level markup. This version adds features new since WAI-ARIA 1.1 [wai-aria-1.1] to improve interoperability with assistive technologies to form a more consistent accessibility model for [HTML] and [SVG2]. This specification complements both [HTML] and [SVG2].</p>\r\n<p>This document is part of the WAI-ARIA suite described in the WAI-ARIA Overview.</p>",
     "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
     "shortname": "wai-aria-1.2",
     "editor-draft": "https://w3c.github.io/aria/",
@@ -190,8 +190,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/wai-aria-1.2/versions/20191218",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/wai-aria-1.2/versions/20210302",
+        "title": "Candidate Recommendation Snapshot"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/wai-aria"
@@ -199,6 +199,35 @@
     },
     "editorsdraft": "https://w3c.github.io/aria/",
     "versions": [
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/aria/",
+        "uri": "https://www.w3.org/TR/2021/CR-wai-aria-1.2-20210302/",
+        "date": "2021-03-02",
+        "implementation-feedback-due": "2021-04-05",
+        "informative": false,
+        "title": "Accessible Rich Internet Applications (WAI-ARIA) 1.2",
+        "shortlink": "https://www.w3.org/TR/wai-aria-1.2/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/wai-aria-1.2/versions/20210302"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/wai-aria-1.2/versions/20210302/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/wai-aria-1.2/versions/20210302/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/wai-aria-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/wai-aria-1.2/versions/20210302/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -224,6 +253,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/wai-aria-1.2/versions/20191218/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/wai-aria-1.2/versions/20191218/successors"
           }
         }
       },
