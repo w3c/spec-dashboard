@@ -1,8 +1,8 @@
 [
   {
     "shortlink": "https://www.w3.org/TR/ttml2/",
-    "description": "<p>The Timed Text Markup Language is a content type that represents timed\r\ntext media for the purpose of interchange among authoring systems and for\r\ndistribution for example as a format to reference from an HTML <track>\r\nelement. Timed text is textual information that is intrinsically or\r\nextrinsically associated with timing information.</p>",
-    "title": "Timed Text Markup Language 2 (TTML2)",
+    "description": "<p>This document specifies the Second Edition of the Timed Text Markup Language (TTML), Version 2, also known as TTML2 (2e), in terms of a vocabulary and semantics thereof.</p>\r\n\r\n<p>The Timed Text Markup Language is a content type that represents timed text media for the purpose of interchange among authoring systems. Timed text is textual information that is intrinsically or extrinsically associated with timing information.</p>\r\n\r\n<p>It is intended to be used for the purpose of transcoding or exchanging timed text information among legacy distribution content formats presently in use for subtitling and captioning functions.</p>\r\n\r\n<p>In addition to being used for interchange among legacy distribution content formats, TTML Content may be used directly as a distribution format, for example, providing a standard content format to reference from a &lt;track&gt; element in an [HTML] document, or a &lt;text&gt; or &lt;textstream&gt; media element in a [SMIL 3.0] document.</p>",
+    "title": "Timed Text Markup Language 2 (TTML2) (2nd Edition)",
     "shortname": "ttml2",
     "editor-draft": "https://w3c.github.io/ttml2/index.html",
     "series-version": "2",
@@ -18,8 +18,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/ttml2/versions/20200128",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/ttml2/versions/20210309",
+        "title": "Candidate Recommendation Snapshot"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/ttml"
@@ -27,6 +27,36 @@
     },
     "editorsdraft": "https://w3c.github.io/ttml2/index.html",
     "versions": [
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/ttml2/index.html",
+        "uri": "https://www.w3.org/TR/2021/CR-ttml2-20210309/",
+        "date": "2021-03-09",
+        "implementation-feedback-due": "2021-04-06",
+        "informative": false,
+        "title": "Timed Text Markup Language 2 (TTML2) (2nd Edition)",
+        "shortlink": "https://www.w3.org/TR/ttml2/",
+        "errata": "https://www.w3.org/2018/11/ttml2-errata.html",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/ttml2/versions/20210309"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/ttml2/versions/20210309/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/ttml2/versions/20210309/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/ttml2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/ttml2/versions/20210309/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation",
         "rec-track": true,
@@ -53,6 +83,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/ttml2/versions/20200128/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/ttml2/versions/20200128/successors"
           }
         }
       },
