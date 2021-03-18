@@ -5178,7 +5178,7 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/webrtc-priority/",
-    "description": "<p>This API defines a control surface for manipulating the network control bits (DSCP bits) of outgoing WebRTC packets.</p>",
+    "description": "<p>This API defines a control surface for manipulating the network control bits (DSCP bits) of outgoing WebRTC packets, and the queueing priority of outgoing WebRTC packets under congestion.</p>",
     "title": "WebRTC Priority Control API",
     "shortname": "webrtc-priority",
     "editor-draft": "https://w3c.github.io/webrtc-priority/",
@@ -5194,8 +5194,8 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webrtc-priority/versions/20200922",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/webrtc-priority/versions/20210318",
+        "title": "Candidate Recommendation Snapshot"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/webrtc-priority"
@@ -5203,6 +5203,35 @@
     },
     "editorsdraft": "https://w3c.github.io/webrtc-priority/",
     "versions": [
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webrtc-priority/",
+        "uri": "https://www.w3.org/TR/2021/CR-webrtc-priority-20210318/",
+        "date": "2021-03-18",
+        "implementation-feedback-due": "2021-04-30",
+        "informative": false,
+        "title": "WebRTC Priority Control API",
+        "shortlink": "https://www.w3.org/TR/webrtc-priority/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webrtc-priority/versions/20210318"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webrtc-priority/versions/20210318/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webrtc-priority/versions/20210318/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webrtc-priority"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webrtc-priority/versions/20210318/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -5228,6 +5257,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webrtc-priority/versions/20200922/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webrtc-priority/versions/20200922/successors"
           }
         }
       },
