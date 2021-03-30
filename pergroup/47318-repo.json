@@ -1396,10 +1396,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 271,
         "created_at": "2020-11-04T23:21:36Z",
-        "closed_at": null,
+        "closed_at": "2021-03-29T15:38:33Z",
         "title": "Replace PTZ boolean normalization with boolean constraints",
         "labels": [],
         "assignee": null,
@@ -1616,10 +1616,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 256,
         "created_at": "2020-08-31T20:27:47Z",
-        "closed_at": null,
+        "closed_at": "2021-03-29T15:38:33Z",
         "title": "Clarify meaning of PTZ constraints presence",
         "labels": [
           {
@@ -7763,8 +7763,18 @@
         "created_at": "2021-03-01T12:32:15Z",
         "closed_at": null,
         "title": "Document default settings applied to tracks created by getUserMedia",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1364496941,
+            "node_id": "MDU6TGFiZWwxMzY0NDk2OTQx",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "youennf",
         "isPullRequest": false
       },
       {
@@ -9379,7 +9389,17 @@
         "created_at": "2020-04-02T15:33:17Z",
         "closed_at": null,
         "title": "Use new Storage endpoint model for deviceId",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1364496941,
+            "node_id": "MDU6TGFiZWwxMzY0NDk2OTQx",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": false
       },
@@ -12785,7 +12805,7 @@
         "closed_at": null,
         "title": "How to handle changes to the set of tracks in a MediaStream assigned to an element via the srcObject attribute",
         "labels": [],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -22044,6 +22064,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 159,
+        "created_at": "2021-03-29T20:00:19Z",
+        "closed_at": null,
+        "title": "Allow screen-captured applications to influence MediaStreamTrack.label",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 158,
