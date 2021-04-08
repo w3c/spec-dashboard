@@ -222,5 +222,167 @@
         }
       }
     ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs/",
+    "description": "<p>This specification defines interfaces to codecs for encoding and decoding of audio and video.</p>\r\n\r\n<p>This specification does not specify or require any particular codec or method of encoding or decoding. The purpose of this specification is to provide JavaScript interfaces to implementations of existing codec technology developed elsewhere. Implementers may support any combination of codecs or none at all.</p>",
+    "title": "WebCodecs",
+    "shortname": "webcodecs",
+    "editor-draft": "https://w3c.github.io/webcodecs/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs/versions/20210408",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs/versions/20210408",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210408/",
+        "date": "2021-04-08",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210408"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210408/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210408/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+    "description": "<p>\r\nThis registration is entered into the [webcodecs-codec-registry]. It describes, for AVC (H.264), the (1) fully qualified codec strings, (2) the VideoDecoderConfig.description bytes, and (3) the codec-specific extensions to the VideoEncoderConfig.</p>\r\n\r\n<p>The registration is not intended to include any information on whether a codec format is encumbered by intellectual property claims. Implementers and authors are advised to seek appropriate legal counsel in this matter if they intend to implement or use a specific codec format. Implementers of WebCodecs are not required to support the AVC / H.264 codec.</p>",
+    "title": "AVC (H.264) WebCodecs Registration",
+    "shortname": "webcodecs-avc-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210408",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210408",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-avc-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210408/",
+        "date": "2021-04-08",
+        "informative": true,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210408"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210408/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210408/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+    "description": "<p>This registry is intended to enhance interoperability among implementations and users of [WEBCODECS]. In particular, this registry provides the means to identify and avoid collisions among codec strings and provides a mechanism to define codec-specific members of [WEBCODECS] codec configuration dictionaries.</p>\r\n\r\n<p>This registry is not intended to include any information on whether a codec format is encumbered by intellectual property claims. Implementers and users are advised to seek appropriate legal counsel in this matter if they intend to implement or use a specific codec format. Implementers of WebCodecs are not required to support any particular codec nor registry entry.</p>",
+    "title": "WebCodecs Codec Registry",
+    "shortname": "webcodecs-codec-registry",
+    "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210408",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210408",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-codec-registry"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/codec_registry.html",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210408/",
+        "date": "2021-04-08",
+        "informative": true,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210408"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210408/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210408/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          }
+        }
+      }
+    ]
   }
 ]
