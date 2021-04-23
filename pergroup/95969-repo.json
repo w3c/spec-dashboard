@@ -9223,6 +9223,46 @@
     "issues": [
       {
         "state": "open",
+        "number": 161,
+        "created_at": "2021-04-22T17:47:33Z",
+        "closed_at": null,
+        "title": "Rename DirectoryDescription to ThingDirectory",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 160,
+        "created_at": "2021-04-22T17:47:27Z",
+        "closed_at": null,
+        "title": "Rename actions to match properties and events",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 159,
+        "created_at": "2021-04-22T17:47:02Z",
+        "closed_at": null,
+        "title": "Split registration event into multiple events",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 158,
+        "created_at": "2021-04-22T17:46:32Z",
+        "closed_at": null,
+        "title": "Combine properties into a single things property",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 157,
         "created_at": "2021-04-19T14:40:46Z",
         "closed_at": null,
@@ -11152,6 +11192,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 79,
+        "created_at": "2021-04-22T15:32:51Z",
+        "closed_at": null,
+        "title": "New Profile Mechanism section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 78,
+        "created_at": "2021-04-22T14:35:18Z",
+        "closed_at": null,
+        "title": "Remove WoT Core Data Model section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 77,
+        "created_at": "2021-04-22T14:34:40Z",
+        "closed_at": null,
+        "title": "New Protocol Binding section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 76,
         "created_at": "2021-04-15T14:57:20Z",
         "closed_at": null,
@@ -12208,6 +12278,56 @@
     "issues": [
       {
         "state": "open",
+        "number": 1107,
+        "created_at": "2021-04-22T20:34:24Z",
+        "closed_at": null,
+        "title": "Identify Canonical TD",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1106,
+        "created_at": "2021-04-22T20:28:10Z",
+        "closed_at": null,
+        "title": "Canonical examples missing some elements",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1105,
+        "created_at": "2021-04-22T20:25:06Z",
+        "closed_at": null,
+        "title": "Canonical form: dateTime ambiguities",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1104,
+        "created_at": "2021-04-22T15:47:50Z",
+        "closed_at": null,
+        "title": "Address multiple DataSchema issues",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1103,
+        "created_at": "2021-04-22T14:41:53Z",
+        "closed_at": null,
+        "title": "Introduce Thing Icon",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1102,
         "created_at": "2021-04-22T07:49:51Z",
         "closed_at": null,
@@ -12224,11 +12344,20 @@
         "title": "jsonschema:StringSchema: pattern missing and maxLength is defined wrongly",
         "labels": [
           {
-            "id": 1351250754,
-            "node_id": "MDU6TGFiZWwxMzUxMjUwNzU0",
-            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20needed",
-            "name": "PR needed",
-            "color": "d66466",
+            "id": 1777945940,
+            "node_id": "MDU6TGFiZWwxNzc3OTQ1OTQw",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/JSON%20Schema",
+            "name": "JSON Schema",
+            "color": "639af2",
+            "default": false,
+            "description": "Topic related to JSON Schema"
+          },
+          {
+            "id": 1294765899,
+            "node_id": "MDU6TGFiZWwxMjk0NzY1ODk5",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20available",
+            "name": "PR available",
+            "color": "8cff82",
             "default": false,
             "description": ""
           },
@@ -12251,8 +12380,18 @@
         "created_at": "2021-04-21T16:18:04Z",
         "closed_at": null,
         "title": "change ThingModel to tm:ThingModel and extend to tm:extend?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1351250754,
+            "node_id": "MDU6TGFiZWwxMzUxMjUwNzU0",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20needed",
+            "name": "PR needed",
+            "color": "d66466",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "sebastiankb",
         "isPullRequest": false
       },
       {
@@ -12311,7 +12450,26 @@
         "created_at": "2021-04-13T16:38:45Z",
         "closed_at": null,
         "title": "How to extend Data Schema terms while being JSON Schema compliant",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1777945940,
+            "node_id": "MDU6TGFiZWwxNzc3OTQ1OTQw",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/JSON%20Schema",
+            "name": "JSON Schema",
+            "color": "639af2",
+            "default": false,
+            "description": "Topic related to JSON Schema"
+          },
+          {
+            "id": 1294765899,
+            "node_id": "MDU6TGFiZWwxMjk0NzY1ODk5",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20available",
+            "name": "PR available",
+            "color": "8cff82",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -12323,11 +12481,20 @@
         "title": "Is there a way to set default values for uriVariables?",
         "labels": [
           {
-            "id": 1351250754,
-            "node_id": "MDU6TGFiZWwxMzUxMjUwNzU0",
-            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20needed",
-            "name": "PR needed",
-            "color": "d66466",
+            "id": 1777945940,
+            "node_id": "MDU6TGFiZWwxNzc3OTQ1OTQw",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/JSON%20Schema",
+            "name": "JSON Schema",
+            "color": "639af2",
+            "default": false,
+            "description": "Topic related to JSON Schema"
+          },
+          {
+            "id": 1294765899,
+            "node_id": "MDU6TGFiZWwxMjk0NzY1ODk5",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20available",
+            "name": "PR available",
+            "color": "8cff82",
             "default": false,
             "description": ""
           }
@@ -12352,6 +12519,15 @@
         "closed_at": null,
         "title": "Missing top-level \"base\" field in TD 1.1.",
         "labels": [
+          {
+            "id": 1294765899,
+            "node_id": "MDU6TGFiZWwxMjk0NzY1ODk5",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20available",
+            "name": "PR available",
+            "color": "8cff82",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 538956600,
             "node_id": "MDU6TGFiZWw1Mzg5NTY2MDA=",
@@ -12381,15 +12557,25 @@
         "created_at": "2021-04-09T12:21:49Z",
         "closed_at": null,
         "title": "Fix default op values for Example 44 (used to be 42)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1294765899,
+            "node_id": "MDU6TGFiZWwxMjk0NzY1ODk5",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20available",
+            "name": "PR available",
+            "color": "8cff82",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1088,
         "created_at": "2021-04-09T11:45:00Z",
-        "closed_at": null,
+        "closed_at": "2021-04-23T11:18:36Z",
         "title": "Why is the \"template for Thing Descriptions\" called a Thing Model?",
         "labels": [],
         "assignee": null,
@@ -12416,10 +12602,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1086,
         "created_at": "2021-04-01T15:42:41Z",
-        "closed_at": null,
+        "closed_at": "2021-04-22T16:00:40Z",
         "title": "Add section to define Canonical serialization",
         "labels": [],
         "assignee": "mmccool",
@@ -12723,11 +12909,11 @@
         "title": "Allow a webthing to provide an icon",
         "labels": [
           {
-            "id": 1351250754,
-            "node_id": "MDU6TGFiZWwxMzUxMjUwNzU0",
-            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20needed",
-            "name": "PR needed",
-            "color": "d66466",
+            "id": 1294765899,
+            "node_id": "MDU6TGFiZWwxMjk0NzY1ODk5",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20available",
+            "name": "PR available",
+            "color": "8cff82",
             "default": false,
             "description": ""
           }
@@ -12973,12 +13159,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1046,
         "created_at": "2021-02-10T16:43:17Z",
-        "closed_at": null,
+        "closed_at": "2021-04-22T20:45:00Z",
         "title": "The term required in Thing Model is confusing",
         "labels": [
+          {
+            "id": 1248453325,
+            "node_id": "MDU6TGFiZWwxMjQ4NDUzMzI1",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/Propose%20closing",
+            "name": "Propose closing",
+            "color": "cccccc",
+            "default": false,
+            "description": "Problem will be closed shortly if there is no veto."
+          },
           {
             "id": 1779174619,
             "node_id": "MDU6TGFiZWwxNzc5MTc0NjE5",
@@ -14444,11 +14639,20 @@
         "title": "JSON Schema validation issue wr.t. \"format\": \"iri-reference\"",
         "labels": [
           {
-            "id": 1351250754,
-            "node_id": "MDU6TGFiZWwxMzUxMjUwNzU0",
-            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20needed",
-            "name": "PR needed",
-            "color": "d66466",
+            "id": 1777945940,
+            "node_id": "MDU6TGFiZWwxNzc3OTQ1OTQw",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/JSON%20Schema",
+            "name": "JSON Schema",
+            "color": "639af2",
+            "default": false,
+            "description": "Topic related to JSON Schema"
+          },
+          {
+            "id": 1294765899,
+            "node_id": "MDU6TGFiZWwxMjk0NzY1ODk5",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/PR%20available",
+            "name": "PR available",
+            "color": "8cff82",
             "default": false,
             "description": ""
           }
