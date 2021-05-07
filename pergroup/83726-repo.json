@@ -2433,6 +2433,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 1480,
+        "created_at": "2021-05-06T20:07:54Z",
+        "closed_at": null,
+        "title": "Consider a flag warning new developers to avoid some aria features (role desc, braille props, etc)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 1479,
         "created_at": "2021-05-05T16:03:32Z",
@@ -2533,10 +2543,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1468,
         "created_at": "2021-04-22T03:26:15Z",
-        "closed_at": null,
+        "closed_at": "2021-05-06T22:35:46Z",
         "title": "Editorial: remove text that links nowhere",
         "labels": [],
         "assignee": null,
@@ -2890,10 +2900,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1439,
         "created_at": "2021-03-25T21:14:17Z",
-        "closed_at": null,
+        "closed_at": "2021-05-06T22:57:05Z",
         "title": "Add and link attribute terms: Defines, Identifies, and Indicates.",
         "labels": [],
         "assignee": null,
@@ -3555,7 +3565,7 @@
         "closed_at": null,
         "title": "Does the \"Presentational Roles Conflict Resolution\" always apply?",
         "labels": [],
-        "assignee": null,
+        "assignee": "cyns",
         "isPullRequest": false
       },
       {
@@ -3565,7 +3575,7 @@
         "closed_at": null,
         "title": "Presentational role conflict resolution and aria-hidden=true",
         "labels": [],
-        "assignee": null,
+        "assignee": "scottaohara",
         "isPullRequest": false
       },
       {
@@ -3659,10 +3669,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1380,
         "created_at": "2021-01-07T18:17:56Z",
-        "closed_at": null,
+        "closed_at": "2021-05-06T18:34:13Z",
         "title": "Refactor jQuery out of ARIA editorial documents",
         "labels": [],
         "assignee": "schne324",
@@ -4383,7 +4393,17 @@
         "created_at": "2020-09-18T12:07:41Z",
         "closed_at": null,
         "title": "Discourage use of grid role for pure layout purposes",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2044231616,
+            "node_id": "MDU6TGFiZWwyMDQ0MjMxNjE2",
+            "url": "https://api.github.com/repos/w3c/aria/labels/deep-dive",
+            "name": "deep-dive",
+            "color": "4ee061",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4452,7 +4472,17 @@
         "created_at": "2020-09-15T03:03:45Z",
         "closed_at": null,
         "title": "Reword banner, contentinfo, main to use \"on a page\" instead of \"within any document or application\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1149261183,
+            "node_id": "MDU6TGFiZWwxMTQ5MjYxMTgz",
+            "url": "https://api.github.com/repos/w3c/aria/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "e8ccff",
+            "default": true,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4503,7 +4533,7 @@
         "closed_at": null,
         "title": "Expand translatable properties section",
         "labels": [],
-        "assignee": null,
+        "assignee": "jnurthen",
         "isPullRequest": false
       },
       {
@@ -4697,10 +4727,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1296,
         "created_at": "2020-07-07T17:45:04Z",
-        "closed_at": null,
+        "closed_at": "2021-05-07T00:09:10Z",
         "title": "add to author errors section info about aria-pressed and aria-checked on switch",
         "labels": [],
         "assignee": null,
@@ -5758,7 +5788,7 @@
         "closed_at": null,
         "title": "aria-haspopup needs to spec default of false \"if the attribute is not present\"",
         "labels": [],
-        "assignee": null,
+        "assignee": "cyns",
         "isPullRequest": false
       },
       {
@@ -15389,10 +15419,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 516,
         "created_at": "2017-01-25T20:34:46Z",
-        "closed_at": null,
+        "closed_at": "2021-05-06T22:57:05Z",
         "title": "Add identifies, defines, and indicates to the terms list.",
         "labels": [
           {
@@ -21484,10 +21514,39 @@
     "issues": [
       {
         "state": "open",
+        "number": 1894,
+        "created_at": "2021-05-07T10:57:51Z",
+        "closed_at": null,
+        "title": "Infrastructure: Bump lodash from 4.17.19 to 4.17.21",
+        "labels": [
+          {
+            "id": 1525602200,
+            "node_id": "MDU6TGFiZWwxNTI1NjAyMjAw",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/dependencies",
+            "name": "dependencies",
+            "color": "0366d6",
+            "default": false,
+            "description": "Pull requests that update a dependency file in a third-party package"
+          },
+          {
+            "id": 2384933294,
+            "node_id": "MDU6TGFiZWwyMzg0OTMzMjk0",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/javascript",
+            "name": "javascript",
+            "color": "168700",
+            "default": false,
+            "description": "Pull requests that update Javascript code"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1893,
         "created_at": "2021-05-05T22:16:22Z",
         "closed_at": null,
-        "title": "Switch example using button and SVG images for graphical state",
+        "title": "Switch Role: Example using button and inline SVG ",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -21497,7 +21556,7 @@
         "number": 1892,
         "created_at": "2021-05-05T20:06:22Z",
         "closed_at": null,
-        "title": "Switch Example using the DIV element",
+        "title": "Switch Role: Example using the DIV element",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -21507,7 +21566,7 @@
         "number": 1891,
         "created_at": "2021-05-05T19:24:05Z",
         "closed_at": null,
-        "title": "Draft guidance for the switch role",
+        "title": "Switch Role: Draft Guideance",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -21792,7 +21851,17 @@
         "created_at": "2021-04-26T12:57:57Z",
         "closed_at": null,
         "title": "Add CodePen button to menubar-editor and avoid external SVG",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2214595337,
+            "node_id": "MDU6TGFiZWwyMjE0NTk1MzM3",
+            "url": "https://api.github.com/repos/w3c/aria-practices/labels/agenda",
+            "name": "agenda",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Include in upcoming Authoring Practices Task Force meeting"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
