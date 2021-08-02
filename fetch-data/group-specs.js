@@ -13,8 +13,10 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
     if (err) return console.error(err);
     const workinggroups = groups.filter(g => g.type === 'working group') ;
     async.map(workinggroups, (wg, wgcb) => {
-        activespecs(wg.id, w3c.apiKey, (err, unfinishedSpecs) => {
+        activespecs({shortname: wg.shortname, type: "wg"}, w3c.apiKey, (err, unfinishedSpecs) => {
+            if (err) return console.error(err);
             if (!unfinishedSpecs) return console.error("undefined result for " + wg.name);
+            if (!unfinishedSpecs.length) return console.error("no spec found for " + wg.name);
             async.map(unfinishedSpecs,
                       (s, cb)  => {
                           w3c.specification(s.shortname).version(utils.specDate(s)).fetch((err, datedversion) => {
