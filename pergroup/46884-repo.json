@@ -4,6 +4,2547 @@
       "owner": "webaudio",
       "name": "web-midi-api"
     },
-    "recTrack": true
+    "recTrack": true,
+    "issues": [
+      {
+        "state": "open",
+        "number": 224,
+        "created_at": "2021-10-28T01:46:08Z",
+        "closed_at": null,
+        "title": "Editorial: don't exclude Permissions IDL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 223,
+        "created_at": "2021-10-27T22:50:48Z",
+        "closed_at": null,
+        "title": "Fixes #220 - Hook requestMIDIAccess into Permissions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 222,
+        "created_at": "2021-10-21T09:09:58Z",
+        "closed_at": "2021-10-26T16:02:48Z",
+        "title": "Flag MidiPermissionDescriptor definition as non normative",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 221,
+        "created_at": "2021-10-21T02:38:58Z",
+        "closed_at": "2021-10-21T03:26:25Z",
+        "title": "Editorial: fix event.timeStamp typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 220,
+        "created_at": "2021-10-20T13:27:20Z",
+        "closed_at": null,
+        "title": "Rewrite requestMIDIAccess to hook into permissions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 219,
+        "created_at": "2021-10-20T03:28:06Z",
+        "closed_at": "2021-10-21T03:26:00Z",
+        "title": "Integrate with Permissions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 218,
+        "created_at": "2021-08-10T21:31:48Z",
+        "closed_at": "2021-08-11T00:19:14Z",
+        "title": "Update URL in README to utilize github.io",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 217,
+        "created_at": "2021-01-18T08:57:46Z",
+        "closed_at": "2021-04-12T22:24:32Z",
+        "title": "Web MIDI does not detect multiple devices in Windows",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 216,
+        "created_at": "2021-01-16T14:20:52Z",
+        "closed_at": "2021-10-21T03:26:25Z",
+        "title": "MIDIMessageEvent: timestamp or timeStamp?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 215,
+        "created_at": "2020-10-08T14:35:24Z",
+        "closed_at": null,
+        "title": "Feature Request: Register MessagePort directly instead of onmidimessage",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 214,
+        "created_at": "2020-08-18T16:33:41Z",
+        "closed_at": "2020-10-08T16:31:23Z",
+        "title": "Editorial: Align with Web IDL specification",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 213,
+        "created_at": "2020-08-06T15:41:41Z",
+        "closed_at": "2020-10-08T16:30:46Z",
+        "title": "Editorial: replace feature-policy usage with permissions-policy",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 212,
+        "created_at": "2020-05-29T01:27:12Z",
+        "closed_at": null,
+        "title": "Ordering of messages scheduled at the exact same time",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 211,
+        "created_at": "2020-01-30T06:33:43Z",
+        "closed_at": null,
+        "title": "MIDI 2.0",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 210,
+        "created_at": "2019-12-17T05:46:33Z",
+        "closed_at": null,
+        "title": "Change the MIDIOutput.send() spec to allow raising a RangeError when the passed ArrayBuffer is too big ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 209,
+        "created_at": "2019-11-13T00:47:48Z",
+        "closed_at": "2020-10-08T16:30:02Z",
+        "title": "Remove errant character",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 208,
+        "created_at": "2019-11-05T20:10:12Z",
+        "closed_at": "2020-10-12T16:39:17Z",
+        "title": "Any way to access Web Midi Access in chrome without SSL certificate?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 207,
+        "created_at": "2019-08-29T08:54:53Z",
+        "closed_at": null,
+        "title": "Update to constructor operations",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 206,
+        "created_at": "2019-08-22T11:31:13Z",
+        "closed_at": "2020-10-12T16:40:14Z",
+        "title": "W3C Listing uses unencryted HTTP URL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 205,
+        "created_at": "2019-07-11T15:17:45Z",
+        "closed_at": null,
+        "title": "A typo in example 8",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 204,
+        "created_at": "2019-07-11T06:50:54Z",
+        "closed_at": "2019-08-22T03:41:54Z",
+        "title": "chore(.pr-preview.json): enable pull request previews",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 203,
+        "created_at": "2019-07-11T06:48:36Z",
+        "closed_at": "2019-08-22T03:40:35Z",
+        "title": "set default for optional dictionary",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 202,
+        "created_at": "2019-07-11T06:48:23Z",
+        "closed_at": "2019-08-22T04:14:11Z",
+        "title": "Chore: ReSpec fixes + enable xref",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 201,
+        "created_at": "2019-07-03T03:23:19Z",
+        "closed_at": null,
+        "title": "MIDIPort close() does not cover the \"pending\" case",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 200,
+        "created_at": "2019-06-24T04:30:27Z",
+        "closed_at": "2019-06-24T22:00:54Z",
+        "title": "Making MIDI{Input|Output}Map interfaces as [SecureContext]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 199,
+        "created_at": "2019-06-24T03:59:03Z",
+        "closed_at": "2019-06-26T06:01:00Z",
+        "title": "MIDIInputMap and MIDIOutputMap should be also [SecureContext]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 198,
+        "created_at": "2019-03-20T01:43:48Z",
+        "closed_at": "2020-10-12T16:41:03Z",
+        "title": "Windows MIDI Port Disconnect / Connect Events Lock Up Chrome",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 197,
+        "created_at": "2019-02-07T16:32:29Z",
+        "closed_at": null,
+        "title": "Roadmap?",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 196,
+        "created_at": "2018-12-17T16:37:55Z",
+        "closed_at": "2018-12-17T17:12:26Z",
+        "title": "Mark repo as host of rec-track work",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 195,
+        "created_at": "2018-10-21T21:15:54Z",
+        "closed_at": "2018-10-22T07:18:10Z",
+        "title": "Are soundcard synths detected as an output port? - i.e.  What is considered an output port?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 194,
+        "created_at": "2018-10-18T03:15:42Z",
+        "closed_at": "2018-10-18T07:56:04Z",
+        "title": "fixup IDL, cross refs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 193,
+        "created_at": "2018-10-17T11:32:09Z",
+        "closed_at": "2018-10-18T07:56:04Z",
+        "title": "Fix up outdated references",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 192,
+        "created_at": "2018-10-16T10:19:02Z",
+        "closed_at": "2018-10-17T11:18:26Z",
+        "title": "Marking interfaces as [SecureContext]",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 188,
+        "created_at": "2018-06-11T15:27:28Z",
+        "closed_at": "2018-06-18T15:22:44Z",
+        "title": "Update web-platform-tests URLs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 187,
+        "created_at": "2018-05-19T22:57:25Z",
+        "closed_at": null,
+        "title": "Input Latency upper bound",
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 186,
+        "created_at": "2018-03-29T17:55:13Z",
+        "closed_at": "2020-10-12T17:24:13Z",
+        "title": "classify MIDI messages as user gesture",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 185,
+        "created_at": "2018-03-26T18:33:29Z",
+        "closed_at": null,
+        "title": "Add more detail to security section",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 184,
+        "created_at": "2018-03-26T18:32:26Z",
+        "closed_at": null,
+        "title": "Need tests.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 183,
+        "created_at": "2017-12-09T00:21:05Z",
+        "closed_at": "2018-10-17T11:18:56Z",
+        "title": "getMIDIAccess should be [SecureContext]",
+        "labels": [
+          {
+            "id": 1092927251,
+            "node_id": "MDU6TGFiZWwxMDkyOTI3MjUx",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/Pending%20PR",
+            "name": "Pending PR",
+            "color": "aafca9",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 182,
+        "created_at": "2017-10-18T09:54:40Z",
+        "closed_at": "2017-11-07T17:17:48Z",
+        "title": "Ask for tests for normative changes in README.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 181,
+        "created_at": "2017-10-09T05:07:10Z",
+        "closed_at": "2017-11-07T17:18:25Z",
+        "title": "Add Feature Policy integration for WebMidi",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 180,
+        "created_at": "2017-07-29T04:47:28Z",
+        "closed_at": "2017-07-29T15:37:38Z",
+        "title": "Access to WebAudio Clock from WebMIDI",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 179,
+        "created_at": "2017-06-22T22:33:10Z",
+        "closed_at": null,
+        "title": "Higher-level MIDI message access",
+        "labels": [
+          {
+            "id": 58360570,
+            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/needs%20WG%20review",
+            "name": "needs WG review",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 178,
+        "created_at": "2017-04-29T00:21:16Z",
+        "closed_at": "2017-07-05T02:00:02Z",
+        "title": "Fix minor typos",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 177,
+        "created_at": "2017-02-08T06:17:12Z",
+        "closed_at": "2020-10-12T17:32:43Z",
+        "title": "Disable web midi by default in cross-origin iframes",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 176,
+        "created_at": "2017-01-15T22:21:22Z",
+        "closed_at": null,
+        "title": "Listeners for future events",
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 175,
+        "created_at": "2016-12-05T09:01:40Z",
+        "closed_at": "2016-12-08T21:54:51Z",
+        "title": "chore: use new school WebIDL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 174,
+        "created_at": "2016-12-05T08:58:46Z",
+        "closed_at": null,
+        "title": "Example section should move to explainer ",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 173,
+        "created_at": "2016-12-05T07:54:45Z",
+        "closed_at": null,
+        "title": "Examples could be modernized",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 172,
+        "created_at": "2016-12-05T07:53:46Z",
+        "closed_at": "2018-10-18T07:57:13Z",
+        "title": "Bad references",
+        "labels": [
+          {
+            "id": 1092927251,
+            "node_id": "MDU6TGFiZWwxMDkyOTI3MjUx",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/Pending%20PR",
+            "name": "Pending PR",
+            "color": "aafca9",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 171,
+        "created_at": "2016-12-02T09:32:32Z",
+        "closed_at": "2016-12-05T07:52:01Z",
+        "title": "Fix the section titles for dictionaries (were called interfaces)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 170,
+        "created_at": "2016-12-01T12:55:24Z",
+        "closed_at": "2016-12-08T21:54:51Z",
+        "title": "Use <pre class=idl> for IDL blocks",
+        "labels": [],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 169,
+        "created_at": "2016-11-03T13:13:09Z",
+        "closed_at": "2017-01-05T17:41:45Z",
+        "title": "SysEx transfer speed and buffer size control",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 168,
+        "created_at": "2016-09-15T09:57:16Z",
+        "closed_at": null,
+        "title": "MIDIMessageEventInit and MIDIConnectionEventInit members should be required",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 167,
+        "created_at": "2016-07-29T12:37:52Z",
+        "closed_at": "2016-07-29T14:53:02Z",
+        "title": "prevent event from being fired when sending a midi message",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 166,
+        "created_at": "2016-07-13T17:39:31Z",
+        "closed_at": "2019-03-19T21:41:44Z",
+        "title": "MIDIPort.open disappears from the IDL in the processed spec",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 165,
+        "created_at": "2016-06-30T09:08:36Z",
+        "closed_at": null,
+        "title": "MIDIMessageEvent could be merged to another existing Event.",
+        "labels": [
+          {
+            "id": 58360570,
+            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/needs%20WG%20review",
+            "name": "needs WG review",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 164,
+        "created_at": "2016-05-27T12:09:14Z",
+        "closed_at": null,
+        "title": "Define a \"valid Midi message\"",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 163,
+        "created_at": "2016-05-27T11:38:49Z",
+        "closed_at": "2016-06-09T04:06:59Z",
+        "title": "Incorrect prose in `requestMidiAccess`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 162,
+        "created_at": "2016-04-22T12:00:11Z",
+        "closed_at": "2016-06-09T04:09:28Z",
+        "title": "Is the page on GitHub a 'Working Draft'?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 161,
+        "created_at": "2016-04-07T20:01:24Z",
+        "closed_at": "2016-09-23T13:37:57Z",
+        "title": "implementation tracking: WebMIDI in Firefox and Edge",
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 58360570,
+            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/needs%20WG%20review",
+            "name": "needs WG review",
+            "color": "e11d21",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 160,
+        "created_at": "2016-04-02T00:59:18Z",
+        "closed_at": "2016-04-08T17:17:53Z",
+        "title": "MIDI device discovery, \"already in use\" devices only",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 159,
+        "created_at": "2016-03-18T23:13:04Z",
+        "closed_at": "2016-06-09T18:18:53Z",
+        "title": "Web MIDI spec should use newer Software and Document license",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 158,
+        "created_at": "2016-02-10T23:08:12Z",
+        "closed_at": null,
+        "title": "Backpressure exposure for asynchronous send()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 157,
+        "created_at": "2016-01-07T19:34:50Z",
+        "closed_at": "2016-04-08T17:29:54Z",
+        "title": "Windows, sending long SysEx messages fails, works on Mac",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 156,
+        "created_at": "2015-11-24T20:57:59Z",
+        "closed_at": "2015-12-01T23:56:43Z",
+        "title": "Proposal for MIDIInterface object in addition to MIDIAccess and MIDIPort.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 155,
+        "created_at": "2015-10-29T04:51:36Z",
+        "closed_at": "2015-10-30T00:20:50Z",
+        "title": "Fix up inputs enumeration example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 154,
+        "created_at": "2015-09-25T12:23:45Z",
+        "closed_at": "2015-09-25T17:49:23Z",
+        "title": "Web MIDI Synths",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 153,
+        "created_at": "2015-09-24T20:42:58Z",
+        "closed_at": "2015-09-24T22:29:25Z",
+        "title": "Changes to the Web MIDI API Mandate?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 152,
+        "created_at": "2015-07-23T14:18:01Z",
+        "closed_at": "2015-10-25T06:54:29Z",
+        "title": "Having Buffering Issues with Data Flow",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 151,
+        "created_at": "2015-06-24T11:51:13Z",
+        "closed_at": "2015-10-25T07:31:17Z",
+        "title": "How should browsers handle software synths that are being used by web apps?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 150,
+        "created_at": "2015-06-23T03:00:49Z",
+        "closed_at": "2016-06-09T18:36:53Z",
+        "title": "Modify MIDIOptions to be able to specify software synths to be included",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 149,
+        "created_at": "2015-06-01T11:59:11Z",
+        "closed_at": "2015-06-01T14:56:16Z",
+        "title": "Example code in 9.3 Listing Inputs and Outputs has typoes",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 148,
+        "created_at": "2015-05-28T22:02:48Z",
+        "closed_at": null,
+        "title": "Expose system-level grouping of MIDIPorts",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 147,
+        "created_at": "2015-04-24T06:58:31Z",
+        "closed_at": "2015-04-24T16:37:35Z",
+        "title": "Fixed #146",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 146,
+        "created_at": "2015-04-24T06:36:57Z",
+        "closed_at": "2015-04-24T16:37:35Z",
+        "title": "Problem with documentation, example 9.4",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 145,
+        "created_at": "2015-04-17T05:23:02Z",
+        "closed_at": "2016-06-09T18:27:49Z",
+        "title": "receivedTime and upcoming DOM update",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 144,
+        "created_at": "2015-04-17T05:18:32Z",
+        "closed_at": "2015-10-25T07:07:51Z",
+        "title": "timestamp argument of `send()` should have a default value of 0",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 143,
+        "created_at": "2015-04-17T05:17:24Z",
+        "closed_at": "2015-10-25T07:11:25Z",
+        "title": "Weird DOMHighResTimeStamp usage",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 142,
+        "created_at": "2015-04-17T05:14:10Z",
+        "closed_at": null,
+        "title": "Text for MIDIOutput.send() implies that passing a Uint8Array will be efficient, but that's not the case",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 141,
+        "created_at": "2015-04-17T05:08:49Z",
+        "closed_at": "2015-04-17T17:17:33Z",
+        "title": "Uint8Array now part of IDL/JavaScript",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 140,
+        "created_at": "2015-04-17T05:04:54Z",
+        "closed_at": "2015-04-17T17:14:12Z",
+        "title": "Use https",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 139,
+        "created_at": "2015-04-17T05:04:40Z",
+        "closed_at": "2015-10-25T08:04:35Z",
+        "title": "Remove callbacks",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 138,
+        "created_at": "2015-04-14T21:05:34Z",
+        "closed_at": "2015-04-15T04:39:08Z",
+        "title": "a folder for logo prototypes (issue 137)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 137,
+        "created_at": "2015-04-14T21:03:03Z",
+        "closed_at": "2015-06-01T13:42:48Z",
+        "title": "Web Midi Logo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 136,
+        "created_at": "2015-04-06T21:08:34Z",
+        "closed_at": null,
+        "title": "Sysex access information in MIDIPort?",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 135,
+        "created_at": "2015-04-06T06:19:32Z",
+        "closed_at": "2015-04-06T16:09:51Z",
+        "title": "Typos in \"4.4: MIDIOutputMap Interface\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 134,
+        "created_at": "2015-04-02T11:24:29Z",
+        "closed_at": "2016-06-09T18:48:23Z",
+        "title": "Lifetime of MIDIAccess and MIDIPort is still vague",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 133,
+        "created_at": "2015-03-30T17:22:32Z",
+        "closed_at": null,
+        "title": "Clarification about pending data on device disconnection",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 132,
+        "created_at": "2015-03-30T17:16:08Z",
+        "closed_at": "2015-03-30T18:15:00Z",
+        "title": "Editorial clarification on MIDIPort.close()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 131,
+        "created_at": "2015-03-30T16:57:42Z",
+        "closed_at": "2015-03-30T18:11:24Z",
+        "title": "Editorial issues on MIDIPort.open() algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 130,
+        "created_at": "2015-03-28T04:39:59Z",
+        "closed_at": "2016-06-09T04:07:39Z",
+        "title": "Fix typo in close method (\"connected\" is not a MIDIPortConnectionState)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 129,
+        "created_at": "2015-03-16T15:21:56Z",
+        "closed_at": null,
+        "title": "Permission exposure: hasMIDIAccess()",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 128,
+        "created_at": "2015-03-12T00:56:39Z",
+        "closed_at": null,
+        "title": "spec clarification: allow multiple open() and close() requests, and multiple calls to requestMIDIAccess()",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 127,
+        "created_at": "2015-03-09T11:03:29Z",
+        "closed_at": "2015-03-09T15:47:04Z",
+        "title": "Drop maplike workaround as ReSpec supports it.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 126,
+        "created_at": "2015-03-08T22:06:30Z",
+        "closed_at": "2015-03-09T15:41:12Z",
+        "title": "Missing MIDI Output Devices",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 125,
+        "created_at": "2015-03-06T04:33:53Z",
+        "closed_at": "2015-03-09T15:50:35Z",
+        "title": "Clarfiy opaque id field for MIDIPort text in spec",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 124,
+        "created_at": "2015-03-04T19:12:16Z",
+        "closed_at": null,
+        "title": "Virtual Instruments/Softsynth support",
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 123,
+        "created_at": "2015-03-04T15:55:40Z",
+        "closed_at": "2015-03-09T16:52:10Z",
+        "title": "close should be allowed on disconnected port",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 122,
+        "created_at": "2015-03-03T06:51:19Z",
+        "closed_at": "2015-03-03T14:18:21Z",
+        "title": "Use maplike<K, V> instead of custome methods / attrs.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 121,
+        "created_at": "2015-02-26T14:14:31Z",
+        "closed_at": "2015-02-26T16:30:45Z",
+        "title": "MIDIPortState does not have \"closed\" state",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 120,
+        "created_at": "2015-02-25T16:32:48Z",
+        "closed_at": "2015-02-25T16:43:22Z",
+        "title": "port should be defined for already opened or closed cases",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 119,
+        "created_at": "2015-02-25T16:15:26Z",
+        "closed_at": "2015-02-25T16:25:18Z",
+        "title": "Update returning type of requestMIDIAccess() to be Promise<MIDIAccess>",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 118,
+        "created_at": "2015-02-25T03:17:39Z",
+        "closed_at": "2015-02-25T16:26:11Z",
+        "title": "MIDIInputMap - Conflict with Maplike?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 117,
+        "created_at": "2015-02-23T17:46:22Z",
+        "closed_at": "2015-02-24T18:55:15Z",
+        "title": "Add MIDIPort#open() and MIDIPort#close()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 116,
+        "created_at": "2015-02-17T16:13:28Z",
+        "closed_at": "2015-02-18T13:52:05Z",
+        "title": "Introduce MIDIPortState",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 115,
+        "created_at": "2015-02-09T19:12:13Z",
+        "closed_at": "2015-03-09T16:06:27Z",
+        "title": "Update spec to reflect addition of maplike<> to WebIDL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 114,
+        "created_at": "2015-01-26T18:32:17Z",
+        "closed_at": "2015-02-24T20:59:34Z",
+        "title": "Should sysex flag be on access to port somehow, rather than system-wide?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 113,
+        "created_at": "2015-01-23T14:47:06Z",
+        "closed_at": "2015-01-23T18:09:49Z",
+        "title": "MIDI keyboard's problem",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 112,
+        "created_at": "2015-01-08T12:09:24Z",
+        "closed_at": "2015-01-15T18:08:05Z",
+        "title": "Normalize markup in section headings",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 111,
+        "created_at": "2014-12-08T16:01:59Z",
+        "closed_at": "2014-12-08T17:47:35Z",
+        "title": "MIDI Message Resolution (General Discussion)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 110,
+        "created_at": "2014-12-08T07:35:31Z",
+        "closed_at": null,
+        "title": "Determine if hardware supports general MIDI instruments.",
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 109,
+        "created_at": "2014-12-03T11:52:52Z",
+        "closed_at": "2014-12-03T17:02:02Z",
+        "title": "Running Status",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 108,
+        "created_at": "2014-12-02T04:53:33Z",
+        "closed_at": "2014-12-02T23:30:55Z",
+        "title": "MIDIMessageEventInit and MIDIConnectionEventInit should inherit from EventInit",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 107,
+        "created_at": "2014-11-27T13:14:32Z",
+        "closed_at": "2014-12-01T17:44:54Z",
+        "title": "Fixed a descriptive typo.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 106,
+        "created_at": "2014-11-26T21:57:48Z",
+        "closed_at": "2014-12-01T19:33:50Z",
+        "title": "Incorrect link on http://www.w3.org/TR/webmidi/",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 105,
+        "created_at": "2014-05-28T21:31:18Z",
+        "closed_at": "2015-02-23T18:00:16Z",
+        "title": "MIDIPort should have a \"state\" attribute",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 104,
+        "created_at": "2014-05-27T20:26:21Z",
+        "closed_at": "2014-05-28T16:47:11Z",
+        "title": "Request for explicit MIDI port state management",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 103,
+        "created_at": "2014-05-06T14:57:46Z",
+        "closed_at": "2014-05-08T02:18:58Z",
+        "title": "output.send() array usage causing GC cost",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 102,
+        "created_at": "2014-05-02T02:31:24Z",
+        "closed_at": "2015-03-09T16:17:46Z",
+        "title": "Allow cancelling future output",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 101,
+        "created_at": "2014-04-18T21:43:58Z",
+        "closed_at": "2014-04-19T14:40:01Z",
+        "title": "MidiMessageEvent.receivedTime and AudioContext.currentTime",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 100,
+        "created_at": "2014-02-14T02:46:12Z",
+        "closed_at": "2014-05-06T21:07:34Z",
+        "title": "auto posting mail to public-audio does not work any more",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 99,
+        "created_at": "2014-02-13T19:12:54Z",
+        "closed_at": null,
+        "title": "MIDI API should be available from Workers?",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 98,
+        "created_at": "2014-02-13T17:30:56Z",
+        "closed_at": "2014-02-13T17:36:58Z",
+        "title": "Make MIDIInputMap and MIDIOutputMap more compatible with ES6 Map",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 97,
+        "created_at": "2014-02-06T17:19:50Z",
+        "closed_at": "2014-02-06T20:55:58Z",
+        "title": "size attribute must be unsigned long",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 96,
+        "created_at": "2014-01-13T17:07:32Z",
+        "closed_at": "2014-01-13T18:20:19Z",
+        "title": "`inputs` and `outputs` are functions?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 95,
+        "created_at": "2014-01-13T05:10:30Z",
+        "closed_at": "2014-01-13T17:27:26Z",
+        "title": "Outputs would probably come from outputs variable",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 94,
+        "created_at": "2013-12-04T22:18:52Z",
+        "closed_at": "2015-02-09T18:24:13Z",
+        "title": "Tweaks requested for publishing",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 93,
+        "created_at": "2013-12-03T11:32:05Z",
+        "closed_at": "2013-12-03T16:27:44Z",
+        "title": "A returned Promise may be rejected with AbortError",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 92,
+        "created_at": "2013-12-01T18:42:46Z",
+        "closed_at": "2013-12-02T16:46:54Z",
+        "title": "Wrong link to 'Latest editor's draft'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 91,
+        "created_at": "2013-11-30T20:07:54Z",
+        "closed_at": "2015-02-24T20:59:59Z",
+        "title": "MIDIInputMap and MIDIOutputMap are bizarre",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 90,
+        "created_at": "2013-11-30T19:54:35Z",
+        "closed_at": "2015-03-10T16:13:50Z",
+        "title": "Promise usage problems",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 89,
+        "created_at": "2013-11-20T10:26:24Z",
+        "closed_at": "2013-11-20T18:04:20Z",
+        "title": "Markup validation / link checker errors",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 88,
+        "created_at": "2013-10-29T04:18:40Z",
+        "closed_at": "2013-10-29T04:38:40Z",
+        "title": "MIDIAccess.inputs/outputs should be readonly",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 87,
+        "created_at": "2013-10-29T04:12:51Z",
+        "closed_at": "2013-10-29T04:38:59Z",
+        "title": "MIDIOutputMap.get should return MIDIOutput",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 86,
+        "created_at": "2013-10-29T04:09:59Z",
+        "closed_at": "2013-10-29T04:38:17Z",
+        "title": "Replace xmp tag with pre tag",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 85,
+        "created_at": "2013-10-29T02:26:54Z",
+        "closed_at": "2015-03-06T22:30:38Z",
+        "title": "ReSpec mangling function parameters",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 84,
+        "created_at": "2013-10-29T02:14:24Z",
+        "closed_at": "2015-03-06T21:13:45Z",
+        "title": "MIDIKeyType is undefined",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 83,
+        "created_at": "2013-10-22T11:25:59Z",
+        "closed_at": "2013-10-28T02:32:02Z",
+        "title": "Add (non-normative) reference to Web Audio API",
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 82,
+        "created_at": "2013-10-21T16:44:23Z",
+        "closed_at": "2013-10-21T16:44:42Z",
+        "title": "Inputs and outputs now Maplike, among others - fixes issue #81, issue #59, issue #2.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 81,
+        "created_at": "2013-10-15T17:08:09Z",
+        "closed_at": "2013-10-21T16:47:16Z",
+        "title": "Need a boolean describing whether sysex is allowed",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 80,
+        "created_at": "2013-09-25T21:36:57Z",
+        "closed_at": "2013-09-25T21:39:33Z",
+        "title": "RealtimeAnalyzerNode reference",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 79,
+        "created_at": "2013-09-05T15:32:43Z",
+        "closed_at": "2015-03-10T21:12:14Z",
+        "title": "MIDI input/output disconnection - Ports should be persistent across connects/disconnects",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 78,
+        "created_at": "2013-08-27T08:49:11Z",
+        "closed_at": "2013-10-15T16:49:33Z",
+        "title": "requestMIDIAccess will raise \"InvalidSecurityError\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 77,
+        "created_at": "2013-08-22T07:54:47Z",
+        "closed_at": "2013-10-15T16:50:22Z",
+        "title": "DOMError for the system returning an error to initialize MIDI system on requestMIDIAccess",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 76,
+        "created_at": "2013-07-26T13:59:27Z",
+        "closed_at": "2013-07-26T15:40:39Z",
+        "title": "Cancel/stop a scheduled message?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 75,
+        "created_at": "2013-07-10T08:38:56Z",
+        "closed_at": "2015-02-24T21:00:50Z",
+        "title": "MIDIPort#open() necessary?",
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 74,
+        "created_at": "2013-07-07T10:39:51Z",
+        "closed_at": "2013-07-10T21:53:45Z",
+        "title": "MIDIOuput.send \"timestamp\" parameter is not enougth or too much",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 73,
+        "created_at": "2013-07-05T21:09:21Z",
+        "closed_at": "2013-07-07T09:49:46Z",
+        "title": "On performance.now and relative deltatime",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 72,
+        "created_at": "2013-07-05T13:50:39Z",
+        "closed_at": "2013-07-07T09:47:34Z",
+        "title": "Sending a complete track",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 71,
+        "created_at": "2013-06-08T13:37:49Z",
+        "closed_at": "2013-06-28T17:57:26Z",
+        "title": "bikeshed sysexEnabled",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 70,
+        "created_at": "2013-06-07T18:58:32Z",
+        "closed_at": "2013-06-07T19:34:49Z",
+        "title": "A slew of fixes.  :P",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 69,
+        "created_at": "2013-06-07T18:08:36Z",
+        "closed_at": "2013-06-07T18:15:05Z",
+        "title": "Correcting error types - fixes #57",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 68,
+        "created_at": "2013-06-07T17:45:28Z",
+        "closed_at": "2013-06-07T17:47:39Z",
+        "title": "Fixes issue 67, issue 66, issue 64, issue 63, issue 62",
+        "labels": [],
+        "assignee": "marcoscaceres",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 67,
+        "created_at": "2013-06-05T23:56:55Z",
+        "closed_at": "2013-06-07T17:50:02Z",
+        "title": " 4.2 MIDIOptions interface",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 66,
+        "created_at": "2013-06-05T23:41:59Z",
+        "closed_at": "2013-06-07T17:50:40Z",
+        "title": "\"stalls\"",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 65,
+        "created_at": "2013-06-05T23:35:09Z",
+        "closed_at": "2013-06-07T19:34:50Z",
+        "title": "obtaining a promise and related terminology ",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 64,
+        "created_at": "2013-06-05T23:29:45Z",
+        "closed_at": "2013-06-07T17:57:01Z",
+        "title": "Obtaining Access to MIDI Interfaces Available to the User Agent",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 63,
+        "created_at": "2013-06-05T23:17:37Z",
+        "closed_at": "2013-06-07T17:52:43Z",
+        "title": "Some \"terms\" should be \"interfaces\"",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 62,
+        "created_at": "2013-06-05T23:11:39Z",
+        "closed_at": "2013-06-07T17:57:26Z",
+        "title": "corresponding EventHandler Web IDL specification",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 61,
+        "created_at": "2013-06-05T23:09:29Z",
+        "closed_at": "2013-06-07T19:34:50Z",
+        "title": "API overview section is redundant",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 60,
+        "created_at": "2013-06-05T23:07:36Z",
+        "closed_at": "2013-06-07T19:34:50Z",
+        "title": "Introduction - editiorial issues",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 59,
+        "created_at": "2013-06-05T23:02:56Z",
+        "closed_at": "2013-10-21T16:47:30Z",
+        "title": "Web Audio API example",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 58,
+        "created_at": "2013-06-05T23:02:25Z",
+        "closed_at": "2013-06-07T19:34:50Z",
+        "title": "Abstract -  editorial issues/questions",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 57,
+        "created_at": "2013-06-05T19:20:04Z",
+        "closed_at": "2013-06-07T18:15:07Z",
+        "title": "Error types in the spec need to match DOM4",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 56,
+        "created_at": "2013-06-04T22:12:59Z",
+        "closed_at": "2013-06-07T18:15:07Z",
+        "title": "When send() is called on a port that has been disconnected, should throw an error.",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 55,
+        "created_at": "2013-05-03T09:12:25Z",
+        "closed_at": "2013-06-07T18:13:07Z",
+        "title": "Doing edits to spec through pull requests",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 54,
+        "created_at": "2013-05-01T18:42:32Z",
+        "closed_at": "2013-05-02T21:55:00Z",
+        "title": "Constructors for MIDI*Event",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 53,
+        "created_at": "2013-04-23T21:06:58Z",
+        "closed_at": "2013-04-24T13:32:27Z",
+        "title": "ErrorCallback/SuccessCallback should be named MIDIErrorCallback/MIDISuccessCallback",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 52,
+        "created_at": "2013-04-22T11:34:53Z",
+        "closed_at": "2013-04-23T21:07:26Z",
+        "title": "Typo fix: UInt8Array -> Uint8Array",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 51,
+        "created_at": "2013-04-22T11:23:58Z",
+        "closed_at": "2013-04-26T21:54:40Z",
+        "title": "ErrorCallback/SuccessCallback should be named MIDIErrorCallback/MIDISuccessCallback",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 50,
+        "created_at": "2013-04-20T13:12:25Z",
+        "closed_at": "2013-04-26T21:56:09Z",
+        "title": "\"Message\" event needs to be renamed to \"MIDIMessage\".",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 49,
+        "created_at": "2013-04-20T13:05:57Z",
+        "closed_at": "2013-05-02T22:54:36Z",
+        "title": "requestMIDIAccess should vend a Future, and not direct callbacks",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 48,
+        "created_at": "2013-04-16T16:03:26Z",
+        "closed_at": null,
+        "title": "Does MIDIPort.id need to be origin-scoped and/or regenerated with cookies?",
+        "labels": [
+          {
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/ready%20for%20editing",
+            "name": "ready for editing",
+            "color": "eb6420",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 47,
+        "created_at": "2013-03-08T17:47:45Z",
+        "closed_at": "2015-03-09T15:58:33Z",
+        "title": "MIDI Real-Time status messages - clarification needed",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 46,
+        "created_at": "2013-01-30T17:05:03Z",
+        "closed_at": "2013-01-30T17:09:06Z",
+        "title": "test issue",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 45,
+        "created_at": "2013-01-29T18:01:47Z",
+        "closed_at": null,
+        "title": "Virtual MIDI ports",
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 44,
+        "created_at": "2013-01-13T12:50:15Z",
+        "closed_at": "2013-01-15T09:02:53Z",
+        "title": "MIDI timer",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 43,
+        "created_at": "2013-01-10T18:46:06Z",
+        "closed_at": "2013-01-10T18:46:34Z",
+        "title": "MIDIOutput.sendMessage doesn't need a timestamp",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 42,
+        "created_at": "2013-01-10T18:46:05Z",
+        "closed_at": "2013-01-10T18:46:34Z",
+        "title": "Change fingerprint to id",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 41,
+        "created_at": "2013-01-10T18:46:04Z",
+        "closed_at": "2013-01-10T18:46:32Z",
+        "title": "timestamps in MIDIMessage should be explicitly allowed to be zero, with semantic \"send ASAP\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 40,
+        "created_at": "2013-01-10T18:46:04Z",
+        "closed_at": "2013-01-10T18:46:35Z",
+        "title": "boolean returns from MIDIOutput methods are inappropriately synchronous",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 39,
+        "created_at": "2013-01-10T18:46:04Z",
+        "closed_at": "2013-01-10T18:46:34Z",
+        "title": "MIDI API naming",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 38,
+        "created_at": "2013-01-10T18:46:03Z",
+        "closed_at": "2013-01-10T18:46:36Z",
+        "title": "Add code examples",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 37,
+        "created_at": "2013-01-10T18:46:03Z",
+        "closed_at": "2013-01-10T18:46:32Z",
+        "title": "(MIDI timestamp resolution): timestamps in MIDI should use High Resolution Time",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 36,
+        "created_at": "2013-01-10T18:46:02Z",
+        "closed_at": "2013-01-10T18:46:25Z",
+        "title": "Should detail when exceptions are expected to be thrown",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 35,
+        "created_at": "2013-01-10T18:46:02Z",
+        "closed_at": "2013-01-10T18:46:29Z",
+        "title": "Interface feedback",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 34,
+        "created_at": "2013-01-10T18:46:01Z",
+        "closed_at": "2013-01-10T18:46:26Z",
+        "title": "Allowed contents of send( data ) needs to be detailed.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 33,
+        "created_at": "2013-01-10T18:46:00Z",
+        "closed_at": "2013-01-10T18:46:41Z",
+        "title": "Promote data and timestamp onmessage/MIDIEvent, get rid of MIDIMessage altogether?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 32,
+        "created_at": "2013-01-10T18:46:00Z",
+        "closed_at": "2013-01-10T18:46:28Z",
+        "title": "Sysex is not the only MIDI message longer than three bytes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 31,
+        "created_at": "2013-01-10T18:45:59Z",
+        "closed_at": "2013-01-10T18:46:27Z",
+        "title": "MIDI missing from References",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 30,
+        "created_at": "2013-01-10T18:45:59Z",
+        "closed_at": "2013-02-27T04:24:59Z",
+        "title": "connect and disconnect events",
+        "labels": [
+          {
+            "id": 24464845,
+            "node_id": "MDU6TGFiZWwyNDQ2NDg0NQ==",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/future",
+            "name": "future",
+            "color": "c7def8",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 29,
+        "created_at": "2013-01-10T18:45:59Z",
+        "closed_at": "2013-01-10T18:46:39Z",
+        "title": "\"Fingerprint\" is unclear",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 28,
+        "created_at": "2013-01-10T18:45:58Z",
+        "closed_at": "2013-01-10T18:46:28Z",
+        "title": "Dictionary type for MIDIMessage is likely a performance issue",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 27,
+        "created_at": "2013-01-10T18:45:57Z",
+        "closed_at": "2013-01-10T18:46:20Z",
+        "title": "MIDIPort definition should be above references to MIDIPort",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 26,
+        "created_at": "2013-01-10T18:45:57Z",
+        "closed_at": "2013-01-10T18:46:20Z",
+        "title": "getInput/getOutput should allow short as a target type",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 25,
+        "created_at": "2013-01-10T18:45:56Z",
+        "closed_at": "2013-01-10T18:46:18Z",
+        "title": "Web MIDI API needs better intro text",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 24,
+        "created_at": "2013-01-10T18:45:56Z",
+        "closed_at": "2013-01-10T18:46:33Z",
+        "title": "Running status should be prohibited",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 23,
+        "created_at": "2013-01-10T18:45:55Z",
+        "closed_at": "2013-01-10T18:47:03Z",
+        "title": "MIDI messages don't all have a channel, and status should be part of data.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 22,
+        "created_at": "2013-01-10T18:45:55Z",
+        "closed_at": "2013-01-10T18:46:25Z",
+        "title": "MIDIEvent should have a port attribute",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 21,
+        "created_at": "2013-01-10T18:45:55Z",
+        "closed_at": "2013-01-10T18:46:19Z",
+        "title": "MIDIAccess methods aren't restricted to instances created by requestMIDIAccess",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 20,
+        "created_at": "2013-01-10T18:45:54Z",
+        "closed_at": "2013-01-10T18:46:17Z",
+        "title": "Add a serializer to MIDIPort",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 19,
+        "created_at": "2013-01-10T18:45:54Z",
+        "closed_at": "2013-01-10T18:46:15Z",
+        "title": "Need alternative to REFERENCE_ERROR",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 18,
+        "created_at": "2013-01-10T18:45:52Z",
+        "closed_at": "2013-01-10T18:46:27Z",
+        "title": "send(sequence<short> data) should just be send(any data)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 17,
+        "created_at": "2013-01-10T18:45:52Z",
+        "closed_at": "2013-01-10T18:46:15Z",
+        "title": "is the MIDIAccess object a singleton?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 16,
+        "created_at": "2013-01-10T18:45:52Z",
+        "closed_at": "2013-01-10T18:46:14Z",
+        "title": "send(…, DOMHighResTimeStamp? timestamp)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 15,
+        "created_at": "2013-01-10T18:45:52Z",
+        "closed_at": "2013-01-10T18:46:13Z",
+        "title": "SHOULD/MUST user permissioning mismatch",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 14,
+        "created_at": "2013-01-10T18:45:52Z",
+        "closed_at": "2013-01-10T18:46:13Z",
+        "title": "\"If successCallback is not callable, abort these steps.\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 13,
+        "created_at": "2013-01-10T18:45:50Z",
+        "closed_at": "2013-01-10T18:46:12Z",
+        "title": "Typo: securityError",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 12,
+        "created_at": "2013-01-10T18:45:50Z",
+        "closed_at": "2013-01-10T18:46:12Z",
+        "title": "Redundant assertion in requestMIDIAccess()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 11,
+        "created_at": "2013-01-10T18:45:50Z",
+        "closed_at": "2013-01-10T18:46:13Z",
+        "title": "Do we need MIDIOutput and MIDIInput?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 10,
+        "created_at": "2013-01-10T18:45:49Z",
+        "closed_at": "2013-01-10T18:46:11Z",
+        "title": "requestMidiAccess() permission request",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 9,
+        "created_at": "2013-01-10T18:45:49Z",
+        "closed_at": "2013-01-10T18:46:11Z",
+        "title": "MIDIInput and MIDIOutput should inherit from MIDIPort, which should not be an interface",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 8,
+        "created_at": "2013-01-10T18:45:47Z",
+        "closed_at": "2013-01-10T18:46:11Z",
+        "title": "enumerate is misnomer",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 7,
+        "created_at": "2013-01-10T18:45:47Z",
+        "closed_at": "2013-01-10T18:46:10Z",
+        "title": "some MIDIPort attributes should be nullable",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 6,
+        "created_at": "2013-01-10T18:45:47Z",
+        "closed_at": "2013-01-10T18:46:10Z",
+        "title": "Don't inline arrays in send() calls in examples",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5,
+        "created_at": "2013-01-10T18:45:47Z",
+        "closed_at": "2013-01-10T18:46:10Z",
+        "title": "short is the wrong type for data parts, should be octet",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4,
+        "created_at": "2013-01-10T18:45:45Z",
+        "closed_at": "2013-01-10T18:46:16Z",
+        "title": "timestamp in MIDIEvent in odds with DOM4 Event timeStamp?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3,
+        "created_at": "2013-01-10T18:45:45Z",
+        "closed_at": "2013-03-08T17:46:07Z",
+        "title": "Define a security model for requesting access to the MIDIAccess interface",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2,
+        "created_at": "2013-01-10T18:45:45Z",
+        "closed_at": "2013-10-21T16:47:44Z",
+        "title": "Refactor getInput, getOutput -> getPort(), inputs[], outputs[] ?",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1,
+        "created_at": "2013-01-10T18:45:45Z",
+        "closed_at": "2013-04-26T21:56:42Z",
+        "title": "MIDIEvent [and MIDIConnectionEvent] lacking constructor",
+        "labels": [],
+        "assignee": "cwilso",
+        "isPullRequest": false
+      }
+    ]
   }
 }
