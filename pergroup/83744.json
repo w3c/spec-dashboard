@@ -1,5 +1,59 @@
 [
   {
+    "shortlink": "https://www.w3.org/TR/merchant-validation/",
+    "description": "<p>Merchant validation is the process by which a payment handler validates the identity of a merchant against some value (usually some cryptographic challenge response). Validated merchants are allowed to interface with a payment handler. Details of how actual validation is performed is outside the scope of this specification.</p>",
+    "title": "The MerchantValidationEvent interface",
+    "shortname": "merchant-validation",
+    "editor-draft": "https://w3c.github.io/merchant-validation/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/merchant-validation"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/merchant-validation/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/merchant-validation/versions/20201208",
+        "title": "Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/merchant-validation/versions/20201208",
+        "title": "Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/merchant-validation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/merchant-validation/",
+    "versions": [
+      {
+        "status": "Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/merchant-validation/",
+        "uri": "https://www.w3.org/TR/2020/NOTE-merchant-validation-20201208/",
+        "date": "2020-12-08",
+        "informative": true,
+        "title": "The MerchantValidationEvent interface",
+        "shortlink": "https://www.w3.org/TR/merchant-validation/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/merchant-validation/versions/20201208"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/merchant-validation/versions/20201208/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/merchant-validation/versions/20201208/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/merchant-validation"
+          }
+        }
+      }
+    ]
+  },
+  {
     "shortlink": "https://www.w3.org/TR/payment-handler/",
     "description": "<p>The Payment Request API provides a standard way to initiate payment requests from Web pages and applications. User agents implementing that API prompt the user to select a way to handle the payment request, after which the user agent returns a payment response to the originating site. This specification defines capabilities that enable Web applications to handle payment requests.</p>",
     "title": "Payment Handler API",
@@ -14,10 +68,10 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/payment-handler/versions/20170518",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/payment-handler/versions/20210714",
+        "href": "https://api.w3.org/specifications/payment-handler/versions/20211004",
         "title": "Working Draft"
       },
       "series": {
@@ -26,6 +80,34 @@
     },
     "editorsdraft": "https://w3c.github.io/payment-handler/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-handler/",
+        "uri": "https://www.w3.org/TR/2021/WD-payment-handler-20211004/",
+        "date": "2021-10-04",
+        "informative": false,
+        "title": "Payment Handler API",
+        "shortlink": "https://www.w3.org/TR/payment-handler/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20211004"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20211004/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20211004/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-handler"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20211004/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -51,6 +133,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/payment-handler/versions/20210714/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-handler/versions/20210714/successors"
           }
         }
       },
@@ -799,7 +884,7 @@
         }
       },
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-handler/",
         "uri": "https://www.w3.org/TR/2017/WD-payment-handler-20170518/",
@@ -829,1176 +914,6 @@
     ]
   },
   {
-    "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-    "description": "<p>The Basic Card Payment specification describes the data formats used by the PaymentRequest API to support payment by payment cards such as credit or debit cards.</p>",
-    "title": "Payment Method: Basic Card",
-    "shortname": "payment-method-basic-card",
-    "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-    "_links": {
-      "self": {
-        "href": "https://api.w3.org/specifications/payment-method-basic-card"
-      },
-      "version-history": {
-        "href": "https://api.w3.org/specifications/payment-method-basic-card/versions"
-      },
-      "first-version": {
-        "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421",
-        "title": "Working Draft"
-      },
-      "latest-version": {
-        "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200213",
-        "title": "Working Draft"
-      },
-      "series": {
-        "href": "https://api.w3.org/specification-series/payment-method-basic-card"
-      }
-    },
-    "editorsdraft": "https://w3c.github.io/payment-method-basic-card/",
-    "versions": [
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2020/WD-payment-method-basic-card-20200213/",
-        "date": "2020-02-13",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200213"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200213/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200213/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200213/predecessors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2020/WD-payment-method-basic-card-20200212/",
-        "date": "2020-02-12",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200212"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200212/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200212/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200212/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200212/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2020/WD-payment-method-basic-card-20200123/",
-        "date": "2020-01-23",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200123"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200123/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200123/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200123/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20200123/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20191120/",
-        "date": "2019-11-20",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191120"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191120/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191120/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191120/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191120/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20191119/",
-        "date": "2019-11-19",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191119"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191119/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191119/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191119/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20191119/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190917/",
-        "date": "2019-09-17",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190917"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190917/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190917/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190917/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190917/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190730/",
-        "date": "2019-07-30",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190730"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190730/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190730/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190730/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190730/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190425/",
-        "date": "2019-04-25",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190425"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190425/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190425/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190425/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190425/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190424/",
-        "date": "2019-04-24",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190424"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190424/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190424/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190424/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190424/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190412/",
-        "date": "2019-04-12",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190412"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190412/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190412/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190412/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190412/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190403/",
-        "date": "2019-04-03",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190403"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190403/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190403/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190403/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190403/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190330/",
-        "date": "2019-03-30",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190330"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190330/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190330/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190330/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190330/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190328/",
-        "date": "2019-03-28",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190328"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190328/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190328/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190328/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190328/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190326/",
-        "date": "2019-03-26",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190326"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190326/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190326/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190326/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190326/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190324/",
-        "date": "2019-03-24",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190324"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190324/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190324/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190324/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190324/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190314/",
-        "date": "2019-03-14",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2019/Process-20190301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190314"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190314/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190314/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190314/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190314/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2019/WD-payment-method-basic-card-20190117/",
-        "date": "2019-01-17",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190117"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190117/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190117/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190117/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20190117/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20181220/",
-        "date": "2018-12-20",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181220"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181220/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181220/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181220/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181220/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20181121/",
-        "date": "2018-11-21",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181121"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181121/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181121/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181121/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181121/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20181115/",
-        "date": "2018-11-15",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181115"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181115/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181115/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181115/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181115/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20181114/",
-        "date": "2018-11-14",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181114"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181114/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181114/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181114/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181114/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20181101/",
-        "date": "2018-11-01",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181101"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181101/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181101/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181101/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181101/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20181017/",
-        "date": "2018-10-17",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181017"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181017/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181017/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181017/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181017/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20181004/",
-        "date": "2018-10-04",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181004"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181004/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181004/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181004/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181004/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20181002/",
-        "date": "2018-10-02",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181002"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181002/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181002/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181002/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20181002/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20180920/",
-        "date": "2018-09-20",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180920"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180920/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180920/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180920/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180920/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20180510/",
-        "date": "2018-05-10",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180510"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180510/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180510/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180510/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180510/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2018/WD-payment-method-basic-card-20180329/",
-        "date": "2018-03-29",
-        "informative": false,
-        "title": "Payment Method: Basic Card",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2018/Process-20180201/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180329"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180329/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180329/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180329/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20180329/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170727/",
-        "date": "2017-07-27",
-        "informative": false,
-        "title": "Basic Card Payment",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2017/Process-20170301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170727/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170726/",
-        "date": "2017-07-26",
-        "informative": false,
-        "title": "Basic Card Payment",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2017/Process-20170301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170726/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170721/",
-        "date": "2017-07-21",
-        "informative": false,
-        "title": "Basic Card Payment",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2017/Process-20170301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170721/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170504/",
-        "date": "2017-05-04",
-        "informative": false,
-        "title": "Basic Card Payment",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2017/Process-20170301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170504/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170315/",
-        "date": "2017-03-15",
-        "informative": false,
-        "title": "Basic Card Payment",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2017/Process-20170301/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170315/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2017/WD-payment-method-basic-card-20170120/",
-        "date": "2017-01-20",
-        "informative": false,
-        "title": "Basic Card Payment",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2015/Process-20150901/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20170120/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2016/WD-payment-method-basic-card-20161220/",
-        "date": "2016-12-20",
-        "informative": false,
-        "title": "Basic Card Payment",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2015/Process-20150901/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161220/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2016/WD-payment-method-basic-card-20161207/",
-        "date": "2016-12-07",
-        "informative": false,
-        "title": "Basic Card Payment",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "https://www.w3.org/2015/Process-20150901/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20161207/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": false,
-        "editor-draft": "https://w3c.github.io/payment-method-basic-card/",
-        "uri": "https://www.w3.org/TR/2016/WD-payment-method-basic-card-20160421/",
-        "date": "2016-04-21",
-        "informative": false,
-        "title": "Basic Card Payment",
-        "shortlink": "https://www.w3.org/TR/payment-method-basic-card/",
-        "process-rules": "http://www.w3.org/2015/Process-20150901/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/payment-method-basic-card/versions/20160421/successors"
-          }
-        }
-      }
-    ]
-  },
-  {
     "shortlink": "https://www.w3.org/TR/payment-method-id/",
     "description": "<p>The Payment Request API requires that merchants supply a list of identifiers for supported payment methods. This document defines those identifier strings and how they are created.</p>",
     "title": "Payment Method Identifiers",
@@ -2013,11 +928,11 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/payment-method-id/versions/20160421",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/payment-method-id/versions/20190905",
-        "title": "Candidate Recommendation"
+        "href": "https://api.w3.org/specifications/payment-method-id/versions/20210930",
+        "title": "Proposed Recommendation"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/payment-method-id"
@@ -2026,7 +941,98 @@
     "editorsdraft": "https://w3c.github.io/payment-method-id/",
     "versions": [
       {
-        "status": "Candidate Recommendation",
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-method-id/",
+        "uri": "https://www.w3.org/TR/2021/PR-payment-method-id-20210930/",
+        "date": "2021-09-30",
+        "pr-reviews-date": "2021-10-28",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210930"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210930/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210930/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210930/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-method-id/",
+        "uri": "https://www.w3.org/TR/2021/CRD-payment-method-id-20210928/",
+        "date": "2021-09-28",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210928"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210928/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210928/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210928/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210928/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-method-id/",
+        "uri": "https://www.w3.org/TR/2021/CRD-payment-method-id-20210827/",
+        "date": "2021-08-27",
+        "informative": false,
+        "title": "Payment Method Identifiers",
+        "shortlink": "https://www.w3.org/TR/payment-method-id/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210827"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210827/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210827/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-method-id"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210827/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20210827/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-method-id/",
         "uri": "https://www.w3.org/TR/2019/CR-payment-method-id-20190905/",
@@ -2050,11 +1056,14 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/payment-method-id/versions/20190905/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-method-id/versions/20190905/successors"
           }
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-method-id/",
         "uri": "https://www.w3.org/TR/2019/CR-payment-method-id-20190403/",
@@ -2085,7 +1094,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-method-id/",
         "uri": "https://www.w3.org/TR/2019/CR-payment-method-id-20190327/",
@@ -2116,7 +1125,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-method-id/",
         "uri": "https://www.w3.org/TR/2017/CR-payment-method-id-20170914/",
@@ -2520,7 +1529,7 @@
         }
       },
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-method-id/",
         "uri": "https://www.w3.org/TR/2016/WD-payment-method-id-20160421/",
@@ -2564,11 +1573,11 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/payment-method-manifest/versions/20171212",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
         "href": "https://api.w3.org/specifications/payment-method-manifest/versions/20171212",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/payment-method-manifest"
@@ -2577,7 +1586,7 @@
     "editorsdraft": "https://w3c.github.io/payment-method-manifest/",
     "versions": [
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-method-manifest/",
         "uri": "https://www.w3.org/TR/2017/WD-payment-method-manifest-20171212/",
@@ -2618,11 +1627,11 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/payment-request/versions/20160421",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/payment-request/versions/20210722",
-        "title": "Candidate Recommendation Draft"
+        "href": "https://api.w3.org/specifications/payment-request/versions/20210930",
+        "title": "Proposed Recommendation"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/payment-request"
@@ -2630,6 +1639,159 @@
     },
     "editorsdraft": "https://w3c.github.io/payment-request/",
     "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "uri": "https://www.w3.org/TR/2021/PR-payment-request-20210930/",
+        "date": "2021-09-30",
+        "pr-reviews-date": "2021-10-28",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210930"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210930/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210930/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210930/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "uri": "https://www.w3.org/TR/2021/CRD-payment-request-20210928/",
+        "date": "2021-09-28",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210928"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210928/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210928/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210928/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210928/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "uri": "https://www.w3.org/TR/2021/CRD-payment-request-20210907/",
+        "date": "2021-09-07",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210907"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210907/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210907/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210907/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210907/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "uri": "https://www.w3.org/TR/2021/CRD-payment-request-20210827/",
+        "date": "2021-08-27",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210827"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210827/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210827/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210827/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210827/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/payment-request/",
+        "uri": "https://www.w3.org/TR/2021/CRD-payment-request-20210823/",
+        "date": "2021-08-23",
+        "informative": false,
+        "title": "Payment Request API",
+        "shortlink": "https://www.w3.org/TR/payment-request/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210823"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210823/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210823/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/payment-request"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210823/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210823/successors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation Draft",
         "rec-track": true,
@@ -2655,6 +1817,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/payment-request/versions/20210722/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/payment-request/versions/20210722/successors"
           }
         }
       },
@@ -2754,7 +1919,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2019/CR-payment-request-20191212/",
@@ -2786,7 +1951,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2019/CR-payment-request-20190416/",
@@ -2818,7 +1983,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180830/",
@@ -2849,7 +2014,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180827/",
@@ -2880,7 +2045,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180820/",
@@ -2911,7 +2076,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180817/",
@@ -2942,7 +2107,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180810/",
@@ -2973,7 +2138,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180718/",
@@ -3004,7 +2169,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180716/",
@@ -3035,7 +2200,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180710/",
@@ -3066,7 +2231,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180709/",
@@ -3097,7 +2262,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180607/",
@@ -3128,7 +2293,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180522/",
@@ -3159,7 +2324,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180503/",
@@ -3190,7 +2355,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180320/",
@@ -3222,7 +2387,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180301/",
@@ -3254,7 +2419,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180222/",
@@ -3286,7 +2451,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2018/CR-payment-request-20180123/",
@@ -3318,7 +2483,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2017/CR-payment-request-20170921/",
@@ -3350,7 +2515,7 @@
         }
       },
       {
-        "status": "Candidate Recommendation",
+        "status": "Candidate Recommendation Snapshot",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2017/CR-payment-request-20170914/",
@@ -4808,7 +3973,7 @@
         }
       },
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/payment-request/",
         "uri": "https://www.w3.org/TR/2016/WD-payment-request-20160421/",
@@ -4832,6 +3997,115 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/payment-request/versions/20160421/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/secure-payment-confirmation/",
+    "description": "<p>Secure Payment Confirmation (SPC) is a Web API to support streamlined authentication during a payment transaction. It is designed to scale authentication across merchants, to be used within a wide range of authentication protocols, and to produce cryptographic evidence that the user has confirmed transaction details.</p>",
+    "title": "Secure Payment Confirmation",
+    "shortname": "secure-payment-confirmation",
+    "editor-draft": "https://w3c.github.io/secure-payment-confirmation",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/secure-payment-confirmation"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/secure-payment-confirmation/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/secure-payment-confirmation/versions/20210831",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/secure-payment-confirmation/versions/20210831",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/secure-payment-confirmation"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/secure-payment-confirmation",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/secure-payment-confirmation",
+        "uri": "https://www.w3.org/TR/2021/WD-secure-payment-confirmation-20210831/",
+        "date": "2021-08-31",
+        "informative": false,
+        "title": "Secure Payment Confirmation",
+        "shortlink": "https://www.w3.org/TR/secure-payment-confirmation/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/secure-payment-confirmation/versions/20210831"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/secure-payment-confirmation/versions/20210831/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/secure-payment-confirmation/versions/20210831/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/secure-payment-confirmation"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webpayments-overview/",
+    "description": "<p>This document outlines the W3C Web Payments ecosystem by introducing readers to the goals of the ecosystem, messages, roles, and information flow in the system.</p>",
+    "title": "Web Payments Overview 1.0",
+    "shortname": "webpayments-overview",
+    "editor-draft": "https://w3c.github.io/webpayments-overview/",
+    "series-version": "1.0",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webpayments-overview"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webpayments-overview/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webpayments-overview/versions/20161013",
+        "title": "Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webpayments-overview/versions/20161013",
+        "title": "Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webpayments-overview"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webpayments-overview/",
+    "versions": [
+      {
+        "status": "Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webpayments-overview/",
+        "uri": "https://www.w3.org/TR/2016/NOTE-webpayments-overview-20161013/",
+        "date": "2016-10-13",
+        "informative": false,
+        "title": "Web Payments Overview 1.0",
+        "shortlink": "https://www.w3.org/TR/webpayments-overview/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webpayments-overview/versions/20161013"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webpayments-overview/versions/20161013/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webpayments-overview/versions/20161013/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webpayments-overview"
           }
         }
       }

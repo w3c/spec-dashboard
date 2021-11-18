@@ -14,10 +14,10 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/baggage/versions/20201020",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/baggage/versions/20201020",
+        "href": "https://api.w3.org/specifications/baggage/versions/20210914",
         "title": "Working Draft"
       },
       "series": {
@@ -28,6 +28,65 @@
     "versions": [
       {
         "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/baggage/",
+        "uri": "https://www.w3.org/TR/2021/WD-baggage-20210914/",
+        "date": "2021-09-14",
+        "informative": false,
+        "title": "Propagation format for distributed trace context: Baggage",
+        "shortlink": "https://www.w3.org/TR/baggage/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20210914"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20210914/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20210914/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/baggage"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20210914/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/baggage/",
+        "uri": "https://www.w3.org/TR/2021/WD-baggage-20210803/",
+        "date": "2021-08-03",
+        "informative": false,
+        "title": "Propagation format for distributed trace context: Baggage",
+        "shortlink": "https://www.w3.org/TR/baggage/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20210803"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20210803/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20210803/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/baggage"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20210803/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20210803/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/baggage/",
         "uri": "https://www.w3.org/TR/2020/WD-baggage-20201020/",
@@ -48,6 +107,94 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/baggage"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/baggage/versions/20201020/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/trace-context-protocols-registry/",
+    "description": "<p>This document provides a registry of identified formats of trace context serialization and deserialization for protocols.</p>",
+    "title": "Trace Context Protocols Registry",
+    "shortname": "trace-context-protocols-registry",
+    "editor-draft": "https://w3c.github.io/trace-context-protocols-registry/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/trace-context-protocols-registry"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20190314",
+        "title": "Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20191119",
+        "title": "Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/trace-context-protocols-registry"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/trace-context-protocols-registry/",
+    "versions": [
+      {
+        "status": "Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/trace-context-protocols-registry/",
+        "uri": "https://www.w3.org/TR/2019/NOTE-trace-context-protocols-registry-20191119/",
+        "date": "2019-11-19",
+        "informative": true,
+        "title": "Trace Context Protocols Registry",
+        "shortlink": "https://www.w3.org/TR/trace-context-protocols-registry/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20191119"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20191119/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20191119/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20191119/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/trace-context-protocols-registry/",
+        "uri": "https://www.w3.org/TR/2019/NOTE-trace-context-protocols-registry-20190314/",
+        "date": "2019-03-14",
+        "informative": true,
+        "title": "Trace Context Protocols Registry",
+        "shortlink": "https://www.w3.org/TR/trace-context-protocols-registry/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20190314"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20190314/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20190314/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/trace-context-protocols-registry/versions/20190314/successors"
           }
         }
       }

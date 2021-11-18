@@ -14,7 +14,7 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/media-capabilities/versions/20200130",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
         "href": "https://api.w3.org/specifications/media-capabilities/versions/20210604",
@@ -86,7 +86,7 @@
         }
       },
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/media-capabilities/",
         "uri": "https://www.w3.org/TR/2020/WD-media-capabilities-20200130/",
@@ -116,6 +116,61 @@
     ]
   },
   {
+    "shortlink": "https://www.w3.org/TR/media-source-2/",
+    "description": "<p>This specification extends HTMLMediaElement to allow JavaScript to generate media streams for playback. Allowing JavaScript to generate streams facilitates a variety of use cases like adaptive streaming and time shifting live streams.</p>",
+    "title": "Media Source Extensions™",
+    "shortname": "media-source-2",
+    "editor-draft": "https://w3c.github.io/media-source/",
+    "series-version": "2",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/media-source-2"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/media-source-2/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/media-source-2/versions/20210930",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/media-source-2/versions/20210930",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/media-source"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/media-source/",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/media-source/",
+        "uri": "https://www.w3.org/TR/2021/WD-media-source-2-20210930/",
+        "date": "2021-09-30",
+        "informative": false,
+        "title": "Media Source Extensions™",
+        "shortlink": "https://www.w3.org/TR/media-source-2/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/media-source-2/versions/20210930"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/media-source-2/versions/20210930/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/media-source-2/versions/20210930/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/media-source-2"
+          }
+        }
+      }
+    ]
+  },
+  {
     "shortlink": "https://www.w3.org/TR/mediasession/",
     "description": "<p>This specification enables web developers to show customized media metadata on platform UI, customize available platform media controls, and access platform media keys such as hardware keys found on keyboards, headsets, remote controls, and software keys found in notification areas and on lock screens of mobile devices.</p>",
     "title": "Media Session Standard",
@@ -130,7 +185,7 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/mediasession/versions/20200130",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
         "href": "https://api.w3.org/specifications/mediasession/versions/20210604",
@@ -202,7 +257,7 @@
         }
       },
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/mediasession/",
         "uri": "https://www.w3.org/TR/2020/WD-mediasession-20200130/",
@@ -246,10 +301,10 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/picture-in-picture/versions/20200130",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/picture-in-picture/versions/20210604",
+        "href": "https://api.w3.org/specifications/picture-in-picture/versions/20210830",
         "title": "Working Draft"
       },
       "series": {
@@ -258,6 +313,34 @@
     },
     "editorsdraft": "https://w3c.github.io/picture-in-picture/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/picture-in-picture/",
+        "uri": "https://www.w3.org/TR/2021/WD-picture-in-picture-20210830/",
+        "date": "2021-08-30",
+        "informative": false,
+        "title": "Picture-in-Picture",
+        "shortlink": "https://www.w3.org/TR/picture-in-picture/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/picture-in-picture/versions/20210830"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/picture-in-picture/versions/20210830/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/picture-in-picture/versions/20210830/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/picture-in-picture"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/picture-in-picture/versions/20210830/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -283,6 +366,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/picture-in-picture/versions/20210604/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/picture-in-picture/versions/20210604/successors"
           }
         }
       },
@@ -349,7 +435,7 @@
         }
       },
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/picture-in-picture/",
         "uri": "https://www.w3.org/TR/2020/WD-picture-in-picture-20200130/",
@@ -393,10 +479,10 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/webcodecs/versions/20210408",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webcodecs/versions/20210617",
+        "href": "https://api.w3.org/specifications/webcodecs/versions/20211117",
         "title": "Working Draft"
       },
       "series": {
@@ -405,6 +491,592 @@
     },
     "editorsdraft": "https://w3c.github.io/webcodecs/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20211117/",
+        "date": "2021-11-17",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211117"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211117/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211117/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211117/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20211112/",
+        "date": "2021-11-12",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211112"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211112/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211112/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211112/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211112/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20211020/",
+        "date": "2021-10-20",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211020"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211020/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211020/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211020/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211020/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20211006/",
+        "date": "2021-10-06",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211006"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211006/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211006/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211006/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211006/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210930/",
+        "date": "2021-09-30",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210930"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210930/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210930/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210930/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210930/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210928/",
+        "date": "2021-09-28",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210928"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210928/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210928/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210928/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210928/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210924/",
+        "date": "2021-09-24",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210924"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210924/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210924/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210924/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210924/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210923/",
+        "date": "2021-09-23",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210923"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210923/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210923/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210923/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210923/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210921/",
+        "date": "2021-09-21",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210921"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210921/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210921/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210921/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210921/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210908/",
+        "date": "2021-09-08",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210908"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210908/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210908/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210908/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210908/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210907/",
+        "date": "2021-09-07",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210907"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210907/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210907/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210907/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210907/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210906/",
+        "date": "2021-09-06",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210906"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210906/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210906/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210906/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210906/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210823/",
+        "date": "2021-08-23",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210823"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210823/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210823/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210823/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210823/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210820/",
+        "date": "2021-08-20",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210820"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210820/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210820/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210820/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210820/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210818/",
+        "date": "2021-08-18",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210818"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210818/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210818/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210818/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210818/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210817/",
+        "date": "2021-08-17",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210817"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210817/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210817/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210817/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210817/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210816/",
+        "date": "2021-08-16",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210816"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210816/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210816/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210816/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210816/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210813/",
+        "date": "2021-08-13",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210813"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210813/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210813/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210813/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210813/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210811/",
+        "date": "2021-08-11",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210811"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210811/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210811/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210811/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210811/successors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -430,6 +1102,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webcodecs/versions/20210617/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20210617/successors"
           }
         }
       },
@@ -961,7 +1636,7 @@
         }
       },
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/webcodecs/",
         "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20210408/",
@@ -1005,10 +1680,10 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210408",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210617",
+        "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211020",
         "title": "Working Draft"
       },
       "series": {
@@ -1017,6 +1692,530 @@
     },
     "editorsdraft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20211020/",
+        "date": "2021-10-20",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211020"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211020/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211020/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211020/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20211006/",
+        "date": "2021-10-06",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211006"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211006/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211006/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211006/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211006/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210930/",
+        "date": "2021-09-30",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210930"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210930/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210930/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210930/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210930/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210928/",
+        "date": "2021-09-28",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210928"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210928/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210928/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210928/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210928/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210924/",
+        "date": "2021-09-24",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210924"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210924/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210924/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210924/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210924/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210923/",
+        "date": "2021-09-23",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210923"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210923/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210923/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210923/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210923/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210921/",
+        "date": "2021-09-21",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210921"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210921/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210921/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210921/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210921/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210908/",
+        "date": "2021-09-08",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210908"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210908/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210908/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210908/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210908/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210907/",
+        "date": "2021-09-07",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210907"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210907/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210907/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210907/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210907/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210906/",
+        "date": "2021-09-06",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210906"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210906/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210906/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210906/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210906/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210823/",
+        "date": "2021-08-23",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210823"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210823/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210823/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210823/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210823/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210820/",
+        "date": "2021-08-20",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210820"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210820/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210820/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210820/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210820/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210818/",
+        "date": "2021-08-18",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210818"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210818/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210818/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210818/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210818/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210817/",
+        "date": "2021-08-17",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210817"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210817/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210817/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210817/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210817/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210816/",
+        "date": "2021-08-16",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210816"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210816/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210816/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210816/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210816/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210813/",
+        "date": "2021-08-13",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210813"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210813/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210813/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210813/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210813/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210811/",
+        "date": "2021-08-11",
+        "informative": false,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210811"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210811/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210811/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210811/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210811/successors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": false,
@@ -1042,6 +2241,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210617/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20210617/successors"
           }
         }
       },
@@ -1387,7 +2589,7 @@
         }
       },
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": false,
         "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
         "uri": "https://www.w3.org/TR/2021/WD-webcodecs-avc-codec-registration-20210408/",
@@ -1431,10 +2633,10 @@
       },
       "first-version": {
         "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210408",
-        "title": "Working Draft"
+        "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210617",
+        "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211020",
         "title": "Working Draft"
       },
       "series": {
@@ -1443,6 +2645,530 @@
     },
     "editorsdraft": "https://w3c.github.io/webcodecs/codec_registry.html",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20211020/",
+        "date": "2021-10-20",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211020"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211020/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211020/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211020/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20211006/",
+        "date": "2021-10-06",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211006"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211006/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211006/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211006/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211006/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210930/",
+        "date": "2021-09-30",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210930"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210930/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210930/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210930/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210930/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210928/",
+        "date": "2021-09-28",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210928"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210928/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210928/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210928/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210928/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210924/",
+        "date": "2021-09-24",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210924"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210924/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210924/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210924/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210924/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210923/",
+        "date": "2021-09-23",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210923"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210923/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210923/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210923/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210923/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210921/",
+        "date": "2021-09-21",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210921"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210921/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210921/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210921/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210921/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210908/",
+        "date": "2021-09-08",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210908"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210908/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210908/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210908/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210908/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210907/",
+        "date": "2021-09-07",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210907"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210907/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210907/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210907/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210907/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210906/",
+        "date": "2021-09-06",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210906"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210906/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210906/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210906/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210906/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210823/",
+        "date": "2021-08-23",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210823"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210823/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210823/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210823/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210823/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210820/",
+        "date": "2021-08-20",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210820"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210820/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210820/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210820/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210820/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210818/",
+        "date": "2021-08-18",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210818"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210818/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210818/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210818/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210818/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210817/",
+        "date": "2021-08-17",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210817"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210817/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210817/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210817/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210817/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210816/",
+        "date": "2021-08-16",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210816"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210816/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210816/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210816/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210816/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210813/",
+        "date": "2021-08-13",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210813"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210813/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210813/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210813/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210813/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210811/",
+        "date": "2021-08-11",
+        "informative": false,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210811"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210811/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210811/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210811/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210811/successors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": false,
@@ -1468,6 +3194,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210617/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210617/successors"
           }
         }
       },
@@ -1813,7 +3542,7 @@
         }
       },
       {
-        "status": "Working Draft",
+        "status": "First Public Working Draft",
         "rec-track": false,
         "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
         "uri": "https://www.w3.org/TR/2021/WD-webcodecs-codec-registry-20210408/",
