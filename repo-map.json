@@ -1,4 +1,11 @@
 {
+  "w3c/lpf": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/lpf/",
+      "group": 100074
+    }
+  ],
   "w3c/ServiceWorker": [
     {
       "recTrack": true,
@@ -6,10 +13,24 @@
       "group": 101220
     }
   ],
+  "w3c/json-ld-streaming": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/json-ld11-streaming/",
+      "group": 107714
+    }
+  ],
   "w3c/baggage": [
     {
       "recTrack": true,
       "url": "https://www.w3.org/TR/baggage/",
+      "group": 108594
+    }
+  ],
+  "w3c/trace-context-protocols-registry": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/trace-context-protocols-registry/",
       "group": 108594
     }
   ],
@@ -27,6 +48,20 @@
       "group": 109735
     }
   ],
+  "immersive-web/depth-sensing": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/webxr-depth-sensing-1/",
+      "group": 109735
+    }
+  ],
+  "immersive-web/dom-overlays": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/webxr-dom-overlays-1/",
+      "group": 109735
+    }
+  ],
   "immersive-web/webxr-gamepads-module": [
     {
       "recTrack": true,
@@ -41,6 +76,20 @@
       "group": 109735
     }
   ],
+  "immersive-web/hit-test": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/webxr-hit-test-1/",
+      "group": 109735
+    }
+  ],
+  "immersive-web/lighting-estimation": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+      "group": 109735
+    }
+  ],
   "immersive-web/layers": [
     {
       "recTrack": true,
@@ -50,7 +99,7 @@
   ],
   "w3c/manifest": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/appmanifest/",
       "group": 114929
     }
@@ -73,13 +122,6 @@
     {
       "recTrack": true,
       "url": "https://www.w3.org/TR/gamepad/",
-      "group": 114929
-    }
-  ],
-  "w3c/html-aam": [
-    {
-      "recTrack": true,
-      "url": "https://www.w3.org/TR/html-aam-1.0/",
       "group": 114929
     }
   ],
@@ -123,16 +165,23 @@
       "group": 114929
     }
   ],
+  "w3c/manifest-app-info": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/manifest-app-info/",
+      "group": 114929
+    }
+  ],
   "w3c/pointerlock": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/pointerlock-2/",
       "group": 114929
     }
   ],
   "w3c/push-api": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/push-api/",
       "group": 114929
     }
@@ -172,6 +221,13 @@
       "group": 115198
     }
   ],
+  "w3c/media-source": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/media-source-2/",
+      "group": 115198
+    }
+  ],
   "w3c/mediasession": [
     {
       "recTrack": true,
@@ -188,7 +244,7 @@
   ],
   "w3c/webcodecs": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/webcodecs/",
       "group": 115198
     },
@@ -210,6 +266,13 @@
       "group": 115520
     }
   ],
+  "w3c/did-cbor-note": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/did-cbor-representation/",
+      "group": 117488
+    }
+  ],
   "w3c/did-core": [
     {
       "recTrack": true,
@@ -217,15 +280,48 @@
       "group": 117488
     }
   ],
+  "w3c/did-imp-guide": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/did-imp-guide/",
+      "group": 117488
+    }
+  ],
+  "w3c/did-rubric": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/did-rubric/",
+      "group": 117488
+    }
+  ],
+  "w3c/did-spec-registries": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/did-spec-registries/",
+      "group": 117488
+    }
+  ],
+  "w3c/did-use-cases": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/did-use-cases/",
+      "group": 117488
+    }
+  ],
   "w3c/epub-specs": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/epub-33/",
       "group": 125377
     },
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/epub-a11y-11/",
+      "group": 125377
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/epub-a11y-eaa-mapping/",
       "group": 125377
     },
     {
@@ -234,19 +330,39 @@
       "group": 125377
     },
     {
-      "recTrack": true,
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/epub-multi-rend-11/",
+      "group": 125377
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/epub-overview-33/",
+      "group": 125377
+    },
+    {
+      "recTrack": false,
       "url": "https://www.w3.org/TR/epub-rs-33/",
+      "group": 125377
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/epub-ssv-11/",
+      "group": 125377
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/epub-tts-10/",
       "group": 125377
     }
   ],
   "gpuweb/gpuweb": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/webgpu/",
       "group": 125519
     },
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/WGSL/",
       "group": 125519
     }
@@ -274,9 +390,16 @@
   ],
   "webmachinelearning/webnn": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/webnn/",
       "group": 130674
+    }
+  ],
+  "w3c/virtual-keyboard": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/virtual-keyboard/",
+      "group": 131776
     }
   ],
   "w3c/svg-aam": [
@@ -346,6 +469,11 @@
     }
   ],
   "w3c/csswg-drafts": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/css-2020/",
+      "group": 32061
+    },
     {
       "recTrack": true,
       "url": "https://www.w3.org/TR/css-align-3/",
@@ -528,6 +656,11 @@
     },
     {
       "recTrack": true,
+      "url": "https://www.w3.org/TR/css-nesting-1/",
+      "group": 32061
+    },
+    {
+      "recTrack": true,
       "url": "https://www.w3.org/TR/css-overflow-3/",
       "group": 32061
     },
@@ -637,6 +770,11 @@
       "group": 32061
     },
     {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/css-template-3/",
+      "group": 32061
+    },
+    {
       "recTrack": true,
       "url": "https://www.w3.org/TR/css-text-3/",
       "group": 32061
@@ -662,7 +800,7 @@
       "group": 32061
     },
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/css-transforms-2/",
       "group": 32061
     },
@@ -847,6 +985,13 @@
       "group": 32113
     }
   ],
+  "w3c/charmod-norm": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/charmod-norm/",
+      "group": 32113
+    }
+  ],
   "w3c/clreq": [
     {
       "recTrack": false,
@@ -956,7 +1101,26 @@
   "w3c/jlreq": [
     {
       "recTrack": false,
+      "url": "https://www.w3.org/TR/jlreq/",
+      "group": 32113
+    },
+    {
+      "recTrack": false,
       "url": "https://www.w3.org/TR/jpan-gap/",
+      "group": 32113
+    }
+  ],
+  "w3c/klreq": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/klreq/",
+      "group": 32113
+    }
+  ],
+  "w3c/localizable-manifests": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/localizable-manifests/",
       "group": 32113
     }
   ],
@@ -976,6 +1140,13 @@
     {
       "recTrack": false,
       "url": "https://www.w3.org/TR/mong-gap/",
+      "group": 32113
+    }
+  ],
+  "w3c/predefined-counter-styles": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/predefined-counter-styles/",
       "group": 32113
     }
   ],
@@ -1012,6 +1183,34 @@
       "group": 32113
     }
   ],
+  "w3c/imsc-vnext-reqs": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/imsc-1.1-reqs/",
+      "group": 34314
+    }
+  ],
+  "w3c/imsc-hrm": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/imsc-hrm/",
+      "group": 34314
+    }
+  ],
+  "w3c/png-hdr-pq": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/png-hdr-pq/",
+      "group": 34314
+    }
+  ],
+  "w3c/tt-profile-registry": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/ttml-profile-registry/",
+      "group": 34314
+    }
+  ],
   "w3c/ttml2": [
     {
       "recTrack": true,
@@ -1043,10 +1242,22 @@
       "group": 35422
     }
   ],
+  "w3c/wcag-act": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/act-rules-aspects/",
+      "group": 35422
+    }
+  ],
   "w3c/coga": [
     {
       "recTrack": false,
       "url": "https://www.w3.org/TR/coga-gap-analysis/",
+      "group": 35422
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/coga-usable/",
       "group": 35422
     },
     {
@@ -1079,6 +1290,13 @@
       "recTrack": false,
       "url": "https://www.w3.org/TR/wcag-3.0-requirements/",
       "group": 35422
+    }
+  ],
+  "w3c/mathml-core": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/mathml-core/",
+      "group": 35549
     }
   ],
   "w3c/geofencing-api": [
@@ -1114,14 +1332,14 @@
   ],
   "w3c/battery": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/battery-status/",
       "group": 43696
     }
   ],
   "w3c/device-posture": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/device-posture/",
       "group": 43696
     }
@@ -1135,7 +1353,7 @@
   ],
   "w3c/geolocation-api": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/geolocation/",
       "group": 43696
     }
@@ -1161,6 +1379,13 @@
       "group": 43696
     }
   ],
+  "w3c/motion-sensors": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/motion-sensors/",
+      "group": 43696
+    }
+  ],
   "w3c/orientation-sensor": [
     {
       "recTrack": true,
@@ -1180,6 +1405,20 @@
       "recTrack": true,
       "url": "https://www.w3.org/TR/screen-wake-lock/",
       "group": 43696
+    }
+  ],
+  "w3c/IFT": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/IFT/",
+      "group": 44556
+    }
+  ],
+  "w3c/PFE-analysis": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/PFE-evaluation/",
+      "group": 44556
     }
   ],
   "w3c/beacon": [
@@ -1306,6 +1545,13 @@
       "group": 45211
     }
   ],
+  "webaudio/Audio-EQ-Cookbook": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/audio-eq-cookbook/",
+      "group": 46884
+    }
+  ],
   "webaudio/web-midi-api": [
     {
       "recTrack": true,
@@ -1315,7 +1561,7 @@
   ],
   "w3c/mediacapture-output": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/audio-output/",
       "group": 47318
     }
@@ -1336,7 +1582,7 @@
   ],
   "w3c/mediacapture-fromelement": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/mediacapture-fromelement/",
       "group": 47318
     }
@@ -1364,8 +1610,15 @@
   ],
   "w3c/mediacapture-screen-share": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/screen-capture/",
+      "group": 47318
+    }
+  ],
+  "w3c/webrtc-encoded-transform": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/webrtc-encoded-transform/",
       "group": 47318
     }
   ],
@@ -1392,14 +1645,14 @@
   ],
   "w3c/webrtc-stats": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/webrtc-stats/",
       "group": 47318
     }
   ],
   "w3c/webrtc-svc": [
     {
-      "recTrack": true,
+      "recTrack": false,
       "url": "https://www.w3.org/TR/webrtc-svc/",
       "group": 47318
     }
@@ -1623,6 +1876,20 @@
       "group": 83726
     }
   ],
+  "w3c/dpub-aria": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/dpub-aria-1.1/",
+      "group": 83726
+    }
+  ],
+  "w3c/html-aam": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/html-aam-1.0/",
+      "group": 83726
+    }
+  ],
   "w3c/aria": [
     {
       "recTrack": true,
@@ -1633,21 +1900,26 @@
   "w3c/aria-practices": [
     {
       "recTrack": false,
+      "url": "https://www.w3.org/TR/wai-aria-practices-1.1/",
+      "group": 83726
+    },
+    {
+      "recTrack": false,
       "url": "https://www.w3.org/TR/wai-aria-practices-1.2/",
       "group": 83726
+    }
+  ],
+  "w3c/merchant-validation": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/merchant-validation/",
+      "group": 83744
     }
   ],
   "w3c/payment-handler": [
     {
       "recTrack": true,
       "url": "https://www.w3.org/TR/payment-handler/",
-      "group": 83744
-    }
-  ],
-  "w3c/payment-method-basic-card": [
-    {
-      "recTrack": false,
-      "url": "https://www.w3.org/TR/payment-method-basic-card/",
       "group": 83744
     }
   ],
@@ -1670,6 +1942,52 @@
       "recTrack": true,
       "url": "https://www.w3.org/TR/payment-request/",
       "group": 83744
+    }
+  ],
+  "w3c/secure-payment-confirmation": [
+    {
+      "recTrack": true,
+      "url": "https://www.w3.org/TR/secure-payment-confirmation/",
+      "group": 83744
+    }
+  ],
+  "w3c/webpayments-overview": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/webpayments-overview/",
+      "group": 83744
+    }
+  ],
+  "w3c/apa": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/naur/",
+      "group": 83907
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/raur/",
+      "group": 83907
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/remote-meetings/",
+      "group": 83907
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/saur/",
+      "group": 83907
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/turingtest/",
+      "group": 83907
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/xaur/",
+      "group": 83907
     }
   ],
   "w3c/personalization-semantics": [
@@ -1721,13 +2039,6 @@
       "group": 83907
     }
   ],
-  "w3c/apa": [
-    {
-      "recTrack": false,
-      "url": "https://www.w3.org/TR/xaur/",
-      "group": 83907
-    }
-  ],
   "w3c/webauthn": [
     {
       "recTrack": true,
@@ -1755,6 +2066,13 @@
       "group": 95969
     }
   ],
+  "w3c/wot-binding-templates": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/wot-binding-templates/",
+      "group": 95969
+    }
+  ],
   "w3c/wot-discovery": [
     {
       "recTrack": true,
@@ -1769,6 +2087,20 @@
       "group": 95969
     }
   ],
+  "w3c/wot-scripting-api": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/wot-scripting-api/",
+      "group": 95969
+    }
+  ],
+  "w3c/wot-security": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/wot-security/",
+      "group": 95969
+    }
+  ],
   "w3c/wot-thing-description": [
     {
       "recTrack": true,
@@ -1776,7 +2108,31 @@
       "group": 95969
     }
   ],
+  "w3c/vc-imp-guide": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/vc-imp-guide/",
+      "group": 98922
+    }
+  ],
+  "w3c/vc-use-cases": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/vc-use-cases/",
+      "group": 98922
+    }
+  ],
   "w3c/dxwg": [
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/dcat-ucr/",
+      "group": 99375
+    },
+    {
+      "recTrack": false,
+      "url": "https://www.w3.org/TR/dx-prof/",
+      "group": 99375
+    },
     {
       "recTrack": true,
       "url": "https://www.w3.org/TR/dx-prof-conneg/",
