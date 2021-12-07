@@ -8,6 +8,76 @@
     "issues": [
       {
         "state": "open",
+        "number": 2391,
+        "created_at": "2021-12-07T04:28:22Z",
+        "closed_at": null,
+        "title": "Tiny fixes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2390,
+        "created_at": "2021-12-07T04:01:54Z",
+        "closed_at": null,
+        "title": "Fix typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2389,
+        "created_at": "2021-12-07T01:53:14Z",
+        "closed_at": null,
+        "title": "spec: Cannot bind \"null\" texture.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2388,
+        "created_at": "2021-12-07T01:34:57Z",
+        "closed_at": null,
+        "title": "Cannot upload/download to UMA storage buffer without an unnecessary copy and unnecessary memory use",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2387,
+        "created_at": "2021-12-07T00:55:18Z",
+        "closed_at": null,
+        "title": "Make depth/stencil load and store ops optional for read only",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2386,
+        "created_at": "2021-12-07T00:29:27Z",
+        "closed_at": null,
+        "title": "Separate loadOp and clear values",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2385,
+        "created_at": "2021-12-06T11:03:51Z",
+        "closed_at": "2021-12-06T23:30:34Z",
+        "title": "Validate stripIndexFormat at draw-call time.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2382,
         "created_at": "2021-12-03T17:08:04Z",
         "closed_at": null,
@@ -102,7 +172,17 @@
         "created_at": "2021-12-02T06:50:13Z",
         "closed_at": null,
         "title": "Add 'originBottomLeft' attribute in GPUImageCopyTextureTagged",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -157,10 +237,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2371,
         "created_at": "2021-12-02T00:21:11Z",
-        "closed_at": null,
+        "closed_at": "2021-12-07T00:56:20Z",
         "title": "Refactored attachment load/store ops and clear value",
         "labels": [
           {
@@ -286,10 +366,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2364,
         "created_at": "2021-12-01T13:54:20Z",
-        "closed_at": null,
+        "closed_at": "2021-12-06T23:35:32Z",
         "title": "wgsl: Fix no-break loop behavior",
         "labels": [
           {
@@ -392,7 +472,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "kvark",
         "isPullRequest": false
       },
       {
@@ -555,10 +635,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2349,
         "created_at": "2021-11-28T04:56:39Z",
-        "closed_at": null,
+        "closed_at": "2021-12-06T22:20:09Z",
         "title": "spec: It is useful to allow GPUVertexBufferLayout.arrayStride to be less than offset + sizeof(attrib.format)",
         "labels": [],
         "assignee": null,
@@ -1104,22 +1184,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2314,
         "created_at": "2021-11-16T22:40:09Z",
-        "closed_at": null,
+        "closed_at": "2021-12-06T23:20:55Z",
         "title": "Updates specs regarding error buffers",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1158,17 +1228,7 @@
         "created_at": "2021-11-16T21:19:07Z",
         "closed_at": "2021-11-30T00:06:28Z",
         "title": "Renames GPUProgrammablePassEncoder to GPUProgrammableEncoder",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1187,7 +1247,7 @@
         "number": 2310,
         "created_at": "2021-11-16T19:37:23Z",
         "closed_at": null,
-        "title": "Should WGSL have the different types of extensions?",
+        "title": "Should WGSL have different types of extensions?",
         "labels": [
           {
             "id": 1868960687,
@@ -1654,17 +1714,7 @@
         "created_at": "2021-11-10T01:41:18Z",
         "closed_at": "2021-11-29T23:02:32Z",
         "title": "Make invalidity less-magic",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2777,17 +2827,7 @@
         "created_at": "2021-10-26T01:39:03Z",
         "closed_at": "2021-11-29T22:35:46Z",
         "title": "Refactor descriptors for attachment load/store/read-only",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -3030,10 +3070,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2199,
         "created_at": "2021-10-19T19:02:26Z",
-        "closed_at": null,
+        "closed_at": "2021-12-06T23:30:34Z",
         "title": "Consider validating stripIndexFormat at draw time.",
         "labels": [],
         "assignee": null,
@@ -5066,17 +5106,7 @@
         "created_at": "2021-08-30T22:15:54Z",
         "closed_at": null,
         "title": "Triage milestones for all issues",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "kvark",
         "isPullRequest": false
       },
@@ -37563,6 +37593,76 @@
     "issues": [
       {
         "state": "open",
+        "number": 2391,
+        "created_at": "2021-12-07T04:28:22Z",
+        "closed_at": null,
+        "title": "Tiny fixes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2390,
+        "created_at": "2021-12-07T04:01:54Z",
+        "closed_at": null,
+        "title": "Fix typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2389,
+        "created_at": "2021-12-07T01:53:14Z",
+        "closed_at": null,
+        "title": "spec: Cannot bind \"null\" texture.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2388,
+        "created_at": "2021-12-07T01:34:57Z",
+        "closed_at": null,
+        "title": "Cannot upload/download to UMA storage buffer without an unnecessary copy and unnecessary memory use",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2387,
+        "created_at": "2021-12-07T00:55:18Z",
+        "closed_at": null,
+        "title": "Make depth/stencil load and store ops optional for read only",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2386,
+        "created_at": "2021-12-07T00:29:27Z",
+        "closed_at": null,
+        "title": "Separate loadOp and clear values",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2385,
+        "created_at": "2021-12-06T11:03:51Z",
+        "closed_at": "2021-12-06T23:30:34Z",
+        "title": "Validate stripIndexFormat at draw-call time.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2382,
         "created_at": "2021-12-03T17:08:04Z",
         "closed_at": null,
@@ -37657,7 +37757,17 @@
         "created_at": "2021-12-02T06:50:13Z",
         "closed_at": null,
         "title": "Add 'originBottomLeft' attribute in GPUImageCopyTextureTagged",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -37712,10 +37822,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2371,
         "created_at": "2021-12-02T00:21:11Z",
-        "closed_at": null,
+        "closed_at": "2021-12-07T00:56:20Z",
         "title": "Refactored attachment load/store ops and clear value",
         "labels": [
           {
@@ -37841,10 +37951,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2364,
         "created_at": "2021-12-01T13:54:20Z",
-        "closed_at": null,
+        "closed_at": "2021-12-06T23:35:32Z",
         "title": "wgsl: Fix no-break loop behavior",
         "labels": [
           {
@@ -37947,7 +38057,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "kvark",
         "isPullRequest": false
       },
       {
@@ -38110,10 +38220,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2349,
         "created_at": "2021-11-28T04:56:39Z",
-        "closed_at": null,
+        "closed_at": "2021-12-06T22:20:09Z",
         "title": "spec: It is useful to allow GPUVertexBufferLayout.arrayStride to be less than offset + sizeof(attrib.format)",
         "labels": [],
         "assignee": null,
@@ -38659,22 +38769,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2314,
         "created_at": "2021-11-16T22:40:09Z",
-        "closed_at": null,
+        "closed_at": "2021-12-06T23:20:55Z",
         "title": "Updates specs regarding error buffers",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -38713,17 +38813,7 @@
         "created_at": "2021-11-16T21:19:07Z",
         "closed_at": "2021-11-30T00:06:28Z",
         "title": "Renames GPUProgrammablePassEncoder to GPUProgrammableEncoder",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -38742,7 +38832,7 @@
         "number": 2310,
         "created_at": "2021-11-16T19:37:23Z",
         "closed_at": null,
-        "title": "Should WGSL have the different types of extensions?",
+        "title": "Should WGSL have different types of extensions?",
         "labels": [
           {
             "id": 1868960687,
@@ -39209,17 +39299,7 @@
         "created_at": "2021-11-10T01:41:18Z",
         "closed_at": "2021-11-29T23:02:32Z",
         "title": "Make invalidity less-magic",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -40332,17 +40412,7 @@
         "created_at": "2021-10-26T01:39:03Z",
         "closed_at": "2021-11-29T22:35:46Z",
         "title": "Refactor descriptors for attachment load/store/read-only",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -40585,10 +40655,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2199,
         "created_at": "2021-10-19T19:02:26Z",
-        "closed_at": null,
+        "closed_at": "2021-12-06T23:30:34Z",
         "title": "Consider validating stripIndexFormat at draw time.",
         "labels": [],
         "assignee": null,
@@ -42621,17 +42691,7 @@
         "created_at": "2021-08-30T22:15:54Z",
         "closed_at": null,
         "title": "Triage milestones for all issues",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "kvark",
         "isPullRequest": false
       },
