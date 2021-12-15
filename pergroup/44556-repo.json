@@ -8,9 +8,49 @@
     "issues": [
       {
         "state": "open",
+        "number": 69,
+        "created_at": "2021-12-14T21:57:17Z",
+        "closed_at": null,
+        "title": "Font extension fetching bypasses CSS font fetching definitions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 68,
+        "created_at": "2021-12-14T21:33:32Z",
+        "closed_at": null,
+        "title": "Define how to handle errors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 67,
+        "created_at": "2021-12-14T17:37:37Z",
+        "closed_at": null,
+        "title": "Update range-request document to use same fetch language that patch subset document uses",
+        "labels": [
+          {
+            "id": 3637131987,
+            "node_id": "LA_kwDOCfoNYM7YyjrT",
+            "url": "https://api.github.com/repos/w3c/IFT/labels/Range%20Request",
+            "name": "Range Request",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Solution includes something specific to range-request method"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 66,
         "created_at": "2021-12-14T00:15:11Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T17:37:24Z",
         "title": "Describe request in terms of fetch.",
         "labels": [],
         "assignee": null,
@@ -179,16 +219,16 @@
         "number": 57,
         "created_at": "2021-12-06T19:49:26Z",
         "closed_at": null,
-        "title": "Require supporting both IFT methods on client side",
+        "title": "Require supporting both IFT methods by User Agents",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 56,
         "created_at": "2021-12-06T17:20:54Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T17:18:44Z",
         "title": "Server-recommended IFT Method selection",
         "labels": [
           {
@@ -254,10 +294,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 51,
         "created_at": "2021-11-20T22:51:59Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T17:37:23Z",
         "title": "Define functionality in terms of `fetch()` (or otherwise make sure that caching / storage policy matches the rest of the platform).",
         "labels": [
           {
@@ -303,10 +343,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 49,
         "created_at": "2021-11-20T22:37:19Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T17:49:18Z",
         "title": "Including network state is a privacy harm (and maybe not needed)",
         "labels": [
           {
@@ -674,6 +714,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Solution includes something specific to range-request method"
+          },
+          {
+            "id": 3637132237,
+            "node_id": "LA_kwDOCfoNYM7YyjvN",
+            "url": "https://api.github.com/repos/w3c/IFT/labels/Patch%20Subset",
+            "name": "Patch Subset",
+            "color": "DD0A72",
+            "default": false,
+            "description": "Solution includes something specific to patch subset method"
           }
         ],
         "assignee": null,
