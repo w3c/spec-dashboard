@@ -7,10 +7,20 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
+        "number": 2411,
+        "created_at": "2021-12-14T08:29:47Z",
+        "closed_at": "2021-12-14T23:11:11Z",
+        "title": "Fix GPUBuffer.destroy when \"mapping pending\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2410,
         "created_at": "2021-12-14T02:06:40Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T23:11:11Z",
         "title": "Allow destroying a map-pending buffer",
         "labels": [],
         "assignee": null,
@@ -37,10 +47,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2406,
         "created_at": "2021-12-11T15:51:20Z",
-        "closed_at": null,
+        "closed_at": "2021-12-15T04:32:07Z",
         "title": "Fix size of copyBufferToBuffer command in explainer example.",
         "labels": [],
         "assignee": null,
@@ -1625,7 +1635,7 @@
         "number": 2304,
         "created_at": "2021-11-14T18:20:04Z",
         "closed_at": null,
-        "title": "Should be explicit about which formats are allowed for 3d textures",
+        "title": "Should it be possible to create 3D depth textures?",
         "labels": [
           {
             "id": 536258994,
@@ -4900,6 +4910,15 @@
             "color": "ee0701",
             "default": true,
             "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -6028,10 +6047,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2025,
         "created_at": "2021-08-09T21:19:08Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T19:20:09Z",
         "title": "Do pipeline blend states need to be validated against the pipline render targets?",
         "labels": [],
         "assignee": null,
@@ -6212,7 +6231,17 @@
         "created_at": "2021-08-03T17:58:00Z",
         "closed_at": null,
         "title": "Fragment output <-> attachment interface matching rules def",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "shrekshao",
         "isPullRequest": false
       },
@@ -8472,7 +8501,17 @@
         "created_at": "2021-06-21T22:10:44Z",
         "closed_at": null,
         "title": "Some limits don't need to be configurable",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "kainino0x",
         "isPullRequest": false
       },
@@ -17106,10 +17145,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1343,
         "created_at": "2021-01-11T09:53:14Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T16:36:22Z",
         "title": "Missing limits in GPULimits",
         "labels": [
           {
@@ -18344,7 +18383,17 @@
         "created_at": "2020-12-01T00:42:41Z",
         "closed_at": null,
         "title": "Post-comparison-filterable depth formats",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -22839,7 +22888,17 @@
         "created_at": "2020-08-13T13:48:28Z",
         "closed_at": null,
         "title": "Case for empty usages",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -23422,6 +23481,15 @@
             "color": "ee0701",
             "default": true,
             "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "litherum",
@@ -26197,6 +26265,15 @@
             "color": "d4c5f9",
             "default": false,
             "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -27861,7 +27938,17 @@
         "created_at": "2020-04-14T16:24:56Z",
         "closed_at": null,
         "title": "Error conventions for extensions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "kainino0x",
         "isPullRequest": false
       },
@@ -28139,7 +28226,17 @@
         "created_at": "2020-04-06T21:44:45Z",
         "closed_at": null,
         "title": "Binding to zero-sized range of a buffer",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "kainino0x",
         "isPullRequest": false
       },
@@ -28638,7 +28735,17 @@
         "created_at": "2020-03-31T06:38:45Z",
         "closed_at": null,
         "title": "Investigation: Sampling Depth Textures",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -30797,10 +30904,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 537,
         "created_at": "2020-01-07T21:55:57Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T16:29:13Z",
         "title": "Metal Validation Layers require sourceBytesPerImage >= 512 bytes",
         "labels": [
           {
@@ -32207,10 +32314,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 425,
         "created_at": "2019-08-23T05:56:44Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T16:27:22Z",
         "title": "Uniform buffer block size issue on Metal",
         "labels": [
           {
@@ -32466,10 +32573,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 405,
         "created_at": "2019-08-12T02:57:21Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T18:38:58Z",
         "title": "Can value of visibility attribute in GPUBindGroupLayoutBinding be NONE ?",
         "labels": [
           {
@@ -33547,7 +33654,17 @@
         "created_at": "2019-06-11T23:10:51Z",
         "closed_at": null,
         "title": "Out-of-bounds indirect dispatch handling",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -34692,6 +34809,15 @@
             "color": "702ab2",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
           }
         ],
         "assignee": null,
@@ -35853,10 +35979,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 144,
         "created_at": "2018-12-05T02:00:14Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T16:16:46Z",
         "title": "Investigation: Compressed Texture Formats",
         "labels": [
           {
@@ -37860,10 +37986,20 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
+        "number": 2411,
+        "created_at": "2021-12-14T08:29:47Z",
+        "closed_at": "2021-12-14T23:11:11Z",
+        "title": "Fix GPUBuffer.destroy when \"mapping pending\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2410,
         "created_at": "2021-12-14T02:06:40Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T23:11:11Z",
         "title": "Allow destroying a map-pending buffer",
         "labels": [],
         "assignee": null,
@@ -37890,10 +38026,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2406,
         "created_at": "2021-12-11T15:51:20Z",
-        "closed_at": null,
+        "closed_at": "2021-12-15T04:32:07Z",
         "title": "Fix size of copyBufferToBuffer command in explainer example.",
         "labels": [],
         "assignee": null,
@@ -39478,7 +39614,7 @@
         "number": 2304,
         "created_at": "2021-11-14T18:20:04Z",
         "closed_at": null,
-        "title": "Should be explicit about which formats are allowed for 3d textures",
+        "title": "Should it be possible to create 3D depth textures?",
         "labels": [
           {
             "id": 536258994,
@@ -42753,6 +42889,15 @@
             "color": "ee0701",
             "default": true,
             "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -43881,10 +44026,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2025,
         "created_at": "2021-08-09T21:19:08Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T19:20:09Z",
         "title": "Do pipeline blend states need to be validated against the pipline render targets?",
         "labels": [],
         "assignee": null,
@@ -44065,7 +44210,17 @@
         "created_at": "2021-08-03T17:58:00Z",
         "closed_at": null,
         "title": "Fragment output <-> attachment interface matching rules def",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "shrekshao",
         "isPullRequest": false
       },
@@ -46325,7 +46480,17 @@
         "created_at": "2021-06-21T22:10:44Z",
         "closed_at": null,
         "title": "Some limits don't need to be configurable",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "kainino0x",
         "isPullRequest": false
       },
@@ -54959,10 +55124,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1343,
         "created_at": "2021-01-11T09:53:14Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T16:36:22Z",
         "title": "Missing limits in GPULimits",
         "labels": [
           {
@@ -56197,7 +56362,17 @@
         "created_at": "2020-12-01T00:42:41Z",
         "closed_at": null,
         "title": "Post-comparison-filterable depth formats",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -60692,7 +60867,17 @@
         "created_at": "2020-08-13T13:48:28Z",
         "closed_at": null,
         "title": "Case for empty usages",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -61275,6 +61460,15 @@
             "color": "ee0701",
             "default": true,
             "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "litherum",
@@ -64050,6 +64244,15 @@
             "color": "d4c5f9",
             "default": false,
             "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -65714,7 +65917,17 @@
         "created_at": "2020-04-14T16:24:56Z",
         "closed_at": null,
         "title": "Error conventions for extensions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "kainino0x",
         "isPullRequest": false
       },
@@ -65992,7 +66205,17 @@
         "created_at": "2020-04-06T21:44:45Z",
         "closed_at": null,
         "title": "Binding to zero-sized range of a buffer",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "kainino0x",
         "isPullRequest": false
       },
@@ -66491,7 +66714,17 @@
         "created_at": "2020-03-31T06:38:45Z",
         "closed_at": null,
         "title": "Investigation: Sampling Depth Textures",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -68650,10 +68883,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 537,
         "created_at": "2020-01-07T21:55:57Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T16:29:13Z",
         "title": "Metal Validation Layers require sourceBytesPerImage >= 512 bytes",
         "labels": [
           {
@@ -70060,10 +70293,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 425,
         "created_at": "2019-08-23T05:56:44Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T16:27:22Z",
         "title": "Uniform buffer block size issue on Metal",
         "labels": [
           {
@@ -70319,10 +70552,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 405,
         "created_at": "2019-08-12T02:57:21Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T18:38:58Z",
         "title": "Can value of visibility attribute in GPUBindGroupLayoutBinding be NONE ?",
         "labels": [
           {
@@ -71400,7 +71633,17 @@
         "created_at": "2019-06-11T23:10:51Z",
         "closed_at": null,
         "title": "Out-of-bounds indirect dispatch handling",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -72545,6 +72788,15 @@
             "color": "702ab2",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
           }
         ],
         "assignee": null,
@@ -73706,10 +73958,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 144,
         "created_at": "2018-12-05T02:00:14Z",
-        "closed_at": null,
+        "closed_at": "2021-12-14T16:16:46Z",
         "title": "Investigation: Compressed Texture Formats",
         "labels": [
           {
