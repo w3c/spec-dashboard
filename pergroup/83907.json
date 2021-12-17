@@ -1268,7 +1268,7 @@
     "description": "<p>Various approaches have been employed over many years to distinguish human users of web sites from robots. While the traditional CAPTCHA approach of asking the user to identify obscured text in an image remains common, other mechanisms are gaining in prominence. These approaches generally require users to perform a task believed to be possible for humans and difficult for robots, but the nature of the task inherently excludes many people with disabilities, resulting in an incorrect denial of service to these users. Research findings also indicate that many popular CAPTCHA techniques are no longer particularly effective or secure, so it is necessary to consider alternative approaches to block robots, yet ensure these approaches support access for people with disabilities. This document examines a number of potential solutions that allow systems to test for human users, and the extent to which these solutions adequately accommodate people with disabilities.</p>",
     "title": "Inaccessibility of CAPTCHA",
     "shortname": "turingtest",
-    "editor-draft": "https://w3c.github.io/apa/captcha/",
+    "editor-draft": "https://w3c.github.io/captcha-accessibility/",
     "_links": {
       "self": {
         "href": "https://api.w3.org/specifications/turingtest"
@@ -1281,19 +1281,47 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/turingtest/versions/20191209",
-        "title": "Note"
+        "href": "https://api.w3.org/specifications/turingtest/versions/20211216",
+        "title": "Draft Note"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/turingtest"
       }
     },
-    "editorsdraft": "https://w3c.github.io/apa/captcha/",
+    "editorsdraft": "https://w3c.github.io/captcha-accessibility/",
     "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/captcha-accessibility/",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-turingtest-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "Inaccessibility of CAPTCHA",
+        "shortlink": "https://www.w3.org/TR/turingtest/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/turingtest/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/turingtest/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/turingtest/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/turingtest"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/turingtest/versions/20211216/predecessors"
+          }
+        }
+      },
       {
         "status": "Note",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/apa/captcha/",
+        "editor-draft": "https://w3c.github.io/captcha-accessibility/",
         "uri": "https://www.w3.org/TR/2019/NOTE-turingtest-20191209/",
         "date": "2019-12-09",
         "informative": true,
@@ -1315,13 +1343,16 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/turingtest/versions/20191209/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/turingtest/versions/20191209/successors"
           }
         }
       },
       {
         "status": "Note",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/apa/captcha/",
+        "editor-draft": "https://w3c.github.io/captcha-accessibility/",
         "uri": "https://www.w3.org/TR/2019/NOTE-turingtest-20190823/",
         "date": "2019-08-23",
         "informative": true,
@@ -1352,7 +1383,7 @@
       {
         "status": "Working Draft",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/apa/captcha/",
+        "editor-draft": "https://w3c.github.io/captcha-accessibility/",
         "uri": "https://www.w3.org/TR/2019/WD-turingtest-20190626/",
         "date": "2019-06-26",
         "informative": false,
@@ -1383,7 +1414,7 @@
       {
         "status": "Working Draft",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/apa/captcha/",
+        "editor-draft": "https://w3c.github.io/captcha-accessibility/",
         "uri": "https://www.w3.org/TR/2019/WD-turingtest-20190524/",
         "date": "2019-05-24",
         "informative": false,
@@ -1414,7 +1445,7 @@
       {
         "status": "Working Draft",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/apa/captcha/",
+        "editor-draft": "https://w3c.github.io/captcha-accessibility/",
         "uri": "https://www.w3.org/TR/2019/WD-turingtest-20190214/",
         "date": "2019-02-14",
         "informative": false,
@@ -1445,7 +1476,7 @@
       {
         "status": "Working Draft",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/apa/captcha/",
+        "editor-draft": "https://w3c.github.io/captcha-accessibility/",
         "uri": "https://www.w3.org/TR/2018/WD-turingtest-20180703/",
         "date": "2018-07-03",
         "informative": false,
@@ -1476,7 +1507,7 @@
       {
         "status": "Note",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/apa/captcha/",
+        "editor-draft": "https://w3c.github.io/captcha-accessibility/",
         "uri": "https://www.w3.org/TR/2005/NOTE-turingtest-20051123/",
         "date": "2005-11-23",
         "informative": false,
@@ -1509,7 +1540,7 @@
       {
         "status": "Working Draft",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/apa/captcha/",
+        "editor-draft": "https://w3c.github.io/captcha-accessibility/",
         "uri": "https://www.w3.org/TR/2003/WD-turingtest-20031105/",
         "date": "2003-11-05",
         "informative": false,

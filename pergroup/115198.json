@@ -482,7 +482,7 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webcodecs/versions/20211129",
+        "href": "https://api.w3.org/specifications/webcodecs/versions/20211216",
         "title": "Working Draft"
       },
       "series": {
@@ -491,6 +491,34 @@
     },
     "editorsdraft": "https://w3c.github.io/webcodecs/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/webcodecs/",
+        "uri": "https://www.w3.org/TR/2021/WD-webcodecs-20211216/",
+        "date": "2021-12-16",
+        "informative": false,
+        "title": "WebCodecs",
+        "shortlink": "https://www.w3.org/TR/webcodecs/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211216/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -516,6 +544,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webcodecs/versions/20211129/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs/versions/20211129/successors"
           }
         }
       },
@@ -1697,6 +1728,168 @@
     ]
   },
   {
+    "shortlink": "https://www.w3.org/TR/webcodecs-aac-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for AAC, the (1) fully qualified codec strings, (2) the codec-specific EncodedAudioChunk [[internal data]] bytes, (3) the AudioDecoderConfig.description bytes, (4) the values of EncodedAudioChunk [[type]], and (5) the codec-specific extensions to AudioEncoderConfig</p>",
+    "title": "AAC WebCodecs Registration",
+    "shortname": "webcodecs-aac-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/aac_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-aac-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-aac-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-aac-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-aac-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-aac-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/aac_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/aac_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-aac-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "AAC WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-aac-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-aac-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-aac-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-aac-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-aac-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-alaw-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for A-law encoded PCM, the (1) fully qualified codec strings, (2) the codec-specific EncodedAudioChunk [[internal data]] bytes, (3) the AudioDecoderConfig.description, and (4) the values of EncodedAudioChunk [[type]].</p>",
+    "title": "A-law PCM WebCodecs Registration",
+    "shortname": "webcodecs-alaw-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/alaw_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-alaw-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-alaw-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-alaw-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-alaw-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-alaw-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/alaw_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/alaw_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-alaw-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "A-law PCM WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-alaw-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-alaw-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-alaw-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-alaw-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-alaw-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-av1-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for AV1, the (1) fully qualified codec strings, (2) the codec-specific EncodedVideoChunk [[internal data]] bytes, (3) the VideoDecoderConfig.description bytes, and (4) the values of EncodedVideoChunk [[type]].</p>",
+    "title": "AV1 WebCodecs Registration",
+    "shortname": "webcodecs-av1-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/av1_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-av1-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-av1-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-av1-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-av1-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-av-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/av1_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/av1_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-av1-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "AV1 WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-av1-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-av1-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-av1-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-av1-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-av1-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
     "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
     "description": "<p>\r\nThis registration is entered into the [webcodecs-codec-registry]. It describes, for AVC (H.264), the (1) fully qualified codec strings, (2) the VideoDecoderConfig.description bytes, and (3) the codec-specific extensions to the VideoEncoderConfig.</p>\r\n\r\n<p>The registration is not intended to include any information on whether a codec format is encumbered by intellectual property claims. Implementers and authors are advised to seek appropriate legal counsel in this matter if they intend to implement or use a specific codec format. Implementers of WebCodecs are not required to support the AVC / H.264 codec.</p>",
     "title": "AVC (H.264) WebCodecs Registration",
@@ -1714,8 +1907,8 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211020",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211216",
+        "title": "Draft Note"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/webcodecs-avc-codec-registration"
@@ -1723,6 +1916,34 @@
     },
     "editorsdraft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
     "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/avc_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-avc-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "AVC (H.264) WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-avc-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211216/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": false,
@@ -1748,6 +1969,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211020/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-avc-codec-registration/versions/20211020/successors"
           }
         }
       },
@@ -2667,8 +2891,8 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211020",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211216",
+        "title": "Draft Note"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/webcodecs-codec-registry"
@@ -2676,6 +2900,34 @@
     },
     "editorsdraft": "https://w3c.github.io/webcodecs/codec_registry.html",
     "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/codec_registry.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-codec-registry-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "WebCodecs Codec Registry",
+        "shortlink": "https://www.w3.org/TR/webcodecs-codec-registry/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211216/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": false,
@@ -2701,6 +2953,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211020/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20211020/successors"
           }
         }
       },
@@ -3597,6 +3852,438 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/webcodecs-codec-registry/versions/20210408/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-flac-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for FLAC, the (1) fully qualified codec strings, (2) the codec-specific EncodedAudioChunk [[internal data]] bytes, (3) the AudioDecoderConfig.description bytes, and (4) the values of EncodedAudioChunk [[type]].</p>",
+    "title": "FLAC WebCodecs Registration",
+    "shortname": "webcodecs-flac-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/flac_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-flac-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-flac-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-flac-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-flac-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-flac-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/flac_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/flac_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-flac-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "FLAC WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-flac-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-flac-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-flac-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-flac-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-flac-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-mp3-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for MP3, the (1) fully qualified codec strings, (2) the AudioDecoderConfig.description bytes, (3) the codec-specific EncodedAudioChunk [[internal data]] bytes, and (4) the values of EncodedAudioChunk [[type]].\r\n\r\n</p>",
+    "title": "MP3 WebCodecs Registration",
+    "shortname": "webcodecs-mp3-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/mp3_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-mp3-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-mp3-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-mp3-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-mp3-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-mp-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/mp3_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/mp3_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-mp3-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "MP3 WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-mp3-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-mp3-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-mp3-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-mp3-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-mp3-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-opus-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for Opus, the (1) fully qualified codec strings, (2) the codec-specific EncodedAudioChunk [[internal data]] bytes, (3) the AudioDecoderConfig.description bytes, (4) the values of EncodedAudioChunk [[type]], and (5) the codec-specific extensions to AudioEncoderConfig</p>",
+    "title": "Opus WebCodecs Registration",
+    "shortname": "webcodecs-opus-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/opus_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-opus-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-opus-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-opus-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-opus-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-opus-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/opus_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/opus_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-opus-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "Opus WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-opus-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-opus-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-opus-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-opus-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-opus-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-pcm-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for Linear PCM, the (1) fully qualified codec strings, (2) the codec-specific EncodedAudioChunk [[internal data]] bytes, (3) the AudioDecoderConfig.description, and (4) the values of EncodedAudioChunk [[type]].</p>",
+    "title": "Linear PCM WebCodecs Registration",
+    "shortname": "webcodecs-pcm-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/pcm_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-pcm-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-pcm-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-pcm-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-pcm-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-pcm-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/pcm_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/pcm_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-pcm-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "Linear PCM WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-pcm-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-pcm-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-pcm-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-pcm-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-pcm-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-ulaw-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for u-law encoded PCM, the (1) fully qualified codec strings, (2) the codec-specific EncodedAudioChunk [[internal data]] bytes, (3) the AudioDecoderConfig.description bytes, and (4) the values of EncodedAudioChunk [[type]].</p>",
+    "title": "u-law PCM WebCodecs Registration",
+    "shortname": "webcodecs-ulaw-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/ulaw_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-ulaw-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-ulaw-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-ulaw-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-ulaw-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-ulaw-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/ulaw_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/ulaw_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-ulaw-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "u-law PCM WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-ulaw-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-ulaw-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-ulaw-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-ulaw-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-ulaw-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-vorbis-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for Vorbis, the (1) fully qualified codec strings, (2) the codec-specific EncodedAudioChunk [[internal data]] bytes, (3) the AudioDecoderConfig.description bytes, and (4) the values of EncodedAudioChunk [[type]].</p>",
+    "title": "Vorbis WebCodecs Registration",
+    "shortname": "webcodecs-vorbis-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/vorbis_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-vorbis-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-vorbis-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-vorbis-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-vorbis-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-vorbis-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/vorbis_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/vorbis_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-vorbis-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "Vorbis WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-vorbis-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-vorbis-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-vorbis-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-vorbis-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-vorbis-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-vp8-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for VP8, the (1) fully qualified codec strings, (2) the codec-specific EncodedVideoChunk [[internal data]] bytes, (3) the VideoDecoderConfig.description bytes, and (4) the values of EncodedVideoChunk [[type]].</p>",
+    "title": "VP8 WebCodecs Registration",
+    "shortname": "webcodecs-vp8-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/vp8_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-vp8-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-vp8-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-vp8-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-vp8-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-vp-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/vp8_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/vp8_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-vp8-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "VP8 WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-vp8-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-vp8-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-vp8-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-vp8-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-vp8-codec-registration"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",
+    "description": "<p>This registration is entered into the [webcodecs-codec-registry]. It describes, for VP9, the (1) fully qualified codec strings, (2) the codec-specific EncodedVideoChunk [[internal data]] bytes, (3) the VideoDecoderConfig.description bytes, and (4) the values of EncodedVideoChunk [[type]].</p>",
+    "title": "VP9 WebCodecs Registration",
+    "shortname": "webcodecs-vp9-codec-registration",
+    "editor-draft": "https://w3c.github.io/webcodecs/vp9_codec_registration.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webcodecs-vp9-codec-registration"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webcodecs-vp9-codec-registration/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-vp9-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webcodecs-vp9-codec-registration/versions/20211216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webcodecs-vp-codec-registration"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/webcodecs/vp9_codec_registration.html",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/webcodecs/vp9_codec_registration.html",
+        "uri": "https://www.w3.org/TR/2021/DNOTE-webcodecs-vp9-codec-registration-20211216/",
+        "date": "2021-12-16",
+        "informative": true,
+        "title": "VP9 WebCodecs Registration",
+        "shortlink": "https://www.w3.org/TR/webcodecs-vp9-codec-registration/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webcodecs-vp9-codec-registration/versions/20211216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webcodecs-vp9-codec-registration/versions/20211216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webcodecs-vp9-codec-registration/versions/20211216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webcodecs-vp9-codec-registration"
           }
         }
       }
