@@ -7,10 +7,89 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 2518,
+        "created_at": "2022-01-19T02:09:26Z",
+        "closed_at": "2022-01-19T02:09:38Z",
+        "title": "integer division corresponds to OpSRem",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2517,
+        "created_at": "2022-01-19T01:48:09Z",
+        "closed_at": "2022-01-19T02:28:27Z",
+        "title": "Switch to `@` for Attributes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
+        "number": 2516,
+        "created_at": "2022-01-18T21:26:43Z",
+        "closed_at": null,
+        "title": "Spec guidance on when/where error messages appear",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2515,
+        "created_at": "2022-01-18T21:08:13Z",
+        "closed_at": null,
+        "title": "Update behavior analysis for unconditional discards",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2514,
+        "created_at": "2022-01-17T22:10:20Z",
+        "closed_at": "2022-01-18T03:33:25Z",
+        "title": "Remove tiny duplicates",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2513,
         "created_at": "2022-01-17T06:02:09Z",
-        "closed_at": null,
+        "closed_at": "2022-01-17T14:08:58Z",
         "title": "Fix a typo in packing built-in functions list in WGSL spec",
         "labels": [],
         "assignee": null,
@@ -165,10 +244,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2503,
         "created_at": "2022-01-13T21:35:46Z",
-        "closed_at": null,
+        "closed_at": "2022-01-19T02:12:41Z",
         "title": "Remove stride attribute",
         "labels": [
           {
@@ -344,10 +423,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2493,
         "created_at": "2022-01-10T19:25:42Z",
-        "closed_at": null,
+        "closed_at": "2022-01-19T02:12:41Z",
         "title": "remove stride attribute",
         "labels": [
           {
@@ -428,6 +507,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -804,7 +892,17 @@
         "created_at": "2022-01-04T05:41:13Z",
         "closed_at": null,
         "title": "Consider removing or reworking implicit pipeline layouts",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -892,7 +990,7 @@
         "number": 2465,
         "created_at": "2021-12-30T16:47:00Z",
         "closed_at": null,
-        "title": "Supporting MSAA without rendering capability",
+        "title": "Supporting MSAA without rendering capability?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -904,15 +1002,6 @@
         "closed_at": null,
         "title": "Behavior of endPass() and pass commands after pass has ended",
         "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
           {
             "id": 3723631102,
             "node_id": "LA_kwDOBNvGe87d8hn-",
@@ -1121,6 +1210,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -2079,15 +2177,6 @@
         "title": "Make depth/stencil load and store ops optional for read only",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 3723631102,
             "node_id": "LA_kwDOBNvGe87d8hn-",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
@@ -2106,7 +2195,17 @@
         "created_at": "2021-12-07T00:29:27Z",
         "closed_at": null,
         "title": "Separate loadOp and clear values",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2504,7 +2603,17 @@
         "created_at": "2021-11-30T01:08:25Z",
         "closed_at": null,
         "title": "spec: Last vertex buffer element should not be required to have the full stride size, instead only size of attribs.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
         "assignee": "kvark",
         "isPullRequest": false
       },
@@ -4403,7 +4512,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "mehmetoguzderin",
         "isPullRequest": false
       },
       {
@@ -5232,10 +5341,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2187,
         "created_at": "2021-10-15T17:42:40Z",
-        "closed_at": null,
+        "closed_at": "2022-01-19T02:09:51Z",
         "title": "wgsl: OpXMod -> OpXRem for integers",
         "labels": [
           {
@@ -6137,13 +6246,13 @@
         "title": "Refactor API for load/store OP and read-only attachments",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": "toji",
@@ -15794,10 +15903,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1534,
         "created_at": "2021-03-18T14:18:08Z",
-        "closed_at": null,
+        "closed_at": "2022-01-19T02:12:43Z",
         "title": "when does applying an attribute to a type result in a different type",
         "labels": [
           {
@@ -39927,10 +40036,89 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 2518,
+        "created_at": "2022-01-19T02:09:26Z",
+        "closed_at": "2022-01-19T02:09:38Z",
+        "title": "integer division corresponds to OpSRem",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2517,
+        "created_at": "2022-01-19T01:48:09Z",
+        "closed_at": "2022-01-19T02:28:27Z",
+        "title": "Switch to `@` for Attributes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
+        "number": 2516,
+        "created_at": "2022-01-18T21:26:43Z",
+        "closed_at": null,
+        "title": "Spec guidance on when/where error messages appear",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2515,
+        "created_at": "2022-01-18T21:08:13Z",
+        "closed_at": null,
+        "title": "Update behavior analysis for unconditional discards",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2514,
+        "created_at": "2022-01-17T22:10:20Z",
+        "closed_at": "2022-01-18T03:33:25Z",
+        "title": "Remove tiny duplicates",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2513,
         "created_at": "2022-01-17T06:02:09Z",
-        "closed_at": null,
+        "closed_at": "2022-01-17T14:08:58Z",
         "title": "Fix a typo in packing built-in functions list in WGSL spec",
         "labels": [],
         "assignee": null,
@@ -40085,10 +40273,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2503,
         "created_at": "2022-01-13T21:35:46Z",
-        "closed_at": null,
+        "closed_at": "2022-01-19T02:12:41Z",
         "title": "Remove stride attribute",
         "labels": [
           {
@@ -40264,10 +40452,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2493,
         "created_at": "2022-01-10T19:25:42Z",
-        "closed_at": null,
+        "closed_at": "2022-01-19T02:12:41Z",
         "title": "remove stride attribute",
         "labels": [
           {
@@ -40348,6 +40536,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -40724,7 +40921,17 @@
         "created_at": "2022-01-04T05:41:13Z",
         "closed_at": null,
         "title": "Consider removing or reworking implicit pipeline layouts",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -40812,7 +41019,7 @@
         "number": 2465,
         "created_at": "2021-12-30T16:47:00Z",
         "closed_at": null,
-        "title": "Supporting MSAA without rendering capability",
+        "title": "Supporting MSAA without rendering capability?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -40824,15 +41031,6 @@
         "closed_at": null,
         "title": "Behavior of endPass() and pass commands after pass has ended",
         "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
           {
             "id": 3723631102,
             "node_id": "LA_kwDOBNvGe87d8hn-",
@@ -41041,6 +41239,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -41999,15 +42206,6 @@
         "title": "Make depth/stencil load and store ops optional for read only",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 3723631102,
             "node_id": "LA_kwDOBNvGe87d8hn-",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
@@ -42026,7 +42224,17 @@
         "created_at": "2021-12-07T00:29:27Z",
         "closed_at": null,
         "title": "Separate loadOp and clear values",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -42424,7 +42632,17 @@
         "created_at": "2021-11-30T01:08:25Z",
         "closed_at": null,
         "title": "spec: Last vertex buffer element should not be required to have the full stride size, instead only size of attribs.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
         "assignee": "kvark",
         "isPullRequest": false
       },
@@ -44323,7 +44541,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "mehmetoguzderin",
         "isPullRequest": false
       },
       {
@@ -45152,10 +45370,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2187,
         "created_at": "2021-10-15T17:42:40Z",
-        "closed_at": null,
+        "closed_at": "2022-01-19T02:09:51Z",
         "title": "wgsl: OpXMod -> OpXRem for integers",
         "labels": [
           {
@@ -46057,13 +46275,13 @@
         "title": "Refactor API for load/store OP and read-only attachments",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": "toji",
@@ -55714,10 +55932,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1534,
         "created_at": "2021-03-18T14:18:08Z",
-        "closed_at": null,
+        "closed_at": "2022-01-19T02:12:43Z",
         "title": "when does applying an attribute to a type result in a different type",
         "labels": [
           {
