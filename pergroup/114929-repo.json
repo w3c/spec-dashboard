@@ -14958,7 +14958,17 @@
         "created_at": "2022-01-16T21:33:43Z",
         "closed_at": null,
         "title": "Remove clipboard-write permission",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2216144614,
+            "node_id": "MDU6TGFiZWwyMjE2MTQ0NjE0",
+            "url": "https://api.github.com/repos/w3c/clipboard-apis/labels/BLOCKED",
+            "name": "BLOCKED",
+            "color": "8c250b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -21454,6 +21464,56 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "closed",
+        "number": 374,
+        "created_at": "2022-01-20T17:59:49Z",
+        "closed_at": "2022-01-20T19:03:57Z",
+        "title": "Need to specify what happens if you call `continuePrimaryKey()` on a cursor where the source is an object store. Throw?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 373,
+        "created_at": "2022-01-20T17:45:42Z",
+        "closed_at": "2022-01-20T19:03:59Z",
+        "title": "Thanks for explaining! I missed that first part.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 372,
+        "created_at": "2022-01-20T17:44:55Z",
+        "closed_at": "2022-01-20T19:04:02Z",
+        "title": "In the `openCursor()` case, is the lower-bound of the key range implicitly the index key if primaryKey is specified (and thus it's an error if a open lower bound is specified), or should the range and starting position be decoupled and require both the key and primaryKey to be explicit specified e.g. `openCursor(null, null, {key: x, primaryKey: y})` ?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 371,
+        "created_at": "2022-01-20T17:44:06Z",
+        "closed_at": "2022-01-20T19:04:04Z",
+        "title": "In the `openCursor()` case, is the lower-bound of the key range implicitly the index key if primaryKey is specified (and thus it's an error if a open lower bound is specified), or should the range and starting position be decoupled and require both the key and primaryKey to be explicit specified e.g. `openCursor(null, null, {key: x, primaryKey: y})` ?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 370,
+        "created_at": "2022-01-20T17:35:59Z",
+        "closed_at": "2022-01-20T19:04:07Z",
+        "title": "Sites i been to ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 369,
