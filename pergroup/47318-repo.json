@@ -8088,30 +8088,89 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
-        "number": 851,
-        "created_at": "2022-01-10T11:10:15Z",
-        "closed_at": null,
-        "title": "Check for permission policy synchronously when getUserMedia is called",
+        "state": "closed",
+        "number": 854,
+        "created_at": "2022-01-17T00:07:19Z",
+        "closed_at": "2022-01-17T06:57:49Z",
+        "title": "Update to latest ReSpec version 28.2.1",
+        "labels": [
+          {
+            "id": 151898314,
+            "node_id": "MDU6TGFiZWwxNTE4OTgzMTQ=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 3693096915,
+            "node_id": "LA_kwDOAWEwF87cIC_T",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/repo-management",
+            "name": "repo-management",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "dontcallmedom",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 853,
+        "created_at": "2022-01-14T14:52:03Z",
+        "closed_at": "2022-01-20T15:24:49Z",
+        "title": "Explicitly copy readyState when cloning a track",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
+        "number": 852,
+        "created_at": "2022-01-14T14:47:18Z",
+        "closed_at": "2022-01-20T15:24:48Z",
+        "title": "MediaStreamTrack clone algorithm should copy cloned readyState value",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 851,
+        "created_at": "2022-01-10T11:10:15Z",
+        "closed_at": "2022-01-20T15:49:11Z",
+        "title": "Check for permission policy synchronously when getUserMedia is called",
+        "labels": [
+          {
+            "id": 1120811800,
+            "node_id": "MDU6TGFiZWwxMTIwODExODAw",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "7aea6b",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 850,
         "created_at": "2022-01-10T10:58:35Z",
-        "closed_at": null,
+        "closed_at": "2022-01-20T15:17:30Z",
         "title": "Filter getUserMedia errors if permission is denied",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 849,
         "created_at": "2022-01-10T09:57:22Z",
-        "closed_at": null,
+        "closed_at": "2022-01-20T15:17:30Z",
         "title": "getUserMedia should not reject with NotFoundErrorError or OverConstrainedError on contexts for which permission is denied",
         "labels": [],
         "assignee": null,
@@ -8147,10 +8206,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 847,
         "created_at": "2022-01-08T11:49:35Z",
-        "closed_at": null,
+        "closed_at": "2022-01-20T15:49:11Z",
         "title": "getUserMedia permission policy check happens very late",
         "labels": [],
         "assignee": null,
@@ -20741,6 +20800,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 212,
+        "created_at": "2022-01-14T10:26:25Z",
+        "closed_at": null,
+        "title": "Remove superfluous MediaRecorderErrorEvent interface",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 211,
         "created_at": "2022-01-12T17:05:35Z",
         "closed_at": null,
@@ -21944,10 +22013,10 @@
         "isPullRequest": true
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 119,
         "created_at": "2017-02-27T22:45:21Z",
-        "closed_at": "2017-04-18T17:28:40Z",
+        "closed_at": null,
         "title": "Creation of Seekable Files",
         "labels": [],
         "assignee": null,
@@ -24006,6 +24075,36 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 205,
+        "created_at": "2022-01-14T17:35:02Z",
+        "closed_at": null,
+        "title": "Rephrase security considerations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 204,
+        "created_at": "2022-01-13T19:09:57Z",
+        "closed_at": null,
+        "title": "Multi-capture (concurrent capture of multiple surfaces)",
+        "labels": [
+          {
+            "id": 124709972,
+            "node_id": "MDU6TGFiZWwxMjQ3MDk5NzI=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-screen-share/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 203,
@@ -28927,6 +29026,16 @@
     "issues": [
       {
         "state": "closed",
+        "number": 73,
+        "created_at": "2022-01-14T17:13:30Z",
+        "closed_at": "2022-01-14T17:17:28Z",
+        "title": "Tries to reflect Dec-21 interim discussion:",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 72,
         "created_at": "2021-05-21T16:09:13Z",
         "closed_at": "2021-05-24T17:23:41Z",
@@ -30302,6 +30411,66 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 618,
+        "created_at": "2022-01-21T18:32:31Z",
+        "closed_at": null,
+        "title": "Match channels stat language with that of channels parameter.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 617,
+        "created_at": "2022-01-21T18:21:39Z",
+        "closed_at": null,
+        "title": "Add note on coalescing codec stats.",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 616,
+        "created_at": "2022-01-20T04:11:17Z",
+        "closed_at": null,
+        "title": "codec.sdpFmtpLine isn't clear about which description to use",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 615,
+        "created_at": "2022-01-20T03:48:41Z",
+        "closed_at": null,
+        "title": "Possibly outdated text on codec.channels",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 614,
+        "created_at": "2022-01-20T03:06:46Z",
+        "closed_at": null,
+        "title": "Are \"codec\" stats per transceiver or per transport?",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 613,
+        "created_at": "2022-01-14T20:07:04Z",
+        "closed_at": null,
+        "title": "ActiveIceCandidatePairStats.bytesReceived (even when no tracks were subscribed to)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 612,
