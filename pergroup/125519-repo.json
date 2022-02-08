@@ -8,6 +8,76 @@
     "issues": [
       {
         "state": "open",
+        "number": 2572,
+        "created_at": "2022-02-08T03:29:44Z",
+        "closed_at": null,
+        "title": "Remove createPipelineLayout, take layout \"requirements\" by value",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2571,
+        "created_at": "2022-02-07T20:37:23Z",
+        "closed_at": null,
+        "title": "Binary WGSL format in createShaderModule() WebAPI",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2570,
+        "created_at": "2022-02-07T19:00:34Z",
+        "closed_at": null,
+        "title": "Integer signedness consistency",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2569,
+        "created_at": "2022-02-07T15:42:10Z",
+        "closed_at": null,
+        "title": "\"validating linear texture data\" should depend on the aspect for depth-stencil formats",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2567,
         "created_at": "2022-02-05T14:41:13Z",
         "closed_at": null,
@@ -92,7 +162,17 @@
         "created_at": "2022-02-03T10:37:08Z",
         "closed_at": null,
         "title": "Allow sparse color attachments and ignored FS outputs",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -264,22 +344,13 @@
         "title": "Resurrect canvas srgb formats",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -306,10 +377,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2548,
         "created_at": "2022-01-28T13:28:28Z",
-        "closed_at": null,
+        "closed_at": "2022-02-07T08:25:59Z",
         "title": "Rework \"validating texture copy range\" for 1D/3D textures.",
         "labels": [],
         "assignee": null,
@@ -1659,7 +1730,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -21399,7 +21470,7 @@
         "number": 1250,
         "created_at": "2020-11-23T18:35:45Z",
         "closed_at": null,
-        "title": "Sparse colorAttachments",
+        "title": "Sparse colorAttachments in a render pass",
         "labels": [
           {
             "id": 536258991,
@@ -33146,10 +33217,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 568,
         "created_at": "2020-02-28T05:47:28Z",
-        "closed_at": null,
+        "closed_at": "2022-02-07T09:46:55Z",
         "title": "[wgsl] Consider a preprocessor",
         "labels": [
           {
@@ -40736,6 +40807,76 @@
     "issues": [
       {
         "state": "open",
+        "number": 2572,
+        "created_at": "2022-02-08T03:29:44Z",
+        "closed_at": null,
+        "title": "Remove createPipelineLayout, take layout \"requirements\" by value",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2571,
+        "created_at": "2022-02-07T20:37:23Z",
+        "closed_at": null,
+        "title": "Binary WGSL format in createShaderModule() WebAPI",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2570,
+        "created_at": "2022-02-07T19:00:34Z",
+        "closed_at": null,
+        "title": "Integer signedness consistency",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2569,
+        "created_at": "2022-02-07T15:42:10Z",
+        "closed_at": null,
+        "title": "\"validating linear texture data\" should depend on the aspect for depth-stencil formats",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2567,
         "created_at": "2022-02-05T14:41:13Z",
         "closed_at": null,
@@ -40820,7 +40961,17 @@
         "created_at": "2022-02-03T10:37:08Z",
         "closed_at": null,
         "title": "Allow sparse color attachments and ignored FS outputs",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -40992,22 +41143,13 @@
         "title": "Resurrect canvas srgb formats",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -41034,10 +41176,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2548,
         "created_at": "2022-01-28T13:28:28Z",
-        "closed_at": null,
+        "closed_at": "2022-02-07T08:25:59Z",
         "title": "Rework \"validating texture copy range\" for 1D/3D textures.",
         "labels": [],
         "assignee": null,
@@ -42387,7 +42529,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -62127,7 +62269,7 @@
         "number": 1250,
         "created_at": "2020-11-23T18:35:45Z",
         "closed_at": null,
-        "title": "Sparse colorAttachments",
+        "title": "Sparse colorAttachments in a render pass",
         "labels": [
           {
             "id": 536258991,
@@ -73874,10 +74016,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 568,
         "created_at": "2020-02-28T05:47:28Z",
-        "closed_at": null,
+        "closed_at": "2022-02-07T09:46:55Z",
         "title": "[wgsl] Consider a preprocessor",
         "labels": [
           {
