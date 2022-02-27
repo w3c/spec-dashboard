@@ -6281,10 +6281,30 @@
     "issues": [
       {
         "state": "open",
+        "number": 863,
+        "created_at": "2022-02-25T08:25:24Z",
+        "closed_at": null,
+        "title": "Fix markup for powerful features definition",
+        "labels": [
+          {
+            "id": 151898314,
+            "node_id": "MDU6TGFiZWwxNTE4OTgzMTQ=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 861,
         "created_at": "2022-02-14T00:06:47Z",
         "closed_at": null,
-        "title": "Update to latest ReSpec version 30.0.4",
+        "title": "Update to latest ReSpec version 31.0.4",
         "labels": [
           {
             "id": 151898314,
@@ -6382,8 +6402,18 @@
         "created_at": "2022-01-25T14:03:20Z",
         "closed_at": null,
         "title": "It is unclear from the spec whether cloning a MediaStreamTrack preserves the subtype or not of the cloned track",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1364496941,
+            "node_id": "MDU6TGFiZWwxMzY0NDk2OTQx",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "eladalon1983",
         "isPullRequest": false
       },
       {
@@ -6560,7 +6590,7 @@
         "closed_at": null,
         "title": "getUserMedia \"hanging\" indefinitely",
         "labels": [],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -6710,7 +6740,7 @@
         "closed_at": null,
         "title": "deviceId and Clear-Site-Data",
         "labels": [],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -6900,7 +6930,7 @@
         "closed_at": null,
         "title": "MediaStreamTrack frame rate: configured versus actual?",
         "labels": [],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -6942,16 +6972,6 @@
         ],
         "assignee": "dontcallmedom",
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 823,
-        "created_at": "2021-10-13T22:56:34Z",
-        "closed_at": null,
-        "title": "Make MediaStreamTrack serializable",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
       },
       {
         "state": "closed",
@@ -8667,6 +8687,16 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 862,
+        "created_at": "2020-08-26T12:51:10Z",
+        "closed_at": null,
+        "title": "It is unclear which of PermissionStatus change event or MediaStreamTrack ended event should fire first in case Permission is revoked",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
       },
       {
         "state": "closed",
@@ -20862,15 +20892,6 @@
         "title": "Fingerprint surface coming from MediaRecorder-able types - needs consideration?",
         "labels": [
           {
-            "id": 1831422641,
-            "node_id": "MDU6TGFiZWwxODMxNDIyNjQx",
-            "url": "https://api.github.com/repos/w3c/mediacapture-record/labels/privacy-tracker",
-            "name": "privacy-tracker",
-            "color": "d4af37",
-            "default": false,
-            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
-          },
-          {
             "id": 1831506888,
             "node_id": "MDU6TGFiZWwxODMxNTA2ODg4",
             "url": "https://api.github.com/repos/w3c/mediacapture-record/labels/privacy-needs-resolution",
@@ -23252,6 +23273,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 209,
+        "created_at": "2022-02-22T19:27:42Z",
+        "closed_at": null,
+        "title": "Avoid Hall-of-Mirrors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 208,
@@ -29694,27 +29725,57 @@
         "created_at": "2022-01-26T00:13:43Z",
         "closed_at": null,
         "title": "WPT tests are wrong about when \"outbound-rtp\" and \"inbound-rtp\" stats appear",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3844379096,
+            "node_id": "LA_kwDOAWTRvM7lJJHY",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/needs%20test",
+            "name": "needs test",
+            "color": "7CC135",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 618,
         "created_at": "2022-01-21T18:32:31Z",
-        "closed_at": null,
+        "closed_at": "2022-02-17T21:48:31Z",
         "title": "Match channels stat language with that of channels parameter.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 867275345,
+            "node_id": "MDU6TGFiZWw4NjcyNzUzNDU=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editorial",
+            "name": "Editorial",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 617,
         "created_at": "2022-01-21T18:21:39Z",
-        "closed_at": null,
+        "closed_at": "2022-02-22T14:06:15Z",
         "title": "Add note on coalescing codec stats.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3844379096,
+            "node_id": "LA_kwDOAWTRvM7lJJHY",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/needs%20test",
+            "name": "needs test",
+            "color": "7CC135",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -29725,24 +29786,24 @@
         "closed_at": null,
         "title": "codec.sdpFmtpLine isn't clear about which description to use",
         "labels": [],
-        "assignee": null,
+        "assignee": "vr000m",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 615,
         "created_at": "2022-01-20T03:48:41Z",
-        "closed_at": null,
+        "closed_at": "2022-02-17T21:48:31Z",
         "title": "Possibly outdated text on codec.channels",
         "labels": [],
         "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 614,
         "created_at": "2022-01-20T03:06:46Z",
-        "closed_at": null,
+        "closed_at": "2022-02-22T14:06:14Z",
         "title": "Are \"codec\" stats per transceiver or per transport?",
         "labels": [],
         "assignee": "jan-ivar",
@@ -29764,8 +29825,18 @@
         "created_at": "2021-11-08T13:40:18Z",
         "closed_at": null,
         "title": "Relax the way framesPerSecond is calculated.",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "vr000m",
         "isPullRequest": false
       },
       {
@@ -39378,13 +39449,121 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
-        "number": 64,
-        "created_at": "2022-02-15T05:38:06Z",
-        "closed_at": null,
-        "title": "Add Behavior section",
+        "state": "closed",
+        "number": 70,
+        "created_at": "2022-02-26T20:13:48Z",
+        "closed_at": "2022-02-26T20:16:09Z",
+        "title": "Revert \"Clarify behavior of setParameters()\"",
         "labels": [],
         "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 69,
+        "created_at": "2022-02-26T18:55:14Z",
+        "closed_at": null,
+        "title": "Clarify behavior of getParameters()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 68,
+        "created_at": "2022-02-26T18:54:52Z",
+        "closed_at": null,
+        "title": "Clarify behavior of getParameters()",
+        "labels": [
+          {
+            "id": 1366411784,
+            "node_id": "MDU6TGFiZWwxMzY2NDExNzg0",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "b60205",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3538068628,
+            "node_id": "LA_kwDOCWdvt87S4qSU",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/CR-blocking",
+            "name": "CR-blocking",
+            "color": "b60205",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "aboba",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 67,
+        "created_at": "2022-02-24T20:32:36Z",
+        "closed_at": "2022-02-26T18:37:25Z",
+        "title": "Clarify behavior of setParameters()",
+        "labels": [],
+        "assignee": "aboba",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 66,
+        "created_at": "2022-02-24T20:17:04Z",
+        "closed_at": "2022-02-26T18:38:02Z",
+        "title": "setParameters() behavior",
+        "labels": [
+          {
+            "id": 1366411784,
+            "node_id": "MDU6TGFiZWwxMzY2NDExNzg0",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "b60205",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3538068628,
+            "node_id": "LA_kwDOCWdvt87S4qSU",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/CR-blocking",
+            "name": "CR-blocking",
+            "color": "b60205",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "aboba",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 65,
+        "created_at": "2022-02-23T11:21:05Z",
+        "closed_at": "2022-02-23T16:25:38Z",
+        "title": "Mark up scalabilityModes values as exported definitions",
+        "labels": [
+          {
+            "id": 1461820871,
+            "node_id": "MDU6TGFiZWwxNDYxODIwODcx",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/Editorial",
+            "name": "Editorial",
+            "color": "f71d95",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 64,
+        "created_at": "2022-02-15T05:38:06Z",
+        "closed_at": "2022-02-24T20:17:43Z",
+        "title": "Add Behavior section",
+        "labels": [],
+        "assignee": "aboba",
         "isPullRequest": true
       },
       {
@@ -39448,27 +39627,27 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 59,
         "created_at": "2022-01-06T11:29:57Z",
-        "closed_at": null,
+        "closed_at": "2022-02-24T20:18:30Z",
         "title": "What should the scalability mode be when the preferred scalability mode is not supported on the requested codec?",
         "labels": [
           {
-            "id": 3538068628,
-            "node_id": "LA_kwDOCWdvt87S4qSU",
-            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/CR-blocking",
-            "name": "CR-blocking",
+            "id": 1366411784,
+            "node_id": "MDU6TGFiZWwxMzY2NDExNzg0",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/PR%20exists",
+            "name": "PR exists",
             "color": "b60205",
             "default": false,
             "description": ""
           },
           {
-            "id": 3789200610,
-            "node_id": "LA_kwDOCWdvt87h2pzi",
-            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "1d76db",
+            "id": 3538068628,
+            "node_id": "LA_kwDOCWdvt87S4qSU",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/CR-blocking",
+            "name": "CR-blocking",
+            "color": "b60205",
             "default": false,
             "description": ""
           }
@@ -39477,27 +39656,27 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 58,
         "created_at": "2022-01-06T11:14:04Z",
-        "closed_at": null,
+        "closed_at": "2022-02-24T20:18:55Z",
         "title": "What should the scalability mode be when no scalability mode is specified?",
         "labels": [
           {
-            "id": 3538068628,
-            "node_id": "LA_kwDOCWdvt87S4qSU",
-            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/CR-blocking",
-            "name": "CR-blocking",
+            "id": 1366411784,
+            "node_id": "MDU6TGFiZWwxMzY2NDExNzg0",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/PR%20exists",
+            "name": "PR exists",
             "color": "b60205",
             "default": false,
             "description": ""
           },
           {
-            "id": 3789200610,
-            "node_id": "LA_kwDOCWdvt87h2pzi",
-            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "1d76db",
+            "id": 3538068628,
+            "node_id": "LA_kwDOCWdvt87S4qSU",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/CR-blocking",
+            "name": "CR-blocking",
+            "color": "b60205",
             "default": false,
             "description": ""
           }
@@ -39506,27 +39685,27 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 57,
         "created_at": "2022-01-06T11:11:20Z",
-        "closed_at": null,
+        "closed_at": "2022-02-24T20:19:12Z",
         "title": "Handling of unknown scalability modes is underspecified",
         "labels": [
+          {
+            "id": 1366411784,
+            "node_id": "MDU6TGFiZWwxMzY2NDExNzg0",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "b60205",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 3538068628,
             "node_id": "LA_kwDOCWdvt87S4qSU",
             "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/CR-blocking",
             "name": "CR-blocking",
             "color": "b60205",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 3789200610,
-            "node_id": "LA_kwDOCWdvt87h2pzi",
-            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "1d76db",
             "default": false,
             "description": ""
           }
@@ -39641,13 +39820,13 @@
         "title": "SVC getCapabilities() is redundant with Media Capabilities query",
         "labels": [
           {
-            "id": 1129212106,
-            "node_id": "MDU6TGFiZWwxMTI5MjEyMTA2",
-            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/question",
-            "name": "question",
-            "color": "d876e3",
-            "default": true,
-            "description": "Further information is requested"
+            "id": 3538068628,
+            "node_id": "LA_kwDOCWdvt87S4qSU",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/CR-blocking",
+            "name": "CR-blocking",
+            "color": "b60205",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -39729,7 +39908,17 @@
         "created_at": "2020-10-20T03:54:46Z",
         "closed_at": "2020-11-10T17:28:10Z",
         "title": "TAG feedback",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1993380663,
+            "node_id": "MDU6TGFiZWwxOTkzMzgwNjYz",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/tag-tracker",
+            "name": "tag-tracker",
+            "color": "7fff00",
+            "default": false,
+            "description": "Group bringing to attention of the TAG, or tracked by the TAG but not needing response."
+          }
+        ],
         "assignee": "aboba",
         "isPullRequest": false
       },
