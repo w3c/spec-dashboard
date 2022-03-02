@@ -8,6 +8,115 @@
     "issues": [
       {
         "state": "open",
+        "number": 2633,
+        "created_at": "2022-03-02T04:46:30Z",
+        "closed_at": null,
+        "title": "Concerns around error label and message",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2632,
+        "created_at": "2022-03-02T02:20:06Z",
+        "closed_at": null,
+        "title": "wgsl: don't reserve certain words",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2631,
+        "created_at": "2022-03-01T20:10:04Z",
+        "closed_at": null,
+        "title": "What should occur for inputs to `ldexp` that would produce a result that isn't representable as a `f32`?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2630,
+        "created_at": "2022-03-01T02:45:32Z",
+        "closed_at": null,
+        "title": "Expose optional texture capabilities in WebGPU",
+        "labels": [
+          {
+            "id": 536258994,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5OTQ=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2629,
+        "created_at": "2022-03-01T00:14:03Z",
+        "closed_at": null,
+        "title": "Remove serialization/transfer from the spec",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2627,
+        "created_at": "2022-02-28T09:07:34Z",
+        "closed_at": null,
+        "title": "Validate query index overwrite in timestampWrites of render pass",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2626,
         "created_at": "2022-02-28T07:12:29Z",
         "closed_at": null,
@@ -186,10 +295,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2617,
         "created_at": "2022-02-22T21:58:13Z",
-        "closed_at": null,
+        "closed_at": "2022-03-02T02:18:54Z",
         "title": "wgsl: Reserve words from common programming languages",
         "labels": [
           {
@@ -712,22 +821,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2583,
         "created_at": "2022-02-09T00:33:19Z",
-        "closed_at": null,
+        "closed_at": "2022-02-28T23:15:45Z",
         "title": "Add isReady(), remove create*PipelineAsync()",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -922,10 +1021,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2572,
         "created_at": "2022-02-08T03:29:44Z",
-        "closed_at": null,
+        "closed_at": "2022-03-01T00:21:31Z",
         "title": "Remove createPipelineLayout, take layout \"requirements\" by value",
         "labels": [],
         "assignee": null,
@@ -1267,7 +1366,17 @@
         "created_at": "2022-01-29T04:35:01Z",
         "closed_at": null,
         "title": "Consider removing GPUPipelineLayout",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4278,17 +4387,7 @@
         "created_at": "2021-11-30T01:08:25Z",
         "closed_at": "2022-02-04T21:00:27Z",
         "title": "spec: Last vertex buffer element should not be required to have the full stride size, instead only size of attribs.",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": "kvark",
         "isPullRequest": false
       },
@@ -41663,6 +41762,115 @@
     "issues": [
       {
         "state": "open",
+        "number": 2633,
+        "created_at": "2022-03-02T04:46:30Z",
+        "closed_at": null,
+        "title": "Concerns around error label and message",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2632,
+        "created_at": "2022-03-02T02:20:06Z",
+        "closed_at": null,
+        "title": "wgsl: don't reserve certain words",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2631,
+        "created_at": "2022-03-01T20:10:04Z",
+        "closed_at": null,
+        "title": "What should occur for inputs to `ldexp` that would produce a result that isn't representable as a `f32`?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2630,
+        "created_at": "2022-03-01T02:45:32Z",
+        "closed_at": null,
+        "title": "Expose optional texture capabilities in WebGPU",
+        "labels": [
+          {
+            "id": 536258994,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5OTQ=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2629,
+        "created_at": "2022-03-01T00:14:03Z",
+        "closed_at": null,
+        "title": "Remove serialization/transfer from the spec",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2627,
+        "created_at": "2022-02-28T09:07:34Z",
+        "closed_at": null,
+        "title": "Validate query index overwrite in timestampWrites of render pass",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2626,
         "created_at": "2022-02-28T07:12:29Z",
         "closed_at": null,
@@ -41841,10 +42049,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2617,
         "created_at": "2022-02-22T21:58:13Z",
-        "closed_at": null,
+        "closed_at": "2022-03-02T02:18:54Z",
         "title": "wgsl: Reserve words from common programming languages",
         "labels": [
           {
@@ -42367,22 +42575,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2583,
         "created_at": "2022-02-09T00:33:19Z",
-        "closed_at": null,
+        "closed_at": "2022-02-28T23:15:45Z",
         "title": "Add isReady(), remove create*PipelineAsync()",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -42577,10 +42775,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2572,
         "created_at": "2022-02-08T03:29:44Z",
-        "closed_at": null,
+        "closed_at": "2022-03-01T00:21:31Z",
         "title": "Remove createPipelineLayout, take layout \"requirements\" by value",
         "labels": [],
         "assignee": null,
@@ -42922,7 +43120,17 @@
         "created_at": "2022-01-29T04:35:01Z",
         "closed_at": null,
         "title": "Consider removing GPUPipelineLayout",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -45933,17 +46141,7 @@
         "created_at": "2021-11-30T01:08:25Z",
         "closed_at": "2022-02-04T21:00:27Z",
         "title": "spec: Last vertex buffer element should not be required to have the full stride size, instead only size of attribs.",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": "kvark",
         "isPullRequest": false
       },
