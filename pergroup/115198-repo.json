@@ -8,9 +8,19 @@
     "issues": [
       {
         "state": "open",
+        "number": 29,
+        "created_at": "2022-04-11T14:23:41Z",
+        "closed_at": null,
+        "title": "Split security and privacy considerations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 28,
         "created_at": "2022-03-15T09:02:17Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T15:00:14Z",
         "title": "[meta] Enable auto-publish to TR",
         "labels": [],
         "assignee": null,
@@ -297,6 +307,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 194,
+        "created_at": "2022-04-09T22:00:06Z",
+        "closed_at": null,
+        "title": "What about still images?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 193,
+        "created_at": "2022-04-08T14:28:20Z",
+        "closed_at": null,
+        "title": "Specify in which contexts optional members are applicable",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 192,
         "created_at": "2022-03-02T19:16:43Z",
         "closed_at": null,
@@ -306,30 +336,30 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 191,
         "created_at": "2022-03-02T15:46:04Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:38:34Z",
         "title": "Add webrtc examples",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 190,
         "created_at": "2022-03-02T14:41:26Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:38:34Z",
         "title": "Add webrtc examples",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 189,
         "created_at": "2022-01-17T11:36:23Z",
-        "closed_at": null,
+        "closed_at": "2022-04-05T23:16:20Z",
         "title": "Add spatialScalability to VideoConfiguration",
         "labels": [],
         "assignee": null,
@@ -396,10 +426,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 182,
         "created_at": "2021-08-17T12:31:59Z",
-        "closed_at": null,
+        "closed_at": "2022-04-05T23:16:20Z",
         "title": "Use referenceScaling instead of scalabilityMode for decodingInfo queries",
         "labels": [],
         "assignee": null,
@@ -635,10 +665,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 166,
         "created_at": "2021-03-09T21:47:12Z",
-        "closed_at": null,
+        "closed_at": "2022-04-06T21:28:14Z",
         "title": "MediaDecodingConfiguration type=webrtc must not contain a keySystemConfig",
         "labels": [],
         "assignee": null,
@@ -10632,10 +10662,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 210,
         "created_at": "2022-03-21T12:26:34Z",
-        "closed_at": null,
+        "closed_at": "2022-04-11T09:05:33Z",
         "title": "Add the UA slot 'initiators of active Picture-in-Picture sessions'",
         "labels": [],
         "assignee": null,
@@ -12951,12 +12981,52 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -13305,8 +13375,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -15468,10 +15548,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -19346,12 +19426,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -19700,8 +19820,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -21863,10 +21993,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -25741,12 +25871,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -26095,8 +26265,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -28258,10 +28438,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -32136,12 +32316,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -32490,8 +32710,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -34653,10 +34883,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -38531,12 +38761,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -38885,8 +39155,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -41048,10 +41328,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -44926,12 +45206,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -45280,8 +45600,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -47443,10 +47773,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -51321,12 +51651,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -51675,8 +52045,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -53838,10 +54218,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -57716,12 +58096,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -58070,8 +58490,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -60233,10 +60663,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -64111,12 +64541,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -64465,8 +64935,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -66628,10 +67108,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -70506,12 +70986,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -70860,8 +71380,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -73023,10 +73553,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -76901,12 +77431,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -77255,8 +77825,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -79418,10 +79998,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -83296,12 +83876,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -83650,8 +84270,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -85813,10 +86443,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -89691,12 +90321,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -90045,8 +90715,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -92208,10 +92888,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
@@ -96086,12 +96766,52 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 481,
+        "created_at": "2022-04-12T07:23:35Z",
+        "closed_at": "2022-04-12T07:29:06Z",
+        "title": "Webcodecs VideoDecoder undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 480,
+        "created_at": "2022-04-08T23:27:14Z",
+        "closed_at": "2022-04-11T22:05:57Z",
+        "title": "Update capture-to-file sample to use Workers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 479,
+        "created_at": "2022-04-07T14:39:29Z",
+        "closed_at": null,
+        "title": "WebCodecs and autoplay policies",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 478,
         "created_at": "2022-03-31T15:27:13Z",
         "closed_at": null,
         "title": "Coding Tool configuration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2992602522,
+            "node_id": "MDU6TGFiZWwyOTkyNjAyNTIy",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/extension",
+            "name": "extension",
+            "color": "F7F2B6",
+            "default": false,
+            "description": "Interface changes that extend without breaking."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -96440,8 +97160,18 @@
         "number": 418,
         "created_at": "2021-12-09T03:30:31Z",
         "closed_at": null,
-        "title": "VideoDecoderConfig.referenceScaling",
-        "labels": [],
+        "title": "VideoDecoderConfig.spatialScalability",
+        "labels": [
+          {
+            "id": 2917352950,
+            "node_id": "MDU6TGFiZWwyOTE3MzUyOTUw",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "bfd4f2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -98603,10 +99333,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 259,
         "created_at": "2021-05-27T12:16:28Z",
-        "closed_at": null,
+        "closed_at": "2022-04-07T17:40:35Z",
         "title": "How to encode aac-lc in webcodecs",
         "labels": [
           {
