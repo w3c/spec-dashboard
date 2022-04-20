@@ -8,6 +8,116 @@
     "issues": [
       {
         "state": "open",
+        "number": 2775,
+        "created_at": "2022-04-19T20:57:23Z",
+        "closed_at": null,
+        "title": "Adjust pipeline fragment output validation rules",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2774,
+        "created_at": "2022-04-19T20:37:00Z",
+        "closed_at": null,
+        "title": "Don't reserve buffer, texture, in, out, input, output",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2773,
+        "created_at": "2022-04-19T20:26:53Z",
+        "closed_at": null,
+        "title": "Clarify conversions: floating, and out-of-range AbstractInt",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2772,
+        "created_at": "2022-04-19T15:23:44Z",
+        "closed_at": null,
+        "title": "Potential parsing conflict with const literals and postfix expsesions.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2771,
+        "created_at": "2022-04-18T18:41:50Z",
+        "closed_at": null,
+        "title": "Move preferred format queries to the adapter",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2770,
+        "created_at": "2022-04-18T16:00:13Z",
+        "closed_at": null,
+        "title": "Generalize pipeline fragment output validation to no require a fragment output if the pipeline's color target is \"unwritable\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2769,
+        "created_at": "2022-04-18T15:14:25Z",
+        "closed_at": null,
+        "title": "Number literal conversion clarification",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2768,
         "created_at": "2022-04-18T04:49:09Z",
         "closed_at": null,
@@ -82,7 +192,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "kdashg",
         "isPullRequest": false
       },
       {
@@ -102,7 +212,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "alan-baker",
         "isPullRequest": false
       },
       {
@@ -126,10 +236,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2761,
         "created_at": "2022-04-15T01:49:04Z",
-        "closed_at": null,
+        "closed_at": "2022-04-19T19:14:29Z",
         "title": "[wgsl] Add literal examples; fixup f16 hex floats regex.",
         "labels": [],
         "assignee": null,
@@ -234,10 +344,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2756,
         "created_at": "2022-04-14T02:07:04Z",
-        "closed_at": null,
+        "closed_at": "2022-04-19T19:14:29Z",
         "title": "Are f16 hex float literals allowed?",
         "labels": [
           {
@@ -254,10 +364,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2755,
         "created_at": "2022-04-13T22:51:31Z",
-        "closed_at": null,
+        "closed_at": "2022-04-19T20:32:34Z",
         "title": "Update logic for default TextureView dimension",
         "labels": [
           {
@@ -1377,10 +1487,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2684,
         "created_at": "2022-03-23T15:04:39Z",
-        "closed_at": null,
+        "closed_at": "2022-04-19T20:32:34Z",
         "title": "my2DArrayTexture.createView() doesn't create a full view",
         "labels": [
           {
@@ -1461,17 +1571,7 @@
         "created_at": "2022-03-22T18:09:46Z",
         "closed_at": null,
         "title": "Consider putting most of the writeTexture validation on the device timeline.",
-        "labels": [
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -36283,7 +36383,7 @@
             "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
           }
         ],
-        "assignee": null,
+        "assignee": "kdashg",
         "isPullRequest": false
       },
       {
@@ -43797,6 +43897,116 @@
     "issues": [
       {
         "state": "open",
+        "number": 2775,
+        "created_at": "2022-04-19T20:57:23Z",
+        "closed_at": null,
+        "title": "Adjust pipeline fragment output validation rules",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2774,
+        "created_at": "2022-04-19T20:37:00Z",
+        "closed_at": null,
+        "title": "Don't reserve buffer, texture, in, out, input, output",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2773,
+        "created_at": "2022-04-19T20:26:53Z",
+        "closed_at": null,
+        "title": "Clarify conversions: floating, and out-of-range AbstractInt",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2772,
+        "created_at": "2022-04-19T15:23:44Z",
+        "closed_at": null,
+        "title": "Potential parsing conflict with const literals and postfix expsesions.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2771,
+        "created_at": "2022-04-18T18:41:50Z",
+        "closed_at": null,
+        "title": "Move preferred format queries to the adapter",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2770,
+        "created_at": "2022-04-18T16:00:13Z",
+        "closed_at": null,
+        "title": "Generalize pipeline fragment output validation to no require a fragment output if the pipeline's color target is \"unwritable\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2769,
+        "created_at": "2022-04-18T15:14:25Z",
+        "closed_at": null,
+        "title": "Number literal conversion clarification",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2768,
         "created_at": "2022-04-18T04:49:09Z",
         "closed_at": null,
@@ -43871,7 +44081,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "kdashg",
         "isPullRequest": false
       },
       {
@@ -43891,7 +44101,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "alan-baker",
         "isPullRequest": false
       },
       {
@@ -43915,10 +44125,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2761,
         "created_at": "2022-04-15T01:49:04Z",
-        "closed_at": null,
+        "closed_at": "2022-04-19T19:14:29Z",
         "title": "[wgsl] Add literal examples; fixup f16 hex floats regex.",
         "labels": [],
         "assignee": null,
@@ -44023,10 +44233,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2756,
         "created_at": "2022-04-14T02:07:04Z",
-        "closed_at": null,
+        "closed_at": "2022-04-19T19:14:29Z",
         "title": "Are f16 hex float literals allowed?",
         "labels": [
           {
@@ -44043,10 +44253,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2755,
         "created_at": "2022-04-13T22:51:31Z",
-        "closed_at": null,
+        "closed_at": "2022-04-19T20:32:34Z",
         "title": "Update logic for default TextureView dimension",
         "labels": [
           {
@@ -45166,10 +45376,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2684,
         "created_at": "2022-03-23T15:04:39Z",
-        "closed_at": null,
+        "closed_at": "2022-04-19T20:32:34Z",
         "title": "my2DArrayTexture.createView() doesn't create a full view",
         "labels": [
           {
@@ -45250,17 +45460,7 @@
         "created_at": "2022-03-22T18:09:46Z",
         "closed_at": null,
         "title": "Consider putting most of the writeTexture validation on the device timeline.",
-        "labels": [
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -80072,7 +80272,7 @@
             "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
           }
         ],
-        "assignee": null,
+        "assignee": "kdashg",
         "isPullRequest": false
       },
       {
