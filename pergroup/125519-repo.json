@@ -8,6 +8,56 @@
     "issues": [
       {
         "state": "open",
+        "number": 2824,
+        "created_at": "2022-05-04T21:07:34Z",
+        "closed_at": null,
+        "title": "Remove multithreading support from the spec (for 1.0)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2823,
+        "created_at": "2022-05-04T21:00:16Z",
+        "closed_at": null,
+        "title": "Validate unknown texture usage bits",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2822,
+        "created_at": "2022-05-04T18:02:48Z",
+        "closed_at": null,
+        "title": "Clarify behaviour of `fract` with very small negative numbers",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2821,
         "created_at": "2022-05-04T01:34:34Z",
         "closed_at": null,
@@ -27,30 +77,30 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2820,
         "created_at": "2022-05-04T00:07:50Z",
-        "closed_at": null,
+        "closed_at": "2022-05-05T00:14:57Z",
         "title": "Add a limit for maxColorAttachments",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2819,
         "created_at": "2022-05-03T22:51:03Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T19:55:54Z",
         "title": "Factor out \"invalidate the current texture\", misc cleanups",
         "labels": [
           {
@@ -1153,10 +1203,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2762,
         "created_at": "2022-04-15T02:37:25Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:23:35Z",
         "title": "[wgsl] Split regex apart by segment. ",
         "labels": [
           {
@@ -1395,17 +1445,7 @@
         "created_at": "2022-04-12T16:57:31Z",
         "closed_at": null,
         "title": "Expose different error types directly instead of via polymorphism",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2757,7 +2797,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -4664,6 +4704,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -11423,7 +11472,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "alan-baker",
         "isPullRequest": false
       },
       {
@@ -14726,10 +14775,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1911,
         "created_at": "2021-07-07T06:33:49Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:52:06Z",
         "title": "WGSL: Allow global let-declarations initialized with constant expressions",
         "labels": [
           {
@@ -15876,7 +15925,7 @@
             "description": ""
           }
         ],
-        "assignee": "toji",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -16453,10 +16502,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1805,
         "created_at": "2021-06-04T14:46:25Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:52:19Z",
         "title": "WGSL grammar needs update for var type inference",
         "labels": [
           {
@@ -18030,10 +18079,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1711,
         "created_at": "2021-05-04T19:32:12Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:53:21Z",
         "title": "specify behaviour of floating point operations on NaNs",
         "labels": [
           {
@@ -20844,6 +20893,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -22900,7 +22958,7 @@
             "description": ""
           }
         ],
-        "assignee": "toji",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -41864,15 +41922,6 @@
             "color": "84b6eb",
             "default": true,
             "description": null
-          },
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -41989,10 +42038,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 234,
         "created_at": "2019-03-07T20:30:54Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:42:26Z",
         "title": "shader programming model: use little-endian layouts for scalar data",
         "labels": [
           {
@@ -45171,6 +45220,56 @@
     "issues": [
       {
         "state": "open",
+        "number": 2824,
+        "created_at": "2022-05-04T21:07:34Z",
+        "closed_at": null,
+        "title": "Remove multithreading support from the spec (for 1.0)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2823,
+        "created_at": "2022-05-04T21:00:16Z",
+        "closed_at": null,
+        "title": "Validate unknown texture usage bits",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2822,
+        "created_at": "2022-05-04T18:02:48Z",
+        "closed_at": null,
+        "title": "Clarify behaviour of `fract` with very small negative numbers",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2821,
         "created_at": "2022-05-04T01:34:34Z",
         "closed_at": null,
@@ -45190,30 +45289,30 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2820,
         "created_at": "2022-05-04T00:07:50Z",
-        "closed_at": null,
+        "closed_at": "2022-05-05T00:14:57Z",
         "title": "Add a limit for maxColorAttachments",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2819,
         "created_at": "2022-05-03T22:51:03Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T19:55:54Z",
         "title": "Factor out \"invalidate the current texture\", misc cleanups",
         "labels": [
           {
@@ -46316,10 +46415,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2762,
         "created_at": "2022-04-15T02:37:25Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:23:35Z",
         "title": "[wgsl] Split regex apart by segment. ",
         "labels": [
           {
@@ -46558,17 +46657,7 @@
         "created_at": "2022-04-12T16:57:31Z",
         "closed_at": null,
         "title": "Expose different error types directly instead of via polymorphism",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -47920,7 +48009,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -49827,6 +49916,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -56586,7 +56684,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "alan-baker",
         "isPullRequest": false
       },
       {
@@ -59889,10 +59987,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1911,
         "created_at": "2021-07-07T06:33:49Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:52:06Z",
         "title": "WGSL: Allow global let-declarations initialized with constant expressions",
         "labels": [
           {
@@ -61039,7 +61137,7 @@
             "description": ""
           }
         ],
-        "assignee": "toji",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -61616,10 +61714,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1805,
         "created_at": "2021-06-04T14:46:25Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:52:19Z",
         "title": "WGSL grammar needs update for var type inference",
         "labels": [
           {
@@ -63193,10 +63291,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1711,
         "created_at": "2021-05-04T19:32:12Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:53:21Z",
         "title": "specify behaviour of floating point operations on NaNs",
         "labels": [
           {
@@ -66007,6 +66105,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -68063,7 +68170,7 @@
             "description": ""
           }
         ],
-        "assignee": "toji",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -87027,15 +87134,6 @@
             "color": "84b6eb",
             "default": true,
             "description": null
-          },
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -87152,10 +87250,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 234,
         "created_at": "2019-03-07T20:30:54Z",
-        "closed_at": null,
+        "closed_at": "2022-05-04T17:42:26Z",
         "title": "shader programming model: use little-endian layouts for scalar data",
         "labels": [
           {
