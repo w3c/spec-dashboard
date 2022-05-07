@@ -8,19 +8,345 @@
     "issues": [
       {
         "state": "open",
-        "number": 2824,
-        "created_at": "2022-05-04T21:07:34Z",
+        "number": 2842,
+        "created_at": "2022-05-06T23:44:10Z",
         "closed_at": null,
-        "title": "Remove multithreading support from the spec (for 1.0)",
+        "title": "Validation for copyExternalImageToTexture should be at queue timeline",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2841,
+        "created_at": "2022-05-06T22:54:24Z",
+        "closed_at": "2022-05-06T23:07:24Z",
+        "title": "Explicitly specify precision for color space conversions",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2840,
+        "created_at": "2022-05-06T22:40:43Z",
+        "closed_at": null,
+        "title": "Add guidance on what browsers \"should\" put in error messages/console",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2839,
+        "created_at": "2022-05-06T22:25:56Z",
+        "closed_at": "2022-05-06T22:59:27Z",
+        "title": "Add detail to note on viewFormats performance",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2838,
+        "created_at": "2022-05-06T22:15:35Z",
+        "closed_at": "2022-05-06T22:59:13Z",
+        "title": "Add \"bgra8unorm-storage\" feature flag",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2837,
+        "created_at": "2022-05-06T22:03:13Z",
+        "closed_at": null,
+        "title": "buffer/device.destroy() unmaps buffer on current thread",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2836,
+        "created_at": "2022-05-06T21:38:59Z",
+        "closed_at": null,
+        "title": "editorial: Define trunc in terms of truncate",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 2835,
+        "created_at": "2022-05-06T21:24:33Z",
+        "closed_at": null,
+        "title": "Specify computed values for modf",
+        "labels": [
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2834,
+        "created_at": "2022-05-06T20:55:25Z",
+        "closed_at": null,
+        "title": "Raise maxComputeWorkgroupStorageSize from 16352 to 16384",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2833,
+        "created_at": "2022-05-06T19:43:31Z",
+        "closed_at": null,
+        "title": "Reserve binding_array",
+        "labels": [
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2832,
+        "created_at": "2022-05-06T19:27:42Z",
+        "closed_at": null,
+        "title": "maxComputeWorkgroupStorageSize limit",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2831,
+        "created_at": "2022-05-06T17:50:09Z",
+        "closed_at": "2022-05-06T21:21:53Z",
+        "title": "Add descriptions for buffer and texture creation options",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2830,
+        "created_at": "2022-05-06T16:16:05Z",
+        "closed_at": null,
+        "title": "wgsl: clarify that type inference occurs independent of the numeric value of a constant-time expression",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2829,
+        "created_at": "2022-05-06T06:57:47Z",
+        "closed_at": null,
+        "title": "Referencing the Unicode Standard",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 2303495215,
+            "node_id": "MDU6TGFiZWwyMzAzNDk1MjE1",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-needs-resolution",
+            "name": "i18n-needs-resolution",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Issue the Internationalization Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": "mehmetoguzderin",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2828,
+        "created_at": "2022-05-06T06:51:21Z",
+        "closed_at": null,
+        "title": "WGSL identifier comparison",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 2303495215,
+            "node_id": "MDU6TGFiZWwyMzAzNDk1MjE1",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-needs-resolution",
+            "name": "i18n-needs-resolution",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Issue the Internationalization Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": "mehmetoguzderin",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2827,
+        "created_at": "2022-05-06T03:54:18Z",
+        "closed_at": "2022-05-06T03:54:35Z",
+        "title": "nit: fix quotation marks in javascript example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2826,
+        "created_at": "2022-05-06T03:47:42Z",
+        "closed_at": null,
+        "title": "Remove GPUCanvasConfiguration.size",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2825,
+        "created_at": "2022-05-05T16:55:07Z",
+        "closed_at": null,
+        "title": "Add definitions to more render pipeline descriptors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2824,
+        "created_at": "2022-05-04T21:07:34Z",
+        "closed_at": "2022-05-06T00:56:31Z",
+        "title": "Remove multithreading support from the spec (for 1.0)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2823,
         "created_at": "2022-05-04T21:00:16Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T01:03:54Z",
         "title": "Validate unknown texture usage bits",
         "labels": [
           {
@@ -64,13 +390,13 @@
         "title": "Validate canvas configuration in configure()",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -187,10 +513,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2814,
         "created_at": "2022-05-03T15:13:07Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:43:28Z",
         "title": "Fix second form of mix",
         "labels": [
           {
@@ -245,10 +571,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2812,
         "created_at": "2022-04-29T15:49:08Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T22:14:43Z",
         "title": "Add validation for GPURender/ComputePassTimestampLocation",
         "labels": [],
         "assignee": null,
@@ -291,13 +617,13 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
-            "id": 2303495192,
-            "node_id": "MDU6TGFiZWwyMzAzNDk1MTky",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-tracker",
-            "name": "i18n-tracker",
+            "id": 2303495215,
+            "node_id": "MDU6TGFiZWwyMzAzNDk1MjE1",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-needs-resolution",
+            "name": "i18n-needs-resolution",
             "color": "F9C9FF",
             "default": false,
-            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
+            "description": "Issue the Internationalization Group has raised and looks for a response on."
           }
         ],
         "assignee": null,
@@ -344,10 +670,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2807,
         "created_at": "2022-04-28T14:37:27Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:43:28Z",
         "title": "Return type of second form of `mix` seems incorrect.",
         "labels": [
           {
@@ -364,10 +690,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2806,
         "created_at": "2022-04-28T14:22:34Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:43:28Z",
         "title": "Third param of `mix` with auto-splat param should be `T`.",
         "labels": [
           {
@@ -649,10 +975,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2792,
         "created_at": "2022-04-25T19:19:34Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:11:09Z",
         "title": "Allow creation-time expression in case seletors; Add missings `@const`s",
         "labels": [
           {
@@ -739,10 +1065,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2787,
         "created_at": "2022-04-25T11:29:32Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:11:09Z",
         "title": "`@const` missing on some built-in functions",
         "labels": [
           {
@@ -1164,10 +1490,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2764,
         "created_at": "2022-04-15T09:49:01Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:11:08Z",
         "title": "Consider allowing creation-time expressions or constants in switch case selectors",
         "labels": [
           {
@@ -1262,10 +1588,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2759,
         "created_at": "2022-04-14T15:33:15Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T20:03:52Z",
         "title": "Add staticAssert",
         "labels": [
           {
@@ -1445,7 +1771,17 @@
         "created_at": "2022-04-12T16:57:31Z",
         "closed_at": null,
         "title": "Expose different error types directly instead of via polymorphism",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1475,17 +1811,7 @@
         "created_at": "2022-04-12T00:44:02Z",
         "closed_at": null,
         "title": "The preferred format is not always storage-capable",
-        "labels": [
-          {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2772,10 +3098,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2663,
         "created_at": "2022-03-14T04:22:35Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T21:21:53Z",
         "title": "What do the GPUBufferUsageFlags constants mean?",
         "labels": [
           {
@@ -2801,10 +3127,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2662,
         "created_at": "2022-03-14T01:56:44Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T22:14:42Z",
         "title": "Are duplicate timestamp locations allowed on the same pass?",
         "labels": [
           {
@@ -2861,10 +3187,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2657,
         "created_at": "2022-03-09T19:39:49Z",
-        "closed_at": null,
+        "closed_at": "2022-05-05T18:36:21Z",
         "title": "Make use of automatic pipeline layouts explicit",
         "labels": [],
         "assignee": null,
@@ -3100,10 +3426,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2636,
         "created_at": "2022-03-04T01:03:53Z",
-        "closed_at": null,
+        "closed_at": "2022-05-05T18:36:21Z",
         "title": "Make automatic bind group layouts explicit",
         "labels": [
           {
@@ -3220,10 +3546,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2629,
         "created_at": "2022-03-01T00:14:03Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T00:56:31Z",
         "title": "Remove serialization/transfer from the spec",
         "labels": [
           {
@@ -3963,10 +4289,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2584,
         "created_at": "2022-02-09T20:18:10Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T20:03:52Z",
         "title": "Static assert",
         "labels": [
           {
@@ -4162,10 +4488,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2573,
         "created_at": "2022-02-08T08:31:40Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T22:59:27Z",
         "title": "GPUTextureFormatDescriptor.viewFormats performance hint is nonhelpful",
         "labels": [
           {
@@ -4606,15 +4932,6 @@
             "color": "84b6eb",
             "default": true,
             "description": null
-          },
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
           },
           {
             "id": 3727713513,
@@ -5320,6 +5637,15 @@
         "title": "Determine whether getBindGroupLayout returns a new object or not",
         "labels": [
           {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 3581772930,
             "node_id": "LA_kwDOBNvGe87VfYSC",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
@@ -5933,7 +6259,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -6741,10 +7067,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2416,
         "created_at": "2021-12-16T00:20:27Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T03:52:36Z",
         "title": "Rely on canvas size instead of allowing size to be configured",
         "labels": [
           {
@@ -7004,6 +7330,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           },
           {
             "id": 3581772930,
@@ -15844,17 +16179,7 @@
         "created_at": "2021-06-15T17:05:47Z",
         "closed_at": null,
         "title": "Should the API enforce that writable storage buffer bindings don't alias each other?",
-        "labels": [
-          {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -21901,10 +22226,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1482,
         "created_at": "2021-03-03T01:52:45Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T23:07:24Z",
         "title": "Consider copyToTexture interactions with high-bit-depth source images",
         "labels": [
           {
@@ -45220,19 +45545,345 @@
     "issues": [
       {
         "state": "open",
-        "number": 2824,
-        "created_at": "2022-05-04T21:07:34Z",
+        "number": 2842,
+        "created_at": "2022-05-06T23:44:10Z",
         "closed_at": null,
-        "title": "Remove multithreading support from the spec (for 1.0)",
+        "title": "Validation for copyExternalImageToTexture should be at queue timeline",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2841,
+        "created_at": "2022-05-06T22:54:24Z",
+        "closed_at": "2022-05-06T23:07:24Z",
+        "title": "Explicitly specify precision for color space conversions",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2840,
+        "created_at": "2022-05-06T22:40:43Z",
+        "closed_at": null,
+        "title": "Add guidance on what browsers \"should\" put in error messages/console",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2839,
+        "created_at": "2022-05-06T22:25:56Z",
+        "closed_at": "2022-05-06T22:59:27Z",
+        "title": "Add detail to note on viewFormats performance",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2838,
+        "created_at": "2022-05-06T22:15:35Z",
+        "closed_at": "2022-05-06T22:59:13Z",
+        "title": "Add \"bgra8unorm-storage\" feature flag",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2837,
+        "created_at": "2022-05-06T22:03:13Z",
+        "closed_at": null,
+        "title": "buffer/device.destroy() unmaps buffer on current thread",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2836,
+        "created_at": "2022-05-06T21:38:59Z",
+        "closed_at": null,
+        "title": "editorial: Define trunc in terms of truncate",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 2835,
+        "created_at": "2022-05-06T21:24:33Z",
+        "closed_at": null,
+        "title": "Specify computed values for modf",
+        "labels": [
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2834,
+        "created_at": "2022-05-06T20:55:25Z",
+        "closed_at": null,
+        "title": "Raise maxComputeWorkgroupStorageSize from 16352 to 16384",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2833,
+        "created_at": "2022-05-06T19:43:31Z",
+        "closed_at": null,
+        "title": "Reserve binding_array",
+        "labels": [
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2832,
+        "created_at": "2022-05-06T19:27:42Z",
+        "closed_at": null,
+        "title": "maxComputeWorkgroupStorageSize limit",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2831,
+        "created_at": "2022-05-06T17:50:09Z",
+        "closed_at": "2022-05-06T21:21:53Z",
+        "title": "Add descriptions for buffer and texture creation options",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2830,
+        "created_at": "2022-05-06T16:16:05Z",
+        "closed_at": null,
+        "title": "wgsl: clarify that type inference occurs independent of the numeric value of a constant-time expression",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2829,
+        "created_at": "2022-05-06T06:57:47Z",
+        "closed_at": null,
+        "title": "Referencing the Unicode Standard",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 2303495215,
+            "node_id": "MDU6TGFiZWwyMzAzNDk1MjE1",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-needs-resolution",
+            "name": "i18n-needs-resolution",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Issue the Internationalization Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": "mehmetoguzderin",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2828,
+        "created_at": "2022-05-06T06:51:21Z",
+        "closed_at": null,
+        "title": "WGSL identifier comparison",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 2303495215,
+            "node_id": "MDU6TGFiZWwyMzAzNDk1MjE1",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-needs-resolution",
+            "name": "i18n-needs-resolution",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Issue the Internationalization Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": "mehmetoguzderin",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2827,
+        "created_at": "2022-05-06T03:54:18Z",
+        "closed_at": "2022-05-06T03:54:35Z",
+        "title": "nit: fix quotation marks in javascript example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2826,
+        "created_at": "2022-05-06T03:47:42Z",
+        "closed_at": null,
+        "title": "Remove GPUCanvasConfiguration.size",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2825,
+        "created_at": "2022-05-05T16:55:07Z",
+        "closed_at": null,
+        "title": "Add definitions to more render pipeline descriptors",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2824,
+        "created_at": "2022-05-04T21:07:34Z",
+        "closed_at": "2022-05-06T00:56:31Z",
+        "title": "Remove multithreading support from the spec (for 1.0)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2823,
         "created_at": "2022-05-04T21:00:16Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T01:03:54Z",
         "title": "Validate unknown texture usage bits",
         "labels": [
           {
@@ -45276,13 +45927,13 @@
         "title": "Validate canvas configuration in configure()",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -45399,10 +46050,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2814,
         "created_at": "2022-05-03T15:13:07Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:43:28Z",
         "title": "Fix second form of mix",
         "labels": [
           {
@@ -45457,10 +46108,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2812,
         "created_at": "2022-04-29T15:49:08Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T22:14:43Z",
         "title": "Add validation for GPURender/ComputePassTimestampLocation",
         "labels": [],
         "assignee": null,
@@ -45503,13 +46154,13 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
-            "id": 2303495192,
-            "node_id": "MDU6TGFiZWwyMzAzNDk1MTky",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-tracker",
-            "name": "i18n-tracker",
+            "id": 2303495215,
+            "node_id": "MDU6TGFiZWwyMzAzNDk1MjE1",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-needs-resolution",
+            "name": "i18n-needs-resolution",
             "color": "F9C9FF",
             "default": false,
-            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
+            "description": "Issue the Internationalization Group has raised and looks for a response on."
           }
         ],
         "assignee": null,
@@ -45556,10 +46207,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2807,
         "created_at": "2022-04-28T14:37:27Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:43:28Z",
         "title": "Return type of second form of `mix` seems incorrect.",
         "labels": [
           {
@@ -45576,10 +46227,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2806,
         "created_at": "2022-04-28T14:22:34Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:43:28Z",
         "title": "Third param of `mix` with auto-splat param should be `T`.",
         "labels": [
           {
@@ -45861,10 +46512,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2792,
         "created_at": "2022-04-25T19:19:34Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:11:09Z",
         "title": "Allow creation-time expression in case seletors; Add missings `@const`s",
         "labels": [
           {
@@ -45951,10 +46602,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2787,
         "created_at": "2022-04-25T11:29:32Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:11:09Z",
         "title": "`@const` missing on some built-in functions",
         "labels": [
           {
@@ -46376,10 +47027,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2764,
         "created_at": "2022-04-15T09:49:01Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T17:11:08Z",
         "title": "Consider allowing creation-time expressions or constants in switch case selectors",
         "labels": [
           {
@@ -46474,10 +47125,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2759,
         "created_at": "2022-04-14T15:33:15Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T20:03:52Z",
         "title": "Add staticAssert",
         "labels": [
           {
@@ -46657,7 +47308,17 @@
         "created_at": "2022-04-12T16:57:31Z",
         "closed_at": null,
         "title": "Expose different error types directly instead of via polymorphism",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -46687,17 +47348,7 @@
         "created_at": "2022-04-12T00:44:02Z",
         "closed_at": null,
         "title": "The preferred format is not always storage-capable",
-        "labels": [
-          {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -47984,10 +48635,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2663,
         "created_at": "2022-03-14T04:22:35Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T21:21:53Z",
         "title": "What do the GPUBufferUsageFlags constants mean?",
         "labels": [
           {
@@ -48013,10 +48664,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2662,
         "created_at": "2022-03-14T01:56:44Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T22:14:42Z",
         "title": "Are duplicate timestamp locations allowed on the same pass?",
         "labels": [
           {
@@ -48073,10 +48724,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2657,
         "created_at": "2022-03-09T19:39:49Z",
-        "closed_at": null,
+        "closed_at": "2022-05-05T18:36:21Z",
         "title": "Make use of automatic pipeline layouts explicit",
         "labels": [],
         "assignee": null,
@@ -48312,10 +48963,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2636,
         "created_at": "2022-03-04T01:03:53Z",
-        "closed_at": null,
+        "closed_at": "2022-05-05T18:36:21Z",
         "title": "Make automatic bind group layouts explicit",
         "labels": [
           {
@@ -48432,10 +49083,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2629,
         "created_at": "2022-03-01T00:14:03Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T00:56:31Z",
         "title": "Remove serialization/transfer from the spec",
         "labels": [
           {
@@ -49175,10 +49826,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2584,
         "created_at": "2022-02-09T20:18:10Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T20:03:52Z",
         "title": "Static assert",
         "labels": [
           {
@@ -49374,10 +50025,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2573,
         "created_at": "2022-02-08T08:31:40Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T22:59:27Z",
         "title": "GPUTextureFormatDescriptor.viewFormats performance hint is nonhelpful",
         "labels": [
           {
@@ -49818,15 +50469,6 @@
             "color": "84b6eb",
             "default": true,
             "description": null
-          },
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
           },
           {
             "id": 3727713513,
@@ -50532,6 +51174,15 @@
         "title": "Determine whether getBindGroupLayout returns a new object or not",
         "labels": [
           {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 3581772930,
             "node_id": "LA_kwDOBNvGe87VfYSC",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
@@ -51145,7 +51796,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -51953,10 +52604,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2416,
         "created_at": "2021-12-16T00:20:27Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T03:52:36Z",
         "title": "Rely on canvas size instead of allowing size to be configured",
         "labels": [
           {
@@ -52216,6 +52867,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           },
           {
             "id": 3581772930,
@@ -61056,17 +61716,7 @@
         "created_at": "2021-06-15T17:05:47Z",
         "closed_at": null,
         "title": "Should the API enforce that writable storage buffer bindings don't alias each other?",
-        "labels": [
-          {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -67113,10 +67763,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1482,
         "created_at": "2021-03-03T01:52:45Z",
-        "closed_at": null,
+        "closed_at": "2022-05-06T23:07:24Z",
         "title": "Consider copyToTexture interactions with high-bit-depth source images",
         "labels": [
           {
