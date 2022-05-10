@@ -8,9 +8,258 @@
     "issues": [
       {
         "state": "open",
+        "number": 2857,
+        "created_at": "2022-05-10T03:18:10Z",
+        "closed_at": null,
+        "title": "Clarify all the validations with maxInterStageShaderComponents",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2856,
+        "created_at": "2022-05-10T00:24:33Z",
+        "closed_at": null,
+        "title": "make online: Build using tarfile for multi-file support",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2855,
+        "created_at": "2022-05-09T23:24:52Z",
+        "closed_at": null,
+        "title": "Move \"expire stale external textures\" slightly earlier",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2854,
+        "created_at": "2022-05-09T23:13:38Z",
+        "closed_at": null,
+        "title": "Clarify references to \"update the rendering\", \"interface object\"",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2853,
+        "created_at": "2022-05-09T23:08:35Z",
+        "closed_at": null,
+        "title": "Change GPUError to a base class instead of a union",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2852,
+        "created_at": "2022-05-09T22:26:30Z",
+        "closed_at": "2022-05-09T22:53:52Z",
+        "title": "Explicitly mark getBindGroupLayout as returning a [NewObject]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2851,
+        "created_at": "2022-05-09T19:43:20Z",
+        "closed_at": null,
+        "title": "ConversionRank table gets vector, matrix rows",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2850,
+        "created_at": "2022-05-09T19:37:48Z",
+        "closed_at": "2022-05-10T03:27:06Z",
+        "title": "`textureGather` limits on `coords` and `array_index`",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2849,
+        "created_at": "2022-05-09T18:09:55Z",
+        "closed_at": null,
+        "title": "Clarification around `sampled type` in the Texture Builtin section.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2848,
+        "created_at": "2022-05-09T17:39:10Z",
+        "closed_at": "2022-05-09T17:50:23Z",
+        "title": "Clarify conversion rank for composites of abstract types",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2847,
+        "created_at": "2022-05-09T17:19:28Z",
+        "closed_at": "2022-05-09T17:41:26Z",
+        "title": "Validations for writeBuffer and writeTexture should be at device timeline",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2846,
+        "created_at": "2022-05-09T17:19:19Z",
+        "closed_at": null,
+        "title": "Special case uniformity of arrayLength",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2845,
+        "created_at": "2022-05-07T13:58:57Z",
+        "closed_at": null,
+        "title": "Adopt n11n note from i18n specdev",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 2303495192,
+            "node_id": "MDU6TGFiZWwyMzAzNDk1MTky",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-tracker",
+            "name": "i18n-tracker",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2844,
+        "created_at": "2022-05-07T11:55:58Z",
+        "closed_at": null,
+        "title": "Clarify the buffer slots validation rule",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2843,
+        "created_at": "2022-05-07T11:44:17Z",
+        "closed_at": null,
+        "title": "Clarify the buffer slots validation rule in \"valid to draw with GPURenderCommandsMixin\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 2842,
         "created_at": "2022-05-06T23:44:10Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T17:41:19Z",
         "title": "Validation for copyExternalImageToTexture should be at queue timeline",
         "labels": [],
         "assignee": null,
@@ -44,15 +293,6 @@
         "title": "Add guidance on what browsers \"should\" put in error messages/console",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 3581772930,
             "node_id": "LA_kwDOBNvGe87VfYSC",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
@@ -60,6 +300,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -126,20 +375,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2836,
         "created_at": "2022-05-06T21:38:59Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:17:43Z",
         "title": "editorial: Define trunc in terms of truncate",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2835,
         "created_at": "2022-05-06T21:24:33Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:18:32Z",
         "title": "Specify computed values for modf",
         "labels": [
           {
@@ -176,10 +425,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2833,
         "created_at": "2022-05-06T19:43:31Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:11:26Z",
         "title": "Reserve binding_array",
         "labels": [
           {
@@ -895,32 +1144,23 @@
         "title": "Clarity how to interpret GPURenderPassColorAttachment/clearValue",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2794,
         "created_at": "2022-04-26T04:54:04Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:11:26Z",
         "title": "Consider making `binding_array` a reserved word",
         "labels": [
           {
@@ -1771,17 +2011,7 @@
         "created_at": "2022-04-12T16:57:31Z",
         "closed_at": null,
         "title": "Expose different error types directly instead of via polymorphism",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5100,17 +5330,7 @@
         "created_at": "2022-01-26T02:49:46Z",
         "closed_at": "2022-05-03T22:51:24Z",
         "title": "Move all canvas configure validation to getCurrentTexture",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5630,21 +5850,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2501,
         "created_at": "2022-01-13T03:16:57Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T22:53:52Z",
         "title": "Determine whether getBindGroupLayout returns a new object or not",
         "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
           {
             "id": 3581772930,
             "node_id": "LA_kwDOBNvGe87VfYSC",
@@ -5655,7 +5866,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -6243,10 +6454,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2468,
         "created_at": "2022-01-01T04:11:41Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:18:32Z",
         "title": "wgsl: Missing specification on modf behavior for negatives.",
         "labels": [
           {
@@ -6257,6 +6468,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
         "assignee": "dneto0",
@@ -7072,17 +7292,7 @@
         "created_at": "2021-12-16T00:20:27Z",
         "closed_at": "2022-05-06T03:52:36Z",
         "title": "Rely on canvas size instead of allowing size to be configured",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -45545,9 +45755,258 @@
     "issues": [
       {
         "state": "open",
+        "number": 2857,
+        "created_at": "2022-05-10T03:18:10Z",
+        "closed_at": null,
+        "title": "Clarify all the validations with maxInterStageShaderComponents",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2856,
+        "created_at": "2022-05-10T00:24:33Z",
+        "closed_at": null,
+        "title": "make online: Build using tarfile for multi-file support",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2855,
+        "created_at": "2022-05-09T23:24:52Z",
+        "closed_at": null,
+        "title": "Move \"expire stale external textures\" slightly earlier",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2854,
+        "created_at": "2022-05-09T23:13:38Z",
+        "closed_at": null,
+        "title": "Clarify references to \"update the rendering\", \"interface object\"",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2853,
+        "created_at": "2022-05-09T23:08:35Z",
+        "closed_at": null,
+        "title": "Change GPUError to a base class instead of a union",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2852,
+        "created_at": "2022-05-09T22:26:30Z",
+        "closed_at": "2022-05-09T22:53:52Z",
+        "title": "Explicitly mark getBindGroupLayout as returning a [NewObject]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2851,
+        "created_at": "2022-05-09T19:43:20Z",
+        "closed_at": null,
+        "title": "ConversionRank table gets vector, matrix rows",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2850,
+        "created_at": "2022-05-09T19:37:48Z",
+        "closed_at": "2022-05-10T03:27:06Z",
+        "title": "`textureGather` limits on `coords` and `array_index`",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2849,
+        "created_at": "2022-05-09T18:09:55Z",
+        "closed_at": null,
+        "title": "Clarification around `sampled type` in the Texture Builtin section.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2848,
+        "created_at": "2022-05-09T17:39:10Z",
+        "closed_at": "2022-05-09T17:50:23Z",
+        "title": "Clarify conversion rank for composites of abstract types",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2847,
+        "created_at": "2022-05-09T17:19:28Z",
+        "closed_at": "2022-05-09T17:41:26Z",
+        "title": "Validations for writeBuffer and writeTexture should be at device timeline",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2846,
+        "created_at": "2022-05-09T17:19:19Z",
+        "closed_at": null,
+        "title": "Special case uniformity of arrayLength",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2845,
+        "created_at": "2022-05-07T13:58:57Z",
+        "closed_at": null,
+        "title": "Adopt n11n note from i18n specdev",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 2303495192,
+            "node_id": "MDU6TGFiZWwyMzAzNDk1MTky",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/i18n-tracker",
+            "name": "i18n-tracker",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2844,
+        "created_at": "2022-05-07T11:55:58Z",
+        "closed_at": null,
+        "title": "Clarify the buffer slots validation rule",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2843,
+        "created_at": "2022-05-07T11:44:17Z",
+        "closed_at": null,
+        "title": "Clarify the buffer slots validation rule in \"valid to draw with GPURenderCommandsMixin\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 2842,
         "created_at": "2022-05-06T23:44:10Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T17:41:19Z",
         "title": "Validation for copyExternalImageToTexture should be at queue timeline",
         "labels": [],
         "assignee": null,
@@ -45581,15 +46040,6 @@
         "title": "Add guidance on what browsers \"should\" put in error messages/console",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 3581772930,
             "node_id": "LA_kwDOBNvGe87VfYSC",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
@@ -45597,6 +46047,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -45663,20 +46122,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2836,
         "created_at": "2022-05-06T21:38:59Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:17:43Z",
         "title": "editorial: Define trunc in terms of truncate",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2835,
         "created_at": "2022-05-06T21:24:33Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:18:32Z",
         "title": "Specify computed values for modf",
         "labels": [
           {
@@ -45713,10 +46172,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2833,
         "created_at": "2022-05-06T19:43:31Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:11:26Z",
         "title": "Reserve binding_array",
         "labels": [
           {
@@ -46432,32 +46891,23 @@
         "title": "Clarity how to interpret GPURenderPassColorAttachment/clearValue",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2794,
         "created_at": "2022-04-26T04:54:04Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:11:26Z",
         "title": "Consider making `binding_array` a reserved word",
         "labels": [
           {
@@ -47308,17 +47758,7 @@
         "created_at": "2022-04-12T16:57:31Z",
         "closed_at": null,
         "title": "Expose different error types directly instead of via polymorphism",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -50637,17 +51077,7 @@
         "created_at": "2022-01-26T02:49:46Z",
         "closed_at": "2022-05-03T22:51:24Z",
         "title": "Move all canvas configure validation to getCurrentTexture",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -51167,21 +51597,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2501,
         "created_at": "2022-01-13T03:16:57Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T22:53:52Z",
         "title": "Determine whether getBindGroupLayout returns a new object or not",
         "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
           {
             "id": 3581772930,
             "node_id": "LA_kwDOBNvGe87VfYSC",
@@ -51192,7 +51613,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -51780,10 +52201,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2468,
         "created_at": "2022-01-01T04:11:41Z",
-        "closed_at": null,
+        "closed_at": "2022-05-09T06:18:32Z",
         "title": "wgsl: Missing specification on modf behavior for negatives.",
         "labels": [
           {
@@ -51794,6 +52215,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
         "assignee": "dneto0",
@@ -52609,17 +53039,7 @@
         "created_at": "2021-12-16T00:20:27Z",
         "closed_at": "2022-05-06T03:52:36Z",
         "title": "Rely on canvas size instead of allowing size to be configured",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
