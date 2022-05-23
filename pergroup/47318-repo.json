@@ -817,10 +817,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 63,
         "created_at": "2016-11-05T12:12:31Z",
-        "closed_at": null,
+        "closed_at": "2022-05-22T04:44:01Z",
         "title": "Controlling 3rd party iframe audio output on a page?",
         "labels": [],
         "assignee": "guidou",
@@ -1476,6 +1476,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 66,
+        "created_at": "2022-05-18T06:32:35Z",
+        "closed_at": "2022-05-19T07:01:26Z",
+        "title": "Fix link to editor drafts",
+        "labels": [
+          {
+            "id": 3911184222,
+            "node_id": "LA_kwDOFlTMo87pH-9e",
+            "url": "https://api.github.com/repos/w3c/mediacapture-handle/labels/Editorial",
+            "name": "Editorial",
+            "color": "006B75",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 65,
         "created_at": "2022-05-16T15:00:56Z",
@@ -1486,10 +1506,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 64,
         "created_at": "2022-05-16T08:10:00Z",
-        "closed_at": null,
+        "closed_at": "2022-05-19T07:01:07Z",
         "title": "Set up Identity spec for automated updates on w3.org/TR/",
         "labels": [],
         "assignee": null,
@@ -7193,6 +7213,56 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 50,
+        "created_at": "2022-05-20T14:05:32Z",
+        "closed_at": null,
+        "title": "MediaDevices.produceCropTarget -> CropTarget.fromElement",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 49,
+        "created_at": "2022-05-20T12:42:07Z",
+        "closed_at": "2022-05-20T12:42:24Z",
+        "title": "Fix formatting",
+        "labels": [
+          {
+            "id": 3790893024,
+            "node_id": "LA_kwDOGKw3Q87h9G_g",
+            "url": "https://api.github.com/repos/w3c/mediacapture-region/labels/Editorial",
+            "name": "Editorial",
+            "color": "BE5378",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 48,
+        "created_at": "2022-05-19T10:10:59Z",
+        "closed_at": null,
+        "title": "Should generation of CropTarget from elements be able to fail?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 47,
+        "created_at": "2022-05-19T09:50:11Z",
+        "closed_at": null,
+        "title": "Clarify the cropTarget minting processing model",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 46,
@@ -25400,6 +25470,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 225,
+        "created_at": "2022-05-20T17:48:48Z",
+        "closed_at": null,
+        "title": "Introduce DisplayMediaStreamConstraints.dynamicSourceOption",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 224,
         "created_at": "2022-05-16T10:04:27Z",
         "closed_at": null,
@@ -25429,10 +25509,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 221,
         "created_at": "2022-04-28T13:29:39Z",
-        "closed_at": null,
+        "closed_at": "2022-05-19T14:55:26Z",
         "title": "Improve markup of enumeration tables",
         "labels": [],
         "assignee": null,
@@ -25464,7 +25544,17 @@
         "created_at": "2022-04-04T07:23:45Z",
         "closed_at": null,
         "title": "Markup definitions to make them reusable in other specs",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1215959506,
+            "node_id": "MDU6TGFiZWwxMjE1OTU5NTA2",
+            "url": "https://api.github.com/repos/w3c/mediacapture-screen-share/labels/editors%20can%20integrate",
+            "name": "editors can integrate",
+            "color": "50fce5",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -28808,11 +28898,51 @@
     "issues": [
       {
         "state": "open",
+        "number": 135,
+        "created_at": "2022-05-19T14:48:48Z",
+        "closed_at": null,
+        "title": "Need for modifying metadata",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 134,
+        "created_at": "2022-05-19T14:47:39Z",
+        "closed_at": null,
+        "title": "Need to create RTCEncodedVideoFrame from scratch",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 133,
+        "created_at": "2022-05-19T14:43:57Z",
+        "closed_at": null,
+        "title": "Change generateKeyFrame return value from unsigned long long to unsigned long",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 132,
         "created_at": "2022-04-07T08:04:16Z",
-        "closed_at": null,
+        "closed_at": "2022-05-19T14:41:23Z",
         "title": "Make generateKeyFrame take a single RID or none. Resolve the promise with the frame timestamp",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4147896733,
+            "node_id": "LA_kwDOC-x_t873O-Gd",
+            "url": "https://api.github.com/repos/w3c/webrtc-encoded-transform/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "D4807B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -28857,10 +28987,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 128,
         "created_at": "2022-01-27T15:31:41Z",
-        "closed_at": null,
+        "closed_at": "2022-05-19T14:41:23Z",
         "title": "Should we expose the precise timestamp of the frame that was triggered by a generateKeyFrame call?",
         "labels": [],
         "assignee": null,
@@ -29007,10 +29137,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 116,
         "created_at": "2021-08-13T07:43:45Z",
-        "closed_at": null,
+        "closed_at": "2022-05-19T14:43:13Z",
         "title": "fix type of timestamp attribute",
         "labels": [],
         "assignee": null,
@@ -32092,10 +32222,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 631,
         "created_at": "2022-04-28T12:55:43Z",
-        "closed_at": null,
+        "closed_at": "2022-05-17T12:46:28Z",
         "title": "Improve markup of enumeration tables",
         "labels": [
           {
@@ -32298,16 +32428,6 @@
           }
         ],
         "assignee": "henbos",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 620,
-        "created_at": "2022-02-28T08:02:01Z",
-        "closed_at": null,
-        "title": "outbound-rtp.scaleResolutionDownBy",
-        "labels": [],
-        "assignee": null,
         "isPullRequest": false
       },
       {
