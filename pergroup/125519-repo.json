@@ -8,6 +8,580 @@
     "issues": [
       {
         "state": "open",
+        "number": 3073,
+        "created_at": "2022-06-18T00:45:23Z",
+        "closed_at": null,
+        "title": "Define inter-stage variable subsetting rules",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3072,
+        "created_at": "2022-06-17T23:42:33Z",
+        "closed_at": null,
+        "title": "Allow BGL entries for multisampled:true \"depth\" textures",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3071,
+        "created_at": "2022-06-17T23:34:12Z",
+        "closed_at": null,
+        "title": "Replace section numbers with section anchor names",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3070,
+        "created_at": "2022-06-17T22:54:05Z",
+        "closed_at": null,
+        "title": "Allow depth textures with cube/array/multisampled types",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3069,
+        "created_at": "2022-06-17T22:53:08Z",
+        "closed_at": "2022-06-17T23:47:53Z",
+        "title": "[editorial] Generalize language of reading-depth-stencil section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3068,
+        "created_at": "2022-06-17T19:00:37Z",
+        "closed_at": null,
+        "title": "Add saturate floating point builtin function",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3067,
+        "created_at": "2022-06-17T17:58:17Z",
+        "closed_at": null,
+        "title": "wgsl: function param that is pointer-to-workgroup is problematic if the store type contains an atomic",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3066,
+        "created_at": "2022-06-17T00:23:56Z",
+        "closed_at": "2022-06-17T02:12:10Z",
+        "title": "fix bikeshed syntax typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3065,
+        "created_at": "2022-06-16T21:08:48Z",
+        "closed_at": "2022-06-16T23:58:47Z",
+        "title": "Ensure that reflection attributes are initialized",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3064,
+        "created_at": "2022-06-16T20:43:26Z",
+        "closed_at": "2022-06-16T23:58:47Z",
+        "title": "Value of reflection attributes if validation fails",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3063,
+        "created_at": "2022-06-16T20:00:49Z",
+        "closed_at": null,
+        "title": "Extend let declaration description to make clear how it is different from const",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3062,
+        "created_at": "2022-06-16T19:55:56Z",
+        "closed_at": null,
+        "title": "Extend value declaration to other consequences of no memory locations?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3061,
+        "created_at": "2022-06-16T19:51:57Z",
+        "closed_at": null,
+        "title": "Change `creation-time constant` in Value Declarations to `const`?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3060,
+        "created_at": "2022-06-16T19:36:06Z",
+        "closed_at": null,
+        "title": "Example: Access Modes for Buffers seems out of place",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3059,
+        "created_at": "2022-06-16T19:30:48Z",
+        "closed_at": null,
+        "title": "Update `texture_sampler_types` grammar rule to `texture_and_sampler_types`",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3058,
+        "created_at": "2022-06-16T18:38:41Z",
+        "closed_at": null,
+        "title": "Update language about the texture being the first parameter to the texture builtins",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3057,
+        "created_at": "2022-06-16T15:11:12Z",
+        "closed_at": null,
+        "title": "Dynamic error description for read-modify-write atomics could use more explanation.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3056,
+        "created_at": "2022-06-16T10:05:34Z",
+        "closed_at": null,
+        "title": "Include arrays in creation-time constant expressions",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3055,
+        "created_at": "2022-06-15T20:26:45Z",
+        "closed_at": "2022-06-16T03:49:14Z",
+        "title": "wgsl: Fix description of atomicCompareExchangeWeak",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3054,
+        "created_at": "2022-06-15T17:52:12Z",
+        "closed_at": "2022-06-15T23:40:30Z",
+        "title": "Use a responsive SVG for the logo.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3053,
+        "created_at": "2022-06-15T15:43:13Z",
+        "closed_at": null,
+        "title": "Add example in Memory Views section showing a ref type.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3052,
+        "created_at": "2022-06-15T15:38:28Z",
+        "closed_at": null,
+        "title": "Update comment about reference types not appearing to a note.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3051,
+        "created_at": "2022-06-15T15:17:16Z",
+        "closed_at": null,
+        "title": "Structure member layout offset placement doesn't not mention padding.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3050,
+        "created_at": "2022-06-15T15:12:09Z",
+        "closed_at": null,
+        "title": "Structure member layout either list the align restrictions or remove the size restrictions",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3049,
         "created_at": "2022-06-14T20:40:27Z",
         "closed_at": null,
@@ -250,10 +824,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3038,
         "created_at": "2022-06-11T01:47:46Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T23:56:55Z",
         "title": "Allow using depth textures with texture_2d",
         "labels": [],
         "assignee": null,
@@ -529,7 +1103,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -820,6 +1394,15 @@
             "color": "91f285",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -974,10 +1557,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3005,
         "created_at": "2022-06-02T15:33:38Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T19:08:10Z",
         "title": "Add GPURenderPassDescriptor.maxDrawCount",
         "labels": [],
         "assignee": null,
@@ -1033,10 +1616,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3002,
         "created_at": "2022-06-02T03:28:03Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T23:39:32Z",
         "title": "Specify minimum permitted values of alignment limits",
         "labels": [
           {
@@ -2294,20 +2877,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2946,
         "created_at": "2022-05-25T19:37:13Z",
-        "closed_at": null,
+        "closed_at": "2022-06-15T19:38:25Z",
         "title": "[TAG review] Wondering if power consumption choice should be initiated by the user",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2945,
         "created_at": "2022-05-25T19:35:43Z",
-        "closed_at": null,
+        "closed_at": "2022-06-15T21:46:25Z",
         "title": "[TAG review] Should there be a higher granularity for selecting devices?",
         "labels": [],
         "assignee": null,
@@ -6502,7 +7085,7 @@
         "number": 2732,
         "created_at": "2022-04-05T10:27:58Z",
         "closed_at": "2022-06-07T19:06:43Z",
-        "title": "Missing depth24unorm fomat?",
+        "title": "Missing depth24unorm format?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -9965,10 +10548,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2505,
         "created_at": "2022-01-13T23:10:18Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T23:39:32Z",
         "title": "constrain attribute alignment value to divide device alignment limits",
         "labels": [
           {
@@ -15029,10 +15612,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2189,
         "created_at": "2021-10-16T05:12:34Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T19:08:10Z",
         "title": "Streaming implementations and indirect draws/dispatches",
         "labels": [
           {
@@ -16696,11 +17279,11 @@
         "title": "texture_2d_depth for loading depth values might be unnecessary?",
         "labels": [
           {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
             "default": false,
             "description": ""
           }
@@ -18244,7 +18827,7 @@
             "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -19393,10 +19976,10 @@
         "isPullRequest": false
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 1924,
         "created_at": "2021-07-12T16:39:44Z",
-        "closed_at": "2021-07-20T18:38:20Z",
+        "closed_at": null,
         "title": "Reading from MSAA depth textures",
         "labels": [
           {
@@ -19407,6 +19990,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": "kvark",
@@ -50057,6 +50649,580 @@
     "issues": [
       {
         "state": "open",
+        "number": 3073,
+        "created_at": "2022-06-18T00:45:23Z",
+        "closed_at": null,
+        "title": "Define inter-stage variable subsetting rules",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3072,
+        "created_at": "2022-06-17T23:42:33Z",
+        "closed_at": null,
+        "title": "Allow BGL entries for multisampled:true \"depth\" textures",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3071,
+        "created_at": "2022-06-17T23:34:12Z",
+        "closed_at": null,
+        "title": "Replace section numbers with section anchor names",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3070,
+        "created_at": "2022-06-17T22:54:05Z",
+        "closed_at": null,
+        "title": "Allow depth textures with cube/array/multisampled types",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3069,
+        "created_at": "2022-06-17T22:53:08Z",
+        "closed_at": "2022-06-17T23:47:53Z",
+        "title": "[editorial] Generalize language of reading-depth-stencil section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3068,
+        "created_at": "2022-06-17T19:00:37Z",
+        "closed_at": null,
+        "title": "Add saturate floating point builtin function",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3067,
+        "created_at": "2022-06-17T17:58:17Z",
+        "closed_at": null,
+        "title": "wgsl: function param that is pointer-to-workgroup is problematic if the store type contains an atomic",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3066,
+        "created_at": "2022-06-17T00:23:56Z",
+        "closed_at": "2022-06-17T02:12:10Z",
+        "title": "fix bikeshed syntax typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3065,
+        "created_at": "2022-06-16T21:08:48Z",
+        "closed_at": "2022-06-16T23:58:47Z",
+        "title": "Ensure that reflection attributes are initialized",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3064,
+        "created_at": "2022-06-16T20:43:26Z",
+        "closed_at": "2022-06-16T23:58:47Z",
+        "title": "Value of reflection attributes if validation fails",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3063,
+        "created_at": "2022-06-16T20:00:49Z",
+        "closed_at": null,
+        "title": "Extend let declaration description to make clear how it is different from const",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3062,
+        "created_at": "2022-06-16T19:55:56Z",
+        "closed_at": null,
+        "title": "Extend value declaration to other consequences of no memory locations?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3061,
+        "created_at": "2022-06-16T19:51:57Z",
+        "closed_at": null,
+        "title": "Change `creation-time constant` in Value Declarations to `const`?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3060,
+        "created_at": "2022-06-16T19:36:06Z",
+        "closed_at": null,
+        "title": "Example: Access Modes for Buffers seems out of place",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3059,
+        "created_at": "2022-06-16T19:30:48Z",
+        "closed_at": null,
+        "title": "Update `texture_sampler_types` grammar rule to `texture_and_sampler_types`",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3058,
+        "created_at": "2022-06-16T18:38:41Z",
+        "closed_at": null,
+        "title": "Update language about the texture being the first parameter to the texture builtins",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3057,
+        "created_at": "2022-06-16T15:11:12Z",
+        "closed_at": null,
+        "title": "Dynamic error description for read-modify-write atomics could use more explanation.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3056,
+        "created_at": "2022-06-16T10:05:34Z",
+        "closed_at": null,
+        "title": "Include arrays in creation-time constant expressions",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3055,
+        "created_at": "2022-06-15T20:26:45Z",
+        "closed_at": "2022-06-16T03:49:14Z",
+        "title": "wgsl: Fix description of atomicCompareExchangeWeak",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3054,
+        "created_at": "2022-06-15T17:52:12Z",
+        "closed_at": "2022-06-15T23:40:30Z",
+        "title": "Use a responsive SVG for the logo.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3053,
+        "created_at": "2022-06-15T15:43:13Z",
+        "closed_at": null,
+        "title": "Add example in Memory Views section showing a ref type.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3052,
+        "created_at": "2022-06-15T15:38:28Z",
+        "closed_at": null,
+        "title": "Update comment about reference types not appearing to a note.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3051,
+        "created_at": "2022-06-15T15:17:16Z",
+        "closed_at": null,
+        "title": "Structure member layout offset placement doesn't not mention padding.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3050,
+        "created_at": "2022-06-15T15:12:09Z",
+        "closed_at": null,
+        "title": "Structure member layout either list the align restrictions or remove the size restrictions",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3049,
         "created_at": "2022-06-14T20:40:27Z",
         "closed_at": null,
@@ -50299,10 +51465,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3038,
         "created_at": "2022-06-11T01:47:46Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T23:56:55Z",
         "title": "Allow using depth textures with texture_2d",
         "labels": [],
         "assignee": null,
@@ -50578,7 +51744,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -50869,6 +52035,15 @@
             "color": "91f285",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -51023,10 +52198,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3005,
         "created_at": "2022-06-02T15:33:38Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T19:08:10Z",
         "title": "Add GPURenderPassDescriptor.maxDrawCount",
         "labels": [],
         "assignee": null,
@@ -51082,10 +52257,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3002,
         "created_at": "2022-06-02T03:28:03Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T23:39:32Z",
         "title": "Specify minimum permitted values of alignment limits",
         "labels": [
           {
@@ -52343,20 +53518,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2946,
         "created_at": "2022-05-25T19:37:13Z",
-        "closed_at": null,
+        "closed_at": "2022-06-15T19:38:25Z",
         "title": "[TAG review] Wondering if power consumption choice should be initiated by the user",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2945,
         "created_at": "2022-05-25T19:35:43Z",
-        "closed_at": null,
+        "closed_at": "2022-06-15T21:46:25Z",
         "title": "[TAG review] Should there be a higher granularity for selecting devices?",
         "labels": [],
         "assignee": null,
@@ -56551,7 +57726,7 @@
         "number": 2732,
         "created_at": "2022-04-05T10:27:58Z",
         "closed_at": "2022-06-07T19:06:43Z",
-        "title": "Missing depth24unorm fomat?",
+        "title": "Missing depth24unorm format?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -60014,10 +61189,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2505,
         "created_at": "2022-01-13T23:10:18Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T23:39:32Z",
         "title": "constrain attribute alignment value to divide device alignment limits",
         "labels": [
           {
@@ -65078,10 +66253,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2189,
         "created_at": "2021-10-16T05:12:34Z",
-        "closed_at": null,
+        "closed_at": "2022-06-16T19:08:10Z",
         "title": "Streaming implementations and indirect draws/dispatches",
         "labels": [
           {
@@ -66745,11 +67920,11 @@
         "title": "texture_2d_depth for loading depth values might be unnecessary?",
         "labels": [
           {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
             "default": false,
             "description": ""
           }
@@ -68293,7 +69468,7 @@
             "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -69442,10 +70617,10 @@
         "isPullRequest": false
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 1924,
         "created_at": "2021-07-12T16:39:44Z",
-        "closed_at": "2021-07-20T18:38:20Z",
+        "closed_at": null,
         "title": "Reading from MSAA depth textures",
         "labels": [
           {
@@ -69456,6 +70631,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": "kvark",
