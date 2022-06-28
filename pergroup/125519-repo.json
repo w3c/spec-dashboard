@@ -7,6 +7,103 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 3106,
+        "created_at": "2022-06-27T23:44:31Z",
+        "closed_at": "2022-06-27T23:47:57Z",
+        "title": "Add wgsl.lalr.txt to build output for preview.yml workflow",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3105,
+        "created_at": "2022-06-27T20:27:36Z",
+        "closed_at": "2022-06-27T21:27:12Z",
+        "title": "Fix phrasing of accuracy of cos, sin, log, log2",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3104,
+        "created_at": "2022-06-27T20:08:13Z",
+        "closed_at": "2022-06-27T21:27:12Z",
+        "title": "wgsl: log accuracy is in terms of an interval of x, not an interval of log(x)",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3103,
+        "created_at": "2022-06-27T14:51:42Z",
+        "closed_at": null,
+        "title": "explain the mapping from a numeric literal to an numeric scalar or abstract numeric typ",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 3102,
         "created_at": "2022-06-26T17:37:21Z",
@@ -97,10 +194,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3096,
         "created_at": "2022-06-24T19:54:45Z",
-        "closed_at": null,
+        "closed_at": "2022-06-27T20:06:10Z",
         "title": "Update WGSL README, to discuss LALR(1) validation",
         "labels": [
           {
@@ -147,10 +244,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3092,
         "created_at": "2022-06-24T00:38:50Z",
-        "closed_at": null,
+        "closed_at": "2022-06-27T23:00:16Z",
         "title": "Add \"Correspondence Reference\" stub doc",
         "labels": [],
         "assignee": null,
@@ -622,22 +719,13 @@
         "title": "Allow depth textures with cube/array/multisampled types",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -3105,7 +3193,7 @@
             "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
-        "assignee": null,
+        "assignee": "litherum",
         "isPullRequest": false
       },
       {
@@ -17836,17 +17924,7 @@
         "created_at": "2021-09-09T16:13:28Z",
         "closed_at": null,
         "title": "texture_2d_depth for loading depth values might be unnecessary?",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -28361,10 +28439,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1454,
         "created_at": "2021-02-20T05:22:47Z",
-        "closed_at": null,
+        "closed_at": "2022-06-27T14:50:52Z",
         "title": "Rewrite explanation of number tokens",
         "labels": [
           {
@@ -51207,6 +51285,103 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 3106,
+        "created_at": "2022-06-27T23:44:31Z",
+        "closed_at": "2022-06-27T23:47:57Z",
+        "title": "Add wgsl.lalr.txt to build output for preview.yml workflow",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3105,
+        "created_at": "2022-06-27T20:27:36Z",
+        "closed_at": "2022-06-27T21:27:12Z",
+        "title": "Fix phrasing of accuracy of cos, sin, log, log2",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3104,
+        "created_at": "2022-06-27T20:08:13Z",
+        "closed_at": "2022-06-27T21:27:12Z",
+        "title": "wgsl: log accuracy is in terms of an interval of x, not an interval of log(x)",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3103,
+        "created_at": "2022-06-27T14:51:42Z",
+        "closed_at": null,
+        "title": "explain the mapping from a numeric literal to an numeric scalar or abstract numeric typ",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 3102,
         "created_at": "2022-06-26T17:37:21Z",
@@ -51297,10 +51472,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3096,
         "created_at": "2022-06-24T19:54:45Z",
-        "closed_at": null,
+        "closed_at": "2022-06-27T20:06:10Z",
         "title": "Update WGSL README, to discuss LALR(1) validation",
         "labels": [
           {
@@ -51347,10 +51522,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3092,
         "created_at": "2022-06-24T00:38:50Z",
-        "closed_at": null,
+        "closed_at": "2022-06-27T23:00:16Z",
         "title": "Add \"Correspondence Reference\" stub doc",
         "labels": [],
         "assignee": null,
@@ -51822,22 +51997,13 @@
         "title": "Allow depth textures with cube/array/multisampled types",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -54305,7 +54471,7 @@
             "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
-        "assignee": null,
+        "assignee": "litherum",
         "isPullRequest": false
       },
       {
@@ -69036,17 +69202,7 @@
         "created_at": "2021-09-09T16:13:28Z",
         "closed_at": null,
         "title": "texture_2d_depth for loading depth values might be unnecessary?",
-        "labels": [
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -79561,10 +79717,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1454,
         "created_at": "2021-02-20T05:22:47Z",
-        "closed_at": null,
+        "closed_at": "2022-06-27T14:50:52Z",
         "title": "Rewrite explanation of number tokens",
         "labels": [
           {
