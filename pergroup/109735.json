@@ -1,6 +1,1954 @@
 [
-  null,
-  null,
-  null,
-  null
+  {
+    "shortlink": "https://www.w3.org/TR/webxr/",
+    "description": "<p>This specification describes support for accessing virtual reality (VR) and augmented reality (AR) devices, including sensors and head-mounted displays, on the Web.</p>",
+    "title": "WebXR Device API",
+    "shortname": "webxr",
+    "editor-draft": "https://immersive-web.github.io/webxr/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webxr"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webxr/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webxr/versions/20190205",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webxr/versions/20220601",
+        "title": "Candidate Recommendation Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webxr"
+      }
+    },
+    "editorsdraft": "https://immersive-web.github.io/webxr/",
+    "versions": [
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/CRD-webxr-20220601/",
+        "date": "2022-06-01",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220601"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220601/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220601/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220601/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/CRD-webxr-20220526/",
+        "date": "2022-05-26",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220526"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220526/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220526/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220526/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220526/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/CRD-webxr-20220426/",
+        "date": "2022-04-26",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220426"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220426/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220426/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220426/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220426/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/CR-webxr-20220331/",
+        "date": "2022-03-31",
+        "implementation-feedback-due": "2022-04-28",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220331"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220331/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220331/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220331/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220331/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-20220330/",
+        "date": "2022-03-30",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220330"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220330/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220330/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220330/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220330/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-20220328/",
+        "date": "2022-03-28",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220328"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220328/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220328/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220328/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220328/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-20220325/",
+        "date": "2022-03-25",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220325"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220325/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220325/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220325/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220325/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-20220314/",
+        "date": "2022-03-14",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220314"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220314/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220314/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220314/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220314/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-20220208/",
+        "date": "2022-02-08",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220208"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220208/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220208/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220208/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220208/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-20220207/",
+        "date": "2022-02-07",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220207"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220207/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220207/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220207/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220207/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-20220105/",
+        "date": "2022-01-05",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220105"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220105/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220105/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220105/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20220105/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-20211224/",
+        "date": "2021-12-24",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211224"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211224/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211224/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211224/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211224/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-20211026/",
+        "date": "2021-10-26",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211026"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211026/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211026/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211026/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211026/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-20211021/",
+        "date": "2021-10-21",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211021"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211021/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211021/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211021/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20211021/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-20210930/",
+        "date": "2021-09-30",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210930"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210930/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210930/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210930/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210930/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-20210824/",
+        "date": "2021-08-24",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210824"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210824/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210824/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210824/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20210824/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2020/WD-webxr-20200724/",
+        "date": "2020-07-24",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20200724"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20200724/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20200724/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20200724/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20200724/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2019/WD-webxr-20191010/",
+        "date": "2019-10-10",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20191010"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20191010/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20191010/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20191010/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20191010/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2019/WD-webxr-20190521/",
+        "date": "2019-05-21",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20190521"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20190521/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20190521/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20190521/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20190521/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr/",
+        "uri": "https://www.w3.org/TR/2019/WD-webxr-20190205/",
+        "date": "2019-02-05",
+        "informative": false,
+        "title": "WebXR Device API",
+        "shortlink": "https://www.w3.org/TR/webxr/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20190205"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20190205/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20190205/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr/versions/20190205/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webxr-ar-module-1/",
+    "description": "<p>The WebXR Augmented Reality module expands the WebXR Device API with the functionality available on AR hardware.</p>",
+    "title": "WebXR Augmented Reality Module - Level 1",
+    "shortname": "webxr-ar-module-1",
+    "editor-draft": "https://immersive-web.github.io/webxr-ar-module/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webxr-ar-module-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20191010",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220426",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webxr-ar-module"
+      }
+    },
+    "editorsdraft": "https://immersive-web.github.io/webxr-ar-module/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-ar-module/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-ar-module-1-20220426/",
+        "date": "2022-04-26",
+        "informative": false,
+        "title": "WebXR Augmented Reality Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-ar-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220426"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220426/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220426/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220426/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-ar-module/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-ar-module-1-20220317/",
+        "date": "2022-03-17",
+        "informative": false,
+        "title": "WebXR Augmented Reality Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-ar-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220317"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220317/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220317/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220317/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220317/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-ar-module/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-ar-module-1-20220203/",
+        "date": "2022-02-03",
+        "informative": false,
+        "title": "WebXR Augmented Reality Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-ar-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220203/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20220203/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-ar-module/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-ar-module-1-20211224/",
+        "date": "2021-12-24",
+        "informative": false,
+        "title": "WebXR Augmented Reality Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-ar-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211224"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211224/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211224/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211224/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211224/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-ar-module/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-ar-module-1-20211223/",
+        "date": "2021-12-23",
+        "informative": false,
+        "title": "WebXR Augmented Reality Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-ar-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211223"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211223/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211223/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211223/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20211223/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-ar-module/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-ar-module-1-20210824/",
+        "date": "2021-08-24",
+        "informative": false,
+        "title": "WebXR Augmented Reality Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-ar-module-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20210824"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20210824/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20210824/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20210824/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20210824/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-ar-module/",
+        "uri": "https://www.w3.org/TR/2019/WD-webxr-ar-module-1-20191010/",
+        "date": "2019-10-10",
+        "informative": false,
+        "title": "WebXR Augmented Reality Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-ar-module-1/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20191010"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20191010/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20191010/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-ar-module-1/versions/20191010/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webxr-depth-sensing-1/",
+    "description": "<p>Depth Sensing API is a module extending the capabilities of WebXR Device API. It enables apps to obtain depth information computed by supported XR devices in order to provide more immersive experiences. The example use cases of depth sensing API include (but are not limited to) simulating physical interactions of virtual objects with the real world, occlusion, and non-visual applications that can make use of increased awareness of users' environment.</p>",
+    "title": "WebXR Depth Sensing Module",
+    "shortname": "webxr-depth-sensing-1",
+    "editor-draft": "https://immersive-web.github.io/depth-sensing/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webxr-depth-sensing-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20210831",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220419",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webxr-depth-sensing"
+      }
+    },
+    "editorsdraft": "https://immersive-web.github.io/depth-sensing/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/depth-sensing/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-depth-sensing-1-20220419/",
+        "date": "2022-04-19",
+        "informative": false,
+        "title": "WebXR Depth Sensing Module",
+        "shortlink": "https://www.w3.org/TR/webxr-depth-sensing-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220419"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220419/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220419/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220419/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/depth-sensing/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-depth-sensing-1-20220223/",
+        "date": "2022-02-23",
+        "informative": false,
+        "title": "WebXR Depth Sensing Module",
+        "shortlink": "https://www.w3.org/TR/webxr-depth-sensing-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220223"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220223/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220223/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220223/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220223/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/depth-sensing/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-depth-sensing-1-20220215/",
+        "date": "2022-02-15",
+        "informative": false,
+        "title": "WebXR Depth Sensing Module",
+        "shortlink": "https://www.w3.org/TR/webxr-depth-sensing-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220215/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20220215/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/depth-sensing/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-depth-sensing-1-20210831/",
+        "date": "2021-08-31",
+        "informative": false,
+        "title": "WebXR Depth Sensing Module",
+        "shortlink": "https://www.w3.org/TR/webxr-depth-sensing-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20210831"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20210831/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20210831/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-depth-sensing-1/versions/20210831/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webxr-dom-overlays-1/",
+    "description": "<p>The WebXR Augmented Reality module expands the WebXR Device API with the functionality available on AR hardware.</p>",
+    "title": "WebXR DOM Overlays Module",
+    "shortname": "webxr-dom-overlays-1",
+    "editor-draft": "https://immersive-web.github.io/dom-overlays/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webxr-dom-overlays-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20210831",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20220705",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webxr-dom-overlays"
+      }
+    },
+    "editorsdraft": "https://immersive-web.github.io/dom-overlays/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/dom-overlays/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-dom-overlays-1-20220705/",
+        "date": "2022-07-05",
+        "informative": false,
+        "title": "WebXR DOM Overlays Module",
+        "shortlink": "https://www.w3.org/TR/webxr-dom-overlays-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20220705"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20220705/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20220705/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20220705/predecessors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/dom-overlays/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-dom-overlays-1-20210831/",
+        "date": "2021-08-31",
+        "informative": false,
+        "title": "WebXR DOM Overlays Module",
+        "shortlink": "https://www.w3.org/TR/webxr-dom-overlays-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20210831"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20210831/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20210831/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-dom-overlays-1/versions/20210831/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+    "description": "<p>This specification module describes support for accessing button, trigger, thumbstick, and touchpad data associated with virtual reality (VR) and augmented reality (AR) devices on the Web.</p>",
+    "title": "WebXR Gamepads Module - Level 1",
+    "shortname": "webxr-gamepads-module-1",
+    "editor-draft": "https://immersive-web.github.io/webxr-gamepads-module/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webxr-gamepads-module-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20191010",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220426",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webxr-gamepads-module"
+      }
+    },
+    "editorsdraft": "https://immersive-web.github.io/webxr-gamepads-module/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-gamepads-module/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-gamepads-module-1-20220426/",
+        "date": "2022-04-26",
+        "informative": false,
+        "title": "WebXR Gamepads Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220426"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220426/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220426/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220426/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-gamepads-module/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-gamepads-module-1-20220203/",
+        "date": "2022-02-03",
+        "informative": false,
+        "title": "WebXR Gamepads Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220203/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220203/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-gamepads-module/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-gamepads-module-1-20220105/",
+        "date": "2022-01-05",
+        "informative": false,
+        "title": "WebXR Gamepads Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220105"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220105/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220105/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220105/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220105/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-gamepads-module/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-gamepads-module-1-20220104/",
+        "date": "2022-01-04",
+        "informative": false,
+        "title": "WebXR Gamepads Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220104"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220104/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220104/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220104/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20220104/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-gamepads-module/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-gamepads-module-1-20211228/",
+        "date": "2021-12-28",
+        "informative": false,
+        "title": "WebXR Gamepads Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211228"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211228/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211228/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211228/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211228/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-gamepads-module/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-gamepads-module-1-20211224/",
+        "date": "2021-12-24",
+        "informative": false,
+        "title": "WebXR Gamepads Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211224"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211224/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211224/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211224/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20211224/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-gamepads-module/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-gamepads-module-1-20210824/",
+        "date": "2021-08-24",
+        "informative": false,
+        "title": "WebXR Gamepads Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20210824"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20210824/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20210824/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20210824/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20210824/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-gamepads-module/",
+        "uri": "https://www.w3.org/TR/2019/WD-webxr-gamepads-module-1-20191010/",
+        "date": "2019-10-10",
+        "informative": false,
+        "title": "WebXR Gamepads Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-gamepads-module-1/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20191010"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20191010/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20191010/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-gamepads-module-1/versions/20191010/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webxr-hand-input-1/",
+    "description": "<p>The WebXR Hand Input module expands the [WebXR Device API] with the functionality to track articulated hand poses.</p>",
+    "title": "WebXR Hand Input Module - Level 1",
+    "shortname": "webxr-hand-input-1",
+    "editor-draft": "https://immersive-web.github.io/webxr-hand-input/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webxr-hand-input-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20201022",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220419",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webxr-hand-input"
+      }
+    },
+    "editorsdraft": "https://immersive-web.github.io/webxr-hand-input/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-hand-input/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-hand-input-1-20220419/",
+        "date": "2022-04-19",
+        "informative": false,
+        "title": "WebXR Hand Input Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-hand-input-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220419"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220419/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220419/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220419/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-hand-input/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-hand-input-1-20220105/",
+        "date": "2022-01-05",
+        "informative": false,
+        "title": "WebXR Hand Input Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-hand-input-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220105"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220105/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220105/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220105/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20220105/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-hand-input/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-hand-input-1-20211224/",
+        "date": "2021-12-24",
+        "informative": false,
+        "title": "WebXR Hand Input Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-hand-input-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20211224"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20211224/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20211224/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20211224/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20211224/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-hand-input/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-hand-input-1-20210824/",
+        "date": "2021-08-24",
+        "informative": false,
+        "title": "WebXR Hand Input Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-hand-input-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20210824"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20210824/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20210824/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20210824/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20210824/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/webxr-hand-input/",
+        "uri": "https://www.w3.org/TR/2020/WD-webxr-hand-input-1-20201022/",
+        "date": "2020-10-22",
+        "informative": false,
+        "title": "WebXR Hand Input Module - Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-hand-input-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20201022"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20201022/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20201022/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hand-input-1/versions/20201022/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webxr-hit-test-1/",
+    "description": "<p>Describes a method for performing hit tests against real world geometry to be used with the WebXR Device API.</p>",
+    "title": "WebXR Hit Test Module",
+    "shortname": "webxr-hit-test-1",
+    "editor-draft": "https://immersive-web.github.io/hit-test/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webxr-hit-test-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20210831",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20220419",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webxr-hit-test"
+      }
+    },
+    "editorsdraft": "https://immersive-web.github.io/hit-test/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/hit-test/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-hit-test-1-20220419/",
+        "date": "2022-04-19",
+        "informative": false,
+        "title": "WebXR Hit Test Module",
+        "shortlink": "https://www.w3.org/TR/webxr-hit-test-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20220419"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20220419/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20220419/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20220419/predecessors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/hit-test/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-hit-test-1-20210831/",
+        "date": "2021-08-31",
+        "informative": false,
+        "title": "WebXR Hit Test Module",
+        "shortlink": "https://www.w3.org/TR/webxr-hit-test-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20210831"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20210831/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20210831/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-hit-test-1/versions/20210831/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+    "description": "<p>This specification describes support for exposing estimates of environmental lighting conditions to WebXR sessions.</p>",
+    "title": "WebXR Lighting Estimation API Level 1",
+    "shortname": "webxr-lighting-estimation-1",
+    "editor-draft": "https://immersive-web.github.io/lighting-estimation/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20210909",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20220603",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webxr-lighting-estimation"
+      }
+    },
+    "editorsdraft": "https://immersive-web.github.io/lighting-estimation/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/lighting-estimation/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxr-lighting-estimation-1-20220603/",
+        "date": "2022-06-03",
+        "informative": false,
+        "title": "WebXR Lighting Estimation API Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20220603"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20220603/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20220603/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20220603/predecessors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/lighting-estimation/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxr-lighting-estimation-1-20210909/",
+        "date": "2021-09-09",
+        "informative": false,
+        "title": "WebXR Lighting Estimation API Level 1",
+        "shortlink": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20210909"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20210909/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20210909/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxr-lighting-estimation-1/versions/20210909/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webxrlayers-1/",
+    "description": "<p>This specification describes support for various layer types used in a WebXR session.</p>",
+    "title": "WebXR Layers API Level 1",
+    "shortname": "webxrlayers-1",
+    "editor-draft": "https://immersive-web.github.io/layers/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webxrlayers-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webxrlayers-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20201203",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220426",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webxrlayers"
+      }
+    },
+    "editorsdraft": "https://immersive-web.github.io/layers/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/layers/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxrlayers-1-20220426/",
+        "date": "2022-04-26",
+        "informative": false,
+        "title": "WebXR Layers API Level 1",
+        "shortlink": "https://www.w3.org/TR/webxrlayers-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220426"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220426/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220426/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220426/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/layers/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxrlayers-1-20220421/",
+        "date": "2022-04-21",
+        "informative": false,
+        "title": "WebXR Layers API Level 1",
+        "shortlink": "https://www.w3.org/TR/webxrlayers-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220421"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220421/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220421/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220421/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220421/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/layers/",
+        "uri": "https://www.w3.org/TR/2022/WD-webxrlayers-1-20220105/",
+        "date": "2022-01-05",
+        "informative": false,
+        "title": "WebXR Layers API Level 1",
+        "shortlink": "https://www.w3.org/TR/webxrlayers-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220105"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220105/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220105/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220105/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20220105/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/layers/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxrlayers-1-20211207/",
+        "date": "2021-12-07",
+        "informative": false,
+        "title": "WebXR Layers API Level 1",
+        "shortlink": "https://www.w3.org/TR/webxrlayers-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20211207"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20211207/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20211207/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20211207/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20211207/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/layers/",
+        "uri": "https://www.w3.org/TR/2021/WD-webxrlayers-1-20210824/",
+        "date": "2021-08-24",
+        "informative": false,
+        "title": "WebXR Layers API Level 1",
+        "shortlink": "https://www.w3.org/TR/webxrlayers-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20210824"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20210824/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20210824/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20210824/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20210824/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://immersive-web.github.io/layers/",
+        "uri": "https://www.w3.org/TR/2020/WD-webxrlayers-1-20201203/",
+        "date": "2020-12-03",
+        "informative": false,
+        "title": "WebXR Layers API Level 1",
+        "shortlink": "https://www.w3.org/TR/webxrlayers-1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20201203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20201203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20201203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/webxrlayers-1/versions/20201203/successors"
+          }
+        }
+      }
+    ]
+  }
 ]
