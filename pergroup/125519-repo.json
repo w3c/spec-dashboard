@@ -8,6 +8,144 @@
     "issues": [
       {
         "state": "open",
+        "number": 3283,
+        "created_at": "2022-08-03T20:18:00Z",
+        "closed_at": null,
+        "title": "Add external_texture to Resource Layout Compatibility table",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3282,
+        "created_at": "2022-08-03T20:07:01Z",
+        "closed_at": "2022-08-03T20:24:57Z",
+        "title": "wgsl: Fix typo in cosh(x) accuracy definition",
+        "labels": [
+          {
+            "id": 4299937754,
+            "node_id": "LA_kwDOBNvGe88AAAABAEvX2g",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:builtins",
+            "name": "wgsl:builtins",
+            "color": "80306e",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "zoddicus",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3281,
+        "created_at": "2022-08-03T20:02:30Z",
+        "closed_at": "2022-08-03T20:24:58Z",
+        "title": "`cosh` and `sinh` have the same inherited accuracy",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "zoddicus",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3280,
+        "created_at": "2022-08-03T19:51:37Z",
+        "closed_at": null,
+        "title": "wgsl: describe how the name `vec4` in `vec4<f32>` is resolved",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3279,
+        "created_at": "2022-08-03T15:20:44Z",
+        "closed_at": null,
+        "title": "Lower the max binding index in createBindGroupLayout",
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3278,
+        "created_at": "2022-08-03T14:08:29Z",
+        "closed_at": null,
+        "title": "Remove types from keyword list.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "dj2",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3277,
         "created_at": "2022-08-02T22:17:31Z",
         "closed_at": null,
@@ -56,10 +194,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3275,
         "created_at": "2022-08-02T21:39:28Z",
-        "closed_at": null,
+        "closed_at": "2022-08-03T15:56:06Z",
         "title": "Clarify effect of @builtin struct member when not an entry point IO",
         "labels": [
           {
@@ -350,10 +488,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3261,
         "created_at": "2022-07-28T16:18:22Z",
-        "closed_at": null,
+        "closed_at": "2022-08-03T15:56:07Z",
         "title": "Clarification of `@builtin` values in structs not used in an entry-point",
         "labels": [
           {
@@ -742,10 +880,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3238,
         "created_at": "2022-07-25T21:33:59Z",
-        "closed_at": null,
+        "closed_at": "2022-08-04T00:38:10Z",
         "title": "Drop support for macOS 10.12?",
         "labels": [],
         "assignee": null,
@@ -946,10 +1084,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3230,
         "created_at": "2022-07-23T01:05:18Z",
-        "closed_at": null,
+        "closed_at": "2022-08-03T22:00:38Z",
         "title": "Allow using depth textures with 'unfilterable-float' bindings",
         "labels": [
           {
@@ -6769,7 +6907,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": true
       },
       {
@@ -23150,10 +23288,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2094,
         "created_at": "2021-09-09T16:13:28Z",
-        "closed_at": null,
+        "closed_at": "2022-08-03T22:00:39Z",
         "title": "texture_2d_depth for loading depth values might be unnecessary?",
         "labels": [
           {
@@ -56517,6 +56655,144 @@
     "issues": [
       {
         "state": "open",
+        "number": 3283,
+        "created_at": "2022-08-03T20:18:00Z",
+        "closed_at": null,
+        "title": "Add external_texture to Resource Layout Compatibility table",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3282,
+        "created_at": "2022-08-03T20:07:01Z",
+        "closed_at": "2022-08-03T20:24:57Z",
+        "title": "wgsl: Fix typo in cosh(x) accuracy definition",
+        "labels": [
+          {
+            "id": 4299937754,
+            "node_id": "LA_kwDOBNvGe88AAAABAEvX2g",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:builtins",
+            "name": "wgsl:builtins",
+            "color": "80306e",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "zoddicus",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3281,
+        "created_at": "2022-08-03T20:02:30Z",
+        "closed_at": "2022-08-03T20:24:58Z",
+        "title": "`cosh` and `sinh` have the same inherited accuracy",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "zoddicus",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3280,
+        "created_at": "2022-08-03T19:51:37Z",
+        "closed_at": null,
+        "title": "wgsl: describe how the name `vec4` in `vec4<f32>` is resolved",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3279,
+        "created_at": "2022-08-03T15:20:44Z",
+        "closed_at": null,
+        "title": "Lower the max binding index in createBindGroupLayout",
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3278,
+        "created_at": "2022-08-03T14:08:29Z",
+        "closed_at": null,
+        "title": "Remove types from keyword list.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "dj2",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3277,
         "created_at": "2022-08-02T22:17:31Z",
         "closed_at": null,
@@ -56565,10 +56841,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3275,
         "created_at": "2022-08-02T21:39:28Z",
-        "closed_at": null,
+        "closed_at": "2022-08-03T15:56:06Z",
         "title": "Clarify effect of @builtin struct member when not an entry point IO",
         "labels": [
           {
@@ -56859,10 +57135,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3261,
         "created_at": "2022-07-28T16:18:22Z",
-        "closed_at": null,
+        "closed_at": "2022-08-03T15:56:07Z",
         "title": "Clarification of `@builtin` values in structs not used in an entry-point",
         "labels": [
           {
@@ -57251,10 +57527,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3238,
         "created_at": "2022-07-25T21:33:59Z",
-        "closed_at": null,
+        "closed_at": "2022-08-04T00:38:10Z",
         "title": "Drop support for macOS 10.12?",
         "labels": [],
         "assignee": null,
@@ -57455,10 +57731,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3230,
         "created_at": "2022-07-23T01:05:18Z",
-        "closed_at": null,
+        "closed_at": "2022-08-03T22:00:38Z",
         "title": "Allow using depth textures with 'unfilterable-float' bindings",
         "labels": [
           {
@@ -63278,7 +63554,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": true
       },
       {
@@ -79659,10 +79935,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2094,
         "created_at": "2021-09-09T16:13:28Z",
-        "closed_at": null,
+        "closed_at": "2022-08-03T22:00:39Z",
         "title": "texture_2d_depth for loading depth values might be unnecessary?",
         "labels": [
           {
