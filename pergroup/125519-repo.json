@@ -8,6 +8,66 @@
     "issues": [
       {
         "state": "open",
+        "number": 3297,
+        "created_at": "2022-08-09T03:12:23Z",
+        "closed_at": null,
+        "title": "create*PipelineAsync prevents using the pipeline synchronously",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3296,
+        "created_at": "2022-08-09T00:39:41Z",
+        "closed_at": null,
+        "title": "createPipelineAsync() doesn't reject its promise, even if the created pipeline is invalid",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3295,
+        "created_at": "2022-08-08T23:57:22Z",
+        "closed_at": null,
+        "title": "Frame advancement of canvases that aren't visible",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3294,
+        "created_at": "2022-08-08T18:05:50Z",
+        "closed_at": null,
+        "title": "wgsl: limit nesting depth of switch statements",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3293,
         "created_at": "2022-08-06T06:56:01Z",
         "closed_at": null,
@@ -60,7 +120,7 @@
         "number": 3288,
         "created_at": "2022-08-04T19:49:19Z",
         "closed_at": null,
-        "title": "importExternalTexture should not throw when source image is not decodable",
+        "title": "importExternalTexture/copyExternalImageToTexture should not throw when source image is not decodable",
         "labels": [
           {
             "id": 3727713513,
@@ -110,6 +170,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "dneto0",
@@ -396,6 +465,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -4354,15 +4432,6 @@
         "title": "Add the \"operation\" error type",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
@@ -4372,7 +4441,7 @@
             "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": true
       },
       {
@@ -14410,10 +14479,10 @@
         "isPullRequest": true
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 2646,
         "created_at": "2022-03-07T05:56:37Z",
-        "closed_at": "2022-07-23T00:50:38Z",
+        "closed_at": null,
         "title": "GPUBuffer.mapAsync is overly pessimistic",
         "labels": [
           {
@@ -56804,6 +56873,66 @@
     "issues": [
       {
         "state": "open",
+        "number": 3297,
+        "created_at": "2022-08-09T03:12:23Z",
+        "closed_at": null,
+        "title": "create*PipelineAsync prevents using the pipeline synchronously",
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3296,
+        "created_at": "2022-08-09T00:39:41Z",
+        "closed_at": null,
+        "title": "createPipelineAsync() doesn't reject its promise, even if the created pipeline is invalid",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3295,
+        "created_at": "2022-08-08T23:57:22Z",
+        "closed_at": null,
+        "title": "Frame advancement of canvases that aren't visible",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3294,
+        "created_at": "2022-08-08T18:05:50Z",
+        "closed_at": null,
+        "title": "wgsl: limit nesting depth of switch statements",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3293,
         "created_at": "2022-08-06T06:56:01Z",
         "closed_at": null,
@@ -56856,7 +56985,7 @@
         "number": 3288,
         "created_at": "2022-08-04T19:49:19Z",
         "closed_at": null,
-        "title": "importExternalTexture should not throw when source image is not decodable",
+        "title": "importExternalTexture/copyExternalImageToTexture should not throw when source image is not decodable",
         "labels": [
           {
             "id": 3727713513,
@@ -56906,6 +57035,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "dneto0",
@@ -57192,6 +57330,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -61150,15 +61297,6 @@
         "title": "Add the \"operation\" error type",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
@@ -61168,7 +61306,7 @@
             "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": true
       },
       {
@@ -71206,10 +71344,10 @@
         "isPullRequest": true
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 2646,
         "created_at": "2022-03-07T05:56:37Z",
-        "closed_at": "2022-07-23T00:50:38Z",
+        "closed_at": null,
         "title": "GPUBuffer.mapAsync is overly pessimistic",
         "labels": [
           {
