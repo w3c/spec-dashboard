@@ -8,6 +8,66 @@
     "issues": [
       {
         "state": "open",
+        "number": 3333,
+        "created_at": "2022-08-16T03:45:15Z",
+        "closed_at": null,
+        "title": "Adding support for rgba16unorm texture format",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3332,
+        "created_at": "2022-08-16T01:00:45Z",
+        "closed_at": null,
+        "title": "editorial: set label on all created objects",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3331,
+        "created_at": "2022-08-15T20:32:25Z",
+        "closed_at": null,
+        "title": "Use cube texture as a storage type",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3329,
+        "created_at": "2022-08-15T18:24:09Z",
+        "closed_at": null,
+        "title": "Update remaining method algorithms to new timeline style",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3328,
         "created_at": "2022-08-15T07:09:01Z",
         "closed_at": null,
@@ -27,10 +87,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3327,
         "created_at": "2022-08-15T06:56:20Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T14:01:34Z",
         "title": "wgsl: Fix the description of inverse triangle functions",
         "labels": [],
         "assignee": null,
@@ -57,10 +117,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3325,
         "created_at": "2022-08-12T22:31:42Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T18:22:59Z",
         "title": "Add missing timeline headers in getMappedRange and unmap",
         "labels": [
           {
@@ -84,32 +144,23 @@
         "title": "Misunderstanding of external texture expiration frequency",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3323,
         "created_at": "2022-08-12T21:37:45Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T14:01:35Z",
         "title": "wgsl: atanh and friends are \"inverse hyperbolic ***\" or \"area hyperbolic **\" not \"arc ***\"",
         "labels": [
           {
@@ -135,20 +186,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3322,
         "created_at": "2022-08-12T20:15:56Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T16:02:50Z",
         "title": "Convert Create* methods to new timeline style",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3321,
         "created_at": "2022-08-12T19:19:08Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T13:56:57Z",
         "title": "Grammar: collect assignment, incr, decr into \"variable_updating_statement\"",
         "labels": [
           {
@@ -208,7 +259,17 @@
         "created_at": "2022-08-11T23:34:01Z",
         "closed_at": null,
         "title": "Reduce max binding index and make it a limit",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -822,8 +883,18 @@
         "number": 3292,
         "created_at": "2022-08-05T23:05:51Z",
         "closed_at": null,
-        "title": "tooling to eliminate left recursion",
-        "labels": [],
+        "title": "publish grammar without left-recursion; add tooling to make it so",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -9133,6 +9204,15 @@
         "closed_at": null,
         "title": "maxColorAttachments not sufficient?",
         "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
@@ -20865,13 +20945,13 @@
         "title": "Add proposals/ directory and pipeline statistics extension doc",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -23777,13 +23857,13 @@
             "description": null
           },
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -57623,6 +57703,66 @@
     "issues": [
       {
         "state": "open",
+        "number": 3333,
+        "created_at": "2022-08-16T03:45:15Z",
+        "closed_at": null,
+        "title": "Adding support for rgba16unorm texture format",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3332,
+        "created_at": "2022-08-16T01:00:45Z",
+        "closed_at": null,
+        "title": "editorial: set label on all created objects",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3331,
+        "created_at": "2022-08-15T20:32:25Z",
+        "closed_at": null,
+        "title": "Use cube texture as a storage type",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3329,
+        "created_at": "2022-08-15T18:24:09Z",
+        "closed_at": null,
+        "title": "Update remaining method algorithms to new timeline style",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3328,
         "created_at": "2022-08-15T07:09:01Z",
         "closed_at": null,
@@ -57642,10 +57782,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3327,
         "created_at": "2022-08-15T06:56:20Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T14:01:34Z",
         "title": "wgsl: Fix the description of inverse triangle functions",
         "labels": [],
         "assignee": null,
@@ -57672,10 +57812,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3325,
         "created_at": "2022-08-12T22:31:42Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T18:22:59Z",
         "title": "Add missing timeline headers in getMappedRange and unmap",
         "labels": [
           {
@@ -57699,32 +57839,23 @@
         "title": "Misunderstanding of external texture expiration frequency",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3323,
         "created_at": "2022-08-12T21:37:45Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T14:01:35Z",
         "title": "wgsl: atanh and friends are \"inverse hyperbolic ***\" or \"area hyperbolic **\" not \"arc ***\"",
         "labels": [
           {
@@ -57750,20 +57881,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3322,
         "created_at": "2022-08-12T20:15:56Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T16:02:50Z",
         "title": "Convert Create* methods to new timeline style",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3321,
         "created_at": "2022-08-12T19:19:08Z",
-        "closed_at": null,
+        "closed_at": "2022-08-15T13:56:57Z",
         "title": "Grammar: collect assignment, incr, decr into \"variable_updating_statement\"",
         "labels": [
           {
@@ -57823,7 +57954,17 @@
         "created_at": "2022-08-11T23:34:01Z",
         "closed_at": null,
         "title": "Reduce max binding index and make it a limit",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -58437,8 +58578,18 @@
         "number": 3292,
         "created_at": "2022-08-05T23:05:51Z",
         "closed_at": null,
-        "title": "tooling to eliminate left recursion",
-        "labels": [],
+        "title": "publish grammar without left-recursion; add tooling to make it so",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -66748,6 +66899,15 @@
         "closed_at": null,
         "title": "maxColorAttachments not sufficient?",
         "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
@@ -78480,13 +78640,13 @@
         "title": "Add proposals/ directory and pipeline statistics extension doc",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -81392,13 +81552,13 @@
             "description": null
           },
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
