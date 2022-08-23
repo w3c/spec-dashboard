@@ -8,6 +8,65 @@
     "issues": [
       {
         "state": "open",
+        "number": 3358,
+        "created_at": "2022-08-22T20:32:20Z",
+        "closed_at": null,
+        "title": "add AbstractFloat overloads for modf and frexp?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3357,
+        "created_at": "2022-08-22T19:01:36Z",
+        "closed_at": null,
+        "title": "Why must a texture require RENDER_ATTACHMENT usage?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3356,
+        "created_at": "2022-08-22T14:44:49Z",
+        "closed_at": null,
+        "title": "wgsl: rename type_decl grammar element to type_specifier",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3355,
         "created_at": "2022-08-20T04:53:10Z",
         "closed_at": null,
@@ -47,10 +106,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3352,
         "created_at": "2022-08-19T21:44:17Z",
-        "closed_at": null,
+        "closed_at": "2022-08-23T06:42:55Z",
         "title": "[editorial] Fix logo's",
         "labels": [],
         "assignee": null,
@@ -64,22 +123,13 @@
         "title": "Specify OOM behavior in mapping",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -116,10 +166,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3348,
         "created_at": "2022-08-18T03:36:43Z",
-        "closed_at": null,
+        "closed_at": "2022-08-22T17:35:59Z",
         "title": "Reject redundant map requests early so there are never multiple pending promises",
         "labels": [
           {
@@ -1260,6 +1310,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -1679,10 +1738,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3271,
         "created_at": "2022-08-01T18:55:34Z",
-        "closed_at": null,
+        "closed_at": "2022-08-22T17:36:00Z",
         "title": "`GPUBuffer`s shouldn't have to accumulate a list of `mapAsync` promises to reject",
         "labels": [
           {
@@ -1815,10 +1874,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3266,
         "created_at": "2022-07-28T21:24:30Z",
-        "closed_at": null,
+        "closed_at": "2022-08-23T05:58:29Z",
         "title": "wgsl: permit certain resource variables to overlap",
         "labels": [
           {
@@ -2805,6 +2864,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4299937754,
             "node_id": "LA_kwDOBNvGe88AAAABAEvX2g",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:builtins",
@@ -2879,6 +2947,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
         "assignee": null,
@@ -3140,6 +3217,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
         "assignee": null,
@@ -5655,9 +5741,19 @@
         "number": 3123,
         "created_at": "2022-06-30T17:27:11Z",
         "closed_at": null,
-        "title": "Replace \"out-of-memory\" with the \"internal\" error type",
-        "labels": [],
-        "assignee": "toji",
+        "title": "Add the \"internal\" error type",
+        "labels": [
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
         "isPullRequest": true
       },
       {
@@ -7284,6 +7380,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4299980302,
             "node_id": "LA_kwDOBNvGe88AAAABAEx-Dg",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:types",
@@ -7879,6 +7984,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4299980302,
             "node_id": "LA_kwDOBNvGe88AAAABAEx-Dg",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:types",
@@ -7944,6 +8058,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           },
           {
             "id": 4299980302,
@@ -8079,6 +8202,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           },
           {
             "id": 4299980302,
@@ -9582,15 +9714,6 @@
         "title": "maxColorAttachments not sufficient?",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
@@ -10732,6 +10855,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4299980302,
             "node_id": "LA_kwDOBNvGe88AAAABAEx-Dg",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:types",
@@ -11242,6 +11374,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           },
           {
             "id": 4299937754,
@@ -58095,6 +58236,65 @@
     "issues": [
       {
         "state": "open",
+        "number": 3358,
+        "created_at": "2022-08-22T20:32:20Z",
+        "closed_at": null,
+        "title": "add AbstractFloat overloads for modf and frexp?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3357,
+        "created_at": "2022-08-22T19:01:36Z",
+        "closed_at": null,
+        "title": "Why must a texture require RENDER_ATTACHMENT usage?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3356,
+        "created_at": "2022-08-22T14:44:49Z",
+        "closed_at": null,
+        "title": "wgsl: rename type_decl grammar element to type_specifier",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3355,
         "created_at": "2022-08-20T04:53:10Z",
         "closed_at": null,
@@ -58134,10 +58334,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3352,
         "created_at": "2022-08-19T21:44:17Z",
-        "closed_at": null,
+        "closed_at": "2022-08-23T06:42:55Z",
         "title": "[editorial] Fix logo's",
         "labels": [],
         "assignee": null,
@@ -58151,22 +58351,13 @@
         "title": "Specify OOM behavior in mapping",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -58203,10 +58394,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3348,
         "created_at": "2022-08-18T03:36:43Z",
-        "closed_at": null,
+        "closed_at": "2022-08-22T17:35:59Z",
         "title": "Reject redundant map requests early so there are never multiple pending promises",
         "labels": [
           {
@@ -59347,6 +59538,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -59766,10 +59966,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3271,
         "created_at": "2022-08-01T18:55:34Z",
-        "closed_at": null,
+        "closed_at": "2022-08-22T17:36:00Z",
         "title": "`GPUBuffer`s shouldn't have to accumulate a list of `mapAsync` promises to reject",
         "labels": [
           {
@@ -59902,10 +60102,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3266,
         "created_at": "2022-07-28T21:24:30Z",
-        "closed_at": null,
+        "closed_at": "2022-08-23T05:58:29Z",
         "title": "wgsl: permit certain resource variables to overlap",
         "labels": [
           {
@@ -60892,6 +61092,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4299937754,
             "node_id": "LA_kwDOBNvGe88AAAABAEvX2g",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:builtins",
@@ -60966,6 +61175,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
         "assignee": null,
@@ -61227,6 +61445,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
         "assignee": null,
@@ -63742,9 +63969,19 @@
         "number": 3123,
         "created_at": "2022-06-30T17:27:11Z",
         "closed_at": null,
-        "title": "Replace \"out-of-memory\" with the \"internal\" error type",
-        "labels": [],
-        "assignee": "toji",
+        "title": "Add the \"internal\" error type",
+        "labels": [
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
         "isPullRequest": true
       },
       {
@@ -65371,6 +65608,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4299980302,
             "node_id": "LA_kwDOBNvGe88AAAABAEx-Dg",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:types",
@@ -65966,6 +66212,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4299980302,
             "node_id": "LA_kwDOBNvGe88AAAABAEx-Dg",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:types",
@@ -66031,6 +66286,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           },
           {
             "id": 4299980302,
@@ -66166,6 +66430,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           },
           {
             "id": 4299980302,
@@ -67669,15 +67942,6 @@
         "title": "maxColorAttachments not sufficient?",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
@@ -68819,6 +69083,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4299980302,
             "node_id": "LA_kwDOBNvGe88AAAABAEx-Dg",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl:types",
@@ -69329,6 +69602,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           },
           {
             "id": 4299937754,
