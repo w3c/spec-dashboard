@@ -8,11 +8,91 @@
     "issues": [
       {
         "state": "open",
+        "number": 3371,
+        "created_at": "2022-08-25T03:05:51Z",
+        "closed_at": null,
+        "title": "Add timestampWrites to the section of Timestamp Query",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3370,
+        "created_at": "2022-08-25T03:04:06Z",
+        "closed_at": null,
+        "title": "Move timestamp query inside passes into a separate extension doc",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3369,
+        "created_at": "2022-08-25T02:08:20Z",
+        "closed_at": null,
+        "title": "[editorial] Vertical column headers for texture format table",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3368,
+        "created_at": "2022-08-25T01:14:06Z",
+        "closed_at": null,
+        "title": "Remove device-timeline validation error in unmap()",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3367,
+        "created_at": "2022-08-24T09:33:54Z",
+        "closed_at": "2022-08-25T06:26:45Z",
+        "title": "Add per-pixel accounting of render target depths",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 3366,
         "created_at": "2022-08-24T08:02:41Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T02:54:59Z",
         "title": "Add maxBufferSize limit",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -102,13 +182,22 @@
         "title": "Make error reporting unordered",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": null,
@@ -208,7 +297,7 @@
         "number": 3357,
         "created_at": "2022-08-22T19:01:36Z",
         "closed_at": null,
-        "title": "Why must a texture require RENDER_ATTACHMENT usage?",
+        "title": "Why does CopyExternalImageToTexture() require RENDER_ATTACHMENT usage?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -293,10 +382,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3351,
         "created_at": "2022-08-19T01:34:58Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:21:39Z",
         "title": "Specify OOM behavior in mapping",
         "labels": [
           {
@@ -307,6 +396,15 @@
             "color": "f9d0c4",
             "default": false,
             "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -871,6 +969,15 @@
             "color": "f9d0c4",
             "default": false,
             "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -1023,10 +1130,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3311,
         "created_at": "2022-08-11T01:39:00Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:26:29Z",
         "title": "When source usability is bad, error asynchronously",
         "labels": [
           {
@@ -1398,17 +1505,7 @@
         "created_at": "2022-08-09T03:12:23Z",
         "closed_at": null,
         "title": "create*PipelineAsync prevents using the pipeline synchronously",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1492,10 +1589,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3292,
         "created_at": "2022-08-05T23:05:51Z",
-        "closed_at": null,
+        "closed_at": "2022-08-24T14:24:12Z",
         "title": "publish grammar without left-recursion; add tooling to make it so",
         "labels": [
           {
@@ -1541,10 +1638,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3288,
         "created_at": "2022-08-04T19:49:19Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:26:29Z",
         "title": "importExternalTexture/copyExternalImageToTexture should not throw when source image is not decodable",
         "labels": [
           {
@@ -1581,10 +1678,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3286,
         "created_at": "2022-08-04T16:19:05Z",
-        "closed_at": null,
+        "closed_at": "2022-08-24T14:24:14Z",
         "title": "wgsl: publish a form of the grammar suitable for recursive descent parsing",
         "labels": [
           {
@@ -2367,15 +2464,6 @@
             "color": "abfcd8",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": "kainino0x",
@@ -5958,13 +6046,13 @@
         "title": "Add the \"internal\" error type",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -9921,10 +10009,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2965,
         "created_at": "2022-05-27T20:48:20Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T06:26:46Z",
         "title": "maxColorAttachments not sufficient?",
         "labels": [
           {
@@ -10803,7 +10891,17 @@
         "created_at": "2022-05-22T03:02:49Z",
         "closed_at": null,
         "title": "mapAsync(WRITE) zero-fills the relevant region of the buffer",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -15857,7 +15955,17 @@
         "created_at": "2022-03-10T00:33:01Z",
         "closed_at": null,
         "title": "Make rg11b10ufloat RENDER_ATTACHMENT:yes and resolve:yes.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -21408,7 +21516,17 @@
         "created_at": "2021-11-16T22:57:35Z",
         "closed_at": null,
         "title": "Add multi draw indirect feature",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -24576,15 +24694,6 @@
             "color": "abfcd8",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": "kainino0x",
@@ -27338,7 +27447,17 @@
         "created_at": "2021-07-15T19:29:44Z",
         "closed_at": null,
         "title": "Add `multi-draw-indirect` feature.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -29514,7 +29633,17 @@
         "created_at": "2021-06-04T22:29:33Z",
         "closed_at": null,
         "title": "Make use of [=map/exists=] where appropriate",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "toji",
         "isPullRequest": true
       },
@@ -36961,10 +37090,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1371,
         "created_at": "2021-01-26T01:46:17Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T02:55:00Z",
         "title": "Limit for the maximum buffer size",
         "labels": [
           {
@@ -36984,15 +37113,6 @@
             "color": "d4c5f9",
             "default": false,
             "description": null
-          },
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -38031,12 +38151,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1306,
         "created_at": "2020-12-14T21:32:23Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:40:24Z",
         "title": "Queue kinds and discovery",
         "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 2589592436,
             "node_id": "MDU6TGFiZWwyNTg5NTkyNDM2",
@@ -38529,10 +38658,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1275,
         "created_at": "2020-12-04T07:33:12Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:36:46Z",
         "title": "Add shader-float16 extension",
         "labels": [],
         "assignee": null,
@@ -39187,7 +39316,17 @@
         "created_at": "2020-11-19T17:52:03Z",
         "closed_at": null,
         "title": "Specify [=debug label=].",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -40383,10 +40522,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1169,
         "created_at": "2020-10-23T14:21:50Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:32:37Z",
         "title": "Multi-queue synchronization",
         "labels": [
           {
@@ -45386,10 +45525,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 872,
         "created_at": "2020-06-20T00:19:22Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:21:40Z",
         "title": "Out of memory handling for GPUBuffer mapping",
         "labels": [
           {
@@ -48263,12 +48402,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 705,
         "created_at": "2020-04-14T19:28:07Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:29:53Z",
         "title": "Allow e.g. `if (cond) break/continue/return/kill;` without brackets.",
         "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 1868960687,
             "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
@@ -49312,7 +49460,17 @@
         "created_at": "2020-03-26T17:42:12Z",
         "closed_at": null,
         "title": "Add GPUCommandEncoder.updateBuffer for embedding small buffer updates.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -49715,10 +49873,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 626,
         "created_at": "2020-03-19T19:02:56Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:33:36Z",
         "title": "Add callback entrypoints for per-frame Promise entrypoints.",
         "labels": [],
         "assignee": null,
@@ -57078,12 +57236,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 95,
         "created_at": "2018-10-08T18:58:19Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:32:25Z",
         "title": "Multiple Queues skeleton proposal.",
         "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 2589592436,
             "node_id": "MDU6TGFiZWwyNTg5NTkyNDM2",
@@ -58450,11 +58617,91 @@
     "issues": [
       {
         "state": "open",
+        "number": 3371,
+        "created_at": "2022-08-25T03:05:51Z",
+        "closed_at": null,
+        "title": "Add timestampWrites to the section of Timestamp Query",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3370,
+        "created_at": "2022-08-25T03:04:06Z",
+        "closed_at": null,
+        "title": "Move timestamp query inside passes into a separate extension doc",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3369,
+        "created_at": "2022-08-25T02:08:20Z",
+        "closed_at": null,
+        "title": "[editorial] Vertical column headers for texture format table",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3368,
+        "created_at": "2022-08-25T01:14:06Z",
+        "closed_at": null,
+        "title": "Remove device-timeline validation error in unmap()",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3367,
+        "created_at": "2022-08-24T09:33:54Z",
+        "closed_at": "2022-08-25T06:26:45Z",
+        "title": "Add per-pixel accounting of render target depths",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 3366,
         "created_at": "2022-08-24T08:02:41Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T02:54:59Z",
         "title": "Add maxBufferSize limit",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -58544,13 +58791,22 @@
         "title": "Make error reporting unordered",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": null,
@@ -58650,7 +58906,7 @@
         "number": 3357,
         "created_at": "2022-08-22T19:01:36Z",
         "closed_at": null,
-        "title": "Why must a texture require RENDER_ATTACHMENT usage?",
+        "title": "Why does CopyExternalImageToTexture() require RENDER_ATTACHMENT usage?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -58735,10 +58991,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3351,
         "created_at": "2022-08-19T01:34:58Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:21:39Z",
         "title": "Specify OOM behavior in mapping",
         "labels": [
           {
@@ -58749,6 +59005,15 @@
             "color": "f9d0c4",
             "default": false,
             "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -59313,6 +59578,15 @@
             "color": "f9d0c4",
             "default": false,
             "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -59465,10 +59739,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3311,
         "created_at": "2022-08-11T01:39:00Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:26:29Z",
         "title": "When source usability is bad, error asynchronously",
         "labels": [
           {
@@ -59840,17 +60114,7 @@
         "created_at": "2022-08-09T03:12:23Z",
         "closed_at": null,
         "title": "create*PipelineAsync prevents using the pipeline synchronously",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -59934,10 +60198,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3292,
         "created_at": "2022-08-05T23:05:51Z",
-        "closed_at": null,
+        "closed_at": "2022-08-24T14:24:12Z",
         "title": "publish grammar without left-recursion; add tooling to make it so",
         "labels": [
           {
@@ -59983,10 +60247,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3288,
         "created_at": "2022-08-04T19:49:19Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:26:29Z",
         "title": "importExternalTexture/copyExternalImageToTexture should not throw when source image is not decodable",
         "labels": [
           {
@@ -60023,10 +60287,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3286,
         "created_at": "2022-08-04T16:19:05Z",
-        "closed_at": null,
+        "closed_at": "2022-08-24T14:24:14Z",
         "title": "wgsl: publish a form of the grammar suitable for recursive descent parsing",
         "labels": [
           {
@@ -60809,15 +61073,6 @@
             "color": "abfcd8",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": "kainino0x",
@@ -64400,13 +64655,13 @@
         "title": "Add the \"internal\" error type",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -68363,10 +68618,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2965,
         "created_at": "2022-05-27T20:48:20Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T06:26:46Z",
         "title": "maxColorAttachments not sufficient?",
         "labels": [
           {
@@ -69245,7 +69500,17 @@
         "created_at": "2022-05-22T03:02:49Z",
         "closed_at": null,
         "title": "mapAsync(WRITE) zero-fills the relevant region of the buffer",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -74299,7 +74564,17 @@
         "created_at": "2022-03-10T00:33:01Z",
         "closed_at": null,
         "title": "Make rg11b10ufloat RENDER_ATTACHMENT:yes and resolve:yes.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -79850,7 +80125,17 @@
         "created_at": "2021-11-16T22:57:35Z",
         "closed_at": null,
         "title": "Add multi draw indirect feature",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -83018,15 +83303,6 @@
             "color": "abfcd8",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": "kainino0x",
@@ -85780,7 +86056,17 @@
         "created_at": "2021-07-15T19:29:44Z",
         "closed_at": null,
         "title": "Add `multi-draw-indirect` feature.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -87956,7 +88242,17 @@
         "created_at": "2021-06-04T22:29:33Z",
         "closed_at": null,
         "title": "Make use of [=map/exists=] where appropriate",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "toji",
         "isPullRequest": true
       },
@@ -95403,10 +95699,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1371,
         "created_at": "2021-01-26T01:46:17Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T02:55:00Z",
         "title": "Limit for the maximum buffer size",
         "labels": [
           {
@@ -95426,15 +95722,6 @@
             "color": "d4c5f9",
             "default": false,
             "description": null
-          },
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -96473,12 +96760,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1306,
         "created_at": "2020-12-14T21:32:23Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:40:24Z",
         "title": "Queue kinds and discovery",
         "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 2589592436,
             "node_id": "MDU6TGFiZWwyNTg5NTkyNDM2",
@@ -96971,10 +97267,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1275,
         "created_at": "2020-12-04T07:33:12Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:36:46Z",
         "title": "Add shader-float16 extension",
         "labels": [],
         "assignee": null,
@@ -97629,7 +97925,17 @@
         "created_at": "2020-11-19T17:52:03Z",
         "closed_at": null,
         "title": "Specify [=debug label=].",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -98825,10 +99131,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1169,
         "created_at": "2020-10-23T14:21:50Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:32:37Z",
         "title": "Multi-queue synchronization",
         "labels": [
           {
@@ -103828,10 +104134,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 872,
         "created_at": "2020-06-20T00:19:22Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:21:40Z",
         "title": "Out of memory handling for GPUBuffer mapping",
         "labels": [
           {
@@ -106705,12 +107011,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 705,
         "created_at": "2020-04-14T19:28:07Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:29:53Z",
         "title": "Allow e.g. `if (cond) break/continue/return/kill;` without brackets.",
         "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 1868960687,
             "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
@@ -107754,7 +108069,17 @@
         "created_at": "2020-03-26T17:42:12Z",
         "closed_at": null,
         "title": "Add GPUCommandEncoder.updateBuffer for embedding small buffer updates.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -108157,10 +108482,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 626,
         "created_at": "2020-03-19T19:02:56Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:33:36Z",
         "title": "Add callback entrypoints for per-frame Promise entrypoints.",
         "labels": [],
         "assignee": null,
@@ -115520,12 +115845,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 95,
         "created_at": "2018-10-08T18:58:19Z",
-        "closed_at": null,
+        "closed_at": "2022-08-25T01:32:25Z",
         "title": "Multiple Queues skeleton proposal.",
         "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 2589592436,
             "node_id": "MDU6TGFiZWwyNTg5NTkyNDM2",
