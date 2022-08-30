@@ -7,20 +7,89 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
+        "number": 3388,
+        "created_at": "2022-08-29T21:31:09Z",
+        "closed_at": "2022-08-29T21:35:23Z",
+        "title": "Fix address space for runtime-sized array example",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3387,
+        "created_at": "2022-08-29T18:31:32Z",
+        "closed_at": "2022-08-29T21:23:22Z",
+        "title": "Fix PR previews with diagrams",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3386,
+        "created_at": "2022-08-29T18:14:59Z",
+        "closed_at": "2022-08-29T21:23:23Z",
+        "title": "preview-pull-request doesn't pick up new diagrams",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "kainino0x",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3385,
+        "created_at": "2022-08-29T12:56:50Z",
+        "closed_at": "2022-08-29T23:32:18Z",
+        "title": "Fix declaration of [SameObject]-ness on interface rather than dictionary",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 3384,
         "created_at": "2022-08-28T14:16:12Z",
-        "closed_at": null,
+        "closed_at": "2022-08-30T03:01:21Z",
         "title": "Deploy previews to GitHub",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3383,
         "created_at": "2022-08-28T02:39:57Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T21:35:24Z",
         "title": "Clarify valid address spaces for runtime-sized arrays",
         "labels": [
           {
@@ -31,16 +100,25 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3382,
         "created_at": "2022-08-27T01:16:23Z",
-        "closed_at": null,
+        "closed_at": "2022-08-30T05:21:15Z",
         "title": "[editorial] Define scheme for state on different timelines",
         "labels": [
           {
@@ -77,10 +155,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3380,
         "created_at": "2022-08-26T20:38:55Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T23:33:33Z",
         "title": "Require maxBufferSize to be at least as max*BufferBindingSize",
         "labels": [
           {
@@ -175,10 +253,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3374,
         "created_at": "2022-08-25T19:45:11Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T21:04:15Z",
         "title": "[editorial] Improve exposition of the uniformity analysis",
         "labels": [
           {
@@ -302,20 +380,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3368,
         "created_at": "2022-08-25T01:14:06Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T23:33:52Z",
         "title": "Remove device-timeline validation error in unmap()",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -349,13 +427,13 @@
         "title": "Add maxBufferSize limit",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -481,6 +559,15 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -654,15 +741,6 @@
         "title": "Specify OOM behavior in mapping",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          },
-          {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
@@ -718,6 +796,15 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -1220,21 +1307,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3318,
         "created_at": "2022-08-11T23:34:01Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T18:30:45Z",
         "title": "Reduce max binding index and make it a limit",
         "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          },
           {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
@@ -1402,13 +1480,13 @@
         "title": "When source usability is bad, error asynchronously",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -2110,10 +2188,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3279,
         "created_at": "2022-08-03T15:20:44Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T18:30:46Z",
         "title": "Lower the max binding index in createBindGroupLayout",
         "labels": [
           {
@@ -2715,10 +2793,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3251,
         "created_at": "2022-07-27T00:06:50Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T23:33:53Z",
         "title": "Buffer state validation in unmap() is unnecessary",
         "labels": [
           {
@@ -58881,20 +58959,89 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
+        "number": 3388,
+        "created_at": "2022-08-29T21:31:09Z",
+        "closed_at": "2022-08-29T21:35:23Z",
+        "title": "Fix address space for runtime-sized array example",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3387,
+        "created_at": "2022-08-29T18:31:32Z",
+        "closed_at": "2022-08-29T21:23:22Z",
+        "title": "Fix PR previews with diagrams",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3386,
+        "created_at": "2022-08-29T18:14:59Z",
+        "closed_at": "2022-08-29T21:23:23Z",
+        "title": "preview-pull-request doesn't pick up new diagrams",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "kainino0x",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3385,
+        "created_at": "2022-08-29T12:56:50Z",
+        "closed_at": "2022-08-29T23:32:18Z",
+        "title": "Fix declaration of [SameObject]-ness on interface rather than dictionary",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 3384,
         "created_at": "2022-08-28T14:16:12Z",
-        "closed_at": null,
+        "closed_at": "2022-08-30T03:01:21Z",
         "title": "Deploy previews to GitHub",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3383,
         "created_at": "2022-08-28T02:39:57Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T21:35:24Z",
         "title": "Clarify valid address spaces for runtime-sized arrays",
         "labels": [
           {
@@ -58905,16 +59052,25 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3382,
         "created_at": "2022-08-27T01:16:23Z",
-        "closed_at": null,
+        "closed_at": "2022-08-30T05:21:15Z",
         "title": "[editorial] Define scheme for state on different timelines",
         "labels": [
           {
@@ -58951,10 +59107,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3380,
         "created_at": "2022-08-26T20:38:55Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T23:33:33Z",
         "title": "Require maxBufferSize to be at least as max*BufferBindingSize",
         "labels": [
           {
@@ -59049,10 +59205,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3374,
         "created_at": "2022-08-25T19:45:11Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T21:04:15Z",
         "title": "[editorial] Improve exposition of the uniformity analysis",
         "labels": [
           {
@@ -59176,20 +59332,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3368,
         "created_at": "2022-08-25T01:14:06Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T23:33:52Z",
         "title": "Remove device-timeline validation error in unmap()",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -59223,13 +59379,13 @@
         "title": "Add maxBufferSize limit",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -59355,6 +59511,15 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -59528,15 +59693,6 @@
         "title": "Specify OOM behavior in mapping",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          },
-          {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
@@ -59592,6 +59748,15 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -60094,21 +60259,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3318,
         "created_at": "2022-08-11T23:34:01Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T18:30:45Z",
         "title": "Reduce max binding index and make it a limit",
         "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          },
           {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
@@ -60276,13 +60432,13 @@
         "title": "When source usability is bad, error asynchronously",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -60984,10 +61140,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3279,
         "created_at": "2022-08-03T15:20:44Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T18:30:46Z",
         "title": "Lower the max binding index in createBindGroupLayout",
         "labels": [
           {
@@ -61589,10 +61745,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3251,
         "created_at": "2022-07-27T00:06:50Z",
-        "closed_at": null,
+        "closed_at": "2022-08-29T23:33:53Z",
         "title": "Buffer state validation in unmap() is unnecessary",
         "labels": [
           {
