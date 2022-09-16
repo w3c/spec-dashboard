@@ -13869,6 +13869,66 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 256,
+        "created_at": "2022-09-16T00:14:54Z",
+        "closed_at": null,
+        "title": "Use the more common index.bs naming",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 255,
+        "created_at": "2022-09-16T00:14:14Z",
+        "closed_at": "2022-09-16T00:15:46Z",
+        "title": "Fix spec-prod action destination",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 254,
+        "created_at": "2022-09-15T22:42:12Z",
+        "closed_at": null,
+        "title": "Wire up a way for users to disable particular kinds of reporting.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 253,
+        "created_at": "2022-09-15T21:53:27Z",
+        "closed_at": "2022-09-15T23:12:24Z",
+        "title": "Export \"generate and queue a report\" instead of \"queue a report\".",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 252,
+        "created_at": "2022-09-15T21:32:55Z",
+        "closed_at": "2022-09-15T22:57:45Z",
+        "title": "Fix bikeshed errors and use \"Structured Fields\" consistently.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 251,
+        "created_at": "2022-09-15T21:19:33Z",
+        "closed_at": "2022-09-16T00:05:42Z",
+        "title": "Use spec-prod for all spec building.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 250,
         "created_at": "2022-02-18T16:25:59Z",
@@ -16786,6 +16846,15 @@
             "color": "2cba86",
             "default": false,
             "description": "Covers the core delivery of reports via HTTP"
+          },
+          {
+            "id": 1831423824,
+            "node_id": "MDU6TGFiZWwxODMxNDIzODI0",
+            "url": "https://api.github.com/repos/w3c/reporting/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
           }
         ],
         "assignee": "clelland",
@@ -16866,7 +16935,17 @@
         "created_at": "2016-04-24T14:53:29Z",
         "closed_at": null,
         "title": "Tie retries to user browsing behavior for better privacy?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1831423824,
+            "node_id": "MDU6TGFiZWwxODMxNDIzODI0",
+            "url": "https://api.github.com/repos/w3c/reporting/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
         "assignee": "clelland",
         "isPullRequest": false
       },
