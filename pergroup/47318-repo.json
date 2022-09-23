@@ -2421,6 +2421,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 294,
+        "created_at": "2022-09-22T12:53:28Z",
+        "closed_at": null,
+        "title": "Add support for powerline frequency on gUM MediaTrackSupportedConstraints",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 293,
         "created_at": "2022-01-04T20:33:54Z",
         "closed_at": null,
@@ -7255,6 +7265,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 72,
+        "created_at": "2022-09-22T10:13:00Z",
+        "closed_at": null,
+        "title": "Behavior when cropTo races with the track ending",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 71,
+        "created_at": "2022-09-22T09:27:51Z",
+        "closed_at": null,
+        "title": "Rejecting cropTo() on ended tracks",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 70,
         "created_at": "2022-06-14T17:09:17Z",
         "closed_at": null,
@@ -8342,6 +8372,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 903,
+        "created_at": "2022-09-22T16:13:05Z",
+        "closed_at": null,
+        "title": "Device enumeration spec-ed to hang",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 902,
         "created_at": "2022-09-19T00:12:55Z",
@@ -8371,10 +8411,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 901,
         "created_at": "2022-09-12T12:28:48Z",
-        "closed_at": null,
+        "closed_at": "2022-09-22T14:09:10Z",
         "title": "Add `SecureContext` attribute to `InputDeviceInfo`.",
         "labels": [],
         "assignee": null,
@@ -33675,6 +33715,236 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 688,
+        "created_at": "2022-09-21T09:19:46Z",
+        "closed_at": "2022-09-21T12:00:59Z",
+        "title": "Add droppedSamplesEvents and synthesizedSamplesEvents",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 687,
+        "created_at": "2022-09-20T15:25:27Z",
+        "closed_at": "2022-09-20T15:25:51Z",
+        "title": "Fix recently introduced typos.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 686,
+        "created_at": "2022-09-20T13:54:05Z",
+        "closed_at": null,
+        "title": "Impact of Stereo input and out put on metrics",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 685,
+        "created_at": "2022-09-20T09:20:03Z",
+        "closed_at": "2022-09-20T15:13:54Z",
+        "title": "Add totalCaptureDelay and totalSamplesCaptured to RTCAudioSourceStats.",
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 684,
+        "created_at": "2022-09-20T09:19:14Z",
+        "closed_at": "2022-09-20T15:07:41Z",
+        "title": "Add droppedSamplesDuration to RTCAudioSourceStats.",
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 683,
+        "created_at": "2022-09-20T09:03:00Z",
+        "closed_at": "2022-09-20T15:01:26Z",
+        "title": "Add totalPlayoutDelay and totalSamplesCount to RTCAudioPlayoutStats.",
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 682,
+        "created_at": "2022-09-20T08:54:17Z",
+        "closed_at": "2022-09-20T14:54:49Z",
+        "title": "Add RTCAudioPlayoutStats, synthesizedSamplesDuration and totalSamplesDuration",
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 681,
+        "created_at": "2022-09-20T08:40:54Z",
+        "closed_at": "2022-09-20T15:13:55Z",
+        "title": "Metrics for capture delay",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 680,
+        "created_at": "2022-09-20T08:38:22Z",
+        "closed_at": "2022-09-20T15:01:27Z",
+        "title": "Metrics for playout delay",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 679,
+        "created_at": "2022-09-20T08:32:46Z",
+        "closed_at": "2022-09-21T12:42:26Z",
+        "title": "How many times did capture glitches occur? (Follow-up to #678)",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 678,
+        "created_at": "2022-09-20T08:27:44Z",
+        "closed_at": "2022-09-20T15:07:42Z",
+        "title": "Need metrics for capture glitches",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 677,
+        "created_at": "2022-09-20T08:24:59Z",
+        "closed_at": "2022-09-21T12:01:00Z",
+        "title": "How many times did playout glitches occur? (Follow-up to #676)",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 676,
+        "created_at": "2022-09-20T08:22:56Z",
+        "closed_at": "2022-09-20T14:54:50Z",
+        "title": "Need metrics for playout glitches",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 675,
         "created_at": "2022-09-13T07:45:36Z",
@@ -33765,12 +34035,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 669,
         "created_at": "2022-09-07T11:28:52Z",
-        "closed_at": null,
+        "closed_at": "2022-09-20T14:19:26Z",
         "title": "Only expose RTCCodecStats objects currently in use",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -33854,10 +34134,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 662,
         "created_at": "2022-08-31T08:35:28Z",
-        "closed_at": null,
+        "closed_at": "2022-09-20T14:19:27Z",
         "title": "Don't expose so many RTCCodecStats!",
         "labels": [
           {
@@ -33918,7 +34198,7 @@
         "number": 657,
         "created_at": "2022-08-19T15:59:56Z",
         "closed_at": null,
-        "title": "editorial: clarify relayProtocol stats",
+        "title": "relayProtocol: use RTCIceServerTransportProtocol struct",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -34094,10 +34374,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 643,
         "created_at": "2022-06-17T21:13:12Z",
-        "closed_at": null,
+        "closed_at": "2022-09-22T19:17:35Z",
         "title": "Do we agree removing \"sender\", \"receiver\" and \"transceiver\" stats is a good idea?",
         "labels": [],
         "assignee": null,
@@ -44216,7 +44496,17 @@
         "created_at": "2022-09-14T15:43:55Z",
         "closed_at": null,
         "title": "S modes and a single active simulcast layer",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3789200610,
+            "node_id": "LA_kwDOCWdvt87h2pzi",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "1d76db",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
