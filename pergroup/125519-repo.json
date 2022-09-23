@@ -8,9 +8,145 @@
     "issues": [
       {
         "state": "open",
+        "number": 3474,
+        "created_at": "2022-09-22T23:14:56Z",
+        "closed_at": null,
+        "title": "Rewwrite atan2 definition",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3473,
+        "created_at": "2022-09-22T22:54:57Z",
+        "closed_at": null,
+        "title": "Definition of \"clamp-to-edge\" is not very precise",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3472,
+        "created_at": "2022-09-22T22:25:12Z",
+        "closed_at": "2022-09-22T23:10:30Z",
+        "title": "textureSampelBaseClampToEdge clamps to half-texel from the edge",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3471,
+        "created_at": "2022-09-22T20:30:54Z",
+        "closed_at": "2022-09-22T22:33:42Z",
+        "title": "`textureSampleBaseClampToEdge` clamping should clamp a half-texel from edge",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3470,
+        "created_at": "2022-09-22T17:49:55Z",
+        "closed_at": null,
+        "title": "Clarify intended behaviour when packing out of range values",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 3469,
         "created_at": "2022-09-21T19:37:16Z",
-        "closed_at": null,
+        "closed_at": "2022-09-22T23:11:18Z",
         "title": "Allow u32s for attributes",
         "labels": [
           {
@@ -105,10 +241,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3465,
         "created_at": "2022-09-21T14:06:13Z",
-        "closed_at": null,
+        "closed_at": "2022-09-22T23:11:19Z",
         "title": "Allow attributes to be abstract, i32 or u32.",
         "labels": [
           {
@@ -830,7 +966,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -4335,7 +4471,26 @@
         "created_at": "2022-07-28T17:57:30Z",
         "closed_at": null,
         "title": "Object labels require client-shared state",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5614,7 +5769,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -8452,7 +8607,17 @@
         "created_at": "2022-06-28T17:52:31Z",
         "closed_at": null,
         "title": "Criteria for pushing the WebGPU and WGSL specification to Candidate Recommendation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4564443130,
+            "node_id": "LA_kwDOBNvGe88AAAABEA_f-g",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/meta",
+            "name": "meta",
+            "color": "D3133A",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -16359,7 +16524,7 @@
         "state": "closed",
         "number": 2766,
         "created_at": "2022-04-15T13:50:24Z",
-        "closed_at": "2022-09-13T19:04:20Z",
+        "closed_at": "2022-09-22T21:14:13Z",
         "title": "Specify that texture_external sampling functions clamp coords to [0, 1]",
         "labels": [
           {
@@ -20171,7 +20336,17 @@
         "created_at": "2022-01-25T14:19:10Z",
         "closed_at": null,
         "title": "Seek horizontal reviews",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4564443130,
+            "node_id": "LA_kwDOBNvGe88AAAABEA_f-g",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/meta",
+            "name": "meta",
+            "color": "D3133A",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -44303,6 +44478,15 @@
             "color": "d4c5f9",
             "default": false,
             "description": null
+          },
+          {
+            "id": 4564443130,
+            "node_id": "LA_kwDOBNvGe88AAAABEA_f-g",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/meta",
+            "name": "meta",
+            "color": "D3133A",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -60701,9 +60885,145 @@
     "issues": [
       {
         "state": "open",
+        "number": 3474,
+        "created_at": "2022-09-22T23:14:56Z",
+        "closed_at": null,
+        "title": "Rewwrite atan2 definition",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3473,
+        "created_at": "2022-09-22T22:54:57Z",
+        "closed_at": null,
+        "title": "Definition of \"clamp-to-edge\" is not very precise",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3472,
+        "created_at": "2022-09-22T22:25:12Z",
+        "closed_at": "2022-09-22T23:10:30Z",
+        "title": "textureSampelBaseClampToEdge clamps to half-texel from the edge",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3471,
+        "created_at": "2022-09-22T20:30:54Z",
+        "closed_at": "2022-09-22T22:33:42Z",
+        "title": "`textureSampleBaseClampToEdge` clamping should clamp a half-texel from edge",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3470,
+        "created_at": "2022-09-22T17:49:55Z",
+        "closed_at": null,
+        "title": "Clarify intended behaviour when packing out of range values",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 3469,
         "created_at": "2022-09-21T19:37:16Z",
-        "closed_at": null,
+        "closed_at": "2022-09-22T23:11:18Z",
         "title": "Allow u32s for attributes",
         "labels": [
           {
@@ -60798,10 +61118,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3465,
         "created_at": "2022-09-21T14:06:13Z",
-        "closed_at": null,
+        "closed_at": "2022-09-22T23:11:19Z",
         "title": "Allow attributes to be abstract, i32 or u32.",
         "labels": [
           {
@@ -61523,7 +61843,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -65028,7 +65348,26 @@
         "created_at": "2022-07-28T17:57:30Z",
         "closed_at": null,
         "title": "Object labels require client-shared state",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -66307,7 +66646,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -69145,7 +69484,17 @@
         "created_at": "2022-06-28T17:52:31Z",
         "closed_at": null,
         "title": "Criteria for pushing the WebGPU and WGSL specification to Candidate Recommendation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4564443130,
+            "node_id": "LA_kwDOBNvGe88AAAABEA_f-g",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/meta",
+            "name": "meta",
+            "color": "D3133A",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -77052,7 +77401,7 @@
         "state": "closed",
         "number": 2766,
         "created_at": "2022-04-15T13:50:24Z",
-        "closed_at": "2022-09-13T19:04:20Z",
+        "closed_at": "2022-09-22T21:14:13Z",
         "title": "Specify that texture_external sampling functions clamp coords to [0, 1]",
         "labels": [
           {
@@ -80864,7 +81213,17 @@
         "created_at": "2022-01-25T14:19:10Z",
         "closed_at": null,
         "title": "Seek horizontal reviews",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4564443130,
+            "node_id": "LA_kwDOBNvGe88AAAABEA_f-g",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/meta",
+            "name": "meta",
+            "color": "D3133A",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -104996,6 +105355,15 @@
             "color": "d4c5f9",
             "default": false,
             "description": null
+          },
+          {
+            "id": 4564443130,
+            "node_id": "LA_kwDOBNvGe88AAAABEA_f-g",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/meta",
+            "name": "meta",
+            "color": "D3133A",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
