@@ -207,12 +207,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 124,
         "created_at": "2020-12-07T17:15:47Z",
-        "closed_at": null,
+        "closed_at": "2022-09-29T22:59:51Z",
         "title": "default audio output should be first in the enumerateDevice returned list",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2225524573,
+            "node_id": "MDU6TGFiZWwyMjI1NTI0NTcz",
+            "url": "https://api.github.com/repos/w3c/mediacapture-output/labels/Needs%20test",
+            "name": "Needs test",
+            "color": "2fb53e",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -567,10 +577,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 85,
         "created_at": "2019-10-23T16:42:31Z",
-        "closed_at": null,
+        "closed_at": "2022-09-29T22:49:29Z",
         "title": "Go back to the default output",
         "labels": [],
         "assignee": null,
@@ -8381,6 +8391,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "closed",
+        "number": 904,
+        "created_at": "2022-09-29T15:22:16Z",
+        "closed_at": "2022-09-29T15:39:31Z",
+        "title": "EnumerateDevices() Returns Multiple GroupId for Bluetooth Devices on Windows",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 903,
@@ -26533,6 +26553,66 @@
     "issues": [
       {
         "state": "open",
+        "number": 238,
+        "created_at": "2022-09-30T13:45:47Z",
+        "closed_at": null,
+        "title": "Controller must be nullable to default to null, and defaults obviate the need to for presence",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 237,
+        "created_at": "2022-09-30T12:42:31Z",
+        "closed_at": null,
+        "title": "s/controller = null;/controller;",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 236,
+        "created_at": "2022-09-30T07:40:38Z",
+        "closed_at": null,
+        "title": "Address nullability of DisplayMediaStreamOptions.controller",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 235,
+        "created_at": "2022-09-29T13:20:54Z",
+        "closed_at": "2022-09-29T18:56:41Z",
+        "title": "Add CaptureController to the spec",
+        "labels": [
+          {
+            "id": 1215959506,
+            "node_id": "MDU6TGFiZWwxMjE1OTU5NTA2",
+            "url": "https://api.github.com/repos/w3c/mediacapture-screen-share/labels/editors%20can%20integrate",
+            "name": "editors can integrate",
+            "color": "50fce5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 234,
+        "created_at": "2022-09-29T12:11:01Z",
+        "closed_at": null,
+        "title": "Inconsistent formatting in doc",
+        "labels": [],
+        "assignee": "dontcallmedom",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 233,
         "created_at": "2022-09-16T16:25:43Z",
         "closed_at": null,
@@ -30051,6 +30131,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 155,
+        "created_at": "2022-09-29T16:11:16Z",
+        "closed_at": null,
+        "title": "describe (some) fields",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 154,
         "created_at": "2022-09-29T07:57:52Z",
         "closed_at": null,
@@ -30060,10 +30150,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 153,
         "created_at": "2022-09-28T12:45:34Z",
-        "closed_at": null,
+        "closed_at": "2022-09-29T14:42:19Z",
         "title": "idl: synchronizationsource is a *unsigned* long",
         "labels": [],
         "assignee": null,
@@ -30075,15 +30165,25 @@
         "created_at": "2022-09-12T22:59:40Z",
         "closed_at": null,
         "title": "Structure clone frame with passing frame.data as transferables and send frame's clone to packetizer or decoder.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2715408921,
+            "node_id": "MDU6TGFiZWwyNzE1NDA4OTIx",
+            "url": "https://api.github.com/repos/w3c/webrtc-encoded-transform/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "8D526D",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 151,
         "created_at": "2022-09-12T22:50:18Z",
-        "closed_at": null,
+        "closed_at": "2022-09-29T14:36:22Z",
         "title": "Remove unused RTCInsertableStreams dictionary",
         "labels": [],
         "assignee": null,
@@ -30100,20 +30200,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 149,
         "created_at": "2022-09-12T15:33:10Z",
-        "closed_at": null,
+        "closed_at": "2022-09-29T14:35:33Z",
         "title": "Make use of SFrame WG spec link",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 148,
         "created_at": "2022-09-12T12:54:04Z",
-        "closed_at": null,
+        "closed_at": "2022-09-29T14:44:03Z",
         "title": "intro: remove funny hats",
         "labels": [],
         "assignee": null,
@@ -30240,10 +30340,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 139,
         "created_at": "2022-07-26T06:26:51Z",
-        "closed_at": null,
+        "closed_at": "2022-09-29T14:49:42Z",
         "title": "readme: add link to rendered version",
         "labels": [],
         "assignee": null,
@@ -30470,10 +30570,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 122,
         "created_at": "2021-10-21T09:01:54Z",
-        "closed_at": null,
+        "closed_at": "2022-09-29T14:44:04Z",
         "title": "no funny hats",
         "labels": [
           {
@@ -34359,7 +34459,7 @@
         "closed_at": null,
         "title": "Move RTCRtpReceivedRtpStreamStats.framesDropped to RTCInboundRtpStreamStats.",
         "labels": [],
-        "assignee": null,
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
