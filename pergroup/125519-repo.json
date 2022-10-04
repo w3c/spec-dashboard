@@ -8,9 +8,343 @@
     "issues": [
       {
         "state": "open",
+        "number": 3502,
+        "created_at": "2022-10-04T00:48:24Z",
+        "closed_at": null,
+        "title": "Spec doesn't allow local variables with the same names as parameters",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3501,
+        "created_at": "2022-10-04T00:45:16Z",
+        "closed_at": null,
+        "title": "Tuple-like-returns proposal for function-out-params functionality",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3500,
+        "created_at": "2022-10-03T23:58:40Z",
+        "closed_at": null,
+        "title": "Only allow defined GPUShaderStage bits in bind group layout entries",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3499,
+        "created_at": "2022-10-03T23:51:48Z",
+        "closed_at": null,
+        "title": "Only allow defined GPUMapMode bits in mapAsync()",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3498,
+        "created_at": "2022-10-03T23:44:25Z",
+        "closed_at": null,
+        "title": "[editorial] Replace \"super-luminant\" with a more descriptive term",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3497,
+        "created_at": "2022-10-03T22:44:40Z",
+        "closed_at": null,
+        "title": "wgsl: indexing X by non-const-expr index requires X to be concrete",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3496,
+        "created_at": "2022-10-03T22:43:07Z",
+        "closed_at": "2022-10-03T23:50:09Z",
+        "title": "First pass over inline issues",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3495,
+        "created_at": "2022-10-03T22:40:09Z",
+        "closed_at": "2022-10-03T23:56:59Z",
+        "title": "[editorial] Define \"equal\" for GPURenderPassLayout",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3494,
+        "created_at": "2022-10-03T20:16:08Z",
+        "closed_at": null,
+        "title": "wgsl: Define trunc, ceil, floor for infinities",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3493,
+        "created_at": "2022-10-03T19:11:29Z",
+        "closed_at": "2022-10-03T22:43:41Z",
+        "title": "Describe allowance for viewport rounding",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3492,
+        "created_at": "2022-10-03T19:08:12Z",
+        "closed_at": null,
+        "title": "[editorial] Work around setBindGroup overload argumentdef issue",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3491,
+        "created_at": "2022-10-03T19:07:23Z",
+        "closed_at": null,
+        "title": "[editorial] Semi-formalization of interface with WGSL",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3490,
+        "created_at": "2022-10-03T13:53:41Z",
+        "closed_at": "2022-10-03T13:56:08Z",
+        "title": "wgsl concretiation: use T2 instead of T'",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3489,
+        "created_at": "2022-10-03T13:42:24Z",
+        "closed_at": "2022-10-03T18:27:53Z",
+        "title": "wgsl: Flat interpolants are uniform across fragments in a fragment shader invocation group",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 3488,
         "created_at": "2022-10-02T22:08:39Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T13:54:52Z",
         "title": "Fix for two README typos",
         "labels": [
           {
@@ -41,15 +375,34 @@
         "created_at": "2022-10-01T18:40:36Z",
         "closed_at": null,
         "title": "Unclear whether GPUExternalTexture is 1D, 2D or 3D",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3486,
         "created_at": "2022-10-01T13:41:43Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T15:11:29Z",
         "title": "Global Sync",
         "labels": [
           {
@@ -95,10 +448,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3484,
         "created_at": "2022-10-01T01:03:52Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:45:21Z",
         "title": "Object labels are per-GPUObjectBase",
         "labels": [
           {
@@ -107,6 +460,15 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -125,10 +487,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3482,
         "created_at": "2022-09-29T23:59:16Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T13:49:04Z",
         "title": "Clarify definition of the concretization of a type.",
         "labels": [
           {
@@ -226,6 +588,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 4140556943,
+            "node_id": "LA_kwDOBNvGe872y-KP",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/uniformity",
+            "name": "uniformity",
+            "color": "5DC4AA",
+            "default": false,
+            "description": "Issues / discussions around uniformity analysis"
           }
         ],
         "assignee": null,
@@ -300,10 +671,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3474,
         "created_at": "2022-09-22T23:14:56Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T14:13:32Z",
         "title": "Rewwrite atan2 definition",
         "labels": [
           {
@@ -432,7 +803,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -456,10 +827,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3468,
         "created_at": "2022-09-21T19:13:14Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T18:29:55Z",
         "title": "Bitcasting to NaN should be a compile error?",
         "labels": [
           {
@@ -778,10 +1149,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3454,
         "created_at": "2022-09-17T00:22:49Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:45:22Z",
         "title": "Does getBindGroupLayout return the same underlying object or a new one?",
         "labels": [
           {
@@ -1225,10 +1596,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3437,
         "created_at": "2022-09-13T15:15:24Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T14:13:33Z",
         "title": "wgsl: atan2 result depends on signs of both arguments, not spec'd",
         "labels": [
           {
@@ -1303,10 +1674,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3434,
         "created_at": "2022-09-13T02:36:52Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:47:00Z",
         "title": "Rename maxColorAttachmentBytesPerPixel to *PerSample",
         "labels": [
           {
@@ -1785,10 +2156,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3408,
         "created_at": "2022-09-02T00:20:10Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:46:35Z",
         "title": "Matching rules for fragment shader output and color attachments",
         "labels": [
           {
@@ -2643,7 +3014,17 @@
         "created_at": "2022-08-24T09:33:54Z",
         "closed_at": "2022-08-25T06:26:45Z",
         "title": "Add per-pixel accounting of render target depths",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4759,10 +5140,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3263,
         "created_at": "2022-07-28T17:57:30Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:45:22Z",
         "title": "Object labels require client-shared state",
         "labels": [
           {
@@ -7921,7 +8302,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -28910,10 +29291,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2013,
         "created_at": "2021-08-03T17:58:00Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:46:36Z",
         "title": "Fragment output <-> attachment interface matching rules def",
         "labels": [
           {
@@ -61122,9 +61503,343 @@
     "issues": [
       {
         "state": "open",
+        "number": 3502,
+        "created_at": "2022-10-04T00:48:24Z",
+        "closed_at": null,
+        "title": "Spec doesn't allow local variables with the same names as parameters",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3501,
+        "created_at": "2022-10-04T00:45:16Z",
+        "closed_at": null,
+        "title": "Tuple-like-returns proposal for function-out-params functionality",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3500,
+        "created_at": "2022-10-03T23:58:40Z",
+        "closed_at": null,
+        "title": "Only allow defined GPUShaderStage bits in bind group layout entries",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3499,
+        "created_at": "2022-10-03T23:51:48Z",
+        "closed_at": null,
+        "title": "Only allow defined GPUMapMode bits in mapAsync()",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3498,
+        "created_at": "2022-10-03T23:44:25Z",
+        "closed_at": null,
+        "title": "[editorial] Replace \"super-luminant\" with a more descriptive term",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3497,
+        "created_at": "2022-10-03T22:44:40Z",
+        "closed_at": null,
+        "title": "wgsl: indexing X by non-const-expr index requires X to be concrete",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3496,
+        "created_at": "2022-10-03T22:43:07Z",
+        "closed_at": "2022-10-03T23:50:09Z",
+        "title": "First pass over inline issues",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3495,
+        "created_at": "2022-10-03T22:40:09Z",
+        "closed_at": "2022-10-03T23:56:59Z",
+        "title": "[editorial] Define \"equal\" for GPURenderPassLayout",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3494,
+        "created_at": "2022-10-03T20:16:08Z",
+        "closed_at": null,
+        "title": "wgsl: Define trunc, ceil, floor for infinities",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3493,
+        "created_at": "2022-10-03T19:11:29Z",
+        "closed_at": "2022-10-03T22:43:41Z",
+        "title": "Describe allowance for viewport rounding",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3492,
+        "created_at": "2022-10-03T19:08:12Z",
+        "closed_at": null,
+        "title": "[editorial] Work around setBindGroup overload argumentdef issue",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3491,
+        "created_at": "2022-10-03T19:07:23Z",
+        "closed_at": null,
+        "title": "[editorial] Semi-formalization of interface with WGSL",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3490,
+        "created_at": "2022-10-03T13:53:41Z",
+        "closed_at": "2022-10-03T13:56:08Z",
+        "title": "wgsl concretiation: use T2 instead of T'",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3489,
+        "created_at": "2022-10-03T13:42:24Z",
+        "closed_at": "2022-10-03T18:27:53Z",
+        "title": "wgsl: Flat interpolants are uniform across fragments in a fragment shader invocation group",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 3488,
         "created_at": "2022-10-02T22:08:39Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T13:54:52Z",
         "title": "Fix for two README typos",
         "labels": [
           {
@@ -61155,15 +61870,34 @@
         "created_at": "2022-10-01T18:40:36Z",
         "closed_at": null,
         "title": "Unclear whether GPUExternalTexture is 1D, 2D or 3D",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3486,
         "created_at": "2022-10-01T13:41:43Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T15:11:29Z",
         "title": "Global Sync",
         "labels": [
           {
@@ -61209,10 +61943,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3484,
         "created_at": "2022-10-01T01:03:52Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:45:21Z",
         "title": "Object labels are per-GPUObjectBase",
         "labels": [
           {
@@ -61221,6 +61955,15 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -61239,10 +61982,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3482,
         "created_at": "2022-09-29T23:59:16Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T13:49:04Z",
         "title": "Clarify definition of the concretization of a type.",
         "labels": [
           {
@@ -61340,6 +62083,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 4140556943,
+            "node_id": "LA_kwDOBNvGe872y-KP",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/uniformity",
+            "name": "uniformity",
+            "color": "5DC4AA",
+            "default": false,
+            "description": "Issues / discussions around uniformity analysis"
           }
         ],
         "assignee": null,
@@ -61414,10 +62166,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3474,
         "created_at": "2022-09-22T23:14:56Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T14:13:32Z",
         "title": "Rewwrite atan2 definition",
         "labels": [
           {
@@ -61546,7 +62298,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -61570,10 +62322,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3468,
         "created_at": "2022-09-21T19:13:14Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T18:29:55Z",
         "title": "Bitcasting to NaN should be a compile error?",
         "labels": [
           {
@@ -61892,10 +62644,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3454,
         "created_at": "2022-09-17T00:22:49Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:45:22Z",
         "title": "Does getBindGroupLayout return the same underlying object or a new one?",
         "labels": [
           {
@@ -62339,10 +63091,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3437,
         "created_at": "2022-09-13T15:15:24Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T14:13:33Z",
         "title": "wgsl: atan2 result depends on signs of both arguments, not spec'd",
         "labels": [
           {
@@ -62417,10 +63169,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3434,
         "created_at": "2022-09-13T02:36:52Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:47:00Z",
         "title": "Rename maxColorAttachmentBytesPerPixel to *PerSample",
         "labels": [
           {
@@ -62899,10 +63651,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3408,
         "created_at": "2022-09-02T00:20:10Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:46:35Z",
         "title": "Matching rules for fragment shader output and color attachments",
         "labels": [
           {
@@ -63757,7 +64509,17 @@
         "created_at": "2022-08-24T09:33:54Z",
         "closed_at": "2022-08-25T06:26:45Z",
         "title": "Add per-pixel accounting of render target depths",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -65873,10 +66635,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3263,
         "created_at": "2022-07-28T17:57:30Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:45:22Z",
         "title": "Object labels require client-shared state",
         "labels": [
           {
@@ -69035,7 +69797,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -90024,10 +90786,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2013,
         "created_at": "2021-08-03T17:58:00Z",
-        "closed_at": null,
+        "closed_at": "2022-10-03T22:46:36Z",
         "title": "Fragment output <-> attachment interface matching rules def",
         "labels": [
           {
