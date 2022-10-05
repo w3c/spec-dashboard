@@ -8392,6 +8392,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 905,
+        "created_at": "2022-10-03T15:08:19Z",
+        "closed_at": null,
+        "title": "Why does `navigator.mediaDevices.enumerateDevices()` require that `Document` must have active keyboard focus?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 904,
         "created_at": "2022-09-29T15:22:16Z",
@@ -22047,6 +22057,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 86,
+        "created_at": "2022-10-04T01:28:06Z",
+        "closed_at": null,
+        "title": "Effect of Jitter on VideoTrackGenerator",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 85,
+        "created_at": "2022-10-03T23:14:07Z",
+        "closed_at": null,
+        "title": "Fix references to mediacapture-insertable-streams",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 84,
         "created_at": "2022-05-01T01:48:28Z",
         "closed_at": null,
@@ -26552,10 +26582,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 238,
         "created_at": "2022-09-30T13:45:47Z",
-        "closed_at": null,
+        "closed_at": "2022-10-04T13:32:38Z",
         "title": "Controller must be nullable to default to null, and defaults obviate the need to for presence",
         "labels": [],
         "assignee": "jan-ivar",
@@ -30129,6 +30159,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 156,
+        "created_at": "2022-10-03T08:10:31Z",
+        "closed_at": null,
+        "title": "Is \"empty\" value of RTCEncodedVideoFrameType useful?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 155,
@@ -33846,6 +33886,46 @@
     "issues": [
       {
         "state": "closed",
+        "number": 703,
+        "created_at": "2022-10-03T15:34:48Z",
+        "closed_at": "2022-10-05T07:50:33Z",
+        "title": "Allow HW exposure in fullscreen mode",
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 702,
+        "created_at": "2022-10-03T15:16:06Z",
+        "closed_at": "2022-10-04T13:30:02Z",
+        "title": "Move framesDropped to inbound-rtp.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 701,
+        "created_at": "2022-10-03T15:07:24Z",
+        "closed_at": "2022-10-04T13:28:26Z",
+        "title": "Move pause and freeze metrics from webrtc-provisional-stats.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 700,
         "created_at": "2022-09-27T14:19:18Z",
         "closed_at": "2022-09-27T14:23:01Z",
@@ -33875,13 +33955,23 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 698,
         "created_at": "2022-09-27T13:47:56Z",
-        "closed_at": null,
+        "closed_at": "2022-10-05T07:50:33Z",
         "title": "Exposing HW for Cloud Gaming use cases (HW encoder/decoder revisited)",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -33924,18 +34014,18 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 695,
         "created_at": "2022-09-27T06:34:10Z",
-        "closed_at": null,
+        "closed_at": "2022-10-04T13:28:27Z",
         "title": "add video totalFreezesDuration &totalPausesDuration etc to  standard getStats ",
         "labels": [
           {
-            "id": 730625160,
-            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
-            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "c2e0c6",
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
             "default": false,
             "description": null
           }
@@ -34038,7 +34128,7 @@
         "number": 686,
         "created_at": "2022-09-20T13:54:05Z",
         "closed_at": null,
-        "title": "Impact of Stereo input and out put on metrics",
+        "title": "Impact of Stereo input and output on metrics",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -34289,7 +34379,17 @@
         "created_at": "2022-09-08T03:31:04Z",
         "closed_at": null,
         "title": "Adding SVC-related stats fields",
-        "labels": [],
+        "labels": [
+          {
+            "id": 124889687,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODc=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/enhancement",
+            "name": "enhancement",
+            "color": "84b6eb",
+            "default": true,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -34453,12 +34553,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 661,
         "created_at": "2022-08-30T12:09:58Z",
-        "closed_at": null,
+        "closed_at": "2022-10-04T13:30:04Z",
         "title": "Move RTCRtpReceivedRtpStreamStats.framesDropped to RTCInboundRtpStreamStats.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "henbos",
         "isPullRequest": false
       },
@@ -34493,10 +34603,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 657,
         "created_at": "2022-08-19T15:59:56Z",
-        "closed_at": null,
+        "closed_at": "2022-10-04T09:46:09Z",
         "title": "relayProtocol: use RTCIceServerTransportProtocol struct",
         "labels": [],
         "assignee": null,
@@ -34508,7 +34618,17 @@
         "created_at": "2022-08-18T01:56:02Z",
         "closed_at": null,
         "title": "totalInterFrameDelay, and totalSquaredInterFrameDelay are video only",
-        "labels": [],
+        "labels": [
+          {
+            "id": 730625160,
+            "node_id": "MDU6TGFiZWw3MzA2MjUxNjA=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "c2e0c6",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -34523,12 +34643,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 654,
         "created_at": "2022-08-11T08:41:46Z",
-        "closed_at": null,
+        "closed_at": "2022-10-04T15:13:34Z",
         "title": "make encoderImplementation/decoderImplementation video-only",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -34743,10 +34873,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 638,
         "created_at": "2022-06-13T12:05:20Z",
-        "closed_at": null,
+        "closed_at": "2022-10-04T15:13:35Z",
         "title": "Make encoderImplementation/decoderImplementation video-only",
         "labels": [
           {
@@ -35121,10 +35251,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 616,
         "created_at": "2022-01-20T04:11:17Z",
-        "closed_at": null,
+        "closed_at": "2022-10-04T12:52:52Z",
         "title": "codec.sdpFmtpLine isn't clear about which description to use",
         "labels": [],
         "assignee": "vr000m",
@@ -35181,10 +35311,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 611,
         "created_at": "2021-11-05T18:24:49Z",
-        "closed_at": null,
+        "closed_at": "2022-10-04T13:11:51Z",
         "title": "add missing fields to candidate stats",
         "labels": [],
         "assignee": null,
@@ -35340,10 +35470,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 600,
         "created_at": "2021-03-22T18:55:16Z",
-        "closed_at": null,
+        "closed_at": "2022-10-04T12:50:57Z",
         "title": "Need to relate all timestamps to Unix time",
         "labels": [
           {
