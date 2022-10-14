@@ -8,6 +8,35 @@
     "issues": [
       {
         "state": "open",
+        "number": 3524,
+        "created_at": "2022-10-13T21:29:45Z",
+        "closed_at": null,
+        "title": "why doesn't WGSL have mediump floats",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 4167690158,
+            "node_id": "LA_kwDOBNvGe874aeeu",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/whynot",
+            "name": "whynot",
+            "color": "BFDADC",
+            "default": false,
+            "description": "Explain why WGSL has or does not have a feature"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3523,
         "created_at": "2022-10-12T00:02:08Z",
         "closed_at": null,
@@ -21,6 +50,15 @@
             "color": "abfcd8",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           },
           {
             "id": 4278373239,
@@ -2659,15 +2697,6 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -3233,10 +3262,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3377,
         "created_at": "2022-08-26T15:02:01Z",
-        "closed_at": null,
+        "closed_at": "2022-10-13T20:51:20Z",
         "title": "[editorial] Fix logo's",
         "labels": [],
         "assignee": null,
@@ -16193,17 +16222,7 @@
         "created_at": "2022-05-06T20:55:25Z",
         "closed_at": "2022-05-16T22:06:39Z",
         "title": "Raise maxComputeWorkgroupStorageSize from 16352 to 16384",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -16350,17 +16369,7 @@
         "created_at": "2022-05-06T03:47:42Z",
         "closed_at": "2022-05-16T22:47:47Z",
         "title": "Remove GPUCanvasConfiguration.size",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "kainino0x",
         "isPullRequest": true
       },
@@ -16430,17 +16439,7 @@
         "created_at": "2022-05-04T01:34:34Z",
         "closed_at": "2022-05-16T22:34:42Z",
         "title": "Validate canvas configuration in configure()",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -16785,17 +16784,7 @@
         "created_at": "2022-04-28T03:38:11Z",
         "closed_at": "2022-04-28T22:33:13Z",
         "title": "Remove restrictions on the canvas type for CopyExternalImageToTexture()",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -16970,17 +16959,7 @@
         "created_at": "2022-04-26T15:53:14Z",
         "closed_at": "2022-09-01T23:28:46Z",
         "title": "Make GPUExternalTexture sampling always use clamping address mode.",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -16990,17 +16969,7 @@
         "created_at": "2022-04-26T06:37:59Z",
         "closed_at": "2022-05-16T23:08:41Z",
         "title": "Clarity how to interpret GPURenderPassColorAttachment/clearValue",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -17798,17 +17767,7 @@
         "created_at": "2022-04-13T22:51:31Z",
         "closed_at": "2022-04-19T20:32:34Z",
         "title": "Update logic for default TextureView dimension",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -19308,17 +19267,7 @@
         "created_at": "2022-03-09T19:39:49Z",
         "closed_at": "2022-05-05T18:36:21Z",
         "title": "Make use of automatic pipeline layouts explicit",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -61845,6 +61794,35 @@
     "issues": [
       {
         "state": "open",
+        "number": 3524,
+        "created_at": "2022-10-13T21:29:45Z",
+        "closed_at": null,
+        "title": "why doesn't WGSL have mediump floats",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 4167690158,
+            "node_id": "LA_kwDOBNvGe874aeeu",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/whynot",
+            "name": "whynot",
+            "color": "BFDADC",
+            "default": false,
+            "description": "Explain why WGSL has or does not have a feature"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3523,
         "created_at": "2022-10-12T00:02:08Z",
         "closed_at": null,
@@ -61858,6 +61836,15 @@
             "color": "abfcd8",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           },
           {
             "id": 4278373239,
@@ -64496,15 +64483,6 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -65070,10 +65048,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3377,
         "created_at": "2022-08-26T15:02:01Z",
-        "closed_at": null,
+        "closed_at": "2022-10-13T20:51:20Z",
         "title": "[editorial] Fix logo's",
         "labels": [],
         "assignee": null,
@@ -78030,17 +78008,7 @@
         "created_at": "2022-05-06T20:55:25Z",
         "closed_at": "2022-05-16T22:06:39Z",
         "title": "Raise maxComputeWorkgroupStorageSize from 16352 to 16384",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -78187,17 +78155,7 @@
         "created_at": "2022-05-06T03:47:42Z",
         "closed_at": "2022-05-16T22:47:47Z",
         "title": "Remove GPUCanvasConfiguration.size",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "kainino0x",
         "isPullRequest": true
       },
@@ -78267,17 +78225,7 @@
         "created_at": "2022-05-04T01:34:34Z",
         "closed_at": "2022-05-16T22:34:42Z",
         "title": "Validate canvas configuration in configure()",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -78622,17 +78570,7 @@
         "created_at": "2022-04-28T03:38:11Z",
         "closed_at": "2022-04-28T22:33:13Z",
         "title": "Remove restrictions on the canvas type for CopyExternalImageToTexture()",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -78807,17 +78745,7 @@
         "created_at": "2022-04-26T15:53:14Z",
         "closed_at": "2022-09-01T23:28:46Z",
         "title": "Make GPUExternalTexture sampling always use clamping address mode.",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -78827,17 +78755,7 @@
         "created_at": "2022-04-26T06:37:59Z",
         "closed_at": "2022-05-16T23:08:41Z",
         "title": "Clarity how to interpret GPURenderPassColorAttachment/clearValue",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -79635,17 +79553,7 @@
         "created_at": "2022-04-13T22:51:31Z",
         "closed_at": "2022-04-19T20:32:34Z",
         "title": "Update logic for default TextureView dimension",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -81145,17 +81053,7 @@
         "created_at": "2022-03-09T19:39:49Z",
         "closed_at": "2022-05-05T18:36:21Z",
         "title": "Make use of automatic pipeline layouts explicit",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
