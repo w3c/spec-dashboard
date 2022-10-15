@@ -7295,6 +7295,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 74,
+        "created_at": "2022-10-14T10:04:29Z",
+        "closed_at": null,
+        "title": "Allow cropping non-self-capture tracks",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 73,
+        "created_at": "2022-10-14T08:52:20Z",
+        "closed_at": null,
+        "title": "Remove outdated note (consensus on name \"CropTarget\")",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 72,
         "created_at": "2022-09-22T10:13:00Z",
         "closed_at": null,
@@ -8412,10 +8432,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 908,
         "created_at": "2022-10-12T10:18:46Z",
-        "closed_at": null,
+        "closed_at": "2022-10-13T14:50:54Z",
         "title": "Clarify that frameRate as a setting is the configured value, not a measurement.",
         "labels": [],
         "assignee": null,
@@ -8451,10 +8471,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 906,
         "created_at": "2022-10-07T07:51:16Z",
-        "closed_at": null,
+        "closed_at": "2022-10-13T14:50:56Z",
         "title": "MediaStreamTrack.getSettings().frameRate should reflect configured rate, not actual",
         "labels": [
           {
@@ -26672,9 +26692,79 @@
     "issues": [
       {
         "state": "open",
+        "number": 247,
+        "created_at": "2022-10-14T10:02:03Z",
+        "closed_at": null,
+        "title": "Editorial: Use {{func()}} or {{func}}",
+        "labels": [
+          {
+            "id": 1040000104,
+            "node_id": "MDU6TGFiZWwxMDQwMDAwMTA0",
+            "url": "https://api.github.com/repos/w3c/mediacapture-screen-share/labels/Editorial",
+            "name": "Editorial",
+            "color": "006b75",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 246,
+        "created_at": "2022-10-14T08:29:01Z",
+        "closed_at": null,
+        "title": "Adopting explainers",
+        "labels": [],
+        "assignee": "alvestrand",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 245,
+        "created_at": "2022-10-13T16:29:51Z",
+        "closed_at": "2022-10-13T16:43:07Z",
+        "title": "Editorial: Fix <ol> mess",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 244,
+        "created_at": "2022-10-13T14:50:49Z",
+        "closed_at": "2022-10-13T14:52:25Z",
+        "title": "Editorial: Remove </a> without <a>",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 243,
+        "created_at": "2022-10-13T09:04:36Z",
+        "closed_at": "2022-10-13T14:47:29Z",
+        "title": "Remove obsolete \"application\" DisplayCaptureSurfaceType",
+        "labels": [
+          {
+            "id": 1215959506,
+            "node_id": "MDU6TGFiZWwxMjE1OTU5NTA2",
+            "url": "https://api.github.com/repos/w3c/mediacapture-screen-share/labels/editors%20can%20integrate",
+            "name": "editors can integrate",
+            "color": "50fce5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 242,
         "created_at": "2022-10-12T15:49:51Z",
-        "closed_at": null,
+        "closed_at": "2022-10-13T14:20:27Z",
         "title": "Remove unused reference to MediaStreamConstraints",
         "labels": [],
         "assignee": null,
@@ -26691,12 +26781,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 240,
         "created_at": "2022-10-05T13:27:42Z",
-        "closed_at": null,
+        "closed_at": "2022-10-13T15:18:47Z",
         "title": "Define CaptureController.setFocusBehavior()",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1215959506,
+            "node_id": "MDU6TGFiZWwxMjE1OTU5NTA2",
+            "url": "https://api.github.com/repos/w3c/mediacapture-screen-share/labels/editors%20can%20integrate",
+            "name": "editors can integrate",
+            "color": "50fce5",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -27378,10 +27478,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 190,
         "created_at": "2021-09-06T22:12:29Z",
-        "closed_at": null,
+        "closed_at": "2022-10-13T15:18:48Z",
         "title": "Conditional Focus (When Display-Capture Starts)",
         "labels": [
           {
@@ -30298,6 +30398,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 158,
+        "created_at": "2022-10-14T08:08:41Z",
+        "closed_at": null,
+        "title": "Expose MIME type as frame metadata",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 157,
