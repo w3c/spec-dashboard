@@ -8,6 +8,182 @@
     "issues": [
       {
         "state": "open",
+        "number": 3531,
+        "created_at": "2022-10-14T17:57:04Z",
+        "closed_at": null,
+        "title": "wgsl: Move * and & from lhs_expression to core_lhs_expression",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3530,
+        "created_at": "2022-10-14T17:25:55Z",
+        "closed_at": null,
+        "title": "wgsl: grammar for LHS is ambiguous about grouping its subexpressions, affects type checking",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3529,
+        "created_at": "2022-10-14T16:53:33Z",
+        "closed_at": "2022-10-14T16:56:55Z",
+        "title": "Rename postfix_expression to component_or_swizzle_specifier",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3528,
+        "created_at": "2022-10-14T16:48:50Z",
+        "closed_at": "2022-10-14T16:56:56Z",
+        "title": "wgsl: rename grammar rules \"postfix_expression\" because it's not an expression",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3527,
+        "created_at": "2022-10-14T16:34:09Z",
+        "closed_at": null,
+        "title": "wgsl: limit nesting depth of if-else",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3526,
+        "created_at": "2022-10-14T15:02:33Z",
+        "closed_at": "2022-10-14T15:13:12Z",
+        "title": "Remove stale/incorrect statement about inability to shadow builtins",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3525,
+        "created_at": "2022-10-14T14:57:51Z",
+        "closed_at": "2022-10-14T15:13:13Z",
+        "title": "wgsl: spec still says you can't declare something at module-scope to shadow a built-in function",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3524,
         "created_at": "2022-10-13T21:29:45Z",
         "closed_at": null,
@@ -5271,15 +5447,6 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
-          },
-          {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -12089,15 +12256,6 @@
             "color": "91f285",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": "kainino0x",
@@ -12768,15 +12926,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -14371,17 +14520,7 @@
         "created_at": "2022-05-20T12:48:57Z",
         "closed_at": "2022-06-03T22:56:36Z",
         "title": "Add reflection for container objects.",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -16160,15 +16299,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -30978,6 +31108,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 4167690158,
+            "node_id": "LA_kwDOBNvGe874aeeu",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/whynot",
+            "name": "whynot",
+            "color": "BFDADC",
+            "default": false,
+            "description": "Explain why WGSL has or does not have a feature"
           }
         ],
         "assignee": null,
@@ -61794,6 +61933,182 @@
     "issues": [
       {
         "state": "open",
+        "number": 3531,
+        "created_at": "2022-10-14T17:57:04Z",
+        "closed_at": null,
+        "title": "wgsl: Move * and & from lhs_expression to core_lhs_expression",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3530,
+        "created_at": "2022-10-14T17:25:55Z",
+        "closed_at": null,
+        "title": "wgsl: grammar for LHS is ambiguous about grouping its subexpressions, affects type checking",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3529,
+        "created_at": "2022-10-14T16:53:33Z",
+        "closed_at": "2022-10-14T16:56:55Z",
+        "title": "Rename postfix_expression to component_or_swizzle_specifier",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3528,
+        "created_at": "2022-10-14T16:48:50Z",
+        "closed_at": "2022-10-14T16:56:56Z",
+        "title": "wgsl: rename grammar rules \"postfix_expression\" because it's not an expression",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3527,
+        "created_at": "2022-10-14T16:34:09Z",
+        "closed_at": null,
+        "title": "wgsl: limit nesting depth of if-else",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3526,
+        "created_at": "2022-10-14T15:02:33Z",
+        "closed_at": "2022-10-14T15:13:12Z",
+        "title": "Remove stale/incorrect statement about inability to shadow builtins",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3525,
+        "created_at": "2022-10-14T14:57:51Z",
+        "closed_at": "2022-10-14T15:13:13Z",
+        "title": "wgsl: spec still says you can't declare something at module-scope to shadow a built-in function",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3524,
         "created_at": "2022-10-13T21:29:45Z",
         "closed_at": null,
@@ -67057,15 +67372,6 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
-          },
-          {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -73875,15 +74181,6 @@
             "color": "91f285",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": "kainino0x",
@@ -74554,15 +74851,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -76157,17 +76445,7 @@
         "created_at": "2022-05-20T12:48:57Z",
         "closed_at": "2022-06-03T22:56:36Z",
         "title": "Add reflection for container objects.",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -77946,15 +78224,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -92764,6 +93033,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 4167690158,
+            "node_id": "LA_kwDOBNvGe874aeeu",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/whynot",
+            "name": "whynot",
+            "color": "BFDADC",
+            "default": false,
+            "description": "Explain why WGSL has or does not have a feature"
           }
         ],
         "assignee": null,
