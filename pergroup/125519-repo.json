@@ -8,6 +8,85 @@
     "issues": [
       {
         "state": "open",
+        "number": 3598,
+        "created_at": "2022-11-15T04:43:38Z",
+        "closed_at": null,
+        "title": "GPUBuffer.destroy() calls unmap() if pending",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3597,
+        "created_at": "2022-11-14T22:07:03Z",
+        "closed_at": null,
+        "title": "destroy() should unmap if there's a pending mapping",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "takahirox",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3596,
+        "created_at": "2022-11-14T15:52:52Z",
+        "closed_at": "2022-11-14T16:27:38Z",
+        "title": "Remove early statement saying variables don't overlap",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3595,
+        "created_at": "2022-11-14T13:16:10Z",
+        "closed_at": "2022-11-14T13:52:39Z",
+        "title": "GPUBuffer.mapAsync is very slow... ",
+        "labels": [
+          {
+            "id": 536258994,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5OTQ=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3594,
         "created_at": "2022-11-13T05:26:58Z",
         "closed_at": null,
@@ -6449,17 +6528,7 @@
         "created_at": "2022-08-04T19:49:19Z",
         "closed_at": "2022-08-25T01:26:29Z",
         "title": "importExternalTexture/copyExternalImageToTexture should not throw when source image is not decodable",
-        "labels": [
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
-          }
-        ],
+        "labels": [],
         "assignee": "kainino0x",
         "isPullRequest": false
       },
@@ -14820,17 +14889,7 @@
         "created_at": "2022-05-27T20:48:20Z",
         "closed_at": "2022-08-25T06:26:46Z",
         "title": "maxColorAttachments not sufficient?",
-        "labels": [
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
-          }
-        ],
+        "labels": [],
         "assignee": "litherum",
         "isPullRequest": false
       },
@@ -59950,15 +60009,6 @@
             "color": "84b6eb",
             "default": true,
             "description": null
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": null,
@@ -63266,6 +63316,85 @@
     "issues": [
       {
         "state": "open",
+        "number": 3598,
+        "created_at": "2022-11-15T04:43:38Z",
+        "closed_at": null,
+        "title": "GPUBuffer.destroy() calls unmap() if pending",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3597,
+        "created_at": "2022-11-14T22:07:03Z",
+        "closed_at": null,
+        "title": "destroy() should unmap if there's a pending mapping",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "takahirox",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3596,
+        "created_at": "2022-11-14T15:52:52Z",
+        "closed_at": "2022-11-14T16:27:38Z",
+        "title": "Remove early statement saying variables don't overlap",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3595,
+        "created_at": "2022-11-14T13:16:10Z",
+        "closed_at": "2022-11-14T13:52:39Z",
+        "title": "GPUBuffer.mapAsync is very slow... ",
+        "labels": [
+          {
+            "id": 536258994,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5OTQ=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 3594,
         "created_at": "2022-11-13T05:26:58Z",
         "closed_at": null,
@@ -69707,17 +69836,7 @@
         "created_at": "2022-08-04T19:49:19Z",
         "closed_at": "2022-08-25T01:26:29Z",
         "title": "importExternalTexture/copyExternalImageToTexture should not throw when source image is not decodable",
-        "labels": [
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
-          }
-        ],
+        "labels": [],
         "assignee": "kainino0x",
         "isPullRequest": false
       },
@@ -78078,17 +78197,7 @@
         "created_at": "2022-05-27T20:48:20Z",
         "closed_at": "2022-08-25T06:26:46Z",
         "title": "maxColorAttachments not sufficient?",
-        "labels": [
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
-          }
-        ],
+        "labels": [],
         "assignee": "litherum",
         "isPullRequest": false
       },
@@ -123208,15 +123317,6 @@
             "color": "84b6eb",
             "default": true,
             "description": null
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": null,
