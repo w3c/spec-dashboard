@@ -8,19 +8,107 @@
     "issues": [
       {
         "state": "open",
-        "number": 3598,
-        "created_at": "2022-11-15T04:43:38Z",
+        "number": 3601,
+        "created_at": "2022-11-17T00:05:40Z",
         "closed_at": null,
-        "title": "GPUBuffer.destroy() calls unmap() if pending",
-        "labels": [],
+        "title": "Optional feature request: filterable 32-bit float textures",
+        "labels": [
+          {
+            "id": 1491034431,
+            "node_id": "MDU6TGFiZWwxNDkxMDM0NDMx",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/feature%20request",
+            "name": "feature request",
+            "color": "1d76db",
+            "default": false,
+            "description": "A request for a new GPU feature exposed in the API"
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3600,
+        "created_at": "2022-11-16T23:37:09Z",
+        "closed_at": null,
+        "title": "wgsl: Limit the overrides declarations in shader interface",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
+        "number": 3599,
+        "created_at": "2022-11-16T19:01:22Z",
+        "closed_at": "2022-11-16T19:04:15Z",
+        "title": "Refactor argument_expression_list for readability",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3598,
+        "created_at": "2022-11-15T04:43:38Z",
+        "closed_at": "2022-11-17T01:45:13Z",
+        "title": "GPUBuffer.destroy() calls unmap() if pending",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 3597,
         "created_at": "2022-11-14T22:07:03Z",
-        "closed_at": null,
+        "closed_at": "2022-11-17T01:45:14Z",
         "title": "destroy() should unmap if there's a pending mapping",
         "labels": [
           {
@@ -100,6 +188,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -479,10 +576,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3576,
         "created_at": "2022-11-07T07:28:32Z",
-        "closed_at": null,
+        "closed_at": "2022-11-16T22:42:06Z",
         "title": "WebGPU: Forbid null code point '\\0' (U+0000) within strings",
         "labels": [],
         "assignee": null,
@@ -681,13 +778,13 @@
         "title": "rg11b10ufloat-renderable should probably allow use as a resolve target",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -943,9 +1040,18 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -1694,10 +1800,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3519,
         "created_at": "2022-10-07T22:50:36Z",
-        "closed_at": null,
+        "closed_at": "2022-11-16T18:42:03Z",
         "title": "[editorial] Make a section for defining copies generally, not just commands",
         "labels": [
           {
@@ -2462,7 +2568,17 @@
         "created_at": "2022-10-01T00:21:47Z",
         "closed_at": null,
         "title": "Permissions Policy for WebGPU and for unmaskHints",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5748,6 +5864,15 @@
         "closed_at": null,
         "title": "How do we specify the timing of external texture expiration?",
         "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
@@ -17902,6 +18027,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -18659,7 +18793,17 @@
         "created_at": "2022-04-25T08:10:03Z",
         "closed_at": "2022-04-25T20:36:19Z",
         "title": "Require RENDER_ATTACHMENT usage when creating multisampled textures",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -63316,19 +63460,107 @@
     "issues": [
       {
         "state": "open",
-        "number": 3598,
-        "created_at": "2022-11-15T04:43:38Z",
+        "number": 3601,
+        "created_at": "2022-11-17T00:05:40Z",
         "closed_at": null,
-        "title": "GPUBuffer.destroy() calls unmap() if pending",
-        "labels": [],
+        "title": "Optional feature request: filterable 32-bit float textures",
+        "labels": [
+          {
+            "id": 1491034431,
+            "node_id": "MDU6TGFiZWwxNDkxMDM0NDMx",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/feature%20request",
+            "name": "feature request",
+            "color": "1d76db",
+            "default": false,
+            "description": "A request for a new GPU feature exposed in the API"
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3600,
+        "created_at": "2022-11-16T23:37:09Z",
+        "closed_at": null,
+        "title": "wgsl: Limit the overrides declarations in shader interface",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
+        "number": 3599,
+        "created_at": "2022-11-16T19:01:22Z",
+        "closed_at": "2022-11-16T19:04:15Z",
+        "title": "Refactor argument_expression_list for readability",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3598,
+        "created_at": "2022-11-15T04:43:38Z",
+        "closed_at": "2022-11-17T01:45:13Z",
+        "title": "GPUBuffer.destroy() calls unmap() if pending",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 3597,
         "created_at": "2022-11-14T22:07:03Z",
-        "closed_at": null,
+        "closed_at": "2022-11-17T01:45:14Z",
         "title": "destroy() should unmap if there's a pending mapping",
         "labels": [
           {
@@ -63408,6 +63640,15 @@
             "color": "cc317c",
             "default": true,
             "description": null
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -63787,10 +64028,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3576,
         "created_at": "2022-11-07T07:28:32Z",
-        "closed_at": null,
+        "closed_at": "2022-11-16T22:42:06Z",
         "title": "WebGPU: Forbid null code point '\\0' (U+0000) within strings",
         "labels": [],
         "assignee": null,
@@ -63989,13 +64230,13 @@
         "title": "rg11b10ufloat-renderable should probably allow use as a resolve target",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -64251,9 +64492,18 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -65002,10 +65252,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3519,
         "created_at": "2022-10-07T22:50:36Z",
-        "closed_at": null,
+        "closed_at": "2022-11-16T18:42:03Z",
         "title": "[editorial] Make a section for defining copies generally, not just commands",
         "labels": [
           {
@@ -65770,7 +66020,17 @@
         "created_at": "2022-10-01T00:21:47Z",
         "closed_at": null,
         "title": "Permissions Policy for WebGPU and for unmaskHints",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -69056,6 +69316,15 @@
         "closed_at": null,
         "title": "How do we specify the timing of external texture expiration?",
         "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
@@ -81210,6 +81479,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -81967,7 +82245,17 @@
         "created_at": "2022-04-25T08:10:03Z",
         "closed_at": "2022-04-25T20:36:19Z",
         "title": "Require RENDER_ATTACHMENT usage when creating multisampled textures",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
