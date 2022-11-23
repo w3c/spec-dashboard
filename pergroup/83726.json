@@ -56,7 +56,7 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
-    "description": "<p>Describes how user agents should expose semantics of web content languages to various accessibility APIs in an interoperable manner. This helps users with disabilities to obtain and interact with information using assistive technologies. Core-AAM 1.2 provides additional mapping information for new features in WAI-ARIA 1.2.</p>",
+    "description": "This document describes how user agents should expose semantics of web content languages to accessibility APIs. This helps users with disabilities to obtain and interact with information using assistive technologies. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.",
     "title": "Core Accessibility API Mappings 1.2",
     "shortname": "core-aam-1.2",
     "editor-draft": "https://w3c.github.io/core-aam/",
@@ -73,8 +73,8 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221101",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122",
+        "title": "Candidate Recommendation Snapshot"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/core-aam"
@@ -82,6 +82,35 @@
     },
     "editorsdraft": "https://w3c.github.io/core-aam/",
     "versions": [
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/CR-core-aam-1.2-20221122/",
+        "date": "2022-11-22",
+        "implementation-feedback-due": "2023-01-02",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -107,6 +136,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221101/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221101/successors"
           }
         }
       },
