@@ -8,11 +8,41 @@
     "issues": [
       {
         "state": "open",
+        "number": 436,
+        "created_at": "2022-11-23T18:52:24Z",
+        "closed_at": null,
+        "title": "Client initiated drain",
+        "labels": [
+          {
+            "id": 2589194877,
+            "node_id": "MDU6TGFiZWwyNTg5MTk0ODc3",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Discuss%20at%20next%20meeting",
+            "name": "Discuss at next meeting",
+            "color": "bfd4f2",
+            "default": false,
+            "description": "Flags an issue to be discussed at the next WG working"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 435,
         "created_at": "2022-11-22T06:33:24Z",
         "closed_at": null,
         "title": "allow opening streams and sending datagrams in parallel to the CONNECT request",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2589194877,
+            "node_id": "MDU6TGFiZWwyNTg5MTk0ODc3",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Discuss%20at%20next%20meeting",
+            "name": "Discuss at next meeting",
+            "color": "bfd4f2",
+            "default": false,
+            "description": "Flags an issue to be discussed at the next WG working"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -74,6 +104,15 @@
         "title": "Support minimal prioritization necessary to enable IETF MoQ base streaming protocol",
         "labels": [
           {
+            "id": 2444295339,
+            "node_id": "MDU6TGFiZWwyNDQ0Mjk1MzM5",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "b2f9a2",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 2589194877,
             "node_id": "MDU6TGFiZWwyNTg5MTk0ODc3",
             "url": "https://api.github.com/repos/w3c/webtransport/labels/Discuss%20at%20next%20meeting",
@@ -83,7 +122,7 @@
             "description": "Flags an issue to be discussed at the next WG working"
           }
         ],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
@@ -241,7 +280,7 @@
         "number": 421,
         "created_at": "2022-09-27T14:24:55Z",
         "closed_at": null,
-        "title": "Add congestion control event",
+        "title": "Add rate control event",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
