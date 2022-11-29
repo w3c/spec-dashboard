@@ -8,6 +8,75 @@
     "issues": [
       {
         "state": "open",
+        "number": 3645,
+        "created_at": "2022-11-29T00:10:43Z",
+        "closed_at": null,
+        "title": "[editorial] Check all destroyable resources at submit()",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3644,
+        "created_at": "2022-11-28T22:56:14Z",
+        "closed_at": null,
+        "title": "Add uniformity analysis opt-out for derivative-using builtins",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 4140556943,
+            "node_id": "LA_kwDOBNvGe872y-KP",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/uniformity",
+            "name": "uniformity",
+            "color": "5DC4AA",
+            "default": false,
+            "description": "Issues / discussions around uniformity analysis"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3643,
+        "created_at": "2022-11-28T19:36:05Z",
+        "closed_at": "2022-11-29T01:54:39Z",
+        "title": "Fix typo in compute pipeline creation section",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3640,
         "created_at": "2022-11-28T01:11:00Z",
         "closed_at": null,
@@ -27,10 +96,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3639,
         "created_at": "2022-11-25T15:25:45Z",
-        "closed_at": null,
+        "closed_at": "2022-11-28T18:55:50Z",
         "title": "[editorial] Introduce behavioral requirement definition",
         "labels": [
           {
@@ -60,8 +129,18 @@
         "number": 3638,
         "created_at": "2022-11-25T12:02:51Z",
         "closed_at": null,
-        "title": "Primtive clipping at the rasterization stage is inconsistent between APIs",
-        "labels": [],
+        "title": "Primitive clipping at the rasterization stage is inconsistent between APIs",
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -218,13 +297,13 @@
         "title": "Almost no PowerVR devices satisfy minimum Vulkan requirements",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
             "default": false,
-            "description": ""
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": null,
@@ -336,13 +415,22 @@
         "title": "Fix issues in pass end() validation",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": null,
@@ -442,16 +530,25 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3620,
         "created_at": "2022-11-22T12:37:00Z",
-        "closed_at": null,
+        "closed_at": "2022-11-29T02:07:03Z",
         "title": "Still no way to work with simple bytes ? ",
         "labels": [
           {
@@ -577,10 +674,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3610,
         "created_at": "2022-11-19T02:42:18Z",
-        "closed_at": null,
+        "closed_at": "2022-11-29T02:05:19Z",
         "title": "GPUBuffer memory leak",
         "labels": [
           {
@@ -983,15 +1080,6 @@
             "color": "cc317c",
             "default": true,
             "description": null
-          },
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -2495,22 +2583,13 @@
         "title": "Reject create*PipelineAsync on failure",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           },
           {
             "id": 4278373239,
@@ -7414,10 +7493,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3291,
         "created_at": "2022-08-05T16:22:39Z",
-        "closed_at": null,
+        "closed_at": "2022-11-28T18:16:45Z",
         "title": "Add predeclared short names for vector types",
         "labels": [
           {
@@ -53379,10 +53458,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 736,
         "created_at": "2020-04-30T02:25:14Z",
-        "closed_at": null,
+        "closed_at": "2022-11-28T18:16:47Z",
         "title": "vec4<f32> is too hard to type on the keyboard",
         "labels": [
           {
@@ -64236,6 +64315,75 @@
     "issues": [
       {
         "state": "open",
+        "number": 3645,
+        "created_at": "2022-11-29T00:10:43Z",
+        "closed_at": null,
+        "title": "[editorial] Check all destroyable resources at submit()",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3644,
+        "created_at": "2022-11-28T22:56:14Z",
+        "closed_at": null,
+        "title": "Add uniformity analysis opt-out for derivative-using builtins",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 4140556943,
+            "node_id": "LA_kwDOBNvGe872y-KP",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/uniformity",
+            "name": "uniformity",
+            "color": "5DC4AA",
+            "default": false,
+            "description": "Issues / discussions around uniformity analysis"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3643,
+        "created_at": "2022-11-28T19:36:05Z",
+        "closed_at": "2022-11-29T01:54:39Z",
+        "title": "Fix typo in compute pipeline creation section",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3640,
         "created_at": "2022-11-28T01:11:00Z",
         "closed_at": null,
@@ -64255,10 +64403,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3639,
         "created_at": "2022-11-25T15:25:45Z",
-        "closed_at": null,
+        "closed_at": "2022-11-28T18:55:50Z",
         "title": "[editorial] Introduce behavioral requirement definition",
         "labels": [
           {
@@ -64288,8 +64436,18 @@
         "number": 3638,
         "created_at": "2022-11-25T12:02:51Z",
         "closed_at": null,
-        "title": "Primtive clipping at the rasterization stage is inconsistent between APIs",
-        "labels": [],
+        "title": "Primitive clipping at the rasterization stage is inconsistent between APIs",
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -64446,13 +64604,13 @@
         "title": "Almost no PowerVR devices satisfy minimum Vulkan requirements",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
             "default": false,
-            "description": ""
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": null,
@@ -64564,13 +64722,22 @@
         "title": "Fix issues in pass end() validation",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 3727713513,
+            "node_id": "LA_kwDOBNvGe87eMGTp",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
+            "name": "tacit resolution candidate",
+            "color": "E99695",
+            "default": false,
+            "description": "Editors may be able to resolve and move to tacit resolution queue"
           }
         ],
         "assignee": null,
@@ -64670,16 +64837,25 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3620,
         "created_at": "2022-11-22T12:37:00Z",
-        "closed_at": null,
+        "closed_at": "2022-11-29T02:07:03Z",
         "title": "Still no way to work with simple bytes ? ",
         "labels": [
           {
@@ -64805,10 +64981,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3610,
         "created_at": "2022-11-19T02:42:18Z",
-        "closed_at": null,
+        "closed_at": "2022-11-29T02:05:19Z",
         "title": "GPUBuffer memory leak",
         "labels": [
           {
@@ -65211,15 +65387,6 @@
             "color": "cc317c",
             "default": true,
             "description": null
-          },
-          {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -66723,22 +66890,13 @@
         "title": "Reject create*PipelineAsync on failure",
         "labels": [
           {
-            "id": 2123781123,
-            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
-            "name": "for webgpu editors meeting",
-            "color": "abfcd8",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           },
           {
             "id": 4278373239,
@@ -71642,10 +71800,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3291,
         "created_at": "2022-08-05T16:22:39Z",
-        "closed_at": null,
+        "closed_at": "2022-11-28T18:16:45Z",
         "title": "Add predeclared short names for vector types",
         "labels": [
           {
@@ -117607,10 +117765,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 736,
         "created_at": "2020-04-30T02:25:14Z",
-        "closed_at": null,
+        "closed_at": "2022-11-28T18:16:47Z",
         "title": "vec4<f32> is too hard to type on the keyboard",
         "labels": [
           {
