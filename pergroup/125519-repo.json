@@ -8,6 +8,45 @@
     "issues": [
       {
         "state": "open",
+        "number": 3647,
+        "created_at": "2022-11-29T15:07:00Z",
+        "closed_at": null,
+        "title": "Clarify sections on arithmetic divide and remainder",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3646,
+        "created_at": "2022-11-29T12:09:03Z",
+        "closed_at": null,
+        "title": "wgsl: clarify function domains",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3645,
         "created_at": "2022-11-29T00:10:43Z",
         "closed_at": null,
@@ -145,10 +184,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3637,
         "created_at": "2022-11-25T06:21:00Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T02:03:01Z",
         "title": "wgsl: sample `texture_external` with `textureSampleBaseClampToEdge`",
         "labels": [
           {
@@ -1218,7 +1257,7 @@
         "number": 3586,
         "created_at": "2022-11-09T15:09:28Z",
         "closed_at": null,
-        "title": "Add workgroup broadcast and uniform load built-ins",
+        "title": "Add workgroupuniform load built-in and analysis",
         "labels": [
           {
             "id": 1868960687,
@@ -7581,10 +7620,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3285,
         "created_at": "2022-08-04T15:09:16Z",
-        "closed_at": null,
+        "closed_at": "2022-11-29T15:48:41Z",
         "title": "Remove non-generic types from keywords list.",
         "labels": [
           {
@@ -10233,17 +10272,7 @@
         "created_at": "2022-07-18T06:25:16Z",
         "closed_at": "2022-08-02T15:52:06Z",
         "title": "Buffer Offset issue in buffer-texture copies with depth stencil textures",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -10894,17 +10923,7 @@
         "created_at": "2022-07-06T23:22:14Z",
         "closed_at": "2022-07-14T18:50:20Z",
         "title": "Make mapping ArrayBuffers non-detachable",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "kainino0x",
         "isPullRequest": true
       },
@@ -11935,15 +11954,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
             "name": "proposal",
             "color": "91f285",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -12996,15 +13006,6 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -13016,17 +13017,7 @@
         "created_at": "2022-06-17T23:42:33Z",
         "closed_at": "2022-07-13T19:10:31Z",
         "title": "Allow BGL entries for multisampled:true \"depth\" textures",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -13947,17 +13938,7 @@
         "created_at": "2022-06-11T01:47:46Z",
         "closed_at": "2022-06-16T23:56:55Z",
         "title": "Allow using depth textures with texture_2d",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -18890,15 +18871,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -24961,17 +24933,7 @@
         "created_at": "2021-12-29T22:00:06Z",
         "closed_at": "2022-01-24T23:12:44Z",
         "title": "Behavior of endPass() and pass commands after pass has ended",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -64315,6 +64277,45 @@
     "issues": [
       {
         "state": "open",
+        "number": 3647,
+        "created_at": "2022-11-29T15:07:00Z",
+        "closed_at": null,
+        "title": "Clarify sections on arithmetic divide and remainder",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3646,
+        "created_at": "2022-11-29T12:09:03Z",
+        "closed_at": null,
+        "title": "wgsl: clarify function domains",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3645,
         "created_at": "2022-11-29T00:10:43Z",
         "closed_at": null,
@@ -64452,10 +64453,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3637,
         "created_at": "2022-11-25T06:21:00Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T02:03:01Z",
         "title": "wgsl: sample `texture_external` with `textureSampleBaseClampToEdge`",
         "labels": [
           {
@@ -65525,7 +65526,7 @@
         "number": 3586,
         "created_at": "2022-11-09T15:09:28Z",
         "closed_at": null,
-        "title": "Add workgroup broadcast and uniform load built-ins",
+        "title": "Add workgroupuniform load built-in and analysis",
         "labels": [
           {
             "id": 1868960687,
@@ -71888,10 +71889,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3285,
         "created_at": "2022-08-04T15:09:16Z",
-        "closed_at": null,
+        "closed_at": "2022-11-29T15:48:41Z",
         "title": "Remove non-generic types from keywords list.",
         "labels": [
           {
@@ -74540,17 +74541,7 @@
         "created_at": "2022-07-18T06:25:16Z",
         "closed_at": "2022-08-02T15:52:06Z",
         "title": "Buffer Offset issue in buffer-texture copies with depth stencil textures",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -75201,17 +75192,7 @@
         "created_at": "2022-07-06T23:22:14Z",
         "closed_at": "2022-07-14T18:50:20Z",
         "title": "Make mapping ArrayBuffers non-detachable",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "kainino0x",
         "isPullRequest": true
       },
@@ -76242,15 +76223,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
             "name": "proposal",
             "color": "91f285",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -77303,15 +77275,6 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -77323,17 +77286,7 @@
         "created_at": "2022-06-17T23:42:33Z",
         "closed_at": "2022-07-13T19:10:31Z",
         "title": "Allow BGL entries for multisampled:true \"depth\" textures",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -78254,17 +78207,7 @@
         "created_at": "2022-06-11T01:47:46Z",
         "closed_at": "2022-06-16T23:56:55Z",
         "title": "Allow using depth textures with texture_2d",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -83197,15 +83140,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -89268,17 +89202,7 @@
         "created_at": "2021-12-29T22:00:06Z",
         "closed_at": "2022-01-24T23:12:44Z",
         "title": "Behavior of endPass() and pass commands after pass has ended",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
