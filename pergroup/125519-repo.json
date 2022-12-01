@@ -7,6 +7,74 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 3650,
+        "created_at": "2022-11-30T19:38:45Z",
+        "closed_at": "2022-12-01T00:06:01Z",
+        "title": "Reduce query set count limit to 4096",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3649,
+        "created_at": "2022-11-30T15:58:37Z",
+        "closed_at": null,
+        "title": "Improve readability of diagrams in WGSL spec",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3648,
+        "created_at": "2022-11-30T12:49:24Z",
+        "closed_at": "2022-12-01T00:06:02Z",
+        "title": "Metal seem to support only up to 4096 queries in sample buffers.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 3647,
         "created_at": "2022-11-29T15:07:00Z",
@@ -41,15 +109,25 @@
         "created_at": "2022-11-29T12:09:03Z",
         "closed_at": null,
         "title": "wgsl: clarify function domains",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3645,
         "created_at": "2022-11-29T00:10:43Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T18:51:24Z",
         "title": "[editorial] Check all destroyable resources at submit()",
         "labels": [
           {
@@ -336,6 +414,15 @@
         "title": "Almost no PowerVR devices satisfy minimum Vulkan requirements",
         "labels": [
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
@@ -427,10 +514,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3627,
         "created_at": "2022-11-22T22:35:47Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T18:50:00Z",
         "title": "Clarify \"to WGSL type\" use of TypeError",
         "labels": [
           {
@@ -447,29 +534,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3626,
         "created_at": "2022-11-22T22:19:19Z",
-        "closed_at": null,
+        "closed_at": "2022-12-01T00:07:48Z",
         "title": "Fix issues in pass end() validation",
         "labels": [
           {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -733,10 +811,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3609,
         "created_at": "2022-11-18T22:38:21Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T15:59:43Z",
         "title": "Introduce Operator Precedence and Associativity",
         "labels": [
           {
@@ -954,13 +1032,13 @@
             "description": "A request for a new GPU feature exposed in the API"
           },
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -6093,15 +6171,6 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -6140,15 +6209,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -6320,17 +6380,7 @@
         "created_at": "2022-08-19T01:34:58Z",
         "closed_at": "2022-08-25T01:21:39Z",
         "title": "Specify OOM behavior in mapping",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -6405,10 +6455,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3346,
         "created_at": "2022-08-17T20:30:21Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T15:59:44Z",
         "title": "Add precedence rules description into spec",
         "labels": [
           {
@@ -6893,17 +6943,7 @@
         "created_at": "2022-08-11T23:34:01Z",
         "closed_at": "2022-08-29T18:30:45Z",
         "title": "Reduce max binding index and make it a limit",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -7086,15 +7126,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -8796,15 +8827,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -64276,6 +64298,74 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 3650,
+        "created_at": "2022-11-30T19:38:45Z",
+        "closed_at": "2022-12-01T00:06:01Z",
+        "title": "Reduce query set count limit to 4096",
+        "labels": [
+          {
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "Editors have agreed and intend to land if no feedback is given"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 3649,
+        "created_at": "2022-11-30T15:58:37Z",
+        "closed_at": null,
+        "title": "Improve readability of diagrams in WGSL spec",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 3648,
+        "created_at": "2022-11-30T12:49:24Z",
+        "closed_at": "2022-12-01T00:06:02Z",
+        "title": "Metal seem to support only up to 4096 queries in sample buffers.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 3647,
         "created_at": "2022-11-29T15:07:00Z",
@@ -64310,15 +64400,25 @@
         "created_at": "2022-11-29T12:09:03Z",
         "closed_at": null,
         "title": "wgsl: clarify function domains",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3645,
         "created_at": "2022-11-29T00:10:43Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T18:51:24Z",
         "title": "[editorial] Check all destroyable resources at submit()",
         "labels": [
           {
@@ -64605,6 +64705,15 @@
         "title": "Almost no PowerVR devices satisfy minimum Vulkan requirements",
         "labels": [
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 3727713513,
             "node_id": "LA_kwDOBNvGe87eMGTp",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
@@ -64696,10 +64805,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3627,
         "created_at": "2022-11-22T22:35:47Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T18:50:00Z",
         "title": "Clarify \"to WGSL type\" use of TypeError",
         "labels": [
           {
@@ -64716,29 +64825,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3626,
         "created_at": "2022-11-22T22:19:19Z",
-        "closed_at": null,
+        "closed_at": "2022-12-01T00:07:48Z",
         "title": "Fix issues in pass end() validation",
         "labels": [
           {
-            "id": 3581772930,
-            "node_id": "LA_kwDOBNvGe87VfYSC",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
-            "name": "editorial",
-            "color": "c2e0c6",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": ""
-          },
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -65002,10 +65102,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3609,
         "created_at": "2022-11-18T22:38:21Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T15:59:43Z",
         "title": "Introduce Operator Precedence and Associativity",
         "labels": [
           {
@@ -65223,13 +65323,13 @@
             "description": "A request for a new GPU feature exposed in the API"
           },
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": ""
           }
         ],
         "assignee": null,
@@ -70362,15 +70462,6 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -70409,15 +70500,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -70589,17 +70671,7 @@
         "created_at": "2022-08-19T01:34:58Z",
         "closed_at": "2022-08-25T01:21:39Z",
         "title": "Specify OOM behavior in mapping",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -70674,10 +70746,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3346,
         "created_at": "2022-08-17T20:30:21Z",
-        "closed_at": null,
+        "closed_at": "2022-11-30T15:59:44Z",
         "title": "Add precedence rules description into spec",
         "labels": [
           {
@@ -71162,17 +71234,7 @@
         "created_at": "2022-08-11T23:34:01Z",
         "closed_at": "2022-08-29T18:30:45Z",
         "title": "Reduce max binding index and make it a limit",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -71355,15 +71417,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -73065,15 +73118,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
