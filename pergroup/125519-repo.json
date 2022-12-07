@@ -8,19 +8,58 @@
     "issues": [
       {
         "state": "open",
+        "number": 3667,
+        "created_at": "2022-12-07T01:20:53Z",
+        "closed_at": null,
+        "title": "Allow bgra8unorm in pipeline layout be compatible with rgba8unorm in …",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3666,
+        "created_at": "2022-12-06T21:05:17Z",
+        "closed_at": "2022-12-06T22:48:50Z",
+        "title": "text/wgsl media type registration is a normative part of the WGSL spec.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3665,
         "created_at": "2022-12-06T02:40:05Z",
         "closed_at": null,
         "title": "begin pass: only generate error on incorrect state",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -136,10 +175,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3659,
         "created_at": "2022-12-05T20:37:55Z",
-        "closed_at": null,
+        "closed_at": "2022-12-07T01:11:20Z",
         "title": "Add integer overloads for sign builtin function",
         "labels": [
           {
@@ -156,10 +195,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3658,
         "created_at": "2022-12-05T20:32:21Z",
-        "closed_at": null,
+        "closed_at": "2022-12-07T01:11:21Z",
         "title": "wgsl: add sign builtin function on integer scalar and vector",
         "labels": [
           {
@@ -281,17 +320,7 @@
         "created_at": "2022-11-30T19:38:45Z",
         "closed_at": "2022-12-01T00:06:01Z",
         "title": "Reduce query set count limit to 4096",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -799,17 +828,7 @@
         "created_at": "2022-11-22T22:19:19Z",
         "closed_at": "2022-12-01T00:07:48Z",
         "title": "Fix issues in pass end() validation",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2960,13 +2979,13 @@
         "title": "Reject create*PipelineAsync on failure",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
           },
           {
             "id": 4278373239,
@@ -5401,15 +5420,6 @@
             "color": "91f285",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -7008,6 +7018,15 @@
             "color": "E99695",
             "default": false,
             "description": "Editors may be able to resolve and move to tacit resolution queue"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -7272,17 +7291,7 @@
         "created_at": "2022-08-11T01:39:00Z",
         "closed_at": "2022-08-25T01:26:29Z",
         "title": "When source usability is bad, error asynchronously",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -7643,7 +7652,17 @@
         "created_at": "2022-08-09T00:39:41Z",
         "closed_at": null,
         "title": "createPipelineAsync() doesn't reject its promise, even if the created pipeline is invalid",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -10826,15 +10845,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -15041,15 +15051,6 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -18486,17 +18487,7 @@
         "created_at": "2022-05-09T23:24:52Z",
         "closed_at": "2022-05-20T20:16:52Z",
         "title": "Move \"expire stale external textures\" slightly earlier",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -18526,17 +18517,7 @@
         "created_at": "2022-05-09T23:08:35Z",
         "closed_at": "2022-05-16T22:08:56Z",
         "title": "Change GPUError to a base class instead of a union",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -19943,6 +19924,15 @@
             "color": "F9C9FF",
             "default": false,
             "description": "Issue the Internationalization Group has raised and looks for a response on."
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -27654,17 +27644,7 @@
         "created_at": "2021-11-13T02:09:44Z",
         "closed_at": "2022-02-18T00:14:25Z",
         "title": "Extend lifetime of GPUExternalTexture imported from video element",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "kainino0x",
         "isPullRequest": true
       },
@@ -31206,10 +31186,10 @@
         "isPullRequest": true
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 2083,
         "created_at": "2021-09-02T11:24:29Z",
-        "closed_at": "2021-11-24T23:57:06Z",
+        "closed_at": null,
         "title": "Spec the texture-compression-etc and texture-compression-astc extensions",
         "labels": [
           {
@@ -31220,9 +31200,18 @@
             "color": "84b6eb",
             "default": true,
             "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": "kdashg",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -64472,19 +64461,58 @@
     "issues": [
       {
         "state": "open",
+        "number": 3667,
+        "created_at": "2022-12-07T01:20:53Z",
+        "closed_at": null,
+        "title": "Allow bgra8unorm in pipeline layout be compatible with rgba8unorm in …",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3666,
+        "created_at": "2022-12-06T21:05:17Z",
+        "closed_at": "2022-12-06T22:48:50Z",
+        "title": "text/wgsl media type registration is a normative part of the WGSL spec.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 3665,
         "created_at": "2022-12-06T02:40:05Z",
         "closed_at": null,
         "title": "begin pass: only generate error on incorrect state",
         "labels": [
           {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
+            "id": 3723631102,
+            "node_id": "LA_kwDOBNvGe87d8hn-",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
+            "name": "tacit resolution queue",
+            "color": "f9d0c4",
             "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
+            "description": "Editors have agreed and intend to land if no feedback is given"
           }
         ],
         "assignee": null,
@@ -64600,10 +64628,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3659,
         "created_at": "2022-12-05T20:37:55Z",
-        "closed_at": null,
+        "closed_at": "2022-12-07T01:11:20Z",
         "title": "Add integer overloads for sign builtin function",
         "labels": [
           {
@@ -64620,10 +64648,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3658,
         "created_at": "2022-12-05T20:32:21Z",
-        "closed_at": null,
+        "closed_at": "2022-12-07T01:11:21Z",
         "title": "wgsl: add sign builtin function on integer scalar and vector",
         "labels": [
           {
@@ -64745,17 +64773,7 @@
         "created_at": "2022-11-30T19:38:45Z",
         "closed_at": "2022-12-01T00:06:01Z",
         "title": "Reduce query set count limit to 4096",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -65263,17 +65281,7 @@
         "created_at": "2022-11-22T22:19:19Z",
         "closed_at": "2022-12-01T00:07:48Z",
         "title": "Fix issues in pass end() validation",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -67424,13 +67432,13 @@
         "title": "Reject create*PipelineAsync on failure",
         "labels": [
           {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
             "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
+            "description": ""
           },
           {
             "id": 4278373239,
@@ -69865,15 +69873,6 @@
             "color": "91f285",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -71472,6 +71471,15 @@
             "color": "E99695",
             "default": false,
             "description": "Editors may be able to resolve and move to tacit resolution queue"
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -71736,17 +71744,7 @@
         "created_at": "2022-08-11T01:39:00Z",
         "closed_at": "2022-08-25T01:26:29Z",
         "title": "When source usability is bad, error asynchronously",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -72107,7 +72105,17 @@
         "created_at": "2022-08-09T00:39:41Z",
         "closed_at": null,
         "title": "createPipelineAsync() doesn't reject its promise, even if the created pipeline is invalid",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -75290,15 +75298,6 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
             "name": "editorial",
             "color": "c2e0c6",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
             "default": false,
             "description": ""
           }
@@ -79505,15 +79504,6 @@
             "color": "c2e0c6",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": null,
@@ -82950,17 +82940,7 @@
         "created_at": "2022-05-09T23:24:52Z",
         "closed_at": "2022-05-20T20:16:52Z",
         "title": "Move \"expire stale external textures\" slightly earlier",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -82990,17 +82970,7 @@
         "created_at": "2022-05-09T23:08:35Z",
         "closed_at": "2022-05-16T22:08:56Z",
         "title": "Change GPUError to a base class instead of a union",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -84407,6 +84377,15 @@
             "color": "F9C9FF",
             "default": false,
             "description": "Issue the Internationalization Group has raised and looks for a response on."
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -92118,17 +92097,7 @@
         "created_at": "2021-11-13T02:09:44Z",
         "closed_at": "2022-02-18T00:14:25Z",
         "title": "Extend lifetime of GPUExternalTexture imported from video element",
-        "labels": [
-          {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "kainino0x",
         "isPullRequest": true
       },
@@ -95670,10 +95639,10 @@
         "isPullRequest": true
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 2083,
         "created_at": "2021-09-02T11:24:29Z",
-        "closed_at": "2021-11-24T23:57:06Z",
+        "closed_at": null,
         "title": "Spec the texture-compression-etc and texture-compression-astc extensions",
         "labels": [
           {
@@ -95684,9 +95653,18 @@
             "color": "84b6eb",
             "default": true,
             "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/editorial",
+            "name": "editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": "kdashg",
+        "assignee": null,
         "isPullRequest": false
       },
       {
