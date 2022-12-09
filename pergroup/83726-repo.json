@@ -7,11 +7,31 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 178,
+        "created_at": "2022-12-08T15:24:27Z",
+        "closed_at": "2022-12-08T18:16:06Z",
+        "title": "fix broken link to html aam",
+        "labels": [
+          {
+            "id": 1179400818,
+            "node_id": "MDU6TGFiZWwxMTc5NDAwODE4",
+            "url": "https://api.github.com/repos/w3c/accname/labels/editorial",
+            "name": "editorial",
+            "color": "60ed44",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 177,
         "created_at": "2022-12-06T21:01:07Z",
         "closed_at": null,
-        "title": "Add note to clarify lack of support for self-referencing with aria-describedby",
+        "title": "Clarify description computation for aria-describedby",
         "labels": [],
         "assignee": "adampage",
         "isPullRequest": true
@@ -1990,10 +2010,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 155,
         "created_at": "2022-12-07T02:31:21Z",
-        "closed_at": null,
+        "closed_at": "2022-12-08T19:22:30Z",
         "title": "describing the privacy threat of disclosure of use of assistive technology",
         "labels": [
           {
@@ -2006,7 +2026,7 @@
             "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
           }
         ],
-        "assignee": null,
+        "assignee": "cookiecrook",
         "isPullRequest": false
       },
       {
@@ -4464,6 +4484,63 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 448,
+        "created_at": "2022-12-08T15:08:01Z",
+        "closed_at": null,
+        "title": "Clarification: label element and for attribute",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 447,
+        "created_at": "2022-12-07T08:12:20Z",
+        "closed_at": null,
+        "title": "Broken references in HTML Accessibility API Mappings 1.0",
+        "labels": [
+          {
+            "id": 452880583,
+            "node_id": "MDU6TGFiZWw0NTI4ODA1ODM=",
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 799767601,
+            "node_id": "MDU6TGFiZWw3OTk3Njc2MDE=",
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/editorial",
+            "name": "editorial",
+            "color": "15d66f",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 1370733439,
+            "node_id": "MDU6TGFiZWwxMzcwNzMzNDM5",
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "0E8A16",
+            "default": true,
+            "description": ""
+          },
+          {
+            "id": 1466174561,
+            "node_id": "MDU6TGFiZWwxNDY2MTc0NTYx",
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/spec%20chore",
+            "name": "spec chore",
+            "color": "f7d7a8",
+            "default": false,
+            "description": "for issues that are directly related to the rendering of the spec"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 446,
@@ -10135,6 +10212,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 1853,
+        "created_at": "2022-12-08T19:09:19Z",
+        "closed_at": null,
+        "title": "Clarify use case for aria-rowindex on cell/gridcell elements",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1852,
         "created_at": "2022-12-07T00:27:07Z",
         "closed_at": null,
@@ -10149,8 +10236,18 @@
         "created_at": "2022-12-04T17:53:03Z",
         "closed_at": null,
         "title": "Mismatch between acessibility tree inclusion criteria and implementations",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          }
+        ],
+        "assignee": "cookiecrook",
         "isPullRequest": false
       },
       {
@@ -10254,10 +10351,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1840,
         "created_at": "2022-10-25T20:07:31Z",
-        "closed_at": null,
+        "closed_at": "2022-12-07T19:00:56Z",
         "title": "Extend role rowheader & row",
         "labels": [],
         "assignee": "chlane",
@@ -10489,7 +10586,7 @@
             "description": "Needs an additional automated test via WPT computedLabel(), computedRole(), or other methods."
           }
         ],
-        "assignee": "jnurthen",
+        "assignee": "spectranaut",
         "isPullRequest": false
       },
       {
@@ -27484,23 +27581,13 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 630,
         "created_at": "2017-08-09T23:05:23Z",
-        "closed_at": null,
+        "closed_at": "2022-12-08T18:36:29Z",
         "title": "Consider the future of aria-flowto",
-        "labels": [
-          {
-            "id": 2044231616,
-            "node_id": "MDU6TGFiZWwyMDQ0MjMxNjE2",
-            "url": "https://api.github.com/repos/w3c/aria/labels/deep-dive",
-            "name": "deep-dive",
-            "color": "4ee061",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": null,
+        "labels": [],
+        "assignee": "cookiecrook",
         "isPullRequest": false
       },
       {
