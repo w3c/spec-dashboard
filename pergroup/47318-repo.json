@@ -8522,6 +8522,46 @@
     "issues": [
       {
         "state": "closed",
+        "number": 920,
+        "created_at": "2022-12-15T22:14:30Z",
+        "closed_at": "2022-12-15T22:15:54Z",
+        "title": "Remove duplicate text",
+        "labels": [
+          {
+            "id": 151898314,
+            "node_id": "MDU6TGFiZWwxNTE4OTgzMTQ=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 919,
+        "created_at": "2022-12-15T21:57:33Z",
+        "closed_at": null,
+        "title": "Replace use of browsing context with modern constructs.",
+        "labels": [
+          {
+            "id": 151898314,
+            "node_id": "MDU6TGFiZWwxNTE4OTgzMTQ=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 918,
         "created_at": "2022-12-12T00:10:53Z",
         "closed_at": "2022-12-14T09:02:16Z",
@@ -8599,10 +8639,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 914,
         "created_at": "2022-11-03T16:41:05Z",
-        "closed_at": null,
+        "closed_at": "2022-12-15T22:15:55Z",
         "title": "Duplicate text in \"Media Flow\" subsection",
         "labels": [
           {
@@ -8624,17 +8664,37 @@
         "created_at": "2022-10-31T09:35:45Z",
         "closed_at": null,
         "title": "Check if we use \"Browsing Context\" in our specs",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 151898314,
+            "node_id": "MDU6TGFiZWwxNTE4OTgzMTQ=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 912,
         "created_at": "2022-10-27T21:32:23Z",
-        "closed_at": null,
+        "closed_at": "2022-12-15T20:04:02Z",
         "title": "Allow gUM prompt ahead of focus + deterministic \"visible\" enumeration wo/focus",
-        "labels": [],
+        "labels": [
+          {
+            "id": 156531721,
+            "node_id": "MDU6TGFiZWwxNTY1MzE3MjE=",
+            "url": "https://api.github.com/repos/w3c/mediacapture-main/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "0052cc",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -8649,10 +8709,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 911,
         "created_at": "2022-10-19T17:42:50Z",
-        "closed_at": null,
+        "closed_at": "2022-12-15T22:26:20Z",
         "title": "When device is in use, enumerateDevices() does not show alternatives",
         "labels": [],
         "assignee": null,
@@ -11426,10 +11486,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 752,
         "created_at": "2020-11-22T01:56:41Z",
-        "closed_at": null,
+        "closed_at": "2022-12-15T20:04:03Z",
         "title": "Broken foreground detection",
         "labels": [],
         "assignee": "jan-ivar",
@@ -30839,7 +30899,7 @@
         "number": 165,
         "created_at": "2022-11-29T11:03:50Z",
         "closed_at": null,
-        "title": "make generateKeyFrame take a list of rids and return undefined",
+        "title": "make generateKeyFrame take a list of rids and return a promise<undefined>",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
