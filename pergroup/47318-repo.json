@@ -33520,6 +33520,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 101,
+        "created_at": "2023-01-24T23:33:35Z",
+        "closed_at": null,
+        "title": "Introducing app content-decisions at the encoded video level isn't webby",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 100,
+        "created_at": "2023-01-24T23:31:53Z",
+        "closed_at": null,
+        "title": "Live encoded non-WebRTC media use case not compelling",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 99,
         "created_at": "2023-01-20T23:11:01Z",
         "closed_at": null,
@@ -46824,12 +46844,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 76,
         "created_at": "2023-01-18T18:54:38Z",
-        "closed_at": null,
+        "closed_at": "2023-01-25T02:50:00Z",
         "title": "Remove extension to getCapabilities() in favour of MediaCapabilities",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5075863858,
+            "node_id": "LA_kwDOCWdvt88AAAABLouJMg",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Needs a Test"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -47274,22 +47304,22 @@
         "title": "SVC getCapabilities() is redundant with Media Capabilities query",
         "labels": [
           {
-            "id": 3538068628,
-            "node_id": "LA_kwDOCWdvt87S4qSU",
-            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/CR-blocking",
-            "name": "CR-blocking",
+            "id": 1366411784,
+            "node_id": "MDU6TGFiZWwxMzY2NDExNzg0",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/PR%20exists",
+            "name": "PR exists",
             "color": "b60205",
             "default": false,
             "description": ""
           },
           {
-            "id": 4464329684,
-            "node_id": "LA_kwDOCWdvt88AAAABChhD1A",
-            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/TPAC%202022",
-            "name": "TPAC 2022",
-            "color": "fef2c0",
+            "id": 5075863858,
+            "node_id": "LA_kwDOCWdvt88AAAABLouJMg",
+            "url": "https://api.github.com/repos/w3c/webrtc-svc/labels/Needs%20Test",
+            "name": "Needs Test",
+            "color": "c2e0c6",
             "default": false,
-            "description": ""
+            "description": "Needs a Test"
           }
         ],
         "assignee": null,
@@ -47634,10 +47664,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 22,
         "created_at": "2019-10-15T20:32:53Z",
-        "closed_at": null,
+        "closed_at": "2023-01-25T02:50:01Z",
         "title": "`getCapabilities` seems to leak hardware capabilities w/o a permission",
         "labels": [
           {
