@@ -857,6 +857,46 @@
     "issues": [
       {
         "state": "open",
+        "number": 1038,
+        "created_at": "2023-02-13T18:15:54Z",
+        "closed_at": null,
+        "title": "Query on HashLinks",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1037,
+        "created_at": "2023-02-13T16:51:44Z",
+        "closed_at": null,
+        "title": "`nonTransferable` property in v2.0?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1036,
+        "created_at": "2023-02-13T09:40:35Z",
+        "closed_at": null,
+        "title": "Broken link in 1.0 data integrity section",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1035,
         "created_at": "2023-02-13T03:22:26Z",
         "closed_at": null,
@@ -900,7 +940,7 @@
         "number": 1031,
         "created_at": "2023-02-10T15:09:21Z",
         "closed_at": null,
-        "title": "Make `credential.id` & `presentation.id` REQUIRED.",
+        "title": "Make `verifiable-credential.id` & `verifiable-presentation.id` REQUIRED.",
         "labels": [],
         "assignee": "OR13",
         "isPullRequest": false
@@ -1030,6 +1070,15 @@
             "color": "e086c9",
             "default": true,
             "description": ""
+          },
+          {
+            "id": 5150313785,
+            "node_id": "LA_kwDOBGbiEc8AAAABMvuNOQ",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/refresh",
+            "name": "refresh",
+            "color": "52333B",
+            "default": false,
+            "description": "related to refreshService"
           }
         ],
         "assignee": null,
@@ -1061,7 +1110,17 @@
         "created_at": "2023-01-24T20:38:30Z",
         "closed_at": null,
         "title": "Requesting content type for presentation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5150040011,
+            "node_id": "LA_kwDOBGbiEc8AAAABMvdfyw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/media-type",
+            "name": "media-type",
+            "color": "F9F74B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1098,6 +1157,15 @@
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/discuss",
             "name": "discuss",
             "color": "E13AF3",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5150040011,
+            "node_id": "LA_kwDOBGbiEc8AAAABMvdfyw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/media-type",
+            "name": "media-type",
+            "color": "F9F74B",
             "default": false,
             "description": ""
           }
@@ -1477,6 +1545,15 @@
             "color": "E13AF3",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 5150324622,
+            "node_id": "LA_kwDOBGbiEc8AAAABMvu3jg",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/status",
+            "name": "status",
+            "color": "F4942F",
+            "default": false,
+            "description": "related to credentialStatus"
           }
         ],
         "assignee": null,
@@ -1503,10 +1580,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 989,
         "created_at": "2022-12-03T11:31:01Z",
-        "closed_at": null,
+        "closed_at": "2023-02-13T17:12:01Z",
         "title": "Section 3.2 Credentials makes confusing statements about what a \"credential\" is",
         "labels": [
           {
@@ -1640,10 +1717,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 983,
         "created_at": "2022-11-28T07:37:25Z",
-        "closed_at": null,
+        "closed_at": "2023-02-13T16:33:51Z",
         "title": "Terminology needs to be revised",
         "labels": [
           {
@@ -1712,6 +1789,15 @@
             "color": "e086c9",
             "default": true,
             "description": ""
+          },
+          {
+            "id": 5150313785,
+            "node_id": "LA_kwDOBGbiEc8AAAABMvuNOQ",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/refresh",
+            "name": "refresh",
+            "color": "52333B",
+            "default": false,
+            "description": "related to refreshService"
           }
         ],
         "assignee": null,
@@ -2902,6 +2988,15 @@
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/conversation",
             "name": "conversation",
             "color": "4A0EF9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4903170043,
+            "node_id": "LA_kwDOBGbiEc8AAAABJEBv-w",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/terminology",
+            "name": "terminology",
+            "color": "BFD1AE",
             "default": false,
             "description": ""
           }
@@ -6836,10 +6931,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 731,
         "created_at": "2019-12-26T11:35:34Z",
-        "closed_at": null,
+        "closed_at": "2023-02-13T16:52:48Z",
         "title": "`notTransferable` property not defined in `@context`",
         "labels": [
           {
