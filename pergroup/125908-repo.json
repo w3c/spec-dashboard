@@ -8,6 +8,46 @@
     "issues": [
       {
         "state": "open",
+        "number": 485,
+        "created_at": "2023-03-02T05:32:12Z",
+        "closed_at": null,
+        "title": "Networking privacy considerations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 484,
+        "created_at": "2023-03-01T18:12:21Z",
+        "closed_at": null,
+        "title": "Add sendRateEstimate to getStats()",
+        "labels": [
+          {
+            "id": 2444295339,
+            "node_id": "MDU6TGFiZWwyNDQ0Mjk1MzM5",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "b2f9a2",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "pthatcher",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 483,
+        "created_at": "2023-03-01T18:11:49Z",
+        "closed_at": null,
+        "title": "Revert ratecontrol PR based on conclusion to put it in getStats()",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 482,
         "created_at": "2023-02-28T22:06:30Z",
         "closed_at": null,
@@ -27,10 +67,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 481,
         "created_at": "2023-02-27T23:18:25Z",
-        "closed_at": null,
+        "closed_at": "2023-03-01T18:16:33Z",
         "title": "Final API shape of rate control feedback",
         "labels": [],
         "assignee": null,
@@ -42,15 +82,25 @@
         "created_at": "2023-02-24T21:27:38Z",
         "closed_at": null,
         "title": "The spec should make it clear that BYOB readers are not supported for Datagrams",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 2444295339,
+            "node_id": "MDU6TGFiZWwyNDQ0Mjk1MzM5",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Ready%20for%20PR",
+            "name": "Ready for PR",
+            "color": "b2f9a2",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "nidhijaju",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 479,
         "created_at": "2023-02-23T06:31:02Z",
-        "closed_at": null,
+        "closed_at": "2023-03-01T18:23:12Z",
         "title": "HTTP/2 might be reliable(-only), but datagrams aren't",
         "labels": [],
         "assignee": null,
@@ -62,15 +112,25 @@
         "created_at": "2023-02-23T04:43:26Z",
         "closed_at": null,
         "title": "Rate control privacy considerations",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2496219588,
+            "node_id": "MDU6TGFiZWwyNDk2MjE5NTg4",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Editorial",
+            "name": "Editorial",
+            "color": "f7cfa5",
+            "default": false,
+            "description": "This is an editorial PR that can be merged by editors without discussion"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 477,
         "created_at": "2023-02-23T00:03:09Z",
-        "closed_at": null,
+        "closed_at": "2023-03-01T18:28:56Z",
         "title": "[[sendRate]] is uninitialized",
         "labels": [
           {
@@ -97,10 +157,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 475,
         "created_at": "2023-02-22T23:09:22Z",
-        "closed_at": null,
+        "closed_at": "2023-03-01T18:29:33Z",
         "title": "rateControlFeedbackMinInterval is unused",
         "labels": [],
         "assignee": null,
@@ -157,20 +217,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 471,
         "created_at": "2023-02-14T15:53:26Z",
-        "closed_at": null,
+        "closed_at": "2023-03-01T18:13:11Z",
         "title": "Congestion control event with no sub-object",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 470,
         "created_at": "2023-02-14T15:39:30Z",
-        "closed_at": null,
+        "closed_at": "2023-03-01T18:12:46Z",
         "title": "Congestion control event with everything in WebTranspsort.rateControlFeedback.",
         "labels": [],
         "assignee": null,
@@ -984,18 +1044,9 @@
             "color": "b2f9a2",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 2589194877,
-            "node_id": "MDU6TGFiZWwyNTg5MTk0ODc3",
-            "url": "https://api.github.com/repos/w3c/webtransport/labels/Discuss%20at%20next%20meeting",
-            "name": "Discuss at next meeting",
-            "color": "bfd4f2",
-            "default": false,
-            "description": "Flags an issue to be discussed at the next WG working"
           }
         ],
-        "assignee": null,
+        "assignee": "jan-ivar",
         "isPullRequest": false
       },
       {
