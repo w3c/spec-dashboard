@@ -8,6 +8,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 491,
+        "created_at": "2023-03-14T15:46:39Z",
+        "closed_at": null,
+        "title": "RESET_STREAM handling",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 490,
+        "created_at": "2023-03-14T04:49:03Z",
+        "closed_at": "2023-03-14T15:49:03Z",
+        "title": "RESET_STREAM handling",
+        "labels": [
+          {
+            "id": 2496219588,
+            "node_id": "MDU6TGFiZWwyNDk2MjE5NTg4",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Editorial",
+            "name": "Editorial",
+            "color": "f7cfa5",
+            "default": false,
+            "description": "This is an editorial PR that can be merged by editors without discussion"
+          }
+        ],
+        "assignee": "aboba",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 489,
         "created_at": "2023-03-10T10:32:10Z",
         "closed_at": null,
@@ -37,10 +67,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 486,
         "created_at": "2023-03-03T09:18:25Z",
-        "closed_at": null,
+        "closed_at": "2023-03-14T14:41:48Z",
         "title": "Editorial reference updates",
         "labels": [
           {
@@ -97,11 +127,11 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 482,
         "created_at": "2023-02-28T22:06:30Z",
-        "closed_at": null,
-        "title": "Receiving a DRAIN_WEBTRANSPORT_SESSION capsule",
+        "closed_at": "2023-03-14T14:37:59Z",
+        "title": "Receiving a GOAWAY frame or DRAIN_WEBTRANSPORT_SESSION capsule",
         "labels": [
           {
             "id": 2746590681,
@@ -131,16 +161,16 @@
         "number": 480,
         "created_at": "2023-02-24T21:27:38Z",
         "closed_at": null,
-        "title": "The spec should make it clear that BYOB readers are not supported for Datagrams",
+        "title": "Clarify whether spec supports BYOB readers for Datagrams",
         "labels": [
           {
-            "id": 2444295339,
-            "node_id": "MDU6TGFiZWwyNDQ0Mjk1MzM5",
-            "url": "https://api.github.com/repos/w3c/webtransport/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "b2f9a2",
+            "id": 4851035802,
+            "node_id": "LA_kwDOCtXr5s8AAAABISTumg",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "0e8a16",
             "default": false,
-            "description": ""
+            "description": "A PR exists for this issue"
           }
         ],
         "assignee": "nidhijaju",
@@ -570,15 +600,6 @@
         "title": "serverCertificateHashes",
         "labels": [
           {
-            "id": 2444295339,
-            "node_id": "MDU6TGFiZWwyNDQ0Mjk1MzM5",
-            "url": "https://api.github.com/repos/w3c/webtransport/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "b2f9a2",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 2496219588,
             "node_id": "MDU6TGFiZWwyNDk2MjE5NTg4",
             "url": "https://api.github.com/repos/w3c/webtransport/labels/Editorial",
@@ -586,6 +607,15 @@
             "color": "f7cfa5",
             "default": false,
             "description": "This is an editorial PR that can be merged by editors without discussion"
+          },
+          {
+            "id": 4851035802,
+            "node_id": "LA_kwDOCtXr5s8AAAABISTumg",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "0e8a16",
+            "default": false,
+            "description": "A PR exists for this issue"
           }
         ],
         "assignee": "nidhijaju",
@@ -981,10 +1011,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 432,
         "created_at": "2022-11-04T01:02:46Z",
-        "closed_at": null,
+        "closed_at": "2023-03-14T14:38:01Z",
         "title": "Draining WebTransport connections",
         "labels": [
           {
@@ -1177,15 +1207,6 @@
         "title": "Question: Partial Reliability",
         "labels": [
           {
-            "id": 2444295339,
-            "node_id": "MDU6TGFiZWwyNDQ0Mjk1MzM5",
-            "url": "https://api.github.com/repos/w3c/webtransport/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "b2f9a2",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 2496219588,
             "node_id": "MDU6TGFiZWwyNDk2MjE5NTg4",
             "url": "https://api.github.com/repos/w3c/webtransport/labels/Editorial",
@@ -1193,6 +1214,15 @@
             "color": "f7cfa5",
             "default": false,
             "description": "This is an editorial PR that can be merged by editors without discussion"
+          },
+          {
+            "id": 4851035802,
+            "node_id": "LA_kwDOCtXr5s8AAAABISTumg",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "0e8a16",
+            "default": false,
+            "description": "A PR exists for this issue"
           }
         ],
         "assignee": "aboba",
@@ -2247,6 +2277,15 @@
             "color": "f7cfa5",
             "default": false,
             "description": "This is an editorial PR that can be merged by editors without discussion"
+          },
+          {
+            "id": 4851035802,
+            "node_id": "LA_kwDOCtXr5s8AAAABISTumg",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "0e8a16",
+            "default": false,
+            "description": "A PR exists for this issue"
           }
         ],
         "assignee": "nidhijaju",
