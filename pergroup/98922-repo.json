@@ -937,6 +937,76 @@
     "issues": [
       {
         "state": "open",
+        "number": 1079,
+        "created_at": "2023-04-05T15:09:16Z",
+        "closed_at": null,
+        "title": "Correct media type to be vc+ld+json",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1078,
+        "created_at": "2023-04-05T07:25:51Z",
+        "closed_at": null,
+        "title": "Change the domain statement of \"holder\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1077,
+        "created_at": "2023-04-05T06:40:18Z",
+        "closed_at": null,
+        "title": "Remove normative statements from vocab",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1076,
+        "created_at": "2023-04-04T15:53:10Z",
+        "closed_at": null,
+        "title": "Remove \"holder\" from \"VerifiableCredential\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1075,
+        "created_at": "2023-04-03T20:55:41Z",
+        "closed_at": null,
+        "title": "Rephrase confusing `externally linked content`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1074,
+        "created_at": "2023-03-31T12:07:54Z",
+        "closed_at": null,
+        "title": "Verifiable Credentials Vocabulary v2.0 not contains \"name\" and \"description\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1073,
+        "created_at": "2023-03-31T04:23:24Z",
+        "closed_at": null,
+        "title": "fix name id",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1072,
         "created_at": "2023-03-26T08:45:09Z",
         "closed_at": null,
@@ -1262,10 +1332,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1051,
         "created_at": "2023-02-17T16:29:49Z",
-        "closed_at": null,
+        "closed_at": "2023-04-03T18:51:50Z",
         "title": "Add warning related to protecting integrity of @context",
         "labels": [],
         "assignee": null,
@@ -1317,7 +1387,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -1427,7 +1497,7 @@
             "description": "Issues related to holder binding"
           }
         ],
-        "assignee": null,
+        "assignee": "awoie",
         "isPullRequest": false
       },
       {
@@ -1538,10 +1608,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1036,
         "created_at": "2023-02-13T09:40:35Z",
-        "closed_at": null,
+        "closed_at": "2023-04-04T15:58:47Z",
         "title": "Broken link in 1.0 data integrity section",
         "labels": [
           {
@@ -1554,7 +1624,7 @@
             "description": "Purely editorial changes to the specification."
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -1746,10 +1816,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1024,
         "created_at": "2023-02-01T15:43:38Z",
-        "closed_at": null,
+        "closed_at": "2023-04-03T19:00:19Z",
         "title": "Forbid expanded JSON-LD in `application/credential+ld+json`",
         "labels": [
           {
@@ -1860,7 +1930,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "Sakurann",
         "isPullRequest": false
       },
       {
@@ -1891,6 +1961,15 @@
         "title": "Requesting content type for presentation",
         "labels": [
           {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
             "id": 5150040011,
             "node_id": "LA_kwDOBGbiEc8AAAABMvdfyw",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/media-type",
@@ -1900,7 +1979,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -2036,9 +2115,18 @@
             "color": "4A0EF9",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 5261844109,
+            "node_id": "LA_kwDOBGbiEc8AAAABOaFejQ",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/directory",
+            "name": "directory",
+            "color": "9DC6F3",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "longpd",
         "isPullRequest": false
       },
       {
@@ -2049,6 +2137,24 @@
         "title": "Clarifying credential from verifiable credential",
         "labels": [
           {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
             "id": 4903170043,
             "node_id": "LA_kwDOBGbiEc8AAAABJEBv-w",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/terminology",
@@ -2058,7 +2164,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -2068,6 +2174,15 @@
         "closed_at": null,
         "title": "Remove 3-party Issuer-Holder-Verifier diagram and replace with 2-party Raw Credential Sender-Receiver Model",
         "labels": [
+          {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
           {
             "id": 4885507196,
             "node_id": "LA_kwDOBGbiEc8AAAABIzLsfA",
@@ -2082,12 +2197,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1007,
         "created_at": "2023-01-11T18:47:20Z",
-        "closed_at": null,
+        "closed_at": "2023-04-05T15:01:47Z",
         "title": "Breaking changes to IRIs in JSON-LD Context",
         "labels": [
+          {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
           {
             "id": 4366401593,
             "node_id": "LA_kwDOBGbiEc8AAAABBEIAOQ",
@@ -2275,7 +2399,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "dmitrizagidulin",
         "isPullRequest": false
       },
       {
@@ -2354,7 +2478,7 @@
             "description": "related to credentialStatus"
           }
         ],
-        "assignee": null,
+        "assignee": "David-Chadwick",
         "isPullRequest": false
       },
       {
@@ -2432,7 +2556,7 @@
             "description": "Issues related to holder binding"
           }
         ],
-        "assignee": null,
+        "assignee": "awoie",
         "isPullRequest": false
       },
       {
@@ -2472,6 +2596,15 @@
         "title": "Separation of Cryptographic Verification from Business Process (and Semantic) Validation",
         "labels": [
           {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
+          {
             "id": 4885507196,
             "node_id": "LA_kwDOBGbiEc8AAAABIzLsfA",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/conversation",
@@ -2491,6 +2624,15 @@
         "closed_at": null,
         "title": "Enable CBOR Representation(s) of Verifiable Credentials",
         "labels": [
+          {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
           {
             "id": 4366401593,
             "node_id": "LA_kwDOBGbiEc8AAAABBEIAOQ",
@@ -2599,6 +2741,15 @@
             "description": "Purely editorial changes to the specification."
           },
           {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
             "id": 1278994877,
             "node_id": "MDU6TGFiZWwxMjc4OTk0ODc3",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/question",
@@ -2617,7 +2768,7 @@
             "description": "related to refreshService"
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -2864,6 +3015,15 @@
         "title": "In Example 1, `value` and `lang` are not aliased to `@value` and `@language`",
         "labels": [
           {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
             "id": 1703607833,
             "node_id": "MDU6TGFiZWwxNzAzNjA3ODMz",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/PossibleErratum",
@@ -2871,18 +3031,9 @@
             "color": "2a4d99",
             "default": false,
             "description": "WG should determine if this is Errata"
-          },
-          {
-            "id": 4366401593,
-            "node_id": "LA_kwDOBGbiEc8AAAABBEIAOQ",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/discuss",
-            "name": "discuss",
-            "color": "E13AF3",
-            "default": false,
-            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -2943,6 +3094,15 @@
         "title": "IEEE Ontology Standards Working Group Credential Example",
         "labels": [
           {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
+          {
             "id": 4885507196,
             "node_id": "LA_kwDOBGbiEc8AAAABIzLsfA",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/conversation",
@@ -2982,7 +3142,7 @@
             "description": "Issues related to holder binding"
           }
         ],
-        "assignee": null,
+        "assignee": "David-Chadwick",
         "isPullRequest": false
       },
       {
@@ -2993,6 +3153,15 @@
         "title": "Clarification needed on the ease of deducing that a subject is the holder.",
         "labels": [
           {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
             "id": 4753920293,
             "node_id": "LA_kwDOBGbiEc8AAAABG1sRJQ",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/holder-binding",
@@ -3002,7 +3171,7 @@
             "description": "Issues related to holder binding"
           }
         ],
-        "assignee": null,
+        "assignee": "OR13",
         "isPullRequest": false
       },
       {
@@ -3035,10 +3204,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 956,
         "created_at": "2022-10-24T23:52:48Z",
-        "closed_at": null,
+        "closed_at": "2023-04-04T13:56:44Z",
         "title": "Protecting integrity of `@context`",
         "labels": [
           {
@@ -3170,14 +3339,14 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "brentzundel",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 948,
         "created_at": "2022-10-11T17:35:58Z",
-        "closed_at": null,
+        "closed_at": "2023-04-04T13:55:55Z",
         "title": "Limit JSON-LD optionality to enhance developer experience",
         "labels": [
           {
@@ -3253,10 +3422,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 945,
         "created_at": "2022-10-11T01:51:35Z",
-        "closed_at": null,
+        "closed_at": "2023-04-03T14:56:54Z",
         "title": "Some questions about implementation: URIs and verificationMethod",
         "labels": [
           {
@@ -3317,7 +3486,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "awoie",
         "isPullRequest": false
       },
       {
@@ -3377,7 +3546,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "David-Chadwick",
         "isPullRequest": false
       },
       {
@@ -3801,6 +3970,15 @@
         "title": "Address `controller` ambiguity",
         "labels": [
           {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
             "id": 4885507196,
             "node_id": "LA_kwDOBGbiEc8AAAABIzLsfA",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/conversation",
@@ -3912,11 +4090,11 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 909,
         "created_at": "2022-08-16T19:53:07Z",
-        "closed_at": null,
-        "title": "Define policies for directory of a related work",
+        "closed_at": "2023-04-04T13:53:40Z",
+        "title": "Define policies for directory of related work",
         "labels": [
           {
             "id": 974913848,
@@ -3948,7 +4126,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "Sakurann",
         "isPullRequest": false
       },
       {
@@ -4056,7 +4234,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "awoie",
         "isPullRequest": false
       },
       {
@@ -4207,13 +4385,13 @@
         "title": "add claims metadata (how the identity claims were assured and how they are maintained)",
         "labels": [
           {
-            "id": 4366401593,
-            "node_id": "LA_kwDOBGbiEc8AAAABBEIAOQ",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/discuss",
-            "name": "discuss",
-            "color": "E13AF3",
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
             "default": false,
-            "description": ""
+            "description": "Close if no objection within 7 days"
           },
           {
             "id": 4771564748,
@@ -4422,17 +4600,7 @@
         "created_at": "2022-06-15T19:19:18Z",
         "closed_at": null,
         "title": "`proof` in `@context` and the use of `@container`",
-        "labels": [
-          {
-            "id": 4910352785,
-            "node_id": "LA_kwDOBGbiEc8AAAABJK4JkQ",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/blocked",
-            "name": "blocked",
-            "color": "E8370A",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4592,7 +4760,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "awoie",
         "isPullRequest": false
       },
       {
@@ -4717,6 +4885,15 @@
             "color": "11e0a2",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
           }
         ],
         "assignee": "brentzundel",
@@ -5017,6 +5194,15 @@
         "title": "Include a regex for XML Date Time in the next version of the standard.",
         "labels": [
           {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
             "id": 4366401593,
             "node_id": "LA_kwDOBGbiEc8AAAABBEIAOQ",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/discuss",
@@ -5026,7 +5212,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -5448,7 +5634,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "awoie",
         "isPullRequest": false
       },
       {
@@ -6401,10 +6587,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 779,
         "created_at": "2021-05-15T06:40:25Z",
-        "closed_at": null,
+        "closed_at": "2023-04-04T12:33:15Z",
         "title": "Is a verifiable credential in JSON-LD expand form valid?",
         "labels": [
           {
@@ -19299,10 +19485,10 @@
     "recTrack": false,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 136,
         "created_at": "2023-03-27T18:12:59Z",
-        "closed_at": null,
+        "closed_at": "2023-03-31T17:07:57Z",
         "title": "Issue templates",
         "labels": [],
         "assignee": "jandrieu",
