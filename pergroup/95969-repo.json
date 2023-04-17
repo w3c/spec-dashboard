@@ -15990,6 +15990,26 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 284,
+        "created_at": "2023-04-15T21:49:21Z",
+        "closed_at": "2023-04-15T21:49:27Z",
+        "title": "Fix reference and image name",
+        "labels": [
+          {
+            "id": 1447265860,
+            "node_id": "MDU6TGFiZWwxNDQ3MjY1ODYw",
+            "url": "https://api.github.com/repos/w3c/wot-binding-templates/labels/Editorial",
+            "name": "Editorial",
+            "color": "0000ff",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 283,
         "created_at": "2023-04-12T13:19:23Z",
@@ -27595,6 +27615,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 389,
+        "created_at": "2023-04-17T07:27:26Z",
+        "closed_at": null,
+        "title": "Refine example Thing Description",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 388,
+        "created_at": "2023-04-17T07:27:15Z",
+        "closed_at": null,
+        "title": "Remove sentence: \"To minimize network traffic, the same listerner MUST NOT perform multiple subscriptions to the same listener.\" (This sentence doesn't make sense. I think you meant to to say the same consumer must not perform multiple subscriptions to the same event, but I'm not sure that's a good idea. There may be use cases where the same Consumer needs to subscribe to the same event affordance but with different authentication credentials for example. It could instead perhaps be recommended to de-duplicate event notifications to the same listener URL where possible.)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 387,
+        "created_at": "2023-04-17T07:25:57Z",
+        "closed_at": null,
+        "title": "Remove the sentence: \"Depending on the deployment scenarios and integration requirements for existing consumers, it may be required to use specific data payload formats (e.g. Cloud Events).\" (The HTTP Webhook Profile needs to define a single payload format for events in order to guarantee out-of-the-box interoperability. Compatibility with existing consumers should be a non-goal.)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 386,
         "created_at": "2023-04-07T06:22:35Z",
         "closed_at": null,
@@ -27654,12 +27704,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 383,
         "created_at": "2023-03-24T15:38:53Z",
-        "closed_at": null,
+        "closed_at": "2023-04-17T07:14:15Z",
         "title": "Specification name change to Profiles",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3790931294,
+            "node_id": "LA_kwDODDi2hM7h9QVe",
+            "url": "https://api.github.com/repos/w3c/wot-profile/labels/editorial",
+            "name": "editorial",
+            "color": "09A246",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -29544,10 +29604,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 261,
         "created_at": "2022-08-14T12:26:21Z",
-        "closed_at": null,
+        "closed_at": "2023-04-17T07:14:16Z",
         "title": "Changing name of the spec to Profiles",
         "labels": [
           {
