@@ -27615,11 +27615,51 @@
     "issues": [
       {
         "state": "open",
+        "number": 392,
+        "created_at": "2023-04-17T14:11:14Z",
+        "closed_at": null,
+        "title": "Issue 375+376 combined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 391,
+        "created_at": "2023-04-17T12:03:07Z",
+        "closed_at": null,
+        "title": "Webhook Profile: Issue 375 - rework notification section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 390,
+        "created_at": "2023-04-17T11:25:14Z",
+        "closed_at": null,
+        "title": "Improving Webhook event operations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 389,
         "created_at": "2023-04-17T07:27:26Z",
         "closed_at": null,
         "title": "Refine example Thing Description",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5399261562,
+            "node_id": "LA_kwDODDi2hM8AAAABQdIxeg",
+            "url": "https://api.github.com/repos/w3c/wot-profile/labels/example",
+            "name": "example",
+            "color": "C813D5",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -27628,7 +27668,7 @@
         "number": 388,
         "created_at": "2023-04-17T07:27:15Z",
         "closed_at": null,
-        "title": "Remove sentence: \"To minimize network traffic, the same listerner MUST NOT perform multiple subscriptions to the same listener.\" (This sentence doesn't make sense. I think you meant to to say the same consumer must not perform multiple subscriptions to the same event, but I'm not sure that's a good idea. There may be use cases where the same Consumer needs to subscribe to the same event affordance but with different authentication credentials for example. It could instead perhaps be recommended to de-duplicate event notifications to the same listener URL where possible.)",
+        "title": "Multiple subscriptions from the same consumer to the same endpoint?",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -27638,7 +27678,7 @@
         "number": 387,
         "created_at": "2023-04-17T07:25:57Z",
         "closed_at": null,
-        "title": "Remove the sentence: \"Depending on the deployment scenarios and integration requirements for existing consumers, it may be required to use specific data payload formats (e.g. Cloud Events).\" (The HTTP Webhook Profile needs to define a single payload format for events in order to guarantee out-of-the-box interoperability. Compatibility with existing consumers should be a non-goal.)",
+        "title": "Integration with CloudEvents",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -27728,7 +27768,7 @@
         "number": 382,
         "created_at": "2023-03-24T15:32:29Z",
         "closed_at": null,
-        "title": "Draft: initial draft of webhook properties section",
+        "title": "webhook properties section",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -35037,8 +35077,18 @@
         "number": 469,
         "created_at": "2023-04-03T17:19:29Z",
         "closed_at": null,
-        "title": "[WiP] Align spec with INFRA",
-        "labels": [],
+        "title": "Align spec with INFRA",
+        "labels": [
+          {
+            "id": 837191632,
+            "node_id": "MDU6TGFiZWw4MzcxOTE2MzI=",
+            "url": "https://api.github.com/repos/w3c/wot-scripting-api/labels/Editorial",
+            "name": "Editorial",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Topics purely about editing the document (i.e., typos)"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
