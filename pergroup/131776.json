@@ -1,5 +1,2903 @@
 [
-  null,
-  null,
-  null
+  {
+    "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+    "description": "<p>This document describes APIs for accessing data on the system clipboard. It provides operations for overriding the default clipboard actions (cut, copy and paste), and for directly accessing the clipboard contents.</p>",
+    "title": "Clipboard API and events",
+    "shortname": "clipboard-apis",
+    "editor-draft": "https://w3c.github.io/clipboard-apis/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/clipboard-apis"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/clipboard-apis/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/clipboard-apis/versions/20061115",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/clipboard-apis/versions/20230516",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/clipboard-apis"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/clipboard-apis/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2023/WD-clipboard-apis-20230516/",
+        "date": "2023-05-16",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20230516"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20230516/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20230516/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20230516/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2021/WD-clipboard-apis-20210806/",
+        "date": "2021-08-06",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210806"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210806/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210806/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210806/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210806/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2021/WD-clipboard-apis-20210604/",
+        "date": "2021-06-04",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210604"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210604/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210604/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210604/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210604/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2021/WD-clipboard-apis-20210525/",
+        "date": "2021-05-25",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210525"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210525/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210525/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210525/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210525/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2021/WD-clipboard-apis-20210521/",
+        "date": "2021-05-21",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210521"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210521/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210521/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210521/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210521/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2021/WD-clipboard-apis-20210203/",
+        "date": "2021-02-03",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210203/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20210203/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2020/WD-clipboard-apis-20201029/",
+        "date": "2020-10-29",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20201029"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20201029/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20201029/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20201029/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20201029/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2020/WD-clipboard-apis-20200818/",
+        "date": "2020-08-18",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200818"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200818/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200818/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200818/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200818/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2020/WD-clipboard-apis-20200721/",
+        "date": "2020-07-21",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200721"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200721/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200721/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200721/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200721/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2020/WD-clipboard-apis-20200603/",
+        "date": "2020-06-03",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200603"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200603/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200603/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200603/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20200603/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2019/WD-clipboard-apis-20190605/",
+        "date": "2019-06-05",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190605"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190605/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190605/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190605/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190605/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2019/WD-clipboard-apis-20190530/",
+        "date": "2019-05-30",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190530"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190530/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190530/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190530/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20190530/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2018/WD-clipboard-apis-20181108/",
+        "date": "2018-11-08",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20181108"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20181108/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20181108/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20181108/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20181108/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2017/WD-clipboard-apis-20170929/",
+        "date": "2017-09-29",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20170929"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20170929/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20170929/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20170929/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20170929/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2016/WD-clipboard-apis-20161213/",
+        "date": "2016-12-13",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20161213"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20161213/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20161213/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20161213/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20161213/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2016/WD-clipboard-apis-20160403/",
+        "date": "2016-04-03",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160403"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160403/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160403/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160403/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160403/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2016/WD-clipboard-apis-20160311/",
+        "date": "2016-03-11",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160311"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160311/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160311/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160311/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20160311/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2015/WD-clipboard-apis-20151215/",
+        "date": "2015-12-15",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20151215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20151215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20151215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20151215/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20151215/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2015/WD-clipboard-apis-20150421/",
+        "date": "2015-04-21",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20150421"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20150421/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20150421/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20150421/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20150421/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2014/WD-clipboard-apis-20141209/",
+        "date": "2014-12-09",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "http://www.w3.org/2005/10/Process-20051014/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20141209"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20141209/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20141209/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20141209/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20141209/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2014/WD-clipboard-apis-20140918/",
+        "date": "2014-09-18",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "process-rules": "http://www.w3.org/2014/Process-20140801/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140918"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140918/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140918/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140918/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140918/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2014/WD-clipboard-apis-20140313/",
+        "date": "2014-03-13",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140313"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140313/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140313/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140313/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20140313/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2013/WD-clipboard-apis-20130411/",
+        "date": "2013-04-11",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20130411"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20130411/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20130411/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20130411/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20130411/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2012/WD-clipboard-apis-20120223/",
+        "date": "2012-02-23",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20120223"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20120223/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20120223/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20120223/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20120223/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2011/WD-clipboard-apis-20110412/",
+        "date": "2011-04-12",
+        "informative": false,
+        "title": "Clipboard API and events",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20110412"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20110412/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20110412/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20110412/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20110412/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/clipboard-apis/",
+        "uri": "https://www.w3.org/TR/2006/WD-clipboard-apis-20061115/",
+        "date": "2006-11-15",
+        "informative": false,
+        "title": "Clipboard Operations for the Web 1.0: Copy, Paste, Drag and Drop.",
+        "shortlink": "https://www.w3.org/TR/clipboard-apis/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20061115"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20061115/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20061115/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/clipboard-apis"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/clipboard-apis/versions/20061115/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/edit-context/",
+    "description": "<p>The EditContext is a new API that allows authors to more directly participate in the text input process.</p>",
+    "title": "EditContext API",
+    "shortname": "edit-context",
+    "editor-draft": "https://w3c.github.io/edit-context/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/edit-context"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/edit-context/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/edit-context/versions/20211221",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/edit-context/versions/20211221",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/edit-context"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/edit-context/",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/edit-context/",
+        "uri": "https://www.w3.org/TR/2021/WD-edit-context-20211221/",
+        "date": "2021-12-21",
+        "informative": false,
+        "title": "EditContext API",
+        "shortlink": "https://www.w3.org/TR/edit-context/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/edit-context/versions/20211221"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/edit-context/versions/20211221/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/edit-context/versions/20211221/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/edit-context"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/input-events-2/",
+    "description": "<p>This specification defines additions to events for text and related input to allow for the monitoring and manipulation of default browser behavior in the context of text editor applications and other applications that deal with text input and text formatting. This specification builds on the UI events spec.</p>",
+    "title": "Input Events Level 2",
+    "shortname": "input-events-2",
+    "editor-draft": "https://w3c.github.io/input-events/",
+    "series-version": "2",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/input-events-2"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/input-events-2/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/input-events-2/versions/20170321",
+        "title": "Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/input-events-2/versions/20230516",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/input-events"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/input-events/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/input-events/",
+        "uri": "https://www.w3.org/TR/2023/WD-input-events-2-20230516/",
+        "date": "2023-05-16",
+        "informative": false,
+        "title": "Input Events Level 2",
+        "shortlink": "https://www.w3.org/TR/input-events-2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20230516"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20230516/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20230516/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20230516/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/input-events/",
+        "uri": "https://www.w3.org/TR/2019/WD-input-events-2-20190530/",
+        "date": "2019-05-30",
+        "informative": false,
+        "title": "Input Events Level 2",
+        "shortlink": "https://www.w3.org/TR/input-events-2/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20190530"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20190530/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20190530/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20190530/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20190530/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/input-events/",
+        "uri": "https://www.w3.org/TR/2018/WD-input-events-2-20181108/",
+        "date": "2018-11-08",
+        "informative": false,
+        "title": "Input Events Level 2",
+        "shortlink": "https://www.w3.org/TR/input-events-2/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20181108"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20181108/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20181108/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20181108/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20181108/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/input-events/",
+        "uri": "https://www.w3.org/TR/2017/WD-input-events-2-20170905/",
+        "date": "2017-09-05",
+        "informative": false,
+        "title": "Input Events Level 2",
+        "shortlink": "https://www.w3.org/TR/input-events-2/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170905"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170905/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170905/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170905/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170905/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/input-events/",
+        "uri": "https://www.w3.org/TR/2017/WD-input-events-2-20170629/",
+        "date": "2017-06-29",
+        "informative": false,
+        "title": "Input Events Level 2",
+        "shortlink": "https://www.w3.org/TR/input-events-2/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170629"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170629/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170629/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170629/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170629/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/input-events/",
+        "uri": "https://www.w3.org/TR/2017/WD-input-events-2-20170627/",
+        "date": "2017-06-27",
+        "informative": false,
+        "title": "Input Events Level 2",
+        "shortlink": "https://www.w3.org/TR/input-events-2/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170627"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170627/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170627/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170627/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170627/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/input-events/",
+        "uri": "https://www.w3.org/TR/2017/WD-input-events-2-20170321/",
+        "date": "2017-03-21",
+        "informative": false,
+        "title": "Input Events Level 2",
+        "shortlink": "https://www.w3.org/TR/input-events-2/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170321"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170321/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170321/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170321/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-2/versions/20170321/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "uri": "https://www.w3.org/TR/2017/WD-input-events-20170320/",
+        "date": "2017-03-20",
+        "informative": false,
+        "title": "Input Events Level 2",
+        "shortlink": "https://www.w3.org/TR/input-events/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170320"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170320/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170320/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170320/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170320/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "uri": "https://www.w3.org/TR/2017/WD-input-events-20170319/",
+        "date": "2017-03-19",
+        "informative": false,
+        "title": "Input Events Level 2",
+        "shortlink": "https://www.w3.org/TR/input-events/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170319"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170319/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170319/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170319/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20170319/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "uri": "https://www.w3.org/TR/2016/WD-input-events-20161216/",
+        "date": "2016-12-16",
+        "informative": false,
+        "title": "Input Events",
+        "shortlink": "https://www.w3.org/TR/input-events/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161216/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161216/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "uri": "https://www.w3.org/TR/2016/WD-input-events-20161205/",
+        "date": "2016-12-05",
+        "informative": false,
+        "title": "Input Events",
+        "shortlink": "https://www.w3.org/TR/input-events/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161205"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161205/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161205/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161205/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161205/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "uri": "https://www.w3.org/TR/2016/WD-input-events-20161018/",
+        "date": "2016-10-18",
+        "informative": false,
+        "title": "Input Events",
+        "shortlink": "https://www.w3.org/TR/input-events/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161018"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161018/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161018/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161018/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161018/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "uri": "https://www.w3.org/TR/2016/WD-input-events-20161011/",
+        "date": "2016-10-11",
+        "informative": false,
+        "title": "Input Events",
+        "shortlink": "https://www.w3.org/TR/input-events/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161011"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161011/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161011/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161011/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20161011/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "uri": "https://www.w3.org/TR/2016/WD-input-events-20160928/",
+        "date": "2016-09-28",
+        "informative": false,
+        "title": "Input Events",
+        "shortlink": "https://www.w3.org/TR/input-events/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160928"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160928/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160928/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160928/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160928/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "uri": "https://www.w3.org/TR/2016/WD-input-events-20160922/",
+        "date": "2016-09-22",
+        "informative": false,
+        "title": "Input Events",
+        "shortlink": "https://www.w3.org/TR/input-events/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160922"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160922/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160922/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160922/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160922/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://cdn.staticaly.com/gh/w3c/input-events/v1/index.html",
+        "uri": "https://www.w3.org/TR/2016/WD-input-events-20160830/",
+        "date": "2016-08-30",
+        "informative": false,
+        "title": "Input Events",
+        "shortlink": "https://www.w3.org/TR/input-events/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160830"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160830/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160830/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/input-events-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/input-events-1/versions/20160830/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/selection-api/",
+    "description": "<p>This document defines APIs for selection, which allows users and authors to select a portion of a document or specify a point of interest for copy, paste, and other editing operations.</p>",
+    "title": "Selection API",
+    "shortname": "selection-api",
+    "editor-draft": "https://w3c.github.io/selection-api/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/selection-api"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/selection-api/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/selection-api/versions/20141007",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/selection-api/versions/20230516",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/selection-api"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/selection-api/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2023/WD-selection-api-20230516/",
+        "date": "2023-05-16",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230516"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230516/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230516/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230516/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2023/WD-selection-api-20230422/",
+        "date": "2023-04-22",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230422"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230422/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230422/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230422/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230422/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2023/WD-selection-api-20230404/",
+        "date": "2023-04-04",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230404"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230404/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230404/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230404/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230404/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2023/WD-selection-api-20230321/",
+        "date": "2023-03-21",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230321"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230321/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230321/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230321/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230321/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2023/WD-selection-api-20230213/",
+        "date": "2023-02-13",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230213"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230213/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230213/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230213/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230213/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2023/WD-selection-api-20230209/",
+        "date": "2023-02-09",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230209"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230209/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230209/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230209/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20230209/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2022/WD-selection-api-20221217/",
+        "date": "2022-12-17",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20221217"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20221217/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20221217/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20221217/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20221217/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2022/WD-selection-api-20220719/",
+        "date": "2022-07-19",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220719"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220719/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220719/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220719/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220719/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2022/WD-selection-api-20220713/",
+        "date": "2022-07-13",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220713"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220713/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220713/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220713/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220713/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2022/WD-selection-api-20220712/",
+        "date": "2022-07-12",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220712"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220712/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220712/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220712/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20220712/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2021/WD-selection-api-20210724/",
+        "date": "2021-07-24",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210724"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210724/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210724/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210724/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210724/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2021/WD-selection-api-20210713/",
+        "date": "2021-07-13",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210713"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210713/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210713/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210713/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210713/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2021/WD-selection-api-20210611/",
+        "date": "2021-06-11",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210611"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210611/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210611/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210611/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210611/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2021/WD-selection-api-20210528/",
+        "date": "2021-05-28",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210528"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210528/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210528/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210528/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210528/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2021/WD-selection-api-20210527/",
+        "date": "2021-05-27",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210527"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210527/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210527/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210527/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210527/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2021/WD-selection-api-20210121/",
+        "date": "2021-01-21",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210121"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210121/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210121/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210121/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20210121/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2020/WD-selection-api-20201219/",
+        "date": "2020-12-19",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20201219"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20201219/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20201219/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20201219/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20201219/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2020/WD-selection-api-20200818/",
+        "date": "2020-08-18",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200818"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200818/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200818/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200818/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200818/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2020/WD-selection-api-20200226/",
+        "date": "2020-02-26",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200226"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200226/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200226/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200226/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20200226/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2019/WD-selection-api-20190820/",
+        "date": "2019-08-20",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190820"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190820/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190820/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190820/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190820/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2019/WD-selection-api-20190607/",
+        "date": "2019-06-07",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190607"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190607/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190607/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190607/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190607/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2019/WD-selection-api-20190605/",
+        "date": "2019-06-05",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190605"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190605/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190605/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190605/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190605/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2019/WD-selection-api-20190604/",
+        "date": "2019-06-04",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190604"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190604/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190604/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190604/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190604/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2019/WD-selection-api-20190602/",
+        "date": "2019-06-02",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190602"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190602/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190602/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190602/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190602/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2019/WD-selection-api-20190530/",
+        "date": "2019-05-30",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190530"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190530/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190530/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190530/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20190530/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2018/WD-selection-api-20181018/",
+        "date": "2018-10-18",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20181018"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20181018/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20181018/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20181018/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20181018/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2018/WD-selection-api-20180926/",
+        "date": "2018-09-26",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180926"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180926/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180926/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180926/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180926/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2018/WD-selection-api-20180612/",
+        "date": "2018-06-12",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180612"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180612/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180612/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180612/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180612/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2018/WD-selection-api-20180402/",
+        "date": "2018-04-02",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180402"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180402/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180402/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180402/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20180402/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2017/WD-selection-api-20170628/",
+        "date": "2017-06-28",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170628"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170628/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170628/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170628/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170628/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2017/WD-selection-api-20170509/",
+        "date": "2017-05-09",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170509"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170509/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170509/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170509/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170509/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2017/WD-selection-api-20170430/",
+        "date": "2017-04-30",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170430"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170430/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170430/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170430/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170430/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2017/WD-selection-api-20170330/",
+        "date": "2017-03-30",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2017/Process-20170301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170330"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170330/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170330/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170330/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170330/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2017/WD-selection-api-20170227/",
+        "date": "2017-02-27",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170227"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170227/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170227/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170227/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20170227/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2016/WD-selection-api-20161206/",
+        "date": "2016-12-06",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20161206"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20161206/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20161206/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20161206/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20161206/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2016/WD-selection-api-20160921/",
+        "date": "2016-09-21",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "https://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160921"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160921/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160921/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160921/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160921/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2016/WD-selection-api-20160421/",
+        "date": "2016-04-21",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160421"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160421/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160421/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160421/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160421/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2016/WD-selection-api-20160310/",
+        "date": "2016-03-10",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160310"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160310/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160310/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160310/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20160310/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2015/WD-selection-api-20151215/",
+        "date": "2015-12-15",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151215/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151215/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2015/WD-selection-api-20151207/",
+        "date": "2015-12-07",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151207"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151207/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151207/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151207/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151207/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2015/WD-selection-api-20151204/",
+        "date": "2015-12-04",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151204"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151204/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151204/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151204/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151204/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2015/WD-selection-api-20151124/",
+        "date": "2015-11-24",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151124"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151124/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151124/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151124/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151124/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2015/WD-selection-api-20151008/",
+        "date": "2015-10-08",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "http://www.w3.org/2015/Process-20150901/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151008"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151008/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151008/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151008/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20151008/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/selection-api/",
+        "uri": "https://www.w3.org/TR/2014/WD-selection-api-20141007/",
+        "date": "2014-10-07",
+        "informative": false,
+        "title": "Selection API",
+        "shortlink": "https://www.w3.org/TR/selection-api/",
+        "process-rules": "http://www.w3.org/2005/10/Process-20051014/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20141007"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20141007/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20141007/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/selection-api"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/selection-api/versions/20141007/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/virtual-keyboard/",
+    "description": "<p>The VirtualKeyboard API provides authors with greater control over the visibility of the virtual keyboard (VK), and greater ability to adapt the layout of web pages when VK visibility changes.</p>",
+    "title": "VirtualKeyboard API",
+    "shortname": "virtual-keyboard",
+    "editor-draft": "https://w3c.github.io/virtual-keyboard/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/virtual-keyboard"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/virtual-keyboard/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210824",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20220505",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/virtual-keyboard"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/virtual-keyboard/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/virtual-keyboard/",
+        "uri": "https://www.w3.org/TR/2022/WD-virtual-keyboard-20220505/",
+        "date": "2022-05-05",
+        "informative": false,
+        "title": "VirtualKeyboard API",
+        "shortlink": "https://www.w3.org/TR/virtual-keyboard/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20220505"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20220505/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20220505/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20220505/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/virtual-keyboard/",
+        "uri": "https://www.w3.org/TR/2021/WD-virtual-keyboard-20210928/",
+        "date": "2021-09-28",
+        "informative": false,
+        "title": "VirtualKeyboard API",
+        "shortlink": "https://www.w3.org/TR/virtual-keyboard/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210928"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210928/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210928/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210928/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210928/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/virtual-keyboard/",
+        "uri": "https://www.w3.org/TR/2021/WD-virtual-keyboard-20210824/",
+        "date": "2021-08-24",
+        "informative": false,
+        "title": "VirtualKeyboard API",
+        "shortlink": "https://www.w3.org/TR/virtual-keyboard/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210824"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210824/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210824/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/virtual-keyboard/versions/20210824/successors"
+          }
+        }
+      }
+    ]
+  }
 ]
