@@ -1,4 +1,1185 @@
 [
-  null,
+  {
+    "shortlink": "https://www.w3.org/TR/accname-1.2/",
+    "description": "<p>This document describes how user agents determine the names and descriptions of accessible objects from web content languages. This information is in turn exposed through accessibility APIs so that assistive technologies can identify these objects and present their names or descriptions to users. Documenting the algorithm through which names and descriptions are to be determined promotes interoperable exposure of these properties among different accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.</p>",
+    "title": "Accessible Name and Description Computation 1.2",
+    "shortname": "accname-1.2",
+    "editor-draft": "https://w3c.github.io/accname/",
+    "series-version": "1.2",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/accname-1.2"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/accname-1.2/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/accname-1.2/versions/20190711",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/accname-1.2/versions/20190711",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/accname"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/accname/",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/accname/",
+        "uri": "https://www.w3.org/TR/2019/WD-accname-1.2-20190711/",
+        "date": "2019-07-11",
+        "informative": false,
+        "title": "Accessible Name and Description Computation 1.2",
+        "shortlink": "https://www.w3.org/TR/accname-1.2/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/accname-1.2/versions/20190711"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/accname-1.2/versions/20190711/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/accname-1.2/versions/20190711/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/accname-1.2"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+    "description": "This document describes how user agents should expose semantics of web content languages to accessibility APIs. This helps users with disabilities to obtain and interact with information using assistive technologies. Documenting these mappings promotes interoperable exposure of roles, states, properties, and events implemented by accessibility APIs and helps to ensure that this information appears in a manner consistent with author intent.",
+    "title": "Core Accessibility API Mappings 1.2",
+    "shortname": "core-aam-1.2",
+    "editor-draft": "https://w3c.github.io/core-aam/",
+    "series-version": "1.2",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/core-aam-1.2"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/core-aam-1.2/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20180719",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20230518",
+        "title": "Candidate Recommendation Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/core-aam"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/core-aam/",
+    "versions": [
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2023/CRD-core-aam-1.2-20230518/",
+        "date": "2023-05-18",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20230518"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20230518/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20230518/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20230518/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/CR-core-aam-1.2-20221122/",
+        "date": "2022-11-22",
+        "implementation-feedback-due": "2023-01-02",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221122/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20221101/",
+        "date": "2022-11-01",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221101"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221101/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221101/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221101/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221101/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20221013/",
+        "date": "2022-10-13",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221013"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221013/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221013/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221013/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221013/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20221008/",
+        "date": "2022-10-08",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221008"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221008/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221008/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221008/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20221008/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20220930/",
+        "date": "2022-09-30",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220930"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220930/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220930/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220930/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220930/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20220915/",
+        "date": "2022-09-15",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220915"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220915/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220915/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220915/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220915/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20220830/",
+        "date": "2022-08-30",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220830"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220830/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220830/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220830/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220830/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20220526/",
+        "date": "2022-05-26",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220526"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220526/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220526/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220526/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220526/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20220524/",
+        "date": "2022-05-24",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220524"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220524/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220524/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220524/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220524/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20220517/",
+        "date": "2022-05-17",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220517"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220517/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220517/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220517/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220517/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20220215/",
+        "date": "2022-02-15",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220215/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220215/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2022/WD-core-aam-1.2-20220120/",
+        "date": "2022-01-20",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220120"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220120/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220120/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220120/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20220120/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2019/WD-core-aam-1.2-20191218/",
+        "date": "2019-12-18",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2019/Process-20190301/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20191218"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20191218/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20191218/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20191218/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20191218/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2018/WD-core-aam-1.2-20181218/",
+        "date": "2018-12-18",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20181218"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20181218/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20181218/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20181218/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20181218/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/core-aam/",
+        "uri": "https://www.w3.org/TR/2018/WD-core-aam-1.2-20180719/",
+        "date": "2018-07-19",
+        "informative": false,
+        "title": "Core Accessibility API Mappings 1.2",
+        "shortlink": "https://www.w3.org/TR/core-aam-1.2/",
+        "process-rules": "https://www.w3.org/2018/Process-20180201/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20180719"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20180719/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20180719/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/core-aam-1.2/versions/20180719/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/dpub-aam-1.1/",
+    "description": "<p>The Digital Publishing Accessibility API Mappings (DPub-AAM) defines how user agents map the Digital Publishing WAI-ARIA Module [dpub-aria-1.1] markup to platform accessibility APIs. It is intended for user agent developers responsible for accessibility in their user agent so that they can support the accessibility content produced for digital publishing.</p>",
+    "title": "Digital Publishing Accessibility API Mappings 1.1",
+    "shortname": "dpub-aam-1.1",
+    "editor-draft": "https://w3c.github.io/dpub-aam/",
+    "series-version": "1.1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/dpub-aam-1.1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20211130",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20230308",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/dpub-aam"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/dpub-aam/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aam/",
+        "uri": "https://www.w3.org/TR/2023/WD-dpub-aam-1.1-20230308/",
+        "date": "2023-03-08",
+        "informative": false,
+        "title": "Digital Publishing Accessibility API Mappings 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aam-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20230308"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20230308/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20230308/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20230308/predecessors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aam/",
+        "uri": "https://www.w3.org/TR/2021/WD-dpub-aam-1.1-20211130/",
+        "date": "2021-11-30",
+        "informative": false,
+        "title": "Digital Publishing Accessibility API Mappings 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aam-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20211130"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20211130/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20211130/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aam-1.1/versions/20211130/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+    "description": "<p>Enabling users of assistive technologies to find their way through web content requires embedding semantic metadata about web document structural divisions. This is particularly important for structural divisions of long-form documents and goes along with embedding semantic metadata about web-application widgets and behaviors for assistive technologies. This specification defines a set of WAI-ARIA roles specific to helping users of assistive technologies navigate through such long-form documents.</p>",
+    "title": "Digital Publishing WAI-ARIA Module 1.1",
+    "shortname": "dpub-aria-1.1",
+    "editor-draft": "https://w3c.github.io/dpub-aria/",
+    "series-version": "1.1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20210826",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230515",
+        "title": "Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/dpub-aria"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/dpub-aria/",
+    "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2023/WD-dpub-aria-1.1-20230515/",
+        "date": "2023-05-15",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230515"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230515/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230515/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230515/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2023/WD-dpub-aria-1.1-20230222/",
+        "date": "2023-02-22",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230222"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230222/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230222/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230222/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230222/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2023/WD-dpub-aria-1.1-20230215/",
+        "date": "2023-02-15",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230215/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230215/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2023/WD-dpub-aria-1.1-20230202/",
+        "date": "2023-02-02",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230202"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230202/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230202/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230202/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230202/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2023/WD-dpub-aria-1.1-20230125/",
+        "date": "2023-01-25",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230125"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230125/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230125/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230125/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230125/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2023/WD-dpub-aria-1.1-20230124/",
+        "date": "2023-01-24",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230124"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230124/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230124/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230124/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20230124/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2022/WD-dpub-aria-1.1-20220530/",
+        "date": "2022-05-30",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220530"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220530/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220530/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220530/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220530/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2022/WD-dpub-aria-1.1-20220524/",
+        "date": "2022-05-24",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220524"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220524/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220524/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220524/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220524/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2022/WD-dpub-aria-1.1-20220517/",
+        "date": "2022-05-17",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220517"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220517/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220517/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220517/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220517/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2022/WD-dpub-aria-1.1-20220511/",
+        "date": "2022-05-11",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220511"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220511/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220511/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220511/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220511/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2022/WD-dpub-aria-1.1-20220302/",
+        "date": "2022-03-02",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220302"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220302/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220302/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220302/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220302/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2022/WD-dpub-aria-1.1-20220215/",
+        "date": "2022-02-15",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220215/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220215/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2022/WD-dpub-aria-1.1-20220120/",
+        "date": "2022-01-20",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220120"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220120/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220120/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220120/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20220120/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2021/WD-dpub-aria-1.1-20211203/",
+        "date": "2021-12-03",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211203/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211203/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2021/WD-dpub-aria-1.1-20211119/",
+        "date": "2021-11-19",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211119"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211119/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211119/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211119/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20211119/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/dpub-aria/",
+        "uri": "https://www.w3.org/TR/2021/WD-dpub-aria-1.1-20210826/",
+        "date": "2021-08-26",
+        "informative": false,
+        "title": "Digital Publishing WAI-ARIA Module 1.1",
+        "shortlink": "https://www.w3.org/TR/dpub-aria-1.1/",
+        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20210826"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20210826/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20210826/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/dpub-aria-1.1/versions/20210826/successors"
+          }
+        }
+      }
+    ]
+  },
   null
 ]
