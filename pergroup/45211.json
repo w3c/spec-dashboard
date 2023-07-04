@@ -856,7 +856,7 @@
     "description": "<p>This document defines an API that provides web page authors with insights into the latency of certain events triggered by user interactions.</p>",
     "title": "Event Timing API",
     "shortname": "event-timing",
-    "editor-draft": "https://w3c.github.io/event-timing",
+    "editor-draft": "https://w3c.github.io/event-timing/",
     "_links": {
       "self": {
         "href": "https://api.w3.org/specifications/event-timing"
@@ -869,19 +869,47 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/event-timing/versions/20220524",
-        "title": "First Public Working Draft"
+        "href": "https://api.w3.org/specifications/event-timing/versions/20230703",
+        "title": "Working Draft"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/event-timing"
       }
     },
-    "editorsdraft": "https://w3c.github.io/event-timing",
+    "editorsdraft": "https://w3c.github.io/event-timing/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/event-timing/",
+        "uri": "https://www.w3.org/TR/2023/WD-event-timing-20230703/",
+        "date": "2023-07-03",
+        "informative": false,
+        "title": "Event Timing API",
+        "shortlink": "https://www.w3.org/TR/event-timing/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/event-timing/versions/20230703"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/event-timing/versions/20230703/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/event-timing/versions/20230703/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/event-timing"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/event-timing/versions/20230703/predecessors"
+          }
+        }
+      },
       {
         "status": "First Public Working Draft",
         "rec-track": true,
-        "editor-draft": "https://w3c.github.io/event-timing",
+        "editor-draft": "https://w3c.github.io/event-timing/",
         "uri": "https://www.w3.org/TR/2022/WD-event-timing-20220524/",
         "date": "2022-05-24",
         "informative": false,
@@ -900,6 +928,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/event-timing"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/event-timing/versions/20220524/successors"
           }
         }
       }
@@ -1699,7 +1730,7 @@
   {
     "shortlink": "https://www.w3.org/TR/longtasks-1/",
     "description": "<p>This document defines an API that web page authors can use to detect presence of “long tasks” that monopolize the UI thread for extended periods of time and block other critical tasks from being executed - e.g. reacting to user input.</p>",
-    "title": "Long Tasks API 1",
+    "title": "Long Tasks API",
     "shortname": "longtasks-1",
     "editor-draft": "https://w3c.github.io/longtasks/",
     "series-version": "1",
@@ -1715,8 +1746,8 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/longtasks-1/versions/20170907",
-        "title": "First Public Working Draft"
+        "href": "https://api.w3.org/specifications/longtasks-1/versions/20230703",
+        "title": "Working Draft"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/longtasks"
@@ -1724,6 +1755,34 @@
     },
     "editorsdraft": "https://w3c.github.io/longtasks/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/longtasks/",
+        "uri": "https://www.w3.org/TR/2023/WD-longtasks-1-20230703/",
+        "date": "2023-07-03",
+        "informative": false,
+        "title": "Long Tasks API",
+        "shortlink": "https://www.w3.org/TR/longtasks-1/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/longtasks-1/versions/20230703"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/longtasks-1/versions/20230703/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/longtasks-1/versions/20230703/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/longtasks-1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/longtasks-1/versions/20230703/predecessors"
+          }
+        }
+      },
       {
         "status": "First Public Working Draft",
         "rec-track": true,
@@ -1746,6 +1805,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/longtasks-1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/longtasks-1/versions/20170907/successors"
           }
         }
       }
@@ -4061,7 +4123,7 @@
   {
     "shortlink": "https://www.w3.org/TR/paint-timing/",
     "description": "<p>This document defines an API that can be used to capture a series of key moments (First Paint, First Contentful Paint) during pageload which developers care about.</p>",
-    "title": "Paint Timing 1",
+    "title": "Paint Timing",
     "shortname": "paint-timing",
     "editor-draft": "https://w3c.github.io/paint-timing/",
     "series-version": "1",
@@ -4077,8 +4139,8 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/paint-timing/versions/20170907",
-        "title": "First Public Working Draft"
+        "href": "https://api.w3.org/specifications/paint-timing/versions/20230703",
+        "title": "Working Draft"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/paint-timing"
@@ -4086,6 +4148,34 @@
     },
     "editorsdraft": "https://w3c.github.io/paint-timing/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/paint-timing/",
+        "uri": "https://www.w3.org/TR/2023/WD-paint-timing-20230703/",
+        "date": "2023-07-03",
+        "informative": false,
+        "title": "Paint Timing",
+        "shortlink": "https://www.w3.org/TR/paint-timing/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/paint-timing/versions/20230703"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/paint-timing/versions/20230703/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/paint-timing/versions/20230703/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/paint-timing"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/paint-timing/versions/20230703/predecessors"
+          }
+        }
+      },
       {
         "status": "First Public Working Draft",
         "rec-track": true,
@@ -4108,6 +4198,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/paint-timing"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/paint-timing/versions/20170907/successors"
           }
         }
       }
