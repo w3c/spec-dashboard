@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 128,
+        "created_at": "2023-07-24T00:57:56Z",
+        "closed_at": null,
+        "title": "Require cryptosuite specifications to mitigate against poison graphs.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 127,
         "created_at": "2023-07-21T10:05:40Z",
         "closed_at": null,
@@ -21,7 +31,7 @@
         "number": 126,
         "created_at": "2023-07-20T18:56:39Z",
         "closed_at": null,
-        "title": "Naming convention initial text",
+        "title": "Data Integrity Cryptosuites naming convention update",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -102,7 +112,7 @@
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
           }
         ],
-        "assignee": "msporny",
+        "assignee": "Wind4Greg",
         "isPullRequest": false
       },
       {
@@ -556,7 +566,7 @@
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
           }
         ],
-        "assignee": "msporny",
+        "assignee": "Wind4Greg",
         "isPullRequest": false
       },
       {
@@ -656,13 +666,13 @@
         "title": "Apply guidance from RCH WG on processing poisoned graphs",
         "labels": [
           {
-            "id": 5143856879,
-            "node_id": "LA_kwDOB8htu88AAAABMpkG7w",
-            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "97CB3B",
+            "id": 5689114294,
+            "node_id": "LA_kwDOB8htu88AAAABUxj-tg",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "ACE525",
             "default": false,
-            "description": "This issue is ready to be resolved via a pull request"
+            "description": "A pull request exists to address this issue."
           },
           {
             "id": 5693328504,
@@ -1335,6 +1345,15 @@
         "title": "Determine how cryptographic suites are named and versioned",
         "labels": [
           {
+            "id": 5689114294,
+            "node_id": "LA_kwDOB8htu88AAAABUxj-tg",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "ACE525",
+            "default": false,
+            "description": "A pull request exists to address this issue."
+          },
+          {
             "id": 5693328504,
             "node_id": "LA_kwDOB8htu88AAAABU1lMeA",
             "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/before%20CR",
@@ -1348,10 +1367,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 37,
         "created_at": "2022-08-17T13:05:04Z",
-        "closed_at": null,
+        "closed_at": "2023-07-24T01:18:28Z",
         "title": "URLs in current editors draft all seem to be invalid",
         "labels": [
           {
@@ -1893,6 +1912,64 @@
     "issues": [
       {
         "state": "open",
+        "number": 1212,
+        "created_at": "2023-07-23T21:46:42Z",
+        "closed_at": null,
+        "title": "Refer to VC-SPECS-DIR for proof types.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1211,
+        "created_at": "2023-07-23T16:47:46Z",
+        "closed_at": null,
+        "title": "Clarify that some abstract concepts are not realized in implementations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1210,
+        "created_at": "2023-07-23T14:11:56Z",
+        "closed_at": null,
+        "title": "Document issuer defined vocabulary and use of @vocab",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
+            "id": 5541804458,
+            "node_id": "LA_kwDOBGbiEc8AAAABSlE5qg",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/post-CR",
+            "name": "post-CR",
+            "color": "9E3566",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1209,
         "created_at": "2023-07-21T09:59:33Z",
         "closed_at": null,
@@ -2256,10 +2333,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1186,
         "created_at": "2023-07-05T22:52:14Z",
-        "closed_at": null,
+        "closed_at": "2023-07-23T13:20:30Z",
         "title": "Add interoperable way for holder-asserted claims in a VP",
         "labels": [],
         "assignee": null,
@@ -2847,10 +2924,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1149,
         "created_at": "2023-06-11T17:01:34Z",
-        "closed_at": null,
+        "closed_at": "2023-07-23T13:07:20Z",
         "title": "Add graph node identifiers for registered claims",
         "labels": [],
         "assignee": null,
@@ -3239,6 +3316,15 @@
         "title": "Address \"Credential\" vs \"VerifiableCredential\"",
         "labels": [
           {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 5589814023,
             "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
@@ -3564,13 +3650,13 @@
             "description": "Purely editorial changes to the specification."
           },
           {
-            "id": 850456033,
-            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "88CD1F",
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
             "default": false,
-            "description": "This issue is ready for a Pull Request to be created to resolve it"
+            "description": ""
           },
           {
             "id": 5589814023,
@@ -5392,13 +5478,13 @@
             "description": "Purely editorial changes to the specification."
           },
           {
-            "id": 850456033,
-            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "88CD1F",
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
             "default": false,
-            "description": "This issue is ready for a Pull Request to be created to resolve it"
+            "description": ""
           },
           {
             "id": 4903170043,
@@ -22656,6 +22742,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 21,
+        "created_at": "2023-07-24T01:14:28Z",
+        "closed_at": null,
+        "title": "Mitigate poison datasets in ECDSA when canonicalizing.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 20,
         "created_at": "2023-07-21T20:41:43Z",
         "closed_at": null,
@@ -22685,20 +22781,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 17,
         "created_at": "2023-07-09T21:10:52Z",
-        "closed_at": null,
+        "closed_at": "2023-07-23T22:54:13Z",
         "title": "Add Greg and Sebastian as Editors to ECDSA Cryptosuites",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 16,
         "created_at": "2023-07-09T20:34:14Z",
-        "closed_at": null,
+        "closed_at": "2023-07-23T22:55:45Z",
         "title": "Set the normative definition of Multikey to the Data Integrity spec.",
         "labels": [],
         "assignee": null,
@@ -22901,6 +22997,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 51,
+        "created_at": "2023-07-24T01:10:04Z",
+        "closed_at": null,
+        "title": "Add EdDSA mitigation for dataset poisoning.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "closed",
         "number": 50,
@@ -24479,6 +24585,26 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 133,
+        "created_at": "2023-07-24T14:06:32Z",
+        "closed_at": null,
+        "title": "Clarify relationship between validity times",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 132,
+        "created_at": "2023-07-23T20:46:41Z",
+        "closed_at": null,
+        "title": "JWT - securing mechanism or not?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 131,
