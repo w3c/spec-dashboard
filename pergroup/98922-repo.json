@@ -8,6 +8,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 129,
+        "created_at": "2023-07-26T07:04:45Z",
+        "closed_at": null,
+        "title": "Missing term definitions in the spec",
+        "labels": [
+          {
+            "id": 5693328504,
+            "node_id": "LA_kwDOB8htu88AAAABU1lMeA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/before%20CR",
+            "name": "before CR",
+            "color": "78203A",
+            "default": false,
+            "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 128,
         "created_at": "2023-07-24T00:57:56Z",
         "closed_at": null,
@@ -1912,6 +1932,56 @@
     "issues": [
       {
         "state": "open",
+        "number": 1216,
+        "created_at": "2023-07-26T07:08:45Z",
+        "closed_at": null,
+        "title": "Missing term in the vcdm spec",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1215,
+        "created_at": "2023-07-26T01:30:57Z",
+        "closed_at": null,
+        "title": "Update term definition for vc json schemas as creds",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1214,
+        "created_at": "2023-07-25T21:10:10Z",
+        "closed_at": null,
+        "title": "Spec does not contain terms in the context",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1213,
+        "created_at": "2023-07-25T08:54:07Z",
+        "closed_at": null,
+        "title": "Minor correction to viewBox so that all text becomes visible.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1212,
         "created_at": "2023-07-23T21:46:42Z",
         "closed_at": null,
@@ -1989,10 +2059,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1207,
         "created_at": "2023-07-19T17:15:12Z",
-        "closed_at": null,
+        "closed_at": "2023-07-25T17:55:07Z",
         "title": "Move data schemas to basic concepts section",
         "labels": [],
         "assignee": null,
@@ -2137,20 +2207,29 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1196,
         "created_at": "2023-07-12T16:58:05Z",
-        "closed_at": null,
+        "closed_at": "2023-07-25T17:55:09Z",
         "title": "Move Data Schemas to Basic Concepts section",
         "labels": [
           {
-            "id": 850456033,
-            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "88CD1F",
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
             "default": false,
-            "description": "This issue is ready for a Pull Request to be created to resolve it"
+            "description": ""
+          },
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "decentralgabe",
@@ -2184,6 +2263,15 @@
         "title": "`validFrom` and `validUntil` fields need better specification of `dateTime`",
         "labels": [
           {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
             "id": 2758476533,
             "node_id": "MDU6TGFiZWwyNzU4NDc2NTMz",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/i18n-needs-resolution",
@@ -2191,9 +2279,18 @@
             "color": "F9C9FF",
             "default": false,
             "description": "Issue the Internationalization Group has raised and looks for a response on."
+          },
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -2478,8 +2575,27 @@
         "created_at": "2023-06-29T18:00:01Z",
         "closed_at": null,
         "title": "Ensure the base context doesn't constrain lower-maturity specifications",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -26354,9 +26470,159 @@
     "issues": [
       {
         "state": "open",
+        "number": 186,
+        "created_at": "2023-07-25T20:54:25Z",
+        "closed_at": null,
+        "title": "Update language around the defined types and their usages",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 185,
+        "created_at": "2023-07-25T20:27:30Z",
+        "closed_at": null,
+        "title": "Update term definitions according to the core vocab",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 184,
+        "created_at": "2023-07-25T20:19:07Z",
+        "closed_at": null,
+        "title": "Require at least one JSON Schema version",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 183,
+        "created_at": "2023-07-25T17:30:21Z",
+        "closed_at": null,
+        "title": "Monitor the JSON Schema organization for publication of a long term support JSON Schema spec",
+        "labels": [
+          {
+            "id": 5774458455,
+            "node_id": "LA_kwDODRCepM8AAAABWC8-Vw",
+            "url": "https://api.github.com/repos/w3c/vc-json-schema/labels/future",
+            "name": "future",
+            "color": "A4DB07",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 182,
+        "created_at": "2023-07-25T17:29:24Z",
+        "closed_at": null,
+        "title": "Update term definitions to match the VCDM's vocab",
+        "labels": [
+          {
+            "id": 1653780642,
+            "node_id": "MDU6TGFiZWwxNjUzNzgwNjQy",
+            "url": "https://api.github.com/repos/w3c/vc-json-schema/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          }
+        ],
+        "assignee": "decentralgabe",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 181,
+        "created_at": "2023-07-25T17:26:29Z",
+        "closed_at": null,
+        "title": "Add language for handling implementation mismatches",
+        "labels": [
+          {
+            "id": 1653780642,
+            "node_id": "MDU6TGFiZWwxNjUzNzgwNjQy",
+            "url": "https://api.github.com/repos/w3c/vc-json-schema/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          }
+        ],
+        "assignee": "decentralgabe",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 180,
+        "created_at": "2023-07-25T17:24:02Z",
+        "closed_at": null,
+        "title": "Require all implementers to support at least one common JSON Schema version",
+        "labels": [
+          {
+            "id": 1653780642,
+            "node_id": "MDU6TGFiZWwxNjUzNzgwNjQy",
+            "url": "https://api.github.com/repos/w3c/vc-json-schema/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          }
+        ],
+        "assignee": "decentralgabe",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 179,
+        "created_at": "2023-07-25T17:19:24Z",
+        "closed_at": null,
+        "title": "Consider removing versioning from the name",
+        "labels": [
+          {
+            "id": 1653780642,
+            "node_id": "MDU6TGFiZWwxNjUzNzgwNjQy",
+            "url": "https://api.github.com/repos/w3c/vc-json-schema/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          }
+        ],
+        "assignee": "decentralgabe",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 178,
+        "created_at": "2023-07-25T17:18:00Z",
+        "closed_at": null,
+        "title": "Change VerifiableCredentialSchema2023 to use a new property with the @json type",
+        "labels": [
+          {
+            "id": 1653780642,
+            "node_id": "MDU6TGFiZWwxNjUzNzgwNjQy",
+            "url": "https://api.github.com/repos/w3c/vc-json-schema/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          }
+        ],
+        "assignee": "decentralgabe",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 177,
         "created_at": "2023-07-17T19:27:35Z",
-        "closed_at": null,
+        "closed_at": "2023-07-25T15:45:59Z",
         "title": "Added related resource text and example",
         "labels": [],
         "assignee": null,
@@ -26388,7 +26654,7 @@
             "description": "Good for newcomers"
           }
         ],
-        "assignee": null,
+        "assignee": "andresuribe87",
         "isPullRequest": false
       },
       {
@@ -26857,7 +27123,7 @@
         "closed_at": null,
         "title": "Support YAML schema representations",
         "labels": [],
-        "assignee": null,
+        "assignee": "OR13",
         "isPullRequest": false
       },
       {
@@ -27199,10 +27465,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 120,
         "created_at": "2023-01-30T23:31:14Z",
-        "closed_at": null,
+        "closed_at": "2023-07-25T15:46:00Z",
         "title": "Consider adding language on schema immutability",
         "labels": [
           {
@@ -29112,7 +29378,7 @@
             "description": ""
           }
         ],
-        "assignee": "decentralgabe",
+        "assignee": "andresuribe87",
         "isPullRequest": false
       },
       {
