@@ -6,7 +6,6 @@ const config = require("../config.json"),
       activespecs = require('../lib/active-specs'),
       w3c = require('node-w3capi');
 
-w3c.apiKey = config.w3capikey;
 const selectedgroups = process.argv[2] ? process.argv[2].split(",").map(n => parseInt(n,10)) : false;
 const restrictGroups = g => !selectedgroups || selectedgroups.includes(g.id);
 let existingdata;
@@ -21,7 +20,7 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
     if (err) return console.error(err);
     const workinggroups = groups.filter(g => g.type === 'working group') ;
     async.map(workinggroups, (wg,cb) => {
-        activespecs(wg.id, w3c.apiKey, (err, unfinishedSpecs) => {
+        activespecs(wg.id, (err, unfinishedSpecs) => {
             if (!unfinishedSpecs) return console.error("undefined result for " + wg.name);
             if (err) console.error(err);
             createOrUpdateSpreadSheet(wg, unfinishedSpecs.map(s=> s.shortlink), cb, restrictGroups(wg));
