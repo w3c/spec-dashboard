@@ -1,5 +1,4 @@
-const config = require("../config.json"),
-      async = require('async'),
+const async = require('async'),
       fs = require('fs'),
       utils = require('../lib/utils'),
       activespecs = require('../lib/active-specs'),
@@ -7,13 +6,11 @@ const config = require("../config.json"),
 
 const jsonify = o => JSON.stringify(o, null, 2);
 
-w3c.apiKey = config.w3capikey;
-
 w3c.groups().fetch({embed:true}, (err, groups) => {
     if (err) return console.error(err);
     const workinggroups = groups.filter(g => g.type === 'working group') ;
     async.map(workinggroups, (wg, wgcb) => {
-        activespecs({shortname: wg.shortname, type: "wg"}, w3c.apiKey, (err, unfinishedSpecs) => {
+        activespecs({shortname: wg.shortname, type: "wg"}, (err, unfinishedSpecs) => {
             if (err) return console.error(err);
             if (!unfinishedSpecs) return console.error("undefined result for " + wg.name);
             if (!unfinishedSpecs.length) return console.error("no spec found for " + wg.name);
