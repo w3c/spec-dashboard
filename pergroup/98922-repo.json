@@ -17,10 +17,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 188,
         "created_at": "2023-09-05T14:48:23Z",
-        "closed_at": null,
+        "closed_at": "2023-09-11T10:07:34Z",
         "title": "`expires rdfs:domain` intersection vs `expires schema:domainIncludes` union",
         "labels": [
           {
@@ -3023,6 +3023,56 @@
     "issues": [
       {
         "state": "open",
+        "number": 1277,
+        "created_at": "2023-09-12T01:20:52Z",
+        "closed_at": null,
+        "title": "Fix markup, typos, and a small fix.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1276,
+        "created_at": "2023-09-11T20:17:10Z",
+        "closed_at": null,
+        "title": "Provide guidance to use compact terms/types instead of full URLs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1275,
+        "created_at": "2023-09-11T19:53:41Z",
+        "closed_at": null,
+        "title": "Allow string values in JOSE properties in base JSON-LD context",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1274,
+        "created_at": "2023-09-11T16:32:25Z",
+        "closed_at": null,
+        "title": "Tell a bit more about `verificationMethod` type schema",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1273,
         "created_at": "2023-09-10T13:54:59Z",
         "closed_at": null,
@@ -3196,15 +3246,6 @@
         "title": "Recommend that authors don't use `@language` in `@context`",
         "labels": [
           {
-            "id": 850456033,
-            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "88CD1F",
-            "default": false,
-            "description": "This issue is ready for a Pull Request to be created to resolve it"
-          },
-          {
             "id": 974913848,
             "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
@@ -3324,10 +3365,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1259,
         "created_at": "2023-08-25T21:15:54Z",
-        "closed_at": null,
+        "closed_at": "2023-09-11T19:56:20Z",
         "title": "Sync and fix bugs in v2 context.",
         "labels": [],
         "assignee": null,
@@ -4290,13 +4331,13 @@
         "title": "Allowing expanded `type` values in conforming documents",
         "labels": [
           {
-            "id": 850456033,
-            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "88CD1F",
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
             "default": false,
-            "description": "This issue is ready for a Pull Request to be created to resolve it"
+            "description": ""
           },
           {
             "id": 5589814023,
@@ -27518,6 +27559,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 154,
+        "created_at": "2023-09-11T20:06:20Z",
+        "closed_at": null,
+        "title": "Controller document examples",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 153,
         "created_at": "2023-09-09T01:51:43Z",
         "closed_at": null,
@@ -27602,7 +27653,26 @@
         "created_at": "2023-08-29T13:51:20Z",
         "closed_at": null,
         "title": "Representing extension validation in tests",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5940891607,
+            "node_id": "LA_kwDOHrK-n88AAAABYhrP1w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/testsuite",
+            "name": "testsuite",
+            "color": "1BF963",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5949759252,
+            "node_id": "LA_kwDOHrK-n88AAAABYqIfFA",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/blocked-by-test-suite",
+            "name": "blocked-by-test-suite",
+            "color": "859316",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -27642,7 +27712,17 @@
         "created_at": "2023-08-24T15:03:12Z",
         "closed_at": null,
         "title": "Withdraw `application/vc+ld+json+jwt` and `application/vp+ld+json+jwt`",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -27682,7 +27762,17 @@
         "created_at": "2023-08-11T09:16:01Z",
         "closed_at": null,
         "title": "signature profiles",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -27702,7 +27792,26 @@
         "created_at": "2023-08-04T18:32:36Z",
         "closed_at": null,
         "title": "How to test `credentialStatus` and `credentialSchema`?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5940891607,
+            "node_id": "LA_kwDOHrK-n88AAAABYhrP1w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/testsuite",
+            "name": "testsuite",
+            "color": "1BF963",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5949759252,
+            "node_id": "LA_kwDOHrK-n88AAAABYqIfFA",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/blocked-by-test-suite",
+            "name": "blocked-by-test-suite",
+            "color": "859316",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -27721,6 +27830,15 @@
             "color": "C66EFA",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -27732,7 +27850,17 @@
         "created_at": "2023-07-23T20:46:41Z",
         "closed_at": null,
         "title": "JWT - securing mechanism or not?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -27772,7 +27900,26 @@
         "created_at": "2023-07-19T14:55:05Z",
         "closed_at": null,
         "title": "File PING request once rename is complete",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5562084811,
+            "node_id": "LA_kwDOHrK-n88AAAABS4atyw",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/horizontal-review",
+            "name": "horizontal-review",
+            "color": "0EC5C9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "mprorock",
         "isPullRequest": false
       },
@@ -27782,7 +27929,26 @@
         "created_at": "2023-07-18T22:43:28Z",
         "closed_at": null,
         "title": "Define Controller Documents in the Core Data Model",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -27799,6 +27965,15 @@
             "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
             "name": "has-pr",
             "color": "C66EFA",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
             "default": false,
             "description": ""
           }
@@ -27889,6 +28064,15 @@
             "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
             "name": "has-pr",
             "color": "C66EFA",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
             "default": false,
             "description": ""
           }
@@ -27982,7 +28166,26 @@
         "created_at": "2023-06-23T19:39:38Z",
         "closed_at": null,
         "title": "Address VP Token interop",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5680553313,
+            "node_id": "LA_kwDOHrK-n88AAAABUpZdYQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/editorial",
+            "name": "editorial",
+            "color": "1E940F",
+            "default": false,
+            "description": "Editorial changes only"
+          },
+          {
+            "id": 5948378339,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0M4w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/post-CR",
+            "name": "post-CR",
+            "color": "9E3566",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -28022,7 +28225,17 @@
         "created_at": "2023-06-11T13:55:14Z",
         "closed_at": null,
         "title": "Add guidance on \"flat\" vs \"compact\".",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -28039,6 +28252,15 @@
             "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
             "name": "has-pr",
             "color": "C66EFA",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
             "default": false,
             "description": ""
           }
@@ -28191,6 +28413,15 @@
             "color": "0EC5C9",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "mprorock",
@@ -28211,6 +28442,15 @@
             "color": "0EC5C9",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "mprorock",
@@ -28229,6 +28469,15 @@
             "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/horizontal-review",
             "name": "horizontal-review",
             "color": "0EC5C9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
             "default": false,
             "description": ""
           }
@@ -28402,7 +28651,26 @@
         "created_at": "2023-05-03T14:02:44Z",
         "closed_at": null,
         "title": "Add external references to Privacy and Security sections",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5680553313,
+            "node_id": "LA_kwDOHrK-n88AAAABUpZdYQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/editorial",
+            "name": "editorial",
+            "color": "1E940F",
+            "default": false,
+            "description": "Editorial changes only"
+          },
+          {
+            "id": 5948378339,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0M4w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/post-CR",
+            "name": "post-CR",
+            "color": "9E3566",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "mprorock",
         "isPullRequest": false
       },
@@ -28620,6 +28888,15 @@
             "color": "C66EFA",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -28821,7 +29098,17 @@
         "created_at": "2023-02-14T20:08:31Z",
         "closed_at": null,
         "title": "Describe how `cnf` is allowed to be used for \"binding\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -28866,10 +29153,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 47,
         "created_at": "2023-02-10T16:27:28Z",
-        "closed_at": null,
+        "closed_at": "2023-09-11T10:15:03Z",
         "title": "Provide guidance on use of `cty` in JOSE / COSE ",
         "labels": [
           {
@@ -28981,8 +29268,18 @@
         "created_at": "2022-11-16T19:48:23Z",
         "closed_at": null,
         "title": "JWT exp claim",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "Sakurann",
         "isPullRequest": false
       },
       {
@@ -29046,10 +29343,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 34,
         "created_at": "2022-10-21T13:23:14Z",
-        "closed_at": null,
+        "closed_at": "2023-09-11T13:52:28Z",
         "title": "Add Privacy and Security Considerations",
         "labels": [],
         "assignee": null,
@@ -29083,13 +29380,22 @@
         "title": "About the optionality of the \"kid\" field in JWT-formatted VCs/VPs",
         "labels": [
           {
-            "id": 4391947526,
-            "node_id": "LA_kwDOHrK-n88AAAABBcfNBg",
-            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/discuss",
-            "name": "discuss",
-            "color": "E13AF3",
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
             "default": false,
-            "description": null
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -29110,6 +29416,33 @@
             "color": "E13AF3",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5940891607,
+            "node_id": "LA_kwDOHrK-n88AAAABYhrP1w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/testsuite",
+            "name": "testsuite",
+            "color": "1BF963",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -29208,6 +29541,15 @@
             "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
             "name": "has-pr",
             "color": "C66EFA",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
             "default": false,
             "description": ""
           }
@@ -29408,6 +29750,15 @@
             "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
             "name": "has-pr",
             "color": "C66EFA",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
             "default": false,
             "description": ""
           }
