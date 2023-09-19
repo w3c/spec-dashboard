@@ -581,8 +581,8 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/sdw-bp/versions/20170928",
-        "title": "Note"
+        "href": "https://api.w3.org/specifications/sdw-bp/versions/20230919",
+        "title": "Draft Note"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/sdw-bp"
@@ -590,6 +590,34 @@
     },
     "editorsdraft": "https://w3c.github.io/sdw/bp/",
     "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/sdw/bp/",
+        "uri": "https://www.w3.org/TR/2023/DNOTE-sdw-bp-20230919/",
+        "date": "2023-09-19",
+        "informative": true,
+        "title": "Spatial Data on the Web Best Practices",
+        "shortlink": "https://www.w3.org/TR/sdw-bp/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/sdw-bp/versions/20230919"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/sdw-bp/versions/20230919/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/sdw-bp/versions/20230919/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/sdw-bp"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/sdw-bp/versions/20230919/predecessors"
+          }
+        }
+      },
       {
         "status": "Note",
         "rec-track": false,
@@ -615,6 +643,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/sdw-bp/versions/20170928/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/sdw-bp/versions/20170928/successors"
           }
         }
       },
@@ -914,6 +945,60 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/sdw-ucr/versions/20150723/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/webvmt/",
+    "description": "<p>This specification defines WebVMT, the Web Video Map Tracks format, which is an enabling technology whose main use is for marking up external metadata track resources in connection with the HTML <track> element. WebVMT files provide map presentation, annotation and interpolation synchronized to web media content, and more generally any form of data that is time-aligned with audio or video content, including those from location-aware devices such as dashcams, drones and smartphones. </p>",
+    "title": "WebVMT: The Web Video Map Tracks Format",
+    "shortname": "webvmt",
+    "editor-draft": "https://w3c.github.io/sdw/proposals/geotagging/webvmt/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/webvmt"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/webvmt/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/webvmt/versions/20230919",
+        "title": "Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/webvmt/versions/20230919",
+        "title": "Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/webvmt"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/sdw/proposals/geotagging/webvmt/",
+    "versions": [
+      {
+        "status": "Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/sdw/proposals/geotagging/webvmt/",
+        "uri": "https://www.w3.org/TR/2023/NOTE-webvmt-20230919/",
+        "date": "2023-09-19",
+        "informative": true,
+        "title": "WebVMT: The Web Video Map Tracks Format",
+        "shortlink": "https://www.w3.org/TR/webvmt/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/webvmt/versions/20230919"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/webvmt/versions/20230919/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/webvmt/versions/20230919/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/webvmt"
           }
         }
       }
