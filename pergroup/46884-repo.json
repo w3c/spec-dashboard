@@ -166,22 +166,32 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 254,
+        "created_at": "2023-10-05T19:50:53Z",
+        "closed_at": "2023-10-05T19:51:16Z",
+        "title": "Link Web Audio API to definition and add some punctuation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 253,
+        "created_at": "2023-10-05T17:51:30Z",
+        "closed_at": "2023-10-05T17:52:24Z",
+        "title": "Add statement that no implementation report currently exists",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 252,
         "created_at": "2023-10-02T21:44:36Z",
         "closed_at": null,
-        "title": "Make init dictionaries required",
-        "labels": [
-          {
-            "id": 5978950430,
-            "node_id": "LA_kwDOAHMmcM8AAAABZF-LHg",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20discussion",
-            "name": "status: needs discussion",
-            "color": "F9D0C4",
-            "default": false,
-            "description": "Needs to be discussed on GitHub before proceeding"
-          }
-        ],
+        "title": "Make MIDIMessageEvent data MIDIConnectionEvent port nullable",
+        "labels": [],
         "assignee": "mjwilson-google",
         "isPullRequest": true
       },
@@ -295,21 +305,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 242,
         "created_at": "2023-09-14T23:16:29Z",
-        "closed_at": null,
+        "closed_at": "2023-10-05T17:54:05Z",
         "title": "Write and link implementation report",
         "labels": [
-          {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
-            "color": "F9D0C4",
-            "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
-          },
           {
             "id": 5958426884,
             "node_id": "LA_kwDOAHMmcM8AAAABYyZhBA",
@@ -478,15 +479,6 @@
         "title": "midi clock support?",
         "labels": [
           {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
-            "color": "F9D0C4",
-            "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
-          },
-          {
             "id": 5958429917,
             "node_id": "LA_kwDOAHMmcM8AAAABYyZs3Q",
             "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/class:%20substantive",
@@ -494,6 +486,15 @@
             "color": "C5DEF5",
             "default": false,
             "description": "https://www.w3.org/2023/Process-20230612/#correction-classes"
+          },
+          {
+            "id": 6048138657,
+            "node_id": "LA_kwDOAHMmcM8AAAABaH9FoQ",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20blocked",
+            "name": "status: blocked",
+            "color": "F9D0C4",
+            "default": false,
+            "description": "Another issue or external dependency needs to be resolved before proceeding"
           }
         ],
         "assignee": null,
@@ -507,13 +508,13 @@
         "title": "Are `MIDIInputPort` and `MIDIOutputPort` populated during `requestMIDIAccess` ?",
         "labels": [
           {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20ready%20for%20editing",
+            "name": "status: ready for editing",
             "color": "F9D0C4",
             "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
+            "description": "Enough information should be available to implement this change in the spec"
           },
           {
             "id": 5958429917,
@@ -624,13 +625,13 @@
         "title": "Event Handlers vs. Event Listener and implicit call to `open()`",
         "labels": [
           {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20ready%20for%20editing",
+            "name": "status: ready for editing",
             "color": "F9D0C4",
             "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
+            "description": "Enough information should be available to implement this change in the spec"
           },
           {
             "id": 5958429917,
@@ -755,21 +756,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 215,
         "created_at": "2020-10-08T14:35:24Z",
-        "closed_at": null,
+        "closed_at": "2023-10-05T18:15:13Z",
         "title": "Feature Request: Register MessagePort directly instead of onmidimessage",
         "labels": [
-          {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
-            "color": "F9D0C4",
-            "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
-          },
           {
             "id": 5958429917,
             "node_id": "LA_kwDOAHMmcM8AAAABYyZs3Q",
@@ -869,13 +861,13 @@
         "title": "Change the MIDIOutput.send() spec to allow raising a RangeError when the passed ArrayBuffer is too big ",
         "labels": [
           {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20ready%20for%20editing",
+            "name": "status: ready for editing",
             "color": "F9D0C4",
             "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
+            "description": "Enough information should be available to implement this change in the spec"
           },
           {
             "id": 5958429917,
@@ -1461,17 +1453,7 @@
         "created_at": "2016-06-30T09:08:36Z",
         "closed_at": "2023-09-11T13:53:14Z",
         "title": "MIDIMessageEvent could be merged to another existing Event.",
-        "labels": [
-          {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
-            "color": "F9D0C4",
-            "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
-          }
-        ],
+        "labels": [],
         "assignee": "cwilso",
         "isPullRequest": false
       },
@@ -1530,17 +1512,7 @@
         "created_at": "2016-04-07T20:01:24Z",
         "closed_at": "2016-09-23T13:37:57Z",
         "title": "implementation tracking: WebMIDI in Firefox and Edge",
-        "labels": [
-          {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
-            "color": "F9D0C4",
-            "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1582,15 +1554,6 @@
         "title": "Backpressure exposure for asynchronous send()",
         "labels": [
           {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
-            "color": "F9D0C4",
-            "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
-          },
-          {
             "id": 5958429917,
             "node_id": "LA_kwDOAHMmcM8AAAABYyZs3Q",
             "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/class:%20substantive",
@@ -1598,6 +1561,15 @@
             "color": "C5DEF5",
             "default": false,
             "description": "https://www.w3.org/2023/Process-20230612/#correction-classes"
+          },
+          {
+            "id": 6048138657,
+            "node_id": "LA_kwDOAHMmcM8AAAABaH9FoQ",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20blocked",
+            "name": "status: blocked",
+            "color": "F9D0C4",
+            "default": false,
+            "description": "Another issue or external dependency needs to be resolved before proceeding"
           }
         ],
         "assignee": null,
@@ -2358,13 +2330,13 @@
         "title": "MIDI API should be available from Workers?",
         "labels": [
           {
-            "id": 58360570,
-            "node_id": "MDU6TGFiZWw1ODM2MDU3MA==",
-            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20needs%20WG%20review",
-            "name": "status: needs WG review",
+            "id": 184124502,
+            "node_id": "MDU6TGFiZWwxODQxMjQ1MDI=",
+            "url": "https://api.github.com/repos/WebAudio/web-midi-api/labels/status:%20ready%20for%20editing",
+            "name": "status: ready for editing",
             "color": "F9D0C4",
             "default": false,
-            "description": "Needs to be discussed with the Audio Working Group before proceeding"
+            "description": "Enough information should be available to implement this change in the spec"
           },
           {
             "id": 5958429917,
