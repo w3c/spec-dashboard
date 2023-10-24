@@ -16402,7 +16402,17 @@
         "created_at": "2023-10-19T12:34:35Z",
         "closed_at": null,
         "title": "Replace to 'Custom devices' in Figure 1",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4658417113,
+            "node_id": "LA_kwDOBOGeas8AAAABFanN2Q",
+            "url": "https://api.github.com/repos/w3c/wot-binding-templates/labels/core",
+            "name": "core",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "related to the core specification document"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -16432,7 +16442,17 @@
         "created_at": "2023-10-16T14:35:09Z",
         "closed_at": null,
         "title": "Reorganizing uri variables section",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4211905386,
+            "node_id": "LA_kwDOBOGeas77DJNq",
+            "url": "https://api.github.com/repos/w3c/wot-binding-templates/labels/bacnet",
+            "name": "bacnet",
+            "color": "fbca04",
+            "default": false,
+            "description": "related to bacnet protocol binding"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -16442,7 +16462,17 @@
         "created_at": "2023-10-16T12:00:47Z",
         "closed_at": null,
         "title": "Adding BACnet JSON Schema",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4211905386,
+            "node_id": "LA_kwDOBOGeas77DJNq",
+            "url": "https://api.github.com/repos/w3c/wot-binding-templates/labels/bacnet",
+            "name": "bacnet",
+            "color": "fbca04",
+            "default": false,
+            "description": "related to bacnet protocol binding"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -36645,6 +36675,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 514,
+        "created_at": "2023-10-23T13:26:51Z",
+        "closed_at": null,
+        "title": "refactor: Update working draft with changes done for note2 publication ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 513,
+        "created_at": "2023-10-23T12:43:42Z",
+        "closed_at": null,
+        "title": "feat!(typescript): align TypeScript definitions with Discovery API",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 512,
+        "created_at": "2023-10-23T11:18:13Z",
+        "closed_at": null,
+        "title": "Add perl script (for fixing duplicate IDs) to master/release folder",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 511,
         "created_at": "2023-10-18T13:37:00Z",
         "closed_at": null,
@@ -36774,10 +36834,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 500,
         "created_at": "2023-09-28T09:15:23Z",
-        "closed_at": null,
+        "closed_at": "2023-10-23T11:19:56Z",
         "title": "Publish thing-description TypeScript package",
         "labels": [
           {
@@ -43065,10 +43125,10 @@
     "recTrack": false,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 232,
         "created_at": "2023-10-04T11:50:13Z",
-        "closed_at": null,
+        "closed_at": "2023-10-23T13:11:31Z",
         "title": "changed requirement section to analysis",
         "labels": [],
         "assignee": null,
@@ -43265,10 +43325,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 213,
         "created_at": "2023-01-30T14:04:49Z",
-        "closed_at": null,
+        "closed_at": "2023-10-23T13:11:32Z",
         "title": "Rename \"Requirements\" section to \"Analysis\"",
         "labels": [],
         "assignee": "mahdanoura",
@@ -46030,6 +46090,102 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 1907,
+        "created_at": "2023-10-23T15:39:53Z",
+        "closed_at": null,
+        "title": "Security Figure is missing proxy term",
+        "labels": [
+          {
+            "id": 4068683006,
+            "node_id": "LA_kwDOBOGeJs7ygyz-",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/needs-triage",
+            "name": "needs-triage",
+            "color": "54A8BB",
+            "default": false,
+            "description": "Automatically added to new issues. TF should triage them with proper labels"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1906,
+        "created_at": "2023-10-23T13:11:36Z",
+        "closed_at": null,
+        "title": "TM Schema regex error",
+        "labels": [
+          {
+            "id": 1777945940,
+            "node_id": "MDU6TGFiZWwxNzc3OTQ1OTQw",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/JSON%20Schema",
+            "name": "JSON Schema",
+            "color": "639af2",
+            "default": false,
+            "description": "Topic related to JSON Schema"
+          },
+          {
+            "id": 1779174619,
+            "node_id": "MDU6TGFiZWwxNzc5MTc0NjE5",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/Thing%20Model",
+            "name": "Thing Model",
+            "color": "5319e7",
+            "default": false,
+            "description": "Topic related to TD templates"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1905,
+        "created_at": "2023-10-23T11:24:46Z",
+        "closed_at": null,
+        "title": "Thing Model Identifiers",
+        "labels": [
+          {
+            "id": 1779174619,
+            "node_id": "MDU6TGFiZWwxNzc5MTc0NjE5",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/Thing%20Model",
+            "name": "Thing Model",
+            "color": "5319e7",
+            "default": false,
+            "description": "Topic related to TD templates"
+          },
+          {
+            "id": 2091274993,
+            "node_id": "MDU6TGFiZWwyMDkxMjc0OTkz",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/Discovery",
+            "name": "Discovery",
+            "color": "7085d3",
+            "default": false,
+            "description": "Relates to how to retrieve TDs and Discovery TF work"
+          },
+          {
+            "id": 2388416086,
+            "node_id": "MDU6TGFiZWwyMzg4NDE2MDg2",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/Defer%20to%20TD%202.0",
+            "name": "Defer to TD 2.0",
+            "color": "25b244",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4259206839,
+            "node_id": "LA_kwDOBOGeJs793la3",
+            "url": "https://api.github.com/repos/w3c/wot-thing-description/labels/Privacy",
+            "name": "Privacy",
+            "color": "A441E1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 1904,
