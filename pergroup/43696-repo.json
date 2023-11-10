@@ -2304,11 +2304,31 @@
     "issues": [
       {
         "state": "open",
+        "number": 244,
+        "created_at": "2023-11-10T07:39:14Z",
+        "closed_at": null,
+        "title": "Use right notation for default allowlist value.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 243,
         "created_at": "2023-11-06T13:38:17Z",
         "closed_at": null,
         "title": "Permission policy needs to be checked when owner set changes",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2776340641,
+            "node_id": "MDU6TGFiZWwyNzc2MzQwNjQx",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something is wrong or under specified"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2387,8 +2407,18 @@
         "number": 235,
         "created_at": "2023-09-21T07:38:25Z",
         "closed_at": null,
-        "title": "Scenario - compute pressure for improving interactivity",
-        "labels": [],
+        "title": "Use-case: For improving interactivity",
+        "labels": [
+          {
+            "id": 3722658336,
+            "node_id": "LA_kwDOFG2YnM7d40Ig",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/isv-support",
+            "name": "isv-support",
+            "color": "87DE97",
+            "default": false,
+            "description": "Support indication from independent software vendors"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2407,7 +2437,7 @@
         "number": 233,
         "created_at": "2023-09-16T14:40:49Z",
         "closed_at": null,
-        "title": "Analytics / RUM use cases?",
+        "title": "Use-case: Analytics / RUM",
         "labels": [
           {
             "id": 4458829511,
@@ -2477,6 +2507,15 @@
             "color": "d876e3",
             "default": true,
             "description": "Further information is requested"
+          },
+          {
+            "id": 3722658336,
+            "node_id": "LA_kwDOFG2YnM7d40Ig",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/isv-support",
+            "name": "isv-support",
+            "color": "87DE97",
+            "default": false,
+            "description": "Support indication from independent software vendors"
           },
           {
             "id": 4458829511,
@@ -2637,7 +2676,17 @@
         "created_at": "2023-05-26T13:02:11Z",
         "closed_at": null,
         "title": "Allow an array of sources",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6188917078,
+            "node_id": "LA_kwDOFG2YnM8AAAABcONhVg",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/dx-improvement",
+            "name": "dx-improvement",
+            "color": "0D90AD",
+            "default": false,
+            "description": "Suggestions to improve the Developer Experience, e.g. API improvements"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2656,7 +2705,7 @@
         "number": 211,
         "created_at": "2023-04-24T15:33:59Z",
         "closed_at": null,
-        "title": "Use Case: Automated performance regression testing in Utopia",
+        "title": "Use-case: Automated performance regression testing in Utopia",
         "labels": [
           {
             "id": 4458829511,
@@ -2992,10 +3041,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 185,
         "created_at": "2023-02-08T09:14:05Z",
-        "closed_at": null,
+        "closed_at": "2023-11-10T01:03:34Z",
         "title": "Focus control in privacy test steps",
         "labels": [],
         "assignee": null,
@@ -3007,7 +3056,17 @@
         "created_at": "2023-02-07T08:49:03Z",
         "closed_at": null,
         "title": "Internationalization Checklist ",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6188957112,
+            "node_id": "LA_kwDOFG2YnM8AAAABcOP9uA",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/w3c-process-steps",
+            "name": "w3c-process-steps",
+            "color": "E8B71B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3017,7 +3076,17 @@
         "created_at": "2023-02-03T08:40:01Z",
         "closed_at": null,
         "title": "Accessibility Checklist",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6188957112,
+            "node_id": "LA_kwDOFG2YnM8AAAABcOP9uA",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/w3c-process-steps",
+            "name": "w3c-process-steps",
+            "color": "E8B71B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "kenchris",
         "isPullRequest": false
       },
@@ -3032,10 +3101,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 181,
         "created_at": "2023-02-02T06:40:25Z",
-        "closed_at": null,
+        "closed_at": "2023-11-09T11:10:44Z",
         "title": "Contributing factors definition needs clarification",
         "labels": [],
         "assignee": null,
@@ -3077,7 +3146,17 @@
         "created_at": "2023-01-30T18:44:41Z",
         "closed_at": null,
         "title": "Wide review tracker",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6188957112,
+            "node_id": "LA_kwDOFG2YnM8AAAABcOP9uA",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/w3c-process-steps",
+            "name": "w3c-process-steps",
+            "color": "E8B71B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3091,11 +3170,11 @@
           {
             "id": 3722658336,
             "node_id": "LA_kwDOFG2YnM7d40Ig",
-            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/ISV%20Support",
-            "name": "ISV Support",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/isv-support",
+            "name": "isv-support",
             "color": "87DE97",
             "default": false,
-            "description": ""
+            "description": "Support indication from independent software vendors"
           }
         ],
         "assignee": null,
@@ -3317,7 +3396,26 @@
         "created_at": "2022-11-23T11:23:25Z",
         "closed_at": null,
         "title": "permissions policy: Default allowlist syntax needs to be updated",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2776340641,
+            "node_id": "MDU6TGFiZWwyNzc2MzQwNjQx",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something is wrong or under specified"
+          },
+          {
+            "id": 2776340647,
+            "node_id": "MDU6TGFiZWwyNzc2MzQwNjQ3",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/good%20first%20issue",
+            "name": "good first issue",
+            "color": "7057ff",
+            "default": true,
+            "description": "Good for newcomers"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3382,10 +3480,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 147,
         "created_at": "2022-11-03T09:53:56Z",
-        "closed_at": null,
+        "closed_at": "2023-11-09T11:17:47Z",
         "title": "Add hooks for Permission Revocation",
         "labels": [],
         "assignee": null,
@@ -3596,7 +3694,7 @@
         "number": 126,
         "created_at": "2022-09-19T07:58:13Z",
         "closed_at": null,
-        "title": "Battery-pressure: provide a battery draining rate indication for application",
+        "title": "Use-case: provide a battery draining rate indication for application",
         "labels": [
           {
             "id": 4458829511,
@@ -3712,10 +3810,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 117,
         "created_at": "2022-06-22T14:52:57Z",
-        "closed_at": null,
+        "closed_at": "2023-11-09T11:18:17Z",
         "title": "Add \"resource-contention\" or \"contention\" as a contributing factor",
         "labels": [],
         "assignee": null,
@@ -3727,7 +3825,17 @@
         "created_at": "2022-06-22T13:26:51Z",
         "closed_at": null,
         "title": "Consider adding averages",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6188917078,
+            "node_id": "LA_kwDOFG2YnM8AAAABcONhVg",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/dx-improvement",
+            "name": "dx-improvement",
+            "color": "0D90AD",
+            "default": false,
+            "description": "Suggestions to improve the Developer Experience, e.g. API improvements"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3747,15 +3855,25 @@
         "created_at": "2022-06-16T08:32:06Z",
         "closed_at": null,
         "title": "Consider using AbortSignal in observe",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6188917078,
+            "node_id": "LA_kwDOFG2YnM8AAAABcONhVg",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/dx-improvement",
+            "name": "dx-improvement",
+            "color": "0D90AD",
+            "default": false,
+            "description": "Suggestions to improve the Developer Experience, e.g. API improvements"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 113,
         "created_at": "2022-06-14T01:43:47Z",
-        "closed_at": null,
+        "closed_at": "2023-11-09T11:07:02Z",
         "title": "What version Chrome can support the new PressureObserver interface?",
         "labels": [],
         "assignee": null,
@@ -3787,7 +3905,17 @@
         "created_at": "2022-05-31T12:12:11Z",
         "closed_at": null,
         "title": "Permission policy doesn't support workers yet",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6188968884,
+            "node_id": "LA_kwDOFG2YnM8AAAABcOQrtA",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/external-issue",
+            "name": "external-issue",
+            "color": "fbca04",
+            "default": false,
+            "description": "Depending on changes in other spec's"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4137,7 +4265,17 @@
         "created_at": "2022-03-07T14:44:26Z",
         "closed_at": null,
         "title": "Security and privacy review tracker",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6188957112,
+            "node_id": "LA_kwDOFG2YnM8AAAABcOP9uA",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/w3c-process-steps",
+            "name": "w3c-process-steps",
+            "color": "E8B71B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4831,11 +4969,11 @@
           {
             "id": 3722658336,
             "node_id": "LA_kwDOFG2YnM7d40Ig",
-            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/ISV%20Support",
-            "name": "ISV Support",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/isv-support",
+            "name": "isv-support",
             "color": "87DE97",
             "default": false,
-            "description": ""
+            "description": "Support indication from independent software vendors"
           }
         ],
         "assignee": null,
@@ -4886,7 +5024,7 @@
         "number": 9,
         "created_at": "2021-05-13T18:56:03Z",
         "closed_at": null,
-        "title": "GPU load",
+        "title": "Use-case: GPU pressure",
         "labels": [
           {
             "id": 2776340644,
@@ -4896,6 +5034,15 @@
             "color": "a2eeef",
             "default": true,
             "description": "New feature or request"
+          },
+          {
+            "id": 4458829511,
+            "node_id": "LA_kwDOFG2YnM8AAAABCcRWxw",
+            "url": "https://api.github.com/repos/w3c/compute-pressure/labels/V2",
+            "name": "V2",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -15440,10 +15587,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 117,
         "created_at": "2023-11-07T22:48:59Z",
-        "closed_at": null,
+        "closed_at": "2023-11-09T20:24:08Z",
         "title": "editorial: Add a separate section describing model, rewrite contents",
         "labels": [],
         "assignee": null,
