@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 2004,
+        "created_at": "2023-11-30T02:19:59Z",
+        "closed_at": null,
+        "title": "Reference CTAP 2.1 errata spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2003,
         "created_at": "2023-11-28T12:14:24Z",
         "closed_at": null,
@@ -94,13 +104,23 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2000,
         "created_at": "2023-11-22T00:34:06Z",
-        "closed_at": null,
+        "closed_at": "2023-11-29T20:16:34Z",
         "title": "Clarify validation step for packed attestation certificate for RPs. ",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "sbweeden",
         "isPullRequest": true
       },
       {
@@ -124,10 +144,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1998,
         "created_at": "2023-11-16T03:02:37Z",
-        "closed_at": null,
+        "closed_at": "2023-11-29T20:16:35Z",
         "title": "How is an RP to know if a packed attestation root certificate is used for multiple authenticator models?",
         "labels": [
           {
@@ -252,13 +272,23 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1992,
         "created_at": "2023-11-01T04:54:49Z",
-        "closed_at": null,
+        "closed_at": "2023-11-29T20:18:29Z",
         "title": "Add note about typical autocomplete combos for conditional UI",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "MasterKale",
         "isPullRequest": true
       },
       {
@@ -312,10 +342,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1988,
         "created_at": "2023-10-12T22:36:41Z",
-        "closed_at": null,
+        "closed_at": "2023-11-29T20:20:51Z",
         "title": "Allow use of credProps extension during auth",
         "labels": [],
         "assignee": null,
@@ -431,10 +461,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1982,
         "created_at": "2023-10-02T15:41:15Z",
-        "closed_at": null,
+        "closed_at": "2023-11-29T20:18:31Z",
         "title": "Spec is not specific enough about order of conditional UI autofill tokens",
         "labels": [
           {
@@ -795,10 +825,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1965,
         "created_at": "2023-09-16T07:58:49Z",
-        "closed_at": null,
+        "closed_at": "2023-11-29T21:13:11Z",
         "title": "Code Injection vulnerability from client side",
         "labels": [
           {
@@ -811,7 +841,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "nicksteele",
         "isPullRequest": false
       },
       {
@@ -1271,7 +1301,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "timcappalli",
         "isPullRequest": false
       },
       {
@@ -1547,7 +1577,17 @@
         "created_at": "2023-07-18T23:19:53Z",
         "closed_at": null,
         "title": "Clarify TPM attestation verification instructions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
+          }
+        ],
         "assignee": "akshayku",
         "isPullRequest": true
       },
@@ -1682,6 +1722,15 @@
             "color": "fad8c7",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "emlun",
@@ -3223,7 +3272,7 @@
             "description": null
           }
         ],
-        "assignee": "agl",
+        "assignee": "arnar",
         "isPullRequest": false
       },
       {
@@ -4900,10 +4949,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1743,
         "created_at": "2022-06-09T21:08:40Z",
-        "closed_at": null,
+        "closed_at": "2023-11-29T20:50:16Z",
         "title": "Spec abstract is out of date on the eve of multi-device credentials and cross-device auth",
         "labels": [
           {
