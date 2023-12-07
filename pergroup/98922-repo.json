@@ -8,6 +8,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 97,
+        "created_at": "2023-12-06T23:52:08Z",
+        "closed_at": null,
+        "title": "Verification algorithm should say what happens if schema isn't followed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 96,
+        "created_at": "2023-12-06T10:10:41Z",
+        "closed_at": null,
+        "title": "Credential Type Mismatch between the Spec and the Schema",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 95,
         "created_at": "2023-11-23T13:03:26Z",
         "closed_at": null,
@@ -1584,6 +1604,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 225,
+        "created_at": "2023-12-06T16:21:48Z",
+        "closed_at": null,
+        "title": "context injection can lead to interference between proofs on a document, breaking verification of jcs-based proofs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 224,
@@ -5260,7 +5290,17 @@
         "created_at": "2023-12-05T11:03:53Z",
         "closed_at": null,
         "title": "Bug in the context file?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5283,16 +5323,6 @@
         ],
         "assignee": "iherman",
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 1371,
-        "created_at": "2023-12-04T14:12:12Z",
-        "closed_at": null,
-        "title": "Do we need an SD-JWT profile for W3C VCs?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
       },
       {
         "state": "open",
@@ -5345,10 +5375,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1367,
         "created_at": "2023-11-30T19:34:09Z",
-        "closed_at": null,
+        "closed_at": "2023-12-06T19:41:02Z",
         "title": "Update context to match spec for name/description.",
         "labels": [
           {
@@ -5369,8 +5399,18 @@
         "number": 1366,
         "created_at": "2023-11-29T19:06:11Z",
         "closed_at": null,
-        "title": "Rename `verifiablePresentation.verifiableCredential` to `verifiablePresentation.verifiableCredentialGraph`",
-        "labels": [],
+        "title": "Clarify the domain and range of the `verifiablePresentation.verifiableCredential` property",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5380,8 +5420,18 @@
         "created_at": "2023-11-29T19:03:01Z",
         "closed_at": null,
         "title": "Clarify section on verifiable credential graph",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -5390,8 +5440,18 @@
         "created_at": "2023-11-27T22:34:10Z",
         "closed_at": null,
         "title": "Do VCs still need Media Types with Multiple Suffixes?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "seabass-labrax",
         "isPullRequest": false
       },
       {
@@ -5435,10 +5495,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1361,
         "created_at": "2023-11-26T09:47:27Z",
-        "closed_at": null,
+        "closed_at": "2023-12-06T19:39:30Z",
         "title": "Remove unnecessary vocab comments in vocabulary.yml",
         "labels": [
           {
@@ -5505,6 +5565,15 @@
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/discuss",
             "name": "discuss",
             "color": "E13AF3",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5541804458,
+            "node_id": "LA_kwDOBGbiEc8AAAABSlE5qg",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/post-CR",
+            "name": "post-CR",
+            "color": "9E3566",
             "default": false,
             "description": ""
           }
@@ -6460,8 +6529,18 @@
         "created_at": "2023-10-13T18:36:57Z",
         "closed_at": null,
         "title": "Update 4.9 Securing Verifiable Credentials",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "selfissued",
         "isPullRequest": false
       },
       {
@@ -32142,6 +32221,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 191,
+        "created_at": "2023-12-04T14:12:12Z",
+        "closed_at": null,
+        "title": "Do we need an SD-JWT profile for W3C VCs?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 190,
