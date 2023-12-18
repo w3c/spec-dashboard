@@ -1625,6 +1625,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 229,
+        "created_at": "2023-12-17T21:06:52Z",
+        "closed_at": null,
+        "title": "Ensure exposition text on relationship to VCs mentions checking verification relationship against proof purpose",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 228,
         "created_at": "2023-12-17T01:46:52Z",
@@ -5366,11 +5376,120 @@
     "issues": [
       {
         "state": "open",
+        "number": 1393,
+        "created_at": "2023-12-17T22:28:01Z",
+        "closed_at": null,
+        "title": "Clarify how issuer validation occurs.",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1392,
+        "created_at": "2023-12-17T20:17:54Z",
+        "closed_at": null,
+        "title": "Add requirement for securing mechanisms to have post-verification documentation.",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1391,
+        "created_at": "2023-12-17T18:56:48Z",
+        "closed_at": null,
+        "title": "Clarify that ProblemDetails can be extended for any reason.",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1390,
+        "created_at": "2023-12-17T18:39:29Z",
+        "closed_at": null,
+        "title": "Clarify that non-objects aren't allowed as VC graphs.",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1389,
+        "created_at": "2023-12-17T17:45:25Z",
+        "closed_at": null,
+        "title": "Clarify that \"proof\" is an extension point",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1388,
         "created_at": "2023-12-17T01:49:34Z",
         "closed_at": null,
         "title": "Specify what kind of processing is safe on a returned document",
         "labels": [
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 5589814023,
             "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
@@ -5410,8 +5529,27 @@
         "created_at": "2023-12-15T18:04:35Z",
         "closed_at": null,
         "title": "Specify that it is important to validate the `issuer` value",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -5432,13 +5570,13 @@
         "title": "Allow extensions to ProblemDetails object",
         "labels": [
           {
-            "id": 850456033,
-            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "88CD1F",
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
             "default": false,
-            "description": "This issue is ready for a Pull Request to be created to resolve it"
+            "description": ""
           },
           {
             "id": 5589814023,
@@ -5872,13 +6010,13 @@
         "title": "Clarify section on verifiable credential graph",
         "labels": [
           {
-            "id": 850456033,
-            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "88CD1F",
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
             "default": false,
-            "description": "This issue is ready for a Pull Request to be created to resolve it"
+            "description": ""
           },
           {
             "id": 5589814023,
@@ -7016,6 +7154,15 @@
         "closed_at": null,
         "title": "Update 4.9 Securing Verifiable Credentials",
         "labels": [
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 5541804458,
             "node_id": "LA_kwDOBGbiEc8AAAABSlE5qg",
@@ -29032,10 +29179,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 105,
         "created_at": "2023-12-15T17:12:58Z",
-        "closed_at": null,
+        "closed_at": "2023-12-18T00:49:54Z",
         "title": "Add Explainer",
         "labels": [],
         "assignee": null,
