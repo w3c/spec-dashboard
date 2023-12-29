@@ -8,6 +8,46 @@
     "issues": [
       {
         "state": "open",
+        "number": 108,
+        "created_at": "2023-12-28T21:49:49Z",
+        "closed_at": null,
+        "title": "Update VCDM dependency to VCDM v2.0.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 107,
+        "created_at": "2023-12-28T21:39:29Z",
+        "closed_at": null,
+        "title": "Add protocol statements related to pub/sub of status lists.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 106,
+        "created_at": "2023-12-28T21:07:46Z",
+        "closed_at": null,
+        "title": "Clarify what credential status information is about.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 105,
+        "created_at": "2023-12-28T18:19:44Z",
+        "closed_at": null,
+        "title": "Add formal vocabulary definitions.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 104,
         "created_at": "2023-12-27T23:17:39Z",
         "closed_at": null,
@@ -338,8 +378,18 @@
         "created_at": "2023-09-08T17:26:18Z",
         "closed_at": null,
         "title": "Cascading status updates",
-        "labels": [],
-        "assignee": "OR13",
+        "labels": [
+          {
+            "id": 5946448141,
+            "node_id": "LA_kwDOE-wAx88AAAABYm-ZDQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pending%207%20day%20close",
+            "name": "pending 7 day close",
+            "color": "9A2CCB",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -367,15 +417,6 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
-          },
-          {
-            "id": 5946448141,
-            "node_id": "LA_kwDOE-wAx88AAAABYm-ZDQ",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pending%207%20day%20close",
-            "name": "pending 7 day close",
-            "color": "9A2CCB",
-            "default": false,
-            "description": ""
           }
         ],
         "assignee": "iherman",
@@ -432,10 +473,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 78,
         "created_at": "2023-07-07T18:48:47Z",
-        "closed_at": null,
+        "closed_at": "2023-12-28T21:09:06Z",
         "title": "Media type pairings",
         "labels": [
           {
@@ -787,10 +828,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 55,
         "created_at": "2023-02-08T16:16:13Z",
-        "closed_at": null,
+        "closed_at": "2023-12-28T17:00:50Z",
         "title": "Add guidance on rfc3642",
         "labels": [
           {
@@ -822,6 +863,15 @@
         "closed_at": null,
         "title": "How to understand herd privacy in using bit string?",
         "labels": [
+          {
+            "id": 2699462389,
+            "node_id": "MDU6TGFiZWwyNjk5NDYyMzg5",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true,
+            "description": "Further information is requested"
+          },
           {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
@@ -880,9 +930,18 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -1012,15 +1071,6 @@
         "title": "clarify protocol for retrieval of a status list ",
         "labels": [
           {
-            "id": 5074160626,
-            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
-            "name": "ready-for-pr",
-            "color": "D93F0B",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
@@ -1028,16 +1078,25 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 43,
         "created_at": "2023-01-26T18:42:36Z",
-        "closed_at": null,
+        "closed_at": "2023-12-28T17:00:29Z",
         "title": "Trusted origins, list issuers vs hosts",
         "labels": [
           {
@@ -1063,10 +1122,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 42,
         "created_at": "2023-01-26T18:33:15Z",
-        "closed_at": null,
+        "closed_at": "2023-12-28T21:11:39Z",
         "title": "Would like multiple status to be capable of representation in a status list",
         "labels": [
           {
@@ -1083,10 +1142,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 41,
         "created_at": "2023-01-26T18:32:09Z",
-        "closed_at": null,
+        "closed_at": "2023-12-28T17:00:11Z",
         "title": "Randomization",
         "labels": [
           {
@@ -1112,10 +1171,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 40,
         "created_at": "2023-01-26T18:30:54Z",
-        "closed_at": null,
+        "closed_at": "2023-12-28T16:59:38Z",
         "title": "Should \"noise\" be added during \"updates\"",
         "labels": [
           {
@@ -1181,10 +1240,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 37,
         "created_at": "2023-01-12T18:06:46Z",
-        "closed_at": null,
+        "closed_at": "2023-12-28T16:58:45Z",
         "title": "Define priority for a single credential with multiple statuses",
         "labels": [
           {
@@ -1219,21 +1278,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 36,
         "created_at": "2023-01-08T20:34:03Z",
-        "closed_at": null,
+        "closed_at": "2023-12-28T21:10:23Z",
         "title": "Specify bit order for status list ",
         "labels": [
-          {
-            "id": 5074160626,
-            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
-            "name": "ready-for-pr",
-            "color": "D93F0B",
-            "default": false,
-            "description": ""
-          },
           {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
@@ -1242,6 +1292,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -1262,9 +1321,18 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -1372,6 +1440,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 5946448141,
+            "node_id": "LA_kwDOE-wAx88AAAABYm-ZDQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pending%207%20day%20close",
+            "name": "pending 7 day close",
+            "color": "9A2CCB",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -1395,15 +1472,6 @@
         "title": "Handling Right to Erasure in encodedList and Validate Algorithm",
         "labels": [
           {
-            "id": 5074160626,
-            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
-            "name": "ready-for-pr",
-            "color": "D93F0B",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
@@ -1411,6 +1479,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 5946448141,
+            "node_id": "LA_kwDOE-wAx88AAAABYm-ZDQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pending%207%20day%20close",
+            "name": "pending 7 day close",
+            "color": "9A2CCB",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -1481,9 +1558,18 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -5541,6 +5627,26 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 1405,
+        "created_at": "2023-12-28T16:15:19Z",
+        "closed_at": null,
+        "title": "Add RANGE_ERROR to list of potential errors.",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 1404,
@@ -32143,10 +32249,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 38,
         "created_at": "2023-04-20T18:12:53Z",
-        "closed_at": null,
+        "closed_at": "2023-12-28T08:33:17Z",
         "title": "Is Example 15 / 16 correct?",
         "labels": [
           {
