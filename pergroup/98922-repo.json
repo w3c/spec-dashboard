@@ -8,6 +8,164 @@
     "issues": [
       {
         "state": "open",
+        "number": 120,
+        "created_at": "2023-12-30T03:14:13Z",
+        "closed_at": null,
+        "title": "Remove `ttl`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 119,
+        "created_at": "2023-12-29T23:25:33Z",
+        "closed_at": null,
+        "title": "Add \"at risk\" marker noting bitstring format might change in CR.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 118,
+        "created_at": "2023-12-29T22:57:22Z",
+        "closed_at": null,
+        "title": "Add guidance on how to secure status lists.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 117,
+        "created_at": "2023-12-29T22:13:33Z",
+        "closed_at": null,
+        "title": "Add privacy consideration section about Multistatus Correlation.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 116,
+        "created_at": "2023-12-29T21:23:24Z",
+        "closed_at": null,
+        "title": "Raise malformed value error on malformed values.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 115,
+        "created_at": "2023-12-29T20:44:45Z",
+        "closed_at": null,
+        "title": "Raise error when status list size does not meet minimum threshold.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 114,
+        "created_at": "2023-12-29T20:23:23Z",
+        "closed_at": null,
+        "title": "Rename `reference` to `statusReference`",
+        "labels": [
+          {
+            "id": 5074160626,
+            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
+            "name": "ready-for-pr",
+            "color": "D93F0B",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5784269886,
+            "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
+            "name": "before-CR",
+            "color": "DDBC14",
+            "default": false,
+            "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 113,
+        "created_at": "2023-12-29T20:20:32Z",
+        "closed_at": null,
+        "title": "Rename \"size\" to \"statusSize\"",
+        "labels": [
+          {
+            "id": 5074160626,
+            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
+            "name": "ready-for-pr",
+            "color": "D93F0B",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5784269886,
+            "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
+            "name": "before-CR",
+            "color": "DDBC14",
+            "default": false,
+            "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 112,
+        "created_at": "2023-12-29T19:44:28Z",
+        "closed_at": null,
+        "title": "Add mechanism to retrieve historical status list information.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 111,
+        "created_at": "2023-12-29T19:12:24Z",
+        "closed_at": null,
+        "title": "Add section on Processing Errors.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 110,
+        "created_at": "2023-12-29T18:37:24Z",
+        "closed_at": null,
+        "title": "Clarify base64 encoding as base64url encoding.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 109,
+        "created_at": "2023-12-29T18:01:20Z",
+        "closed_at": null,
+        "title": "Update BitstringStatusList context to align with latest spec.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 108,
         "created_at": "2023-12-28T21:49:49Z",
         "closed_at": null,
@@ -162,15 +320,6 @@
         "title": "Verification algorithm should say what happens if schema isn't followed",
         "labels": [
           {
-            "id": 5074160626,
-            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
-            "name": "ready-for-pr",
-            "color": "D93F0B",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
@@ -178,9 +327,18 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -198,6 +356,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -221,15 +388,6 @@
         "title": "Precise timestamps of status changes",
         "labels": [
           {
-            "id": 5074160626,
-            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
-            "name": "ready-for-pr",
-            "color": "D93F0B",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
@@ -237,6 +395,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -257,9 +424,18 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -337,6 +513,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "msporny",
@@ -357,9 +542,18 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -423,10 +617,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 81,
         "created_at": "2023-07-28T07:15:05Z",
-        "closed_at": null,
+        "closed_at": "2023-12-29T16:07:39Z",
         "title": "Vocabulary definitions",
         "labels": [
           {
@@ -457,9 +651,18 @@
             "color": "8F2947",
             "default": false,
             "description": "This issue needs to be resolved during the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -577,6 +780,15 @@
         "title": "Unify design of status lists to support multi-bit values",
         "labels": [
           {
+            "id": 2699462390,
+            "node_id": "MDU6TGFiZWwyNjk5NDYyMzkw",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/wontfix",
+            "name": "wontfix",
+            "color": "ffffff",
+            "default": true,
+            "description": "This will not be worked on"
+          },
+          {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
@@ -584,6 +796,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 5946448141,
+            "node_id": "LA_kwDOE-wAx88AAAABYm-ZDQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pending%207%20day%20close",
+            "name": "pending 7 day close",
+            "color": "9A2CCB",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -634,9 +855,18 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -697,15 +927,6 @@
         "title": "Add section on expected server HTTP status codes",
         "labels": [
           {
-            "id": 5074160626,
-            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
-            "name": "ready-for-pr",
-            "color": "D93F0B",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
@@ -713,6 +934,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "msporny",
@@ -776,15 +1006,6 @@
         "title": "Encoded list in Base64 or Base64Url?",
         "labels": [
           {
-            "id": 5074160626,
-            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
-            "name": "ready-for-pr",
-            "color": "D93F0B",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
@@ -792,6 +1013,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "msporny",
@@ -815,6 +1045,15 @@
         "title": "Implementation Considerations",
         "labels": [
           {
+            "id": 2699462389,
+            "node_id": "MDU6TGFiZWwyNjk5NDYyMzg5",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true,
+            "description": "Further information is requested"
+          },
+          {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
@@ -822,6 +1061,15 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 5946448141,
+            "node_id": "LA_kwDOE-wAx88AAAABYm-ZDQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pending%207%20day%20close",
+            "name": "pending 7 day close",
+            "color": "9A2CCB",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -857,10 +1105,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 54,
         "created_at": "2023-02-06T02:34:29Z",
-        "closed_at": null,
+        "closed_at": "2023-12-29T16:33:07Z",
         "title": "How to understand herd privacy in using bit string?",
         "labels": [
           {
@@ -910,9 +1158,18 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -1012,6 +1269,15 @@
         "title": "Is it possible to support multiple purposes?",
         "labels": [
           {
+            "id": 2699462389,
+            "node_id": "MDU6TGFiZWwyNjk5NDYyMzg5",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true,
+            "description": "Further information is requested"
+          },
+          {
             "id": 5784269886,
             "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
@@ -1019,9 +1285,18 @@
             "color": "DDBC14",
             "default": false,
             "description": "This issue needs to be resolved before the Candidate Recommendation phase."
+          },
+          {
+            "id": 5946448141,
+            "node_id": "LA_kwDOE-wAx88AAAABYm-ZDQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pending%207%20day%20close",
+            "name": "pending 7 day close",
+            "color": "9A2CCB",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -5627,6 +5902,26 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 1406,
+        "created_at": "2023-12-29T18:11:07Z",
+        "closed_at": null,
+        "title": "Update context to include latest BitstringStatusList changes.",
+        "labels": [
+          {
+            "id": 5589814023,
+            "node_id": "LA_kwDOBGbiEc8AAAABTS3LBw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 1405,
