@@ -2281,6 +2281,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 239,
+        "created_at": "2024-01-17T20:46:09Z",
+        "closed_at": null,
+        "title": "Replace jcs-eddsa-2022 with eddsa-jcs-2022 in examples",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 238,
         "created_at": "2024-01-13T07:34:26Z",
@@ -6140,6 +6150,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 1413,
+        "created_at": "2024-01-17T20:27:14Z",
+        "closed_at": null,
+        "title": "Add intro to Credential Type-Specific Processing.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 1412,
         "created_at": "2024-01-09T22:33:21Z",
@@ -6155,8 +6175,18 @@
         "created_at": "2024-01-06T18:03:12Z",
         "closed_at": null,
         "title": "Does the specification need a normative \"Credential Specifications\" section?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 6443664038,
+            "node_id": "LA_kwDOBGbiEc8AAAABgBKCpg",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR2",
+            "name": "CR2",
+            "color": "5DF84B",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -8170,6 +8200,15 @@
         "title": "Add definition of well formed",
         "labels": [
           {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
+          {
             "id": 5541804458,
             "node_id": "LA_kwDOBGbiEc8AAAABSlE5qg",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/post-CR",
@@ -8570,6 +8609,15 @@
         "closed_at": null,
         "title": "Propose better JSON-LD processing text",
         "labels": [
+          {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
           {
             "id": 5541804458,
             "node_id": "LA_kwDOBGbiEc8AAAABSlE5qg",
@@ -10712,7 +10760,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "nicksteele",
         "isPullRequest": false
       },
       {
@@ -15565,6 +15613,15 @@
         "title": "Clarify role of Holder (was: Create the new role of issuee)",
         "labels": [
           {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
+          {
             "id": 4366401593,
             "node_id": "LA_kwDOBGbiEc8AAAABBEIAOQ",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/discuss",
@@ -15942,6 +15999,15 @@
             "color": "88CD1F",
             "default": false,
             "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
           },
           {
             "id": 4771564748,
@@ -30281,6 +30347,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 134,
+        "created_at": "2024-01-17T23:33:26Z",
+        "closed_at": null,
+        "title": "Tell implementers to use major type 2 encoding (not tag 64 -- Uint8Array) for CBOR",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 133,
+        "created_at": "2024-01-17T16:58:22Z",
+        "closed_at": null,
+        "title": "Remove reference to RDF Normalization",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 132,
+        "created_at": "2024-01-17T14:04:38Z",
+        "closed_at": null,
+        "title": "Outdated reference in the spec",
+        "labels": [],
+        "assignee": "Wind4Greg",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 131,
         "created_at": "2024-01-16T17:53:17Z",
         "closed_at": null,
@@ -30406,7 +30502,7 @@
         "closed_at": null,
         "title": "Add note that implementers can reuse `createHmacIdLabelMapFunction` in `createShuffledIdLabelMapFunction`",
         "labels": [],
-        "assignee": null,
+        "assignee": "Wind4Greg",
         "isPullRequest": false
       },
       {
@@ -32022,6 +32118,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 52,
+        "created_at": "2024-01-17T23:32:51Z",
+        "closed_at": null,
+        "title": "Tell implementers to use major type 2 encoding (not tag 64 -- Uint8Array) for CBOR",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 51,
@@ -34692,6 +34798,26 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 222,
+        "created_at": "2024-01-17T09:03:44Z",
+        "closed_at": null,
+        "title": "Potential problem with Example 2",
+        "labels": [
+          {
+            "id": 5948375275,
+            "node_id": "LA_kwDOHrK-n88AAAABYo0A6w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/before-CR",
+            "name": "before-CR",
+            "color": "795527",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 221,
