@@ -6754,7 +6754,7 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/css-gcpm-3/",
-    "description": "<p>This module describes features often used in printed publications. In particular, this specification describes how CSS style sheets can express running headers and footers, leaders, cross-references, footnotes, sidenotes, named flows, hyphenation, new counter styles, character substitution, image resolution, page floats, advanced multi-column layout, conditional content, crop and cross marks, bookmarks, CMYK colors, continuation markers, change bars, line numbers, named page lists, and generated lists. Along with two other CSS3 modules – multi-column layout and paged media – this module offers advanced functionality for presenting structured documents on paged media.</p>",
+    "description": "<p>Books and other paged media often use special techniques to display information. Content may be moved to or generated for special areas of the page, such as running heads or footnotes. Generated content within pages, such as tab leaders or cross-references, helps readers navigate within and between pages.</p>",
     "title": "CSS Generated Content for Paged Media Module",
     "shortname": "css-gcpm-3",
     "editor-draft": "https://drafts.csswg.org/css-gcpm/",
@@ -6770,7 +6770,7 @@
         "title": "Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-gcpm-3/versions/20140513",
+        "href": "https://api.w3.org/specifications/css-gcpm-3/versions/20240125",
         "title": "Working Draft"
       },
       "series": {
@@ -6779,6 +6779,34 @@
     },
     "editorsdraft": "https://drafts.csswg.org/css-gcpm/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/css-gcpm/",
+        "uri": "https://www.w3.org/TR/2024/WD-css-gcpm-3-20240125/",
+        "date": "2024-01-25",
+        "informative": false,
+        "title": "CSS Generated Content for Paged Media Module",
+        "shortlink": "https://www.w3.org/TR/css-gcpm-3/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-gcpm-3/versions/20240125"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-gcpm-3/versions/20240125/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-gcpm-3/versions/20240125/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-gcpm-3"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-gcpm-3/versions/20240125/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -6803,6 +6831,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-gcpm-3/versions/20140513/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-gcpm-3/versions/20140513/successors"
           }
         }
       },
@@ -19006,6 +19037,61 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/css-view-transitions-1/versions/20221025/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/css-viewport-1/",
+    "description": "<p>This specification provides a way for an author to specify, in CSS, the size, zoom factor, and orientation of the viewport that is used as the base for the initial containing block.</p>",
+    "title": "CSS Viewport Module Level 1",
+    "shortname": "css-viewport-1",
+    "editor-draft": "https://drafts.csswg.org/css-viewport/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/css-viewport-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/css-viewport-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/css-viewport-1/versions/20240125",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/css-viewport-1/versions/20240125",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/css-viewport"
+      }
+    },
+    "editorsdraft": "https://drafts.csswg.org/css-viewport/",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/css-viewport/",
+        "uri": "https://www.w3.org/TR/2024/WD-css-viewport-1-20240125/",
+        "date": "2024-01-25",
+        "informative": false,
+        "title": "CSS Viewport Module Level 1",
+        "shortlink": "https://www.w3.org/TR/css-viewport-1/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-viewport-1/versions/20240125"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-viewport-1/versions/20240125/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-viewport-1/versions/20240125/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-viewport-1"
           }
         }
       }
