@@ -1307,8 +1307,8 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/vc-data-model-2.0/versions/20240126",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/vc-data-model-2.0/versions/20240201",
+        "title": "Candidate Recommendation Snapshot"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/vc-data-model"
@@ -1316,6 +1316,35 @@
     },
     "editorsdraft": "https://w3c.github.io/vc-data-model/",
     "versions": [
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/vc-data-model/",
+        "uri": "https://www.w3.org/TR/2024/CR-vc-data-model-2.0-20240201/",
+        "date": "2024-02-01",
+        "implementation-feedback-due": "2024-04-01",
+        "informative": false,
+        "title": "Verifiable Credentials Data Model v2.0",
+        "shortlink": "https://www.w3.org/TR/vc-data-model-2.0/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.0/versions/20240201"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.0/versions/20240201/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.0/versions/20240201/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.0"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.0/versions/20240201/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -1341,6 +1370,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/vc-data-model-2.0/versions/20240126/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.0/versions/20240126/successors"
           }
         }
       },
@@ -9071,6 +9103,60 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/vc-jws-2020/versions/20221208/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/vc-specs-dir/",
+    "description": "<p>This document serves as an unofficial directory for all known Verifiable Credential specifications whether they are released by a global standards setting organization, a community group, an open source project, or an individual.</p>",
+    "title": "VC Specifications Directory",
+    "shortname": "vc-specs-dir",
+    "editor-draft": "https://w3c.github.io/vc-specs-dir/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/vc-specs-dir"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/vc-specs-dir/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/vc-specs-dir/versions/20240201",
+        "title": "Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/vc-specs-dir/versions/20240201",
+        "title": "Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/vc-specs-dir"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/vc-specs-dir/",
+    "versions": [
+      {
+        "status": "Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/vc-specs-dir/",
+        "uri": "https://www.w3.org/TR/2024/NOTE-vc-specs-dir-20240201/",
+        "date": "2024-02-01",
+        "informative": true,
+        "title": "VC Specifications Directory",
+        "shortlink": "https://www.w3.org/TR/vc-specs-dir/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/vc-specs-dir/versions/20240201"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/vc-specs-dir/versions/20240201/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/vc-specs-dir/versions/20240201/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/vc-specs-dir"
           }
         }
       }
