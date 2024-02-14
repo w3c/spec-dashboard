@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 590,
+        "created_at": "2024-02-13T15:22:31Z",
+        "closed_at": null,
+        "title": "Working with servers behind a NAT or on a local network (aka \"p2p\")",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 589,
         "created_at": "2024-02-08T17:58:45Z",
         "closed_at": null,
@@ -27,13 +37,23 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 587,
         "created_at": "2024-01-29T06:01:34Z",
-        "closed_at": null,
+        "closed_at": "2024-02-14T01:55:50Z",
         "title": "Add more conditions for garbage collection",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 2746590681,
+            "node_id": "MDU6TGFiZWwyNzQ2NTkwNjgx",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "6D5B25",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "nidhijaju",
         "isPullRequest": true
       },
       {
@@ -221,7 +241,17 @@
         "created_at": "2023-11-23T00:34:28Z",
         "closed_at": null,
         "title": "Add anticipatedConcurrentIncoming[Bi/Uni]directionalStreams attributes & constructor arg",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2746590681,
+            "node_id": "MDU6TGFiZWwyNzQ2NTkwNjgx",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "6D5B25",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -434,10 +464,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 560,
         "created_at": "2023-10-24T21:06:30Z",
-        "closed_at": null,
+        "closed_at": "2024-02-14T01:55:51Z",
         "title": "Allow more aggressive garbage collection",
         "labels": [
           {
@@ -2490,7 +2520,7 @@
             "description": "Flags an issue to be discussed at the next WG working"
           }
         ],
-        "assignee": "vasilvv",
+        "assignee": "wilaw",
         "isPullRequest": false
       },
       {
@@ -2947,15 +2977,6 @@
         "title": "expose a TLS Keying Material Exporter / unique value for the TLS session",
         "labels": [
           {
-            "id": 2444295339,
-            "node_id": "MDU6TGFiZWwyNDQ0Mjk1MzM5",
-            "url": "https://api.github.com/repos/w3c/webtransport/labels/Ready%20for%20PR",
-            "name": "Ready for PR",
-            "color": "b2f9a2",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 2589194877,
             "node_id": "MDU6TGFiZWwyNTg5MTk0ODc3",
             "url": "https://api.github.com/repos/w3c/webtransport/labels/Discuss%20at%20next%20meeting",
@@ -2963,6 +2984,15 @@
             "color": "bfd4f2",
             "default": false,
             "description": "Flags an issue to be discussed at the next WG working"
+          },
+          {
+            "id": 2710569063,
+            "node_id": "MDU6TGFiZWwyNzEwNTY5MDYz",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/IETF%20dependency",
+            "name": "IETF dependency",
+            "color": "B2D15A",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "vasilvv",
