@@ -4,7 +4,7 @@
     "description": "<p>This document describes version 2.0 of the core WebAssembly standard, a safe, portable, low-level code format designed for efficient execution and compact representation. WebAseembly Core is part of a collection of WebAssembly specifications: the Core WebAssembly Specification, the WebAssembly JS Interface, and the WebAssembly Web API.</p>",
     "title": "WebAssembly Core Specification",
     "shortname": "wasm-core-2",
-    "editor-draft": "https://webassembly.github.io/spec/core/",
+    "editor-draft": "https://webassembly.github.io/spec/core/bikeshed/",
     "series-version": "2.0",
     "_links": {
       "self": {
@@ -18,19 +18,78 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/wasm-core-2/versions/20220419",
-        "title": "First Public Working Draft"
+        "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240218",
+        "title": "Working Draft"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/wasm-core"
       }
     },
-    "editorsdraft": "https://webassembly.github.io/spec/core/",
+    "editorsdraft": "https://webassembly.github.io/spec/core/bikeshed/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://webassembly.github.io/spec/core/bikeshed/",
+        "uri": "https://www.w3.org/TR/2024/WD-wasm-core-2-20240218/",
+        "date": "2024-02-18",
+        "informative": false,
+        "title": "WebAssembly Core Specification",
+        "shortlink": "https://www.w3.org/TR/wasm-core-2/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240218"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240218/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240218/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/wasm-core-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240218/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://webassembly.github.io/spec/core/bikeshed/",
+        "uri": "https://www.w3.org/TR/2024/WD-wasm-core-2-20240217/",
+        "date": "2024-02-17",
+        "informative": false,
+        "title": "WebAssembly Core Specification",
+        "shortlink": "https://www.w3.org/TR/wasm-core-2/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240217"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240217/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240217/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/wasm-core-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240217/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20240217/successors"
+          }
+        }
+      },
       {
         "status": "First Public Working Draft",
         "rec-track": true,
-        "editor-draft": "https://webassembly.github.io/spec/core/",
+        "editor-draft": "https://webassembly.github.io/spec/core/bikeshed/",
         "uri": "https://www.w3.org/TR/2022/WD-wasm-core-2-20220419/",
         "date": "2022-04-19",
         "informative": false,
@@ -49,6 +108,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/wasm-core-2"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/wasm-core-2/versions/20220419/successors"
           }
         }
       }
@@ -73,7 +135,7 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/wasm-js-api-2/versions/20240216",
+        "href": "https://api.w3.org/specifications/wasm-js-api-2/versions/20240217",
         "title": "Working Draft"
       },
       "series": {
@@ -82,6 +144,34 @@
     },
     "editorsdraft": "https://webassembly.github.io/spec/js-api/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://webassembly.github.io/spec/js-api/",
+        "uri": "https://www.w3.org/TR/2024/WD-wasm-js-api-2-20240217/",
+        "date": "2024-02-17",
+        "informative": false,
+        "title": "WebAssembly JavaScript Interface",
+        "shortlink": "https://www.w3.org/TR/wasm-js-api-2/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/wasm-js-api-2/versions/20240217"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/wasm-js-api-2/versions/20240217/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/wasm-js-api-2/versions/20240217/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/wasm-js-api-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/wasm-js-api-2/versions/20240217/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -107,6 +197,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/wasm-js-api-2/versions/20240216/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/wasm-js-api-2/versions/20240216/successors"
           }
         }
       },
@@ -190,7 +283,7 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240216",
+        "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240218",
         "title": "Working Draft"
       },
       "series": {
@@ -199,6 +292,65 @@
     },
     "editorsdraft": "https://webassembly.github.io/spec/web-api/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://webassembly.github.io/spec/web-api/",
+        "uri": "https://www.w3.org/TR/2024/WD-wasm-web-api-2-20240218/",
+        "date": "2024-02-18",
+        "informative": false,
+        "title": "WebAssembly Web API",
+        "shortlink": "https://www.w3.org/TR/wasm-web-api-2/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240218"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240218/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240218/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240218/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://webassembly.github.io/spec/web-api/",
+        "uri": "https://www.w3.org/TR/2024/WD-wasm-web-api-2-20240217/",
+        "date": "2024-02-17",
+        "informative": false,
+        "title": "WebAssembly Web API",
+        "shortlink": "https://www.w3.org/TR/wasm-web-api-2/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240217"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240217/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240217/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240217/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240217/successors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -224,6 +376,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240216/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/wasm-web-api-2/versions/20240216/successors"
           }
         }
       },
