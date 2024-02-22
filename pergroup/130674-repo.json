@@ -356,31 +356,81 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
-        "number": 577,
-        "created_at": "2024-02-21T01:01:51Z",
-        "closed_at": null,
-        "title": "Bugfix: Make concat() validation and initialization more precise.",
-        "labels": [],
+        "state": "closed",
+        "number": 580,
+        "created_at": "2024-02-22T01:25:26Z",
+        "closed_at": "2024-02-22T07:42:25Z",
+        "title": "Style: Turn on \"Assume Explicit For\" and scope autolinks",
+        "labels": [
+          {
+            "id": 5615680363,
+            "node_id": "LA_kwDOCUZihs8AAAABTrh7aw",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/conventions",
+            "name": "conventions",
+            "color": "3A52A0",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 579,
+        "created_at": "2024-02-21T22:53:09Z",
+        "closed_at": null,
+        "title": "Revisiting use of partial interfaces",
+        "labels": [
+          {
+            "id": 5615680363,
+            "node_id": "LA_kwDOCUZihs8AAAABTrh7aw",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/conventions",
+            "name": "conventions",
+            "color": "3A52A0",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 578,
+        "created_at": "2024-02-21T18:29:13Z",
+        "closed_at": "2024-02-22T00:45:32Z",
+        "title": "Bug fix: gather() steps shouldn't invoke methods",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 577,
+        "created_at": "2024-02-21T01:01:51Z",
+        "closed_at": "2024-02-22T00:43:30Z",
+        "title": "Bug fix: Make concat() validation and initialization more precise.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 576,
         "created_at": "2024-02-20T20:33:10Z",
-        "closed_at": null,
+        "closed_at": "2024-02-22T00:27:21Z",
         "title": "Style: Make grouped algorithm steps consistent",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 575,
         "created_at": "2024-02-16T22:59:22Z",
-        "closed_at": null,
-        "title": "Bug fix: Fix MLGraphBuilder.input()'s handling of scalars. Fixes #502",
+        "closed_at": "2024-02-21T23:23:12Z",
+        "title": "Bug fix: Fix MLGraphBuilder.input()'s handling of scalars",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -530,10 +580,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 569,
         "created_at": "2024-02-15T16:50:52Z",
-        "closed_at": null,
+        "closed_at": "2024-02-22T03:04:48Z",
         "title": "Remove MLBufferView",
         "labels": [],
         "assignee": null,
@@ -650,10 +700,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 560,
         "created_at": "2024-02-08T02:33:04Z",
-        "closed_at": null,
+        "closed_at": "2024-02-22T03:04:49Z",
         "title": "Consider removing `MLBufferView` in its current form",
         "labels": [],
         "assignee": null,
@@ -1368,10 +1418,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 503,
         "created_at": "2024-01-10T21:16:31Z",
-        "closed_at": null,
+        "closed_at": "2024-02-22T00:43:32Z",
         "title": "concat() assertions around input shape/datatypes seem invalid",
         "labels": [
           {
@@ -1397,10 +1447,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 502,
         "created_at": "2024-01-10T20:56:21Z",
-        "closed_at": null,
+        "closed_at": "2024-02-21T23:23:14Z",
         "title": "Convert \"If descriptor.dimensions does not exist, then descriptor defines a scalar input.\" from assertion to note",
         "labels": [
           {
@@ -2107,7 +2157,17 @@
         "created_at": "2023-09-08T06:36:40Z",
         "closed_at": null,
         "title": "Allow checking whether operators/types are supported for a backend before creating a graph",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6503698190,
+            "node_id": "LA_kwDOCUZihs8AAAABg6aPDg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/feature%20request",
+            "name": "feature request",
+            "color": "89DD76",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2237,7 +2297,35 @@
         "created_at": "2023-08-22T19:57:40Z",
         "closed_at": null,
         "title": "Google Chrome Feedback on WebNN: aiming for broad device coverage and maintainability",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5221743387,
+            "node_id": "LA_kwDOCUZihs8AAAABNz17Gw",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/process",
+            "name": "process",
+            "color": "93D7E3",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5222093283,
+            "node_id": "LA_kwDOCUZihs8AAAABN0LR4w",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/opset",
+            "name": "opset",
+            "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5222827346,
+            "node_id": "LA_kwDOCUZihs8AAAABN04FUg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/use%20case",
+            "name": "use case",
+            "color": "fbca04",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2282,10 +2370,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 450,
         "created_at": "2023-08-15T18:22:30Z",
-        "closed_at": null,
+        "closed_at": "2024-02-21T22:54:14Z",
         "title": "Use web spec best practices",
         "labels": [
           {
@@ -2555,7 +2643,17 @@
         "created_at": "2023-06-28T08:16:48Z",
         "closed_at": null,
         "title": "Allow to hint number of threads for CPU MLContext",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6503698190,
+            "node_id": "LA_kwDOCUZihs8AAAABg6aPDg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/feature%20request",
+            "name": "feature request",
+            "color": "89DD76",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3615,7 +3713,17 @@
         "created_at": "2023-04-11T05:05:26Z",
         "closed_at": null,
         "title": "Add samples of shape broadcasting ",
-        "labels": [],
+        "labels": [
+          {
+            "id": 3057710642,
+            "node_id": "MDU6TGFiZWwzMDU3NzEwNjQy",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/editorial",
+            "name": "editorial",
+            "color": "D0E30F",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3984,7 +4092,17 @@
         "created_at": "2023-02-20T07:01:56Z",
         "closed_at": null,
         "title": "Need to define error handling of MLNamedArrayBufferViews transfer algorithm",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1111771040,
+            "node_id": "MDU6TGFiZWwxMTExNzcxMDQw",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5887,10 +6005,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 211,
         "created_at": "2021-09-09T10:46:23Z",
-        "closed_at": null,
+        "closed_at": "2024-02-21T19:01:00Z",
         "title": "Define algorithms for dictionaries with lists as default values",
         "labels": [
           {
@@ -5934,10 +6052,19 @@
         "title": "reduceLogSum, reduceLogSumExp, reduceSumSquare are not supported on OV/NNAPI",
         "labels": [
           {
-            "id": 5222093283,
-            "node_id": "LA_kwDOCUZihs8AAAABN0LR4w",
-            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/opset",
-            "name": "opset",
+            "id": 3057710642,
+            "node_id": "MDU6TGFiZWwzMDU3NzEwNjQy",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/editorial",
+            "name": "editorial",
+            "color": "D0E30F",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6529166081,
+            "node_id": "LA_kwDOCUZihs8AAAABhSsrAQ",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
+            "name": "operator specific",
             "color": "1d76db",
             "default": false,
             "description": ""
@@ -6273,10 +6400,10 @@
         "title": "Should dilated pooling be supported",
         "labels": [
           {
-            "id": 5222093283,
-            "node_id": "LA_kwDOCUZihs8AAAABN0LR4w",
-            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/opset",
-            "name": "opset",
+            "id": 6529166081,
+            "node_id": "LA_kwDOCUZihs8AAAABhSsrAQ",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
+            "name": "operator specific",
             "color": "1d76db",
             "default": false,
             "description": ""
@@ -6516,6 +6643,15 @@
             "name": "good first issue",
             "color": "7057ff",
             "default": true,
+            "description": ""
+          },
+          {
+            "id": 3057710642,
+            "node_id": "MDU6TGFiZWwzMDU3NzEwNjQy",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/editorial",
+            "name": "editorial",
+            "color": "D0E30F",
+            "default": false,
             "description": ""
           }
         ],
@@ -8144,7 +8280,17 @@
         "created_at": "2019-11-06T08:42:53Z",
         "closed_at": null,
         "title": "[investigation] buffer sharing between GPU and ML accelerator",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6508123989,
+            "node_id": "LA_kwDOCUZihs8AAAABg-oXVQ",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/webgpu%20interop",
+            "name": "webgpu interop",
+            "color": "fbca04",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
