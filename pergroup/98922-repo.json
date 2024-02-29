@@ -7691,6 +7691,15 @@
         "title": "Does the specification need a normative \"Credential Type Specifications\" section?",
         "labels": [
           {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
+          {
             "id": 6443664038,
             "node_id": "LA_kwDOBGbiEc8AAAABgBKCpg",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR2",
@@ -8175,13 +8184,13 @@
         "title": "Specify what kind of processing is safe on a returned document",
         "labels": [
           {
-            "id": 974913848,
-            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
-            "name": "pr exists",
-            "color": "11e0a2",
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
             "default": false,
-            "description": ""
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
           },
           {
             "id": 5541804458,
@@ -10113,6 +10122,15 @@
         "title": "Remove the at risk issue marker for `Evidence`",
         "labels": [
           {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
+          },
+          {
             "id": 6559715693,
             "node_id": "LA_kwDOBGbiEc8AAAABhv1RbQ",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-PR",
@@ -10222,10 +10240,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1299,
         "created_at": "2023-10-03T22:03:09Z",
-        "closed_at": null,
+        "closed_at": "2024-02-28T18:25:45Z",
         "title": "address normative statements in non-normative sections",
         "labels": [
           {
@@ -10387,13 +10405,22 @@
         "title": "Multiple Credential Status Lists",
         "labels": [
           {
-            "id": 4366401593,
-            "node_id": "LA_kwDOBGbiEc8AAAABBEIAOQ",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/discuss",
-            "name": "discuss",
-            "color": "E13AF3",
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
             "default": false,
-            "description": ""
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
           },
           {
             "id": 5541804458,
@@ -11549,11 +11576,11 @@
         "title": "`expires` header for https://www.w3.org/2018/credentials/v1 is in the past",
         "labels": [
           {
-            "id": 5541804458,
-            "node_id": "LA_kwDOBGbiEc8AAAABSlE5qg",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/post-CR",
-            "name": "post-CR",
-            "color": "9E3566",
+            "id": 6559715693,
+            "node_id": "LA_kwDOBGbiEc8AAAABhv1RbQ",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-PR",
+            "name": "before-PR",
+            "color": "5C9F7E",
             "default": false,
             "description": ""
           }
@@ -33702,6 +33729,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 60,
+        "created_at": "2024-02-28T19:06:02Z",
+        "closed_at": null,
+        "title": "Cite reference on HMAC for HMAC key sizes and specify a normative size.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 59,
+        "created_at": "2024-02-28T18:41:25Z",
+        "closed_at": null,
+        "title": "Require that CBOR encoding of components MUST NOT use tags. ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 58,
         "created_at": "2024-02-25T23:31:24Z",
         "closed_at": null,
@@ -36755,9 +36802,19 @@
     "issues": [
       {
         "state": "open",
+        "number": 251,
+        "created_at": "2024-02-29T01:31:38Z",
+        "closed_at": null,
+        "title": "Mark uses of SD-JWT-VC as being at risk",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 250,
         "created_at": "2024-02-27T13:29:10Z",
-        "closed_at": null,
+        "closed_at": "2024-02-28T20:45:41Z",
         "title": "Removing unnecessary and unbalanced brackets",
         "labels": [],
         "assignee": null,
@@ -37009,10 +37066,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 234,
         "created_at": "2024-02-14T17:03:48Z",
-        "closed_at": null,
+        "closed_at": "2024-02-28T21:19:40Z",
         "title": "Clarity around any terms that must be disclosed (section 3.1.1)",
         "labels": [
           {
