@@ -1,4 +1,1569 @@
 [
-  null,
-  null
+  {
+    "shortlink": "https://www.w3.org/TR/rch-explainer/",
+    "description": "<p>This is a supporting document for the RDF Dataset Canonicalization specification, providing some extra explanation of the problem space and associated use cases.</p>",
+    "title": "RDF Dataset Canonicalization and Hash Working Group — Explainer and Use Cases",
+    "shortname": "rch-explainer",
+    "editor-draft": "https://w3c.github.io/rch-explainer/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/rch-explainer"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/rch-explainer/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/rch-explainer/versions/20231019",
+        "title": "Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/rch-explainer/versions/20231019",
+        "title": "Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/rch-explainer"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/rch-explainer/",
+    "versions": [
+      {
+        "status": "Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/rch-explainer/",
+        "uri": "https://www.w3.org/TR/2023/NOTE-rch-explainer-20231019/",
+        "date": "2023-10-19",
+        "informative": true,
+        "title": "RDF Dataset Canonicalization and Hash Working Group — Explainer and Use Cases",
+        "shortlink": "https://www.w3.org/TR/rch-explainer/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rch-explainer/versions/20231019"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rch-explainer/versions/20231019/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rch-explainer/versions/20231019/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rch-explainer"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/rdf-canon/",
+    "description": "<p>RDF [RDF11-CONCEPTS] describes a graph-based data model for making claims about the world and provides the foundation for reasoning upon that graph of information. At times, it becomes necessary to compare the differences between sets of graphs, digitally sign them, or generate short identifiers for graphs via hashing algorithms. This document outlines an algorithm for normalizing RDF datasets such that these operations can be performed.</p>",
+    "title": "RDF Dataset Canonicalization",
+    "shortname": "rdf-canon",
+    "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/rdf-canon"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/rdf-canon/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/rdf-canon/versions/20221124",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/rdf-canon/versions/20240326",
+        "title": "Proposed Recommendation"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/rdf-canon"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/rdf-canon/spec/",
+    "versions": [
+      {
+        "status": "Proposed Recommendation",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2024/PR-rdf-canon-20240326/",
+        "date": "2024-03-26",
+        "pr-reviews-date": "2024-04-23",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240326"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240326/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240326/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240326/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2024/CRD-rdf-canon-20240311/",
+        "date": "2024-03-11",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240311"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240311/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240311/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240311/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240311/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2024/CRD-rdf-canon-20240305/",
+        "date": "2024-03-05",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240305"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240305/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240305/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240305/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240305/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2024/CRD-rdf-canon-20240301/",
+        "date": "2024-03-01",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240301"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240301/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240301/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240301/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240301/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2024/CRD-rdf-canon-20240229/",
+        "date": "2024-02-29",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240229"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240229/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240229/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240229/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20240229/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/CRD-rdf-canon-20231130/",
+        "date": "2023-11-30",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231130"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231130/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231130/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231130/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231130/successors"
+          }
+        }
+      },
+      {
+        "status": "Candidate Recommendation Snapshot",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/CR-rdf-canon-20231031/",
+        "date": "2023-10-31",
+        "implementation-feedback-due": "2023-11-28",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231031"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231031/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231031/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231031/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231031/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20231004/",
+        "date": "2023-10-04",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231004"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231004/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231004/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231004/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20231004/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230911/",
+        "date": "2023-09-11",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230911"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230911/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230911/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230911/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230911/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230901/",
+        "date": "2023-09-01",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230901"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230901/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230901/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230901/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230901/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230829/",
+        "date": "2023-08-29",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230829"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230829/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230829/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230829/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230829/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230818/",
+        "date": "2023-08-18",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230818"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230818/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230818/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230818/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230818/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230816/",
+        "date": "2023-08-16",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230816"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230816/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230816/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230816/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230816/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230810/",
+        "date": "2023-08-10",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230810"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230810/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230810/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230810/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230810/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230731/",
+        "date": "2023-07-31",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230731"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230731/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230731/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230731/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230731/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230728/",
+        "date": "2023-07-28",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230728"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230728/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230728/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230728/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230728/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230727/",
+        "date": "2023-07-27",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230727"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230727/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230727/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230727/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230727/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230726/",
+        "date": "2023-07-26",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230726"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230726/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230726/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230726/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230726/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230725/",
+        "date": "2023-07-25",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230725"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230725/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230725/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230725/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230725/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230721/",
+        "date": "2023-07-21",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230721"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230721/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230721/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230721/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230721/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230720/",
+        "date": "2023-07-20",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2023/Process-20230612/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230720"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230720/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230720/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230720/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230720/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230715/",
+        "date": "2023-07-15",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230715"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230715/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230715/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230715/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230715/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230712/",
+        "date": "2023-07-12",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230712"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230712/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230712/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230712/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230712/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230630/",
+        "date": "2023-06-30",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230630"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230630/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230630/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230630/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230630/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230619/",
+        "date": "2023-06-19",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230619"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230619/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230619/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230619/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230619/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230614/",
+        "date": "2023-06-14",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230614"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230614/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230614/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230614/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230614/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230609/",
+        "date": "2023-06-09",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230609"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230609/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230609/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230609/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230609/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230607/",
+        "date": "2023-06-07",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230607"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230607/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230607/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230607/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230607/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230524/",
+        "date": "2023-05-24",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230524"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230524/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230524/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230524/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230524/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230522/",
+        "date": "2023-05-22",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230522"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230522/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230522/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230522/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230522/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230505/",
+        "date": "2023-05-05",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230505"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230505/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230505/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230505/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230505/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230415/",
+        "date": "2023-04-15",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230415"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230415/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230415/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230415/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230415/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230412/",
+        "date": "2023-04-12",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230412"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230412/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230412/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230412/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230412/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230410/",
+        "date": "2023-04-10",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230410"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230410/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230410/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230410/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230410/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230406/",
+        "date": "2023-04-06",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230406"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230406/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230406/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230406/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230406/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230405/",
+        "date": "2023-04-05",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230405"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230405/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230405/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230405/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230405/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230315/",
+        "date": "2023-03-15",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230315"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230315/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230315/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230315/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230315/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230310/",
+        "date": "2023-03-10",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230310"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230310/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230310/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230310/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230310/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230205/",
+        "date": "2023-02-05",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230205"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230205/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230205/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230205/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230205/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230202/",
+        "date": "2023-02-02",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230202"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230202/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230202/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230202/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230202/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230125/",
+        "date": "2023-01-25",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230125"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230125/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230125/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230125/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230125/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230123/",
+        "date": "2023-01-23",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230123"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230123/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230123/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230123/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230123/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2023/WD-rdf-canon-20230115/",
+        "date": "2023-01-15",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230115"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230115/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230115/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230115/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20230115/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2022/WD-rdf-canon-20221219/",
+        "date": "2022-12-19",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221219"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221219/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221219/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221219/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221219/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2022/WD-rdf-canon-20221216/",
+        "date": "2022-12-16",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221216/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221216/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2022/WD-rdf-canon-20221212/",
+        "date": "2022-12-12",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221212"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221212/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221212/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221212/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221212/successors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2022/WD-rdf-canon-20221206/",
+        "date": "2022-12-06",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221206"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221206/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221206/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221206/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221206/successors"
+          }
+        }
+      },
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-canon/spec/",
+        "uri": "https://www.w3.org/TR/2022/WD-rdf-canon-20221124/",
+        "date": "2022-11-24",
+        "informative": false,
+        "title": "RDF Dataset Canonicalization",
+        "shortlink": "https://www.w3.org/TR/rdf-canon/",
+        "process-rules": "https://www.w3.org/2021/Process-20211102/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221124"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221124/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221124/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf-canon"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf-canon/versions/20221124/successors"
+          }
+        }
+      }
+    ]
+  }
 ]
