@@ -356,6 +356,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 634,
+        "created_at": "2024-04-04T15:56:05Z",
+        "closed_at": null,
+        "title": "`MLContext.compute()` explicitly rejects promises where the sub-septs may currently throw",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 633,
+        "created_at": "2024-04-04T09:01:09Z",
+        "closed_at": "2024-04-04T15:14:43Z",
+        "title": "Should `MLContext.compute()` throw an exception if the inputs validation steps fail?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 632,
         "created_at": "2024-04-02T17:59:38Z",
@@ -416,10 +436,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 628,
         "created_at": "2024-03-29T03:19:32Z",
-        "closed_at": null,
+        "closed_at": "2024-04-04T15:48:00Z",
         "title": "Define Gelu operation",
         "labels": [],
         "assignee": null,
@@ -446,10 +466,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 626,
         "created_at": "2024-03-28T07:52:05Z",
-        "closed_at": null,
+        "closed_at": "2024-04-04T15:48:01Z",
         "title": "Need Gelu operation",
         "labels": [
           {
@@ -566,7 +586,7 @@
         "number": 622,
         "created_at": "2024-03-26T19:14:24Z",
         "closed_at": null,
-        "title": "Bug fix: Make \"validate graph resources\" test reflexive",
+        "title": "Revise graph resource validation",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -4633,12 +4653,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 368,
         "created_at": "2023-03-28T02:31:20Z",
-        "closed_at": null,
+        "closed_at": "2024-04-04T23:49:44Z",
         "title": " The valid range of `output_padding` of MLConvTranspose2dOptions should be clarified",
         "labels": [
+          {
+            "id": 1111771041,
+            "node_id": "MDU6TGFiZWwxMTExNzcxMDQx",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/duplicate",
+            "name": "duplicate",
+            "color": "cfd3d7",
+            "default": true,
+            "description": ""
+          },
           {
             "id": 6529166081,
             "node_id": "LA_kwDOCUZihs8AAAABhSsrAQ",
