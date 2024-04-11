@@ -143,13 +143,13 @@
         "title": "Make the generated vocabulary file available for preview",
         "labels": [
           {
-            "id": 5945395549,
-            "node_id": "LA_kwDOE-wAx88AAAABYl-JXQ",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/during-CR",
-            "name": "during-CR",
-            "color": "8F2947",
+            "id": 5784269886,
+            "node_id": "LA_kwDOE-wAx88AAAABWMT0Pg",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/before-CR",
+            "name": "before-CR",
+            "color": "DDBC14",
             "default": false,
-            "description": "This issue needs to be resolved during the Candidate Recommendation phase."
+            "description": "This issue needs to be resolved before the Candidate Recommendation phase."
           },
           {
             "id": 6152580701,
@@ -7960,6 +7960,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 1474,
+        "created_at": "2024-04-10T17:14:35Z",
+        "closed_at": null,
+        "title": "Massage \"Trust Model\" into \"Expectations\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1473,
         "created_at": "2024-04-08T23:06:12Z",
         "closed_at": null,
@@ -7974,8 +7984,27 @@
         "created_at": "2024-04-08T16:34:18Z",
         "closed_at": null,
         "title": "Truth (or falsity) is not part of VCDM ecosystem",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": "TallTed",
         "isPullRequest": false
       },
       {
@@ -8052,6 +8081,15 @@
             "color": "95f4a8",
             "default": false,
             "description": "Close if no objection within 7 days"
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
           }
         ],
         "assignee": "David-Chadwick",
@@ -8091,6 +8129,15 @@
             "color": "5C9F7E",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
           }
         ],
         "assignee": "brentzundel",
@@ -8276,6 +8323,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
           }
         ],
         "assignee": "davidlehn",
@@ -39087,10 +39143,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 265,
         "created_at": "2024-04-03T23:46:18Z",
-        "closed_at": null,
+        "closed_at": "2024-04-10T18:59:24Z",
         "title": "Prepare Draft for CR",
         "labels": [],
         "assignee": null,
