@@ -13445,13 +13445,33 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 2174,
+        "created_at": "2024-05-03T03:11:51Z",
+        "closed_at": "2024-05-03T07:03:46Z",
+        "title": "Editorial - Fix missed aria=hidden typo",
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 2173,
         "created_at": "2024-04-30T12:18:47Z",
         "closed_at": null,
         "title": "Is the accessibility tree built on the DOM tree, or the flat tree (incl. shadow DOMs)?",
         "labels": [],
-        "assignee": null,
+        "assignee": "scottaohara",
         "isPullRequest": false
       },
       {
@@ -13520,7 +13540,17 @@
         "created_at": "2024-04-26T17:47:09Z",
         "closed_at": null,
         "title": "CORE-AAM has \"user agents must not expose non-global, not support attributes on roles\", but there is no related author error in ARIA?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -13601,11 +13631,11 @@
         "title": "Complex dashboards and standalone cards",
         "labels": [
           {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
+            "id": 2044231616,
+            "node_id": "MDU6TGFiZWwyMDQ0MjMxNjE2",
+            "url": "https://api.github.com/repos/w3c/aria/labels/deep-dive",
+            "name": "deep-dive",
+            "color": "4ee061",
             "default": false,
             "description": ""
           }
@@ -13878,18 +13908,8 @@
         "created_at": "2024-03-11T17:35:36Z",
         "closed_at": null,
         "title": "Should form field in cells have name computed from table/grid headers (Was: Data grid example, form field missing accessible name)",
-        "labels": [
-          {
-            "id": 2044231616,
-            "node_id": "MDU6TGFiZWwyMDQ0MjMxNjE2",
-            "url": "https://api.github.com/repos/w3c/aria/labels/deep-dive",
-            "name": "deep-dive",
-            "color": "4ee061",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": null,
+        "labels": [],
+        "assignee": "aardrian",
         "isPullRequest": false
       },
       {
@@ -14775,10 +14795,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2090,
         "created_at": "2023-12-14T17:04:17Z",
-        "closed_at": null,
+        "closed_at": "2024-05-02T20:20:04Z",
         "title": "Change aria-hidden=false to synonym of undefined",
         "labels": [],
         "assignee": null,
@@ -15759,10 +15779,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2023,
         "created_at": "2023-08-31T15:51:02Z",
-        "closed_at": null,
+        "closed_at": "2024-05-02T21:15:15Z",
         "title": "Editorial: add `<menu>` to `list` role",
         "labels": [
           {
@@ -16486,10 +16506,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1982,
         "created_at": "2023-07-18T09:37:55Z",
-        "closed_at": null,
+        "closed_at": "2024-05-02T21:17:29Z",
         "title": "Editorial: Fixing links to APG and the naming of the APG document in text.",
         "labels": [],
         "assignee": null,
@@ -16510,7 +16530,7 @@
         "number": 1980,
         "created_at": "2023-07-11T23:54:18Z",
         "closed_at": null,
-        "title": "Clarify aria-expanded guidance",
+        "title": "Editorial: Clarify aria-expanded guidance",
         "labels": [
           {
             "id": 4284560501,
@@ -18241,6 +18261,15 @@
         "title": "prevent use of aria-hidden=true on document root elements",
         "labels": [
           {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4288304230,
             "node_id": "LA_kwDOART0M87_mlRm",
             "url": "https://api.github.com/repos/w3c/aria/labels/waiting%20for%20implementations",
@@ -18529,15 +18558,6 @@
         "title": "Remove aria-expanded from listbox",
         "labels": [
           {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 4288304230,
             "node_id": "LA_kwDOART0M87_mlRm",
             "url": "https://api.github.com/repos/w3c/aria/labels/waiting%20for%20implementations",
@@ -18545,6 +18565,15 @@
             "color": "5319e7",
             "default": false,
             "description": "add to traking issue when PR is merged into main, but can't be merged into stable"
+          },
+          {
+            "id": 6019919712,
+            "node_id": "LA_kwDOART0M88AAAABZtCvYA",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda-Editors",
+            "name": "Agenda-Editors",
+            "color": "7C858D",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "spectranaut",
@@ -18681,10 +18710,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1852,
         "created_at": "2022-12-07T00:27:07Z",
-        "closed_at": null,
+        "closed_at": "2024-05-02T20:51:53Z",
         "title": "editorial: add note prohibited attribs are still global",
         "labels": [],
         "assignee": null,
@@ -19041,10 +19070,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1824,
         "created_at": "2022-10-06T10:27:46Z",
-        "closed_at": null,
+        "closed_at": "2024-05-02T20:51:54Z",
         "title": "Does aria-label trigger presentation role conflict?",
         "labels": [
           {
@@ -24114,10 +24143,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1494,
         "created_at": "2021-06-01T17:02:31Z",
-        "closed_at": null,
+        "closed_at": "2024-05-02T20:28:58Z",
         "title": "Prohibit presentation / none on where it causes conflict resolution",
         "labels": [
           {
