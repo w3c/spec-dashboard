@@ -356,12 +356,62 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 685,
+        "created_at": "2024-05-10T13:23:39Z",
+        "closed_at": "2024-05-11T03:03:04Z",
+        "title": "Support int32 data type for 'indices' operand of 'gather' operator",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 684,
+        "created_at": "2024-05-09T18:59:13Z",
+        "closed_at": "2024-05-09T20:48:28Z",
+        "title": "Remove note about interop issues with clamp()'s minValue == maxValue",
+        "labels": [
+          {
+            "id": 3057710642,
+            "node_id": "MDU6TGFiZWwzMDU3NzEwNjQy",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/editorial",
+            "name": "editorial",
+            "color": "D0E30F",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
+        "number": 683,
+        "created_at": "2024-05-09T18:47:45Z",
+        "closed_at": null,
+        "title": "Validate no duplicate axes for reduction ops",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 682,
         "created_at": "2024-05-08T06:52:02Z",
-        "closed_at": null,
+        "closed_at": "2024-05-08T19:18:57Z",
         "title": "Process: Add \"interop\" label",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5221743387,
+            "node_id": "LA_kwDOCUZihs8AAAABNz17Gw",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/process",
+            "name": "process",
+            "color": "93D7E3",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -371,8 +421,27 @@
         "created_at": "2024-05-08T03:33:48Z",
         "closed_at": null,
         "title": "Shall we update the spec to add constraints on the axes and the input rank for the reduction operator?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1111771051,
+            "node_id": "MDU6TGFiZWwxMTExNzcxMDUx",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true,
+            "description": ""
+          },
+          {
+            "id": 6529166081,
+            "node_id": "LA_kwDOCUZihs8AAAABhSsrAQ",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
+            "name": "operator specific",
+            "color": "1d76db",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "inexorabletash",
         "isPullRequest": false
       },
       {
@@ -421,7 +490,17 @@
         "created_at": "2024-05-06T18:25:36Z",
         "closed_at": null,
         "title": "Specifies scalar values casted to match input type.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6503698190,
+            "node_id": "LA_kwDOCUZihs8AAAABg6aPDg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/feature%20request",
+            "name": "feature request",
+            "color": "89DD76",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -431,7 +510,17 @@
         "created_at": "2024-05-03T23:06:35Z",
         "closed_at": null,
         "title": "Missing TypeScript Type Declaration",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5221743387,
+            "node_id": "LA_kwDOCUZihs8AAAABNz17Gw",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/process",
+            "name": "process",
+            "color": "93D7E3",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -446,20 +535,39 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 675,
         "created_at": "2024-05-03T20:05:41Z",
-        "closed_at": null,
+        "closed_at": "2024-05-11T03:03:04Z",
         "title": "why `gather` indices only accept uint32 or int64?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1111771051,
+            "node_id": "MDU6TGFiZWwxMTExNzcxMDUx",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 674,
         "created_at": "2024-05-03T16:46:16Z",
-        "closed_at": null,
+        "closed_at": "2024-05-10T09:12:27Z",
         "title": "Use consistent phrasing for operator creation",
         "labels": [
           {
@@ -476,10 +584,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 673,
         "created_at": "2024-05-02T19:53:44Z",
-        "closed_at": null,
+        "closed_at": "2024-05-09T22:34:30Z",
         "title": "Meta: Introduce \"Interop\" label?",
         "labels": [
           {
@@ -541,7 +649,17 @@
         "created_at": "2024-04-30T20:37:49Z",
         "closed_at": null,
         "title": "Make `MLOperandDescriptor.dimensions` a `FrozenArray`",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1111771051,
+            "node_id": "MDU6TGFiZWwxMTExNzcxMDUx",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -562,7 +680,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "a-sully",
         "isPullRequest": false
       },
       {
@@ -579,6 +697,15 @@
             "name": "question",
             "color": "d876e3",
             "default": true,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
+            "default": false,
             "description": ""
           }
         ],
@@ -808,6 +935,15 @@
             "color": "1d76db",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -837,6 +973,15 @@
             "color": "1d76db",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -864,6 +1009,15 @@
             "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
             "name": "operator specific",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
             "default": false,
             "description": ""
           }
@@ -1144,6 +1298,15 @@
             "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
             "name": "operator specific",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
             "default": false,
             "description": ""
           }
@@ -1732,6 +1895,15 @@
             "color": "d876e3",
             "default": true,
             "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -2005,10 +2177,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 572,
         "created_at": "2024-02-15T23:56:30Z",
-        "closed_at": null,
+        "closed_at": "2024-05-10T09:12:29Z",
         "title": "Synchronously validate input operands/activations",
         "labels": [
           {
@@ -3209,7 +3381,26 @@
         "created_at": "2023-12-06T03:14:48Z",
         "closed_at": null,
         "title": "Clarify the casting behavior from floating-point / signed integers <-> unsigned integers",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6529166081,
+            "node_id": "LA_kwDOCUZihs8AAAABhSsrAQ",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
+            "name": "operator specific",
+            "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3236,6 +3427,15 @@
             "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
             "name": "operator specific",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
             "default": false,
             "description": ""
           }
@@ -3365,6 +3565,15 @@
             "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
             "name": "operator specific",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
             "default": false,
             "description": ""
           }
@@ -3777,7 +3986,17 @@
         "created_at": "2023-08-24T01:50:24Z",
         "closed_at": null,
         "title": "Define the maximum number of operand dimensions (maximum rank)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4021,6 +4240,15 @@
             "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
             "name": "operator specific",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
             "default": false,
             "description": ""
           }
@@ -4967,10 +5195,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 396,
         "created_at": "2023-06-09T05:12:33Z",
-        "closed_at": null,
+        "closed_at": "2024-05-09T20:48:29Z",
         "title": "Clarify the restriction for `minValue` and `maxValue` of `MLClampOptions`",
         "labels": [
           {
@@ -4983,7 +5211,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "inexorabletash",
         "isPullRequest": false
       },
       {
@@ -5041,6 +5269,15 @@
             "color": "1d76db",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -5059,6 +5296,15 @@
             "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/feature%20request",
             "name": "feature request",
             "color": "89DD76",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
             "default": false,
             "description": ""
           }
@@ -5189,6 +5435,15 @@
             "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
             "name": "operator specific",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
             "default": false,
             "description": ""
           }
@@ -6122,6 +6377,15 @@
             "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
             "name": "operator specific",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
             "default": false,
             "description": ""
           }
@@ -7953,6 +8217,15 @@
             "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/operator%20specific",
             "name": "operator specific",
             "color": "1d76db",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6922786934,
+            "node_id": "LA_kwDOCUZihs8AAAABnKFYdg",
+            "url": "https://api.github.com/repos/webmachinelearning/webnn/labels/interop",
+            "name": "interop",
+            "color": "f9d0c4",
             "default": false,
             "description": ""
           }
