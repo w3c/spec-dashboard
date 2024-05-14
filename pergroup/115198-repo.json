@@ -8217,11 +8217,51 @@
     "issues": [
       {
         "state": "open",
+        "number": 331,
+        "created_at": "2024-05-13T10:30:50Z",
+        "closed_at": null,
+        "title": "MediaSessionActionHandler callback's type is never correctly chosen",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 330,
+        "created_at": "2024-05-13T10:24:37Z",
+        "closed_at": null,
+        "title": "fix: MediaSessionActionHandler cb's type",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 329,
+        "created_at": "2024-05-13T09:56:28Z",
+        "closed_at": null,
+        "title": "Editorial: switch to navigables",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 328,
         "created_at": "2024-05-08T16:14:12Z",
         "closed_at": null,
         "title": "Using MediaSession without playing audio?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 173538794,
+            "node_id": "MDU6TGFiZWwxNzM1Mzg3OTQ=",
+            "url": "https://api.github.com/repos/w3c/mediasession/labels/question",
+            "name": "question",
+            "color": "cc317c",
+            "default": true,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -8236,10 +8276,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 326,
         "created_at": "2024-04-17T12:39:08Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T10:00:08Z",
         "title": "Fix references to `<link>`, and a few other concepts",
         "labels": [],
         "assignee": null,
@@ -8256,10 +8296,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 324,
         "created_at": "2024-04-17T08:05:26Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T10:00:09Z",
         "title": "Broken references in Media Session",
         "labels": [],
         "assignee": null,
@@ -8281,7 +8321,17 @@
         "created_at": "2024-03-10T20:48:40Z",
         "closed_at": null,
         "title": "#320 broke IDL: MediaSessionActionHandler can only use the base MediaSessionActionDetails but not any extensions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 441252089,
+            "node_id": "MDU6TGFiZWw0NDEyNTIwODk=",
+            "url": "https://api.github.com/repos/w3c/mediasession/labels/P1",
+            "name": "P1",
+            "color": "b60205",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -8291,7 +8341,17 @@
         "created_at": "2024-02-16T08:37:02Z",
         "closed_at": null,
         "title": "Details dictionary parameters description could be more precise",
-        "labels": [],
+        "labels": [
+          {
+            "id": 441252089,
+            "node_id": "MDU6TGFiZWw0NDEyNTIwODk=",
+            "url": "https://api.github.com/repos/w3c/mediasession/labels/P1",
+            "name": "P1",
+            "color": "b60205",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -8361,8 +8421,18 @@
         "created_at": "2024-01-15T03:27:10Z",
         "closed_at": null,
         "title": "setPositionState: Explicit means to \"clear\" or reset.",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 441252089,
+            "node_id": "MDU6TGFiZWw0NDEyNTIwODk=",
+            "url": "https://api.github.com/repos/w3c/mediasession/labels/P1",
+            "name": "P1",
+            "color": "b60205",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -8416,10 +8486,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 309,
         "created_at": "2023-12-13T23:05:24Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T10:03:32Z",
         "title": "update the explainer based on a recent MediaMetadata change",
         "labels": [],
         "assignee": null,
@@ -8502,7 +8572,7 @@
         "closed_at": null,
         "title": "Add WPT mediasession permission policy tests",
         "labels": [],
-        "assignee": null,
+        "assignee": "marcoscaceres",
         "isPullRequest": false
       },
       {
@@ -8586,10 +8656,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 292,
         "created_at": "2023-05-01T10:58:05Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T11:48:08Z",
         "title": "Show album art (song cover) using media session api with jsmediatags api.",
         "labels": [],
         "assignee": null,
@@ -16176,9 +16246,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -22287,10 +22366,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -26683,9 +26762,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -32794,10 +32882,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -37190,9 +37278,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -43301,10 +43398,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -47697,9 +47794,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -53808,10 +53914,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -58204,9 +58310,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -64315,10 +64430,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -68711,9 +68826,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -74822,10 +74946,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -79218,9 +79342,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -85329,10 +85462,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -89725,9 +89858,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -95836,10 +95978,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -100232,9 +100374,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -106343,10 +106494,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -110739,9 +110890,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -116850,10 +117010,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -121246,9 +121406,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -127357,10 +127526,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -131753,9 +131922,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -137864,10 +138042,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -142260,9 +142438,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -148371,10 +148558,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -152767,9 +152954,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -158878,10 +159074,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
@@ -163274,9 +163470,18 @@
             "color": "F7F2B6",
             "default": false,
             "description": "Interface changes that extend without breaking."
+          },
+          {
+            "id": 6905507677,
+            "node_id": "LA_kwDOC4N2188AAAABm5mvXQ",
+            "url": "https://api.github.com/repos/w3c/webcodecs/labels/RTC",
+            "name": "RTC",
+            "color": "89DFC5",
+            "default": false,
+            "description": "Support for advanced RTC scenarios"
           }
         ],
-        "assignee": null,
+        "assignee": "Djuffin",
         "isPullRequest": false
       },
       {
@@ -169385,10 +169590,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 249,
         "created_at": "2021-05-18T15:40:23Z",
-        "closed_at": null,
+        "closed_at": "2024-05-13T13:27:50Z",
         "title": "Check rfc2119 keyword usage",
         "labels": [
           {
