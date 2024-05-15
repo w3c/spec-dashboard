@@ -8,6 +8,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 4641,
+        "created_at": "2024-05-14T17:10:13Z",
+        "closed_at": null,
+        "title": "Add coordinate system diagrams and fix NDC to framebuffer equation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4640,
+        "created_at": "2024-05-14T16:40:53Z",
+        "closed_at": "2024-05-14T17:18:37Z",
+        "title": "Allow bitcast to flush to zero",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 4639,
         "created_at": "2024-05-14T02:29:13Z",
         "closed_at": null,
@@ -195,10 +225,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4623,
         "created_at": "2024-05-06T18:00:50Z",
-        "closed_at": null,
+        "closed_at": "2024-05-14T17:18:38Z",
         "title": "Should bitcast tests allow FTZ on inputs/outputs?",
         "labels": [
           {
@@ -1248,6 +1278,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 6397436712,
             "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
@@ -1255,6 +1294,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -1843,6 +1891,24 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
           }
         ],
         "assignee": "dneto0",
@@ -2162,6 +2228,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 6397436712,
             "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
@@ -2169,6 +2244,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -2280,6 +2364,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 6397436712,
             "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
@@ -2287,6 +2380,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -2318,6 +2420,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 6397436712,
             "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
@@ -2325,6 +2436,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -2621,6 +2741,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
           }
         ],
         "assignee": null,
@@ -2672,7 +2801,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
@@ -85188,6 +85317,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 4641,
+        "created_at": "2024-05-14T17:10:13Z",
+        "closed_at": null,
+        "title": "Add coordinate system diagrams and fix NDC to framebuffer equation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4640,
+        "created_at": "2024-05-14T16:40:53Z",
+        "closed_at": "2024-05-14T17:18:37Z",
+        "title": "Allow bitcast to flush to zero",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 4639,
         "created_at": "2024-05-14T02:29:13Z",
         "closed_at": null,
@@ -85375,10 +85534,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4623,
         "created_at": "2024-05-06T18:00:50Z",
-        "closed_at": null,
+        "closed_at": "2024-05-14T17:18:38Z",
         "title": "Should bitcast tests allow FTZ on inputs/outputs?",
         "labels": [
           {
@@ -86428,6 +86587,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 6397436712,
             "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
@@ -86435,6 +86603,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -87023,6 +87200,24 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
           }
         ],
         "assignee": "dneto0",
@@ -87342,6 +87537,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 6397436712,
             "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
@@ -87349,6 +87553,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -87460,6 +87673,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 6397436712,
             "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
@@ -87467,6 +87689,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -87498,6 +87729,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 6397436712,
             "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
@@ -87505,6 +87745,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -87801,6 +88050,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
           }
         ],
         "assignee": null,
@@ -87852,7 +88110,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": null,
+        "assignee": "toji",
         "isPullRequest": false
       },
       {
