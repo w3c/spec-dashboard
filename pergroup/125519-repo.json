@@ -8,6 +8,86 @@
     "issues": [
       {
         "state": "open",
+        "number": 4646,
+        "created_at": "2024-05-15T23:34:22Z",
+        "closed_at": null,
+        "title": "Describe how comparison samplers interact with filtering",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4645,
+        "created_at": "2024-05-15T20:08:30Z",
+        "closed_at": null,
+        "title": "Add a better definition for 'texture'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4644,
+        "created_at": "2024-05-15T15:33:06Z",
+        "closed_at": null,
+        "title": "Clarify supported context formats definition",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4643,
+        "created_at": "2024-05-15T15:25:19Z",
+        "closed_at": null,
+        "title": "Add a diagnostic triggered when a pipeline-constant is set for an override in the shader module that is not used by the entry point",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4642,
+        "created_at": "2024-05-15T14:25:35Z",
+        "closed_at": null,
+        "title": "Clarify that pipeline-overrides don't have to be statically used to be set",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 4641,
         "created_at": "2024-05-14T17:10:13Z",
         "closed_at": null,
@@ -112,7 +192,17 @@
         "created_at": "2024-05-13T15:29:02Z",
         "closed_at": null,
         "title": "Incorrect validation error with dispatchWorkgroupsIndirect",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -203,6 +293,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
@@ -210,6 +309,15 @@
             "color": "C7E5F3",
             "default": false,
             "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -469,10 +577,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4608,
         "created_at": "2024-04-26T20:18:46Z",
-        "closed_at": null,
+        "closed_at": "2024-05-15T19:19:05Z",
         "title": "Invalidate all command buffers passed to submit, whether the submit is valid or not.",
         "labels": [
           {
@@ -483,6 +591,24 @@
             "color": "91f285",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           }
         ],
         "assignee": null,
@@ -651,13 +777,13 @@
             "description": null
           },
           {
-            "id": 6678107485,
-            "node_id": "LA_kwDOBNvGe88AAAABjgvVXQ",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20investigation",
-            "name": "needs investigation",
-            "color": "5319E7",
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
-            "description": "Requires an investigation into implementation constraints"
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
           },
           {
             "id": 6837243332,
@@ -682,20 +808,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4599,
         "created_at": "2024-04-24T18:07:44Z",
-        "closed_at": null,
+        "closed_at": "2024-05-15T19:19:06Z",
         "title": "Should command buffers be invalidated by an invalid submit?",
         "labels": [
           {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
             "default": false,
-            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -814,17 +940,7 @@
         "created_at": "2024-04-18T22:11:25Z",
         "closed_at": "2024-04-24T03:26:27Z",
         "title": "Require that every submitted command buffer must be unique",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1156,6 +1272,15 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
             "name": "proposal",
             "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
             "default": false,
             "description": ""
           },
@@ -65305,6 +65430,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
           }
         ],
         "assignee": null,
@@ -85317,6 +85451,86 @@
     "issues": [
       {
         "state": "open",
+        "number": 4646,
+        "created_at": "2024-05-15T23:34:22Z",
+        "closed_at": null,
+        "title": "Describe how comparison samplers interact with filtering",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4645,
+        "created_at": "2024-05-15T20:08:30Z",
+        "closed_at": null,
+        "title": "Add a better definition for 'texture'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4644,
+        "created_at": "2024-05-15T15:33:06Z",
+        "closed_at": null,
+        "title": "Clarify supported context formats definition",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4643,
+        "created_at": "2024-05-15T15:25:19Z",
+        "closed_at": null,
+        "title": "Add a diagnostic triggered when a pipeline-constant is set for an override in the shader module that is not used by the entry point",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4642,
+        "created_at": "2024-05-15T14:25:35Z",
+        "closed_at": null,
+        "title": "Clarify that pipeline-overrides don't have to be statically used to be set",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 4641,
         "created_at": "2024-05-14T17:10:13Z",
         "closed_at": null,
@@ -85421,7 +85635,17 @@
         "created_at": "2024-05-13T15:29:02Z",
         "closed_at": null,
         "title": "Incorrect validation error with dispatchWorkgroupsIndirect",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -85512,6 +85736,15 @@
             "description": "WebGPU Shading Language Issues"
           },
           {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
@@ -85519,6 +85752,15 @@
             "color": "C7E5F3",
             "default": false,
             "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -85778,10 +86020,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4608,
         "created_at": "2024-04-26T20:18:46Z",
-        "closed_at": null,
+        "closed_at": "2024-05-15T19:19:05Z",
         "title": "Invalidate all command buffers passed to submit, whether the submit is valid or not.",
         "labels": [
           {
@@ -85792,6 +86034,24 @@
             "color": "91f285",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           }
         ],
         "assignee": null,
@@ -85960,13 +86220,13 @@
             "description": null
           },
           {
-            "id": 6678107485,
-            "node_id": "LA_kwDOBNvGe88AAAABjgvVXQ",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20investigation",
-            "name": "needs investigation",
-            "color": "5319E7",
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
             "default": false,
-            "description": "Requires an investigation into implementation constraints"
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
           },
           {
             "id": 6837243332,
@@ -85991,20 +86251,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4599,
         "created_at": "2024-04-24T18:07:44Z",
-        "closed_at": null,
+        "closed_at": "2024-05-15T19:19:06Z",
         "title": "Should command buffers be invalidated by an invalid submit?",
         "labels": [
           {
-            "id": 4278373239,
-            "node_id": "LA_kwDOBNvGe87_Ast3",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
-            "name": "needs-cts-issue",
-            "color": "C7E5F3",
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
             "default": false,
-            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -86123,17 +86383,7 @@
         "created_at": "2024-04-18T22:11:25Z",
         "closed_at": "2024-04-24T03:26:27Z",
         "title": "Require that every submitted command buffer must be unique",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -86465,6 +86715,15 @@
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
             "name": "proposal",
             "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
             "default": false,
             "description": ""
           },
@@ -150614,6 +150873,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
           }
         ],
         "assignee": null,
