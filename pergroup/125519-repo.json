@@ -8,6 +8,64 @@
     "issues": [
       {
         "state": "open",
+        "number": 4653,
+        "created_at": "2024-05-17T23:36:22Z",
+        "closed_at": null,
+        "title": "Clamping behavior when comparison sampling `depth24plus`",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4652,
+        "created_at": "2024-05-17T09:59:01Z",
+        "closed_at": null,
+        "title": "Subgroups proposal: Consider subgroup_size used in compute stage uniform",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4650,
+        "created_at": "2024-05-17T08:11:01Z",
+        "closed_at": "2024-05-17T09:13:32Z",
+        "title": "Texture Format RGBA32Float Does Not Support Storage Texture Access StorageTextureAccess::ReadWrite",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 4649,
         "created_at": "2024-05-17T04:27:26Z",
         "closed_at": null,
@@ -21,6 +79,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
           }
         ],
         "assignee": null,
@@ -56,10 +123,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4647,
         "created_at": "2024-05-16T11:32:05Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T15:39:53Z",
         "title": "Compatibility: one aspect per texture view.",
         "labels": [],
         "assignee": null,
@@ -76,10 +143,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4645,
         "created_at": "2024-05-15T20:08:30Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T01:20:49Z",
         "title": "Add a better definition for 'texture'",
         "labels": [],
         "assignee": null,
@@ -92,6 +159,15 @@
         "closed_at": null,
         "title": "Clarify supported context formats definition",
         "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -146,10 +222,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4641,
         "created_at": "2024-05-14T17:10:13Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T23:27:47Z",
         "title": "Add coordinate system diagrams and fix NDC to framebuffer equation",
         "labels": [],
         "assignee": null,
@@ -186,50 +262,50 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4638,
         "created_at": "2024-05-14T01:51:44Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:51:47Z",
         "title": "Compat: sample_mask and sample_index shader module error",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4637,
         "created_at": "2024-05-14T01:50:39Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:52:32Z",
         "title": "Compat: disallow @interpolate(flat, first)",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4636,
         "created_at": "2024-05-14T01:43:04Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:53:11Z",
         "title": "Compat: rgXXX formats generate error at shader module creation",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4635,
         "created_at": "2024-05-14T01:42:48Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:53:38Z",
         "title": "Compat: linear and sample error at shader module creation",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4634,
         "created_at": "2024-05-14T01:42:22Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:54:41Z",
         "title": "Compat: depth textureLoad error at shader module creation",
         "labels": [],
         "assignee": null,
@@ -286,10 +362,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4628,
         "created_at": "2024-05-09T18:48:56Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T18:57:42Z",
         "title": "Add missing limits to the correspondence doc",
         "labels": [],
         "assignee": null,
@@ -2960,10 +3036,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4492,
         "created_at": "2024-02-16T19:15:42Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T23:27:48Z",
         "title": "Y orientation of viewport coordinates vs. NDC",
         "labels": [
           {
@@ -7250,10 +7326,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4273,
         "created_at": "2023-08-18T18:18:38Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T18:57:43Z",
         "title": "Add missing limits to correspondence doc",
         "labels": [
           {
@@ -85510,6 +85586,64 @@
     "issues": [
       {
         "state": "open",
+        "number": 4653,
+        "created_at": "2024-05-17T23:36:22Z",
+        "closed_at": null,
+        "title": "Clamping behavior when comparison sampling `depth24plus`",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4652,
+        "created_at": "2024-05-17T09:59:01Z",
+        "closed_at": null,
+        "title": "Subgroups proposal: Consider subgroup_size used in compute stage uniform",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4650,
+        "created_at": "2024-05-17T08:11:01Z",
+        "closed_at": "2024-05-17T09:13:32Z",
+        "title": "Texture Format RGBA32Float Does Not Support Storage Texture Access StorageTextureAccess::ReadWrite",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 4649,
         "created_at": "2024-05-17T04:27:26Z",
         "closed_at": null,
@@ -85523,6 +85657,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
           }
         ],
         "assignee": null,
@@ -85558,10 +85701,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4647,
         "created_at": "2024-05-16T11:32:05Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T15:39:53Z",
         "title": "Compatibility: one aspect per texture view.",
         "labels": [],
         "assignee": null,
@@ -85578,10 +85721,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4645,
         "created_at": "2024-05-15T20:08:30Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T01:20:49Z",
         "title": "Add a better definition for 'texture'",
         "labels": [],
         "assignee": null,
@@ -85594,6 +85737,15 @@
         "closed_at": null,
         "title": "Clarify supported context formats definition",
         "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, bikeshed, etc.)"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -85648,10 +85800,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4641,
         "created_at": "2024-05-14T17:10:13Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T23:27:47Z",
         "title": "Add coordinate system diagrams and fix NDC to framebuffer equation",
         "labels": [],
         "assignee": null,
@@ -85688,50 +85840,50 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4638,
         "created_at": "2024-05-14T01:51:44Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:51:47Z",
         "title": "Compat: sample_mask and sample_index shader module error",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4637,
         "created_at": "2024-05-14T01:50:39Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:52:32Z",
         "title": "Compat: disallow @interpolate(flat, first)",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4636,
         "created_at": "2024-05-14T01:43:04Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:53:11Z",
         "title": "Compat: rgXXX formats generate error at shader module creation",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4635,
         "created_at": "2024-05-14T01:42:48Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:53:38Z",
         "title": "Compat: linear and sample error at shader module creation",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4634,
         "created_at": "2024-05-14T01:42:22Z",
-        "closed_at": null,
+        "closed_at": "2024-05-18T00:54:41Z",
         "title": "Compat: depth textureLoad error at shader module creation",
         "labels": [],
         "assignee": null,
@@ -85788,10 +85940,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4628,
         "created_at": "2024-05-09T18:48:56Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T18:57:42Z",
         "title": "Add missing limits to the correspondence doc",
         "labels": [],
         "assignee": null,
@@ -88462,10 +88614,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4492,
         "created_at": "2024-02-16T19:15:42Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T23:27:48Z",
         "title": "Y orientation of viewport coordinates vs. NDC",
         "labels": [
           {
@@ -92752,10 +92904,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4273,
         "created_at": "2023-08-18T18:18:38Z",
-        "closed_at": null,
+        "closed_at": "2024-05-17T18:57:43Z",
         "title": "Add missing limits to correspondence doc",
         "labels": [
           {
