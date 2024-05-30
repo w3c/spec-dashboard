@@ -8416,7 +8416,26 @@
         "created_at": "2024-05-27T20:48:32Z",
         "closed_at": null,
         "title": "Use digestMultibase with base64-url-nopad encoding for integrity.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6517219031,
+            "node_id": "LA_kwDOBGbiEc8AAAABhHTe1w",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/normative",
+            "name": "normative",
+            "color": "D93F0B",
+            "default": false,
+            "description": "The PR is a normative change to the CR specification"
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -8688,25 +8707,16 @@
         "title": "Example of Use of renderMethod",
         "labels": [
           {
-            "id": 490235934,
-            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
-            "name": "editorial",
-            "color": "0e8a16",
+            "id": 6321838290,
+            "node_id": "LA_kwDOBGbiEc8AAAABeM-Y0g",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/future",
+            "name": "future",
+            "color": "A00112",
             "default": false,
-            "description": "Purely editorial changes to the specification."
-          },
-          {
-            "id": 6642085319,
-            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
-            "name": "CR1",
-            "color": "1D76DB",
-            "default": false,
-            "description": "This item was processed during CR1"
+            "description": "issue left open for a future group to address"
           }
         ],
-        "assignee": null,
+        "assignee": "PatStLouis",
         "isPullRequest": false
       },
       {
@@ -8717,13 +8727,22 @@
         "title": "Consider explicitly allowing/recommending language maps for use in internationalisation.",
         "labels": [
           {
-            "id": 4366401593,
-            "node_id": "LA_kwDOBGbiEc8AAAABBEIAOQ",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/discuss",
-            "name": "discuss",
-            "color": "E13AF3",
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
             "default": false,
-            "description": ""
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
           },
           {
             "id": 6642085319,
@@ -8735,7 +8754,7 @@
             "description": "This item was processed during CR1"
           }
         ],
-        "assignee": null,
+        "assignee": "dmitrizagidulin",
         "isPullRequest": false
       },
       {
@@ -40619,6 +40638,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 275,
+        "created_at": "2024-05-30T04:58:16Z",
+        "closed_at": null,
+        "title": "Clarification on usage of nbf claim",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 274,
         "created_at": "2024-05-21T04:00:01Z",
@@ -49780,10 +49809,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 154,
         "created_at": "2024-04-11T18:06:57Z",
-        "closed_at": null,
+        "closed_at": "2024-05-29T15:29:37Z",
         "title": "add credential lifecycle example from vc data model",
         "labels": [],
         "assignee": null,
