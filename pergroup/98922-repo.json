@@ -26,7 +26,7 @@
           {
             "id": 6156826201,
             "node_id": "LA_kwDOKn-QBs8AAAABbvm2WQ",
-            "url": "https://api.github.com/repos/w3c/vc-controller-document/labels/enhancement",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/enhancement",
             "name": "enhancement",
             "color": "a2eeef",
             "default": true,
@@ -37,10 +37,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 19,
         "created_at": "2024-05-23T06:24:19Z",
-        "closed_at": null,
+        "closed_at": "2024-06-02T01:30:35Z",
         "title": "Enabling echidna",
         "labels": [],
         "assignee": null,
@@ -67,10 +67,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 16,
         "created_at": "2024-05-13T11:52:08Z",
-        "closed_at": null,
+        "closed_at": "2024-06-02T01:30:35Z",
         "title": "Duplicate \"conforms to the\"",
         "labels": [],
         "assignee": null,
@@ -97,10 +97,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 13,
         "created_at": "2024-05-07T21:52:48Z",
-        "closed_at": null,
+        "closed_at": "2024-06-02T01:30:35Z",
         "title": "fix grammar, add links, follow on #1",
         "labels": [],
         "assignee": null,
@@ -187,16 +187,16 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4,
         "created_at": "2024-05-05T01:22:47Z",
-        "closed_at": null,
+        "closed_at": "2024-06-02T01:30:36Z",
         "title": "Remove authors",
         "labels": [
           {
             "id": 6963418907,
             "node_id": "LA_kwDOKn-QBs8AAAABnw1XGw",
-            "url": "https://api.github.com/repos/w3c/vc-controller-document/labels/pending%20close",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/pending%20close",
             "name": "pending close",
             "color": "D93F0B",
             "default": false,
@@ -8452,11 +8452,233 @@
     "issues": [
       {
         "state": "open",
+        "number": 1498,
+        "created_at": "2024-06-01T22:52:47Z",
+        "closed_at": null,
+        "title": "Removes the `termsOfUse` section from the specification and reserves the property.",
+        "labels": [
+          {
+            "id": 6517219031,
+            "node_id": "LA_kwDOBGbiEc8AAAABhHTe1w",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/normative",
+            "name": "normative",
+            "color": "D93F0B",
+            "default": false,
+            "description": "The PR is a normative change to the CR specification"
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1497,
+        "created_at": "2024-06-01T22:38:16Z",
+        "closed_at": null,
+        "title": "Remove at risk marker for `refreshService` property.",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1496,
+        "created_at": "2024-06-01T21:53:44Z",
+        "closed_at": null,
+        "title": "Remove at risk marker for `evidence` property",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1495,
+        "created_at": "2024-06-01T21:26:40Z",
+        "closed_at": null,
+        "title": "Reserve `confidenceMethod` and `renderMethod`.",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1494,
+        "created_at": "2024-06-01T19:48:16Z",
+        "closed_at": null,
+        "title": "Remove issue marker for \"determining\" language.",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1493,
+        "created_at": "2024-06-01T19:29:43Z",
+        "closed_at": null,
+        "title": "Remove issue marker for mandatory use of `resourceIntegrity` for contexts.",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1492,
+        "created_at": "2024-06-01T19:18:38Z",
+        "closed_at": null,
+        "title": "Support two different digest formats for resource integrity.",
+        "labels": [
+          {
+            "id": 6517219031,
+            "node_id": "LA_kwDOBGbiEc8AAAABhHTe1w",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/normative",
+            "name": "normative",
+            "color": "D93F0B",
+            "default": false,
+            "description": "The PR is a normative change to the CR specification"
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1491,
         "created_at": "2024-05-31T22:03:17Z",
         "closed_at": null,
         "title": "update json schemas",
-        "labels": [],
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -8628,6 +8850,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
           },
           {
             "id": 6642085319,
@@ -8884,10 +9115,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1475,
         "created_at": "2024-04-11T17:20:33Z",
-        "closed_at": null,
+        "closed_at": "2024-06-01T20:11:48Z",
         "title": "`credential repository` vs `repository`, and definitions in _1.2  Ecosystem Overview_ vs _2. Terminology_",
         "labels": [
           {
@@ -9964,6 +10195,24 @@
         "title": "Remove at risk issue markers for property extension points.",
         "labels": [
           {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6517219031,
+            "node_id": "LA_kwDOBGbiEc8AAAABhHTe1w",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/normative",
+            "name": "normative",
+            "color": "D93F0B",
+            "default": false,
+            "description": "The PR is a normative change to the CR specification"
+          },
+          {
             "id": 6559715693,
             "node_id": "LA_kwDOBGbiEc8AAAABhv1RbQ",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/before-PR",
@@ -9971,6 +10220,15 @@
             "color": "5C9F7E",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
           }
         ],
         "assignee": "msporny",
