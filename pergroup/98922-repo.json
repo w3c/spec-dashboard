@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 33,
+        "created_at": "2024-06-19T15:41:17Z",
+        "closed_at": null,
+        "title": "What is the role of the subject when the controller property is present?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 32,
         "created_at": "2024-06-14T21:35:59Z",
         "closed_at": null,
@@ -173,7 +183,7 @@
         "closed_at": null,
         "title": "Which document would (formally) define the terms for vocabularies",
         "labels": [],
-        "assignee": "iherman",
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -233,7 +243,7 @@
         "closed_at": null,
         "title": "proofPurpose seems unnecessary in Controller Document spec",
         "labels": [],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -355,6 +365,35 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 34,
+        "created_at": "2022-11-17T18:18:58Z",
+        "closed_at": null,
+        "title": "X25519KeyAgreementKey2019 has wrong property",
+        "labels": [
+          {
+            "id": 7103081058,
+            "node_id": "LA_kwDOKn-QBs8AAAABp2BqYg",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/ready%20for%20pr",
+            "name": "ready for pr",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue is ready to have a pull request created for it."
+          },
+          {
+            "id": 7103081903,
+            "node_id": "LA_kwDOKn-QBs8AAAABp2Btrw",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item is editorial in nature."
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
       }
     ]
   },
@@ -3733,6 +3772,35 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 269,
+        "created_at": "2024-06-19T22:00:28Z",
+        "closed_at": null,
+        "title": "Explain difference between VM in proof and controller document.",
+        "labels": [
+          {
+            "id": 5693565107,
+            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          },
+          {
+            "id": 6310263376,
+            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue or PR constitutes an editorial change."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 267,
         "created_at": "2024-05-30T19:44:23Z",
@@ -5567,13 +5635,13 @@
         "title": "Clarify difference between a `verificationMethod` in a proof vs. a controller document",
         "labels": [
           {
-            "id": 5143856879,
-            "node_id": "LA_kwDOB8htu88AAAABMpkG7w",
-            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "97CB3B",
+            "id": 5689114294,
+            "node_id": "LA_kwDOB8htu88AAAABUxj-tg",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "ACE525",
             "default": false,
-            "description": "This issue is ready to be resolved via a pull request"
+            "description": "A pull request exists to address this issue."
           },
           {
             "id": 5693565107,
@@ -7694,35 +7762,6 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
-        "number": 70,
-        "created_at": "2022-11-17T18:18:58Z",
-        "closed_at": null,
-        "title": "X25519KeyAgreementKey2019 has wrong property",
-        "labels": [
-          {
-            "id": 5693565107,
-            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
-            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
-            "name": "CR1",
-            "color": "1D76DB",
-            "default": false,
-            "description": "This item was processed during the first Candidate Recommendation phase."
-          },
-          {
-            "id": 6310263376,
-            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
-            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
-            "name": "editorial",
-            "color": "0E8A16",
-            "default": false,
-            "description": "This issue or PR constitutes an editorial change."
-          }
-        ],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
         "state": "closed",
         "number": 69,
         "created_at": "2022-11-10T09:32:21Z",
@@ -8721,6 +8760,64 @@
     "issues": [
       {
         "state": "open",
+        "number": 1505,
+        "created_at": "2024-06-19T20:59:49Z",
+        "closed_at": null,
+        "title": "Added `@json` type to `_sd` property in v2 context.",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1504,
+        "created_at": "2024-06-19T20:38:49Z",
+        "closed_at": null,
+        "title": "Add privacy considerations related to legal processes and coercion",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1503,
         "created_at": "2024-06-18T18:49:01Z",
         "closed_at": null,
@@ -8763,6 +8860,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
           },
           {
             "id": 6642085319,
@@ -9932,10 +10038,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1462,
         "created_at": "2024-03-22T06:05:15Z",
-        "closed_at": null,
+        "closed_at": "2024-06-19T15:15:06Z",
         "title": "Revisit Verifiable Credential media types",
         "labels": [
           {
@@ -41733,6 +41839,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 279,
+        "created_at": "2024-06-20T04:12:37Z",
+        "closed_at": null,
+        "title": "Remove use of multiple structured suffixes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 278,
         "created_at": "2024-06-18T17:18:26Z",
         "closed_at": null,
@@ -41761,10 +41877,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 277,
         "created_at": "2024-06-11T23:27:13Z",
-        "closed_at": null,
+        "closed_at": "2024-06-20T03:51:31Z",
         "title": "Update reference for COSE \"typ\" (type) Header Parameter",
         "labels": [],
         "assignee": null,
