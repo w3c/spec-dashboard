@@ -8,9 +8,49 @@
     "issues": [
       {
         "state": "open",
+        "number": 4723,
+        "created_at": "2024-06-27T05:12:17Z",
+        "closed_at": null,
+        "title": "Clarify the use of `@blend_src` in certain shader stages",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4722,
+        "created_at": "2024-06-26T20:16:19Z",
+        "closed_at": "2024-06-26T22:07:15Z",
+        "title": "Clarify workgroupSize calculation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4721,
+        "created_at": "2024-06-26T19:04:52Z",
+        "closed_at": null,
+        "title": "Compatibility Mode: Support OpenGLES devices with zero SSBOs and image uniforms in vertex, fragment stages",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 4720,
         "created_at": "2024-06-26T00:15:34Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T14:43:52Z",
         "title": "Extensions editorial: linking and syncing",
         "labels": [
           {
@@ -36,10 +76,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4719,
         "created_at": "2024-06-25T20:44:24Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T16:19:19Z",
         "title": "Add compute algorithm to detailed operations",
         "labels": [],
         "assignee": null,
@@ -66,10 +106,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4717,
         "created_at": "2024-06-24T22:09:42Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T17:46:44Z",
         "title": "Remove or resolve some editorial notes",
         "labels": [],
         "assignee": null,
@@ -447,6 +487,15 @@
         "title": "writing to storage buffers/textures in fragment shaders with multisample targets is not portable.",
         "labels": [
           {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -485,17 +534,7 @@
         "created_at": "2024-06-05T21:40:27Z",
         "closed_at": null,
         "title": "Define level of detail",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -998,6 +1037,15 @@
         "closed_at": null,
         "title": "Allow all vertex input attributes to be considered OOB if at least one is (in the \"process vertices\" algorithm)",
         "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -4367,21 +4415,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4500,
         "created_at": "2024-02-27T15:14:32Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T21:27:04Z",
         "title": "Add extended range",
         "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          },
           {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
@@ -9418,10 +9457,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4239,
         "created_at": "2023-07-19T16:59:30Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T21:27:04Z",
         "title": "Extended brightness range rendering",
         "labels": [
           {
@@ -87119,9 +87158,49 @@
     "issues": [
       {
         "state": "open",
+        "number": 4723,
+        "created_at": "2024-06-27T05:12:17Z",
+        "closed_at": null,
+        "title": "Clarify the use of `@blend_src` in certain shader stages",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4722,
+        "created_at": "2024-06-26T20:16:19Z",
+        "closed_at": "2024-06-26T22:07:15Z",
+        "title": "Clarify workgroupSize calculation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4721,
+        "created_at": "2024-06-26T19:04:52Z",
+        "closed_at": null,
+        "title": "Compatibility Mode: Support OpenGLES devices with zero SSBOs and image uniforms in vertex, fragment stages",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 4720,
         "created_at": "2024-06-26T00:15:34Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T14:43:52Z",
         "title": "Extensions editorial: linking and syncing",
         "labels": [
           {
@@ -87147,10 +87226,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4719,
         "created_at": "2024-06-25T20:44:24Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T16:19:19Z",
         "title": "Add compute algorithm to detailed operations",
         "labels": [],
         "assignee": null,
@@ -87177,10 +87256,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4717,
         "created_at": "2024-06-24T22:09:42Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T17:46:44Z",
         "title": "Remove or resolve some editorial notes",
         "labels": [],
         "assignee": null,
@@ -87558,6 +87637,15 @@
         "title": "writing to storage buffers/textures in fragment shaders with multisample targets is not portable.",
         "labels": [
           {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -87596,17 +87684,7 @@
         "created_at": "2024-06-05T21:40:27Z",
         "closed_at": null,
         "title": "Define level of detail",
-        "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -88109,6 +88187,15 @@
         "closed_at": null,
         "title": "Allow all vertex input attributes to be considered OOB if at least one is (in the \"process vertices\" algorithm)",
         "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -91478,21 +91565,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4500,
         "created_at": "2024-02-27T15:14:32Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T21:27:04Z",
         "title": "Add extended range",
         "labels": [
-          {
-            "id": 3723631102,
-            "node_id": "LA_kwDOBNvGe87d8hn-",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20queue",
-            "name": "tacit resolution queue",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "Editors have agreed and intend to land if no feedback is given"
-          },
           {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
@@ -96529,10 +96607,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4239,
         "created_at": "2023-07-19T16:59:30Z",
-        "closed_at": null,
+        "closed_at": "2024-06-26T21:27:04Z",
         "title": "Extended brightness range rendering",
         "labels": [
           {
