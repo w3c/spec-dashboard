@@ -5107,7 +5107,7 @@
             "description": "This issue or PR will trigger the need for another Candidate Recommendation Snapshot"
           }
         ],
-        "assignee": "msporny",
+        "assignee": "rflechtner",
         "isPullRequest": false
       },
       {
@@ -9033,12 +9033,108 @@
     "issues": [
       {
         "state": "open",
+        "number": 1521,
+        "created_at": "2024-07-04T03:18:39Z",
+        "closed_at": null,
+        "title": "Transferable VC",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1520,
+        "created_at": "2024-07-03T21:43:58Z",
+        "closed_at": null,
+        "title": "Remove `@vocab` from the base context.",
+        "labels": [
+          {
+            "id": 6517219031,
+            "node_id": "LA_kwDOBGbiEc8AAAABhHTe1w",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/normative",
+            "name": "normative",
+            "color": "D93F0B",
+            "default": false,
+            "description": "The PR is a normative change to the CR specification"
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1519,
+        "created_at": "2024-07-03T13:51:16Z",
+        "closed_at": null,
+        "title": "Reformulating the definition of securing mechanism",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1518,
         "created_at": "2024-07-01T16:50:42Z",
         "closed_at": null,
         "title": "Verification algorithm drops an input map on the floor",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -9047,17 +9143,64 @@
         "created_at": "2024-07-01T16:36:34Z",
         "closed_at": null,
         "title": "Pin down the input type of securing mechanisms",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 850456033,
+            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
+            "name": "ready for PR",
+            "color": "88CD1F",
+            "default": false,
+            "description": "This issue is ready for a Pull Request to be created to resolve it"
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1516,
         "created_at": "2024-07-01T16:30:04Z",
-        "closed_at": null,
+        "closed_at": "2024-07-03T13:20:24Z",
         "title": "Fix link to section containing the securing mechanism interface.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -9076,6 +9219,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 1450846903,
+            "node_id": "MDU6TGFiZWwxNDUwODQ2OTAz",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/DO%20NOT%20MERGE",
+            "name": "DO NOT MERGE",
+            "color": "ff4444",
+            "default": false,
+            "description": "PR contains something that should not be merged."
           },
           {
             "id": 6642085319,
@@ -9355,6 +9507,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
           },
           {
             "id": 6642085319,
@@ -10229,7 +10390,7 @@
             "description": "This item was processed during CR1"
           }
         ],
-        "assignee": "dmitrizagidulin",
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -36336,6 +36497,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 179,
+        "created_at": "2024-07-02T14:17:32Z",
+        "closed_at": null,
+        "title": "Remove proof options from base proof serialization again.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 178,
         "created_at": "2024-07-01T20:51:49Z",
         "closed_at": null,
@@ -36459,26 +36630,6 @@
           }
         ],
         "assignee": "Wind4Greg",
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 171,
-        "created_at": "2024-06-16T03:37:29Z",
-        "closed_at": "2024-06-17T16:49:02Z",
-        "title": "Orhan356",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 170,
-        "created_at": "2024-06-16T02:44:36Z",
-        "closed_at": "2024-06-17T16:48:53Z",
-        "title": "orhanoguz",
-        "labels": [],
-        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -40385,6 +40536,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 89,
+        "created_at": "2024-07-02T22:57:05Z",
+        "closed_at": null,
+        "title": "Whitespace cleanup and phrasing rationalization",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 88,
@@ -51271,10 +51432,10 @@
     "recTrack": false,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 11,
         "created_at": "2024-06-25T13:26:58Z",
-        "closed_at": null,
+        "closed_at": "2024-07-03T04:01:49Z",
         "title": "Using-vc-respec",
         "labels": [],
         "assignee": null,
