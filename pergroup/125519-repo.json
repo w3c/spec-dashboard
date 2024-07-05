@@ -7,6 +7,35 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 4732,
+        "created_at": "2024-07-04T16:37:05Z",
+        "closed_at": "2024-07-04T16:40:25Z",
+        "title": "wgsl: Fix range of atan: starts at -pi/2, not pi/2",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 4731,
         "created_at": "2024-07-03T16:57:34Z",
@@ -126,10 +155,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4724,
         "created_at": "2024-06-27T14:40:48Z",
-        "closed_at": null,
+        "closed_at": "2024-07-04T21:06:36Z",
         "title": "Clarify scope of pipeline creation",
         "labels": [
           {
@@ -1504,10 +1533,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4648,
         "created_at": "2024-05-16T15:20:41Z",
-        "closed_at": null,
+        "closed_at": "2024-07-04T21:06:37Z",
         "title": "Do pipeline-creation errors encompass the whole module or just the GPUProgrammableStage?",
         "labels": [
           {
@@ -3907,6 +3936,15 @@
             "color": "cf499d",
             "default": false,
             "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": "dneto0",
@@ -6856,10 +6894,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4376,
         "created_at": "2023-11-13T01:46:03Z",
-        "closed_at": null,
+        "closed_at": "2024-07-04T16:40:26Z",
         "title": "The output range of atan is wrong in the doc",
         "labels": [
           {
@@ -6879,9 +6917,18 @@
             "color": "c2e0c6",
             "default": false,
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -9945,6 +9992,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": "dneto0",
@@ -30547,10 +30603,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3223,
         "created_at": "2022-07-21T22:00:35Z",
-        "closed_at": null,
+        "closed_at": "2024-07-04T15:22:56Z",
         "title": "Define exclusivity of `Function Tag` and `Parameter Tag` values.",
         "labels": [
           {
@@ -30675,6 +30731,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": null,
@@ -33179,6 +33244,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": null,
@@ -33284,6 +33358,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": null,
@@ -39543,6 +39626,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": null,
@@ -41889,6 +41981,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": "dneto0",
@@ -87457,6 +87558,35 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 4732,
+        "created_at": "2024-07-04T16:37:05Z",
+        "closed_at": "2024-07-04T16:40:25Z",
+        "title": "wgsl: Fix range of atan: starts at -pi/2, not pi/2",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 4731,
         "created_at": "2024-07-03T16:57:34Z",
@@ -87576,10 +87706,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4724,
         "created_at": "2024-06-27T14:40:48Z",
-        "closed_at": null,
+        "closed_at": "2024-07-04T21:06:36Z",
         "title": "Clarify scope of pipeline creation",
         "labels": [
           {
@@ -88954,10 +89084,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4648,
         "created_at": "2024-05-16T15:20:41Z",
-        "closed_at": null,
+        "closed_at": "2024-07-04T21:06:37Z",
         "title": "Do pipeline-creation errors encompass the whole module or just the GPUProgrammableStage?",
         "labels": [
           {
@@ -91357,6 +91487,15 @@
             "color": "cf499d",
             "default": false,
             "description": "Resolved - waiting for a change to the WGSL specification"
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": "dneto0",
@@ -94306,10 +94445,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4376,
         "created_at": "2023-11-13T01:46:03Z",
-        "closed_at": null,
+        "closed_at": "2024-07-04T16:40:26Z",
         "title": "The output range of atan is wrong in the doc",
         "labels": [
           {
@@ -94329,9 +94468,18 @@
             "color": "c2e0c6",
             "default": false,
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -97395,6 +97543,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": "dneto0",
@@ -117997,10 +118154,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3223,
         "created_at": "2022-07-21T22:00:35Z",
-        "closed_at": null,
+        "closed_at": "2024-07-04T15:22:56Z",
         "title": "Define exclusivity of `Function Tag` and `Parameter Tag` values.",
         "labels": [
           {
@@ -118125,6 +118282,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": null,
@@ -120629,6 +120795,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": null,
@@ -120734,6 +120909,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": null,
@@ -126993,6 +127177,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": null,
@@ -129339,6 +129532,15 @@
             "color": "c2e0c6",
             "default": false,
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 7163734361,
+            "node_id": "LA_kwDOBNvGe88AAAABqv3pWQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/CR",
+            "name": "CR",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Required for Candidate Recommendation"
           }
         ],
         "assignee": "dneto0",
