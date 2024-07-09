@@ -52,7 +52,7 @@
   },
   {
     "shortlink": "https://www.w3.org/TR/IFT/",
-    "description": "<p>This specification defines two methods to incrementally transfer fonts from server to client. Incremental transfer allows clients to load only the portions of the font they actually need which speeds up font loads and reduces data transfer needed to load the fonts. A font can be loaded over multiple requests where each request incrementally adds additional data.</p>",
+    "description": "<p>This specification defines a method to incrementally transfer fonts from server to client. Incremental transfer allows clients to load only the portions of the font they actually need which speeds up font loads and reduces data transfer needed to load the fonts. A font can be loaded over multiple requests where each request incrementally adds additional data.</p>",
     "title": "Incremental Font Transfer",
     "shortname": "IFT",
     "editor-draft": "https://w3c.github.io/IFT/Overview.html",
@@ -68,7 +68,7 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/IFT/versions/20230530",
+        "href": "https://api.w3.org/specifications/IFT/versions/20240709",
         "title": "Working Draft"
       },
       "series": {
@@ -77,6 +77,34 @@
     },
     "editorsdraft": "https://w3c.github.io/IFT/Overview.html",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/IFT/Overview.html",
+        "uri": "https://www.w3.org/TR/2024/WD-IFT-20240709/",
+        "date": "2024-07-09",
+        "informative": false,
+        "title": "Incremental Font Transfer",
+        "shortlink": "https://www.w3.org/TR/IFT/",
+        "process-rules": "https://www.w3.org/policies/process/20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/IFT/versions/20240709"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/IFT/versions/20240709/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/IFT/versions/20240709/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/IFT"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/IFT/versions/20240709/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -102,6 +130,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/IFT/versions/20230530/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/IFT/versions/20230530/successors"
           }
         }
       },
