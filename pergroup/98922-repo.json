@@ -3872,6 +3872,46 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 286,
+        "created_at": "2024-07-10T12:37:59Z",
+        "closed_at": null,
+        "title": "Missing space character",
+        "labels": [
+          {
+            "id": 6310263376,
+            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue or PR constitutes an editorial change."
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 285,
+        "created_at": "2024-07-10T12:15:06Z",
+        "closed_at": null,
+        "title": "Use the right character type for a term",
+        "labels": [
+          {
+            "id": 6310263376,
+            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue or PR constitutes an editorial change."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 284,
         "created_at": "2024-07-09T12:51:32Z",
@@ -9191,7 +9231,26 @@
         "created_at": "2024-07-09T17:45:26Z",
         "closed_at": null,
         "title": "make incorrect plurals singular",
-        "labels": [],
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -9210,6 +9269,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 1305913630,
+            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
+            "name": "pending close",
+            "color": "95f4a8",
+            "default": false,
+            "description": "Close if no objection within 7 days"
           },
           {
             "id": 6642085319,
@@ -9742,15 +9810,6 @@
         "closed_at": null,
         "title": "consider registering `application/vc-ld` and `application/vp-ld` ",
         "labels": [
-          {
-            "id": 1305913630,
-            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
-            "name": "pending close",
-            "color": "95f4a8",
-            "default": false,
-            "description": "Close if no objection within 7 days"
-          },
           {
             "id": 6517219031,
             "node_id": "LA_kwDOBGbiEc8AAAABhHTe1w",
@@ -39702,12 +39761,31 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 65,
         "created_at": "2024-07-01T15:16:53Z",
-        "closed_at": null,
+        "closed_at": "2024-07-10T14:47:47Z",
         "title": "corrections missed in #64",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6310340900,
+            "node_id": "LA_kwDOGuDtXc8AAAABeCApJA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "The item is editorial in nature."
+          },
+          {
+            "id": 6539027256,
+            "node_id": "LA_kwDOGuDtXc8AAAABhcGjOA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -43289,12 +43367,32 @@
     "issues": [
       {
         "state": "open",
+        "number": 283,
+        "created_at": "2024-07-10T15:09:14Z",
+        "closed_at": null,
+        "title": "update media types to align with the VCDM",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 282,
         "created_at": "2024-07-08T22:18:02Z",
         "closed_at": null,
         "title": "reconcile media types with VCDM media types",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "decentralgabe",
         "isPullRequest": false
       },
       {
