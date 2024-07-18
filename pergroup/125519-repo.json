@@ -8,11 +8,60 @@
     "issues": [
       {
         "state": "open",
-        "number": 4756,
-        "created_at": "2024-07-17T01:39:57Z",
+        "number": 4761,
+        "created_at": "2024-07-18T05:47:25Z",
         "closed_at": null,
-        "title": "Confused on the definition and effect of toneMapping",
+        "title": "Feature Levels",
         "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4760,
+        "created_at": "2024-07-18T05:45:14Z",
+        "closed_at": null,
+        "title": "Fix some language which ignores that limits get clamped to defaults",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4759,
+        "created_at": "2024-07-18T00:04:55Z",
+        "closed_at": null,
+        "title": "Extend `bgra8unorm-storage` feature to allow `read-only` access",
+        "labels": [
+          {
+            "id": 6678107485,
+            "node_id": "LA_kwDOBNvGe88AAAABjgvVXQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20investigation",
+            "name": "needs investigation",
+            "color": "5319E7",
+            "default": false,
+            "description": "Requires an investigation into implementation constraints"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -28,9 +77,78 @@
       },
       {
         "state": "open",
+        "number": 4758,
+        "created_at": "2024-07-17T19:55:50Z",
+        "closed_at": null,
+        "title": "Clarify counting of case values for their maximum limit.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4757,
+        "created_at": "2024-07-17T13:39:42Z",
+        "closed_at": "2024-07-18T05:58:05Z",
+        "title": "Add missing \"valid to use with\" checks to `GPURenderPassDescriptor` Valid Usage",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4756,
+        "created_at": "2024-07-17T01:39:57Z",
+        "closed_at": null,
+        "title": "Confused on the definition and effect of toneMapping",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 4754,
         "created_at": "2024-07-16T18:59:26Z",
-        "closed_at": null,
+        "closed_at": "2024-07-17T15:50:06Z",
         "title": "Resolve line rasterization editorial note",
         "labels": [],
         "assignee": null,
@@ -269,12 +387,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4741,
         "created_at": "2024-07-10T18:59:13Z",
-        "closed_at": null,
+        "closed_at": "2024-07-18T00:07:15Z",
         "title": "bgra8unorm-storage only enables write-only",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1254,6 +1382,24 @@
         "title": "maxInterStageShaderComponents seems to overlap with maxInterStageShaderVariables",
         "labels": [
           {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6678107485,
+            "node_id": "LA_kwDOBNvGe88AAAABjgvVXQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20investigation",
+            "name": "needs investigation",
+            "color": "5319E7",
+            "default": false,
+            "description": "Requires an investigation into implementation constraints"
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -1272,7 +1418,7 @@
             "description": "Could require a breaking change to the API"
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -1647,6 +1793,24 @@
         "title": "Allow all vertex input attributes to be considered OOB if at least one is (in the \"process vertices\" algorithm)",
         "labels": [
           {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -1861,7 +2025,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -7370,12 +7534,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4377,
         "created_at": "2023-11-13T19:07:07Z",
-        "closed_at": null,
+        "closed_at": "2024-07-18T00:07:16Z",
         "title": "The `bgra8unorm-storage` feature should most likely only enable `write-only` access",
         "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -38191,10 +38364,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2962,
         "created_at": "2022-05-26T19:32:20Z",
-        "closed_at": null,
+        "closed_at": "2024-07-18T00:29:39Z",
         "title": "Distinction between content-timeline and device-timeline state",
         "labels": [
           {
@@ -45847,6 +46020,15 @@
         "title": "Add a note that copyT2T might not preserve the exact bit values",
         "labels": [
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
@@ -45854,18 +46036,9 @@
             "color": "C7E5F3",
             "default": false,
             "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
-          },
-          {
-            "id": 6678107485,
-            "node_id": "LA_kwDOBNvGe88AAAABjgvVXQ",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20investigation",
-            "name": "needs investigation",
-            "color": "5319E7",
-            "default": false,
-            "description": "Requires an investigation into implementation constraints"
           }
         ],
-        "assignee": "kainino0x",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -49761,7 +49934,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": "kainino0x",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -83182,7 +83355,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": "kainino0x",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -88055,11 +88228,60 @@
     "issues": [
       {
         "state": "open",
-        "number": 4756,
-        "created_at": "2024-07-17T01:39:57Z",
+        "number": 4761,
+        "created_at": "2024-07-18T05:47:25Z",
         "closed_at": null,
-        "title": "Confused on the definition and effect of toneMapping",
+        "title": "Feature Levels",
         "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4760,
+        "created_at": "2024-07-18T05:45:14Z",
+        "closed_at": null,
+        "title": "Fix some language which ignores that limits get clamped to defaults",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4759,
+        "created_at": "2024-07-18T00:04:55Z",
+        "closed_at": null,
+        "title": "Extend `bgra8unorm-storage` feature to allow `read-only` access",
+        "labels": [
+          {
+            "id": 6678107485,
+            "node_id": "LA_kwDOBNvGe88AAAABjgvVXQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20investigation",
+            "name": "needs investigation",
+            "color": "5319E7",
+            "default": false,
+            "description": "Requires an investigation into implementation constraints"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -88075,9 +88297,78 @@
       },
       {
         "state": "open",
+        "number": 4758,
+        "created_at": "2024-07-17T19:55:50Z",
+        "closed_at": null,
+        "title": "Clarify counting of case values for their maximum limit.",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4757,
+        "created_at": "2024-07-17T13:39:42Z",
+        "closed_at": "2024-07-18T05:58:05Z",
+        "title": "Add missing \"valid to use with\" checks to `GPURenderPassDescriptor` Valid Usage",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4756,
+        "created_at": "2024-07-17T01:39:57Z",
+        "closed_at": null,
+        "title": "Confused on the definition and effect of toneMapping",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 4754,
         "created_at": "2024-07-16T18:59:26Z",
-        "closed_at": null,
+        "closed_at": "2024-07-17T15:50:06Z",
         "title": "Resolve line rasterization editorial note",
         "labels": [],
         "assignee": null,
@@ -88316,12 +88607,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4741,
         "created_at": "2024-07-10T18:59:13Z",
-        "closed_at": null,
+        "closed_at": "2024-07-18T00:07:15Z",
         "title": "bgra8unorm-storage only enables write-only",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -89301,6 +89602,24 @@
         "title": "maxInterStageShaderComponents seems to overlap with maxInterStageShaderVariables",
         "labels": [
           {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6678107485,
+            "node_id": "LA_kwDOBNvGe88AAAABjgvVXQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20investigation",
+            "name": "needs investigation",
+            "color": "5319E7",
+            "default": false,
+            "description": "Requires an investigation into implementation constraints"
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -89319,7 +89638,7 @@
             "description": "Could require a breaking change to the API"
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -89694,6 +90013,24 @@
         "title": "Allow all vertex input attributes to be considered OOB if at least one is (in the \"process vertices\" algorithm)",
         "labels": [
           {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -89908,7 +90245,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -95417,12 +95754,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4377,
         "created_at": "2023-11-13T19:07:07Z",
-        "closed_at": null,
+        "closed_at": "2024-07-18T00:07:16Z",
         "title": "The `bgra8unorm-storage` feature should most likely only enable `write-only` access",
         "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -126238,10 +126584,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2962,
         "created_at": "2022-05-26T19:32:20Z",
-        "closed_at": null,
+        "closed_at": "2024-07-18T00:29:39Z",
         "title": "Distinction between content-timeline and device-timeline state",
         "labels": [
           {
@@ -133894,6 +134240,15 @@
         "title": "Add a note that copyT2T might not preserve the exact bit values",
         "labels": [
           {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
@@ -133901,18 +134256,9 @@
             "color": "C7E5F3",
             "default": false,
             "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
-          },
-          {
-            "id": 6678107485,
-            "node_id": "LA_kwDOBNvGe88AAAABjgvVXQ",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20investigation",
-            "name": "needs investigation",
-            "color": "5319E7",
-            "default": false,
-            "description": "Requires an investigation into implementation constraints"
           }
         ],
-        "assignee": "kainino0x",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -137808,7 +138154,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": "kainino0x",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -171229,7 +171575,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": "kainino0x",
+        "assignee": null,
         "isPullRequest": false
       },
       {
