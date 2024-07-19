@@ -7,10 +7,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 242,
         "created_at": "2024-07-15T19:45:39Z",
-        "closed_at": null,
+        "closed_at": "2024-07-18T23:08:07Z",
         "title": "Editorial: Update README.md",
         "labels": [],
         "assignee": null,
@@ -6074,7 +6074,17 @@
         "created_at": "2024-07-16T18:58:34Z",
         "closed_at": null,
         "title": "Editorial: fix link in README.md",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6137253857,
+            "node_id": "LA_kwDOBshoAc8AAAABbc8P4Q",
+            "url": "https://api.github.com/repos/w3c/dpub-aria/labels/Agenda-Editors",
+            "name": "Agenda-Editors",
+            "color": "70BBFA",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -6912,18 +6922,8 @@
         "created_at": "2024-07-02T20:39:15Z",
         "closed_at": null,
         "title": "Update HTML-AAM to use title for description instead of name, when the name is prohibited",
-        "labels": [
-          {
-            "id": 2994464080,
-            "node_id": "MDU6TGFiZWwyOTk0NDY0MDgw",
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/Agenda",
-            "name": "Agenda",
-            "color": "fef2c0",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": null,
+        "labels": [],
+        "assignee": "scottaohara",
         "isPullRequest": false
       },
       {
@@ -13831,9 +13831,88 @@
     "issues": [
       {
         "state": "open",
+        "number": 2287,
+        "created_at": "2024-07-18T23:57:10Z",
+        "closed_at": null,
+        "title": "Add ReSpec aliasing clarity in README.me's \"Editorial Documentation\" section ",
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          }
+        ],
+        "assignee": "rahimabdi",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2286,
+        "created_at": "2024-07-17T09:15:31Z",
+        "closed_at": null,
+        "title": "Prettier removed a line break from a pre-formatted code example",
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          },
+          {
+            "id": 6019919712,
+            "node_id": "LA_kwDOART0M88AAAABZtCvYA",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda-Editors",
+            "name": "Agenda-Editors",
+            "color": "7C858D",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2285,
+        "created_at": "2024-07-17T09:06:19Z",
+        "closed_at": "2024-07-19T07:07:12Z",
+        "title": "Netlify deploy preview always builds the main spec, even when the PR changes a different spec in the monorepo",
+        "labels": [
+          {
+            "id": 88491190,
+            "node_id": "MDU6TGFiZWw4ODQ5MTE5MA==",
+            "url": "https://api.github.com/repos/w3c/aria/labels/duplicate",
+            "name": "duplicate",
+            "color": "cccccc",
+            "default": true,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2284,
+        "created_at": "2024-07-17T08:54:45Z",
+        "closed_at": null,
+        "title": "Remove Core-AAM UA requirement to disallow orphaned role context.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 2282,
         "created_at": "2024-07-16T15:38:59Z",
-        "closed_at": null,
+        "closed_at": "2024-07-18T16:44:14Z",
         "title": "Fix dpub/graphics/mathml/svg aam spec links to monorepo",
         "labels": [
           {
@@ -13902,6 +13981,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          },
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
           },
           {
             "id": 7076202579,
@@ -14327,18 +14415,8 @@
         "created_at": "2024-06-26T18:58:15Z",
         "closed_at": null,
         "title": "Should aria-valuenow be required if aria-valuetext is used?",
-        "labels": [
-          {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": null,
+        "labels": [],
+        "assignee": "adampage",
         "isPullRequest": false
       },
       {
@@ -16525,6 +16603,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          },
+          {
+            "id": 6019919712,
+            "node_id": "LA_kwDOART0M88AAAABZtCvYA",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda-Editors",
+            "name": "Agenda-Editors",
+            "color": "7C858D",
+            "default": false,
+            "description": ""
           },
           {
             "id": 7076202579,
@@ -19588,15 +19675,6 @@
             "color": "a0144f",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 1254875463,
-            "node_id": "MDU6TGFiZWwxMjU0ODc1NDYz",
-            "url": "https://api.github.com/repos/w3c/aria/labels/F2F",
-            "name": "F2F",
-            "color": "f9d3c2",
-            "default": false,
-            "description": "Topics For F2F (or virtual F2F)"
           }
         ],
         "assignee": null,
