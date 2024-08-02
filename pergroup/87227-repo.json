@@ -7,6 +7,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 2109,
+        "created_at": "2024-08-01T18:59:28Z",
+        "closed_at": null,
+        "title": "Drop the supplementalPubKeys extension",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2108,
+        "created_at": "2024-07-31T18:29:35Z",
+        "closed_at": null,
+        "title": "Add PR template",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 2107,
         "created_at": "2024-07-27T01:51:40Z",
@@ -62,8 +82,18 @@
         "created_at": "2024-07-22T22:25:05Z",
         "closed_at": null,
         "title": "Add topOrigin to the limited verification algorithm.",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "zacknewman",
         "isPullRequest": true
       },
       {
@@ -103,7 +133,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "agl",
         "isPullRequest": false
       },
       {
@@ -167,10 +197,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2098,
         "created_at": "2024-07-17T12:24:44Z",
-        "closed_at": null,
+        "closed_at": "2024-07-31T18:29:51Z",
         "title": "Relax PublicKeyCredentialRequestOptions.rpId to DOMString",
         "labels": [
           {
@@ -200,9 +230,19 @@
         "number": 2097,
         "created_at": "2024-07-17T08:02:34Z",
         "closed_at": null,
-        "title": "Structured confirmation",
-        "labels": [],
-        "assignee": null,
+        "title": "Structured confirmation extension",
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "rlin1",
         "isPullRequest": true
       },
       {
@@ -290,6 +330,15 @@
             "color": "ffca04",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "nsatragno",
@@ -524,6 +573,15 @@
             "color": "bfdadc",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "MasterKale",
@@ -550,10 +608,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2079,
         "created_at": "2024-05-30T13:33:39Z",
-        "closed_at": null,
+        "closed_at": "2024-07-31T19:00:08Z",
         "title": "CredentialCreationOptions/mediation not yet defined in CredMan",
         "labels": [
           {
@@ -591,15 +649,6 @@
             "color": "71dd93",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 1343771945,
-            "node_id": "MDU6TGFiZWwxMzQzNzcxOTQ1",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Blocked",
-            "name": "stat:Blocked",
-            "color": "e25356",
-            "default": false,
-            "description": "Prerequisites are not yet satisfied"
           }
         ],
         "assignee": null,
@@ -760,10 +809,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2073,
         "created_at": "2024-05-20T07:51:43Z",
-        "closed_at": null,
+        "closed_at": "2024-07-31T18:15:53Z",
         "title": "Apply RFC 8264 enforcement only to non-empty strings",
         "labels": [
           {
@@ -886,10 +935,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2068,
         "created_at": "2024-05-04T22:08:49Z",
-        "closed_at": null,
+        "closed_at": "2024-07-31T18:15:54Z",
         "title": "Empty strings are not valid RFC 8266 Nicknames",
         "labels": [
           {
@@ -935,10 +984,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2066,
         "created_at": "2024-05-03T16:31:46Z",
-        "closed_at": null,
+        "closed_at": "2024-07-31T18:29:52Z",
         "title": "Make PublicKeyCredentialRequestOptions.rpId a DOMString",
         "labels": [
           {
@@ -989,9 +1038,18 @@
             "color": "fad8c7",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
-        "assignee": "emlun",
+        "assignee": "timcappalli",
         "isPullRequest": false
       },
       {
