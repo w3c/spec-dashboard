@@ -27,10 +27,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 38,
         "created_at": "2024-07-01T15:32:39Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T12:39:10Z",
         "title": "TallTed patch #32 20240701",
         "labels": [],
         "assignee": null,
@@ -3921,20 +3921,39 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 302,
         "created_at": "2024-07-30T18:04:34Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T21:19:01Z",
         "title": "Small fix to Context Validation section",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5693565107,
+            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          },
+          {
+            "id": 6310263376,
+            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue or PR constitutes an editorial change."
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 301,
         "created_at": "2024-07-29T21:12:49Z",
-        "closed_at": null,
+        "closed_at": "2024-08-05T00:29:27Z",
         "title": "Make `@context` injection optional.",
         "labels": [
           {
@@ -4018,10 +4037,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 298,
         "created_at": "2024-07-27T23:45:52Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T21:16:51Z",
         "title": "Add content to acknowledgements section.",
         "labels": [
           {
@@ -4067,10 +4086,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 296,
         "created_at": "2024-07-25T09:32:29Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T21:14:26Z",
         "title": "Disambiguate the proof chain creation and verification",
         "labels": [
           {
@@ -4279,10 +4298,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 289,
         "created_at": "2024-07-18T10:34:20Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T21:14:54Z",
         "title": "Ambiguous step in proof chain creation",
         "labels": [
           {
@@ -4509,10 +4528,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 282,
         "created_at": "2024-07-07T15:57:44Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T21:19:57Z",
         "title": "Complete Acknowledgements section",
         "labels": [
           {
@@ -4547,10 +4566,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 281,
         "created_at": "2024-07-05T15:49:56Z",
-        "closed_at": null,
+        "closed_at": "2024-08-05T00:30:46Z",
         "title": "Reconsider `@context` injection feature based on implementer feedback",
         "labels": [
           {
@@ -4822,7 +4841,7 @@
             "description": "This issue or PR will trigger the need for another Candidate Recommendation Snapshot"
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -9812,6 +9831,64 @@
     "issues": [
       {
         "state": "open",
+        "number": 1538,
+        "created_at": "2024-08-04T14:04:16Z",
+        "closed_at": null,
+        "title": "Respec's VC plugin still does not work",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1537,
+        "created_at": "2024-08-03T20:06:37Z",
+        "closed_at": null,
+        "title": "Note that integrity protecting JSON-LD Contexts are allowed.",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1536,
         "created_at": "2024-07-23T06:38:12Z",
         "closed_at": null,
@@ -9907,10 +9984,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1533,
         "created_at": "2024-07-21T15:32:15Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T20:48:01Z",
         "title": "Refactor Terms of Use section to use EBSI examples.",
         "labels": [
           {
@@ -9939,17 +10016,36 @@
         "state": "closed",
         "number": 1532,
         "created_at": "2024-07-19T21:38:46Z",
-        "closed_at": "2024-07-19T21:50:59Z",
+        "closed_at": "2024-08-03T20:17:34Z",
         "title": "Add an example dual language VC.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1531,
         "created_at": "2024-07-19T18:12:29Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T20:15:23Z",
         "title": "Adding example language map",
         "labels": [
           {
@@ -11541,10 +11637,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1479,
         "created_at": "2024-04-18T10:56:24Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T20:18:09Z",
         "title": "Consider explicitly allowing/recommending language maps for use in internationalisation.",
         "labels": [
           {
@@ -12710,10 +12806,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1437,
         "created_at": "2024-02-14T16:40:52Z",
-        "closed_at": null,
+        "closed_at": "2024-08-03T20:53:14Z",
         "title": "Remove at risk issue markers for property extension points.",
         "labels": [
           {
@@ -41988,6 +42084,26 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 94,
+        "created_at": "2024-08-04T07:31:06Z",
+        "closed_at": null,
+        "title": "Exchanged bullet points in hashing algorithm section (issue 92)",
+        "labels": [
+          {
+            "id": 6310329186,
+            "node_id": "LA_kwDOEacMp88AAAABeB_7Yg",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/editorial",
+            "name": "editorial",
+            "color": "24942A",
+            "default": false,
+            "description": "This item is editorial in nature."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "closed",
         "number": 93,
