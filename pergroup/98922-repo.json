@@ -9897,11 +9897,59 @@
     "issues": [
       {
         "state": "open",
+        "number": 1551,
+        "created_at": "2024-08-18T22:15:09Z",
+        "closed_at": null,
+        "title": "Rename VC Specifications Registry to VC Extensions",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1550,
         "created_at": "2024-08-18T03:41:20Z",
         "closed_at": null,
         "title": "docs: Clarify the Role of Verifiers in Preventing Replay Attacks",
-        "labels": [],
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6642085319,
+            "node_id": "LA_kwDOBGbiEc8AAAABi-Ytxw",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during CR1"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -9960,7 +10008,7 @@
             "description": "This issue is ready for a Pull Request to be created to resolve it"
           }
         ],
-        "assignee": "msporny",
+        "assignee": "laysakura",
         "isPullRequest": false
       },
       {
@@ -41231,10 +41279,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 68,
         "created_at": "2024-08-12T10:22:29Z",
-        "closed_at": null,
+        "closed_at": "2024-08-18T13:38:46Z",
         "title": "(Editorial) Expanded on the note on algorithm names",
         "labels": [
           {
@@ -45162,6 +45210,76 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 294,
+        "created_at": "2024-08-19T01:22:34Z",
+        "closed_at": null,
+        "title": "Add reference to NIST SP-800-122",
+        "labels": [
+          {
+            "id": 5680553313,
+            "node_id": "LA_kwDOHrK-n88AAAABUpZdYQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/editorial",
+            "name": "editorial",
+            "color": "1E940F",
+            "default": false,
+            "description": "Editorial changes only"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 293,
+        "created_at": "2024-08-19T00:58:55Z",
+        "closed_at": null,
+        "title": "Describe encrypting secured credentials and presentations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 292,
+        "created_at": "2024-08-19T00:26:04Z",
+        "closed_at": null,
+        "title": "Detached payloads can be used",
+        "labels": [
+          {
+            "id": 5680553313,
+            "node_id": "LA_kwDOHrK-n88AAAABUpZdYQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/editorial",
+            "name": "editorial",
+            "color": "1E940F",
+            "default": false,
+            "description": "Editorial changes only"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 291,
+        "created_at": "2024-08-18T23:59:36Z",
+        "closed_at": null,
+        "title": "Use of nbf is NOT RECOMMENDED",
+        "labels": [
+          {
+            "id": 7097864679,
+            "node_id": "LA_kwDOHrK-n88AAAABpxDR5w",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/normative",
+            "name": "normative",
+            "color": "D93F0B",
+            "default": false,
+            "description": "This item is a normative change."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 290,
         "created_at": "2024-08-12T18:41:13Z",
@@ -45333,17 +45451,7 @@
         "created_at": "2024-07-08T22:18:02Z",
         "closed_at": null,
         "title": "reconcile media types with VCDM media types",
-        "labels": [
-          {
-            "id": 5684195725,
-            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
-            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
-            "name": "has-pr",
-            "color": "C66EFA",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "decentralgabe",
         "isPullRequest": false
       },
@@ -45385,22 +45493,13 @@
         "title": "Detached payloads MUST NOT be supported",
         "labels": [
           {
-            "id": 6907746830,
-            "node_id": "LA_kwDOHrK-n88AAAABm7vaDg",
-            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/CR1",
-            "name": "CR1",
-            "color": "0052CC",
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 7097864679,
-            "node_id": "LA_kwDOHrK-n88AAAABpxDR5w",
-            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/normative",
-            "name": "normative",
-            "color": "D93F0B",
-            "default": false,
-            "description": "This item is a normative change."
           }
         ],
         "assignee": "selfissued",
@@ -45451,6 +45550,15 @@
             "color": "1E940F",
             "default": false,
             "description": "Editorial changes only"
+          },
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "selfissued",
@@ -47248,6 +47356,15 @@
         "title": "Add comments on encryption re:OpenID",
         "labels": [
           {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 5948378339,
             "node_id": "LA_kwDOHrK-n88AAAABYo0M4w",
             "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/post-CR",
@@ -48709,6 +48826,15 @@
             "color": "1E940F",
             "default": false,
             "description": "Editorial changes only"
+          },
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
           },
           {
             "id": 5948378339,
