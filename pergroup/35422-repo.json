@@ -8,6 +8,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 4039,
+        "created_at": "2024-08-23T18:51:29Z",
+        "closed_at": null,
+        "title": "PDF Technique 4, Test Process bullet 3 ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4038,
+        "created_at": "2024-08-23T17:47:31Z",
+        "closed_at": null,
+        "title": "Update text-spacing with editorial improvements",
+        "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 4036,
         "created_at": "2024-08-22T17:15:53Z",
         "closed_at": null,
@@ -53,6 +83,15 @@
         "title": "Fix typo/incorrect word in input purpose listing",
         "labels": [
           {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
             "id": 466389488,
             "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
             "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
@@ -85,10 +124,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4032,
         "created_at": "2024-08-21T18:38:34Z",
-        "closed_at": null,
+        "closed_at": "2024-08-23T11:35:07Z",
         "title": "SC 1.3.1 Info and Relationships and description list",
         "labels": [],
         "assignee": null,
@@ -101,6 +140,15 @@
         "closed_at": null,
         "title": "Update links in 1.3.6 Identify Purpose understanding",
         "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
           {
             "id": 962595250,
             "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
@@ -168,7 +216,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "patrickhlauke",
         "isPullRequest": false
       },
       {
@@ -187,7 +235,17 @@
         "created_at": "2024-08-19T17:02:23Z",
         "closed_at": null,
         "title": "Add more information/links to HTML-related obsolete messages",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6221384566,
+            "node_id": "LA_kwDOAJgYVs8AAAABctLLdg",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Bug%20Fixes",
+            "name": "Bug Fixes",
+            "color": "E78CCB",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -197,7 +255,17 @@
         "created_at": "2024-08-17T02:33:27Z",
         "closed_at": null,
         "title": "minor punctuation fixes - adding missing commas",
-        "labels": [],
+        "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -237,7 +305,35 @@
         "created_at": "2024-08-16T14:38:44Z",
         "closed_at": null,
         "title": "Add note about the scope of 1.4.5 Images of Text (images used *rather than* text) and example",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 2747857292,
+            "node_id": "MDU6TGFiZWwyNzQ3ODU3Mjky",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/1.4.5%20Images%20of%20text",
+            "name": "1.4.5 Images of text",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6221449287,
+            "node_id": "LA_kwDOAJgYVs8AAAABctPIRw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Substantive",
+            "name": "Substantive",
+            "color": "B96700",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -393,7 +489,53 @@
         "created_at": "2024-08-08T23:27:21Z",
         "closed_at": null,
         "title": "Add explanation of what \"automatic\" means in 2.2.2 and 1.4.2, cross-reference",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1899810815,
+            "node_id": "MDU6TGFiZWwxODk5ODEwODE1",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.3.3%20Animation%20from%20Interactions",
+            "name": "2.3.3 Animation from Interactions",
+            "color": "d3bbf7",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 2536523425,
+            "node_id": "MDU6TGFiZWwyNTM2NTIzNDI1",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/1.4.2:%20Audio%20Control",
+            "name": "1.4.2: Audio Control",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3127715803,
+            "node_id": "MDU6TGFiZWwzMTI3NzE1ODAz",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.2.2%20Pause%20stop%20hide",
+            "name": "2.2.2 Pause stop hide",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6221449287,
+            "node_id": "LA_kwDOAJgYVs8AAAABctPIRw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Substantive",
+            "name": "Substantive",
+            "color": "B96700",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -685,10 +827,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3992,
         "created_at": "2024-07-26T15:36:19Z",
-        "closed_at": null,
+        "closed_at": "2024-08-23T09:33:39Z",
         "title": "Broken video example in Reflow understanding",
         "labels": [],
         "assignee": "kfranqueiro",
@@ -1602,7 +1744,17 @@
         "created_at": "2024-07-01T22:07:17Z",
         "closed_at": null,
         "title": "Instructions paragraph cleanup",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6221449287,
+            "node_id": "LA_kwDOAJgYVs8AAAABctPIRw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Substantive",
+            "name": "Substantive",
+            "color": "B96700",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2736,10 +2888,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3877,
         "created_at": "2024-05-24T16:06:24Z",
-        "closed_at": null,
+        "closed_at": "2024-08-23T17:48:01Z",
         "title": "Update text-spacing with editorial improvements",
         "labels": [
           {
@@ -4252,10 +4404,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3773,
         "created_at": "2024-04-04T09:19:05Z",
-        "closed_at": null,
+        "closed_at": "2024-08-23T15:23:38Z",
         "title": "Added \"Duplicated text\" as guidance to fulfil the 1.4.5 Images of Text success criterion in the Understanding Document",
         "labels": [
           {
@@ -31485,10 +31637,10 @@
         "isPullRequest": true
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 2575,
         "created_at": "2022-08-09T14:16:16Z",
-        "closed_at": "2023-05-09T16:26:45Z",
+        "closed_at": null,
         "title": "Should C40 be also sufficient for 1.4.11 Non-Text Contrast?",
         "labels": [
           {
@@ -53105,7 +53257,7 @@
             "description": ""
           }
         ],
-        "assignee": "mbgower",
+        "assignee": "patrickhlauke",
         "isPullRequest": true
       },
       {
@@ -70951,7 +71103,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "patrickhlauke",
         "isPullRequest": true
       },
       {
@@ -169609,6 +169761,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 4039,
+        "created_at": "2024-08-23T18:51:29Z",
+        "closed_at": null,
+        "title": "PDF Technique 4, Test Process bullet 3 ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4038,
+        "created_at": "2024-08-23T17:47:31Z",
+        "closed_at": null,
+        "title": "Update text-spacing with editorial improvements",
+        "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 4036,
         "created_at": "2024-08-22T17:15:53Z",
         "closed_at": null,
@@ -169654,6 +169836,15 @@
         "title": "Fix typo/incorrect word in input purpose listing",
         "labels": [
           {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
             "id": 466389488,
             "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
             "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
@@ -169686,10 +169877,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4032,
         "created_at": "2024-08-21T18:38:34Z",
-        "closed_at": null,
+        "closed_at": "2024-08-23T11:35:07Z",
         "title": "SC 1.3.1 Info and Relationships and description list",
         "labels": [],
         "assignee": null,
@@ -169702,6 +169893,15 @@
         "closed_at": null,
         "title": "Update links in 1.3.6 Identify Purpose understanding",
         "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
           {
             "id": 962595250,
             "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
@@ -169769,7 +169969,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "patrickhlauke",
         "isPullRequest": false
       },
       {
@@ -169788,7 +169988,17 @@
         "created_at": "2024-08-19T17:02:23Z",
         "closed_at": null,
         "title": "Add more information/links to HTML-related obsolete messages",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6221384566,
+            "node_id": "LA_kwDOAJgYVs8AAAABctLLdg",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Bug%20Fixes",
+            "name": "Bug Fixes",
+            "color": "E78CCB",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -169798,7 +170008,17 @@
         "created_at": "2024-08-17T02:33:27Z",
         "closed_at": null,
         "title": "minor punctuation fixes - adding missing commas",
-        "labels": [],
+        "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -169838,7 +170058,35 @@
         "created_at": "2024-08-16T14:38:44Z",
         "closed_at": null,
         "title": "Add note about the scope of 1.4.5 Images of Text (images used *rather than* text) and example",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 2747857292,
+            "node_id": "MDU6TGFiZWwyNzQ3ODU3Mjky",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/1.4.5%20Images%20of%20text",
+            "name": "1.4.5 Images of text",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6221449287,
+            "node_id": "LA_kwDOAJgYVs8AAAABctPIRw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Substantive",
+            "name": "Substantive",
+            "color": "B96700",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -169994,7 +170242,53 @@
         "created_at": "2024-08-08T23:27:21Z",
         "closed_at": null,
         "title": "Add explanation of what \"automatic\" means in 2.2.2 and 1.4.2, cross-reference",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1399217672,
+            "node_id": "MDU6TGFiZWwxMzk5MjE3Njcy",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.0",
+            "name": "WCAG 2.0",
+            "color": "cf91e0",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1899810815,
+            "node_id": "MDU6TGFiZWwxODk5ODEwODE1",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.3.3%20Animation%20from%20Interactions",
+            "name": "2.3.3 Animation from Interactions",
+            "color": "d3bbf7",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 2536523425,
+            "node_id": "MDU6TGFiZWwyNTM2NTIzNDI1",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/1.4.2:%20Audio%20Control",
+            "name": "1.4.2: Audio Control",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3127715803,
+            "node_id": "MDU6TGFiZWwzMTI3NzE1ODAz",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/2.2.2%20Pause%20stop%20hide",
+            "name": "2.2.2 Pause stop hide",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6221449287,
+            "node_id": "LA_kwDOAJgYVs8AAAABctPIRw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Substantive",
+            "name": "Substantive",
+            "color": "B96700",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -170286,10 +170580,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3992,
         "created_at": "2024-07-26T15:36:19Z",
-        "closed_at": null,
+        "closed_at": "2024-08-23T09:33:39Z",
         "title": "Broken video example in Reflow understanding",
         "labels": [],
         "assignee": "kfranqueiro",
@@ -171203,7 +171497,17 @@
         "created_at": "2024-07-01T22:07:17Z",
         "closed_at": null,
         "title": "Instructions paragraph cleanup",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6221449287,
+            "node_id": "LA_kwDOAJgYVs8AAAABctPIRw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Substantive",
+            "name": "Substantive",
+            "color": "B96700",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -172337,10 +172641,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3877,
         "created_at": "2024-05-24T16:06:24Z",
-        "closed_at": null,
+        "closed_at": "2024-08-23T17:48:01Z",
         "title": "Update text-spacing with editorial improvements",
         "labels": [
           {
@@ -173853,10 +174157,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3773,
         "created_at": "2024-04-04T09:19:05Z",
-        "closed_at": null,
+        "closed_at": "2024-08-23T15:23:38Z",
         "title": "Added \"Duplicated text\" as guidance to fulfil the 1.4.5 Images of Text success criterion in the Understanding Document",
         "labels": [
           {
@@ -201086,10 +201390,10 @@
         "isPullRequest": true
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 2575,
         "created_at": "2022-08-09T14:16:16Z",
-        "closed_at": "2023-05-09T16:26:45Z",
+        "closed_at": null,
         "title": "Should C40 be also sufficient for 1.4.11 Non-Text Contrast?",
         "labels": [
           {
@@ -222706,7 +223010,7 @@
             "description": ""
           }
         ],
-        "assignee": "mbgower",
+        "assignee": "patrickhlauke",
         "isPullRequest": true
       },
       {
@@ -240552,7 +240856,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "patrickhlauke",
         "isPullRequest": true
       },
       {
@@ -267494,6 +267798,15 @@
             "color": "ea6d38",
             "default": false,
             "description": null
+          },
+          {
+            "id": 4652931483,
+            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
+            "name": "Ready for TF Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -267596,6 +267909,15 @@
         "title": "Closed functionality list - suggested additions",
         "labels": [
           {
+            "id": 4652931483,
+            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
+            "name": "Ready for TF Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4802913130,
             "node_id": "LA_kwDOHGOGS88AAAABHkajag",
             "url": "https://api.github.com/repos/w3c/wcag2ict/labels/a11y-needs-resolution",
@@ -267616,6 +267938,15 @@
         "title": "Seeking clarity for key term 'underlying platform software'",
         "labels": [
           {
+            "id": 4652931483,
+            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
+            "name": "Ready for TF Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4802913130,
             "node_id": "LA_kwDOHGOGS88AAAABHkajag",
             "url": "https://api.github.com/repos/w3c/wcag2ict/labels/a11y-needs-resolution",
@@ -267635,6 +267966,15 @@
         "closed_at": null,
         "title": "Suggest slight clarification of audience and outcomes",
         "labels": [
+          {
+            "id": 4652931483,
+            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
+            "name": "Ready for TF Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 4802913130,
             "node_id": "LA_kwDOHGOGS88AAAABHkajag",
@@ -267832,7 +268172,7 @@
         "number": 451,
         "created_at": "2024-07-23T12:26:13Z",
         "closed_at": null,
-        "title": "Mocking up how we could include WCAG 2.1.1 Parsing quote",
+        "title": "Include the two 4.1.1 versions + SC levels",
         "labels": [
           {
             "id": 6034937477,
@@ -275256,6 +275596,15 @@
             "color": "ea6d38",
             "default": false,
             "description": null
+          },
+          {
+            "id": 4652931483,
+            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
+            "name": "Ready for TF Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -275358,6 +275707,15 @@
         "title": "Closed functionality list - suggested additions",
         "labels": [
           {
+            "id": 4652931483,
+            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
+            "name": "Ready for TF Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4802913130,
             "node_id": "LA_kwDOHGOGS88AAAABHkajag",
             "url": "https://api.github.com/repos/w3c/wcag2ict/labels/a11y-needs-resolution",
@@ -275378,6 +275736,15 @@
         "title": "Seeking clarity for key term 'underlying platform software'",
         "labels": [
           {
+            "id": 4652931483,
+            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
+            "name": "Ready for TF Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 4802913130,
             "node_id": "LA_kwDOHGOGS88AAAABHkajag",
             "url": "https://api.github.com/repos/w3c/wcag2ict/labels/a11y-needs-resolution",
@@ -275397,6 +275764,15 @@
         "closed_at": null,
         "title": "Suggest slight clarification of audience and outcomes",
         "labels": [
+          {
+            "id": 4652931483,
+            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
+            "name": "Ready for TF Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 4802913130,
             "node_id": "LA_kwDOHGOGS88AAAABHkajag",
@@ -275594,7 +275970,7 @@
         "number": 451,
         "created_at": "2024-07-23T12:26:13Z",
         "closed_at": null,
-        "title": "Mocking up how we could include WCAG 2.1.1 Parsing quote",
+        "title": "Include the two 4.1.1 versions + SC levels",
         "labels": [
           {
             "id": 6034937477,
