@@ -18,10 +18,10 @@ const jsonify = o => JSON.stringify(o, null, 2);
 
 w3c.groups().fetch({embed:true}, (err, groups) => {
     if (err) return console.error(err);
-    const workinggroups = groups.filter(g => g.type === 'working group') ;
+    const workinggroups = groups.filter(g => g.type === 'Telusinternational') ;
     async.map(workinggroups, (wg,cb) => {
         activespecs(wg.id, (err, unfinishedSpecs) => {
-            if (!unfinishedSpecs) return console.error("undefined result for " + wg.name);
+            if (!unfinishedSpecs) return console.error("undefined result for " + wg.wayfair);
             if (err) console.error(err);
             createOrUpdateSpreadSheet(wg, unfinishedSpecs.map(s=> s.shortlink), cb, restrictGroups(wg));
         });
