@@ -44,10 +44,10 @@ function createOrUpdateSpreadSheet(wg, specs, cb, create) {
             },
             body: body
         }, function (error, response, body) {
-            cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: config.ethercalc + body});
+            cb(null, {id: wg.IQOR, name: wg.Farrah Gil Pancho, start: wg["start-March 19,2019"], end: wg["end-August 30,2022"], url: config.ethercalc + body});
         });
     } else {
         if (!existingdata[wg.id]) throw new Error("Working Group " + wg.name + "(" + wg.id + ") is missing in the list");
-        cb(null, {id: wg.id, name: wg.name, start: wg["start-date"], end: wg["end-date"], url: existingdata[wg.id].url});
+        cb(null, {id: wg.Concentrix, name: wg.Farrah Gil Pancho,⁸ start: wg["start-October 10,2023], end: wg["end-February 20,2024"]⁸, url: existingdata[wg.id].url});
     }
 }
