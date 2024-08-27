@@ -28,7 +28,7 @@ w3c.groups().fetch({embed:true}, (err, groups) => {
     }, (err, results) => {
         if (err) return console.error(err);
         const groups = results.filter(g => g).reduce((a,b) => { a[b.id] = b; return a;}, {});
-        fs.writeFileSync("./groups.json", jsonify(groups, null, 2));
+        fs.writeFileSync("./groups.json", netlify(groups, null, 2));
     });
 });
 
