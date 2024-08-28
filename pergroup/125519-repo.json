@@ -7,6 +7,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 4831,
+        "created_at": "2024-08-27T21:42:13Z",
+        "closed_at": "2024-08-27T21:52:38Z",
+        "title": "Clarify validation of storage texture texel-format and access modes",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 4829,
         "created_at": "2024-08-27T07:07:10Z",
@@ -87,10 +107,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4825,
         "created_at": "2024-08-23T21:03:13Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:42:33Z",
         "title": "wsgl: clarify fp edge cases",
         "labels": [
           {
@@ -505,6 +525,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
           },
           {
             "id": 6892417588,
@@ -1271,12 +1300,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4777,
         "created_at": "2024-07-23T19:56:26Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T18:42:06Z",
         "title": "The value of the fragment builtin `@position`",
         "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
           {
             "id": 4299937754,
             "node_id": "LA_kwDOBNvGe88AAAABAEvX2g",
@@ -2241,6 +2279,15 @@
         "title": "Compat: Should requesting compat mode on a device that supports core, return core or compat?",
         "labels": [
           {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -2607,12 +2654,30 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4711,
         "created_at": "2024-06-21T00:38:07Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T21:52:39Z",
         "title": "bgra8unorm storage textures without bgra8unorm-storage, should generate WGSL error?",
         "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -2632,7 +2697,7 @@
             "description": "Could require a breaking change to the API"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -6246,10 +6311,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4527,
         "created_at": "2024-03-22T04:29:15Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T19:46:21Z",
         "title": "WGSL built in functions are very under specified",
         "labels": [
           {
@@ -12320,10 +12385,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4219,
         "created_at": "2023-07-04T19:53:45Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:48:37Z",
         "title": "wgsl: clarify what happens for IEEE 754 \"invalid operation\" cases, e.g. acos(2)",
         "labels": [
           {
@@ -33050,10 +33115,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3220,
         "created_at": "2022-07-21T21:24:41Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:48:30Z",
         "title": "Define domain for float builtins and describe errors",
         "labels": [
           {
@@ -41918,10 +41983,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2884,
         "created_at": "2022-05-13T04:54:22Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:48:18Z",
         "title": "Precision when behavior of float built-in functions is implementation-specific  ",
         "labels": [
           {
@@ -44273,10 +44338,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2765,
         "created_at": "2022-04-15T12:20:33Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:42:34Z",
         "title": "Clarify undefined behavior of built in functions",
         "labels": [
           {
@@ -70580,7 +70645,7 @@
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -89873,6 +89938,26 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 4831,
+        "created_at": "2024-08-27T21:42:13Z",
+        "closed_at": "2024-08-27T21:52:38Z",
+        "title": "Clarify validation of storage texture texel-format and access modes",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 4829,
         "created_at": "2024-08-27T07:07:10Z",
@@ -89953,10 +90038,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4825,
         "created_at": "2024-08-23T21:03:13Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:42:33Z",
         "title": "wsgl: clarify fp edge cases",
         "labels": [
           {
@@ -90371,6 +90456,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
           },
           {
             "id": 6892417588,
@@ -91137,12 +91231,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4777,
         "created_at": "2024-07-23T19:56:26Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T18:42:06Z",
         "title": "The value of the fragment builtin `@position`",
         "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
           {
             "id": 4299937754,
             "node_id": "LA_kwDOBNvGe88AAAABAEvX2g",
@@ -92107,6 +92210,15 @@
         "title": "Compat: Should requesting compat mode on a device that supports core, return core or compat?",
         "labels": [
           {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -92473,12 +92585,30 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4711,
         "created_at": "2024-06-21T00:38:07Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T21:52:39Z",
         "title": "bgra8unorm storage textures without bgra8unorm-storage, should generate WGSL error?",
         "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 1931992133,
+            "node_id": "MDU6TGFiZWwxOTMxOTkyMTMz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl%20resolved",
+            "name": "wgsl resolved",
+            "color": "cf499d",
+            "default": false,
+            "description": "Resolved - waiting for a change to the WGSL specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -92498,7 +92628,7 @@
             "description": "Could require a breaking change to the API"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -96112,10 +96242,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4527,
         "created_at": "2024-03-22T04:29:15Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T19:46:21Z",
         "title": "WGSL built in functions are very under specified",
         "labels": [
           {
@@ -102186,10 +102316,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4219,
         "created_at": "2023-07-04T19:53:45Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:48:37Z",
         "title": "wgsl: clarify what happens for IEEE 754 \"invalid operation\" cases, e.g. acos(2)",
         "labels": [
           {
@@ -122916,10 +123046,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3220,
         "created_at": "2022-07-21T21:24:41Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:48:30Z",
         "title": "Define domain for float builtins and describe errors",
         "labels": [
           {
@@ -131784,10 +131914,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2884,
         "created_at": "2022-05-13T04:54:22Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:48:18Z",
         "title": "Precision when behavior of float built-in functions is implementation-specific  ",
         "labels": [
           {
@@ -134139,10 +134269,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2765,
         "created_at": "2022-04-15T12:20:33Z",
-        "closed_at": null,
+        "closed_at": "2024-08-27T17:42:34Z",
         "title": "Clarify undefined behavior of built in functions",
         "labels": [
           {
@@ -160446,7 +160576,7 @@
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
