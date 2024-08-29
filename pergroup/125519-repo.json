@@ -7,6 +7,231 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 4841,
+        "created_at": "2024-08-29T00:43:14Z",
+        "closed_at": null,
+        "title": "`textureGather` with integer texture formats doesn't work on AMD devices",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4840,
+        "created_at": "2024-08-28T22:12:50Z",
+        "closed_at": "2024-08-29T07:07:35Z",
+        "title": "Remove GPUShaderModuleDescriptor.sourceMap",
+        "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4839,
+        "created_at": "2024-08-28T18:45:24Z",
+        "closed_at": null,
+        "title": "Missing accuracies for derivatives",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4838,
+        "created_at": "2024-08-28T18:05:05Z",
+        "closed_at": null,
+        "title": "Rename image copies -> texel copies",
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4837,
+        "created_at": "2024-08-28T17:37:36Z",
+        "closed_at": "2024-08-28T18:40:02Z",
+        "title": "interstage-interpolation checks generate pipeline-creation errors, no…",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4836,
+        "created_at": "2024-08-28T17:19:12Z",
+        "closed_at": "2024-08-28T18:40:03Z",
+        "title": "inter-stage interpolation validation is incorrectly described as triggering shader-creatin errors",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4835,
+        "created_at": "2024-08-28T14:29:21Z",
+        "closed_at": "2024-08-28T15:07:13Z",
+        "title": "Better explain that you can't assign to a multi-letter swizzle",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4834,
+        "created_at": "2024-08-28T13:49:52Z",
+        "closed_at": null,
+        "title": "Subgroup limits aren't really limits",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4833,
+        "created_at": "2024-08-28T13:32:56Z",
+        "closed_at": "2024-08-28T15:07:14Z",
+        "title": "make it easier to see that you can't assign to a multi-element swizzle",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 4831,
         "created_at": "2024-08-27T21:42:13Z",
@@ -81,6 +306,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
         "assignee": null,
@@ -185,10 +419,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4822,
         "created_at": "2024-08-20T12:42:43Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T16:59:37Z",
         "title": "Add inclusive scan add and mul operations",
         "labels": [
           {
@@ -223,10 +457,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4820,
         "created_at": "2024-08-19T17:38:57Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T15:24:18Z",
         "title": "subgroups: subgroupBroadcast 'id' parameter is const-expression",
         "labels": [
           {
@@ -405,6 +639,15 @@
             "color": "20D050",
             "default": false,
             "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
           }
         ],
         "assignee": null,
@@ -441,12 +684,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4808,
         "created_at": "2024-08-08T18:14:47Z",
-        "closed_at": null,
+        "closed_at": "2024-08-29T07:07:36Z",
         "title": "remove `sourceMap` from `GPUShaderModuleDescriptor`",
         "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -457,7 +709,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -982,15 +1234,6 @@
         "title": "Change mapAsync to also early-reject if already mapped",
         "labels": [
           {
-            "id": 764946281,
-            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
-            "name": "proposal",
-            "color": "91f285",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
@@ -998,6 +1241,15 @@
             "color": "C7E5F3",
             "default": false,
             "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -1022,10 +1274,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4786,
         "created_at": "2024-07-25T01:51:10Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T22:01:24Z",
         "title": "Generate a validation error on mapAsync early-reject",
         "labels": [
           {
@@ -1045,6 +1297,15 @@
             "color": "C7E5F3",
             "default": false,
             "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -1136,10 +1397,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4783,
         "created_at": "2024-07-25T00:46:57Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T21:17:15Z",
         "title": "Remove maxInterStageShaderComponents",
         "labels": [
           {
@@ -1203,20 +1464,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4781,
         "created_at": "2024-07-25T00:06:46Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T21:13:59Z",
         "title": "Allow unknown limits to be requested with value `undefined`",
         "labels": [
           {
-            "id": 764946281,
-            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
-            "name": "proposal",
-            "color": "91f285",
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
             "default": false,
-            "description": ""
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -3064,10 +3325,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4690,
         "created_at": "2024-06-04T22:38:06Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T22:01:24Z",
         "title": "mapAsync early-reject doesn't generate a validation error",
         "labels": [
           {
@@ -3122,10 +3383,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4688,
         "created_at": "2024-06-03T16:02:07Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T21:17:15Z",
         "title": "maxInterStageShaderComponents seems to overlap with maxInterStageShaderVariables",
         "labels": [
           {
@@ -5471,10 +5732,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4568,
         "created_at": "2024-04-10T19:35:34Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T17:22:47Z",
         "title": "Compat: WGSL validation at createShaderModule or createPipeline time?",
         "labels": [
           {
@@ -47749,7 +48010,7 @@
             "description": "Resolved - waiting for a change to the API specification"
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -70620,10 +70881,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1197,
         "created_at": "2020-10-30T20:55:19Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T16:52:29Z",
         "title": "wgsl spec editorial:  correctly reference the floating point standard IEEE-754-2019",
         "labels": [
           {
@@ -89938,6 +90199,231 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 4841,
+        "created_at": "2024-08-29T00:43:14Z",
+        "closed_at": null,
+        "title": "`textureGather` with integer texture formats doesn't work on AMD devices",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4840,
+        "created_at": "2024-08-28T22:12:50Z",
+        "closed_at": "2024-08-29T07:07:35Z",
+        "title": "Remove GPUShaderModuleDescriptor.sourceMap",
+        "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4839,
+        "created_at": "2024-08-28T18:45:24Z",
+        "closed_at": null,
+        "title": "Missing accuracies for derivatives",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4838,
+        "created_at": "2024-08-28T18:05:05Z",
+        "closed_at": null,
+        "title": "Rename image copies -> texel copies",
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4837,
+        "created_at": "2024-08-28T17:37:36Z",
+        "closed_at": "2024-08-28T18:40:02Z",
+        "title": "interstage-interpolation checks generate pipeline-creation errors, no…",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4836,
+        "created_at": "2024-08-28T17:19:12Z",
+        "closed_at": "2024-08-28T18:40:03Z",
+        "title": "inter-stage interpolation validation is incorrectly described as triggering shader-creatin errors",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4835,
+        "created_at": "2024-08-28T14:29:21Z",
+        "closed_at": "2024-08-28T15:07:13Z",
+        "title": "Better explain that you can't assign to a multi-letter swizzle",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4834,
+        "created_at": "2024-08-28T13:49:52Z",
+        "closed_at": null,
+        "title": "Subgroup limits aren't really limits",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4833,
+        "created_at": "2024-08-28T13:32:56Z",
+        "closed_at": "2024-08-28T15:07:14Z",
+        "title": "make it easier to see that you can't assign to a multi-element swizzle",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 4831,
         "created_at": "2024-08-27T21:42:13Z",
@@ -90012,6 +90498,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
         "assignee": null,
@@ -90116,10 +90611,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4822,
         "created_at": "2024-08-20T12:42:43Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T16:59:37Z",
         "title": "Add inclusive scan add and mul operations",
         "labels": [
           {
@@ -90154,10 +90649,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4820,
         "created_at": "2024-08-19T17:38:57Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T15:24:18Z",
         "title": "subgroups: subgroupBroadcast 'id' parameter is const-expression",
         "labels": [
           {
@@ -90336,6 +90831,15 @@
             "color": "20D050",
             "default": false,
             "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
           }
         ],
         "assignee": null,
@@ -90372,12 +90876,21 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4808,
         "created_at": "2024-08-08T18:14:47Z",
-        "closed_at": null,
+        "closed_at": "2024-08-29T07:07:36Z",
         "title": "remove `sourceMap` from `GPUShaderModuleDescriptor`",
         "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -90388,7 +90901,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -90913,15 +91426,6 @@
         "title": "Change mapAsync to also early-reject if already mapped",
         "labels": [
           {
-            "id": 764946281,
-            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
-            "name": "proposal",
-            "color": "91f285",
-            "default": false,
-            "description": ""
-          },
-          {
             "id": 4278373239,
             "node_id": "LA_kwDOBNvGe87_Ast3",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
@@ -90929,6 +91433,15 @@
             "color": "C7E5F3",
             "default": false,
             "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -90953,10 +91466,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4786,
         "created_at": "2024-07-25T01:51:10Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T22:01:24Z",
         "title": "Generate a validation error on mapAsync early-reject",
         "labels": [
           {
@@ -90976,6 +91489,15 @@
             "color": "C7E5F3",
             "default": false,
             "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -91067,10 +91589,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4783,
         "created_at": "2024-07-25T00:46:57Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T21:17:15Z",
         "title": "Remove maxInterStageShaderComponents",
         "labels": [
           {
@@ -91134,20 +91656,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4781,
         "created_at": "2024-07-25T00:06:46Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T21:13:59Z",
         "title": "Allow unknown limits to be requested with value `undefined`",
         "labels": [
           {
-            "id": 764946281,
-            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
-            "name": "proposal",
-            "color": "91f285",
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
             "default": false,
-            "description": ""
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -92995,10 +93517,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4690,
         "created_at": "2024-06-04T22:38:06Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T22:01:24Z",
         "title": "mapAsync early-reject doesn't generate a validation error",
         "labels": [
           {
@@ -93053,10 +93575,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4688,
         "created_at": "2024-06-03T16:02:07Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T21:17:15Z",
         "title": "maxInterStageShaderComponents seems to overlap with maxInterStageShaderVariables",
         "labels": [
           {
@@ -95402,10 +95924,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4568,
         "created_at": "2024-04-10T19:35:34Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T17:22:47Z",
         "title": "Compat: WGSL validation at createShaderModule or createPipeline time?",
         "labels": [
           {
@@ -137680,7 +138202,7 @@
             "description": "Resolved - waiting for a change to the API specification"
           }
         ],
-        "assignee": null,
+        "assignee": "kainino0x",
         "isPullRequest": false
       },
       {
@@ -160551,10 +161073,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1197,
         "created_at": "2020-10-30T20:55:19Z",
-        "closed_at": null,
+        "closed_at": "2024-08-28T16:52:29Z",
         "title": "wgsl spec editorial:  correctly reference the floating point standard IEEE-754-2019",
         "labels": [
           {
