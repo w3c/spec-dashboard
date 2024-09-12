@@ -8,6 +8,64 @@
     "issues": [
       {
         "state": "open",
+        "number": 2146,
+        "created_at": "2024-09-11T16:45:35Z",
+        "closed_at": null,
+        "title": "Allow `platform`-based self attestation with non-zero AAGUID when `AttestationConveyancePreferenceOption` `\"none\"` is used",
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2145,
+        "created_at": "2024-09-11T09:15:13Z",
+        "closed_at": null,
+        "title": "Clarify behaviour of duplicate hints",
+        "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 717194584,
+            "node_id": "MDU6TGFiZWw3MTcxOTQ1ODQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:underspecifiedBehaviors",
+            "name": "subtype:underspecifiedBehaviors",
+            "color": "1d76db",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
+          }
+        ],
+        "assignee": "emlun",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2144,
         "created_at": "2024-09-10T23:23:01Z",
         "closed_at": null,
@@ -21,9 +79,18 @@
             "color": "ffca04",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
-        "assignee": null,
+        "assignee": "kenrb",
         "isPullRequest": false
       },
       {
@@ -41,6 +108,15 @@
             "color": "ffca04",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "nsatragno",
@@ -67,12 +143,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2141,
         "created_at": "2024-09-06T17:55:27Z",
-        "closed_at": null,
+        "closed_at": "2024-09-11T18:11:36Z",
         "title": "Add BE/BS steps to authData generation",
-        "labels": [],
+        "labels": [
+          {
+            "id": 717194584,
+            "node_id": "MDU6TGFiZWw3MTcxOTQ1ODQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:underspecifiedBehaviors",
+            "name": "subtype:underspecifiedBehaviors",
+            "color": "1d76db",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -111,15 +197,25 @@
         "created_at": "2024-09-06T16:19:54Z",
         "closed_at": null,
         "title": "Update Use Cases for L3",
-        "labels": [],
+        "labels": [
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": "timcappalli",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2138,
         "created_at": "2024-09-06T14:53:40Z",
-        "closed_at": null,
+        "closed_at": "2024-09-11T23:55:11Z",
         "title": "Adds dfn for passkey in passkey platform authenticator and exports",
         "labels": [
           {
@@ -132,7 +228,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "timcappalli",
         "isPullRequest": true
       },
       {
@@ -156,10 +252,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2136,
         "created_at": "2024-09-06T14:46:42Z",
-        "closed_at": null,
+        "closed_at": "2024-09-11T23:55:12Z",
         "title": "Add dfn for passkey in passkey platform authenticator",
         "labels": [
           {
@@ -188,6 +284,24 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
             "color": "ffca04",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 717194584,
+            "node_id": "MDU6TGFiZWw3MTcxOTQ1ODQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:underspecifiedBehaviors",
+            "name": "subtype:underspecifiedBehaviors",
+            "color": "1d76db",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
             "default": false,
             "description": null
           }
@@ -219,16 +333,25 @@
             "color": "c2e0c6",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
-        "assignee": null,
+        "assignee": "emlun",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2133,
         "created_at": "2024-08-30T12:16:46Z",
-        "closed_at": null,
+        "closed_at": "2024-09-11T18:42:09Z",
         "title": "Enum values that ignore naming conventions in Web Authentication: An API for accessing Public Key Credentials - Level 3",
         "labels": [
           {
@@ -241,7 +364,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "MasterKale",
         "isPullRequest": false
       },
       {
@@ -259,6 +382,24 @@
             "color": "ffca04",
             "default": false,
             "description": null
+          },
+          {
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "emlun",
@@ -301,7 +442,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "timcappalli",
         "isPullRequest": true
       },
       {
@@ -325,10 +466,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2127,
         "created_at": "2024-08-19T13:29:18Z",
-        "closed_at": null,
+        "closed_at": "2024-09-11T18:21:06Z",
         "title": "Codify semantic line breaks as editorial convention",
         "labels": [
           {
@@ -379,7 +520,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "emlun",
         "isPullRequest": true
       },
       {
@@ -496,7 +637,7 @@
             "description": null
           }
         ],
-        "assignee": "nsatragno",
+        "assignee": "emlun",
         "isPullRequest": false
       },
       {
@@ -708,6 +849,15 @@
             "color": "ffca04",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "emlun",
@@ -720,15 +870,6 @@
         "closed_at": null,
         "title": "Rename PublicKeyCredentialHints to PublicKeyCredentialHint?",
         "labels": [
-          {
-            "id": 340916443,
-            "node_id": "MDU6TGFiZWwzNDA5MTY0NDM=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:Discuss",
-            "name": "stat:Discuss",
-            "color": "207de5",
-            "default": false,
-            "description": null
-          },
           {
             "id": 340916444,
             "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
@@ -744,6 +885,15 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:algorithms/WebIDL",
             "name": "subtype:algorithms/WebIDL",
             "color": "bfdadc",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 723904637,
+            "node_id": "MDU6TGFiZWw3MjM5MDQ2Mzc=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/stat:pr-open",
+            "name": "stat:pr-open",
+            "color": "59f237",
             "default": false,
             "description": null
           }
@@ -768,7 +918,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "timcappalli",
         "isPullRequest": true
       },
       {
@@ -891,10 +1041,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2104,
         "created_at": "2024-07-22T22:25:05Z",
-        "closed_at": null,
+        "closed_at": "2024-09-12T02:42:31Z",
         "title": "Add topOrigin to the limited verification algorithm.",
         "labels": [
           {
@@ -931,10 +1081,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2102,
         "created_at": "2024-07-22T15:24:35Z",
-        "closed_at": null,
+        "closed_at": "2024-09-12T02:42:32Z",
         "title": "Add `topOrigin` to the limited verification algorithm",
         "labels": [
           {
@@ -1112,7 +1262,17 @@
         "created_at": "2024-07-11T22:55:09Z",
         "closed_at": null,
         "title": "Add new error codes",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
+          }
+        ],
         "assignee": "MasterKale",
         "isPullRequest": true
       },
@@ -1874,10 +2034,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2064,
         "created_at": "2024-04-30T13:04:49Z",
-        "closed_at": null,
+        "closed_at": "2024-09-11T18:11:37Z",
         "title": "§6.1. Steps to generate authenticator data should include BE and BS flags",
         "labels": [
           {
@@ -2166,7 +2326,7 @@
             "description": "Prerequisites are not yet satisfied"
           }
         ],
-        "assignee": null,
+        "assignee": "timcappalli",
         "isPullRequest": true
       },
       {
@@ -2260,10 +2420,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2045,
         "created_at": "2024-03-18T14:53:52Z",
-        "closed_at": null,
+        "closed_at": "2024-09-11T18:21:07Z",
         "title": "Editorial convention: Semantic line breaks",
         "labels": [
           {
@@ -4172,6 +4332,15 @@
             "color": "fad8c7",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "dwaite",
@@ -4750,6 +4919,15 @@
         "closed_at": null,
         "title": "Clarify TPM attestation verification instructions",
         "labels": [
+          {
+            "id": 340916444,
+            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
+            "name": "type:technical",
+            "color": "ffca04",
+            "default": false,
+            "description": null
+          },
           {
             "id": 5671773576,
             "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
@@ -10347,6 +10525,15 @@
             "color": "ffca04",
             "default": false,
             "description": null
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "emlun",
