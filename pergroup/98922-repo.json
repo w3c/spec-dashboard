@@ -37,10 +37,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 95,
         "created_at": "2024-09-08T22:58:37Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T14:51:35Z",
         "title": "Demonstrate how ReSpec auto-generates RFC 2119 language.",
         "labels": [
           {
@@ -84,6 +84,15 @@
         "title": "privacy review / questions",
         "labels": [
           {
+            "id": 6193722405,
+            "node_id": "LA_kwDOKn-QBs8AAAABcSy0JQ",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
             "id": 7379115503,
             "node_id": "LA_kwDOKn-QBs8AAAABt9Rd7w",
             "url": "https://api.github.com/repos/w3c/controller-document/labels/discuss",
@@ -97,10 +106,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 92,
         "created_at": "2024-09-05T09:07:43Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T14:50:19Z",
         "title": "Alternative version of the \"context and vocabulary\" section",
         "labels": [
           {
@@ -1158,10 +1167,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 47,
         "created_at": "2024-08-25T22:01:42Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T14:53:08Z",
         "title": "RFC 2119 key word NOT RECOMMENDED is missing",
         "labels": [
           {
@@ -1919,12 +1928,60 @@
     "issues": [
       {
         "state": "open",
+        "number": 176,
+        "created_at": "2024-09-13T10:05:24Z",
+        "closed_at": null,
+        "title": "Status size missing from `BitstringStatusList`",
+        "labels": [
+          {
+            "id": 6670180974,
+            "node_id": "LA_kwDOE-wAx88AAAABjZLibg",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/normative",
+            "name": "normative",
+            "color": "F17A11",
+            "default": false,
+            "description": "The item is normative in nature."
+          },
+          {
+            "id": 7063766236,
+            "node_id": "LA_kwDOE-wAx88AAAABpQiE3A",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 175,
         "created_at": "2024-09-05T12:51:03Z",
         "closed_at": null,
         "title": "The `BitstringStatusList.statusMessages` and `statusSize` properties are still beeing referenced",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 6545607940,
+            "node_id": "LA_kwDOE-wAx88AAAABhiYNBA",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/editorial",
+            "name": "editorial",
+            "color": "53CF5F",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7063766236,
+            "node_id": "LA_kwDOE-wAx88AAAABpQiE3A",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -1962,7 +2019,26 @@
         "created_at": "2024-07-24T15:04:10Z",
         "closed_at": null,
         "title": "Add a MUST statement preventing 2 entries from having the same statusPurpose",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6670180974,
+            "node_id": "LA_kwDOE-wAx88AAAABjZLibg",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/normative",
+            "name": "normative",
+            "color": "F17A11",
+            "default": false,
+            "description": "The item is normative in nature."
+          },
+          {
+            "id": 7063766236,
+            "node_id": "LA_kwDOE-wAx88AAAABpQiE3A",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5335,6 +5411,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 312,
+        "created_at": "2024-09-16T21:24:12Z",
+        "closed_at": null,
+        "title": "rephrase previousProof paragraph in algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 311,
         "created_at": "2024-09-11T11:03:40Z",
         "closed_at": null,
@@ -5344,42 +5430,109 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 310,
         "created_at": "2024-09-05T21:21:24Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T00:12:03Z",
         "title": "Make terminology normative",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5693565107,
+            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          },
+          {
+            "id": 6310257580,
+            "node_id": "LA_kwDOB8htu88AAAABeB7jrA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/normative",
+            "name": "normative",
+            "color": "D93F0B",
+            "default": false,
+            "description": "This issue or PR will trigger the need for another Candidate Recommendation Snapshot"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 309,
         "created_at": "2024-09-04T15:32:06Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T00:11:17Z",
         "title": "Add sentence to previousProof",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5693565107,
+            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          },
+          {
+            "id": 6310263376,
+            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue or PR constitutes an editorial change."
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 308,
         "created_at": "2024-08-31T16:47:59Z",
-        "closed_at": null,
+        "closed_at": "2024-09-15T23:21:31Z",
         "title": "Move Contexts and Vocabularies content about Data Integrity to the Data Integrity specification",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 6310257580,
+            "node_id": "LA_kwDOB8htu88AAAABeB7jrA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/normative",
+            "name": "normative",
+            "color": "D93F0B",
+            "default": false,
+            "description": "This issue or PR will trigger the need for another Candidate Recommendation Snapshot"
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 307,
         "created_at": "2024-08-30T17:54:58Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T00:09:24Z",
         "title": "Clarify previousProof verification.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5693565107,
+            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          },
+          {
+            "id": 6310263376,
+            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue or PR constitutes an editorial change."
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5389,15 +5542,34 @@
         "created_at": "2024-08-30T14:50:21Z",
         "closed_at": null,
         "title": "Unused reference [mimesniff]",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 5143856879,
+            "node_id": "LA_kwDOB8htu88AAAABMpkG7w",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/ready%20for%20pr",
+            "name": "ready for pr",
+            "color": "97CB3B",
+            "default": false,
+            "description": "This issue is ready to be resolved via a pull request"
+          },
+          {
+            "id": 6310263376,
+            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue or PR constitutes an editorial change."
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 305,
         "created_at": "2024-08-26T14:12:14Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T00:14:29Z",
         "title": "Convert issue on guidance on deprecated/experimental crypto.",
         "labels": [
           {
@@ -11391,6 +11563,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 1563,
+        "created_at": "2024-09-16T20:01:18Z",
+        "closed_at": null,
+        "title": "Proof reading for the Security Considerations section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1562,
+        "created_at": "2024-09-15T23:02:42Z",
+        "closed_at": null,
+        "title": "Remove ProblemDetail integer error codes.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1561,
+        "created_at": "2024-09-13T14:02:16Z",
+        "closed_at": null,
+        "title": "Change usage patterns to patterns of use throughout",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1560,
         "created_at": "2024-09-11T15:34:20Z",
         "closed_at": null,
@@ -11407,13 +11609,13 @@
         "title": "Remove ProblemDetails integer error codes, no implementations seem to use them",
         "labels": [
           {
-            "id": 850456033,
-            "node_id": "MDU6TGFiZWw4NTA0NTYwMzM=",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/ready%20for%20PR",
-            "name": "ready for PR",
-            "color": "88CD1F",
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
             "default": false,
-            "description": "This issue is ready for a Pull Request to be created to resolve it"
+            "description": ""
           },
           {
             "id": 6517219031,
@@ -11429,12 +11631,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1558,
         "created_at": "2024-09-05T21:03:40Z",
-        "closed_at": null,
+        "closed_at": "2024-09-15T22:51:28Z",
         "title": "Make Terminology section normative",
         "labels": [
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 6517219031,
             "node_id": "LA_kwDOBGbiEc8AAAABhHTe1w",
@@ -11449,20 +11660,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1557,
         "created_at": "2024-08-29T15:58:54Z",
-        "closed_at": null,
+        "closed_at": "2024-09-15T21:45:26Z",
         "title": "Fix #1556",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1556,
         "created_at": "2024-08-29T15:46:45Z",
-        "closed_at": null,
+        "closed_at": "2024-09-15T22:48:08Z",
         "title": "A wrong VCDM 2.0 context URL",
         "labels": [
           {
@@ -11473,6 +11684,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -11493,16 +11713,25 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1554,
         "created_at": "2024-08-26T05:18:25Z",
-        "closed_at": null,
+        "closed_at": "2024-09-15T21:43:51Z",
         "title": "Proof reading for Section 8 - Privacy",
         "labels": [],
         "assignee": null,
@@ -11581,6 +11810,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
           },
           {
             "id": 6642085319,
@@ -42950,6 +43188,55 @@
     "issues": [
       {
         "state": "open",
+        "number": 77,
+        "created_at": "2024-09-16T07:23:33Z",
+        "closed_at": null,
+        "title": "Changed the reference to canonical forms of rdf-canon",
+        "labels": [
+          {
+            "id": 6310340900,
+            "node_id": "LA_kwDOGuDtXc8AAAABeCApJA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "The item is editorial in nature."
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 76,
+        "created_at": "2024-09-13T06:22:18Z",
+        "closed_at": null,
+        "title": "DRY principle for multikeys?",
+        "labels": [
+          {
+            "id": 6310340900,
+            "node_id": "LA_kwDOGuDtXc8AAAABeCApJA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "The item is editorial in nature."
+          },
+          {
+            "id": 6539027256,
+            "node_id": "LA_kwDOGuDtXc8AAAABhcGjOA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 75,
         "created_at": "2024-09-10T14:23:55Z",
         "closed_at": null,
@@ -42963,6 +43250,15 @@
             "color": "0E8A16",
             "default": false,
             "description": "The item is editorial in nature."
+          },
+          {
+            "id": 6539027256,
+            "node_id": "LA_kwDOGuDtXc8AAAABhcGjOA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "iherman",
@@ -42974,15 +43270,43 @@
         "created_at": "2024-09-10T14:05:15Z",
         "closed_at": null,
         "title": "Different hashing functions in ECDSA and their relations to RDF-CANON",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5864003938,
+            "node_id": "LA_kwDOGuDtXc8AAAABXYWZYg",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "90B935",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6310340900,
+            "node_id": "LA_kwDOGuDtXc8AAAABeCApJA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "The item is editorial in nature."
+          },
+          {
+            "id": 6539027256,
+            "node_id": "LA_kwDOGuDtXc8AAAABhcGjOA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 73,
         "created_at": "2024-09-10T13:49:44Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T00:24:26Z",
         "title": "Update RDF CANON references",
         "labels": [
           {
@@ -44395,12 +44719,31 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 98,
         "created_at": "2024-09-12T08:08:48Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T00:26:22Z",
         "title": "Reference to canonical form (in n-quads) instead of directly n-qads",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6310329186,
+            "node_id": "LA_kwDOEacMp88AAAABeB_7Yg",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/editorial",
+            "name": "editorial",
+            "color": "24942A",
+            "default": false,
+            "description": "This item is editorial in nature."
+          },
+          {
+            "id": 6539036568,
+            "node_id": "LA_kwDOEacMp88AAAABhcHHmA",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "iherman",
         "isPullRequest": true
       },
@@ -47115,6 +47458,46 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 300,
+        "created_at": "2024-09-16T17:43:25Z",
+        "closed_at": null,
+        "title": "Almost no sections are `class=\"normative\"`. Why?",
+        "labels": [
+          {
+            "id": 5680553313,
+            "node_id": "LA_kwDOHrK-n88AAAABUpZdYQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/editorial",
+            "name": "editorial",
+            "color": "1E940F",
+            "default": false,
+            "description": "Editorial changes only"
+          }
+        ],
+        "assignee": "decentralgabe",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 299,
+        "created_at": "2024-09-13T19:49:31Z",
+        "closed_at": null,
+        "title": "Move Conformance section into Introduction",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 298,
+        "created_at": "2024-09-13T19:36:57Z",
+        "closed_at": null,
+        "title": "Add Acknowledgements section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 297,
         "created_at": "2024-08-30T06:22:30Z",
@@ -47150,7 +47533,7 @@
             "description": "Further information is requested"
           }
         ],
-        "assignee": null,
+        "assignee": "decentralgabe",
         "isPullRequest": false
       },
       {
@@ -47377,16 +47760,16 @@
         "title": "Align conformance classes with the controller document spec",
         "labels": [
           {
-            "id": 4391947526,
-            "node_id": "LA_kwDOHrK-n88AAAABBcfNBg",
-            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/discuss",
-            "name": "discuss",
-            "color": "E13AF3",
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
             "default": false,
-            "description": null
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "selfissued",
         "isPullRequest": false
       },
       {
@@ -52032,11 +52415,11 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 237,
         "created_at": "2024-09-12T06:32:28Z",
-        "closed_at": null,
-        "title": "Replaced the official schema URL",
+        "closed_at": "2024-09-12T21:13:55Z",
+        "title": "Correct the official schema URL",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -52082,10 +52465,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 234,
         "created_at": "2024-08-28T21:54:18Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T17:51:09Z",
         "title": "unresolvable https://www.w3.org/2022/credentials/v2/json-schema-credential-schema.json",
         "labels": [
           {
@@ -56252,10 +56635,39 @@
   "https://www.w3.org/TR/vc-specs-dir/": {
     "repo": {
       "owner": "w3c",
-      "name": "vc-specs-dir"
+      "name": "vc-extensions"
     },
     "recTrack": false,
     "issues": [
+      {
+        "state": "open",
+        "number": 39,
+        "created_at": "2024-09-16T06:43:45Z",
+        "closed_at": null,
+        "title": " October publication for the repository name change",
+        "labels": [
+          {
+            "id": 6493745820,
+            "node_id": "LA_kwDOI_mSms8AAAABgw6ynA",
+            "url": "https://api.github.com/repos/w3c/vc-extensions/labels/to%20be%20closed",
+            "name": "to be closed",
+            "color": "E26540",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7472958663,
+            "node_id": "LA_kwDOI_mSms8AAAABvWxMxw",
+            "url": "https://api.github.com/repos/w3c/vc-extensions/labels/do%20not%20merge",
+            "name": "do not merge",
+            "color": "5BDC0E",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 38,
