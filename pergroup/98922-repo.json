@@ -8,11 +8,50 @@
     "issues": [
       {
         "state": "open",
+        "number": 98,
+        "created_at": "2024-09-17T15:24:18Z",
+        "closed_at": null,
+        "title": "ID value mix up",
+        "labels": [
+          {
+            "id": 6156826182,
+            "node_id": "LA_kwDOKn-QBs8AAAABbvm2Rg",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 7103081903,
+            "node_id": "LA_kwDOKn-QBs8AAAABp2Btrw",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item is editorial in nature."
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 97,
         "created_at": "2024-09-11T17:19:51Z",
         "closed_at": null,
         "title": "Editorial grammar and such, rescued from #92",
-        "labels": [],
+        "labels": [
+          {
+            "id": 7103081903,
+            "node_id": "LA_kwDOKn-QBs8AAAABp2Btrw",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item is editorial in nature."
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1960,16 +1999,16 @@
         "number": 175,
         "created_at": "2024-09-05T12:51:03Z",
         "closed_at": null,
-        "title": "The `BitstringStatusList.statusMessages` and `statusSize` properties are still beeing referenced",
+        "title": "The `BitstringStatusList.statusMessages` and `statusSize` properties are still being referenced",
         "labels": [
           {
-            "id": 6545607940,
-            "node_id": "LA_kwDOE-wAx88AAAABhiYNBA",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/editorial",
-            "name": "editorial",
-            "color": "53CF5F",
+            "id": 6670180974,
+            "node_id": "LA_kwDOE-wAx88AAAABjZLibg",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/normative",
+            "name": "normative",
+            "color": "F17A11",
             "default": false,
-            "description": ""
+            "description": "The item is normative in nature."
           },
           {
             "id": 7063766236,
@@ -11563,6 +11602,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 1564,
+        "created_at": "2024-09-17T23:45:36Z",
+        "closed_at": null,
+        "title": "Example 21 contains an undefined term",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1563,
         "created_at": "2024-09-16T20:01:18Z",
         "closed_at": null,
@@ -11796,10 +11845,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1551,
         "created_at": "2024-08-18T22:15:09Z",
-        "closed_at": null,
+        "closed_at": "2024-09-17T14:18:09Z",
         "title": "Rename VC Specifications Registry to VC Extensions",
         "labels": [
           {
@@ -46411,6 +46460,444 @@
       }
     ]
   },
+  "https://www.w3.org/TR/vc-extensions/": {
+    "repo": {
+      "owner": "w3c",
+      "name": "vc-extensions"
+    },
+    "recTrack": false,
+    "issues": [
+      {
+        "state": "closed",
+        "number": 40,
+        "created_at": "2024-09-17T11:23:18Z",
+        "closed_at": "2024-09-17T14:14:29Z",
+        "title": "Update echidna.yml after the repository name change",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 39,
+        "created_at": "2024-09-16T06:43:45Z",
+        "closed_at": "2024-09-17T11:25:27Z",
+        "title": " October publication for the repository name change",
+        "labels": [
+          {
+            "id": 6493745820,
+            "node_id": "LA_kwDOI_mSms8AAAABgw6ynA",
+            "url": "https://api.github.com/repos/w3c/vc-extensions/labels/to%20be%20closed",
+            "name": "to be closed",
+            "color": "E26540",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7472958663,
+            "node_id": "LA_kwDOI_mSms8AAAABvWxMxw",
+            "url": "https://api.github.com/repos/w3c/vc-extensions/labels/do%20not%20merge",
+            "name": "do not merge",
+            "color": "5BDC0E",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 38,
+        "created_at": "2024-07-01T17:45:48Z",
+        "closed_at": null,
+        "title": "Would be nice if Securing Mechanisms mapped media type to spec section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 37,
+        "created_at": "2024-07-01T17:41:07Z",
+        "closed_at": null,
+        "title": "Securing Mechanisms section should require that its entries are actually securing mechanisms",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 36,
+        "created_at": "2024-04-22T08:06:22Z",
+        "closed_at": "2024-05-27T19:44:54Z",
+        "title": "Addition of ELM-Linked Standards",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 35,
+        "created_at": "2024-02-10T10:10:08Z",
+        "closed_at": null,
+        "title": "Remove JSON web signatures securing mechanism",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 34,
+        "created_at": "2024-02-04T12:11:18Z",
+        "closed_at": null,
+        "title": "edTech Evidence URL is wrong",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 33,
+        "created_at": "2024-02-01T08:19:42Z",
+        "closed_at": "2024-05-27T19:46:26Z",
+        "title": "Updated the echidna action file",
+        "labels": [],
+        "assignee": "msporny",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 32,
+        "created_at": "2024-01-14T09:19:21Z",
+        "closed_at": "2024-05-27T19:45:30Z",
+        "title": "Wrong date in static note",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 31,
+        "created_at": "2023-12-06T23:59:17Z",
+        "closed_at": "2023-12-10T20:13:27Z",
+        "title": "Rename status-list-2021 to bitstring-status-list",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 30,
+        "created_at": "2023-11-26T19:54:18Z",
+        "closed_at": "2023-12-10T20:11:48Z",
+        "title": "Adds a \"Securing Mechanisms\" section to the directory",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 29,
+        "created_at": "2023-09-15T13:00:06Z",
+        "closed_at": "2023-11-26T18:17:34Z",
+        "title": "Update and rename credential-schema-2023.json to credential-schema.json",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 28,
+        "created_at": "2023-08-09T21:57:00Z",
+        "closed_at": "2023-08-14T15:29:20Z",
+        "title": "Add 1EdTech Open Badges v3 Evidence extension.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 27,
+        "created_at": "2023-08-09T15:52:12Z",
+        "closed_at": null,
+        "title": "Organize at least W3C Recommendations in their own section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 26,
+        "created_at": "2023-07-16T14:00:54Z",
+        "closed_at": "2023-07-17T15:03:12Z",
+        "title": "Update references to VCWG Data Integrity cryptosuites.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 25,
+        "created_at": "2023-07-13T07:57:46Z",
+        "closed_at": "2023-07-16T14:05:42Z",
+        "title": "feat: add Ethr Revocation 2022 .json",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 24,
+        "created_at": "2023-07-06T17:31:23Z",
+        "closed_at": "2023-07-10T01:57:19Z",
+        "title": "OCI DSCSA credentials",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 23,
+        "created_at": "2023-06-29T17:03:04Z",
+        "closed_at": null,
+        "title": "Turn this into a W3C Draft Registry",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 22,
+        "created_at": "2023-06-29T12:59:04Z",
+        "closed_at": "2023-07-10T01:55:06Z",
+        "title": "Register withdrawn work item",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 21,
+        "created_at": "2023-06-29T12:55:43Z",
+        "closed_at": "2023-07-10T01:53:17Z",
+        "title": "register spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 20,
+        "created_at": "2023-05-25T01:52:01Z",
+        "closed_at": "2023-06-12T11:57:07Z",
+        "title": "Add PreconditionPolicy Terms of Use extension.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 19,
+        "created_at": "2023-05-18T15:15:42Z",
+        "closed_at": "2023-06-12T11:55:04Z",
+        "title": "update vc json schema",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 18,
+        "created_at": "2023-04-22T16:32:19Z",
+        "closed_at": "2023-06-12T11:53:47Z",
+        "title": "Update extension",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 17,
+        "created_at": "2023-04-14T17:19:31Z",
+        "closed_at": "2024-02-05T07:29:43Z",
+        "title": "Rename repository to `vc-specs` before FPWD",
+        "labels": [
+          {
+            "id": 6493745820,
+            "node_id": "LA_kwDOI_mSms8AAAABgw6ynA",
+            "url": "https://api.github.com/repos/w3c/vc-extensions/labels/to%20be%20closed",
+            "name": "to be closed",
+            "color": "E26540",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 16,
+        "created_at": "2023-04-12T18:52:14Z",
+        "closed_at": "2023-06-12T11:50:46Z",
+        "title": "Update CODEOWNERS",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 15,
+        "created_at": "2023-04-11T16:54:02Z",
+        "closed_at": null,
+        "title": "Correct language to clarify this is a directory of related work, not a directory of Verifiable Credential Specifications",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 14,
+        "created_at": "2023-04-08T19:17:23Z",
+        "closed_at": "2023-08-09T22:08:41Z",
+        "title": "Add \"Media Type Extensions\" category.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 13,
+        "created_at": "2023-04-04T19:04:27Z",
+        "closed_at": "2023-04-12T18:20:56Z",
+        "title": "Add media type and mapping example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 12,
+        "created_at": "2023-03-22T14:31:47Z",
+        "closed_at": "2023-04-04T14:43:55Z",
+        "title": "Define all schema validation fields in respec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 11,
+        "created_at": "2023-03-22T13:24:07Z",
+        "closed_at": "2023-03-22T16:49:33Z",
+        "title": "Add TRAIN ToU",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 10,
+        "created_at": "2023-03-22T13:20:14Z",
+        "closed_at": "2023-04-04T14:41:27Z",
+        "title": "Add registration example to respec ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 9,
+        "created_at": "2023-03-22T13:19:46Z",
+        "closed_at": null,
+        "title": "Multiple Maintainers",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 8,
+        "created_at": "2023-03-22T12:52:15Z",
+        "closed_at": "2023-03-22T16:47:28Z",
+        "title": "Add OIDF IDA Evidence",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 7,
+        "created_at": "2023-03-20T19:17:24Z",
+        "closed_at": null,
+        "title": "Do we add a media types section?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 6,
+        "created_at": "2023-03-20T18:33:59Z",
+        "closed_at": "2023-03-22T16:45:44Z",
+        "title": "Add traceability",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 5,
+        "created_at": "2023-03-20T18:28:03Z",
+        "closed_at": "2023-03-22T16:44:49Z",
+        "title": "Add OAS / YAML credentialSchema validator",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4,
+        "created_at": "2023-03-15T17:59:37Z",
+        "closed_at": "2023-03-22T16:44:18Z",
+        "title": "add credential schema 2022",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3,
+        "created_at": "2023-03-08T16:11:09Z",
+        "closed_at": "2023-04-04T14:43:18Z",
+        "title": "Add an example JSON file the \"how to register\" section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2,
+        "created_at": "2023-03-07T08:02:46Z",
+        "closed_at": "2023-03-08T17:08:10Z",
+        "title": "Add 1edtech specs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1,
+        "created_at": "2023-02-19T17:02:26Z",
+        "closed_at": "2023-03-08T17:06:57Z",
+        "title": "Add VC Status List 2021.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      }
+    ]
+  },
   "https://www.w3.org/TR/vc-imp-guide/": {
     "repo": {
       "owner": "w3c",
@@ -47459,6 +47946,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 302,
+        "created_at": "2024-09-18T03:25:03Z",
+        "closed_at": null,
+        "title": "mark sections normative; move algorithms",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 301,
+        "created_at": "2024-09-17T22:28:21Z",
+        "closed_at": null,
+        "title": "update controller doc examples",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 300,
         "created_at": "2024-09-16T17:43:25Z",
         "closed_at": null,
@@ -47472,6 +47979,15 @@
             "color": "1E940F",
             "default": false,
             "description": "Editorial changes only"
+          },
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "decentralgabe",
@@ -50049,6 +50565,15 @@
             "color": "1E940F",
             "default": false,
             "description": "Editorial changes only"
+          },
+          {
+            "id": 5684195725,
+            "node_id": "LA_kwDOHrK-n88AAAABUs3xjQ",
+            "url": "https://api.github.com/repos/w3c/vc-jose-cose/labels/has-pr",
+            "name": "has-pr",
+            "color": "C66EFA",
+            "default": false,
+            "description": ""
           },
           {
             "id": 5948378339,
@@ -56626,434 +57151,6 @@
         "created_at": "2024-05-16T04:44:56Z",
         "closed_at": "2024-05-16T06:19:45Z",
         "title": "Cleanups.",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      }
-    ]
-  },
-  "https://www.w3.org/TR/vc-specs-dir/": {
-    "repo": {
-      "owner": "w3c",
-      "name": "vc-extensions"
-    },
-    "recTrack": false,
-    "issues": [
-      {
-        "state": "open",
-        "number": 39,
-        "created_at": "2024-09-16T06:43:45Z",
-        "closed_at": null,
-        "title": " October publication for the repository name change",
-        "labels": [
-          {
-            "id": 6493745820,
-            "node_id": "LA_kwDOI_mSms8AAAABgw6ynA",
-            "url": "https://api.github.com/repos/w3c/vc-extensions/labels/to%20be%20closed",
-            "name": "to be closed",
-            "color": "E26540",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 7472958663,
-            "node_id": "LA_kwDOI_mSms8AAAABvWxMxw",
-            "url": "https://api.github.com/repos/w3c/vc-extensions/labels/do%20not%20merge",
-            "name": "do not merge",
-            "color": "5BDC0E",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": "iherman",
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 38,
-        "created_at": "2024-07-01T17:45:48Z",
-        "closed_at": null,
-        "title": "Would be nice if Securing Mechanisms mapped media type to spec section",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 37,
-        "created_at": "2024-07-01T17:41:07Z",
-        "closed_at": null,
-        "title": "Securing Mechanisms section should require that its entries are actually securing mechanisms",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 36,
-        "created_at": "2024-04-22T08:06:22Z",
-        "closed_at": "2024-05-27T19:44:54Z",
-        "title": "Addition of ELM-Linked Standards",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 35,
-        "created_at": "2024-02-10T10:10:08Z",
-        "closed_at": null,
-        "title": "Remove JSON web signatures securing mechanism",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 34,
-        "created_at": "2024-02-04T12:11:18Z",
-        "closed_at": null,
-        "title": "edTech Evidence URL is wrong",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 33,
-        "created_at": "2024-02-01T08:19:42Z",
-        "closed_at": "2024-05-27T19:46:26Z",
-        "title": "Updated the echidna action file",
-        "labels": [],
-        "assignee": "msporny",
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 32,
-        "created_at": "2024-01-14T09:19:21Z",
-        "closed_at": "2024-05-27T19:45:30Z",
-        "title": "Wrong date in static note",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 31,
-        "created_at": "2023-12-06T23:59:17Z",
-        "closed_at": "2023-12-10T20:13:27Z",
-        "title": "Rename status-list-2021 to bitstring-status-list",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 30,
-        "created_at": "2023-11-26T19:54:18Z",
-        "closed_at": "2023-12-10T20:11:48Z",
-        "title": "Adds a \"Securing Mechanisms\" section to the directory",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 29,
-        "created_at": "2023-09-15T13:00:06Z",
-        "closed_at": "2023-11-26T18:17:34Z",
-        "title": "Update and rename credential-schema-2023.json to credential-schema.json",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 28,
-        "created_at": "2023-08-09T21:57:00Z",
-        "closed_at": "2023-08-14T15:29:20Z",
-        "title": "Add 1EdTech Open Badges v3 Evidence extension.",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 27,
-        "created_at": "2023-08-09T15:52:12Z",
-        "closed_at": null,
-        "title": "Organize at least W3C Recommendations in their own section",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 26,
-        "created_at": "2023-07-16T14:00:54Z",
-        "closed_at": "2023-07-17T15:03:12Z",
-        "title": "Update references to VCWG Data Integrity cryptosuites.",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 25,
-        "created_at": "2023-07-13T07:57:46Z",
-        "closed_at": "2023-07-16T14:05:42Z",
-        "title": "feat: add Ethr Revocation 2022 .json",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 24,
-        "created_at": "2023-07-06T17:31:23Z",
-        "closed_at": "2023-07-10T01:57:19Z",
-        "title": "OCI DSCSA credentials",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 23,
-        "created_at": "2023-06-29T17:03:04Z",
-        "closed_at": null,
-        "title": "Turn this into a W3C Draft Registry",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 22,
-        "created_at": "2023-06-29T12:59:04Z",
-        "closed_at": "2023-07-10T01:55:06Z",
-        "title": "Register withdrawn work item",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 21,
-        "created_at": "2023-06-29T12:55:43Z",
-        "closed_at": "2023-07-10T01:53:17Z",
-        "title": "register spec",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 20,
-        "created_at": "2023-05-25T01:52:01Z",
-        "closed_at": "2023-06-12T11:57:07Z",
-        "title": "Add PreconditionPolicy Terms of Use extension.",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 19,
-        "created_at": "2023-05-18T15:15:42Z",
-        "closed_at": "2023-06-12T11:55:04Z",
-        "title": "update vc json schema",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 18,
-        "created_at": "2023-04-22T16:32:19Z",
-        "closed_at": "2023-06-12T11:53:47Z",
-        "title": "Update extension",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 17,
-        "created_at": "2023-04-14T17:19:31Z",
-        "closed_at": "2024-02-05T07:29:43Z",
-        "title": "Rename repository to `vc-specs` before FPWD",
-        "labels": [
-          {
-            "id": 6493745820,
-            "node_id": "LA_kwDOI_mSms8AAAABgw6ynA",
-            "url": "https://api.github.com/repos/w3c/vc-extensions/labels/to%20be%20closed",
-            "name": "to be closed",
-            "color": "E26540",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": "msporny",
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 16,
-        "created_at": "2023-04-12T18:52:14Z",
-        "closed_at": "2023-06-12T11:50:46Z",
-        "title": "Update CODEOWNERS",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 15,
-        "created_at": "2023-04-11T16:54:02Z",
-        "closed_at": null,
-        "title": "Correct language to clarify this is a directory of related work, not a directory of Verifiable Credential Specifications",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 14,
-        "created_at": "2023-04-08T19:17:23Z",
-        "closed_at": "2023-08-09T22:08:41Z",
-        "title": "Add \"Media Type Extensions\" category.",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 13,
-        "created_at": "2023-04-04T19:04:27Z",
-        "closed_at": "2023-04-12T18:20:56Z",
-        "title": "Add media type and mapping example",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 12,
-        "created_at": "2023-03-22T14:31:47Z",
-        "closed_at": "2023-04-04T14:43:55Z",
-        "title": "Define all schema validation fields in respec",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 11,
-        "created_at": "2023-03-22T13:24:07Z",
-        "closed_at": "2023-03-22T16:49:33Z",
-        "title": "Add TRAIN ToU",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 10,
-        "created_at": "2023-03-22T13:20:14Z",
-        "closed_at": "2023-04-04T14:41:27Z",
-        "title": "Add registration example to respec ",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 9,
-        "created_at": "2023-03-22T13:19:46Z",
-        "closed_at": null,
-        "title": "Multiple Maintainers",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 8,
-        "created_at": "2023-03-22T12:52:15Z",
-        "closed_at": "2023-03-22T16:47:28Z",
-        "title": "Add OIDF IDA Evidence",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 7,
-        "created_at": "2023-03-20T19:17:24Z",
-        "closed_at": null,
-        "title": "Do we add a media types section?",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 6,
-        "created_at": "2023-03-20T18:33:59Z",
-        "closed_at": "2023-03-22T16:45:44Z",
-        "title": "Add traceability",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 5,
-        "created_at": "2023-03-20T18:28:03Z",
-        "closed_at": "2023-03-22T16:44:49Z",
-        "title": "Add OAS / YAML credentialSchema validator",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 4,
-        "created_at": "2023-03-15T17:59:37Z",
-        "closed_at": "2023-03-22T16:44:18Z",
-        "title": "add credential schema 2022",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 3,
-        "created_at": "2023-03-08T16:11:09Z",
-        "closed_at": "2023-04-04T14:43:18Z",
-        "title": "Add an example JSON file the \"how to register\" section",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 2,
-        "created_at": "2023-03-07T08:02:46Z",
-        "closed_at": "2023-03-08T17:08:10Z",
-        "title": "Add 1edtech specs",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
-      },
-      {
-        "state": "closed",
-        "number": 1,
-        "created_at": "2023-02-19T17:02:26Z",
-        "closed_at": "2023-03-08T17:06:57Z",
-        "title": "Add VC Status List 2021.",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
