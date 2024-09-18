@@ -8,9 +8,147 @@
     "issues": [
       {
         "state": "open",
+        "number": 4881,
+        "created_at": "2024-09-17T21:20:38Z",
+        "closed_at": null,
+        "title": "wgsl: Tweak wording of array constructor limit",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4880,
+        "created_at": "2024-09-17T16:44:52Z",
+        "closed_at": null,
+        "title": "Reserve \"noncoherent\"? \"non_coherent\"?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4879,
+        "created_at": "2024-09-17T06:17:31Z",
+        "closed_at": "2024-09-17T22:49:28Z",
+        "title": "empty array entries in createPipelineLayout and other place should/should not be ignored?",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4878,
+        "created_at": "2024-09-16T20:22:21Z",
+        "closed_at": null,
+        "title": "Guarantees about early-z fragment discard",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": "kainino0x",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4877,
+        "created_at": "2024-09-16T15:02:01Z",
+        "closed_at": "2024-09-16T17:22:24Z",
+        "title": "[WGSL] Remove normative self-reference",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4876,
+        "created_at": "2024-09-16T10:32:14Z",
+        "closed_at": null,
+        "title": "Make GPUAdapterInfo a dictionary instead of an interface?",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 4875,
         "created_at": "2024-09-13T08:28:23Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T22:02:49Z",
         "title": "Add column `Extension` in `Built-in input and output values`",
         "labels": [],
         "assignee": null,
@@ -259,10 +397,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4864,
         "created_at": "2024-09-10T11:35:55Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T21:58:51Z",
         "title": "Clarify that atomic `and` and `or` are bitwise operations, slightly restructure, and fix missing prepositions",
         "labels": [
           {
@@ -411,6 +549,15 @@
         "title": "Canvas contents after device destroy or device loss",
         "labels": [
           {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
             "id": 6837243332,
             "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
@@ -545,16 +692,25 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
-        "assignee": null,
+        "assignee": "alan-baker",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4853,
         "created_at": "2024-09-05T14:55:34Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T17:22:25Z",
         "title": "WGSL spec normatively references itself",
         "labels": [
           {
@@ -733,7 +889,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -879,7 +1035,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "alan-baker",
         "isPullRequest": false
       },
       {
@@ -1486,7 +1642,17 @@
         "created_at": "2024-08-09T07:06:23Z",
         "closed_at": null,
         "title": "Proposal: expose GPUAdatperInfo from GPUDevice",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2357,12 +2523,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4779,
         "created_at": "2024-07-24T10:35:11Z",
-        "closed_at": null,
+        "closed_at": "2024-09-17T00:38:04Z",
         "title": "[push-constants] remove per-stage immediates open question",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -63496,7 +63672,7 @@
         "number": 1670,
         "created_at": "2021-04-23T23:56:16Z",
         "closed_at": null,
-        "title": "Behavior of importing canvases as `GPUExternalTexture`s",
+        "title": "Allow importing canvases as `GPUExternalTexture`s",
         "labels": [
           {
             "id": 650499466,
@@ -91026,9 +91202,147 @@
     "issues": [
       {
         "state": "open",
+        "number": 4881,
+        "created_at": "2024-09-17T21:20:38Z",
+        "closed_at": null,
+        "title": "wgsl: Tweak wording of array constructor limit",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4880,
+        "created_at": "2024-09-17T16:44:52Z",
+        "closed_at": null,
+        "title": "Reserve \"noncoherent\"? \"non_coherent\"?",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": "dneto0",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4879,
+        "created_at": "2024-09-17T06:17:31Z",
+        "closed_at": "2024-09-17T22:49:28Z",
+        "title": "empty array entries in createPipelineLayout and other place should/should not be ignored?",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4878,
+        "created_at": "2024-09-16T20:22:21Z",
+        "closed_at": null,
+        "title": "Guarantees about early-z fragment discard",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": "kainino0x",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4877,
+        "created_at": "2024-09-16T15:02:01Z",
+        "closed_at": "2024-09-16T17:22:24Z",
+        "title": "[WGSL] Remove normative self-reference",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4876,
+        "created_at": "2024-09-16T10:32:14Z",
+        "closed_at": null,
+        "title": "Make GPUAdapterInfo a dictionary instead of an interface?",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 4875,
         "created_at": "2024-09-13T08:28:23Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T22:02:49Z",
         "title": "Add column `Extension` in `Built-in input and output values`",
         "labels": [],
         "assignee": null,
@@ -91277,10 +91591,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4864,
         "created_at": "2024-09-10T11:35:55Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T21:58:51Z",
         "title": "Clarify that atomic `and` and `or` are bitwise operations, slightly restructure, and fix missing prepositions",
         "labels": [
           {
@@ -91429,6 +91743,15 @@
         "title": "Canvas contents after device destroy or device loss",
         "labels": [
           {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
             "id": 6837243332,
             "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
@@ -91563,16 +91886,25 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
-        "assignee": null,
+        "assignee": "alan-baker",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4853,
         "created_at": "2024-09-05T14:55:34Z",
-        "closed_at": null,
+        "closed_at": "2024-09-16T17:22:25Z",
         "title": "WGSL spec normatively references itself",
         "labels": [
           {
@@ -91751,7 +92083,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -91897,7 +92229,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "alan-baker",
         "isPullRequest": false
       },
       {
@@ -92504,7 +92836,17 @@
         "created_at": "2024-08-09T07:06:23Z",
         "closed_at": null,
         "title": "Proposal: expose GPUAdatperInfo from GPUDevice",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -93375,12 +93717,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4779,
         "created_at": "2024-07-24T10:35:11Z",
-        "closed_at": null,
+        "closed_at": "2024-09-17T00:38:04Z",
         "title": "[push-constants] remove per-stage immediates open question",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -154514,7 +154866,7 @@
         "number": 1670,
         "created_at": "2021-04-23T23:56:16Z",
         "closed_at": null,
-        "title": "Behavior of importing canvases as `GPUExternalTexture`s",
+        "title": "Allow importing canvases as `GPUExternalTexture`s",
         "labels": [
           {
             "id": 650499466,
