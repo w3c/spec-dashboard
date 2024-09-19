@@ -7,6 +7,46 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 2150,
+        "created_at": "2024-09-19T01:45:37Z",
+        "closed_at": null,
+        "title": "Exclude all platform authenticators that use self attesation from hav…",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2149,
+        "created_at": "2024-09-18T20:03:44Z",
+        "closed_at": null,
+        "title": "Remove bikeshed workaround",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2148,
+        "created_at": "2024-09-18T16:22:19Z",
+        "closed_at": null,
+        "title": "Add userName and userDisplayName to webdriver",
+        "labels": [
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
+          }
+        ],
+        "assignee": "nsatragno",
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 2147,
         "created_at": "2024-09-16T18:59:20Z",
@@ -446,10 +486,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2129,
         "created_at": "2024-08-21T18:24:18Z",
-        "closed_at": null,
+        "closed_at": "2024-09-18T19:46:39Z",
         "title": "Rename PublicKeyCredentialHints to PublicKeyCredentialHint",
         "labels": [
           {
@@ -458,6 +498,15 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
             "color": "ffca04",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
             "default": false,
             "description": null
           }
@@ -648,16 +697,16 @@
         "title": "Remove rp.name",
         "labels": [
           {
-            "id": 340916444,
-            "node_id": "MDU6TGFiZWwzNDA5MTY0NDQ=",
-            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
-            "name": "type:technical",
-            "color": "ffca04",
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
             "default": false,
             "description": null
           }
         ],
-        "assignee": "emlun",
+        "assignee": "timcappalli",
         "isPullRequest": false
       },
       {
@@ -884,10 +933,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2112,
         "created_at": "2024-08-07T13:40:10Z",
-        "closed_at": null,
+        "closed_at": "2024-09-18T19:46:40Z",
         "title": "Rename PublicKeyCredentialHints to PublicKeyCredentialHint?",
         "labels": [
           {
@@ -1717,6 +1766,15 @@
             "color": "f7c56f",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "emlun",
@@ -3593,6 +3651,15 @@
             "color": "ffca04",
             "default": false,
             "description": null
+          },
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
+            "default": false,
+            "description": null
           }
         ],
         "assignee": "MasterKale",
@@ -4437,6 +4504,15 @@
             "url": "https://api.github.com/repos/w3c/webauthn/labels/type:technical",
             "name": "type:technical",
             "color": "ffca04",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 340917025,
+            "node_id": "MDU6TGFiZWwzNDA5MTcwMjU=",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/type:editorial",
+            "name": "type:editorial",
+            "color": "fad8c7",
             "default": false,
             "description": null
           }
@@ -11138,6 +11214,24 @@
             "color": "ffca04",
             "default": false,
             "description": null
+          },
+          {
+            "id": 1232059329,
+            "node_id": "MDU6TGFiZWwxMjMyMDU5MzI5",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/subtype:RP-impl-cons",
+            "name": "subtype:RP-impl-cons",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 5671773576,
+            "node_id": "LA_kwDOAw7VsM8AAAABUhBliA",
+            "url": "https://api.github.com/repos/w3c/webauthn/labels/@Risk",
+            "name": "@Risk",
+            "color": "0E8A16",
+            "default": false,
+            "description": "Items that are at risk for L3"
           }
         ],
         "assignee": "equalsJeffH",
