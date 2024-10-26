@@ -2981,7 +2981,17 @@
         "created_at": "2024-10-24T05:46:56Z",
         "closed_at": null,
         "title": "Consider listing known downstream AT support in AAMs, to avoid shipping speculative or otherwise unsupportive API mappings",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4285437478,
+            "node_id": "LA_kwDOBqbhyc7_bpYm",
+            "url": "https://api.github.com/repos/w3c/core-aam/labels/editorial",
+            "name": "editorial",
+            "color": "C46809",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4995,7 +5005,7 @@
         "closed_at": null,
         "title": "Need mappings for aria-rowindextext and aria-colindextext",
         "labels": [],
-        "assignee": null,
+        "assignee": "cookiecrook",
         "isPullRequest": false
       },
       {
@@ -6090,10 +6100,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 69,
         "created_at": "2024-07-16T18:58:34Z",
-        "closed_at": null,
+        "closed_at": "2024-10-24T15:29:25Z",
         "title": "Editorial: fix link in README.md",
         "labels": [
           {
@@ -14033,10 +14043,10 @@
     "issues": [
       {
         "state": "open",
-        "number": 2361,
-        "created_at": "2024-10-24T05:09:07Z",
+        "number": 2362,
+        "created_at": "2024-10-25T21:58:10Z",
         "closed_at": null,
-        "title": "Reconsider whether ARIA should ship new features that have incomplete API mappings and missing AT support.",
+        "title": "[core-aam] add new AX API mappings for colindextext/rowindextext",
         "labels": [
           {
             "id": 2495545596,
@@ -14046,6 +14056,35 @@
             "color": "bf2438",
             "default": false,
             "description": "Blocking issues for 1.3 WRWD"
+          },
+          {
+            "id": 7010545630,
+            "node_id": "LA_kwDOART0M88AAAABodxv3g",
+            "url": "https://api.github.com/repos/w3c/aria/labels/spec:core-aam",
+            "name": "spec:core-aam",
+            "color": "1DD6E1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2361,
+        "created_at": "2024-10-24T05:09:07Z",
+        "closed_at": null,
+        "title": "Reconsider whether ARIA should ship new features that have incomplete API mappings and missing AT support.",
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -14067,7 +14106,17 @@
         "created_at": "2024-10-18T17:42:01Z",
         "closed_at": null,
         "title": "Clarify tables, grids, treegrids",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -14096,9 +14145,18 @@
             "color": "0e8a16",
             "default": false,
             "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          },
+          {
+            "id": 6019919712,
+            "node_id": "LA_kwDOART0M88AAAABZtCvYA",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda-Editors",
+            "name": "Agenda-Editors",
+            "color": "7C858D",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "daniel-montalvo",
         "isPullRequest": false
       },
       {
@@ -14389,11 +14447,11 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2340,
         "created_at": "2024-09-20T06:59:12Z",
-        "closed_at": null,
-        "title": "Create documentation/aria-idl.md",
+        "closed_at": "2024-10-24T16:55:19Z",
+        "title": "Editorial: Create documentation/aria-idl.md",
         "labels": [],
         "assignee": "rahimabdi",
         "isPullRequest": true
@@ -14523,17 +14581,7 @@
         "created_at": "2024-09-16T22:37:13Z",
         "closed_at": null,
         "title": "[AriaNotify] Is NotificationId the right name?",
-        "labels": [
-          {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
@@ -14872,10 +14920,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2310,
         "created_at": "2024-08-08T18:00:24Z",
-        "closed_at": null,
+        "closed_at": "2024-10-24T16:55:20Z",
         "title": "Document why IDL decisions were made in the past",
         "labels": [],
         "assignee": "rahimabdi",
