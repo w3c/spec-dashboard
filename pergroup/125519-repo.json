@@ -7,6 +7,93 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 4952,
+        "created_at": "2024-11-01T22:51:51Z",
+        "closed_at": null,
+        "title": "Change `layout: 'auto'` algorithm so it doesn't generate invalid bindGroupLayouts",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4951,
+        "created_at": "2024-11-01T22:51:41Z",
+        "closed_at": "2024-11-01T23:50:37Z",
+        "title": "Add 1-component vertex formats and unorm8x4-bgra",
+        "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4950,
+        "created_at": "2024-11-01T21:00:26Z",
+        "closed_at": null,
+        "title": "Clarify that filtering sampler_comparison is allowed with depth texture",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 4949,
         "created_at": "2024-11-01T00:02:39Z",
@@ -74,12 +161,40 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4946,
         "created_at": "2024-10-31T10:41:29Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T23:45:42Z",
         "title": "Allow empty bindGroupLayouts in GPUPipelineLayoutDescriptor",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -418,10 +533,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4927,
         "created_at": "2024-10-17T20:05:09Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T21:32:36Z",
         "title": "Compatibility Mode: add vertex storage buffer and texture limits ",
         "labels": [
           {
@@ -1074,6 +1189,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -2475,10 +2599,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4838,
         "created_at": "2024-08-28T18:05:05Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T22:29:00Z",
         "title": "Rename image copies -> texel copies",
         "labels": [
           {
@@ -2489,6 +2613,15 @@
             "color": "91f285",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -3088,6 +3221,24 @@
         "closed_at": null,
         "title": "Proposal: expose GPUAdapterInfo from GPUDevice",
         "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -8097,10 +8248,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4573,
         "created_at": "2024-04-12T05:03:29Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T22:29:00Z",
         "title": "[editorial] Consider if there's a much better name for \"image copies\"",
         "labels": [
           {
@@ -8624,10 +8775,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4549,
         "created_at": "2024-03-27T17:49:33Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T23:50:38Z",
         "title": "Resurrect vertex formats dropped for macOS < 10.13",
         "labels": [
           {
@@ -58943,12 +59094,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2043,
         "created_at": "2021-08-17T12:43:59Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T23:45:43Z",
         "title": "Dealing with holes in the pipeline layout.",
         "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -92644,6 +92804,93 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 4952,
+        "created_at": "2024-11-01T22:51:51Z",
+        "closed_at": null,
+        "title": "Change `layout: 'auto'` algorithm so it doesn't generate invalid bindGroupLayouts",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4951,
+        "created_at": "2024-11-01T22:51:41Z",
+        "closed_at": "2024-11-01T23:50:37Z",
+        "title": "Add 1-component vertex formats and unorm8x4-bgra",
+        "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 4950,
+        "created_at": "2024-11-01T21:00:26Z",
+        "closed_at": null,
+        "title": "Clarify that filtering sampler_comparison is allowed with depth texture",
+        "labels": [
+          {
+            "id": 536258989,
+            "node_id": "MDU6TGFiZWw1MzYyNTg5ODk=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/bug",
+            "name": "bug",
+            "color": "ee0701",
+            "default": true,
+            "description": null
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 4949,
         "created_at": "2024-11-01T00:02:39Z",
@@ -92711,12 +92958,40 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4946,
         "created_at": "2024-10-31T10:41:29Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T23:45:42Z",
         "title": "Allow empty bindGroupLayouts in GPUPipelineLayoutDescriptor",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -93055,10 +93330,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4927,
         "created_at": "2024-10-17T20:05:09Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T21:32:36Z",
         "title": "Compatibility Mode: add vertex storage buffer and texture limits ",
         "labels": [
           {
@@ -93711,6 +93986,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -95112,10 +95396,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4838,
         "created_at": "2024-08-28T18:05:05Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T22:29:00Z",
         "title": "Rename image copies -> texel copies",
         "labels": [
           {
@@ -95126,6 +95410,15 @@
             "color": "91f285",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -95725,6 +96018,24 @@
         "closed_at": null,
         "title": "Proposal: expose GPUAdapterInfo from GPUDevice",
         "labels": [
+          {
+            "id": 4278373239,
+            "node_id": "LA_kwDOBNvGe87_Ast3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs-cts-issue",
+            "name": "needs-cts-issue",
+            "color": "C7E5F3",
+            "default": false,
+            "description": "This change requires tests (or would need tests if accepted), but may not have a CTS issue filed yet"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -100734,10 +101045,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4573,
         "created_at": "2024-04-12T05:03:29Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T22:29:00Z",
         "title": "[editorial] Consider if there's a much better name for \"image copies\"",
         "labels": [
           {
@@ -101261,10 +101572,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4549,
         "created_at": "2024-03-27T17:49:33Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T23:50:38Z",
         "title": "Resurrect vertex formats dropped for macOS < 10.13",
         "labels": [
           {
@@ -151580,12 +151891,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2043,
         "created_at": "2021-08-17T12:43:59Z",
-        "closed_at": null,
+        "closed_at": "2024-11-01T23:45:43Z",
         "title": "Dealing with holes in the pipeline layout.",
         "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
