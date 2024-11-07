@@ -1,4 +1,443 @@
 {
+  "https://www.w3.org/TR/audio-session/": {
+    "repo": {
+      "owner": "w3c",
+      "name": "audio-session"
+    },
+    "recTrack": true,
+    "issues": [
+      {
+        "state": "closed",
+        "number": 36,
+        "created_at": "2024-10-28T11:22:29Z",
+        "closed_at": "2024-11-04T06:10:02Z",
+        "title": "Make transient-solo an exclusive type",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 35,
+        "created_at": "2024-10-28T11:21:21Z",
+        "closed_at": "2024-11-04T06:10:02Z",
+        "title": "Should transient-solo be an exclusive type?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 34,
+        "created_at": "2024-10-22T13:48:40Z",
+        "closed_at": null,
+        "title": "Audio source sink integration",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 33,
+        "created_at": "2024-10-22T13:48:02Z",
+        "closed_at": null,
+        "title": "Add algorithms that describe how type/state are assigned/updated, and how they influence audio sessions and audio focus.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 32,
+        "created_at": "2024-10-18T07:46:54Z",
+        "closed_at": "2024-10-22T13:43:31Z",
+        "title": "Introduce associated AudioSession",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 31,
+        "created_at": "2024-10-18T07:45:25Z",
+        "closed_at": "2024-10-22T13:38:52Z",
+        "title": "Update type and state sections",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 30,
+        "created_at": "2024-10-18T07:43:13Z",
+        "closed_at": "2024-10-22T13:36:34Z",
+        "title": "Algorithm to create an AudioSession",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 29,
+        "created_at": "2024-10-18T07:38:59Z",
+        "closed_at": null,
+        "title": "Provide more explanations/examples around audio focus",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 28,
+        "created_at": "2024-10-18T07:35:24Z",
+        "closed_at": null,
+        "title": "WebSpeech should be considered as an audio session element",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 27,
+        "created_at": "2024-10-18T07:34:14Z",
+        "closed_at": null,
+        "title": "Add a more precise definition of audible element",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 26,
+        "created_at": "2024-10-18T07:27:05Z",
+        "closed_at": null,
+        "title": "Audible element could be renamed to just audible",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 25,
+        "created_at": "2024-10-16T12:02:17Z",
+        "closed_at": "2024-10-18T07:27:32Z",
+        "title": "Introduce audio session concepts",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 24,
+        "created_at": "2024-10-16T08:24:01Z",
+        "closed_at": "2024-10-16T08:34:23Z",
+        "title": "Setup PR preview",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 23,
+        "created_at": "2024-10-15T17:26:57Z",
+        "closed_at": null,
+        "title": "Add algorithms to the audio spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 22,
+        "created_at": "2024-10-14T11:32:32Z",
+        "closed_at": null,
+        "title": "Prune down the Example in §6.2 to demonstrate the minimal functionality needed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 21,
+        "created_at": "2024-10-14T11:19:41Z",
+        "closed_at": null,
+        "title": "There are two sections called Audio Session States",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 20,
+        "created_at": "2024-09-27T14:51:30Z",
+        "closed_at": "2024-09-29T05:50:19Z",
+        "title": "Introduce optional default sink id",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 19,
+        "created_at": "2024-09-23T22:08:22Z",
+        "closed_at": null,
+        "title": "Define a hook to run steps when a UA starts/ends an audio interruption",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 18,
+        "created_at": "2024-08-16T12:37:37Z",
+        "closed_at": null,
+        "title": "Consider exposing/implementing audioSession options",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 17,
+        "created_at": "2024-06-07T00:12:17Z",
+        "closed_at": null,
+        "title": "Explainer on relationship between mediaSession and audioSession",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 16,
+        "created_at": "2023-08-10T07:07:54Z",
+        "closed_at": "2024-01-10T23:33:59Z",
+        "title": "Top issues for TPAC 2023 (if any!)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 15,
+        "created_at": "2023-03-22T16:04:32Z",
+        "closed_at": "2023-03-28T08:32:19Z",
+        "title": "Missing generated spec?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 14,
+        "created_at": "2023-03-16T18:56:51Z",
+        "closed_at": null,
+        "title": "Definition of behaviors for how to handle audio competing",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 13,
+        "created_at": "2023-03-16T13:28:07Z",
+        "closed_at": "2024-05-16T10:13:37Z",
+        "title": "Add an Acknowledgment section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 12,
+        "created_at": "2023-03-09T08:03:21Z",
+        "closed_at": null,
+        "title": "Audio focus enforcement on desktop platforms",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 11,
+        "created_at": "2023-03-09T07:57:56Z",
+        "closed_at": null,
+        "title": "Should there be a \"ducked\" AudioSessionState?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 9,
+        "created_at": "2023-02-06T10:21:09Z",
+        "closed_at": "2023-02-15T10:48:17Z",
+        "title": "Should we change the repo/spec name?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 8,
+        "created_at": "2023-01-14T12:50:01Z",
+        "closed_at": null,
+        "title": "Relation with virtual audio destinations on mobile devices.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 7,
+        "created_at": "2023-01-12T22:00:13Z",
+        "closed_at": null,
+        "title": "Should users be allowed to override 'playback' with 'ambient'?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 6,
+        "created_at": "2022-11-08T09:52:57Z",
+        "closed_at": null,
+        "title": "Should AudioSession be able to specifiy the output speaker and/or route options (a la sinkId)?",
+        "labels": [
+          {
+            "id": 7600270513,
+            "node_id": "LA_kwDOM_5HkM8AAAABxQLssQ",
+            "url": "https://api.github.com/repos/w3c/audio-session/labels/TPAC2024",
+            "name": "TPAC2024",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5,
+        "created_at": "2022-11-08T09:52:15Z",
+        "closed_at": null,
+        "title": "Should we allow linking AudioSessions to each HTMLMediaElement/AudioContext object?",
+        "labels": [
+          {
+            "id": 7600270513,
+            "node_id": "LA_kwDOM_5HkM8AAAABxQLssQ",
+            "url": "https://api.github.com/repos/w3c/audio-session/labels/TPAC2024",
+            "name": "TPAC2024",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 4,
+        "created_at": "2022-11-08T09:51:21Z",
+        "closed_at": null,
+        "title": "What is the scope and defaulting rules of an AudioSession",
+        "labels": [
+          {
+            "id": 7600270513,
+            "node_id": "LA_kwDOM_5HkM8AAAABxQLssQ",
+            "url": "https://api.github.com/repos/w3c/audio-session/labels/TPAC2024",
+            "name": "TPAC2024",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 3,
+        "created_at": "2022-11-08T09:49:52Z",
+        "closed_at": null,
+        "title": "In case an AudioSession is explicitly set, should some incompatible APIs start failing?",
+        "labels": [
+          {
+            "id": 7600270513,
+            "node_id": "LA_kwDOM_5HkM8AAAABxQLssQ",
+            "url": "https://api.github.com/repos/w3c/audio-session/labels/TPAC2024",
+            "name": "TPAC2024",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2,
+        "created_at": "2022-11-08T09:36:07Z",
+        "closed_at": null,
+        "title": "Should we expose implicit audio session state",
+        "labels": [
+          {
+            "id": 7600270513,
+            "node_id": "LA_kwDOM_5HkM8AAAABxQLssQ",
+            "url": "https://api.github.com/repos/w3c/audio-session/labels/TPAC2024",
+            "name": "TPAC2024",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1,
+        "created_at": "2022-11-08T09:33:10Z",
+        "closed_at": null,
+        "title": "Define spec MVP",
+        "labels": [
+          {
+            "id": 7600270513,
+            "node_id": "LA_kwDOM_5HkM8AAAABxQLssQ",
+            "url": "https://api.github.com/repos/w3c/audio-session/labels/TPAC2024",
+            "name": "TPAC2024",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 10,
+        "created_at": "2019-03-21T21:52:55Z",
+        "closed_at": "2024-09-19T16:07:30Z",
+        "title": "Does media session work with WebAudio?",
+        "labels": [
+          {
+            "id": 7600270513,
+            "node_id": "LA_kwDOM_5HkM8AAAABxQLssQ",
+            "url": "https://api.github.com/repos/w3c/audio-session/labels/TPAC2024",
+            "name": "TPAC2024",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      }
+    ]
+  },
   "https://www.w3.org/TR/autoplay-detection/": {
     "repo": {
       "owner": "w3c",
