@@ -8,6 +8,54 @@
     "issues": [
       {
         "state": "open",
+        "number": 126,
+        "created_at": "2024-11-17T18:41:19Z",
+        "closed_at": null,
+        "title": "Fix definition of controller and add verification method binding section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 125,
+        "created_at": "2024-11-17T18:11:34Z",
+        "closed_at": null,
+        "title": "Ensure that examples are properly explained",
+        "labels": [
+          {
+            "id": 7103081058,
+            "node_id": "LA_kwDOKn-QBs8AAAABp2BqYg",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/ready%20for%20pr",
+            "name": "ready for pr",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue is ready to have a pull request created for it."
+          },
+          {
+            "id": 7103081903,
+            "node_id": "LA_kwDOKn-QBs8AAAABp2Btrw",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item is editorial in nature."
+          },
+          {
+            "id": 7493111813,
+            "node_id": "LA_kwDOKn-QBs8AAAABvp_QBQ",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/during%20CR",
+            "name": "during CR",
+            "color": "D4C5F9",
+            "default": false,
+            "description": "This issue will be addressed during Candidate Recommendation"
+          }
+        ],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 124,
         "created_at": "2024-11-16T20:52:16Z",
         "closed_at": null,
@@ -64,13 +112,13 @@
         "title": "Definition of Controller Property",
         "labels": [
           {
-            "id": 7103081058,
-            "node_id": "LA_kwDOKn-QBs8AAAABp2BqYg",
-            "url": "https://api.github.com/repos/w3c/controller-document/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "0E8A16",
+            "id": 7060676411,
+            "node_id": "LA_kwDOKn-QBs8AAAABpNlfOw",
+            "url": "https://api.github.com/repos/w3c/controller-document/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "C2E0C6",
             "default": false,
-            "description": "This issue is ready to have a pull request created for it."
+            "description": "A Pull Request exists to address this issue."
           },
           {
             "id": 7103081903,
@@ -2491,8 +2539,36 @@
         "created_at": "2024-11-15T22:03:03Z",
         "closed_at": null,
         "title": "New status purpose proposal",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 5074160626,
+            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
+            "name": "ready-for-pr",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6670180974,
+            "node_id": "LA_kwDOE-wAx88AAAABjZLibg",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/normative",
+            "name": "normative",
+            "color": "F17A11",
+            "default": false,
+            "description": "The item is normative in nature."
+          },
+          {
+            "id": 7063766236,
+            "node_id": "LA_kwDOE-wAx88AAAABpQiE3A",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
+        "assignee": "PatStLouis",
         "isPullRequest": false
       },
       {
@@ -2501,48 +2577,152 @@
         "created_at": "2024-11-07T14:36:04Z",
         "closed_at": null,
         "title": "Hosting of the bistring status list context",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 2699462389,
+            "node_id": "MDU6TGFiZWwyNjk5NDYyMzg5",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true,
+            "description": "Further information is requested"
+          },
+          {
+            "id": 7063766236,
+            "node_id": "LA_kwDOE-wAx88AAAABpQiE3A",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 181,
         "created_at": "2024-10-13T20:47:05Z",
-        "closed_at": null,
+        "closed_at": "2024-11-18T02:03:40Z",
         "title": "Remove integer codes from problem details",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6670180974,
+            "node_id": "LA_kwDOE-wAx88AAAABjZLibg",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/normative",
+            "name": "normative",
+            "color": "F17A11",
+            "default": false,
+            "description": "The item is normative in nature."
+          },
+          {
+            "id": 7063766236,
+            "node_id": "LA_kwDOE-wAx88AAAABpQiE3A",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 180,
         "created_at": "2024-10-13T20:43:42Z",
-        "closed_at": null,
+        "closed_at": "2024-11-18T02:03:48Z",
         "title": "Remove integer codes from problemDetails",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 6670180974,
+            "node_id": "LA_kwDOE-wAx88AAAABjZLibg",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/normative",
+            "name": "normative",
+            "color": "F17A11",
+            "default": false,
+            "description": "The item is normative in nature."
+          },
+          {
+            "id": 7063766236,
+            "node_id": "LA_kwDOE-wAx88AAAABpQiE3A",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
+        "assignee": "PatStLouis",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 179,
         "created_at": "2024-10-13T19:35:32Z",
-        "closed_at": null,
+        "closed_at": "2024-11-18T02:01:30Z",
         "title": "Specify to use multibase representation of the base64url algorithm.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6545607940,
+            "node_id": "LA_kwDOE-wAx88AAAABhiYNBA",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/editorial",
+            "name": "editorial",
+            "color": "53CF5F",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7063766236,
+            "node_id": "LA_kwDOE-wAx88AAAABpQiE3A",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 178,
         "created_at": "2024-10-13T19:30:16Z",
-        "closed_at": null,
+        "closed_at": "2024-11-18T02:02:08Z",
         "title": "Inconsistent algorithm and data model for encodedList",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6545607940,
+            "node_id": "LA_kwDOE-wAx88AAAABhiYNBA",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/editorial",
+            "name": "editorial",
+            "color": "53CF5F",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7063766236,
+            "node_id": "LA_kwDOE-wAx88AAAABpQiE3A",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
+        "assignee": "PatStLouis",
         "isPullRequest": false
       },
       {
@@ -2592,6 +2772,15 @@
         "title": "The `BitstringStatusList.statusMessages` and `statusSize` properties are still being referenced",
         "labels": [
           {
+            "id": 5074231477,
+            "node_id": "LA_kwDOE-wAx88AAAABLnKgtQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/discuss",
+            "name": "discuss",
+            "color": "BB6CBF",
+            "default": false,
+            "description": "This issue is a discussion with no clear change requested"
+          },
+          {
             "id": 6670180974,
             "node_id": "LA_kwDOE-wAx88AAAABjZLibg",
             "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/normative",
@@ -2618,8 +2807,17 @@
         "number": 174,
         "created_at": "2024-08-29T18:02:18Z",
         "closed_at": null,
-        "title": "TTL is mandatory 5 hour period if not specified",
+        "title": "TTL is mandatory 5 minute period if not specified",
         "labels": [
+          {
+            "id": 5074160626,
+            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready-for-pr",
+            "name": "ready-for-pr",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 6670180974,
             "node_id": "LA_kwDOE-wAx88AAAABjZLibg",
@@ -2649,6 +2847,15 @@
         "closed_at": null,
         "title": "Add a MUST statement preventing 2 entries from having the same statusPurpose",
         "labels": [
+          {
+            "id": 5074231477,
+            "node_id": "LA_kwDOE-wAx88AAAABLnKgtQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/discuss",
+            "name": "discuss",
+            "color": "BB6CBF",
+            "default": false,
+            "description": "This issue is a discussion with no clear change requested"
+          },
           {
             "id": 6670180974,
             "node_id": "LA_kwDOE-wAx88AAAABjZLibg",
@@ -4299,10 +4506,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 93,
         "created_at": "2023-11-09T17:08:53Z",
-        "closed_at": null,
+        "closed_at": "2024-11-17T19:34:07Z",
         "title": "Align bitstring structure and IETF Token Status List structure?",
         "labels": [
           {
@@ -6067,42 +6274,126 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 319,
         "created_at": "2024-11-11T17:26:35Z",
-        "closed_at": null,
+        "closed_at": "2024-11-17T19:11:03Z",
         "title": "Remove \"must\" language in unlinkability section.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5693565107,
+            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          },
+          {
+            "id": 6310263376,
+            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue or PR constitutes an editorial change."
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 318,
         "created_at": "2024-11-10T22:35:45Z",
-        "closed_at": null,
+        "closed_at": "2024-11-17T19:11:39Z",
         "title": "Remove lowercase must text",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5689114294,
+            "node_id": "LA_kwDOB8htu88AAAABUxj-tg",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "ACE525",
+            "default": false,
+            "description": "A pull request exists to address this issue."
+          },
+          {
+            "id": 5693565107,
+            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          },
+          {
+            "id": 6310263376,
+            "node_id": "LA_kwDOB8htu88AAAABeB76UA",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This issue or PR constitutes an editorial change."
+          }
+        ],
         "assignee": "Wind4Greg",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 317,
         "created_at": "2024-11-10T22:30:18Z",
-        "closed_at": null,
+        "closed_at": "2024-11-17T19:09:18Z",
         "title": "Include `digestMultibase` in data integrity context",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 910146215,
+            "node_id": "MDU6TGFiZWw5MTAxNDYyMTU=",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/duplicate",
+            "name": "duplicate",
+            "color": "cfd3d7",
+            "default": true,
+            "description": "This issue or pull request already exists"
+          },
+          {
+            "id": 5689114294,
+            "node_id": "LA_kwDOB8htu88AAAABUxj-tg",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "ACE525",
+            "default": false,
+            "description": "A pull request exists to address this issue."
+          },
+          {
+            "id": 5693565107,
+            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 316,
         "created_at": "2024-10-20T13:05:26Z",
-        "closed_at": null,
+        "closed_at": "2024-11-17T19:12:52Z",
         "title": "Changing the vocabulary definition: A Verifable Method class must have a real URL",
         "labels": [
+          {
+            "id": 5693565107,
+            "node_id": "LA_kwDOB8htu88AAAABU1zosw",
+            "url": "https://api.github.com/repos/w3c/vc-data-integrity/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the first Candidate Recommendation phase."
+          },
           {
             "id": 6310263376,
             "node_id": "LA_kwDOB8htu88AAAABeB76UA",
@@ -41268,7 +41559,26 @@
         "created_at": "2024-11-17T05:46:33Z",
         "closed_at": null,
         "title": "How to know if a credential is a full disclosure?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2956992951,
+            "node_id": "MDU6TGFiZWwyOTU2OTkyOTUx",
+            "url": "https://api.github.com/repos/w3c/vc-di-bbs/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6882515524,
+            "node_id": "LA_kwDODuyx_c8AAAABmjraRA",
+            "url": "https://api.github.com/repos/w3c/vc-di-bbs/labels/CR1",
+            "name": "CR1",
+            "color": "0052CC",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -41308,7 +41618,26 @@
         "created_at": "2024-11-08T22:04:51Z",
         "closed_at": null,
         "title": "Where to get `hmacKey` from in `createVerifyData`",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2956992951,
+            "node_id": "MDU6TGFiZWwyOTU2OTkyOTUx",
+            "url": "https://api.github.com/repos/w3c/vc-di-bbs/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6882515524,
+            "node_id": "LA_kwDODuyx_c8AAAABmjraRA",
+            "url": "https://api.github.com/repos/w3c/vc-di-bbs/labels/CR1",
+            "name": "CR1",
+            "color": "0052CC",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -41318,7 +41647,26 @@
         "created_at": "2024-11-06T00:06:59Z",
         "closed_at": null,
         "title": "Base Proof Configuration algorithm missing input",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2956992951,
+            "node_id": "MDU6TGFiZWwyOTU2OTkyOTUx",
+            "url": "https://api.github.com/repos/w3c/vc-di-bbs/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6882515524,
+            "node_id": "LA_kwDODuyx_c8AAAABmjraRA",
+            "url": "https://api.github.com/repos/w3c/vc-di-bbs/labels/CR1",
+            "name": "CR1",
+            "color": "0052CC",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "Wind4Greg",
         "isPullRequest": false
       },
@@ -41386,6 +41734,15 @@
             "color": "0E8A16",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6882515524,
+            "node_id": "LA_kwDODuyx_c8AAAABmjraRA",
+            "url": "https://api.github.com/repos/w3c/vc-di-bbs/labels/CR1",
+            "name": "CR1",
+            "color": "0052CC",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "msporny",
@@ -41415,6 +41772,15 @@
             "color": "0E8A16",
             "default": false,
             "description": "A Pull Request exists to address this issue."
+          },
+          {
+            "id": 6882515524,
+            "node_id": "LA_kwDODuyx_c8AAAABmjraRA",
+            "url": "https://api.github.com/repos/w3c/vc-di-bbs/labels/CR1",
+            "name": "CR1",
+            "color": "0052CC",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -44483,7 +44849,26 @@
         "created_at": "2024-11-12T19:24:11Z",
         "closed_at": null,
         "title": "Fix missing input in Base Proof Configuration (ecdsa-sd-2023) procedure",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6310340900,
+            "node_id": "LA_kwDOGuDtXc8AAAABeCApJA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "The item is editorial in nature."
+          },
+          {
+            "id": 6539027256,
+            "node_id": "LA_kwDOGuDtXc8AAAABhcGjOA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -44508,22 +44893,69 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 81,
         "created_at": "2024-11-08T22:31:53Z",
-        "closed_at": null,
+        "closed_at": "2024-11-17T19:15:27Z",
         "title": "Add language to clarify how to consistently set the urnScheme parameter",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6310340900,
+            "node_id": "LA_kwDOGuDtXc8AAAABeCApJA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "The item is editorial in nature."
+          },
+          {
+            "id": 6539027256,
+            "node_id": "LA_kwDOGuDtXc8AAAABhcGjOA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 80,
         "created_at": "2024-11-06T08:03:12Z",
-        "closed_at": null,
+        "closed_at": "2024-11-17T19:16:01Z",
         "title": "`urnScheme` unclear and/or missing",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5864003938,
+            "node_id": "LA_kwDOGuDtXc8AAAABXYWZYg",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "90B935",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6310340900,
+            "node_id": "LA_kwDOGuDtXc8AAAABeCApJA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "The item is editorial in nature."
+          },
+          {
+            "id": 6539027256,
+            "node_id": "LA_kwDOGuDtXc8AAAABhcGjOA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "Wind4Greg",
         "isPullRequest": false
       },
@@ -46159,8 +46591,36 @@
         "created_at": "2024-11-07T22:46:10Z",
         "closed_at": null,
         "title": "Call into JSON-LD via its WebIDL API instead of calling algorithms directly",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 6310329186,
+            "node_id": "LA_kwDOEacMp88AAAABeB_7Yg",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/editorial",
+            "name": "editorial",
+            "color": "24942A",
+            "default": false,
+            "description": "This item is editorial in nature."
+          },
+          {
+            "id": 6539036568,
+            "node_id": "LA_kwDOEacMp88AAAABhcHHmA",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/CR1",
+            "name": "CR1",
+            "color": "1D76DB",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7761398443,
+            "node_id": "LA_kwDOEacMp88AAAABzp2Kqw",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/discuss",
+            "name": "discuss",
+            "color": "5319E7",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
