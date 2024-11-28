@@ -2524,6 +2524,16 @@
     "issues": [
       {
         "state": "closed",
+        "number": 304,
+        "created_at": "2024-11-27T10:11:59Z",
+        "closed_at": "2024-11-27T10:35:36Z",
+        "title": "single value enum and API pattern",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 303,
         "created_at": "2024-11-22T08:19:00Z",
         "closed_at": "2024-11-22T09:38:58Z",
@@ -25331,6 +25341,633 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": false
+      }
+    ]
+  },
+  "https://www.w3.org/TR/vibration/": {
+    "repo": {
+      "owner": "w3c",
+      "name": "vibration"
+    },
+    "recTrack": true,
+    "issues": [
+      {
+        "state": "open",
+        "number": 50,
+        "created_at": "2024-11-04T11:08:07Z",
+        "closed_at": null,
+        "title": "The user must be able to disable use of the Vibration API",
+        "labels": [
+          {
+            "id": 1831535672,
+            "node_id": "MDU6TGFiZWwxODMxNTM1Njcy",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/a11y-needs-resolution",
+            "name": "a11y-needs-resolution",
+            "color": "ea7472",
+            "default": false,
+            "description": "Issue the Accessibility Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 49,
+        "created_at": "2024-10-30T12:33:55Z",
+        "closed_at": null,
+        "title": "Structuring the security considerations section",
+        "labels": [
+          {
+            "id": 1831527043,
+            "node_id": "MDU6TGFiZWwxODMxNTI3MDQz",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/security-needs-resolution",
+            "name": "security-needs-resolution",
+            "color": "ffff00",
+            "default": false,
+            "description": "Issue the security Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 48,
+        "created_at": "2024-10-24T08:51:04Z",
+        "closed_at": null,
+        "title": "Rate limits to prevent excessive use",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 47,
+        "created_at": "2024-10-24T08:41:30Z",
+        "closed_at": "2024-10-28T11:37:53Z",
+        "title": "Update Security and privacy considerations",
+        "labels": [
+          {
+            "id": 1831454214,
+            "node_id": "MDU6TGFiZWwxODMxNDU0MjE0",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 46,
+        "created_at": "2024-10-10T10:13:56Z",
+        "closed_at": "2024-10-22T12:54:45Z",
+        "title": "Define 'max length' and 'max duration' normatively",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 45,
+        "created_at": "2024-10-02T14:08:34Z",
+        "closed_at": null,
+        "title": "Create an explainer",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 44,
+        "created_at": "2024-09-09T12:35:04Z",
+        "closed_at": "2024-10-04T08:02:18Z",
+        "title": "Update spec metadata and add Changes section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 43,
+        "created_at": "2024-07-18T17:29:14Z",
+        "closed_at": null,
+        "title": "Misc non-privacy concerns with the API",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 42,
+        "created_at": "2024-07-18T17:18:49Z",
+        "closed_at": null,
+        "title": "Integration with permissions API",
+        "labels": [
+          {
+            "id": 1831424572,
+            "node_id": "MDU6TGFiZWwxODMxNDI0NTcy",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 1831454214,
+            "node_id": "MDU6TGFiZWwxODMxNDU0MjE0",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 41,
+        "created_at": "2024-07-01T17:04:35Z",
+        "closed_at": "2024-09-10T07:30:52Z",
+        "title": "turn page-visibility-2 into WHATWG/HTML",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 40,
+        "created_at": "2024-06-26T13:34:48Z",
+        "closed_at": "2024-06-28T05:09:33Z",
+        "title": "[DRAFT] TAG review request",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 39,
+        "created_at": "2024-06-26T11:10:08Z",
+        "closed_at": "2024-11-07T16:34:45Z",
+        "title": "Wide review tracker",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 38,
+        "created_at": "2024-06-25T11:12:51Z",
+        "closed_at": "2024-10-10T07:10:12Z",
+        "title": "Internationalization Checklist",
+        "labels": [
+          {
+            "id": 1606482931,
+            "node_id": "MDU6TGFiZWwxNjA2NDgyOTMx",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/i18n-tracker",
+            "name": "i18n-tracker",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 37,
+        "created_at": "2024-06-25T11:12:28Z",
+        "closed_at": "2024-11-04T12:22:08Z",
+        "title": "Accessibility Checklist",
+        "labels": [
+          {
+            "id": 1831497218,
+            "node_id": "MDU6TGFiZWwxODMxNDk3MjE4",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/a11y-tracker",
+            "name": "a11y-tracker",
+            "color": "ea7472",
+            "default": false,
+            "description": "Group bringing to attention of a11y, or tracked by the a11y Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 36,
+        "created_at": "2024-06-24T20:17:52Z",
+        "closed_at": null,
+        "title": "Security and Privacy Self-review",
+        "labels": [
+          {
+            "id": 1831424572,
+            "node_id": "MDU6TGFiZWwxODMxNDI0NTcy",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 1831454214,
+            "node_id": "MDU6TGFiZWwxODMxNDU0MjE0",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 35,
+        "created_at": "2024-05-27T17:17:57Z",
+        "closed_at": "2024-05-29T09:56:32Z",
+        "title": "Update test suite and implementation report",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 34,
+        "created_at": "2024-05-21T10:58:27Z",
+        "closed_at": "2024-05-27T17:19:05Z",
+        "title": "Obsolete this Rec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 33,
+        "created_at": "2024-05-17T17:57:02Z",
+        "closed_at": null,
+        "title": "Update implementation report",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 32,
+        "created_at": "2024-01-05T06:03:50Z",
+        "closed_at": "2024-01-05T09:08:23Z",
+        "title": "Update w3c.json",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 31,
+        "created_at": "2022-06-01T07:58:22Z",
+        "closed_at": "2022-06-01T08:35:18Z",
+        "title": "Clean up `respecConfig` a bit.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 30,
+        "created_at": "2022-05-25T11:37:42Z",
+        "closed_at": "2022-06-01T05:09:53Z",
+        "title": "Require sticky activation to perform vibrate",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 29,
+        "created_at": "2022-04-25T15:48:29Z",
+        "closed_at": "2022-06-01T05:09:53Z",
+        "title": "Require user activation for navigator.vibrate",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 28,
+        "created_at": "2021-07-26T09:24:10Z",
+        "closed_at": "2021-08-13T14:16:03Z",
+        "title": "Vibration does not work in silent mode.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 27,
+        "created_at": "2021-01-12T10:58:14Z",
+        "closed_at": "2021-01-13T00:00:01Z",
+        "title": "Add IDL index to the end of the spec.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 26,
+        "created_at": "2021-01-12T09:48:35Z",
+        "closed_at": "2021-01-13T00:05:22Z",
+        "title": "respec: Migrate from the respec-w3c-common profile to respec-w3c.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 25,
+        "created_at": "2020-12-24T06:25:29Z",
+        "closed_at": "2022-05-03T13:30:39Z",
+        "title": "api.Navigator.vibrate - Throwing intervention error of vibration after user already interacted with UI.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 24,
+        "created_at": "2019-11-13T12:39:32Z",
+        "closed_at": "2019-11-14T03:17:23Z",
+        "title": "Editorial: Fix ReSpec cite error",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 23,
+        "created_at": "2019-06-27T10:48:38Z",
+        "closed_at": "2019-06-27T11:08:13Z",
+        "title": "Update references [HTML5] -> [HTML]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 22,
+        "created_at": "2018-06-12T09:38:02Z",
+        "closed_at": "2018-06-12T11:45:39Z",
+        "title": "Update web-platform-tests URLs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 21,
+        "created_at": "2017-10-23T13:39:27Z",
+        "closed_at": "2017-10-23T13:39:49Z",
+        "title": "Clarify CONTRIBUTING",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 20,
+        "created_at": "2017-10-19T13:37:28Z",
+        "closed_at": "2017-10-20T19:47:29Z",
+        "title": "Ask for tests for normative changes in CONTRIBUTING.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 19,
+        "created_at": "2017-10-11T13:31:31Z",
+        "closed_at": "2017-10-11T13:31:36Z",
+        "title": "Fix ReSpec warnings",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 18,
+        "created_at": "2017-01-24T07:41:42Z",
+        "closed_at": "2017-01-24T07:42:16Z",
+        "title": "Fix ReSpec warnings",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 17,
+        "created_at": "2016-10-20T06:17:11Z",
+        "closed_at": null,
+        "title": "ISSUE-146: Add vibration strength control",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 16,
+        "created_at": "2016-10-06T14:19:36Z",
+        "closed_at": null,
+        "title": "Accessible Platform Architectures WG feedback",
+        "labels": [
+          {
+            "id": 393808187,
+            "node_id": "MDU6TGFiZWwzOTM4MDgxODc=",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/v2",
+            "name": "v2",
+            "color": "c2e0c6",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 15,
+        "created_at": "2016-08-19T06:53:03Z",
+        "closed_at": null,
+        "title": "Block navigator.vibrate in cross-origin iframes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 14,
+        "created_at": "2016-08-18T17:58:48Z",
+        "closed_at": "2016-08-24T12:06:11Z",
+        "title": "shouldn't the title be \"Vibration API (Second Edition)\"?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 13,
+        "created_at": "2016-08-16T14:34:20Z",
+        "closed_at": "2016-08-24T12:06:09Z",
+        "title": "Update administrative date and upgrade links to https",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 12,
+        "created_at": "2016-07-11T16:43:40Z",
+        "closed_at": "2024-10-23T06:52:02Z",
+        "title": "Updating privacy considerations - recovery of two identifiers",
+        "labels": [
+          {
+            "id": 393808187,
+            "node_id": "MDU6TGFiZWwzOTM4MDgxODc=",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/v2",
+            "name": "v2",
+            "color": "c2e0c6",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 11,
+        "created_at": "2016-07-04T15:02:46Z",
+        "closed_at": "2016-07-04T18:10:41Z",
+        "title": "Adjust reference to page-visibility algorithm",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 10,
+        "created_at": "2016-06-15T09:39:32Z",
+        "closed_at": null,
+        "title": "Vibration should require user's permission",
+        "labels": [
+          {
+            "id": 393808187,
+            "node_id": "MDU6TGFiZWwzOTM4MDgxODc=",
+            "url": "https://api.github.com/repos/w3c/vibration/labels/v2",
+            "name": "v2",
+            "color": "c2e0c6",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 9,
+        "created_at": "2016-06-14T08:12:32Z",
+        "closed_at": "2016-06-14T11:59:33Z",
+        "title": "Fix #8: Update privacy considerations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 8,
+        "created_at": "2016-06-13T21:28:58Z",
+        "closed_at": "2016-06-14T11:59:34Z",
+        "title": "Updating privacy considerations to reflect recomentations.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 7,
+        "created_at": "2016-06-06T14:37:15Z",
+        "closed_at": "2016-07-04T18:10:41Z",
+        "title": "Use visibilityState rather than hidden",
+        "labels": [],
+        "assignee": "dontcallmedom",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 6,
+        "created_at": "2016-04-26T08:46:32Z",
+        "closed_at": "2016-04-26T08:46:36Z",
+        "title": "Add Participate header",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 5,
+        "created_at": "2016-04-26T08:17:02Z",
+        "closed_at": "2016-04-26T08:17:10Z",
+        "title": "Editorial: Use Contiguous IDL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4,
+        "created_at": "2016-03-04T14:31:20Z",
+        "closed_at": "2016-03-07T13:51:00Z",
+        "title": "Use WEBIDL-1 as a reference",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3,
+        "created_at": "2016-03-04T10:49:35Z",
+        "closed_at": "2016-03-07T13:51:00Z",
+        "title": "Change WebIDL ref to WebIDL-1",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2,
+        "created_at": "2016-02-12T09:34:49Z",
+        "closed_at": "2016-04-26T08:05:38Z",
+        "title": "Privacy considerations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 1,
+        "created_at": "2016-02-09T14:48:33Z",
+        "closed_at": "2016-04-19T09:13:09Z",
+        "title": "Vibration API Recommendation errata",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
       }
     ]
   }
