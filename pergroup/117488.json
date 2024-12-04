@@ -72,7 +72,7 @@
         "title": "Note"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/did-extensions/versions/20241119",
+        "href": "https://api.w3.org/specifications/did-extensions/versions/20241203",
         "title": "Note"
       },
       "series": {
@@ -81,6 +81,34 @@
     },
     "editorsdraft": "https://w3c.github.io/did-extensions/",
     "versions": [
+      {
+        "status": "Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/did-extensions/",
+        "uri": "https://www.w3.org/TR/2024/NOTE-did-extensions-20241203/",
+        "date": "2024-12-03",
+        "informative": true,
+        "title": "Decentralized Identifier Extensions",
+        "shortlink": "https://www.w3.org/TR/did-extensions/",
+        "process-rules": "https://www.w3.org/policies/process/20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-extensions/versions/20241203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-extensions/versions/20241203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-extensions/versions/20241203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-extensions"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-extensions/versions/20241203/predecessors"
+          }
+        }
+      },
       {
         "status": "Note",
         "rec-track": false,
@@ -106,6 +134,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/did-extensions/versions/20241119/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-extensions/versions/20241119/successors"
           }
         }
       },
@@ -2901,7 +2932,7 @@
   {
     "shortlink": "https://www.w3.org/TR/did-resolution/",
     "description": "<p> Decentralized identifiers (DIDs) are a new type of identifier for verifiable, \"self-sovereign\" digital identity. DIDs are fully under the control of the DID controller, independent from any centralized registry, identity provider, or certificate authority. DIDs resolve to DID Documents — simple documents that describe how to use that specific DID.</p>\r\n\r\n<p>This document specifies the algorithms and guidelines for resolving DIDs and dereferencing DID URLs. </p>",
-    "title": "Decentralized Identifier (DID) Resolution and DID URL Dereferencing v1.0",
+    "title": "Decentralized Identifier Resolution (DID Resolution) v0.3",
     "shortname": "did-resolution",
     "editor-draft": "https://w3c.github.io/did-resolution/",
     "series-version": "1.0",
@@ -2917,8 +2948,8 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/did-resolution/versions/20241128",
-        "title": "First Public Working Draft"
+        "href": "https://api.w3.org/specifications/did-resolution/versions/20241203",
+        "title": "Working Draft"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/did-resolution"
@@ -2926,6 +2957,34 @@
     },
     "editorsdraft": "https://w3c.github.io/did-resolution/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-resolution/",
+        "uri": "https://www.w3.org/TR/2024/WD-did-resolution-20241203/",
+        "date": "2024-12-03",
+        "informative": false,
+        "title": "Decentralized Identifier Resolution (DID Resolution) v0.3",
+        "shortlink": "https://www.w3.org/TR/did-resolution/",
+        "process-rules": "https://www.w3.org/policies/process/20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20241203"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20241203/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20241203/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-resolution"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20241203/predecessors"
+          }
+        }
+      },
       {
         "status": "First Public Working Draft",
         "rec-track": true,
@@ -2948,6 +3007,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/did-resolution"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20241128/successors"
           }
         }
       }
