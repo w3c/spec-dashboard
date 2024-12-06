@@ -18,6 +18,36 @@
       },
       {
         "state": "open",
+        "number": 246,
+        "created_at": "2024-11-27T13:33:15Z",
+        "closed_at": null,
+        "title": "[accname] “skip self” requirement is missing from the “Embedded Control” substep for accessible-name computation",
+        "labels": [],
+        "assignee": "accdc",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 247,
+        "created_at": "2024-11-27T13:25:30Z",
+        "closed_at": null,
+        "title": "[accname] Two necessary steps for using aria-label values in accessible-name computation are missing from the spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 248,
+        "created_at": "2024-11-27T13:03:48Z",
+        "closed_at": null,
+        "title": "[accname] The spec as written for computing accessible names doesn’t result in traversing into hidden subtrees to find “un-hidden” child nodes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 244,
         "created_at": "2024-07-23T22:04:52Z",
         "closed_at": null,
@@ -2987,12 +3017,22 @@
     "issues": [
       {
         "state": "open",
+        "number": 242,
+        "created_at": "2024-12-05T13:06:38Z",
+        "closed_at": null,
+        "title": "Should the NSAccessibility scroll-bar API be included in mapping for scrollbar role?",
+        "labels": [],
+        "assignee": "rahimabdi",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 241,
         "created_at": "2024-11-22T11:21:00Z",
         "closed_at": null,
         "title": "ATK/AT-SPI2: Add \"Object Attribute: text-input-type:search\" to searchbox mapping",
         "labels": [],
-        "assignee": null,
+        "assignee": "spectranaut",
         "isPullRequest": false
       },
       {
@@ -6996,6 +7036,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 570,
+        "created_at": "2024-12-05T09:39:41Z",
+        "closed_at": null,
+        "title": "[html-aam] Computing a role for a “aside” or “section” element creates an infinite loop",
+        "labels": [],
+        "assignee": "scottaohara",
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 569,
@@ -14122,6 +14172,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 2392,
+        "created_at": "2024-12-05T19:45:38Z",
+        "closed_at": null,
+        "title": "[Core-AAM] Update searchbox mapping for ATK/AT-SPI2 to match IA2",
+        "labels": [
+          {
+            "id": 7010545630,
+            "node_id": "LA_kwDOART0M88AAAABodxv3g",
+            "url": "https://api.github.com/repos/w3c/aria/labels/spec:core-aam",
+            "name": "spec:core-aam",
+            "color": "1DD6E1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 2390,
         "created_at": "2024-12-03T23:44:20Z",
         "closed_at": null,
@@ -14139,36 +14209,6 @@
         ],
         "assignee": null,
         "isPullRequest": true
-      },
-      {
-        "state": "open",
-        "number": 2389,
-        "created_at": "2024-11-27T13:33:15Z",
-        "closed_at": null,
-        "title": "[accname] “skip self” requirement is missing from the “Embedded Control” substep for accessible-name computation",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 2388,
-        "created_at": "2024-11-27T13:25:30Z",
-        "closed_at": null,
-        "title": "[accname] Two necessary steps for using aria-label values in accessible-name computation are missing from the spec",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 2387,
-        "created_at": "2024-11-27T13:03:48Z",
-        "closed_at": null,
-        "title": "[accname] The spec as written for computing accessible names doesn’t result in traversing into hidden subtrees to find “un-hidden” child nodes",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
       },
       {
         "state": "open",
@@ -14197,6 +14237,15 @@
         "closed_at": null,
         "title": "[accname] Explicitly state UAs must ignore “aria-label” for slots",
         "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 7076203941,
             "node_id": "LA_kwDOART0M88AAAABpcZNpQ",
@@ -14236,18 +14285,8 @@
         "created_at": "2024-11-21T18:00:33Z",
         "closed_at": null,
         "title": "Consider allowing aria-valuetext for combobox role",
-        "labels": [
-          {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": null,
+        "labels": [],
+        "assignee": "smockle",
         "isPullRequest": false
       },
       {
@@ -14256,17 +14295,7 @@
         "created_at": "2024-11-20T16:52:43Z",
         "closed_at": null,
         "title": "WebKit does not fall back to 'nameFrom: contents' on aria-describedby reference when referenced element contains role=\"status\" thus not announcing content via VoiceOver",
-        "labels": [
-          {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "aleventhal",
         "isPullRequest": false
       },
@@ -14335,15 +14364,6 @@
         "closed_at": null,
         "title": "[html-aam] Make HTML img accname use “title” text if alt is empty",
         "labels": [
-          {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
-            "default": false,
-            "description": ""
-          },
           {
             "id": 1686253749,
             "node_id": "MDU6TGFiZWwxNjg2MjUzNzQ5",
