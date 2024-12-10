@@ -1,983 +1,113 @@
 [
   {
-    "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-    "description": "<p>The Open Screen Protocol is a suite of network protocols that allow user agents to implement the Presentation API and the Remote Playback API in an interoperable fashion.</p>",
-    "title": "Open Screen Protocol",
-    "shortname": "openscreenprotocol",
-    "editor-draft": "https://w3c.github.io/openscreenprotocol/",
+    "shortlink": "https://www.w3.org/TR/openscreen-application/",
+    "description": "<p>The Open Screen Application Protocol allows user agents to implement the Presentation API and the Remote Playback API in an interoperable fashion.</p>",
+    "title": "Open Screen Application Protocol",
+    "shortname": "openscreen-application",
+    "editor-draft": "https://w3c.github.io/openscreenprotocol/application.html",
     "_links": {
       "self": {
-        "href": "https://api.w3.org/specifications/openscreenprotocol"
+        "href": "https://api.w3.org/specifications/openscreen-application"
       },
       "version-history": {
-        "href": "https://api.w3.org/specifications/openscreenprotocol/versions"
+        "href": "https://api.w3.org/specifications/openscreen-application/versions"
       },
       "first-version": {
-        "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20210318",
+        "href": "https://api.w3.org/specifications/openscreen-application/versions/20241210",
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241203",
-        "title": "Working Draft"
+        "href": "https://api.w3.org/specifications/openscreen-application/versions/20241210",
+        "title": "First Public Working Draft"
+      },
+      "supersedes": {
+        "href": "https://api.w3.org/specifications/openscreen-application/supersedes"
       },
       "series": {
-        "href": "https://api.w3.org/specification-series/openscreenprotocol"
+        "href": "https://api.w3.org/specification-series/openscreen-application"
       }
     },
-    "editorsdraft": "https://w3c.github.io/openscreenprotocol/",
+    "editorsdraft": "https://w3c.github.io/openscreenprotocol/application.html",
     "versions": [
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20241203/",
-        "date": "2024-12-03",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241203"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241203/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241203/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241203/predecessors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20241129/",
-        "date": "2024-11-29",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241129"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241129/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241129/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241129/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241129/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20241008/",
-        "date": "2024-10-08",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241008"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241008/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241008/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241008/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241008/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20241007/",
-        "date": "2024-10-07",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241007"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241007/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241007/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241007/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20241007/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240923/",
-        "date": "2024-09-23",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240923"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240923/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240923/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240923/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240923/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240920/",
-        "date": "2024-09-20",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240920"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240920/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240920/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240920/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240920/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240919/",
-        "date": "2024-09-19",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240919"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240919/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240919/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240919/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240919/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240914/",
-        "date": "2024-09-14",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240914"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240914/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240914/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240914/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240914/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240910/",
-        "date": "2024-09-10",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240910"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240910/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240910/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240910/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240910/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240801/",
-        "date": "2024-08-01",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240801"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240801/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240801/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240801/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240801/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240603/",
-        "date": "2024-06-03",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240603"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240603/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240603/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240603/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240603/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240531/",
-        "date": "2024-05-31",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240531"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240531/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240531/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240531/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240531/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240425/",
-        "date": "2024-04-25",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240425"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240425/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240425/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240425/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240425/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240228/",
-        "date": "2024-02-28",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240228"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240228/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240228/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240228/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240228/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2024/WD-openscreenprotocol-20240122/",
-        "date": "2024-01-22",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240122"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240122/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240122/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240122/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20240122/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2023/WD-openscreenprotocol-20231016/",
-        "date": "2023-10-16",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2023/Process-20230612/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231016"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231016/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231016/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231016/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231016/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2023/WD-openscreenprotocol-20231013/",
-        "date": "2023-10-13",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2023/Process-20230612/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231013"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231013/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231013/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231013/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231013/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2023/WD-openscreenprotocol-20231012/",
-        "date": "2023-10-12",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2023/Process-20230612/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231012"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231012/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231012/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231012/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231012/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2023/WD-openscreenprotocol-20231004/",
-        "date": "2023-10-04",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2023/Process-20230612/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231004"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231004/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231004/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231004/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20231004/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2023/WD-openscreenprotocol-20230911/",
-        "date": "2023-09-11",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2023/Process-20230612/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230911"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230911/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230911/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230911/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230911/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2023/WD-openscreenprotocol-20230908/",
-        "date": "2023-09-08",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2023/Process-20230612/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230908"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230908/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230908/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230908/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230908/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2023/WD-openscreenprotocol-20230305/",
-        "date": "2023-03-05",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2021/Process-20211102/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230305"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230305/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230305/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230305/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20230305/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2022/WD-openscreenprotocol-20221212/",
-        "date": "2022-12-12",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2021/Process-20211102/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221212"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221212/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221212/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221212/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221212/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2022/WD-openscreenprotocol-20221114/",
-        "date": "2022-11-14",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2021/Process-20211102/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221114"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221114/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221114/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221114/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221114/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2022/WD-openscreenprotocol-20221107/",
-        "date": "2022-11-07",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2021/Process-20211102/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221107"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221107/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221107/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221107/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221107/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2022/WD-openscreenprotocol-20221018/",
-        "date": "2022-10-18",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2021/Process-20211102/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221018"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221018/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221018/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221018/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20221018/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2022/WD-openscreenprotocol-20220912/",
-        "date": "2022-09-12",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2021/Process-20211102/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220912"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220912/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220912/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220912/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220912/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2022/WD-openscreenprotocol-20220909/",
-        "date": "2022-09-09",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2021/Process-20211102/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220909"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220909/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220909/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220909/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220909/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2022/WD-openscreenprotocol-20220907/",
-        "date": "2022-09-07",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2021/Process-20211102/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220907"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220907/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220907/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220907/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220907/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2022/WD-openscreenprotocol-20220422/",
-        "date": "2022-04-22",
-        "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2021/Process-20211102/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220422"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220422/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220422/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220422/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20220422/successors"
-          }
-        }
-      },
       {
         "status": "First Public Working Draft",
         "rec-track": true,
-        "editor-draft": "https://w3c.github.io/openscreenprotocol/",
-        "uri": "https://www.w3.org/TR/2021/WD-openscreenprotocol-20210318/",
-        "date": "2021-03-18",
+        "editor-draft": "https://w3c.github.io/openscreenprotocol/application.html",
+        "uri": "https://www.w3.org/TR/2024/WD-openscreen-application-20241210/",
+        "date": "2024-12-10",
         "informative": false,
-        "title": "Open Screen Protocol",
-        "shortlink": "https://www.w3.org/TR/openscreenprotocol/",
-        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "title": "Open Screen Application Protocol",
+        "shortlink": "https://www.w3.org/TR/openscreen-application/",
+        "process-rules": "https://www.w3.org/policies/process/20231103/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20210318"
+            "href": "https://api.w3.org/specifications/openscreen-application/versions/20241210"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20210318/editors"
+            "href": "https://api.w3.org/specifications/openscreen-application/versions/20241210/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20210318/deliverers"
+            "href": "https://api.w3.org/specifications/openscreen-application/versions/20241210/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol"
+            "href": "https://api.w3.org/specifications/openscreen-application"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/openscreen-network/",
+    "description": "<p>The Open Screen Network Protocol is a network protocol that allows two Open Screen agents to establish a secure network transport in an interoperable fashion.</p>",
+    "title": "Open Screen Network Protocol",
+    "shortname": "openscreen-network",
+    "editor-draft": "https://w3c.github.io/openscreenprotocol/network.html",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/openscreen-network"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/openscreen-network/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/openscreen-network/versions/20241210",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/openscreen-network/versions/20241210",
+        "title": "First Public Working Draft"
+      },
+      "supersedes": {
+        "href": "https://api.w3.org/specifications/openscreen-network/supersedes"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/openscreen-network"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/openscreenprotocol/network.html",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/openscreenprotocol/network.html",
+        "uri": "https://www.w3.org/TR/2024/WD-openscreen-network-20241210/",
+        "date": "2024-12-10",
+        "informative": false,
+        "title": "Open Screen Network Protocol",
+        "shortlink": "https://www.w3.org/TR/openscreen-network/",
+        "process-rules": "https://www.w3.org/policies/process/20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/openscreen-network/versions/20241210"
           },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/openscreenprotocol/versions/20210318/successors"
+          "editors": {
+            "href": "https://api.w3.org/specifications/openscreen-network/versions/20241210/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/openscreen-network/versions/20241210/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/openscreen-network"
           }
         }
       }
