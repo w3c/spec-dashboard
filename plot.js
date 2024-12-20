@@ -47,6 +47,8 @@ function dashboard(groupid, group) {
     const statusNormalizer = version => {
         switch(version.status) {
         case "Candidate Recommendation":
+        case "Candidate Recommendation Draft":
+        case "Candidate Recommendation Snapshot":
             return "CR";
         case "Proposed Recommendation":
             return "PR";
