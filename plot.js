@@ -57,8 +57,10 @@ function dashboard(groupid, group) {
         case "Last Call":
             return "WR/LC";
         case "Working Draft":
-            if (version._links["predecessor-version"]) return "WD";
-            return "FPWD";
+          if (version._links["predecessor-version"]) return "WD";
+          return "FPWD";
+	case "First Public Working Draft":
+          return "FPWD";
         }
         return version.status;
     };
