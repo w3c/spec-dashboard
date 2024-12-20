@@ -11,23 +11,6 @@ const recStages = ["FPWD", "WD", "WR/LC", "CR", "PR", "REC"];
 // structure of the columns in the spreadsheet
 // matched to the list of stages known here
 
-function futureVersions(spec, specMilestones, milestoneOnly = false) {
-    const lastVersion = spec.versions[0];
-    var now =  new Date();
-    // By default, if we don't know, we just keep the current line
-    var future = [Object.assign({}, lastVersion, {date: dateFormat(now)})];
-    if (!Object.keys(specMilestones).length) return milestoneOnly ? [] : future;
-    var minDate = Math.min.apply(null, Object.keys(specMilestones).map(k => parseDate(specMilestones[k]))); 
-    // We ignore milestones if one of the date is anterior to now or if none were set
-    if (minDate >= now.getTime()) {
-        future = Object.keys(specMilestones)
-            .sort((a,b) => specMilestones[a].localeCompare(specMilestones[b])) // sort by date
-            .map(d => Object.assign({}, lastVersion, {date: specMilestones[d], status: d}));
-    } else {
-        console.error("Ignored milestones for " + spec.shortname + " as it contains dates anterior to today");
-    }
-    return future;
-}
 fetch("groups.json")
     .then(r => r.json())
     .then(groups => {
@@ -295,40 +278,9 @@ function dashboard(groupid, group) {
             .append("title")
             .text(d => statusNormalizer(d) + " of " + d.title + " on " + d.date);
 
-        function drawFuture(err, milestones) {
-            // Log but do not stop
-            if (err) logError(err);
-
-            // Normalize milestones to shortname instead of shortlink
-            milestones = Object.keys(milestones).reduce((a, shortlink) => { const shortname = shortlink.replace(/https?:\/\/www.w3.org\/TR\/([^\/]*)\/?$/, '$1'); a[shortname] = milestones[shortlink]; return a;}, {});
-
-            svg.attr("aria-busy", false)
-            svg.selectAll("g.pub")
-                .append("path")
-                .datum(s => {const lastVersion = s.versions[0]; lastVersion.shortname = s.shortname; return [lastVersion].concat(futureVersions(s, milestones[s.shortname] || {})); })
-                .attr("class", "future")
-                .attr("stroke", d => durationColor(parseDate(d[0].date), now));
-
-            svg.selectAll("g.pub")
-                .selectAll("circle.futurepub")
-                .data(s => futureVersions(s, milestones[s.shortname] || {}, true))
-                .enter()
-                .append("circle")
-                .attr("class", "futurepub")
-                .attr("role", "img")
-                .attr("r", 5)
-                .attr("cy", d => y(statusNormalizer(d)) + specOffset(d.shortname))
-                .attr("class", d => statusNormalizer(d).split('/')[0])
-                .append("title")
-                .text(d => statusNormalizer(d) + " of " + d.title + " scheduled before " + d.date);
-
-            draw();
-        }
         const draw = drawer(specOffset);
         zoom.on("zoom", draw)
-        drawFuture(null, {});
 
-        d3.json("pergroup/" + groupid + '-milestones.json', drawFuture);
 
         function updateView() {
             document.querySelector("option[value='" + location.hash.slice(2) +"']")
