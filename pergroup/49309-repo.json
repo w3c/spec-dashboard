@@ -15254,6 +15254,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 457,
+        "created_at": "2024-12-19T21:39:34Z",
+        "closed_at": null,
+        "title": "Editorial: Prepare for CR",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 456,
+        "created_at": "2024-12-19T21:28:17Z",
+        "closed_at": "2024-12-19T21:36:03Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 455,
+        "created_at": "2024-12-19T20:44:11Z",
+        "closed_at": "2024-12-19T21:27:57Z",
+        "title": "Use `<code>` for references to a CDDL type",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 454,
         "created_at": "2024-12-04T09:46:57Z",
         "closed_at": null,
@@ -15723,10 +15753,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 407,
         "created_at": "2022-12-12T11:28:31Z",
-        "closed_at": null,
+        "closed_at": "2024-12-19T22:58:57Z",
         "title": "Export permissions task source",
         "labels": [],
         "assignee": null,
@@ -17332,16 +17362,6 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
-        "number": 240,
-        "created_at": "2021-05-21T07:45:32Z",
-        "closed_at": null,
-        "title": "Integrate with policy container",
-        "labels": [],
-        "assignee": "marcoscaceres",
-        "isPullRequest": false
-      },
-      {
         "state": "closed",
         "number": 239,
         "created_at": "2021-04-22T03:36:09Z",
@@ -17887,7 +17907,17 @@
         "created_at": "2019-03-14T11:08:52Z",
         "closed_at": null,
         "title": "Semantic Permission Bundles",
-        "labels": [],
+        "labels": [
+          {
+            "id": 226528038,
+            "node_id": "MDU6TGFiZWwyMjY1MjgwMzg=",
+            "url": "https://api.github.com/repos/w3c/permissions/labels/later",
+            "name": "later",
+            "color": "d4c5f9",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -17902,10 +17932,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 189,
         "created_at": "2019-02-11T01:32:57Z",
-        "closed_at": null,
+        "closed_at": "2024-12-19T22:27:17Z",
         "title": "Conditional permissions",
         "labels": [],
         "assignee": null,
@@ -17932,10 +17962,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 347,
         "created_at": "2018-11-27T06:25:14Z",
-        "closed_at": null,
+        "closed_at": "2024-12-19T22:27:14Z",
         "title": "Automation: Need two more steps to handle closed browsing context and user prompts",
         "labels": [],
         "assignee": "Honry",
@@ -17946,7 +17976,7 @@
         "number": 185,
         "created_at": "2018-10-17T23:46:24Z",
         "closed_at": null,
-        "title": "Allow Feature Policy-based permission models",
+        "title": "Allow Permissions Policy-based permission models",
         "labels": [
           {
             "id": 3074492479,
@@ -17992,30 +18022,30 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 348,
         "created_at": "2018-07-11T16:19:44Z",
-        "closed_at": null,
+        "closed_at": "2024-12-19T22:16:09Z",
         "title": "Automation: \"set permission\" granularity",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 349,
         "created_at": "2018-07-02T19:28:43Z",
-        "closed_at": null,
+        "closed_at": "2024-12-19T22:14:37Z",
         "title": "Automation: \"Get Permission\"",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 178,
         "created_at": "2018-05-22T17:58:44Z",
-        "closed_at": null,
+        "closed_at": "2024-12-19T22:09:30Z",
         "title": "describe implicitly-granted (chooser-based) permissions",
         "labels": [],
         "assignee": null,
@@ -18576,7 +18606,7 @@
         "number": 124,
         "created_at": "2016-08-30T17:32:44Z",
         "closed_at": null,
-        "title": "questions on query()",
+        "title": "query() / events and system permission state ",
         "labels": [
           {
             "id": 3074492479,
@@ -18602,6 +18632,15 @@
             "url": "https://api.github.com/repos/w3c/permissions/labels/priv-sec",
             "name": "priv-sec",
             "color": "CD9785",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7906694879,
+            "node_id": "LA_kwDOAX1s4M8AAAAB10aW3w",
+            "url": "https://api.github.com/repos/w3c/permissions/labels/cr-blocker",
+            "name": "cr-blocker",
+            "color": "8ACE00",
             "default": false,
             "description": ""
           }
@@ -20067,6 +20106,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 557,
+        "created_at": "2024-12-20T00:32:26Z",
+        "closed_at": null,
+        "title": "W3C ODRL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 555,
         "created_at": "2024-08-23T11:58:51Z",
         "closed_at": null,
@@ -21131,6 +21180,16 @@
         "created_at": "2021-07-01T01:30:12Z",
         "closed_at": "2023-08-24T15:04:56Z",
         "title": "Make GitHub the preferred way to give feedback",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 556,
+        "created_at": "2021-05-21T07:45:32Z",
+        "closed_at": null,
+        "title": "Integrate with policy container",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
