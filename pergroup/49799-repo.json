@@ -8,6 +8,121 @@
     "issues": [
       {
         "state": "open",
+        "number": 852,
+        "created_at": "2025-01-10T18:25:30Z",
+        "closed_at": null,
+        "title": "should browsingContext.close resolve early when promptUnload is true ",
+        "labels": [
+          {
+            "id": 3221931631,
+            "node_id": "MDU6TGFiZWwzMjIxOTMxNjMx",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/module-browsingContext",
+            "name": "module-browsingContext",
+            "color": "DDDDDD",
+            "default": false,
+            "description": "Browsing Context module"
+          },
+          {
+            "id": 3965374919,
+            "node_id": "LA_kwDOD-dWHs7sWtHH",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/needs-discussion",
+            "name": "needs-discussion",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Issues to be discussed by the working group"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 851,
+        "created_at": "2025-01-10T13:07:15Z",
+        "closed_at": null,
+        "title": " Add support for \"userContexts\" argument to \"browsingContext.setViewport\" command",
+        "labels": [
+          {
+            "id": 2086912274,
+            "node_id": "MDU6TGFiZWwyMDg2OTEyMjc0",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          },
+          {
+            "id": 3221931631,
+            "node_id": "MDU6TGFiZWwzMjIxOTMxNjMx",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/module-browsingContext",
+            "name": "module-browsingContext",
+            "color": "DDDDDD",
+            "default": false,
+            "description": "Browsing Context module"
+          },
+          {
+            "id": 3965374919,
+            "node_id": "LA_kwDOD-dWHs7sWtHH",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/needs-discussion",
+            "name": "needs-discussion",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Issues to be discussed by the working group"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 850,
+        "created_at": "2025-01-10T11:30:31Z",
+        "closed_at": null,
+        "title": "Partially update the roadmap",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 849,
+        "created_at": "2025-01-10T11:20:44Z",
+        "closed_at": null,
+        "title": "Add support for \"userContexts\" argument to \"script.addPreloadScript\" command",
+        "labels": [
+          {
+            "id": 2086912274,
+            "node_id": "MDU6TGFiZWwyMDg2OTEyMjc0",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          },
+          {
+            "id": 3221933426,
+            "node_id": "MDU6TGFiZWwzMjIxOTMzNDI2",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/module-script",
+            "name": "module-script",
+            "color": "DDDDDD",
+            "default": false,
+            "description": "Script module"
+          },
+          {
+            "id": 3965374919,
+            "node_id": "LA_kwDOD-dWHs7sWtHH",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/needs-discussion",
+            "name": "needs-discussion",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Issues to be discussed by the working group"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 848,
         "created_at": "2025-01-09T14:58:15Z",
         "closed_at": null,
@@ -40,7 +155,7 @@
         "number": 847,
         "created_at": "2025-01-09T08:35:20Z",
         "closed_at": null,
-        "title": "Unsubscribe by attributes should only match a subset of subscriptions",
+        "title": "Unsubscribe by attributes should check that all events and context ids exist in subscriptions",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -246,7 +361,17 @@
         "created_at": "2024-12-20T15:32:24Z",
         "closed_at": null,
         "title": "Introduce user context subscriptions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6133625924,
+            "node_id": "LA_kwDOD-dWHs8AAAABbZe0RA",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/needs-tests",
+            "name": "needs-tests",
+            "color": "7E29B2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -345,18 +470,8 @@
         "created_at": "2024-12-10T15:30:13Z",
         "closed_at": null,
         "title": "Proposal to remove non-global unsubscribe requests for events",
-        "labels": [
-          {
-            "id": 3965374919,
-            "node_id": "LA_kwDOD-dWHs7sWtHH",
-            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/needs-discussion",
-            "name": "needs-discussion",
-            "color": "FBCA04",
-            "default": false,
-            "description": "Issues to be discussed by the working group"
-          }
-        ],
-        "assignee": null,
+        "labels": [],
+        "assignee": "OrKoN",
         "isPullRequest": false
       },
       {
