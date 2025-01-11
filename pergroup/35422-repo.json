@@ -319,7 +319,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "ljoakley",
         "isPullRequest": true
       },
       {
@@ -1251,10 +1251,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4102,
         "created_at": "2024-10-09T23:17:54Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T21:55:23Z",
         "title": "Update 3.3.2 understanding doc and g167 technique",
         "labels": [
           {
@@ -1417,10 +1417,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4088,
         "created_at": "2024-09-30T13:53:30Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T21:55:24Z",
         "title": "Clarification on 3.3.2: Does every input field need a persistent visual label?",
         "labels": [],
         "assignee": "scottaohara",
@@ -4870,6 +4870,15 @@
             "url": "https://api.github.com/repos/w3c/wcag/labels/2.5.8%20Target%20Size%20(Minimum)",
             "name": "2.5.8 Target Size (Minimum)",
             "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4864012602,
+            "node_id": "LA_kwDOAJgYVs8AAAABIerxOg",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Response-Only",
+            "name": "Response-Only",
+            "color": "9081AC",
             "default": false,
             "description": ""
           }
@@ -140611,9 +140620,29 @@
     "issues": [
       {
         "state": "open",
+        "number": 227,
+        "created_at": "2025-01-10T19:26:49Z",
+        "closed_at": null,
+        "title": "#!/bin/bash\n\nNEEDED_COMMANDS=\"curl jq docker skopeo\"\nfor c in $NEEDED_COMMANDS; do\n  if ! command -v \"$c\" &>/dev/null; then\n    echo \"⚠️  '$c' is not installed. Can't proceed with build.\"\n    exit 1\n  fi\ndone",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 223,
+        "created_at": "2025-01-10T16:54:57Z",
+        "closed_at": null,
+        "title": "B",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 203,
         "created_at": "2025-01-10T07:04:00Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T10:29:59Z",
         "title": "Kayla mutzelburg ",
         "labels": [],
         "assignee": null,
@@ -141036,6 +141065,35 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 208,
+        "created_at": "2024-10-16T22:53:55Z",
+        "closed_at": null,
+        "title": "WCAG 3 Requirements: Please provide the email address for feedback, not simply a link on the word email.",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 6011097007,
+            "node_id": "LA_kwDOJ4wjVs8AAAABZkoPrw",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/a11y-needs-resolution",
+            "name": "a11y-needs-resolution",
+            "color": "ea7472",
+            "default": false,
+            "description": "Issue the Accessibility Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
       },
       {
         "state": "open",
@@ -142450,10 +142508,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 201,
         "created_at": "2023-09-05T08:55:42Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T10:36:30Z",
         "title": "Invalid w3c.json data",
         "labels": [
           {
@@ -142500,10 +142558,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 12,
         "created_at": "2023-08-08T15:46:02Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T16:17:34Z",
         "title": "Practice Issue",
         "labels": [
           {
@@ -142709,6 +142767,302 @@
       },
       {
         "state": "open",
+        "number": 204,
+        "created_at": "2023-05-17T12:59:07Z",
+        "closed_at": null,
+        "title": "[use-cases] Problem Description is repeated",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 205,
+        "created_at": "2023-05-16T21:43:47Z",
+        "closed_at": null,
+        "title": "[use-cases] editorial ",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 206,
+        "created_at": "2023-05-16T19:34:35Z",
+        "closed_at": null,
+        "title": "WCAG 3.0 -> WCAG 3",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 207,
+        "created_at": "2023-02-23T13:53:42Z",
+        "closed_at": null,
+        "title": "Color and Contrast For Text & Non-Text Outcomes",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 209,
+        "created_at": "2023-01-25T13:30:36Z",
+        "closed_at": null,
+        "title": "About Reauthenticating and time-out",
+        "labels": [
+          {
+            "id": 7958728360,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mCOqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Organization%20Structure%20&%20Cognitive%20Support",
+            "name": "Path: Organization Structure & Cognitive Support",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 210,
+        "created_at": "2023-01-24T22:55:00Z",
+        "closed_at": null,
+        "title": "[use-cases] \"content provided to a limited group of users only\" may be problematic for a few reasons",
+        "labels": [
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 211,
+        "created_at": "2023-01-24T20:41:51Z",
+        "closed_at": null,
+        "title": "[use-cases] sensory experience example should be better",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 213,
+        "created_at": "2023-01-24T20:40:21Z",
+        "closed_at": null,
+        "title": "[use-cases] 5.7.1 should consider using `<canvas>` as a more common example",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 214,
+        "created_at": "2023-01-24T20:35:38Z",
+        "closed_at": null,
+        "title": "[use-cases] exhaustive permutations 5.1.2 could mention fuzz testing",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 215,
+        "created_at": "2023-01-24T20:29:13Z",
+        "closed_at": null,
+        "title": "[use-cases] term mismatch: \"severity level\" vs \"relative priority for people with disabilities\"?",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 216,
+        "created_at": "2023-01-24T20:25:12Z",
+        "closed_at": null,
+        "title": "[use-cases] it should be clear in §3 that considering accessibility is more about human practice/policy than software",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 217,
+        "created_at": "2023-01-24T20:22:48Z",
+        "closed_at": null,
+        "title": "[use-cases] overwhelming user-generated content example should use video sites",
+        "labels": [
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 218,
+        "created_at": "2022-12-31T16:32:21Z",
+        "closed_at": null,
+        "title": "Simplified Contrast Guidelines (an alternative to APCA): Introducing DPS Contrast",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 162,
         "created_at": "2022-12-15T17:40:31Z",
         "closed_at": null,
@@ -142799,6 +143153,166 @@
             "node_id": "LA_kwDOJ4wjVs8AAAAB2mCX-A",
             "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Interaction%20and%20AT%20Support",
             "name": "Path: Interaction and AT Support",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 212,
+        "created_at": "2022-07-11T16:30:56Z",
+        "closed_at": null,
+        "title": "APCA trademark",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 219,
+        "created_at": "2022-07-11T00:09:34Z",
+        "closed_at": null,
+        "title": "Audio contrast for clarity",
+        "labels": [
+          {
+            "id": 7958721875,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB1Uw",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Image%20and%20Media%20Alternatives%20&%20Control",
+            "name": "Path: Image and Media Alternatives & Control",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 224,
+        "created_at": "2022-06-21T15:55:47Z",
+        "closed_at": null,
+        "title": "Use-cases section 404",
+        "labels": [
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 225,
+        "created_at": "2022-06-20T17:01:31Z",
+        "closed_at": null,
+        "title": "APCA constants - consistent naming",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 226,
+        "created_at": "2022-06-16T14:49:30Z",
+        "closed_at": null,
+        "title": "APCA Luminance calculation non-standard, up to 2.5% deviation",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 222,
+        "created_at": "2022-06-14T13:44:34Z",
+        "closed_at": null,
+        "title": "\"total perceived color and lightness difference\"",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 220,
+        "created_at": "2022-05-24T15:45:34Z",
+        "closed_at": null,
+        "title": "Adjust text in testing section",
+        "labels": [
+          {
+            "id": 6011097007,
+            "node_id": "LA_kwDOJ4wjVs8AAAABZkoPrw",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/a11y-needs-resolution",
+            "name": "a11y-needs-resolution",
+            "color": "ea7472",
+            "default": false,
+            "description": "Issue the Accessibility Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 221,
+        "created_at": "2022-04-22T23:09:19Z",
+        "closed_at": null,
+        "title": "Too much contrast: halation, overstimulation, and the APCA",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
             "color": "314A45",
             "default": false,
             "description": ""
@@ -143467,9 +143981,29 @@
     "issues": [
       {
         "state": "open",
+        "number": 227,
+        "created_at": "2025-01-10T19:26:49Z",
+        "closed_at": null,
+        "title": "#!/bin/bash\n\nNEEDED_COMMANDS=\"curl jq docker skopeo\"\nfor c in $NEEDED_COMMANDS; do\n  if ! command -v \"$c\" &>/dev/null; then\n    echo \"⚠️  '$c' is not installed. Can't proceed with build.\"\n    exit 1\n  fi\ndone",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 223,
+        "created_at": "2025-01-10T16:54:57Z",
+        "closed_at": null,
+        "title": "B",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 203,
         "created_at": "2025-01-10T07:04:00Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T10:29:59Z",
         "title": "Kayla mutzelburg ",
         "labels": [],
         "assignee": null,
@@ -143892,6 +144426,35 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 208,
+        "created_at": "2024-10-16T22:53:55Z",
+        "closed_at": null,
+        "title": "WCAG 3 Requirements: Please provide the email address for feedback, not simply a link on the word email.",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 6011097007,
+            "node_id": "LA_kwDOJ4wjVs8AAAABZkoPrw",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/a11y-needs-resolution",
+            "name": "a11y-needs-resolution",
+            "color": "ea7472",
+            "default": false,
+            "description": "Issue the Accessibility Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
       },
       {
         "state": "open",
@@ -145306,10 +145869,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 201,
         "created_at": "2023-09-05T08:55:42Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T10:36:30Z",
         "title": "Invalid w3c.json data",
         "labels": [
           {
@@ -145356,10 +145919,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 12,
         "created_at": "2023-08-08T15:46:02Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T16:17:34Z",
         "title": "Practice Issue",
         "labels": [
           {
@@ -145565,6 +146128,302 @@
       },
       {
         "state": "open",
+        "number": 204,
+        "created_at": "2023-05-17T12:59:07Z",
+        "closed_at": null,
+        "title": "[use-cases] Problem Description is repeated",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 205,
+        "created_at": "2023-05-16T21:43:47Z",
+        "closed_at": null,
+        "title": "[use-cases] editorial ",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 206,
+        "created_at": "2023-05-16T19:34:35Z",
+        "closed_at": null,
+        "title": "WCAG 3.0 -> WCAG 3",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 207,
+        "created_at": "2023-02-23T13:53:42Z",
+        "closed_at": null,
+        "title": "Color and Contrast For Text & Non-Text Outcomes",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 209,
+        "created_at": "2023-01-25T13:30:36Z",
+        "closed_at": null,
+        "title": "About Reauthenticating and time-out",
+        "labels": [
+          {
+            "id": 7958728360,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mCOqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Organization%20Structure%20&%20Cognitive%20Support",
+            "name": "Path: Organization Structure & Cognitive Support",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 210,
+        "created_at": "2023-01-24T22:55:00Z",
+        "closed_at": null,
+        "title": "[use-cases] \"content provided to a limited group of users only\" may be problematic for a few reasons",
+        "labels": [
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 211,
+        "created_at": "2023-01-24T20:41:51Z",
+        "closed_at": null,
+        "title": "[use-cases] sensory experience example should be better",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 213,
+        "created_at": "2023-01-24T20:40:21Z",
+        "closed_at": null,
+        "title": "[use-cases] 5.7.1 should consider using `<canvas>` as a more common example",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 214,
+        "created_at": "2023-01-24T20:35:38Z",
+        "closed_at": null,
+        "title": "[use-cases] exhaustive permutations 5.1.2 could mention fuzz testing",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 215,
+        "created_at": "2023-01-24T20:29:13Z",
+        "closed_at": null,
+        "title": "[use-cases] term mismatch: \"severity level\" vs \"relative priority for people with disabilities\"?",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 216,
+        "created_at": "2023-01-24T20:25:12Z",
+        "closed_at": null,
+        "title": "[use-cases] it should be clear in §3 that considering accessibility is more about human practice/policy than software",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 217,
+        "created_at": "2023-01-24T20:22:48Z",
+        "closed_at": null,
+        "title": "[use-cases] overwhelming user-generated content example should use video sites",
+        "labels": [
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 218,
+        "created_at": "2022-12-31T16:32:21Z",
+        "closed_at": null,
+        "title": "Simplified Contrast Guidelines (an alternative to APCA): Introducing DPS Contrast",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 162,
         "created_at": "2022-12-15T17:40:31Z",
         "closed_at": null,
@@ -145655,6 +146514,166 @@
             "node_id": "LA_kwDOJ4wjVs8AAAAB2mCX-A",
             "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Interaction%20and%20AT%20Support",
             "name": "Path: Interaction and AT Support",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 212,
+        "created_at": "2022-07-11T16:30:56Z",
+        "closed_at": null,
+        "title": "APCA trademark",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 219,
+        "created_at": "2022-07-11T00:09:34Z",
+        "closed_at": null,
+        "title": "Audio contrast for clarity",
+        "labels": [
+          {
+            "id": 7958721875,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB1Uw",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Image%20and%20Media%20Alternatives%20&%20Control",
+            "name": "Path: Image and Media Alternatives & Control",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 224,
+        "created_at": "2022-06-21T15:55:47Z",
+        "closed_at": null,
+        "title": "Use-cases section 404",
+        "labels": [
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 225,
+        "created_at": "2022-06-20T17:01:31Z",
+        "closed_at": null,
+        "title": "APCA constants - consistent naming",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 226,
+        "created_at": "2022-06-16T14:49:30Z",
+        "closed_at": null,
+        "title": "APCA Luminance calculation non-standard, up to 2.5% deviation",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 222,
+        "created_at": "2022-06-14T13:44:34Z",
+        "closed_at": null,
+        "title": "\"total perceived color and lightness difference\"",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 220,
+        "created_at": "2022-05-24T15:45:34Z",
+        "closed_at": null,
+        "title": "Adjust text in testing section",
+        "labels": [
+          {
+            "id": 6011097007,
+            "node_id": "LA_kwDOJ4wjVs8AAAABZkoPrw",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/a11y-needs-resolution",
+            "name": "a11y-needs-resolution",
+            "color": "ea7472",
+            "default": false,
+            "description": "Issue the Accessibility Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 221,
+        "created_at": "2022-04-22T23:09:19Z",
+        "closed_at": null,
+        "title": "Too much contrast: halation, overstimulation, and the APCA",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
             "color": "314A45",
             "default": false,
             "description": ""
@@ -146323,9 +147342,29 @@
     "issues": [
       {
         "state": "open",
+        "number": 227,
+        "created_at": "2025-01-10T19:26:49Z",
+        "closed_at": null,
+        "title": "#!/bin/bash\n\nNEEDED_COMMANDS=\"curl jq docker skopeo\"\nfor c in $NEEDED_COMMANDS; do\n  if ! command -v \"$c\" &>/dev/null; then\n    echo \"⚠️  '$c' is not installed. Can't proceed with build.\"\n    exit 1\n  fi\ndone",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 223,
+        "created_at": "2025-01-10T16:54:57Z",
+        "closed_at": null,
+        "title": "B",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 203,
         "created_at": "2025-01-10T07:04:00Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T10:29:59Z",
         "title": "Kayla mutzelburg ",
         "labels": [],
         "assignee": null,
@@ -146748,6 +147787,35 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 208,
+        "created_at": "2024-10-16T22:53:55Z",
+        "closed_at": null,
+        "title": "WCAG 3 Requirements: Please provide the email address for feedback, not simply a link on the word email.",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 6011097007,
+            "node_id": "LA_kwDOJ4wjVs8AAAABZkoPrw",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/a11y-needs-resolution",
+            "name": "a11y-needs-resolution",
+            "color": "ea7472",
+            "default": false,
+            "description": "Issue the Accessibility Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
       },
       {
         "state": "open",
@@ -148162,10 +149230,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 201,
         "created_at": "2023-09-05T08:55:42Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T10:36:30Z",
         "title": "Invalid w3c.json data",
         "labels": [
           {
@@ -148212,10 +149280,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 12,
         "created_at": "2023-08-08T15:46:02Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T16:17:34Z",
         "title": "Practice Issue",
         "labels": [
           {
@@ -148421,6 +149489,302 @@
       },
       {
         "state": "open",
+        "number": 204,
+        "created_at": "2023-05-17T12:59:07Z",
+        "closed_at": null,
+        "title": "[use-cases] Problem Description is repeated",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 205,
+        "created_at": "2023-05-16T21:43:47Z",
+        "closed_at": null,
+        "title": "[use-cases] editorial ",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 206,
+        "created_at": "2023-05-16T19:34:35Z",
+        "closed_at": null,
+        "title": "WCAG 3.0 -> WCAG 3",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 207,
+        "created_at": "2023-02-23T13:53:42Z",
+        "closed_at": null,
+        "title": "Color and Contrast For Text & Non-Text Outcomes",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 209,
+        "created_at": "2023-01-25T13:30:36Z",
+        "closed_at": null,
+        "title": "About Reauthenticating and time-out",
+        "labels": [
+          {
+            "id": 7958728360,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mCOqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Organization%20Structure%20&%20Cognitive%20Support",
+            "name": "Path: Organization Structure & Cognitive Support",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 210,
+        "created_at": "2023-01-24T22:55:00Z",
+        "closed_at": null,
+        "title": "[use-cases] \"content provided to a limited group of users only\" may be problematic for a few reasons",
+        "labels": [
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 211,
+        "created_at": "2023-01-24T20:41:51Z",
+        "closed_at": null,
+        "title": "[use-cases] sensory experience example should be better",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 213,
+        "created_at": "2023-01-24T20:40:21Z",
+        "closed_at": null,
+        "title": "[use-cases] 5.7.1 should consider using `<canvas>` as a more common example",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 214,
+        "created_at": "2023-01-24T20:35:38Z",
+        "closed_at": null,
+        "title": "[use-cases] exhaustive permutations 5.1.2 could mention fuzz testing",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 215,
+        "created_at": "2023-01-24T20:29:13Z",
+        "closed_at": null,
+        "title": "[use-cases] term mismatch: \"severity level\" vs \"relative priority for people with disabilities\"?",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 216,
+        "created_at": "2023-01-24T20:25:12Z",
+        "closed_at": null,
+        "title": "[use-cases] it should be clear in §3 that considering accessibility is more about human practice/policy than software",
+        "labels": [
+          {
+            "id": 5802349736,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdjUqA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/editorial",
+            "name": "editorial",
+            "color": "C5DEF5",
+            "default": false,
+            "description": "Spelling and grammar fixes, typos, and other small changes that do not alter meaning"
+          },
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 217,
+        "created_at": "2023-01-24T20:22:48Z",
+        "closed_at": null,
+        "title": "[use-cases] overwhelming user-generated content example should use video sites",
+        "labels": [
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 218,
+        "created_at": "2022-12-31T16:32:21Z",
+        "closed_at": null,
+        "title": "Simplified Contrast Guidelines (an alternative to APCA): Introducing DPS Contrast",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 162,
         "created_at": "2022-12-15T17:40:31Z",
         "closed_at": null,
@@ -148511,6 +149875,166 @@
             "node_id": "LA_kwDOJ4wjVs8AAAAB2mCX-A",
             "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Interaction%20and%20AT%20Support",
             "name": "Path: Interaction and AT Support",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 212,
+        "created_at": "2022-07-11T16:30:56Z",
+        "closed_at": null,
+        "title": "APCA trademark",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 219,
+        "created_at": "2022-07-11T00:09:34Z",
+        "closed_at": null,
+        "title": "Audio contrast for clarity",
+        "labels": [
+          {
+            "id": 7958721875,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB1Uw",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Image%20and%20Media%20Alternatives%20&%20Control",
+            "name": "Path: Image and Media Alternatives & Control",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 224,
+        "created_at": "2022-06-21T15:55:47Z",
+        "closed_at": null,
+        "title": "Use-cases section 404",
+        "labels": [
+          {
+            "id": 5802362020,
+            "node_id": "LA_kwDOJ4wjVs8AAAABWdkEpA",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Please%20Review",
+            "name": "Please Review",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item needs wide review before being added to the agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 225,
+        "created_at": "2022-06-20T17:01:31Z",
+        "closed_at": null,
+        "title": "APCA constants - consistent naming",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 226,
+        "created_at": "2022-06-16T14:49:30Z",
+        "closed_at": null,
+        "title": "APCA Luminance calculation non-standard, up to 2.5% deviation",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 222,
+        "created_at": "2022-06-14T13:44:34Z",
+        "closed_at": null,
+        "title": "\"total perceived color and lightness difference\"",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
+            "color": "314A45",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 220,
+        "created_at": "2022-05-24T15:45:34Z",
+        "closed_at": null,
+        "title": "Adjust text in testing section",
+        "labels": [
+          {
+            "id": 6011097007,
+            "node_id": "LA_kwDOJ4wjVs8AAAABZkoPrw",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/a11y-needs-resolution",
+            "name": "a11y-needs-resolution",
+            "color": "ea7472",
+            "default": false,
+            "description": "Issue the Accessibility Group has raised and looks for a response on."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 221,
+        "created_at": "2022-04-22T23:09:19Z",
+        "closed_at": null,
+        "title": "Too much contrast: halation, overstimulation, and the APCA",
+        "labels": [
+          {
+            "id": 7958723785,
+            "node_id": "LA_kwDOJ4wjVs8AAAAB2mB8yQ",
+            "url": "https://api.github.com/repos/w3c/wcag3/labels/Path:%20Visual%20appearance",
+            "name": "Path: Visual appearance",
             "color": "314A45",
             "default": false,
             "description": ""
@@ -149490,7 +151014,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "ljoakley",
         "isPullRequest": true
       },
       {
@@ -150422,10 +151946,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4102,
         "created_at": "2024-10-09T23:17:54Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T21:55:23Z",
         "title": "Update 3.3.2 understanding doc and g167 technique",
         "labels": [
           {
@@ -150588,10 +152112,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4088,
         "created_at": "2024-09-30T13:53:30Z",
-        "closed_at": null,
+        "closed_at": "2025-01-10T21:55:24Z",
         "title": "Clarification on 3.3.2: Does every input field need a persistent visual label?",
         "labels": [],
         "assignee": "scottaohara",
@@ -154041,6 +155565,15 @@
             "url": "https://api.github.com/repos/w3c/wcag/labels/2.5.8%20Target%20Size%20(Minimum)",
             "name": "2.5.8 Target Size (Minimum)",
             "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 4864012602,
+            "node_id": "LA_kwDOAJgYVs8AAAABIerxOg",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Response-Only",
+            "name": "Response-Only",
+            "color": "9081AC",
             "default": false,
             "description": ""
           }
@@ -248599,6 +250132,26 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "open",
+        "number": 606,
+        "created_at": "2025-01-10T21:48:12Z",
+        "closed_at": null,
+        "title": "Revise word substitution in glossary 'target'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 605,
+        "created_at": "2025-01-10T10:46:15Z",
+        "closed_at": null,
+        "title": "4.1.2 Name, Role, Value: clarify that non-web software does not have a user agent",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 604,
         "created_at": "2025-01-08T06:23:59Z",
@@ -258588,6 +260141,26 @@
     },
     "recTrack": false,
     "issues": [
+      {
+        "state": "open",
+        "number": 606,
+        "created_at": "2025-01-10T21:48:12Z",
+        "closed_at": null,
+        "title": "Revise word substitution in glossary 'target'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 605,
+        "created_at": "2025-01-10T10:46:15Z",
+        "closed_at": null,
+        "title": "4.1.2 Name, Role, Value: clarify that non-web software does not have a user agent",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 604,
