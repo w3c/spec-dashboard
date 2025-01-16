@@ -13674,6 +13674,15 @@
         "title": "Reword self-asserted VC in VP text to remove MUST.",
         "labels": [
           {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
             "id": 6443664038,
             "node_id": "LA_kwDOBGbiEc8AAAABgBKCpg",
             "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR2",
@@ -13681,15 +13690,6 @@
             "color": "5DF84B",
             "default": false,
             "description": ""
-          },
-          {
-            "id": 6517219031,
-            "node_id": "LA_kwDOBGbiEc8AAAABhHTe1w",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/normative",
-            "name": "normative",
-            "color": "D93F0B",
-            "default": false,
-            "description": "The PR is a normative change to the CR specification"
           }
         ],
         "assignee": null,
@@ -14164,24 +14164,6 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
-          },
-          {
-            "id": 1305913630,
-            "node_id": "MDU6TGFiZWwxMzA1OTEzNjMw",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pending%20close",
-            "name": "pending close",
-            "color": "95f4a8",
-            "default": false,
-            "description": "Close if no objection within 7 days"
-          },
-          {
-            "id": 1450846903,
-            "node_id": "MDU6TGFiZWwxNDUwODQ2OTAz",
-            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/DO%20NOT%20MERGE",
-            "name": "DO NOT MERGE",
-            "color": "ff4444",
-            "default": false,
-            "description": "PR contains something that should not be merged."
           },
           {
             "id": 6642085319,
@@ -46004,6 +45986,35 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 92,
+        "created_at": "2025-01-15T15:58:48Z",
+        "closed_at": null,
+        "title": "Update Editors, Authors, and Acknowledgements based on latest data.",
+        "labels": [
+          {
+            "id": 6310340900,
+            "node_id": "LA_kwDOGuDtXc8AAAABeCApJA",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "The item is editorial in nature."
+          },
+          {
+            "id": 8004086665,
+            "node_id": "LA_kwDOGuDtXc8AAAAB3RSriQ",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/CR2",
+            "name": "CR2",
+            "color": "0052CC",
+            "default": false,
+            "description": "This item was processed during the second Candidate Recommendation Phase"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 90,
