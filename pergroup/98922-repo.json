@@ -2895,10 +2895,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 196,
         "created_at": "2025-01-06T21:01:09Z",
-        "closed_at": null,
+        "closed_at": "2025-01-19T21:50:04Z",
         "title": "added note clarifying that credentialSubject.id is not used ",
         "labels": [],
         "assignee": null,
@@ -2925,21 +2925,12 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 194,
         "created_at": "2024-12-11T18:16:00Z",
-        "closed_at": null,
+        "closed_at": "2025-01-19T22:01:18Z",
         "title": "Implementer's feedback on multiple status entries in a single list",
         "labels": [
-          {
-            "id": 5074160626,
-            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "0E8A16",
-            "default": false,
-            "description": ""
-          },
           {
             "id": 5074231477,
             "node_id": "LA_kwDOE-wAx88AAAABLnKgtQ",
@@ -2948,6 +2939,15 @@
             "color": "BB6CBF",
             "default": false,
             "description": "This issue is a discussion with no clear change requested"
+          },
+          {
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "0E8A16",
+            "default": false,
+            "description": ""
           },
           {
             "id": 6545607940,
@@ -3251,17 +3251,17 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 184,
         "created_at": "2024-11-20T14:33:25Z",
-        "closed_at": null,
+        "closed_at": "2025-01-19T21:52:23Z",
         "title": "Clarification on multiple items inside `BitstringStatusListCredential.credentialSubject`",
         "labels": [
           {
-            "id": 5074160626,
-            "node_id": "LA_kwDOE-wAx88AAAABLnGL8g",
-            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/ready%20for%20pr",
-            "name": "ready for pr",
+            "id": 6152580701,
+            "node_id": "LA_kwDOE-wAx88AAAABbrjuXQ",
+            "url": "https://api.github.com/repos/w3c/vc-bitstring-status-list/labels/pr%20exists",
+            "name": "pr exists",
             "color": "0E8A16",
             "default": false,
             "description": ""
@@ -7052,6 +7052,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 331,
+        "created_at": "2025-01-19T23:20:17Z",
+        "closed_at": null,
+        "title": "Clearly identify acknowledgements of anonymous contributors via GitHub IDs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 330,
@@ -13676,6 +13686,55 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 1587,
+        "created_at": "2025-01-20T07:23:33Z",
+        "closed_at": null,
+        "title": "Removed the \"MUST\" for error conditions to be in sync with CID and DI",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1586,
+        "created_at": "2025-01-20T04:49:42Z",
+        "closed_at": null,
+        "title": "First item of VC context is a URL with the value https://www.w3.org/ns/credentials/v2",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1585,
+        "created_at": "2025-01-19T19:46:26Z",
+        "closed_at": null,
+        "title": "2nd attempt at finalizing list of Editors, Authors, and Acknowledgements.",
+        "labels": [
+          {
+            "id": 490235934,
+            "node_id": "MDU6TGFiZWw0OTAyMzU5MzQ=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6443664038,
+            "node_id": "LA_kwDOBGbiEc8AAAABgBKCpg",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR2",
+            "name": "CR2",
+            "color": "0052CC",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 1584,
         "created_at": "2025-01-18T19:50:51Z",
@@ -13700,6 +13759,24 @@
             "color": "ffff00",
             "default": false,
             "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          },
+          {
+            "id": 4366401593,
+            "node_id": "LA_kwDOBGbiEc8AAAABBEIAOQ",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/discuss",
+            "name": "discuss",
+            "color": "E13AF3",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6443664038,
+            "node_id": "LA_kwDOBGbiEc8AAAABgBKCpg",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR2",
+            "name": "CR2",
+            "color": "0052CC",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": null,
@@ -13735,10 +13812,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1581,
         "created_at": "2025-01-13T18:07:33Z",
-        "closed_at": null,
+        "closed_at": "2025-01-19T19:48:43Z",
         "title": "Fix JsonSchema of the Verifiable Credential",
         "labels": [
           {
@@ -13764,10 +13841,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1580,
         "created_at": "2025-01-13T17:07:28Z",
-        "closed_at": null,
+        "closed_at": "2025-01-19T19:48:24Z",
         "title": "Reword self-asserted VC in VP text to remove MUST.",
         "labels": [
           {
@@ -13822,10 +13899,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1577,
         "created_at": "2024-12-18T02:30:56Z",
-        "closed_at": null,
+        "closed_at": "2025-01-19T19:57:09Z",
         "title": "JSON Schema needs updates",
         "labels": [
           {
@@ -13836,6 +13913,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 974913848,
+            "node_id": "MDU6TGFiZWw5NzQ5MTM4NDg=",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "11e0a2",
+            "default": false,
+            "description": ""
           },
           {
             "id": 6642085319,
@@ -44931,7 +45017,7 @@
             "description": "This item was processed during the first Candidate Recommendation phase."
           }
         ],
-        "assignee": null,
+        "assignee": "Wind4Greg",
         "isPullRequest": false
       },
       {
@@ -46734,6 +46820,35 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 107,
+        "created_at": "2025-01-19T23:25:38Z",
+        "closed_at": null,
+        "title": "Update Editors, Authors, and Acknowledgements based on latest data.",
+        "labels": [
+          {
+            "id": 6310329186,
+            "node_id": "LA_kwDOEacMp88AAAABeB_7Yg",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/editorial",
+            "name": "editorial",
+            "color": "24942A",
+            "default": false,
+            "description": "This item is editorial in nature."
+          },
+          {
+            "id": 7955838189,
+            "node_id": "LA_kwDOEacMp88AAAAB2jR07Q",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/CR2",
+            "name": "CR2",
+            "color": "1D76DB",
+            "default": false,
+            "description": "This item was processed during the second Candidate Recommendation Phase"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 106,
         "created_at": "2024-12-17T00:16:05Z",
@@ -46771,22 +46886,22 @@
         "title": "Requirements around the `@context` proof property",
         "labels": [
           {
-            "id": 6310332255,
-            "node_id": "LA_kwDOEacMp88AAAABeCAHXw",
-            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/normative",
-            "name": "normative",
-            "color": "D93F0B",
-            "default": false,
-            "description": "This item is a substantive or normative change."
-          },
-          {
-            "id": 7761398443,
-            "node_id": "LA_kwDOEacMp88AAAABzp2Kqw",
-            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/discuss",
-            "name": "discuss",
-            "color": "5319E7",
+            "id": 5886269683,
+            "node_id": "LA_kwDOEacMp88AAAABXtlY8w",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/ready%20for%20pr",
+            "name": "ready for pr",
+            "color": "6FB03F",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 6310329186,
+            "node_id": "LA_kwDOEacMp88AAAABeB_7Yg",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/editorial",
+            "name": "editorial",
+            "color": "24942A",
+            "default": false,
+            "description": "This item is editorial in nature."
           },
           {
             "id": 7955838189,
@@ -46798,7 +46913,7 @@
             "description": "This item was processed during the second Candidate Recommendation Phase"
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
