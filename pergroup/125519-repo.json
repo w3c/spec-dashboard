@@ -8,19 +8,19 @@
     "issues": [
       {
         "state": "open",
-        "number": 5053,
-        "created_at": "2025-01-28T02:08:50Z",
+        "number": 5056,
+        "created_at": "2025-01-30T01:38:41Z",
         "closed_at": null,
-        "title": "Compat: disallow multisampled integer textures",
+        "title": "[editorial] Compat: Move IDL for textureBindingViewDimension into the appropriate section",
         "labels": [
           {
-            "id": 6397436712,
-            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
-            "name": "compat",
-            "color": "4E146D",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
             "default": false,
-            "description": "WebGPU Compatibility Mode"
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           },
           {
             "id": 6892417588,
@@ -37,11 +37,135 @@
       },
       {
         "state": "open",
+        "number": 5055,
+        "created_at": "2025-01-30T01:05:16Z",
+        "closed_at": null,
+        "title": "Compat: Require capabilities provided by GL_EXT_color_buffer_float",
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 5054,
+        "created_at": "2025-01-29T10:21:53Z",
+        "closed_at": null,
+        "title": "Define WGSL assertions as their own kind",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 5053,
+        "created_at": "2025-01-28T02:08:50Z",
+        "closed_at": "2025-01-29T21:51:00Z",
+        "title": "Compat: disallow multisampled integer textures",
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 5052,
         "created_at": "2025-01-27T22:16:28Z",
-        "closed_at": null,
+        "closed_at": "2025-01-30T00:08:17Z",
         "title": "Compat: disallow multisampled f16/f32 textures",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -76,10 +200,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5049,
         "created_at": "2025-01-23T03:00:51Z",
-        "closed_at": null,
+        "closed_at": "2025-01-30T01:05:03Z",
         "title": "EXT_color_buffer_float provides less support than WebGPU Core",
         "labels": [
           {
@@ -90,6 +214,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -424,10 +557,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5037,
         "created_at": "2025-01-07T05:39:19Z",
-        "closed_at": null,
+        "closed_at": "2025-01-30T01:54:34Z",
         "title": "Compat: remove GPUAdapter.featureLevel",
         "labels": [
           {
@@ -457,7 +590,7 @@
         "number": 5036,
         "created_at": "2025-01-07T05:29:38Z",
         "closed_at": null,
-        "title": "Compat: add \"webgpu-core\" feature so Compat adapters can be Core-capable",
+        "title": "Compat: remove adapter.featureLevel; add \"webgpu-core\"",
         "labels": [
           {
             "id": 764946281,
@@ -545,6 +678,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
         "assignee": null,
@@ -674,7 +816,26 @@
         "created_at": "2024-12-17T19:35:45Z",
         "closed_at": null,
         "title": "Loosen viewport validation requirements",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -693,6 +854,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
         "assignee": null,
@@ -713,6 +883,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
         "assignee": null,
@@ -794,7 +973,17 @@
         "created_at": "2024-12-12T00:46:30Z",
         "closed_at": null,
         "title": "Add and name Features for all Compat Mode limitations.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -931,7 +1120,17 @@
         "created_at": "2024-12-05T22:13:25Z",
         "closed_at": "2024-12-19T00:33:42Z",
         "title": "Compatibility Mode: update to use featureLevel.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1040,6 +1239,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -1420,7 +1628,17 @@
         "created_at": "2024-11-22T00:22:43Z",
         "closed_at": "2024-11-22T16:36:57Z",
         "title": "Compat: Disallow using a depth texture with a non-comparison sampler",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1527,7 +1745,17 @@
         "created_at": "2024-11-20T17:20:35Z",
         "closed_at": "2024-12-04T15:16:45Z",
         "title": "Compat mode: make f16 and f32 rendering optional.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2467,10 +2695,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4940,
         "created_at": "2024-10-25T13:47:00Z",
-        "closed_at": null,
+        "closed_at": "2025-01-29T10:10:46Z",
         "title": "Add a proposal for sized-binding-arrays",
         "labels": [
           {
@@ -89848,15 +90076,6 @@
         "closed_at": null,
         "title": "Viewport rect must lie entirely within the current attachment size?",
         "labels": [
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
-          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -95006,19 +95225,19 @@
     "issues": [
       {
         "state": "open",
-        "number": 5053,
-        "created_at": "2025-01-28T02:08:50Z",
+        "number": 5056,
+        "created_at": "2025-01-30T01:38:41Z",
         "closed_at": null,
-        "title": "Compat: disallow multisampled integer textures",
+        "title": "[editorial] Compat: Move IDL for textureBindingViewDimension into the appropriate section",
         "labels": [
           {
-            "id": 6397436712,
-            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
-            "name": "compat",
-            "color": "4E146D",
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
             "default": false,
-            "description": "WebGPU Compatibility Mode"
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           },
           {
             "id": 6892417588,
@@ -95035,11 +95254,135 @@
       },
       {
         "state": "open",
+        "number": 5055,
+        "created_at": "2025-01-30T01:05:16Z",
+        "closed_at": null,
+        "title": "Compat: Require capabilities provided by GL_EXT_color_buffer_float",
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 5054,
+        "created_at": "2025-01-29T10:21:53Z",
+        "closed_at": null,
+        "title": "Define WGSL assertions as their own kind",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 5053,
+        "created_at": "2025-01-28T02:08:50Z",
+        "closed_at": "2025-01-29T21:51:00Z",
+        "title": "Compat: disallow multisampled integer textures",
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 5052,
         "created_at": "2025-01-27T22:16:28Z",
-        "closed_at": null,
+        "closed_at": "2025-01-30T00:08:17Z",
         "title": "Compat: disallow multisampled f16/f32 textures",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -95074,10 +95417,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5049,
         "created_at": "2025-01-23T03:00:51Z",
-        "closed_at": null,
+        "closed_at": "2025-01-30T01:05:03Z",
         "title": "EXT_color_buffer_float provides less support than WebGPU Core",
         "labels": [
           {
@@ -95088,6 +95431,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -95422,10 +95774,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5037,
         "created_at": "2025-01-07T05:39:19Z",
-        "closed_at": null,
+        "closed_at": "2025-01-30T01:54:34Z",
         "title": "Compat: remove GPUAdapter.featureLevel",
         "labels": [
           {
@@ -95455,7 +95807,7 @@
         "number": 5036,
         "created_at": "2025-01-07T05:29:38Z",
         "closed_at": null,
-        "title": "Compat: add \"webgpu-core\" feature so Compat adapters can be Core-capable",
+        "title": "Compat: remove adapter.featureLevel; add \"webgpu-core\"",
         "labels": [
           {
             "id": 764946281,
@@ -95543,6 +95895,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
         "assignee": null,
@@ -95672,7 +96033,26 @@
         "created_at": "2024-12-17T19:35:45Z",
         "closed_at": null,
         "title": "Loosen viewport validation requirements",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -95691,6 +96071,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
         "assignee": null,
@@ -95711,6 +96100,15 @@
             "color": "ff59dd",
             "default": false,
             "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
         "assignee": null,
@@ -95792,7 +96190,17 @@
         "created_at": "2024-12-12T00:46:30Z",
         "closed_at": null,
         "title": "Add and name Features for all Compat Mode limitations.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -95929,7 +96337,17 @@
         "created_at": "2024-12-05T22:13:25Z",
         "closed_at": "2024-12-19T00:33:42Z",
         "title": "Compatibility Mode: update to use featureLevel.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -96038,6 +96456,15 @@
             "color": "4E146D",
             "default": false,
             "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
           },
           {
             "id": 6892417588,
@@ -96418,7 +96845,17 @@
         "created_at": "2024-11-22T00:22:43Z",
         "closed_at": "2024-11-22T16:36:57Z",
         "title": "Compat: Disallow using a depth texture with a non-comparison sampler",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -96525,7 +96962,17 @@
         "created_at": "2024-11-20T17:20:35Z",
         "closed_at": "2024-12-04T15:16:45Z",
         "title": "Compat mode: make f16 and f32 rendering optional.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -97465,10 +97912,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4940,
         "created_at": "2024-10-25T13:47:00Z",
-        "closed_at": null,
+        "closed_at": "2025-01-29T10:10:46Z",
         "title": "Add a proposal for sized-binding-arrays",
         "labels": [
           {
@@ -184846,15 +185293,6 @@
         "closed_at": null,
         "title": "Viewport rect must lie entirely within the current attachment size?",
         "labels": [
-          {
-            "id": 3727713513,
-            "node_id": "LA_kwDOBNvGe87eMGTp",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/tacit%20resolution%20candidate",
-            "name": "tacit resolution candidate",
-            "color": "E99695",
-            "default": false,
-            "description": "Editors may be able to resolve and move to tacit resolution queue"
-          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
