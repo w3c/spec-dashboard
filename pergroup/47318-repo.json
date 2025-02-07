@@ -121,7 +121,7 @@
         "number": 141,
         "created_at": "2024-03-29T21:56:21Z",
         "closed_at": null,
-        "title": "Set Default Audio Output Device in MediaDevices",
+        "title": "Set Preferred (default) Audio Output Device in MediaDevices",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -34858,9 +34858,19 @@
     "issues": [
       {
         "state": "open",
+        "number": 239,
+        "created_at": "2025-02-07T00:27:07Z",
+        "closed_at": null,
+        "title": "Fix {de}serialization steps to transfer data appropriately",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 238,
         "created_at": "2025-02-03T20:26:12Z",
-        "closed_at": null,
+        "closed_at": "2025-02-07T00:00:21Z",
         "title": "Make RTCEncodedVideoFrame and RTCEncodedAudioFrame transferable",
         "labels": [],
         "assignee": "jan-ivar",
@@ -34872,7 +34882,17 @@
         "created_at": "2025-02-03T09:45:13Z",
         "closed_at": null,
         "title": "Add receiveTime field to RTCEncodedVideoFrameMetadata and RTCEncodedAudioFrame",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2715408921,
+            "node_id": "MDU6TGFiZWwyNzE1NDA4OTIx",
+            "url": "https://api.github.com/repos/w3c/webrtc-encoded-transform/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "8D526D",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -40693,6 +40713,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 795,
+        "created_at": "2025-02-06T17:59:21Z",
+        "closed_at": null,
+        "title": "Do not expose unknown usernameFragment to stats",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 794,
