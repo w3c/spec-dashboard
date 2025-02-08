@@ -7078,11 +7078,41 @@
     "issues": [
       {
         "state": "open",
+        "number": 578,
+        "created_at": "2025-02-07T18:58:57Z",
+        "closed_at": null,
+        "title": "Should html aam provide mappings for other user agents?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 577,
+        "created_at": "2025-02-07T15:12:25Z",
+        "closed_at": "2025-02-07T20:00:13Z",
+        "title": "Implicit role of `<img alt aria-label=\"foo\" />`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 576,
         "created_at": "2025-02-06T20:47:16Z",
         "closed_at": null,
         "title": "Clarify attribute mapping tables",
-        "labels": [],
+        "labels": [
+          {
+            "id": 799767601,
+            "node_id": "MDU6TGFiZWw3OTk3Njc2MDE=",
+            "url": "https://api.github.com/repos/w3c/html-aam/labels/editorial",
+            "name": "editorial",
+            "color": "15d66f",
+            "default": false,
+            "description": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -11697,7 +11727,7 @@
             "description": "Related to accessible name or description"
           }
         ],
-        "assignee": null,
+        "assignee": "scottaohara",
         "isPullRequest": false
       },
       {
@@ -12065,7 +12095,7 @@
             "description": "Related to accessible name or description"
           }
         ],
-        "assignee": null,
+        "assignee": "scottaohara",
         "isPullRequest": false
       },
       {
@@ -12265,7 +12295,7 @@
             "description": "Related to accessible name or description"
           }
         ],
-        "assignee": null,
+        "assignee": "scottaohara",
         "isPullRequest": false
       },
       {
@@ -12295,7 +12325,7 @@
             "description": "Related to accessible name or description"
           }
         ],
-        "assignee": null,
+        "assignee": "scottaohara",
         "isPullRequest": false
       },
       {
@@ -12628,10 +12658,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 131,
         "created_at": "2018-05-03T15:48:30Z",
-        "closed_at": null,
+        "closed_at": "2025-02-07T18:59:34Z",
         "title": "Android mappings",
         "labels": [],
         "assignee": "stevefaulkner",
@@ -12781,7 +12811,7 @@
             "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "rahimabdi",
         "isPullRequest": false
       },
       {
@@ -12935,10 +12965,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 551,
         "created_at": "2017-10-17T20:04:23Z",
-        "closed_at": null,
+        "closed_at": "2025-02-07T18:47:42Z",
         "title": "text formatting semantics",
         "labels": [
           {
@@ -13051,7 +13081,7 @@
             "description": "Related to accessible name or description"
           }
         ],
-        "assignee": "stevefaulkner",
+        "assignee": "rahimabdi",
         "isPullRequest": false
       },
       {
@@ -13630,7 +13660,7 @@
             "description": ""
           }
         ],
-        "assignee": "asurkov",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -13649,18 +13679,8 @@
         "created_at": "2016-10-12T03:25:15Z",
         "closed_at": null,
         "title": "HTML-AAM: determine right mappings for browser generated form validation error messages",
-        "labels": [
-          {
-            "id": 7203519210,
-            "node_id": "LA_kwDOBCc1Ks8AAAABrVz66g",
-            "url": "https://api.github.com/repos/w3c/html-aam/labels/css-aam",
-            "name": "css-aam",
-            "color": "C434C0",
-            "default": false,
-            "description": "Related to CSS platform accessibility API mappings"
-          }
-        ],
-        "assignee": "asurkov",
+        "labels": [],
+        "assignee": "rahimabdi",
         "isPullRequest": false
       },
       {
@@ -13820,7 +13840,7 @@
         "closed_at": null,
         "title": "HTML-AAM: need string values for all HTML form elements to plug into accname-aam step 2E",
         "labels": [],
-        "assignee": "stevefaulkner",
+        "assignee": "rahimabdi",
         "isPullRequest": false
       },
       {
@@ -13890,7 +13910,7 @@
             "description": "Related to accessible name or description"
           }
         ],
-        "assignee": "stevefaulkner",
+        "assignee": "scottaohara",
         "isPullRequest": false
       },
       {
@@ -14320,6 +14340,66 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 2429,
+        "created_at": "2025-02-08T01:20:29Z",
+        "closed_at": null,
+        "title": "Table caption, table headers, term definitions are almost unreadable in dark mode",
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2428,
+        "created_at": "2025-02-07T19:54:45Z",
+        "closed_at": "2025-02-07T20:00:12Z",
+        "title": "add note to img alt=\"\" table",
+        "labels": [
+          {
+            "id": 7076203217,
+            "node_id": "LA_kwDOART0M88AAAABpcZK0Q",
+            "url": "https://api.github.com/repos/w3c/aria/labels/spec:html-aam",
+            "name": "spec:html-aam",
+            "color": "1DD6E1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2427,
+        "created_at": "2025-02-07T15:03:36Z",
+        "closed_at": null,
+        "title": "`svg` element in HTML-AAM, SVG-AAM and WAI-ARIA Graphics Module specs",
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 2426,
