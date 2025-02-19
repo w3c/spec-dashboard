@@ -8,6 +8,94 @@
     "issues": [
       {
         "state": "open",
+        "number": 5075,
+        "created_at": "2025-02-19T01:06:24Z",
+        "closed_at": null,
+        "title": "rg11b10ufloat-renderable makes rg11b10ufloat resolvable?",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5074,
+        "created_at": "2025-02-18T22:27:56Z",
+        "closed_at": null,
+        "title": "Actually explain that WebGPU is automatically synchronized",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5073,
+        "created_at": "2025-02-18T20:43:31Z",
+        "closed_at": null,
+        "title": "float to int conversion maps to value in original type",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 5072,
+        "created_at": "2025-02-18T18:02:04Z",
+        "closed_at": null,
+        "title": "The documentation for the `refract` intrinsic does not mention normalization",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 5071,
         "created_at": "2025-02-14T21:00:56Z",
         "closed_at": null,
@@ -54,6 +142,15 @@
         "title": "maxDynamicFoo should be required to be at most maxFoo in limits",
         "labels": [
           {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -72,7 +169,26 @@
         "created_at": "2025-02-13T14:27:22Z",
         "closed_at": null,
         "title": "Add GPUTextureView support to importExternalTexture()",
-        "labels": [],
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -254,10 +370,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5055,
         "created_at": "2025-01-30T01:05:16Z",
-        "closed_at": null,
+        "closed_at": "2025-02-18T17:38:15Z",
         "title": "Compat: Require capabilities provided by GL_EXT_color_buffer_float",
         "labels": [
           {
@@ -608,7 +724,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -1409,6 +1525,15 @@
         "closed_at": null,
         "title": "\"shader-f16\" requirements exclude all Qualcomm devices",
         "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -5831,10 +5956,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4810,
         "created_at": "2024-08-09T07:43:03Z",
-        "closed_at": null,
+        "closed_at": "2025-02-18T18:44:19Z",
         "title": "Allow getting adapter information from GPUDevice",
         "labels": [
           {
@@ -11402,10 +11527,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4549,
         "created_at": "2024-03-27T17:49:33Z",
-        "closed_at": null,
+        "closed_at": "2025-02-18T18:42:42Z",
         "title": "Resurrect vertex formats dropped for macOS < 10.13",
         "labels": [
           {
@@ -14133,10 +14258,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4417,
         "created_at": "2023-12-08T18:59:06Z",
-        "closed_at": null,
+        "closed_at": "2025-02-18T17:38:16Z",
         "title": "Compat: renderable float16, float32 textures",
         "labels": [
           {
@@ -95443,6 +95568,94 @@
     "issues": [
       {
         "state": "open",
+        "number": 5075,
+        "created_at": "2025-02-19T01:06:24Z",
+        "closed_at": null,
+        "title": "rg11b10ufloat-renderable makes rg11b10ufloat resolvable?",
+        "labels": [
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5074,
+        "created_at": "2025-02-18T22:27:56Z",
+        "closed_at": null,
+        "title": "Actually explain that WebGPU is automatically synchronized",
+        "labels": [
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 5073,
+        "created_at": "2025-02-18T20:43:31Z",
+        "closed_at": null,
+        "title": "float to int conversion maps to value in original type",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 5072,
+        "created_at": "2025-02-18T18:02:04Z",
+        "closed_at": null,
+        "title": "The documentation for the `refract` intrinsic does not mention normalization",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 5071,
         "created_at": "2025-02-14T21:00:56Z",
         "closed_at": null,
@@ -95489,6 +95702,15 @@
         "title": "maxDynamicFoo should be required to be at most maxFoo in limits",
         "labels": [
           {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
             "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
@@ -95507,7 +95729,26 @@
         "created_at": "2025-02-13T14:27:22Z",
         "closed_at": null,
         "title": "Add GPUTextureView support to importExternalTexture()",
-        "labels": [],
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -95689,10 +95930,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5055,
         "created_at": "2025-01-30T01:05:16Z",
-        "closed_at": null,
+        "closed_at": "2025-02-18T17:38:15Z",
         "title": "Compat: Require capabilities provided by GL_EXT_color_buffer_float",
         "labels": [
           {
@@ -96043,7 +96284,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -96844,6 +97085,15 @@
         "closed_at": null,
         "title": "\"shader-f16\" requirements exclude all Qualcomm devices",
         "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -101266,10 +101516,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4810,
         "created_at": "2024-08-09T07:43:03Z",
-        "closed_at": null,
+        "closed_at": "2025-02-18T18:44:19Z",
         "title": "Allow getting adapter information from GPUDevice",
         "labels": [
           {
@@ -106837,10 +107087,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4549,
         "created_at": "2024-03-27T17:49:33Z",
-        "closed_at": null,
+        "closed_at": "2025-02-18T18:42:42Z",
         "title": "Resurrect vertex formats dropped for macOS < 10.13",
         "labels": [
           {
@@ -109568,10 +109818,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4417,
         "created_at": "2023-12-08T18:59:06Z",
-        "closed_at": null,
+        "closed_at": "2025-02-18T17:38:16Z",
         "title": "Compat: renderable float16, float32 textures",
         "labels": [
           {
