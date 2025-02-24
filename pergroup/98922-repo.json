@@ -65,10 +65,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 149,
         "created_at": "2025-02-09T20:10:55Z",
-        "closed_at": null,
+        "closed_at": "2025-02-23T20:59:49Z",
         "title": "Add statement related to trusted caching and archiving.",
         "labels": [
           {
@@ -79,6 +79,33 @@
             "color": "D93F0B",
             "default": false,
             "description": "This item will be closed in 7 days unless there are objections."
+          },
+          {
+            "id": 7103081903,
+            "node_id": "LA_kwDOKn-QBs8AAAABp2Btrw",
+            "url": "https://api.github.com/repos/w3c/cid/labels/editorial",
+            "name": "editorial",
+            "color": "0E8A16",
+            "default": false,
+            "description": "This item is editorial in nature."
+          },
+          {
+            "id": 8166007335,
+            "node_id": "LA_kwDOKn-QBs8AAAAB5rtiJw",
+            "url": "https://api.github.com/repos/w3c/cid/labels/CR1",
+            "name": "CR1",
+            "color": "0052CC",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8175509501,
+            "node_id": "LA_kwDOKn-QBs8AAAAB50xf_Q",
+            "url": "https://api.github.com/repos/w3c/cid/labels/future",
+            "name": "future",
+            "color": "5319E7",
+            "default": false,
+            "description": "This item has been deferred to a future version."
           }
         ],
         "assignee": null,
@@ -203,9 +230,9 @@
             "node_id": "LA_kwDOKn-QBs8AAAAB50xf_Q",
             "url": "https://api.github.com/repos/w3c/cid/labels/future",
             "name": "future",
-            "color": "c2e0c6",
+            "color": "5319E7",
             "default": false,
-            "description": ""
+            "description": "This item has been deferred to a future version."
           }
         ],
         "assignee": "msporny",
@@ -3040,6 +3067,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 199,
+        "created_at": "2025-02-23T18:04:29Z",
+        "closed_at": null,
+        "title": "Remove status message feature due to lack of implementations.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "closed",
         "number": 198,
@@ -14054,20 +14091,20 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 1590,
         "created_at": "2025-02-12T08:33:20Z",
-        "closed_at": null,
+        "closed_at": "2025-02-23T13:33:04Z",
         "title": "GitHub actions: replace ubuntu-20.04 with ubuntu-latest",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1589,
         "created_at": "2025-02-04T15:41:39Z",
-        "closed_at": null,
+        "closed_at": "2025-02-23T13:32:30Z",
         "title": "Exchanged references to Controller Documents to CIDs",
         "labels": [
           {
@@ -14078,6 +14115,15 @@
             "color": "0e8a16",
             "default": false,
             "description": "Purely editorial changes to the specification."
+          },
+          {
+            "id": 6443664038,
+            "node_id": "LA_kwDOBGbiEc8AAAABgBKCpg",
+            "url": "https://api.github.com/repos/w3c/vc-data-model/labels/CR2",
+            "name": "CR2",
+            "color": "0052CC",
+            "default": false,
+            "description": ""
           }
         ],
         "assignee": "iherman",
@@ -45389,10 +45435,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 99,
         "created_at": "2025-02-18T21:45:20Z",
-        "closed_at": null,
+        "closed_at": "2025-02-23T15:26:06Z",
         "title": "Fix Cross Links to Function Definitions",
         "labels": [],
         "assignee": null,
@@ -45524,10 +45570,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 94,
         "created_at": "2025-01-22T10:02:21Z",
-        "closed_at": null,
+        "closed_at": "2025-02-23T15:26:31Z",
         "title": "Cross-references missing?",
         "labels": [
           {
@@ -45627,15 +45673,6 @@
         "title": "Indicate who is responsible for generating example documents",
         "labels": [
           {
-            "id": 5742605879,
-            "node_id": "LA_kwDOGuDtXc8AAAABVkk2Nw",
-            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "77D00A",
-            "default": false,
-            "description": "This issue is ready for a Pull Request to be created to resolve it"
-          },
-          {
             "id": 6310340900,
             "node_id": "LA_kwDOGuDtXc8AAAABeCApJA",
             "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/editorial",
@@ -45652,6 +45689,15 @@
             "color": "0052CC",
             "default": false,
             "description": "This item was processed during the second Candidate Recommendation Phase"
+          },
+          {
+            "id": 8194509054,
+            "node_id": "LA_kwDOGuDtXc8AAAAB6G5I_g",
+            "url": "https://api.github.com/repos/w3c/vc-di-ecdsa/labels/future",
+            "name": "future",
+            "color": "5319E7",
+            "default": false,
+            "description": "This item has been deferred to a future version."
           }
         ],
         "assignee": "Wind4Greg",
@@ -47661,10 +47707,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 108,
         "created_at": "2025-01-31T15:18:03Z",
-        "closed_at": null,
+        "closed_at": "2025-02-23T16:37:50Z",
         "title": "How to retrieve cryptographic material - bad link in Proof Serialization section?",
         "labels": [
           {
@@ -47695,7 +47741,7 @@
             "description": "This item was processed during the second Candidate Recommendation Phase"
           }
         ],
-        "assignee": "Wind4Greg",
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -47777,20 +47823,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 104,
         "created_at": "2024-12-10T22:21:28Z",
-        "closed_at": null,
+        "closed_at": "2025-02-23T16:09:44Z",
         "title": "Requirements around the `@context` proof property",
         "labels": [
           {
-            "id": 5886269683,
-            "node_id": "LA_kwDOEacMp88AAAABXtlY8w",
-            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "6FB03F",
+            "id": 5816990584,
+            "node_id": "LA_kwDOEacMp88AAAABWrg7eA",
+            "url": "https://api.github.com/repos/w3c/vc-di-eddsa/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "03B829",
             "default": false,
-            "description": ""
+            "description": "A Pull Request exists to address this issue."
           },
           {
             "id": 6310329186,
@@ -51176,46 +51222,6 @@
     "issues": [
       {
         "state": "open",
-        "number": 337,
-        "created_at": "2025-02-22T22:07:31Z",
-        "closed_at": null,
-        "title": "SD-JWT is not very well tested by test suite",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 336,
-        "created_at": "2025-02-22T21:04:06Z",
-        "closed_at": null,
-        "title": "33. COSE Credential with an Invalid Media Type",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 335,
-        "created_at": "2025-02-22T18:47:05Z",
-        "closed_at": null,
-        "title": "Remove unknown extensions test from test suite",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 334,
-        "created_at": "2025-02-22T18:39:08Z",
-        "closed_at": null,
-        "title": "For `+jwt` `iat` MUST be an integer",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
         "number": 333,
         "created_at": "2025-02-19T16:22:44Z",
         "closed_at": null,
@@ -51265,10 +51271,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 328,
         "created_at": "2025-02-05T17:00:02Z",
-        "closed_at": null,
+        "closed_at": "2025-02-23T17:13:21Z",
         "title": "Remove Application/cbor-diagnostic",
         "labels": [
           {
