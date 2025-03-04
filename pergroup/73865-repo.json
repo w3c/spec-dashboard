@@ -8,6 +8,95 @@
     "issues": [
       {
         "state": "open",
+        "number": 294,
+        "created_at": "2025-03-03T15:33:38Z",
+        "closed_at": null,
+        "title": "#271: Moved SPARQL definitions from Core into an appendix of SHACL-SPARQL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 291,
+        "created_at": "2025-03-03T12:42:03Z",
+        "closed_at": "2025-03-03T12:48:06Z",
+        "title": "#264, #177: Added change log entry about deleting SHACL-JS terms and …",
+        "labels": [
+          {
+            "id": 559868786,
+            "node_id": "MDU6TGFiZWw1NTk4Njg3ODY=",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Editorial%20(would%20not%20change%20implementations)",
+            "name": "Editorial (would not change implementations)",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 290,
+        "created_at": "2025-03-03T12:19:48Z",
+        "closed_at": "2025-03-03T12:42:56Z",
+        "title": "#136: Fix property reference in second example of 4.7.3",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 289,
+        "created_at": "2025-03-03T12:05:20Z",
+        "closed_at": null,
+        "title": "Create a SHACL-SHACL WG Note",
+        "labels": [
+          {
+            "id": 8033348753,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3tMskQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Administrative",
+            "name": "Administrative",
+            "color": "bfdadc",
+            "default": false,
+            "description": "WG charter, meetings, Editors appointment etc"
+          }
+        ],
+        "assignee": "nicholascar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 288,
+        "created_at": "2025-03-03T10:54:54Z",
+        "closed_at": null,
+        "title": "Add sh:SelectExpression to SHACL-SPARQL",
+        "labels": [
+          {
+            "id": 8028924365,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-pzQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/SPARQL",
+            "name": "SPARQL",
+            "color": "5845A2",
+            "default": false,
+            "description": "For SHACL 1.2 SPARQL extensions spec"
+          },
+          {
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
+            "default": false,
+            "description": "For SHACL 1.2 Node Expressions"
+          }
+        ],
+        "assignee": "HolgerKnublauch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 283,
         "created_at": "2025-03-01T22:17:01Z",
         "closed_at": null,
@@ -23,14 +112,14 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "bergos",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 282,
         "created_at": "2025-02-28T17:06:51Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T16:16:56Z",
         "title": "SHACL Rules - discussion of scope and direction",
         "labels": [
           {
@@ -146,10 +235,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 274,
         "created_at": "2025-02-25T09:22:30Z",
-        "closed_at": null,
+        "closed_at": "2025-03-04T07:30:31Z",
         "title": "#222: New (better) definition of node expressions",
         "labels": [],
         "assignee": null,
@@ -191,8 +280,27 @@
         "created_at": "2025-02-24T09:29:11Z",
         "closed_at": null,
         "title": "Where should \"Potential definition in SPARQL\" go?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 8028923197,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
+            "name": "Core",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "For SHACL 1.2 Core spec"
+          },
+          {
+            "id": 8028924365,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-pzQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/SPARQL",
+            "name": "SPARQL",
+            "color": "5845A2",
+            "default": false,
+            "description": "For SHACL 1.2 SPARQL extensions spec"
+          }
+        ],
+        "assignee": "HolgerKnublauch",
         "isPullRequest": false
       },
       {
@@ -275,10 +383,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 264,
         "created_at": "2025-02-23T12:23:50Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T12:49:06Z",
         "title": "Drop SHACL-JS terms from shacl.tt",
         "labels": [
           {
@@ -769,10 +877,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 235,
         "created_at": "2025-02-09T07:52:12Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T15:36:21Z",
         "title": "Should core be unlinked from SPARQL?",
         "labels": [
           {
@@ -996,10 +1104,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 222,
         "created_at": "2025-01-29T16:25:38Z",
-        "closed_at": null,
+        "closed_at": "2025-03-04T07:30:32Z",
         "title": "Node Expressions",
         "labels": [
           {
@@ -2633,10 +2741,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 136,
         "created_at": "2021-07-28T22:18:41Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T12:42:57Z",
         "title": "Wrong property name \"ex:property\" in second example of 4.7.3",
         "labels": [
           {
@@ -2667,7 +2775,7 @@
             "description": "For SHACL 1.2 Core spec"
           }
         ],
-        "assignee": null,
+        "assignee": "ajnelson-nist",
         "isPullRequest": false
       },
       {
@@ -4676,6 +4784,95 @@
     "issues": [
       {
         "state": "open",
+        "number": 294,
+        "created_at": "2025-03-03T15:33:38Z",
+        "closed_at": null,
+        "title": "#271: Moved SPARQL definitions from Core into an appendix of SHACL-SPARQL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 291,
+        "created_at": "2025-03-03T12:42:03Z",
+        "closed_at": "2025-03-03T12:48:06Z",
+        "title": "#264, #177: Added change log entry about deleting SHACL-JS terms and …",
+        "labels": [
+          {
+            "id": 559868786,
+            "node_id": "MDU6TGFiZWw1NTk4Njg3ODY=",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Editorial%20(would%20not%20change%20implementations)",
+            "name": "Editorial (would not change implementations)",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 290,
+        "created_at": "2025-03-03T12:19:48Z",
+        "closed_at": "2025-03-03T12:42:56Z",
+        "title": "#136: Fix property reference in second example of 4.7.3",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 289,
+        "created_at": "2025-03-03T12:05:20Z",
+        "closed_at": null,
+        "title": "Create a SHACL-SHACL WG Note",
+        "labels": [
+          {
+            "id": 8033348753,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3tMskQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Administrative",
+            "name": "Administrative",
+            "color": "bfdadc",
+            "default": false,
+            "description": "WG charter, meetings, Editors appointment etc"
+          }
+        ],
+        "assignee": "nicholascar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 288,
+        "created_at": "2025-03-03T10:54:54Z",
+        "closed_at": null,
+        "title": "Add sh:SelectExpression to SHACL-SPARQL",
+        "labels": [
+          {
+            "id": 8028924365,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-pzQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/SPARQL",
+            "name": "SPARQL",
+            "color": "5845A2",
+            "default": false,
+            "description": "For SHACL 1.2 SPARQL extensions spec"
+          },
+          {
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
+            "default": false,
+            "description": "For SHACL 1.2 Node Expressions"
+          }
+        ],
+        "assignee": "HolgerKnublauch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 283,
         "created_at": "2025-03-01T22:17:01Z",
         "closed_at": null,
@@ -4691,14 +4888,14 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "bergos",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 282,
         "created_at": "2025-02-28T17:06:51Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T16:16:56Z",
         "title": "SHACL Rules - discussion of scope and direction",
         "labels": [
           {
@@ -4814,10 +5011,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 274,
         "created_at": "2025-02-25T09:22:30Z",
-        "closed_at": null,
+        "closed_at": "2025-03-04T07:30:31Z",
         "title": "#222: New (better) definition of node expressions",
         "labels": [],
         "assignee": null,
@@ -4859,8 +5056,27 @@
         "created_at": "2025-02-24T09:29:11Z",
         "closed_at": null,
         "title": "Where should \"Potential definition in SPARQL\" go?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 8028923197,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
+            "name": "Core",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "For SHACL 1.2 Core spec"
+          },
+          {
+            "id": 8028924365,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-pzQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/SPARQL",
+            "name": "SPARQL",
+            "color": "5845A2",
+            "default": false,
+            "description": "For SHACL 1.2 SPARQL extensions spec"
+          }
+        ],
+        "assignee": "HolgerKnublauch",
         "isPullRequest": false
       },
       {
@@ -4943,10 +5159,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 264,
         "created_at": "2025-02-23T12:23:50Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T12:49:06Z",
         "title": "Drop SHACL-JS terms from shacl.tt",
         "labels": [
           {
@@ -5437,10 +5653,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 235,
         "created_at": "2025-02-09T07:52:12Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T15:36:21Z",
         "title": "Should core be unlinked from SPARQL?",
         "labels": [
           {
@@ -5664,10 +5880,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 222,
         "created_at": "2025-01-29T16:25:38Z",
-        "closed_at": null,
+        "closed_at": "2025-03-04T07:30:32Z",
         "title": "Node Expressions",
         "labels": [
           {
@@ -7301,10 +7517,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 136,
         "created_at": "2021-07-28T22:18:41Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T12:42:57Z",
         "title": "Wrong property name \"ex:property\" in second example of 4.7.3",
         "labels": [
           {
@@ -7335,7 +7551,7 @@
             "description": "For SHACL 1.2 Core spec"
           }
         ],
-        "assignee": null,
+        "assignee": "ajnelson-nist",
         "isPullRequest": false
       },
       {
@@ -9344,6 +9560,95 @@
     "issues": [
       {
         "state": "open",
+        "number": 294,
+        "created_at": "2025-03-03T15:33:38Z",
+        "closed_at": null,
+        "title": "#271: Moved SPARQL definitions from Core into an appendix of SHACL-SPARQL",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 291,
+        "created_at": "2025-03-03T12:42:03Z",
+        "closed_at": "2025-03-03T12:48:06Z",
+        "title": "#264, #177: Added change log entry about deleting SHACL-JS terms and …",
+        "labels": [
+          {
+            "id": 559868786,
+            "node_id": "MDU6TGFiZWw1NTk4Njg3ODY=",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Editorial%20(would%20not%20change%20implementations)",
+            "name": "Editorial (would not change implementations)",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 290,
+        "created_at": "2025-03-03T12:19:48Z",
+        "closed_at": "2025-03-03T12:42:56Z",
+        "title": "#136: Fix property reference in second example of 4.7.3",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 289,
+        "created_at": "2025-03-03T12:05:20Z",
+        "closed_at": null,
+        "title": "Create a SHACL-SHACL WG Note",
+        "labels": [
+          {
+            "id": 8033348753,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3tMskQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Administrative",
+            "name": "Administrative",
+            "color": "bfdadc",
+            "default": false,
+            "description": "WG charter, meetings, Editors appointment etc"
+          }
+        ],
+        "assignee": "nicholascar",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 288,
+        "created_at": "2025-03-03T10:54:54Z",
+        "closed_at": null,
+        "title": "Add sh:SelectExpression to SHACL-SPARQL",
+        "labels": [
+          {
+            "id": 8028924365,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-pzQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/SPARQL",
+            "name": "SPARQL",
+            "color": "5845A2",
+            "default": false,
+            "description": "For SHACL 1.2 SPARQL extensions spec"
+          },
+          {
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
+            "default": false,
+            "description": "For SHACL 1.2 Node Expressions"
+          }
+        ],
+        "assignee": "HolgerKnublauch",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 283,
         "created_at": "2025-03-01T22:17:01Z",
         "closed_at": null,
@@ -9359,14 +9664,14 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "bergos",
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 282,
         "created_at": "2025-02-28T17:06:51Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T16:16:56Z",
         "title": "SHACL Rules - discussion of scope and direction",
         "labels": [
           {
@@ -9482,10 +9787,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 274,
         "created_at": "2025-02-25T09:22:30Z",
-        "closed_at": null,
+        "closed_at": "2025-03-04T07:30:31Z",
         "title": "#222: New (better) definition of node expressions",
         "labels": [],
         "assignee": null,
@@ -9527,8 +9832,27 @@
         "created_at": "2025-02-24T09:29:11Z",
         "closed_at": null,
         "title": "Where should \"Potential definition in SPARQL\" go?",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 8028923197,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
+            "name": "Core",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "For SHACL 1.2 Core spec"
+          },
+          {
+            "id": 8028924365,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-pzQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/SPARQL",
+            "name": "SPARQL",
+            "color": "5845A2",
+            "default": false,
+            "description": "For SHACL 1.2 SPARQL extensions spec"
+          }
+        ],
+        "assignee": "HolgerKnublauch",
         "isPullRequest": false
       },
       {
@@ -9611,10 +9935,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 264,
         "created_at": "2025-02-23T12:23:50Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T12:49:06Z",
         "title": "Drop SHACL-JS terms from shacl.tt",
         "labels": [
           {
@@ -10105,10 +10429,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 235,
         "created_at": "2025-02-09T07:52:12Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T15:36:21Z",
         "title": "Should core be unlinked from SPARQL?",
         "labels": [
           {
@@ -10332,10 +10656,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 222,
         "created_at": "2025-01-29T16:25:38Z",
-        "closed_at": null,
+        "closed_at": "2025-03-04T07:30:32Z",
         "title": "Node Expressions",
         "labels": [
           {
@@ -11969,10 +12293,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 136,
         "created_at": "2021-07-28T22:18:41Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T12:42:57Z",
         "title": "Wrong property name \"ex:property\" in second example of 4.7.3",
         "labels": [
           {
@@ -12003,7 +12327,7 @@
             "description": "For SHACL 1.2 Core spec"
           }
         ],
-        "assignee": null,
+        "assignee": "ajnelson-nist",
         "isPullRequest": false
       },
       {
