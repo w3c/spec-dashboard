@@ -8,9 +8,29 @@
     "issues": [
       {
         "state": "open",
+        "number": 883,
+        "created_at": "2025-03-03T22:44:29Z",
+        "closed_at": null,
+        "title": "Add text clarifying where group controllers might be listed.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 882,
+        "created_at": "2025-03-03T17:08:35Z",
+        "closed_at": null,
+        "title": "Add link to fragment resolution algorithm.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 881,
         "created_at": "2025-02-25T13:12:00Z",
-        "closed_at": null,
+        "closed_at": "2025-03-03T16:53:02Z",
         "title": "Update did-core to did for github and editor draft links",
         "labels": [],
         "assignee": null,
@@ -143,6 +163,15 @@
         "title": "Define fragment processing rules for `application/did`",
         "labels": [
           {
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "fef2c0",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          },
+          {
             "id": 7138904898,
             "node_id": "LA_kwDODF4kl88AAAABqYMLQg",
             "url": "https://api.github.com/repos/w3c/did/labels/class%203",
@@ -152,7 +181,7 @@
             "description": "Other changes that do not add new features"
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -752,35 +781,6 @@
       },
       {
         "state": "open",
-        "number": 847,
-        "created_at": "2023-11-25T13:32:39Z",
-        "closed_at": null,
-        "title": "DID Parameters: Service - only fragment or complete id?",
-        "labels": [
-          {
-            "id": 7138903720,
-            "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
-            "url": "https://api.github.com/repos/w3c/did/labels/class%202",
-            "name": "class 2",
-            "color": "FBCA04",
-            "default": false,
-            "description": "Changes that do not functionally affect interpretation of the document"
-          },
-          {
-            "id": 7845939862,
-            "node_id": "LA_kwDODF4kl88AAAAB06eKlg",
-            "url": "https://api.github.com/repos/w3c/did/labels/path-parameter",
-            "name": "path-parameter",
-            "color": "E6D74D",
-            "default": false,
-            "description": ""
-          }
-        ],
-        "assignee": null,
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
         "number": 846,
         "created_at": "2023-10-30T10:17:39Z",
         "closed_at": null,
@@ -924,13 +924,13 @@
         "title": "Confusion regarding threshold for DID controllers",
         "labels": [
           {
-            "id": 1838604038,
-            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
-            "url": "https://api.github.com/repos/w3c/did/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "0E8A16",
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "fef2c0",
             "default": false,
-            "description": "Issue is ready for a PR"
+            "description": "There is an open PR to address this issue"
           },
           {
             "id": 7138903720,
@@ -10037,7 +10037,7 @@
             "description": "Other changes that do not add new features"
           }
         ],
-        "assignee": "OR13",
+        "assignee": null,
         "isPullRequest": false
       },
       {
@@ -49545,6 +49545,16 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 130,
+        "created_at": "2023-11-25T13:32:39Z",
+        "closed_at": null,
+        "title": "DID Parameters: Service - only fragment or complete id?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
       },
       {
         "state": "open",
