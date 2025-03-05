@@ -8,9 +8,127 @@
     "issues": [
       {
         "state": "open",
+        "number": 303,
+        "created_at": "2025-03-05T03:23:20Z",
+        "closed_at": null,
+        "title": "SHACL-SHACL Note",
+        "labels": [],
+        "assignee": "nicholascar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 302,
+        "created_at": "2025-03-04T22:35:59Z",
+        "closed_at": null,
+        "title": "#222, #288: Update SHACL-SHACL for general NodeExpression and SelectExpression",
+        "labels": [],
+        "assignee": "ajnelson-nist",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 301,
+        "created_at": "2025-03-04T21:37:33Z",
+        "closed_at": null,
+        "title": "Alternative property for computed values",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 300,
+        "created_at": "2025-03-04T21:11:13Z",
+        "closed_at": null,
+        "title": "Support for RDF 1.2 triple terms",
+        "labels": [
+          {
+            "id": 8028923197,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
+            "name": "Core",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "For SHACL 1.2 Core spec"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 299,
+        "created_at": "2025-03-04T13:49:53Z",
+        "closed_at": null,
+        "title": "SHACL Inference Rules - Use Case: Data Filtering",
+        "labels": [
+          {
+            "id": 8028927534,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
+            "name": "Inferencing",
+            "color": "306216",
+            "default": false,
+            "description": "For SHACL 1.2 Inferencing spec."
+          },
+          {
+            "id": 8053823890,
+            "node_id": "LA_kwDOAb6UUM8AAAAB4AuZkg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/UCR",
+            "name": "UCR",
+            "color": "bfdadc",
+            "default": false,
+            "description": "Use Cases and Requirements"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 298,
+        "created_at": "2025-03-04T13:46:26Z",
+        "closed_at": null,
+        "title": "SHACL Inference Rules - Use Case: consistent language tag handling for SKOS labels",
+        "labels": [
+          {
+            "id": 8028927534,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
+            "name": "Inferencing",
+            "color": "306216",
+            "default": false,
+            "description": "For SHACL 1.2 Inferencing spec."
+          },
+          {
+            "id": 8053823890,
+            "node_id": "LA_kwDOAb6UUM8AAAAB4AuZkg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/UCR",
+            "name": "UCR",
+            "color": "bfdadc",
+            "default": false,
+            "description": "Use Cases and Requirements"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 297,
+        "created_at": "2025-03-04T10:17:33Z",
+        "closed_at": null,
+        "title": "#288: Added sh:SelectExpression, with test cases and TTL changes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 294,
         "created_at": "2025-03-03T15:33:38Z",
-        "closed_at": null,
+        "closed_at": "2025-03-05T07:40:55Z",
         "title": "#271: Moved SPARQL definitions from Core into an appendix of SHACL-SPARQL",
         "labels": [],
         "assignee": null,
@@ -275,12 +393,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 271,
         "created_at": "2025-02-24T09:29:11Z",
-        "closed_at": null,
+        "closed_at": "2025-03-05T07:40:56Z",
         "title": "Where should \"Potential definition in SPARQL\" go?",
         "labels": [
+          {
+            "id": 559868786,
+            "node_id": "MDU6TGFiZWw1NTk4Njg3ODY=",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Editorial%20(would%20not%20change%20implementations)",
+            "name": "Editorial (would not change implementations)",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          },
           {
             "id": 8028923197,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
@@ -304,10 +431,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 270,
         "created_at": "2025-02-23T17:38:41Z",
-        "closed_at": null,
+        "closed_at": "2025-03-05T00:01:58Z",
         "title": "publish `shacl-test` ontology",
         "labels": [],
         "assignee": null,
@@ -883,6 +1010,15 @@
         "closed_at": "2025-03-03T15:36:21Z",
         "title": "Should core be unlinked from SPARQL?",
         "labels": [
+          {
+            "id": 559868786,
+            "node_id": "MDU6TGFiZWw1NTk4Njg3ODY=",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Editorial%20(would%20not%20change%20implementations)",
+            "name": "Editorial (would not change implementations)",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          },
           {
             "id": 8028923197,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
@@ -4784,9 +4920,127 @@
     "issues": [
       {
         "state": "open",
+        "number": 303,
+        "created_at": "2025-03-05T03:23:20Z",
+        "closed_at": null,
+        "title": "SHACL-SHACL Note",
+        "labels": [],
+        "assignee": "nicholascar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 302,
+        "created_at": "2025-03-04T22:35:59Z",
+        "closed_at": null,
+        "title": "#222, #288: Update SHACL-SHACL for general NodeExpression and SelectExpression",
+        "labels": [],
+        "assignee": "ajnelson-nist",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 301,
+        "created_at": "2025-03-04T21:37:33Z",
+        "closed_at": null,
+        "title": "Alternative property for computed values",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 300,
+        "created_at": "2025-03-04T21:11:13Z",
+        "closed_at": null,
+        "title": "Support for RDF 1.2 triple terms",
+        "labels": [
+          {
+            "id": 8028923197,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
+            "name": "Core",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "For SHACL 1.2 Core spec"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 299,
+        "created_at": "2025-03-04T13:49:53Z",
+        "closed_at": null,
+        "title": "SHACL Inference Rules - Use Case: Data Filtering",
+        "labels": [
+          {
+            "id": 8028927534,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
+            "name": "Inferencing",
+            "color": "306216",
+            "default": false,
+            "description": "For SHACL 1.2 Inferencing spec."
+          },
+          {
+            "id": 8053823890,
+            "node_id": "LA_kwDOAb6UUM8AAAAB4AuZkg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/UCR",
+            "name": "UCR",
+            "color": "bfdadc",
+            "default": false,
+            "description": "Use Cases and Requirements"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 298,
+        "created_at": "2025-03-04T13:46:26Z",
+        "closed_at": null,
+        "title": "SHACL Inference Rules - Use Case: consistent language tag handling for SKOS labels",
+        "labels": [
+          {
+            "id": 8028927534,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
+            "name": "Inferencing",
+            "color": "306216",
+            "default": false,
+            "description": "For SHACL 1.2 Inferencing spec."
+          },
+          {
+            "id": 8053823890,
+            "node_id": "LA_kwDOAb6UUM8AAAAB4AuZkg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/UCR",
+            "name": "UCR",
+            "color": "bfdadc",
+            "default": false,
+            "description": "Use Cases and Requirements"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 297,
+        "created_at": "2025-03-04T10:17:33Z",
+        "closed_at": null,
+        "title": "#288: Added sh:SelectExpression, with test cases and TTL changes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 294,
         "created_at": "2025-03-03T15:33:38Z",
-        "closed_at": null,
+        "closed_at": "2025-03-05T07:40:55Z",
         "title": "#271: Moved SPARQL definitions from Core into an appendix of SHACL-SPARQL",
         "labels": [],
         "assignee": null,
@@ -5051,12 +5305,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 271,
         "created_at": "2025-02-24T09:29:11Z",
-        "closed_at": null,
+        "closed_at": "2025-03-05T07:40:56Z",
         "title": "Where should \"Potential definition in SPARQL\" go?",
         "labels": [
+          {
+            "id": 559868786,
+            "node_id": "MDU6TGFiZWw1NTk4Njg3ODY=",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Editorial%20(would%20not%20change%20implementations)",
+            "name": "Editorial (would not change implementations)",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          },
           {
             "id": 8028923197,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
@@ -5080,10 +5343,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 270,
         "created_at": "2025-02-23T17:38:41Z",
-        "closed_at": null,
+        "closed_at": "2025-03-05T00:01:58Z",
         "title": "publish `shacl-test` ontology",
         "labels": [],
         "assignee": null,
@@ -5659,6 +5922,15 @@
         "closed_at": "2025-03-03T15:36:21Z",
         "title": "Should core be unlinked from SPARQL?",
         "labels": [
+          {
+            "id": 559868786,
+            "node_id": "MDU6TGFiZWw1NTk4Njg3ODY=",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Editorial%20(would%20not%20change%20implementations)",
+            "name": "Editorial (would not change implementations)",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          },
           {
             "id": 8028923197,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
@@ -9560,9 +9832,127 @@
     "issues": [
       {
         "state": "open",
+        "number": 303,
+        "created_at": "2025-03-05T03:23:20Z",
+        "closed_at": null,
+        "title": "SHACL-SHACL Note",
+        "labels": [],
+        "assignee": "nicholascar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 302,
+        "created_at": "2025-03-04T22:35:59Z",
+        "closed_at": null,
+        "title": "#222, #288: Update SHACL-SHACL for general NodeExpression and SelectExpression",
+        "labels": [],
+        "assignee": "ajnelson-nist",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 301,
+        "created_at": "2025-03-04T21:37:33Z",
+        "closed_at": null,
+        "title": "Alternative property for computed values",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 300,
+        "created_at": "2025-03-04T21:11:13Z",
+        "closed_at": null,
+        "title": "Support for RDF 1.2 triple terms",
+        "labels": [
+          {
+            "id": 8028923197,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
+            "name": "Core",
+            "color": "f9d0c4",
+            "default": false,
+            "description": "For SHACL 1.2 Core spec"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 299,
+        "created_at": "2025-03-04T13:49:53Z",
+        "closed_at": null,
+        "title": "SHACL Inference Rules - Use Case: Data Filtering",
+        "labels": [
+          {
+            "id": 8028927534,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
+            "name": "Inferencing",
+            "color": "306216",
+            "default": false,
+            "description": "For SHACL 1.2 Inferencing spec."
+          },
+          {
+            "id": 8053823890,
+            "node_id": "LA_kwDOAb6UUM8AAAAB4AuZkg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/UCR",
+            "name": "UCR",
+            "color": "bfdadc",
+            "default": false,
+            "description": "Use Cases and Requirements"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 298,
+        "created_at": "2025-03-04T13:46:26Z",
+        "closed_at": null,
+        "title": "SHACL Inference Rules - Use Case: consistent language tag handling for SKOS labels",
+        "labels": [
+          {
+            "id": 8028927534,
+            "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
+            "name": "Inferencing",
+            "color": "306216",
+            "default": false,
+            "description": "For SHACL 1.2 Inferencing spec."
+          },
+          {
+            "id": 8053823890,
+            "node_id": "LA_kwDOAb6UUM8AAAAB4AuZkg",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/UCR",
+            "name": "UCR",
+            "color": "bfdadc",
+            "default": false,
+            "description": "Use Cases and Requirements"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 297,
+        "created_at": "2025-03-04T10:17:33Z",
+        "closed_at": null,
+        "title": "#288: Added sh:SelectExpression, with test cases and TTL changes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 294,
         "created_at": "2025-03-03T15:33:38Z",
-        "closed_at": null,
+        "closed_at": "2025-03-05T07:40:55Z",
         "title": "#271: Moved SPARQL definitions from Core into an appendix of SHACL-SPARQL",
         "labels": [],
         "assignee": null,
@@ -9827,12 +10217,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 271,
         "created_at": "2025-02-24T09:29:11Z",
-        "closed_at": null,
+        "closed_at": "2025-03-05T07:40:56Z",
         "title": "Where should \"Potential definition in SPARQL\" go?",
         "labels": [
+          {
+            "id": 559868786,
+            "node_id": "MDU6TGFiZWw1NTk4Njg3ODY=",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Editorial%20(would%20not%20change%20implementations)",
+            "name": "Editorial (would not change implementations)",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          },
           {
             "id": 8028923197,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
@@ -9856,10 +10255,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 270,
         "created_at": "2025-02-23T17:38:41Z",
-        "closed_at": null,
+        "closed_at": "2025-03-05T00:01:58Z",
         "title": "publish `shacl-test` ontology",
         "labels": [],
         "assignee": null,
@@ -10435,6 +10834,15 @@
         "closed_at": "2025-03-03T15:36:21Z",
         "title": "Should core be unlinked from SPARQL?",
         "labels": [
+          {
+            "id": 559868786,
+            "node_id": "MDU6TGFiZWw1NTk4Njg3ODY=",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Editorial%20(would%20not%20change%20implementations)",
+            "name": "Editorial (would not change implementations)",
+            "color": "006b75",
+            "default": false,
+            "description": null
+          },
           {
             "id": 8028923197,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
