@@ -7,6 +7,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 250,
+        "created_at": "2025-03-13T01:02:03Z",
+        "closed_at": null,
+        "title": "[accname] which one should win?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 249,
         "created_at": "2024-12-23T11:41:15Z",
@@ -7301,7 +7311,7 @@
         "number": 568,
         "created_at": "2024-11-07T21:38:50Z",
         "closed_at": null,
-        "title": "specify unique behavior for label attribute on option in datalist",
+        "title": "specify unique behavior for label and value attributes on option in datalist",
         "labels": [
           {
             "id": 7749071571,
@@ -14392,6 +14402,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 2475,
+        "created_at": "2025-03-12T12:39:38Z",
+        "closed_at": null,
+        "title": "Add PR checks to prevent respec failures",
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          }
+        ],
+        "assignee": "daniel-montalvo",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2474,
         "created_at": "2025-03-11T22:59:36Z",
         "closed_at": null,
@@ -14416,26 +14446,7 @@
         "created_at": "2025-03-10T18:08:39Z",
         "closed_at": null,
         "title": "Editorial: Relative links for PR and branch netlify previews",
-        "labels": [
-          {
-            "id": 7076202579,
-            "node_id": "LA_kwDOART0M88AAAABpcZIUw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/spec:aria",
-            "name": "spec:aria",
-            "color": "1DD6E1",
-            "default": false,
-            "description": ""
-          },
-          {
-            "id": 7076203941,
-            "node_id": "LA_kwDOART0M88AAAABpcZNpQ",
-            "url": "https://api.github.com/repos/w3c/aria/labels/spec:accname",
-            "name": "spec:accname",
-            "color": "1DD6E1",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -14529,10 +14540,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2468,
         "created_at": "2025-03-06T23:16:08Z",
-        "closed_at": null,
+        "closed_at": "2025-03-12T08:58:11Z",
         "title": "Editorial: Add deprecated to aria-dropeffect",
         "labels": [
           {
@@ -15038,7 +15049,17 @@
         "created_at": "2025-02-21T04:53:26Z",
         "closed_at": null,
         "title": "[aria] Request: Provide the ARIA “Characteristics” data as JSON or in some other machine-readable form",
-        "labels": [],
+        "labels": [
+          {
+            "id": 7076202579,
+            "node_id": "LA_kwDOART0M88AAAABpcZIUw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/spec:aria",
+            "name": "spec:aria",
+            "color": "1DD6E1",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
