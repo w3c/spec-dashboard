@@ -8,6 +8,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 170,
+        "created_at": "2025-03-20T16:56:52Z",
+        "closed_at": null,
+        "title": "Decide names and namespace for constituent properties of classic triple terms",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 169,
         "created_at": "2025-03-19T17:20:33Z",
         "closed_at": null,
@@ -37,10 +47,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 167,
         "created_at": "2025-03-17T13:37:10Z",
-        "closed_at": null,
+        "closed_at": "2025-03-20T23:05:27Z",
         "title": "Clarification of the points of 'literal term equality'",
         "labels": [],
         "assignee": null,
@@ -77,21 +87,12 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 164,
         "created_at": "2025-03-06T18:21:06Z",
-        "closed_at": null,
+        "closed_at": "2025-03-20T15:51:09Z",
         "title": "handling unsatisfiable graphs",
         "labels": [
-          {
-            "id": 5072487544,
-            "node_id": "LA_kwDOIxAx-88AAAABLlgEeA",
-            "url": "https://api.github.com/repos/w3c/rdf-concepts/labels/needs%20discussion",
-            "name": "needs discussion",
-            "color": "c5def5",
-            "default": false,
-            "description": "Proposed for discussion in an upcoming meeting"
-          },
           {
             "id": 5072487741,
             "node_id": "LA_kwDOIxAx-88AAAABLlgFPQ",
@@ -352,6 +353,15 @@
             "description": "Proposed for discussion in an upcoming meeting"
           },
           {
+            "id": 5072487616,
+            "node_id": "LA_kwDOIxAx-88AAAABLlgEwA",
+            "url": "https://api.github.com/repos/w3c/rdf-concepts/labels/propose%20closing",
+            "name": "propose closing",
+            "color": "bf5315",
+            "default": false,
+            "description": "Proposed for closing"
+          },
+          {
             "id": 5072487804,
             "node_id": "LA_kwDOIxAx-88AAAABLlgFfA",
             "url": "https://api.github.com/repos/w3c/rdf-concepts/labels/spec:substantive",
@@ -489,6 +499,15 @@
             "color": "e4fca9",
             "default": false,
             "description": "Milestone: Candidate Recommendation"
+          },
+          {
+            "id": 5072487616,
+            "node_id": "LA_kwDOIxAx-88AAAABLlgEwA",
+            "url": "https://api.github.com/repos/w3c/rdf-concepts/labels/propose%20closing",
+            "name": "propose closing",
+            "color": "bf5315",
+            "default": false,
+            "description": "Proposed for closing"
           }
         ],
         "assignee": null,
@@ -5968,12 +5987,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 112,
         "created_at": "2025-03-17T08:09:33Z",
-        "closed_at": null,
+        "closed_at": "2025-03-20T15:53:39Z",
         "title": "Broken links in RDF 1.2 Semantics",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072490310,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgPRg",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -5983,7 +6012,17 @@
         "created_at": "2025-03-14T16:42:44Z",
         "closed_at": null,
         "title": "Prove that the fact that mapping RE is total and injective does not lead to problems",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072490362,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgPeg",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/spec:substantive",
+            "name": "spec:substantive",
+            "color": "aaaa22",
+            "default": false,
+            "description": "Change in the spec affecting its normative content (class 3) –see also spec:bug, spec:new-feature"
+          }
+        ],
         "assignee": "doerthe",
         "isPullRequest": false
       },
@@ -6003,7 +6042,26 @@
         "created_at": "2025-03-14T15:38:12Z",
         "closed_at": null,
         "title": "Change GrdfD1",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072490310,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgPRg",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          },
+          {
+            "id": 5072490362,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgPeg",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/spec:substantive",
+            "name": "spec:substantive",
+            "color": "aaaa22",
+            "default": false,
+            "description": "Change in the spec affecting its normative content (class 3) –see also spec:bug, spec:new-feature"
+          }
+        ],
         "assignee": "doerthe",
         "isPullRequest": false
       },
@@ -6053,7 +6111,17 @@
         "created_at": "2025-03-14T13:42:23Z",
         "closed_at": null,
         "title": "Definition instance of, proper instance etc. need to work with RDF terms instead of names",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072490310,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgPRg",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6068,10 +6136,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 103,
         "created_at": "2025-03-13T15:02:06Z",
-        "closed_at": null,
+        "closed_at": "2025-03-20T15:53:15Z",
         "title": "Fix \"appearing\" cross-ref",
         "labels": [
           {
@@ -6093,7 +6161,17 @@
         "created_at": "2025-03-13T13:43:01Z",
         "closed_at": null,
         "title": "Check if the interpolation lemma is still true given the new semantics",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072490362,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgPeg",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/spec:substantive",
+            "name": "spec:substantive",
+            "color": "aaaa22",
+            "default": false,
+            "description": "Change in the spec affecting its normative content (class 3) –see also spec:bug, spec:new-feature"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -6178,10 +6256,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 97,
         "created_at": "2025-02-27T17:54:41Z",
-        "closed_at": null,
+        "closed_at": "2025-03-20T16:38:21Z",
         "title": "remove rdf:PlainLiteral and add a change note; also add change note for triple terms",
         "labels": [
           {
@@ -6198,10 +6276,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 96,
         "created_at": "2025-02-26T16:39:54Z",
-        "closed_at": null,
+        "closed_at": "2025-03-20T16:32:31Z",
         "title": "Do not normalize language tags in D-interpretations",
         "labels": [
           {
@@ -6398,10 +6476,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 84,
         "created_at": "2025-02-07T13:42:19Z",
-        "closed_at": null,
+        "closed_at": "2025-03-20T16:38:22Z",
         "title": "remove rdf:plainLiteral from Semantics?",
         "labels": [
           {
@@ -7169,16 +7247,16 @@
         "number": 49,
         "created_at": "2024-09-25T14:21:58Z",
         "closed_at": null,
-        "title": "Define an interpretation of Triple Terms",
+        "title": "Define an interpretation of propositions relating to their constituents",
         "labels": [
           {
-            "id": 5072490220,
-            "node_id": "LA_kwDOIxA19c8AAAABLlgO7A",
-            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/needs%20discussion",
-            "name": "needs discussion",
-            "color": "c5def5",
+            "id": 5072490362,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgPeg",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/spec:substantive",
+            "name": "spec:substantive",
+            "color": "aaaa22",
             "default": false,
-            "description": "Proposed for discussion in an upcoming meeting"
+            "description": "Change in the spec affecting its normative content (class 3) –see also spec:bug, spec:new-feature"
           }
         ],
         "assignee": null,
@@ -9423,10 +9501,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 56,
         "created_at": "2024-04-06T20:25:01Z",
-        "closed_at": null,
+        "closed_at": "2025-03-20T17:10:58Z",
         "title": "Reference Notation3",
         "labels": [
           {
@@ -12723,7 +12801,17 @@
         "created_at": "2025-03-05T13:40:33Z",
         "closed_at": null,
         "title": "Adds dark mode and simplify CSS",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072505682,
+            "node_id": "LA_kwDOIxBGPM8AAAABLlhLUg",
+            "url": "https://api.github.com/repos/w3c/sparql-protocol/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": "Tpt",
         "isPullRequest": true
       },
@@ -13282,7 +13370,17 @@
         "created_at": "2025-02-05T11:03:19Z",
         "closed_at": null,
         "title": "Revise RDFterm-equal and function sameTerm. Rename RDFterm-equal to sameValue.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072497316,
+            "node_id": "LA_kwDOIxA8Ds8AAAABLlgqpA",
+            "url": "https://api.github.com/repos/w3c/sparql-query/labels/spec:substantive",
+            "name": "spec:substantive",
+            "color": "aaaa22",
+            "default": false,
+            "description": "Change in the spec affecting its normative content (class 3) –see also spec:bug, spec:new-feature"
+          }
+        ],
         "assignee": "afs",
         "isPullRequest": true
       },
@@ -16609,7 +16707,17 @@
         "created_at": "2025-03-05T13:56:25Z",
         "closed_at": null,
         "title": "Adds dark mode and simplify CSS",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072502312,
+            "node_id": "LA_kwDOIxBFks8AAAABLlg-KA",
+            "url": "https://api.github.com/repos/w3c/sparql-results-csv-tsv/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": "Tpt",
         "isPullRequest": true
       },
@@ -17268,7 +17376,17 @@
         "created_at": "2025-03-05T12:39:37Z",
         "closed_at": null,
         "title": "Adds dark mode and simplify CSS",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072501364,
+            "node_id": "LA_kwDOIxBFHs8AAAABLlg6dA",
+            "url": "https://api.github.com/repos/w3c/sparql-results-json/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": "Tpt",
         "isPullRequest": true
       },
@@ -17986,7 +18104,17 @@
         "created_at": "2025-03-05T12:55:43Z",
         "closed_at": null,
         "title": "Dark mode, CSS and presentation simplifications",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072503514,
+            "node_id": "LA_kwDOIxBFvM8AAAABLlhC2g",
+            "url": "https://api.github.com/repos/w3c/sparql-results-xml/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": "Tpt",
         "isPullRequest": true
       },
