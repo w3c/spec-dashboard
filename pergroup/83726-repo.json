@@ -7371,7 +7371,7 @@
         "number": 570,
         "created_at": "2024-12-05T09:39:41Z",
         "closed_at": null,
-        "title": "[html-aam] Computing a role for a “aside” or “section” element creates an infinite loop",
+        "title": "[html-aam] Computing a role for “img”, “aside”, and “section” elements creates an infinite loop",
         "labels": [
           {
             "id": 4309612243,
@@ -14502,6 +14502,55 @@
     "issues": [
       {
         "state": "open",
+        "number": 2492,
+        "created_at": "2025-03-25T16:30:28Z",
+        "closed_at": null,
+        "title": "editorial: fix 2 links to dpub-aria",
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          },
+          {
+            "id": 7082670594,
+            "node_id": "LA_kwDOART0M88AAAABpij6Ag",
+            "url": "https://api.github.com/repos/w3c/aria/labels/spec:dpub-aam",
+            "name": "spec:dpub-aam",
+            "color": "1DD6E1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2491,
+        "created_at": "2025-03-25T12:01:28Z",
+        "closed_at": null,
+        "title": "alt vs title: HTML-AAM and accname specs have conflicting requirements",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2490,
+        "created_at": "2025-03-25T11:28:59Z",
+        "closed_at": "2025-03-25T11:50:01Z",
+        "title": "Restrict prettier somehow to avoid it from being triggered in files that are not specs",
+        "labels": [],
+        "assignee": "daniel-montalvo",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2489,
         "created_at": "2025-03-24T11:35:12Z",
         "closed_at": null,
@@ -14565,6 +14614,15 @@
         "closed_at": null,
         "title": "Investigate changing ID-based WAI-ARIA value types due to referenceTarget",
         "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
+          },
           {
             "id": 7076202579,
             "node_id": "LA_kwDOART0M88AAAABpcZIUw",
@@ -16341,17 +16399,7 @@
         "created_at": "2024-12-20T00:04:49Z",
         "closed_at": null,
         "title": "Should the 'row' role really be necessary for parents of 'gridcell' and other cell role elements?",
-        "labels": [
-          {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "aardrian",
         "isPullRequest": false
       },
