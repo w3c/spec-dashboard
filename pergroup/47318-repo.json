@@ -9281,6 +9281,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 1034,
+        "created_at": "2025-03-27T12:38:35Z",
+        "closed_at": null,
+        "title": "Add guidelines for garbage collecting MediaStream and MediaStreamTrack objects",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 1033,
         "created_at": "2025-03-24T00:25:44Z",
@@ -25257,6 +25267,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 119,
+        "created_at": "2025-03-27T12:37:27Z",
+        "closed_at": null,
+        "title": "Add a note to close VideoFrames explicitly",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 118,
         "created_at": "2025-02-12T08:31:22Z",
@@ -30718,12 +30738,22 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 315,
         "created_at": "2025-02-20T13:07:46Z",
-        "closed_at": null,
-        "title": "Add physical and logical resolution.",
-        "labels": [],
+        "closed_at": "2025-03-27T22:16:06Z",
+        "title": "Add screen pixel ratio",
+        "labels": [
+          {
+            "id": 1215959506,
+            "node_id": "MDU6TGFiZWwxMjE1OTU5NTA2",
+            "url": "https://api.github.com/repos/w3c/mediacapture-screen-share/labels/editors%20can%20integrate",
+            "name": "editors can integrate",
+            "color": "50fce5",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -31043,17 +31073,7 @@
         "created_at": "2023-11-08T12:45:11Z",
         "closed_at": null,
         "title": "Define the windowAudio option",
-        "labels": [
-          {
-            "id": 6479870273,
-            "node_id": "LA_kwDOAWRuUM8AAAABgjr5QQ",
-            "url": "https://api.github.com/repos/w3c/mediacapture-screen-share/labels/Discuss%20at%20Next%20Meeting",
-            "name": "Discuss at Next Meeting",
-            "color": "1d76db",
-            "default": false,
-            "description": null
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -40984,12 +41004,62 @@
     "issues": [
       {
         "state": "open",
+        "number": 803,
+        "created_at": "2025-03-27T12:51:26Z",
+        "closed_at": null,
+        "title": "Add outbound-rtp.encodingIndex.",
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 802,
+        "created_at": "2025-03-27T11:41:20Z",
+        "closed_at": null,
+        "title": "Update RTP lifetime description: outbound-rtp to be created before first packet is sent",
+        "labels": [
+          {
+            "id": 1302466845,
+            "node_id": "MDU6TGFiZWwxMzAyNDY2ODQ1",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/Editors%20can%20integrate",
+            "name": "Editors can integrate",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 801,
         "created_at": "2025-03-21T12:25:06Z",
         "closed_at": null,
-        "title": "RTCOutboundRtpStreamStats.simulcastIndex",
-        "labels": [],
-        "assignee": null,
+        "title": "RTCOutboundRtpStreamStats.encodingIndex",
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -41028,8 +41098,18 @@
         "created_at": "2025-02-21T15:10:53Z",
         "closed_at": null,
         "title": "RTCOutboundRtpStreamStats should be created \"early\"",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 124889688,
+            "node_id": "MDU6TGFiZWwxMjQ4ODk2ODg=",
+            "url": "https://api.github.com/repos/w3c/webrtc-stats/labels/PR%20exists",
+            "name": "PR exists",
+            "color": "159818",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": "henbos",
         "isPullRequest": false
       },
       {
@@ -41063,20 +41143,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 793,
         "created_at": "2025-01-22T14:42:37Z",
-        "closed_at": null,
+        "closed_at": "2025-03-27T15:50:53Z",
         "title": "Need support for statistics for L4S",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 792,
         "created_at": "2025-01-16T14:19:29Z",
-        "closed_at": null,
+        "closed_at": "2025-03-27T15:50:52Z",
         "title": "Add counters that support deployment of L4S",
         "labels": [],
         "assignee": null,
