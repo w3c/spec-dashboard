@@ -4,7 +4,7 @@
     "description": "<p>This document specifies the DID syntax, a common data model, core properties, serialized representations, DID operations, and an explanation of the process of resolving DIDs to the resources that they represent.</p>",
     "title": "Decentralized Identifiers (DIDs) v1.1",
     "shortname": "did-1.1",
-    "editor-draft": "https://w3c.github.io/did-core/",
+    "editor-draft": "https://w3c.github.io/did/",
     "series-version": "1.1",
     "_links": {
       "self": {
@@ -18,8 +18,8 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/did-1.1/versions/20250128",
-        "title": "First Public Working Draft"
+        "href": "https://api.w3.org/specifications/did-1.1/versions/20250408",
+        "title": "Working Draft"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/did"
@@ -27,6 +27,34 @@
     },
     "editorsdraft": "https://w3c.github.io/did/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did/",
+        "uri": "https://www.w3.org/TR/2025/WD-did-1.1-20250408/",
+        "date": "2025-04-08",
+        "informative": false,
+        "title": "Decentralized Identifiers (DIDs) v1.1",
+        "shortlink": "https://www.w3.org/TR/did-1.1/",
+        "process-rules": "https://www.w3.org/policies/process/20231103/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-1.1/versions/20250408"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-1.1/versions/20250408/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-1.1/versions/20250408/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-1.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-1.1/versions/20250408/predecessors"
+          }
+        }
+      },
       {
         "status": "First Public Working Draft",
         "rec-track": true,
@@ -49,6 +77,9 @@
           },
           "specification": {
             "href": "https://api.w3.org/specifications/did-1.1"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-1.1/versions/20250128/successors"
           }
         }
       }
