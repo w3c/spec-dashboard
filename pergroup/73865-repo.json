@@ -8,6 +8,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 357,
+        "created_at": "2025-04-10T14:27:12Z",
+        "closed_at": null,
+        "title": "Provide constraints that are provided by a node expression",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 356,
+        "created_at": "2025-04-10T09:58:44Z",
+        "closed_at": null,
+        "title": "#128: Added links to prefix declaration",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 355,
         "created_at": "2025-04-10T06:32:33Z",
         "closed_at": null,
@@ -79,7 +99,7 @@
         "number": 352,
         "created_at": "2025-04-09T16:27:31Z",
         "closed_at": null,
-        "title": "Scope of SHALC Compact Syntax",
+        "title": "Scope of SHACL Compact Syntax",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -1954,15 +1974,6 @@
         "title": "Treatment of `rdfs:subPropertyOf` like `rdfs:subClassOf`",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "For SHACL 1.2 Core spec"
-          },
-          {
             "id": 8028927534,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
             "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
@@ -2163,20 +2174,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 221,
         "created_at": "2025-01-26T11:38:37Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T14:42:12Z",
         "title": "Constraints for simple tasks",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -2444,16 +2455,16 @@
         "number": 168,
         "created_at": "2025-01-17T10:12:26Z",
         "closed_at": null,
-        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\"",
+        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\" or \"sh:directInstanceOf\"",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -2490,10 +2501,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 209,
         "created_at": "2025-01-02T13:12:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T10:47:22Z",
         "title": "Consider allowing sh:name and sh:description on NodeShapes",
         "labels": [
           {
@@ -3016,10 +3027,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 156,
         "created_at": "2024-04-24T13:30:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:01:28Z",
         "title": "mandatory sh:path in PropertyShape",
         "labels": [
           {
@@ -3125,10 +3136,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 178,
         "created_at": "2024-02-23T13:47:50Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:02:41Z",
         "title": "Add something similar to `dash:hasValueWithClass`",
         "labels": [
           {
@@ -3721,10 +3732,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 139,
         "created_at": "2021-08-22T16:41:01Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T12:51:47Z",
         "title": "Request: Enable SHACL Shapes to be defined as part of data",
         "labels": [
           {
@@ -4040,7 +4051,7 @@
         "number": 119,
         "created_at": "2019-10-07T14:08:18Z",
         "closed_at": null,
-        "title": "Expressing equality between multiple paths",
+        "title": "Generalize property pair constraints to paths",
         "labels": [
           {
             "id": 8028923197,
@@ -5814,6 +5825,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 357,
+        "created_at": "2025-04-10T14:27:12Z",
+        "closed_at": null,
+        "title": "Provide constraints that are provided by a node expression",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 356,
+        "created_at": "2025-04-10T09:58:44Z",
+        "closed_at": null,
+        "title": "#128: Added links to prefix declaration",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 355,
         "created_at": "2025-04-10T06:32:33Z",
         "closed_at": null,
@@ -5885,7 +5916,7 @@
         "number": 352,
         "created_at": "2025-04-09T16:27:31Z",
         "closed_at": null,
-        "title": "Scope of SHALC Compact Syntax",
+        "title": "Scope of SHACL Compact Syntax",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -7760,15 +7791,6 @@
         "title": "Treatment of `rdfs:subPropertyOf` like `rdfs:subClassOf`",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "For SHACL 1.2 Core spec"
-          },
-          {
             "id": 8028927534,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
             "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
@@ -7969,20 +7991,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 221,
         "created_at": "2025-01-26T11:38:37Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T14:42:12Z",
         "title": "Constraints for simple tasks",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -8250,16 +8272,16 @@
         "number": 168,
         "created_at": "2025-01-17T10:12:26Z",
         "closed_at": null,
-        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\"",
+        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\" or \"sh:directInstanceOf\"",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -8296,10 +8318,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 209,
         "created_at": "2025-01-02T13:12:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T10:47:22Z",
         "title": "Consider allowing sh:name and sh:description on NodeShapes",
         "labels": [
           {
@@ -8822,10 +8844,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 156,
         "created_at": "2024-04-24T13:30:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:01:28Z",
         "title": "mandatory sh:path in PropertyShape",
         "labels": [
           {
@@ -8931,10 +8953,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 178,
         "created_at": "2024-02-23T13:47:50Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:02:41Z",
         "title": "Add something similar to `dash:hasValueWithClass`",
         "labels": [
           {
@@ -9527,10 +9549,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 139,
         "created_at": "2021-08-22T16:41:01Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T12:51:47Z",
         "title": "Request: Enable SHACL Shapes to be defined as part of data",
         "labels": [
           {
@@ -9846,7 +9868,7 @@
         "number": 119,
         "created_at": "2019-10-07T14:08:18Z",
         "closed_at": null,
-        "title": "Expressing equality between multiple paths",
+        "title": "Generalize property pair constraints to paths",
         "labels": [
           {
             "id": 8028923197,
@@ -11620,6 +11642,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 357,
+        "created_at": "2025-04-10T14:27:12Z",
+        "closed_at": null,
+        "title": "Provide constraints that are provided by a node expression",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 356,
+        "created_at": "2025-04-10T09:58:44Z",
+        "closed_at": null,
+        "title": "#128: Added links to prefix declaration",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 355,
         "created_at": "2025-04-10T06:32:33Z",
         "closed_at": null,
@@ -11691,7 +11733,7 @@
         "number": 352,
         "created_at": "2025-04-09T16:27:31Z",
         "closed_at": null,
-        "title": "Scope of SHALC Compact Syntax",
+        "title": "Scope of SHACL Compact Syntax",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -13566,15 +13608,6 @@
         "title": "Treatment of `rdfs:subPropertyOf` like `rdfs:subClassOf`",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "For SHACL 1.2 Core spec"
-          },
-          {
             "id": 8028927534,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
             "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
@@ -13775,20 +13808,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 221,
         "created_at": "2025-01-26T11:38:37Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T14:42:12Z",
         "title": "Constraints for simple tasks",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -14056,16 +14089,16 @@
         "number": 168,
         "created_at": "2025-01-17T10:12:26Z",
         "closed_at": null,
-        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\"",
+        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\" or \"sh:directInstanceOf\"",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -14102,10 +14135,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 209,
         "created_at": "2025-01-02T13:12:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T10:47:22Z",
         "title": "Consider allowing sh:name and sh:description on NodeShapes",
         "labels": [
           {
@@ -14628,10 +14661,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 156,
         "created_at": "2024-04-24T13:30:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:01:28Z",
         "title": "mandatory sh:path in PropertyShape",
         "labels": [
           {
@@ -14737,10 +14770,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 178,
         "created_at": "2024-02-23T13:47:50Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:02:41Z",
         "title": "Add something similar to `dash:hasValueWithClass`",
         "labels": [
           {
@@ -15333,10 +15366,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 139,
         "created_at": "2021-08-22T16:41:01Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T12:51:47Z",
         "title": "Request: Enable SHACL Shapes to be defined as part of data",
         "labels": [
           {
@@ -15652,7 +15685,7 @@
         "number": 119,
         "created_at": "2019-10-07T14:08:18Z",
         "closed_at": null,
-        "title": "Expressing equality between multiple paths",
+        "title": "Generalize property pair constraints to paths",
         "labels": [
           {
             "id": 8028923197,
@@ -17426,6 +17459,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 357,
+        "created_at": "2025-04-10T14:27:12Z",
+        "closed_at": null,
+        "title": "Provide constraints that are provided by a node expression",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 356,
+        "created_at": "2025-04-10T09:58:44Z",
+        "closed_at": null,
+        "title": "#128: Added links to prefix declaration",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 355,
         "created_at": "2025-04-10T06:32:33Z",
         "closed_at": null,
@@ -17497,7 +17550,7 @@
         "number": 352,
         "created_at": "2025-04-09T16:27:31Z",
         "closed_at": null,
-        "title": "Scope of SHALC Compact Syntax",
+        "title": "Scope of SHACL Compact Syntax",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -19372,15 +19425,6 @@
         "title": "Treatment of `rdfs:subPropertyOf` like `rdfs:subClassOf`",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "For SHACL 1.2 Core spec"
-          },
-          {
             "id": 8028927534,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
             "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
@@ -19581,20 +19625,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 221,
         "created_at": "2025-01-26T11:38:37Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T14:42:12Z",
         "title": "Constraints for simple tasks",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -19862,16 +19906,16 @@
         "number": 168,
         "created_at": "2025-01-17T10:12:26Z",
         "closed_at": null,
-        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\"",
+        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\" or \"sh:directInstanceOf\"",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -19908,10 +19952,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 209,
         "created_at": "2025-01-02T13:12:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T10:47:22Z",
         "title": "Consider allowing sh:name and sh:description on NodeShapes",
         "labels": [
           {
@@ -20434,10 +20478,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 156,
         "created_at": "2024-04-24T13:30:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:01:28Z",
         "title": "mandatory sh:path in PropertyShape",
         "labels": [
           {
@@ -20543,10 +20587,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 178,
         "created_at": "2024-02-23T13:47:50Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:02:41Z",
         "title": "Add something similar to `dash:hasValueWithClass`",
         "labels": [
           {
@@ -21139,10 +21183,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 139,
         "created_at": "2021-08-22T16:41:01Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T12:51:47Z",
         "title": "Request: Enable SHACL Shapes to be defined as part of data",
         "labels": [
           {
@@ -21458,7 +21502,7 @@
         "number": 119,
         "created_at": "2019-10-07T14:08:18Z",
         "closed_at": null,
-        "title": "Expressing equality between multiple paths",
+        "title": "Generalize property pair constraints to paths",
         "labels": [
           {
             "id": 8028923197,
@@ -23232,6 +23276,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 357,
+        "created_at": "2025-04-10T14:27:12Z",
+        "closed_at": null,
+        "title": "Provide constraints that are provided by a node expression",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 356,
+        "created_at": "2025-04-10T09:58:44Z",
+        "closed_at": null,
+        "title": "#128: Added links to prefix declaration",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 355,
         "created_at": "2025-04-10T06:32:33Z",
         "closed_at": null,
@@ -23303,7 +23367,7 @@
         "number": 352,
         "created_at": "2025-04-09T16:27:31Z",
         "closed_at": null,
-        "title": "Scope of SHALC Compact Syntax",
+        "title": "Scope of SHACL Compact Syntax",
         "labels": [],
         "assignee": null,
         "isPullRequest": false
@@ -25178,15 +25242,6 @@
         "title": "Treatment of `rdfs:subPropertyOf` like `rdfs:subClassOf`",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
-            "default": false,
-            "description": "For SHACL 1.2 Core spec"
-          },
-          {
             "id": 8028927534,
             "node_id": "LA_kwDOAb6UUM8AAAAB3o-2Lg",
             "url": "https://api.github.com/repos/w3c/data-shapes/labels/Inferencing",
@@ -25387,20 +25442,20 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 221,
         "created_at": "2025-01-26T11:38:37Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T14:42:12Z",
         "title": "Constraints for simple tasks",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -25668,16 +25723,16 @@
         "number": 168,
         "created_at": "2025-01-17T10:12:26Z",
         "closed_at": null,
-        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\"",
+        "title": "Ability to target direct class (without subclasses) : \"sh:targetDirectClass\" or \"sh:directInstanceOf\"",
         "labels": [
           {
-            "id": 8028923197,
-            "node_id": "LA_kwDOAb6UUM8AAAAB3o-lPQ",
-            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Core",
-            "name": "Core",
-            "color": "f9d0c4",
+            "id": 8151161123,
+            "node_id": "LA_kwDOAb6UUM8AAAAB5djZIw",
+            "url": "https://api.github.com/repos/w3c/data-shapes/labels/Node%20Expressions",
+            "name": "Node Expressions",
+            "color": "1d76db",
             "default": false,
-            "description": "For SHACL 1.2 Core spec"
+            "description": "For SHACL 1.2 Node Expressions"
           }
         ],
         "assignee": null,
@@ -25714,10 +25769,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 209,
         "created_at": "2025-01-02T13:12:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T10:47:22Z",
         "title": "Consider allowing sh:name and sh:description on NodeShapes",
         "labels": [
           {
@@ -26240,10 +26295,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 156,
         "created_at": "2024-04-24T13:30:24Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:01:28Z",
         "title": "mandatory sh:path in PropertyShape",
         "labels": [
           {
@@ -26349,10 +26404,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 178,
         "created_at": "2024-02-23T13:47:50Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T11:02:41Z",
         "title": "Add something similar to `dash:hasValueWithClass`",
         "labels": [
           {
@@ -26945,10 +27000,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 139,
         "created_at": "2021-08-22T16:41:01Z",
-        "closed_at": null,
+        "closed_at": "2025-04-10T12:51:47Z",
         "title": "Request: Enable SHACL Shapes to be defined as part of data",
         "labels": [
           {
@@ -27264,7 +27319,7 @@
         "number": 119,
         "created_at": "2019-10-07T14:08:18Z",
         "closed_at": null,
-        "title": "Expressing equality between multiple paths",
+        "title": "Generalize property pair constraints to paths",
         "labels": [
           {
             "id": 8028923197,
