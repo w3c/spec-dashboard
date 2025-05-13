@@ -167,9 +167,47 @@
     "issues": [
       {
         "state": "open",
+        "number": 2636,
+        "created_at": "2025-05-12T14:24:07Z",
+        "closed_at": null,
+        "title": "Scheduling multiple buffers based on currentTime results in a race condition",
+        "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
+          {
+            "id": 3379571206,
+            "node_id": "LA_kwDOAL6BSM7JcCoG",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20new%20feature",
+            "name": "category: new feature",
+            "color": "f5f79d",
+            "default": false,
+            "description": "Substantive changes that add new functionality. https://www.w3.org/policies/process/#class-4"
+          },
+          {
+            "id": 7507957203,
+            "node_id": "LA_kwDOAL6BSM8AAAABv4JV0w",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "000000",
+            "default": false,
+            "description": "Should be discussed at the next WG meeting. https://speced.github.io/spec-maintenance/about/"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 2635,
         "created_at": "2025-05-09T13:54:19Z",
-        "closed_at": null,
+        "closed_at": "2025-05-12T09:34:42Z",
         "title": "Audio context resume promise gets stuck at pending.",
         "labels": [],
         "assignee": null,
@@ -1815,6 +1853,15 @@
         "title": "Fire an event when the audio device that's in use in an AudioContext changes",
         "labels": [
           {
+            "id": 138856832,
+            "node_id": "MDU6TGFiZWwxMzg4NTY4MzI=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Edits",
+            "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false,
+            "description": "Decision has been made, the issue can be fixed. https://speced.github.io/spec-maintenance/about/"
+          },
+          {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20new%20feature",
@@ -2838,6 +2885,15 @@
         "title": "Audio Processing API to Discontinued Draft",
         "labels": [
           {
+            "id": 138856832,
+            "node_id": "MDU6TGFiZWwxMzg4NTY4MzI=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Edits",
+            "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false,
+            "description": "Decision has been made, the issue can be fixed. https://speced.github.io/spec-maintenance/about/"
+          },
+          {
             "id": 993252083,
             "node_id": "MDU6TGFiZWw5OTMyNTIwODM=",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20admin",
@@ -3431,6 +3487,15 @@
         "title": "Support Multi-channel PannerNode",
         "labels": [
           {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
+          {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20new%20feature",
@@ -3478,6 +3543,15 @@
             "color": "f5f79d",
             "default": false,
             "description": "Editorial changes that do not change the text. https://www.w3.org/policies/process/#class-1"
+          },
+          {
+            "id": 4538066062,
+            "node_id": "LA_kwDOAL6BSM8AAAABDn1kjg",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20External%20Dependency%20Resolution",
+            "name": "Needs External Dependency Resolution",
+            "color": "5319e7",
+            "default": false,
+            "description": "An external dependency is blocking progress on this issue."
           }
         ],
         "assignee": null,
@@ -3490,6 +3564,15 @@
         "closed_at": null,
         "title": "Update automation to check links",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 993252083,
             "node_id": "MDU6TGFiZWw5OTMyNTIwODM=",
@@ -4281,12 +4364,21 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2392,
         "created_at": "2021-01-21T21:13:45Z",
-        "closed_at": null,
+        "closed_at": "2025-05-12T23:38:29Z",
         "title": "Support \"interrupted\" state in AudioContext",
         "labels": [
+          {
+            "id": 138856832,
+            "node_id": "MDU6TGFiZWwxMzg4NTY4MzI=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Edits",
+            "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false,
+            "description": "Decision has been made, the issue can be fixed. https://speced.github.io/spec-maintenance/about/"
+          },
           {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
@@ -5382,6 +5474,15 @@
         "title": "No way to set loop to false at a future time for an AudioBufferSourceNode",
         "labels": [
           {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
+          {
             "id": 3383043042,
             "node_id": "LA_kwDOAL6BSM7JpSPi",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20enhancement",
@@ -5620,6 +5721,15 @@
         "closed_at": null,
         "title": "Report actual startTime of AudioScheduledSourceNodes",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
@@ -6624,6 +6734,15 @@
         "title": "Incremental delivery of gargantuan amounts of audio data from OfflineAudioContext rendering",
         "labels": [
           {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
+          {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20new%20feature",
@@ -6882,6 +7001,15 @@
         "closed_at": null,
         "title": "More options when constructing an OfflineAudioContext",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
@@ -7724,6 +7852,15 @@
         "closed_at": null,
         "title": "Allow setting the Convolution buffer asynchronously",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3383043042,
             "node_id": "LA_kwDOAL6BSM7JpSPi",
@@ -8860,6 +8997,15 @@
         "closed_at": null,
         "title": "Add a method to cancel AudioScheduledSourceNode.stop()",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3383043042,
             "node_id": "LA_kwDOAL6BSM7JpSPi",
@@ -10485,6 +10631,15 @@
         "title": "Support Nesting AudioNodes",
         "labels": [
           {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
+          {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20new%20feature",
@@ -10624,6 +10779,15 @@
         "closed_at": null,
         "title": "cancelAndHoldAtTime() algorithm can be made clearer and simpler",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3383043042,
             "node_id": "LA_kwDOAL6BSM7JpSPi",
@@ -11511,6 +11675,15 @@
         "closed_at": null,
         "title": "Use SharedArrayBuffer for getChannelData",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3383043042,
             "node_id": "LA_kwDOAL6BSM7JpSPi",
@@ -14536,6 +14709,15 @@
         "title": "[audioworklet] Bring Your Own Buffer style of memory management",
         "labels": [
           {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
+          {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20new%20feature",
@@ -15971,6 +16153,15 @@
         "closed_at": null,
         "title": "Waveform generation only mentions createPeriodicWave",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3379545271,
             "node_id": "LA_kwDOAL6BSM7Jb8S3",
@@ -18122,6 +18313,15 @@
         "title": "Inconsistent capitalization of exponentialRampToValueAtTime",
         "labels": [
           {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
+          {
             "id": 3379545271,
             "node_id": "LA_kwDOAL6BSM7Jb8S3",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20editorial",
@@ -18311,6 +18511,15 @@
         "closed_at": null,
         "title": "Worker support for BaseAudioContext",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
@@ -18530,6 +18739,15 @@
         "closed_at": null,
         "title": "Graph code should be in this repo",
         "labels": [
+          {
+            "id": 138856832,
+            "node_id": "MDU6TGFiZWwxMzg4NTY4MzI=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Edits",
+            "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false,
+            "description": "Decision has been made, the issue can be fixed. https://speced.github.io/spec-maintenance/about/"
+          },
           {
             "id": 993252083,
             "node_id": "MDU6TGFiZWw5OTMyNTIwODM=",
@@ -21308,6 +21526,15 @@
         "title": "I wish for the API to know the automation value at specified time.",
         "labels": [
           {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
+          {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20new%20feature",
@@ -21617,6 +21844,15 @@
         "closed_at": null,
         "title": "ConvolverNode is limited to two channels",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
@@ -22864,6 +23100,15 @@
         "closed_at": null,
         "title": "loadHRTFDatabase for SpatialPanner",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
@@ -28471,6 +28716,15 @@
         "title": "Expose more implementation limits",
         "labels": [
           {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
+          {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
             "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/category:%20new%20feature",
@@ -28660,6 +28914,15 @@
         "closed_at": null,
         "title": "Configurable sample rate conversion quality",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
@@ -28908,6 +29171,15 @@
         "closed_at": null,
         "title": "Storing AudioBuffers in native sample bit depth (was: Add support for 16-bit sample type?)",
         "labels": [
+          {
+            "id": 142835591,
+            "node_id": "MDU6TGFiZWwxNDI4MzU1OTE=",
+            "url": "https://api.github.com/repos/WebAudio/web-audio-api/labels/Needs%20Discussion",
+            "name": "Needs Discussion",
+            "color": "5319e7",
+            "default": false,
+            "description": "The issue needs more discussion before it can be fixed."
+          },
           {
             "id": 3379571206,
             "node_id": "LA_kwDOAL6BSM7JcCoG",
