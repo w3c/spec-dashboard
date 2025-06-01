@@ -8,11 +8,81 @@
     "issues": [
       {
         "state": "open",
+        "number": 895,
+        "created_at": "2025-05-31T21:30:10Z",
+        "closed_at": null,
+        "title": "Add warning about comparing DID URLs containing query parameters.",
+        "labels": [
+          {
+            "id": 7138903720,
+            "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
+            "url": "https://api.github.com/repos/w3c/did/labels/class%202",
+            "name": "class 2",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Changes that do not functionally affect interpretation of the document"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 894,
+        "created_at": "2025-05-31T21:09:11Z",
+        "closed_at": null,
+        "title": "Clarify that temporary `id` values might be used during operations.",
+        "labels": [
+          {
+            "id": 7138903720,
+            "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
+            "url": "https://api.github.com/repos/w3c/did/labels/class%202",
+            "name": "class 2",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Changes that do not functionally affect interpretation of the document"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 893,
+        "created_at": "2025-05-31T20:34:48Z",
+        "closed_at": null,
+        "title": "Clarify that relative URLs are allowed for verification method identifiers.",
+        "labels": [
+          {
+            "id": 7138903720,
+            "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
+            "url": "https://api.github.com/repos/w3c/did/labels/class%202",
+            "name": "class 2",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Changes that do not functionally affect interpretation of the document"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 892,
         "created_at": "2025-05-22T15:43:32Z",
-        "closed_at": null,
+        "closed_at": "2025-05-31T16:44:19Z",
         "title": "Added the necessary files for vocabulary deployment",
-        "labels": [],
+        "labels": [
+          {
+            "id": 7138903720,
+            "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
+            "url": "https://api.github.com/repos/w3c/did/labels/class%202",
+            "name": "class 2",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Changes that do not functionally affect interpretation of the document"
+          }
+        ],
         "assignee": "iherman",
         "isPullRequest": true
       },
@@ -146,10 +216,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 884,
         "created_at": "2025-03-21T08:05:06Z",
-        "closed_at": null,
+        "closed_at": "2025-05-31T16:44:58Z",
         "title": "DID needs a proper vocabulary specification",
         "labels": [
           {
@@ -157,7 +227,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -232,13 +302,13 @@
         "title": "Relative DID URLs",
         "labels": [
           {
-            "id": 1838604038,
-            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
-            "url": "https://api.github.com/repos/w3c/did/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "0E8A16",
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "C2E0C6",
             "default": false,
-            "description": "Issue is ready for a PR"
+            "description": "There is an open PR to address this issue"
           },
           {
             "id": 7138903720,
@@ -250,7 +320,7 @@
             "description": "Changes that do not functionally affect interpretation of the document"
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -383,7 +453,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -432,7 +502,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -517,16 +587,25 @@
         "title": "Verification method controller property when working with intermediate DID document representations",
         "labels": [
           {
-            "id": 1697549506,
-            "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
-            "url": "https://api.github.com/repos/w3c/did/labels/question",
-            "name": "question",
-            "color": "f9a4f7",
-            "default": true,
-            "description": "Further information is requested"
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "C2E0C6",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          },
+          {
+            "id": 7138903720,
+            "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
+            "url": "https://api.github.com/repos/w3c/did/labels/class%202",
+            "name": "class 2",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Changes that do not functionally affect interpretation of the document"
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -537,16 +616,25 @@
         "title": "Question about query parameter ordering",
         "labels": [
           {
-            "id": 1697549506,
-            "node_id": "MDU6TGFiZWwxNjk3NTQ5NTA2",
-            "url": "https://api.github.com/repos/w3c/did/labels/question",
-            "name": "question",
-            "color": "f9a4f7",
-            "default": true,
-            "description": "Further information is requested"
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "C2E0C6",
+            "default": false,
+            "description": "There is an open PR to address this issue"
+          },
+          {
+            "id": 7138903720,
+            "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
+            "url": "https://api.github.com/repos/w3c/did/labels/class%202",
+            "name": "class 2",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Changes that do not functionally affect interpretation of the document"
           }
         ],
-        "assignee": null,
+        "assignee": "msporny",
         "isPullRequest": false
       },
       {
@@ -590,7 +678,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -649,7 +737,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -678,7 +766,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -726,7 +814,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -748,7 +836,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -775,7 +863,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -804,7 +892,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -842,7 +930,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -873,7 +961,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -902,7 +990,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138902929,
@@ -929,7 +1017,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -998,7 +1086,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -1025,7 +1113,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -1054,7 +1142,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -1162,7 +1250,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138902929,
@@ -1189,7 +1277,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -1218,7 +1306,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -1456,7 +1544,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -1533,7 +1621,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138902929,
@@ -1592,7 +1680,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -1621,7 +1709,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -1650,7 +1738,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138902929,
@@ -1679,7 +1767,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -1708,14 +1796,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -1785,7 +1873,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -1814,7 +1902,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -1969,7 +2057,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -1998,7 +2086,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138902929,
@@ -2027,7 +2115,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -2095,7 +2183,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 7138903720,
@@ -2124,7 +2212,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2154,7 +2242,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1618202096,
@@ -2183,7 +2271,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2203,14 +2291,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -2241,7 +2329,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2271,7 +2359,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2291,7 +2379,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2311,7 +2399,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2331,7 +2419,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2351,7 +2439,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2371,7 +2459,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2391,7 +2479,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2411,7 +2499,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2431,7 +2519,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1580539267,
@@ -2460,7 +2548,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2480,7 +2568,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2500,7 +2588,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2512,17 +2600,7 @@
         "created_at": "2021-07-11T18:45:23Z",
         "closed_at": "2021-07-17T17:49:41Z",
         "title": "Remove alsoKnownAs due to insufficient implementation experience.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2540,7 +2618,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2560,7 +2638,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2587,7 +2665,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -2609,7 +2687,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2629,7 +2707,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2649,7 +2727,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2669,7 +2747,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2709,7 +2787,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2729,14 +2807,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -2758,7 +2836,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2778,7 +2856,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2798,7 +2876,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2818,7 +2896,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2838,7 +2916,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2858,7 +2936,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2878,7 +2956,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2898,7 +2976,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2910,17 +2988,7 @@
         "created_at": "2021-05-29T21:51:43Z",
         "closed_at": "2021-06-05T20:58:08Z",
         "title": "Prepare Candidate Recommendation 2 specification.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -2938,7 +3006,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2958,7 +3026,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2978,7 +3046,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -2998,7 +3066,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3018,7 +3086,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3038,7 +3106,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3058,7 +3126,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3078,7 +3146,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3098,7 +3166,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3118,7 +3186,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3138,7 +3206,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3158,7 +3226,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3178,7 +3246,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3198,7 +3266,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3218,7 +3286,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3238,7 +3306,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3258,7 +3326,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3278,7 +3346,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3298,7 +3366,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3318,7 +3386,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3338,7 +3406,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3350,17 +3418,7 @@
         "created_at": "2021-05-15T16:11:51Z",
         "closed_at": "2021-05-22T14:45:52Z",
         "title": "Migrate CBOR representation to NOTE",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -3378,14 +3436,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -3407,7 +3465,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3427,7 +3485,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3439,17 +3497,7 @@
         "created_at": "2021-05-08T14:32:59Z",
         "closed_at": "2021-05-15T14:47:00Z",
         "title": "Replace use of publicKeyBase58 with publicKeyMultibase.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -3467,7 +3515,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3485,7 +3533,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -3507,14 +3555,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -3536,7 +3584,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3566,7 +3614,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3586,7 +3634,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -3602,7 +3650,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -3624,7 +3672,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "msporny",
@@ -3644,7 +3692,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3664,14 +3712,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -3694,17 +3742,7 @@
         "created_at": "2021-03-30T11:43:58Z",
         "closed_at": "2021-04-30T20:12:55Z",
         "title": "Clarify that equivalentId and canonicalId are optional.",
-        "labels": [
-          {
-            "id": 2732747586,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ3NTg2",
-            "url": "https://api.github.com/repos/w3c/did/labels/non-substantive",
-            "name": "non-substantive",
-            "color": "12968D",
-            "default": false,
-            "description": "This is a normative, but non-substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -3722,7 +3760,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -3747,7 +3785,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -3769,7 +3807,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -3794,7 +3832,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -3814,7 +3852,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -3836,7 +3874,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3876,7 +3914,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3896,7 +3934,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3914,7 +3952,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -3936,7 +3974,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3956,7 +3994,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3976,7 +4014,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -3996,7 +4034,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1697549506,
@@ -4012,7 +4050,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4041,18 +4079,9 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
-          },
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
           }
         ],
         "assignee": "msporny",
@@ -4072,7 +4101,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -4092,7 +4121,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -4112,7 +4141,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -4124,17 +4153,7 @@
         "created_at": "2021-02-26T16:25:40Z",
         "closed_at": "2021-03-01T02:18:51Z",
         "title": "Add support for percent-encoded characters for did:web.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4152,7 +4171,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -4164,17 +4183,7 @@
         "created_at": "2021-02-26T14:49:31Z",
         "closed_at": "2021-03-01T02:16:01Z",
         "title": "Fix collisions in IANA Media Type file extensions.",
-        "labels": [
-          {
-            "id": 2732747586,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ3NTg2",
-            "url": "https://api.github.com/repos/w3c/did/labels/non-substantive",
-            "name": "non-substantive",
-            "color": "12968D",
-            "default": false,
-            "description": "This is a normative, but non-substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4200,7 +4209,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4222,14 +4231,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4368,7 +4377,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -4415,7 +4424,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4445,7 +4454,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4459,17 +4468,7 @@
         "created_at": "2021-02-19T23:00:02Z",
         "closed_at": "2021-02-21T21:14:50Z",
         "title": "Fix \"ordered map\" language and ensure testability of all MUST statements.",
-        "labels": [
-          {
-            "id": 2732747586,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ3NTg2",
-            "url": "https://api.github.com/repos/w3c/did/labels/non-substantive",
-            "name": "non-substantive",
-            "color": "12968D",
-            "default": false,
-            "description": "This is a normative, but non-substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4505,7 +4504,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4527,7 +4526,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -4547,7 +4546,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -4567,7 +4566,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -4599,17 +4598,7 @@
         "created_at": "2021-02-19T04:11:59Z",
         "closed_at": "2021-02-22T16:29:28Z",
         "title": "Add representation-specific entry map in Production and Consumption.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4619,17 +4608,7 @@
         "created_at": "2021-02-19T02:33:41Z",
         "closed_at": "2021-02-22T14:44:43Z",
         "title": "Implement Data Model / Resolution serialization mechanisms.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4647,7 +4626,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -4667,7 +4646,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -4687,7 +4666,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -4707,14 +4686,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4736,7 +4715,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -4754,7 +4733,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4776,7 +4755,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -4806,14 +4785,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4857,17 +4836,7 @@
         "created_at": "2021-02-17T23:43:56Z",
         "closed_at": "2021-02-19T20:24:55Z",
         "title": "Substantive updates to DID Method Requirements section.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4885,7 +4854,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -4903,7 +4872,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -4917,17 +4886,7 @@
         "created_at": "2021-02-17T03:50:40Z",
         "closed_at": "2021-02-18T14:31:37Z",
         "title": "Fix editorial and substantive issues in CBOR section.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -4955,7 +4914,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -4975,7 +4934,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -4995,7 +4954,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5015,7 +4974,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5035,7 +4994,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5055,7 +5014,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -5084,7 +5043,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5096,17 +5055,7 @@
         "created_at": "2021-02-16T01:51:59Z",
         "closed_at": "2021-02-17T20:44:37Z",
         "title": "Fix editorial and substantive issues in JSON-LD section.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5116,17 +5065,7 @@
         "created_at": "2021-02-15T21:09:50Z",
         "closed_at": "2021-02-17T20:36:26Z",
         "title": "Fix editorial and substantive issues in JSON Production and Consumption section.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5144,7 +5083,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5164,7 +5103,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5184,7 +5123,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5204,7 +5143,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5224,7 +5163,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5244,7 +5183,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -5260,7 +5199,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -5282,7 +5221,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -5303,17 +5242,7 @@
         "created_at": "2021-02-15T01:12:34Z",
         "closed_at": "2021-02-15T22:45:47Z",
         "title": "references DID Spec registries for normative values to version properly",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5323,17 +5252,7 @@
         "created_at": "2021-02-15T00:42:06Z",
         "closed_at": "2021-02-17T20:30:41Z",
         "title": "Fix substantive issues related to Representations intro section.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5343,17 +5262,7 @@
         "created_at": "2021-02-15T00:19:11Z",
         "closed_at": "2021-02-16T15:42:39Z",
         "title": "Adding definition of 'conforming DID URL dereferencer'",
-        "labels": [
-          {
-            "id": 2732747586,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ3NTg2",
-            "url": "https://api.github.com/repos/w3c/did/labels/non-substantive",
-            "name": "non-substantive",
-            "color": "12968D",
-            "default": false,
-            "description": "This is a normative, but non-substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5363,17 +5272,7 @@
         "created_at": "2021-02-14T21:29:43Z",
         "closed_at": "2021-02-16T15:37:49Z",
         "title": "Fix non-substantive issues with Service section.",
-        "labels": [
-          {
-            "id": 2732747586,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ3NTg2",
-            "url": "https://api.github.com/repos/w3c/did/labels/non-substantive",
-            "name": "non-substantive",
-            "color": "12968D",
-            "default": false,
-            "description": "This is a normative, but non-substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5391,7 +5290,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5411,7 +5310,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5431,7 +5330,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5451,7 +5350,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5471,7 +5370,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5491,7 +5390,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5503,17 +5402,7 @@
         "created_at": "2021-02-13T21:23:11Z",
         "closed_at": "2021-02-16T15:10:40Z",
         "title": "Fix non-substantive issues with Verification Methods section.",
-        "labels": [
-          {
-            "id": 2732747586,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ3NTg2",
-            "url": "https://api.github.com/repos/w3c/did/labels/non-substantive",
-            "name": "non-substantive",
-            "color": "12968D",
-            "default": false,
-            "description": "This is a normative, but non-substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5531,7 +5420,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5551,7 +5440,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5563,17 +5452,7 @@
         "created_at": "2021-02-12T21:49:30Z",
         "closed_at": "2021-02-16T15:03:37Z",
         "title": "Fix editorial issues in Identification section.",
-        "labels": [
-          {
-            "id": 2732747586,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ3NTg2",
-            "url": "https://api.github.com/repos/w3c/did/labels/non-substantive",
-            "name": "non-substantive",
-            "color": "12968D",
-            "default": false,
-            "description": "This is a normative, but non-substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5591,7 +5470,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5611,7 +5490,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5631,7 +5510,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5651,7 +5530,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5663,17 +5542,7 @@
         "created_at": "2021-02-12T03:21:23Z",
         "closed_at": "2021-02-16T14:02:10Z",
         "title": "Fix editorial/normative issues in DID Parameters.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5683,17 +5552,7 @@
         "created_at": "2021-02-12T01:33:23Z",
         "closed_at": "2021-02-16T14:36:25Z",
         "title": "Update jsonld-production rules",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5711,14 +5570,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -5740,7 +5599,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5760,7 +5619,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5772,17 +5631,7 @@
         "created_at": "2021-02-11T03:39:04Z",
         "closed_at": "2021-02-12T17:53:04Z",
         "title": "Fix editorial/normative issues in Path, Query, and Fragment sections.",
-        "labels": [
-          {
-            "id": 2732747586,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ3NTg2",
-            "url": "https://api.github.com/repos/w3c/did/labels/non-substantive",
-            "name": "non-substantive",
-            "color": "12968D",
-            "default": false,
-            "description": "This is a normative, but non-substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5792,17 +5641,7 @@
         "created_at": "2021-02-11T02:40:56Z",
         "closed_at": "2021-02-12T17:39:01Z",
         "title": "Fix editorial and normative issues in DID URL Syntax section.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5812,17 +5651,7 @@
         "created_at": "2021-02-11T02:14:37Z",
         "closed_at": "2021-02-12T17:34:57Z",
         "title": "Fix editorial and normative issues in DID Syntax section.",
-        "labels": [
-          {
-            "id": 2732747586,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ3NTg2",
-            "url": "https://api.github.com/repos/w3c/did/labels/non-substantive",
-            "name": "non-substantive",
-            "color": "12968D",
-            "default": false,
-            "description": "This is a normative, but non-substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -5840,7 +5669,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5860,7 +5689,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "shigeya",
@@ -5880,7 +5709,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5900,7 +5729,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5920,7 +5749,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5940,7 +5769,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5960,7 +5789,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -5980,7 +5809,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6000,7 +5829,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6012,17 +5841,7 @@
         "created_at": "2021-02-09T23:57:34Z",
         "closed_at": "2021-02-12T14:55:35Z",
         "title": "Describe `@context` as JSON member in JSON-LD production/consumption.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -6040,7 +5859,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6060,7 +5879,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6080,7 +5899,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6092,17 +5911,7 @@
         "created_at": "2021-02-09T21:38:21Z",
         "closed_at": "2021-02-12T14:29:50Z",
         "title": "Reference Canonical CBOR rules, and some other fixes.",
-        "labels": [
-          {
-            "id": 2732746396,
-            "node_id": "MDU6TGFiZWwyNzMyNzQ2Mzk2",
-            "url": "https://api.github.com/repos/w3c/did/labels/substantive",
-            "name": "substantive",
-            "color": "980BA0",
-            "default": false,
-            "description": "This is a substantive change to the specification."
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -6120,7 +5929,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6140,7 +5949,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6160,7 +5969,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6220,14 +6029,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -6249,7 +6058,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6269,7 +6078,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6339,14 +6148,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -6378,7 +6187,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6435,7 +6244,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -6455,7 +6264,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -6477,7 +6286,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "msporny",
@@ -6515,7 +6324,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -6555,7 +6364,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -6577,7 +6386,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6617,7 +6426,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6727,14 +6536,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -6756,7 +6565,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6776,7 +6585,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6846,7 +6655,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -6904,7 +6713,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -6934,7 +6743,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -6986,14 +6795,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7063,7 +6872,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -7094,14 +6903,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7123,14 +6932,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7162,7 +6971,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -7244,15 +7053,6 @@
             "description": "Issue will be closed shortly if no objections"
           },
           {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
-          },
-          {
             "id": 7138903720,
             "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
             "url": "https://api.github.com/repos/w3c/did/labels/class%202",
@@ -7309,7 +7109,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -7388,7 +7188,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -7408,14 +7208,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7447,14 +7247,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7476,7 +7276,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -7594,7 +7394,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7616,7 +7416,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "msporny",
@@ -7634,7 +7434,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7656,7 +7456,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -7674,7 +7474,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7714,7 +7514,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7734,7 +7534,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7756,7 +7556,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -7776,7 +7576,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "msporny",
@@ -7814,7 +7614,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7836,7 +7636,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -7864,7 +7664,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -7954,7 +7754,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8013,7 +7813,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8095,7 +7895,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8133,7 +7933,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8183,7 +7983,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8205,14 +8005,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8264,7 +8064,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8302,7 +8102,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8342,7 +8142,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8362,7 +8162,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8384,7 +8184,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8404,7 +8204,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8424,7 +8224,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8444,7 +8244,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8464,14 +8264,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8503,7 +8303,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8533,7 +8333,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8553,7 +8353,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8573,7 +8373,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8671,7 +8471,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8723,7 +8523,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8761,7 +8561,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8791,7 +8591,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8821,7 +8621,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8871,7 +8671,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -8923,7 +8723,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -8972,7 +8772,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -9111,14 +8911,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9160,7 +8960,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "rhiaro",
@@ -9198,7 +8998,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9344,7 +9144,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9373,7 +9173,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9423,7 +9223,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9463,7 +9263,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9485,7 +9285,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -9503,7 +9303,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9641,7 +9441,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9673,7 +9473,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -9693,7 +9493,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -9759,7 +9559,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9839,7 +9639,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9859,7 +9659,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -9943,26 +9743,7 @@
         "created_at": "2020-07-23T21:18:01Z",
         "closed_at": "2020-11-03T03:59:55Z",
         "title": "Restrict the number of key representation members",
-        "labels": [
-          {
-            "id": 2157173925,
-            "node_id": "MDU6TGFiZWwyMTU3MTczOTI1",
-            "url": "https://api.github.com/repos/w3c/did/labels/jose",
-            "name": "jose",
-            "color": "d4c5f9",
-            "default": false,
-            "description": "Related to JOSE specifications"
-          },
-          {
-            "id": 2163350549,
-            "node_id": "MDU6TGFiZWwyMTYzMzUwNTQ5",
-            "url": "https://api.github.com/repos/w3c/did/labels/keys",
-            "name": "keys",
-            "color": "8eedcb",
-            "default": false,
-            "description": "issues and PRs related to key formats, specs, algorithms, etc."
-          }
-        ],
+        "labels": [],
         "assignee": "OR13",
         "isPullRequest": false
       },
@@ -10017,7 +9798,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -10067,7 +9848,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -10110,17 +9891,7 @@
         "created_at": "2020-07-14T20:49:09Z",
         "closed_at": "2020-07-28T13:18:25Z",
         "title": "Add Metadata section based on infra data structures.",
-        "labels": [
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -10165,7 +9936,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -10257,7 +10028,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "jonnycrunch",
@@ -10275,7 +10046,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -10316,7 +10087,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -10373,7 +10144,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -10393,7 +10164,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -10503,27 +10274,9 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
-          },
-          {
-            "id": 2157173925,
-            "node_id": "MDU6TGFiZWwyMTU3MTczOTI1",
-            "url": "https://api.github.com/repos/w3c/did/labels/jose",
-            "name": "jose",
-            "color": "d4c5f9",
-            "default": false,
-            "description": "Related to JOSE specifications"
-          },
-          {
-            "id": 2163350549,
-            "node_id": "MDU6TGFiZWwyMTYzMzUwNTQ5",
-            "url": "https://api.github.com/repos/w3c/did/labels/keys",
-            "name": "keys",
-            "color": "8eedcb",
-            "default": false,
-            "description": "issues and PRs related to key formats, specs, algorithms, etc."
           }
         ],
         "assignee": "msporny",
@@ -10541,7 +10294,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -10573,17 +10326,7 @@
         "created_at": "2020-06-17T23:17:13Z",
         "closed_at": "2020-06-23T07:35:04Z",
         "title": "Allow resolve() to return abstract DID document (option 2)",
-        "labels": [
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -10593,17 +10336,7 @@
         "created_at": "2020-06-17T23:17:12Z",
         "closed_at": "2020-06-23T07:34:55Z",
         "title": "Allow resolve() to return abstract DID document (option 1)",
-        "labels": [
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -10621,7 +10354,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -10641,7 +10374,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -10661,7 +10394,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -10721,7 +10454,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -10761,7 +10494,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1606470635,
@@ -10777,7 +10510,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -10809,14 +10542,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -10868,7 +10601,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -10918,7 +10651,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -10938,7 +10671,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -10979,15 +10712,6 @@
             "color": "FA074A",
             "default": false,
             "description": "Do not merge - waiting on resolution to issue"
-          },
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": null,
@@ -11008,15 +10732,6 @@
             "color": "FA074A",
             "default": false,
             "description": "Do not merge - waiting on resolution to issue"
-          },
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": null,
@@ -11037,15 +10752,6 @@
             "color": "FA074A",
             "default": false,
             "description": "Do not merge - waiting on resolution to issue"
-          },
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": null,
@@ -11133,7 +10839,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -11253,7 +10959,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -11285,7 +10991,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -11295,15 +11001,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 2163350549,
-            "node_id": "MDU6TGFiZWwyMTYzMzUwNTQ5",
-            "url": "https://api.github.com/repos/w3c/did/labels/keys",
-            "name": "keys",
-            "color": "8eedcb",
-            "default": false,
-            "description": "issues and PRs related to key formats, specs, algorithms, etc."
           }
         ],
         "assignee": "selfissued",
@@ -11323,7 +11020,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -11380,7 +11077,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -11453,15 +11150,6 @@
             "color": "f9a4f7",
             "default": true,
             "description": "Further information is requested"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "csuwildcat",
@@ -11511,7 +11199,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1697549506,
@@ -11527,7 +11215,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -11549,14 +11237,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -11608,15 +11296,6 @@
             "color": "f9a4f7",
             "default": true,
             "description": "Further information is requested"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "msporny",
@@ -11628,17 +11307,7 @@
         "created_at": "2020-04-21T02:15:20Z",
         "closed_at": "2020-05-29T00:27:36Z",
         "title": "Add normative DID Resolution Metadata section.",
-        "labels": [
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
-          }
-        ],
+        "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
@@ -11686,7 +11355,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -11715,7 +11384,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -11961,7 +11630,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -12029,18 +11698,9 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
-          },
-          {
-            "id": 2157173925,
-            "node_id": "MDU6TGFiZWwyMTU3MTczOTI1",
-            "url": "https://api.github.com/repos/w3c/did/labels/jose",
-            "name": "jose",
-            "color": "d4c5f9",
-            "default": false,
-            "description": "Related to JOSE specifications"
           }
         ],
         "assignee": "msporny",
@@ -12080,7 +11740,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -12310,7 +11970,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1838604038,
@@ -12339,7 +11999,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -12388,7 +12048,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -12428,7 +12088,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1697549506,
@@ -12464,7 +12124,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -12494,18 +12154,9 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           },
           {
             "id": 2555159747,
@@ -12534,7 +12185,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -12544,15 +12195,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "jricher",
@@ -12572,14 +12214,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -12599,18 +12241,9 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           },
           {
             "id": 2055693582,
@@ -12639,14 +12272,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -12669,15 +12302,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": "jricher",
@@ -12695,18 +12319,9 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "jricher",
@@ -12724,7 +12339,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -12764,7 +12379,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -13005,17 +12620,7 @@
         "created_at": "2020-02-06T05:02:19Z",
         "closed_at": "2020-09-02T20:34:49Z",
         "title": "Supported ciphers in a DID document",
-        "labels": [
-          {
-            "id": 2157173925,
-            "node_id": "MDU6TGFiZWwyMTU3MTczOTI1",
-            "url": "https://api.github.com/repos/w3c/did/labels/jose",
-            "name": "jose",
-            "color": "d4c5f9",
-            "default": false,
-            "description": "Related to JOSE specifications"
-          }
-        ],
+        "labels": [],
         "assignee": "tplooker",
         "isPullRequest": false
       },
@@ -13043,7 +12648,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13072,7 +12677,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13101,7 +12706,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13130,7 +12735,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "selfissued",
@@ -13150,14 +12755,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -13179,7 +12784,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13208,7 +12813,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "selfissued",
@@ -13228,7 +12833,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "selfissued",
@@ -13268,7 +12873,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13278,15 +12883,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": "selfissued",
@@ -13313,7 +12909,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -13335,7 +12931,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "selfissued",
@@ -13355,7 +12951,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13365,15 +12961,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 2157173925,
-            "node_id": "MDU6TGFiZWwyMTU3MTczOTI1",
-            "url": "https://api.github.com/repos/w3c/did/labels/jose",
-            "name": "jose",
-            "color": "d4c5f9",
-            "default": false,
-            "description": "Related to JOSE specifications"
           }
         ],
         "assignee": "OR13",
@@ -13393,7 +12980,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13414,15 +13001,6 @@
             "description": "Issue is ready for a PR"
           },
           {
-            "id": 2157173925,
-            "node_id": "MDU6TGFiZWwyMTU3MTczOTI1",
-            "url": "https://api.github.com/repos/w3c/did/labels/jose",
-            "name": "jose",
-            "color": "d4c5f9",
-            "default": false,
-            "description": "Related to JOSE specifications"
-          },
-          {
             "id": 7138903720,
             "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
             "url": "https://api.github.com/repos/w3c/did/labels/class%202",
@@ -13441,17 +13019,7 @@
         "created_at": "2020-01-31T11:26:13Z",
         "closed_at": "2020-06-08T02:07:51Z",
         "title": "Replace registries administered community groups with registries established by this specification",
-        "labels": [
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
-          }
-        ],
+        "labels": [],
         "assignee": "rhiaro",
         "isPullRequest": false
       },
@@ -13489,7 +13057,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13518,7 +13086,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "selfissued",
@@ -13538,7 +13106,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13567,7 +13135,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13583,7 +13151,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -13605,14 +13173,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -13634,7 +13202,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13663,14 +13231,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -13690,18 +13258,9 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "selfissued",
@@ -13719,7 +13278,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -13733,17 +13292,7 @@
         "created_at": "2020-01-29T02:11:46Z",
         "closed_at": "2020-03-24T22:36:34Z",
         "title": "Add usage / key usage for sidetree methods",
-        "labels": [
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
-          }
-        ],
+        "labels": [],
         "assignee": "OR13",
         "isPullRequest": false
       },
@@ -13771,7 +13320,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -13792,15 +13341,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "OR13",
@@ -13812,17 +13352,7 @@
         "created_at": "2020-01-22T04:09:51Z",
         "closed_at": "2020-05-27T07:42:11Z",
         "title": "Allowing embedded custom contexts",
-        "labels": [
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
-          }
-        ],
+        "labels": [],
         "assignee": "OR13",
         "isPullRequest": false
       },
@@ -13860,7 +13390,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -13899,7 +13429,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -13920,15 +13450,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "talltree",
@@ -13990,17 +13511,7 @@
         "created_at": "2019-12-13T18:38:34Z",
         "closed_at": "2020-03-17T21:55:31Z",
         "title": "Consider adding a well-defined method-specific section to the DID Document",
-        "labels": [
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
-          }
-        ],
+        "labels": [],
         "assignee": "talltree",
         "isPullRequest": false
       },
@@ -14028,7 +13539,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14098,7 +13609,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14118,7 +13629,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14136,7 +13647,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -14158,7 +13669,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14178,7 +13689,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14196,7 +13707,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -14218,7 +13729,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14238,7 +13749,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14268,7 +13779,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14288,7 +13799,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14308,7 +13819,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14320,17 +13831,7 @@
         "created_at": "2019-11-25T23:20:34Z",
         "closed_at": "2020-02-10T18:37:56Z",
         "title": "Regarding PII Embedded in Key Formats",
-        "labels": [
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
-          }
-        ],
+        "labels": [],
         "assignee": "OR13",
         "isPullRequest": false
       },
@@ -14388,7 +13889,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14408,7 +13909,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14438,7 +13939,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "rhiaro",
@@ -14458,7 +13959,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14478,7 +13979,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14498,14 +13999,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -14527,7 +14028,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14547,7 +14048,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14567,7 +14068,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14587,7 +14088,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14627,7 +14128,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -14647,7 +14148,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "rhiaro",
@@ -14755,7 +14256,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -14854,7 +14355,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -14946,15 +14447,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": "selfissued",
@@ -15014,7 +14506,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "peacekeeper",
@@ -15034,7 +14526,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -15064,7 +14556,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -15133,7 +14625,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "iherman",
@@ -15153,7 +14645,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -15173,7 +14665,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1838604038,
@@ -15219,7 +14711,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           },
@@ -15287,7 +14779,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -15320,15 +14812,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": "peacekeeper",
@@ -15441,15 +14924,6 @@
         "title": "Registry handling",
         "labels": [
           {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
-          },
-          {
             "id": 2055693582,
             "node_id": "MDU6TGFiZWwyMDU1NjkzNTgy",
             "url": "https://api.github.com/repos/w3c/did/labels/needs%20special%20call",
@@ -15545,7 +15019,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -15574,7 +15048,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "msporny",
@@ -15614,7 +15088,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "peacekeeper",
@@ -15663,7 +15137,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -15741,7 +15215,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -15770,7 +15244,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -15799,7 +15273,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "peacekeeper",
@@ -15819,7 +15293,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "talltree",
@@ -15849,7 +15323,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "msporny",
@@ -15869,14 +15343,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -15898,7 +15372,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "msporny",
@@ -15918,7 +15392,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "msporny",
@@ -16068,15 +15542,6 @@
             "color": "FA074A",
             "default": false,
             "description": "Do not merge - waiting on resolution to issue"
-          },
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": null,
@@ -16097,15 +15562,6 @@
             "color": "FA074A",
             "default": false,
             "description": "Do not merge - waiting on resolution to issue"
-          },
-          {
-            "id": 1732574802,
-            "node_id": "MDU6TGFiZWwxNzMyNTc0ODAy",
-            "url": "https://api.github.com/repos/w3c/did/labels/metadata",
-            "name": "metadata",
-            "color": "931416",
-            "default": false,
-            "description": "issues and PRs related to metadata"
           }
         ],
         "assignee": null,
@@ -16145,7 +15601,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -16204,15 +15660,6 @@
             "color": "5386bc",
             "default": false,
             "description": "Needs further discussion before a pull request can be created"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "rhiaro",
@@ -16252,7 +15699,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1594108376,
@@ -16359,7 +15806,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": null,
@@ -16379,7 +15826,7 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           }
         ],
         "assignee": "talltree",
@@ -16549,24 +15996,6 @@
             "color": "d93f0b",
             "default": false,
             "description": "Needs a special topic call to make progress"
-          },
-          {
-            "id": 2157173925,
-            "node_id": "MDU6TGFiZWwyMTU3MTczOTI1",
-            "url": "https://api.github.com/repos/w3c/did/labels/jose",
-            "name": "jose",
-            "color": "d4c5f9",
-            "default": false,
-            "description": "Related to JOSE specifications"
-          },
-          {
-            "id": 2163350549,
-            "node_id": "MDU6TGFiZWwyMTYzMzUwNTQ5",
-            "url": "https://api.github.com/repos/w3c/did/labels/keys",
-            "name": "keys",
-            "color": "8eedcb",
-            "default": false,
-            "description": "issues and PRs related to key formats, specs, algorithms, etc."
           }
         ],
         "assignee": "selfissued",
@@ -16617,15 +16046,6 @@
             "color": "cc4502",
             "default": false,
             "description": "Issue will be closed shortly if no objections"
-          },
-          {
-            "id": 1826575778,
-            "node_id": "MDU6TGFiZWwxODI2NTc1Nzc4",
-            "url": "https://api.github.com/repos/w3c/did/labels/extensibility",
-            "name": "extensibility",
-            "color": "ffc26d",
-            "default": false,
-            "description": "related to extensibility, json-ld contexts, external properties, etc"
           }
         ],
         "assignee": "iherman",
@@ -16643,7 +16063,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -16665,14 +16085,14 @@
             "name": "editorial",
             "color": "7eb520",
             "default": false,
-            "description": "Editors should update the spec then close"
+            "description": "The change is expected to be an editorial change"
           },
           {
             "id": 1715041388,
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -16701,7 +16121,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
@@ -16721,7 +16141,7 @@
             "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
             "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
             "name": "pr exists",
-            "color": "fef2c0",
+            "color": "C2E0C6",
             "default": false,
             "description": "There is an open PR to address this issue"
           }
