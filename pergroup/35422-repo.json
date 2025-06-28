@@ -8,19 +8,38 @@
     "issues": [
       {
         "state": "open",
+        "number": 4470,
+        "created_at": "2025-06-27T19:29:47Z",
+        "closed_at": null,
+        "title": "Backport June 2025 errata to 2.1",
+        "labels": [],
+        "assignee": "kfranqueiro",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 4469,
         "created_at": "2025-06-26T07:24:35Z",
         "closed_at": null,
         "title": "Minor errata for 1.4.13 Content on Hover or Focus",
         "labels": [
           {
-            "id": 1012596616,
-            "node_id": "MDU6TGFiZWwxMDEyNTk2NjE2",
-            "url": "https://api.github.com/repos/w3c/wcag/labels/Errata",
-            "name": "Errata",
-            "color": "b60205",
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
             "default": false,
-            "description": "Erratum to a Recommendation"
+            "description": null
+          },
+          {
+            "id": 1012597106,
+            "node_id": "MDU6TGFiZWwxMDEyNTk3MTA2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/ErratumRaised",
+            "name": "ErratumRaised",
+            "color": "5319e7",
+            "default": false,
+            "description": "Potential erratum for a Recommendation"
           },
           {
             "id": 1410662756,
@@ -61,7 +80,7 @@
         "closed_at": null,
         "title": "Update README.md",
         "labels": [],
-        "assignee": "bruce-usab",
+        "assignee": "kfranqueiro",
         "isPullRequest": true
       },
       {
@@ -80,7 +99,26 @@
         "created_at": "2025-06-22T23:00:58Z",
         "closed_at": null,
         "title": "Add link to \"Declaring language in HTML\" to 3.1.1, 3.1.2, H57, H58",
-        "labels": [],
+        "labels": [
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962595250,
+            "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Understanding",
+            "name": "Understanding",
+            "color": "aba0d8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -168,6 +206,15 @@
         "closed_at": null,
         "title": "Remove contradictory normative \"must\" from Section 7 preamble (first step to address `transaction-amount` issue in 1.3.5)",
         "labels": [
+          {
+            "id": 1012597106,
+            "node_id": "MDU6TGFiZWwxMDEyNTk3MTA2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/ErratumRaised",
+            "name": "ErratumRaised",
+            "color": "5319e7",
+            "default": false,
+            "description": "Potential erratum for a Recommendation"
+          },
           {
             "id": 1410662756,
             "node_id": "MDU6TGFiZWwxNDEwNjYyNzU2",
@@ -1048,7 +1095,7 @@
         "closed_at": null,
         "title": "Tweak C39 and add new matching SCR40",
         "labels": [],
-        "assignee": null,
+        "assignee": "kfranqueiro",
         "isPullRequest": true
       },
       {
@@ -1504,7 +1551,7 @@
         "closed_at": null,
         "title": "Tweak language around modal dialogs",
         "labels": [],
-        "assignee": null,
+        "assignee": "adampage",
         "isPullRequest": true
       },
       {
@@ -1770,14 +1817,14 @@
         "closed_at": null,
         "title": "Add new errata to both 2.1 and 2.2",
         "labels": [],
-        "assignee": null,
+        "assignee": "kfranqueiro",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4368,
         "created_at": "2025-04-28T11:06:05Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T15:55:39Z",
         "title": "Change \"alternate\" to \"alternative\"",
         "labels": [],
         "assignee": null,
@@ -1958,10 +2005,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4359,
         "created_at": "2025-04-25T14:17:54Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T18:58:55Z",
         "title": "Remove periods from end of definitions",
         "labels": [
           {
@@ -3765,10 +3812,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4256,
         "created_at": "2025-02-28T19:11:08Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:00:19Z",
         "title": "Update index.html to correct alphabetical order",
         "labels": [
           {
@@ -4538,7 +4585,7 @@
         "closed_at": null,
         "title": "Update reading-level.html",
         "labels": [],
-        "assignee": "mbgower",
+        "assignee": null,
         "isPullRequest": true
       },
       {
@@ -5013,10 +5060,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4165,
         "created_at": "2024-12-06T19:19:02Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:03:46Z",
         "title": "Harmonise spelling for \"breakpoint\"",
         "labels": [
           {
@@ -5051,10 +5098,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4164,
         "created_at": "2024-12-06T17:11:15Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:03:47Z",
         "title": "Inconsistent spelling of \"break-point\" in the understanding docs",
         "labels": [
           {
@@ -5584,10 +5631,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4135,
         "created_at": "2024-11-04T21:50:36Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T15:56:16Z",
         "title": "The terms \"alternate\" and \"alternative\" are used inconsistently through the spec and non-normative material",
         "labels": [],
         "assignee": "patrickhlauke",
@@ -6784,10 +6831,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4040,
         "created_at": "2024-08-25T22:24:13Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:02:31Z",
         "title": "Amend definition of motion animation to *not* exclude blurring",
         "labels": [
           {
@@ -8566,10 +8613,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3949,
         "created_at": "2024-07-05T23:02:36Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:02:32Z",
         "title": "WCAG Example suggests \"blurring\" does not affect animation triggering vestibular motion perception (but it can)",
         "labels": [
           {
@@ -46085,10 +46132,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2296,
         "created_at": "2022-04-02T15:38:10Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:05:13Z",
         "title": "link directly to new supplemental guidance",
         "labels": [
           {
@@ -81524,7 +81571,7 @@
         "number": 1025,
         "created_at": "2020-01-29T07:21:28Z",
         "closed_at": null,
-        "title": "Update broken links at Understanding of SC 2.4.2 (Page Titled)",
+        "title": "Add links to Understanding of SC 2.4.2 (Page Titled)",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -81536,7 +81583,7 @@
         "closed_at": null,
         "title": "Update G206",
         "labels": [],
-        "assignee": null,
+        "assignee": "gundulaniemann",
         "isPullRequest": true
       },
       {
@@ -81556,7 +81603,7 @@
         "closed_at": null,
         "title": "Update Understanding \"focus visible\" (SC 2.4.7)",
         "labels": [],
-        "assignee": null,
+        "assignee": "mbgower",
         "isPullRequest": true
       },
       {
@@ -160776,19 +160823,38 @@
     "issues": [
       {
         "state": "open",
+        "number": 4470,
+        "created_at": "2025-06-27T19:29:47Z",
+        "closed_at": null,
+        "title": "Backport June 2025 errata to 2.1",
+        "labels": [],
+        "assignee": "kfranqueiro",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 4469,
         "created_at": "2025-06-26T07:24:35Z",
         "closed_at": null,
         "title": "Minor errata for 1.4.13 Content on Hover or Focus",
         "labels": [
           {
-            "id": 1012596616,
-            "node_id": "MDU6TGFiZWwxMDEyNTk2NjE2",
-            "url": "https://api.github.com/repos/w3c/wcag/labels/Errata",
-            "name": "Errata",
-            "color": "b60205",
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
             "default": false,
-            "description": "Erratum to a Recommendation"
+            "description": null
+          },
+          {
+            "id": 1012597106,
+            "node_id": "MDU6TGFiZWwxMDEyNTk3MTA2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/ErratumRaised",
+            "name": "ErratumRaised",
+            "color": "5319e7",
+            "default": false,
+            "description": "Potential erratum for a Recommendation"
           },
           {
             "id": 1410662756,
@@ -160829,7 +160895,7 @@
         "closed_at": null,
         "title": "Update README.md",
         "labels": [],
-        "assignee": "bruce-usab",
+        "assignee": "kfranqueiro",
         "isPullRequest": true
       },
       {
@@ -160848,7 +160914,26 @@
         "created_at": "2025-06-22T23:00:58Z",
         "closed_at": null,
         "title": "Add link to \"Declaring language in HTML\" to 3.1.1, 3.1.2, H57, H58",
-        "labels": [],
+        "labels": [
+          {
+            "id": 956469826,
+            "node_id": "MDU6TGFiZWw5NTY0Njk4MjY=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Techniques",
+            "name": "Techniques",
+            "color": "e5069f",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 962595250,
+            "node_id": "MDU6TGFiZWw5NjI1OTUyNTA=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Understanding",
+            "name": "Understanding",
+            "color": "aba0d8",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -160936,6 +161021,15 @@
         "closed_at": null,
         "title": "Remove contradictory normative \"must\" from Section 7 preamble (first step to address `transaction-amount` issue in 1.3.5)",
         "labels": [
+          {
+            "id": 1012597106,
+            "node_id": "MDU6TGFiZWwxMDEyNTk3MTA2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/ErratumRaised",
+            "name": "ErratumRaised",
+            "color": "5319e7",
+            "default": false,
+            "description": "Potential erratum for a Recommendation"
+          },
           {
             "id": 1410662756,
             "node_id": "MDU6TGFiZWwxNDEwNjYyNzU2",
@@ -161816,7 +161910,7 @@
         "closed_at": null,
         "title": "Tweak C39 and add new matching SCR40",
         "labels": [],
-        "assignee": null,
+        "assignee": "kfranqueiro",
         "isPullRequest": true
       },
       {
@@ -162272,7 +162366,7 @@
         "closed_at": null,
         "title": "Tweak language around modal dialogs",
         "labels": [],
-        "assignee": null,
+        "assignee": "adampage",
         "isPullRequest": true
       },
       {
@@ -162538,14 +162632,14 @@
         "closed_at": null,
         "title": "Add new errata to both 2.1 and 2.2",
         "labels": [],
-        "assignee": null,
+        "assignee": "kfranqueiro",
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4368,
         "created_at": "2025-04-28T11:06:05Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T15:55:39Z",
         "title": "Change \"alternate\" to \"alternative\"",
         "labels": [],
         "assignee": null,
@@ -162726,10 +162820,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4359,
         "created_at": "2025-04-25T14:17:54Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T18:58:55Z",
         "title": "Remove periods from end of definitions",
         "labels": [
           {
@@ -164533,10 +164627,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4256,
         "created_at": "2025-02-28T19:11:08Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:00:19Z",
         "title": "Update index.html to correct alphabetical order",
         "labels": [
           {
@@ -165306,7 +165400,7 @@
         "closed_at": null,
         "title": "Update reading-level.html",
         "labels": [],
-        "assignee": "mbgower",
+        "assignee": null,
         "isPullRequest": true
       },
       {
@@ -165781,10 +165875,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4165,
         "created_at": "2024-12-06T19:19:02Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:03:46Z",
         "title": "Harmonise spelling for \"breakpoint\"",
         "labels": [
           {
@@ -165819,10 +165913,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4164,
         "created_at": "2024-12-06T17:11:15Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:03:47Z",
         "title": "Inconsistent spelling of \"break-point\" in the understanding docs",
         "labels": [
           {
@@ -166352,10 +166446,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4135,
         "created_at": "2024-11-04T21:50:36Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T15:56:16Z",
         "title": "The terms \"alternate\" and \"alternative\" are used inconsistently through the spec and non-normative material",
         "labels": [],
         "assignee": "patrickhlauke",
@@ -167552,10 +167646,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4040,
         "created_at": "2024-08-25T22:24:13Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:02:31Z",
         "title": "Amend definition of motion animation to *not* exclude blurring",
         "labels": [
           {
@@ -169334,10 +169428,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 3949,
         "created_at": "2024-07-05T23:02:36Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:02:32Z",
         "title": "WCAG Example suggests \"blurring\" does not affect animation triggering vestibular motion perception (but it can)",
         "labels": [
           {
@@ -206853,10 +206947,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 2296,
         "created_at": "2022-04-02T15:38:10Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T19:05:13Z",
         "title": "link directly to new supplemental guidance",
         "labels": [
           {
@@ -242292,7 +242386,7 @@
         "number": 1025,
         "created_at": "2020-01-29T07:21:28Z",
         "closed_at": null,
-        "title": "Update broken links at Understanding of SC 2.4.2 (Page Titled)",
+        "title": "Add links to Understanding of SC 2.4.2 (Page Titled)",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -242304,7 +242398,7 @@
         "closed_at": null,
         "title": "Update G206",
         "labels": [],
-        "assignee": null,
+        "assignee": "gundulaniemann",
         "isPullRequest": true
       },
       {
@@ -242324,7 +242418,7 @@
         "closed_at": null,
         "title": "Update Understanding \"focus visible\" (SC 2.4.7)",
         "labels": [],
-        "assignee": null,
+        "assignee": "mbgower",
         "isPullRequest": true
       },
       {
@@ -264966,19 +265060,59 @@
     "issues": [
       {
         "state": "open",
-        "number": 709,
-        "created_at": "2025-06-26T19:36:14Z",
+        "number": 712,
+        "created_at": "2025-06-27T21:16:30Z",
         "closed_at": null,
-        "title": "Copy first 2 paragraphs of non-web software note into a non-web doc note",
+        "title": "Remove INS tag around added note for \"accessibility supported\"",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 711,
+        "created_at": "2025-06-27T21:14:40Z",
+        "closed_at": null,
+        "title": "More random editorial changes",
+        "labels": [
+          {
+            "id": 6034937477,
+            "node_id": "LA_kwDOHGOGS88AAAABZ7XWhQ",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Editorial",
+            "name": "Editorial",
+            "color": "504D08",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "maryjom",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 710,
+        "created_at": "2025-06-27T17:07:13Z",
+        "closed_at": "2025-06-27T20:40:31Z",
+        "title": "Add abbr tag to HTML",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 709,
+        "created_at": "2025-06-26T19:36:14Z",
+        "closed_at": "2025-06-27T13:25:40Z",
+        "title": "Copy first 2 paragraphs of non-web software note into a non-web doc note",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 708,
         "created_at": "2025-06-25T12:06:40Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T20:41:34Z",
         "title": "add abbr for HTML",
         "labels": [],
         "assignee": null,
@@ -264991,15 +265125,6 @@
         "closed_at": "2025-06-26T15:10:37Z",
         "title": "Add in \"non-web\" where needed for consistency with the EN 301 549",
         "labels": [
-          {
-            "id": 4652931483,
-            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
-            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
-            "name": "Ready for TF Review",
-            "color": "0E8A16",
-            "default": false,
-            "description": ""
-          },
           {
             "id": 6034937477,
             "node_id": "LA_kwDOHGOGS88AAAABZ7XWhQ",
@@ -265292,10 +265417,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 695,
         "created_at": "2025-06-17T14:44:11Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T13:26:35Z",
         "title": "1.4.10 Reflow: Note 7 applies to non-web documents and to software but is listed under non-web software parenthetic",
         "labels": [
           {
@@ -265369,10 +265494,10 @@
         "isPullRequest": false
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 692,
         "created_at": "2025-06-13T14:56:17Z",
-        "closed_at": "2025-06-26T18:58:10Z",
+        "closed_at": null,
         "title": "A number of SC notes only apply to non-web software or only to non-web documents but not noted that way",
         "labels": [
           {
@@ -277027,19 +277152,59 @@
     "issues": [
       {
         "state": "open",
-        "number": 709,
-        "created_at": "2025-06-26T19:36:14Z",
+        "number": 712,
+        "created_at": "2025-06-27T21:16:30Z",
         "closed_at": null,
-        "title": "Copy first 2 paragraphs of non-web software note into a non-web doc note",
+        "title": "Remove INS tag around added note for \"accessibility supported\"",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
         "state": "open",
+        "number": 711,
+        "created_at": "2025-06-27T21:14:40Z",
+        "closed_at": null,
+        "title": "More random editorial changes",
+        "labels": [
+          {
+            "id": 6034937477,
+            "node_id": "LA_kwDOHGOGS88AAAABZ7XWhQ",
+            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Editorial",
+            "name": "Editorial",
+            "color": "504D08",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "maryjom",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 710,
+        "created_at": "2025-06-27T17:07:13Z",
+        "closed_at": "2025-06-27T20:40:31Z",
+        "title": "Add abbr tag to HTML",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 709,
+        "created_at": "2025-06-26T19:36:14Z",
+        "closed_at": "2025-06-27T13:25:40Z",
+        "title": "Copy first 2 paragraphs of non-web software note into a non-web doc note",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 708,
         "created_at": "2025-06-25T12:06:40Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T20:41:34Z",
         "title": "add abbr for HTML",
         "labels": [],
         "assignee": null,
@@ -277052,15 +277217,6 @@
         "closed_at": "2025-06-26T15:10:37Z",
         "title": "Add in \"non-web\" where needed for consistency with the EN 301 549",
         "labels": [
-          {
-            "id": 4652931483,
-            "node_id": "LA_kwDOHGOGS88AAAABFVYZmw",
-            "url": "https://api.github.com/repos/w3c/wcag2ict/labels/Ready%20for%20TF%20Review",
-            "name": "Ready for TF Review",
-            "color": "0E8A16",
-            "default": false,
-            "description": ""
-          },
           {
             "id": 6034937477,
             "node_id": "LA_kwDOHGOGS88AAAABZ7XWhQ",
@@ -277353,10 +277509,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 695,
         "created_at": "2025-06-17T14:44:11Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T13:26:35Z",
         "title": "1.4.10 Reflow: Note 7 applies to non-web documents and to software but is listed under non-web software parenthetic",
         "labels": [
           {
@@ -277430,10 +277586,10 @@
         "isPullRequest": false
       },
       {
-        "state": "closed",
+        "state": "open",
         "number": 692,
         "created_at": "2025-06-13T14:56:17Z",
-        "closed_at": "2025-06-26T18:58:10Z",
+        "closed_at": null,
         "title": "A number of SC notes only apply to non-web software or only to non-web documents but not noted that way",
         "labels": [
           {
@@ -289087,10 +289243,10 @@
     "recTrack": false,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 221,
         "created_at": "2025-06-25T14:23:06Z",
-        "closed_at": null,
+        "closed_at": "2025-06-27T13:39:21Z",
         "title": "Definition of \"accessibility interface\" in mobile application context",
         "labels": [
           {
