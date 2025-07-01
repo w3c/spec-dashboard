@@ -1,4 +1,5130 @@
 {
+  "https://www.w3.org/TR/digital-credentials/": {
+    "repo": {
+      "owner": "w3c-fedid",
+      "name": "digital-credentials"
+    },
+    "recTrack": true,
+    "issues": [
+      {
+        "state": "open",
+        "number": 306,
+        "created_at": "2025-06-30T07:12:55Z",
+        "closed_at": null,
+        "title": "Define Coordinator and Client",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 305,
+        "created_at": "2025-06-30T07:12:37Z",
+        "closed_at": null,
+        "title": "Define coordinator and client",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 304,
+        "created_at": "2025-06-30T03:06:33Z",
+        "closed_at": null,
+        "title": "Editorial: add  API section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 303,
+        "created_at": "2025-06-30T03:06:19Z",
+        "closed_at": null,
+        "title": "Spec should group API section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 302,
+        "created_at": "2025-06-26T20:43:12Z",
+        "closed_at": null,
+        "title": "mitigations for tracking and fingerprinting using presented or issued credential characteristics",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 301,
+        "created_at": "2025-06-26T17:52:19Z",
+        "closed_at": "2025-06-27T06:54:08Z",
+        "title": "chore: add Editor IDs",
+        "labels": [
+          {
+            "id": 8615500309,
+            "node_id": "LA_kwDOJaZems8AAAACAYYaFQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 300,
+        "created_at": "2025-06-26T17:35:29Z",
+        "closed_at": "2025-06-27T06:55:06Z",
+        "title": "Chore: fix HTML Validator issues",
+        "labels": [
+          {
+            "id": 8615500309,
+            "node_id": "LA_kwDOJaZems8AAAACAYYaFQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 299,
+        "created_at": "2025-06-26T01:23:12Z",
+        "closed_at": "2025-06-26T01:24:22Z",
+        "title": "Establish a common classification of credential types used in this API",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 298,
+        "created_at": "2025-06-25T04:43:55Z",
+        "closed_at": null,
+        "title": "Choice of issuers and consequent exclusion risk",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 297,
+        "created_at": "2025-06-24T22:23:36Z",
+        "closed_at": null,
+        "title": "Privacy Considerations: Consider incorporating information entropy when discussing linkable information",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 296,
+        "created_at": "2025-06-24T06:32:08Z",
+        "closed_at": null,
+        "title": "proof of authentication",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 295,
+        "created_at": "2025-06-24T03:37:21Z",
+        "closed_at": null,
+        "title": "Privacy Considerations: Possibly distinguish between 3P attested and self attested and identity / non-identity based",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 294,
+        "created_at": "2025-06-22T09:21:02Z",
+        "closed_at": "2025-06-22T09:27:32Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 293,
+        "created_at": "2025-06-22T06:03:32Z",
+        "closed_at": null,
+        "title": "Exchanges user agency for greater compliance and convenience",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 292,
+        "created_at": "2025-06-22T05:55:36Z",
+        "closed_at": "2025-06-24T01:38:53Z",
+        "title": "Increased restriction of the ability to publish, view, and participate on the Web, and corresponding fragmentation of the Web as a whole",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 291,
+        "created_at": "2025-06-22T05:48:52Z",
+        "closed_at": null,
+        "title": "Prevent increased centralization of trust via strict Verifier requirements when presenting a credential",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 290,
+        "created_at": "2025-06-19T14:52:21Z",
+        "closed_at": null,
+        "title": "define consent and permission; explain split roles regarding consent",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 289,
+        "created_at": "2025-06-19T14:34:54Z",
+        "closed_at": null,
+        "title": "note designed-for-purpose alternatives and the risk of crowding out those options",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 288,
+        "created_at": "2025-06-19T14:01:11Z",
+        "closed_at": null,
+        "title": "user agents should limit to protocols listed in the registry that meet the group's requirements",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 287,
+        "created_at": "2025-06-19T04:13:55Z",
+        "closed_at": "2025-06-20T17:31:34Z",
+        "title": "Add additional issues to privacy considerations",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 286,
+        "created_at": "2025-06-18T23:35:54Z",
+        "closed_at": null,
+        "title": "Privacy Considerations for multiple presentation requests (and responses)",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 285,
+        "created_at": "2025-06-18T23:10:42Z",
+        "closed_at": "2025-06-22T06:44:39Z",
+        "title": "Clean up privacy considerations TODO sections",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 284,
+        "created_at": "2025-06-18T21:40:33Z",
+        "closed_at": null,
+        "title": "Editorial: Add references to definitions in the privacy considerations",
+        "labels": [
+          {
+            "id": 8615500309,
+            "node_id": "LA_kwDOJaZems8AAAACAYYaFQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/editorial",
+            "name": "editorial",
+            "color": "006b75",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "johannhof",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 283,
+        "created_at": "2025-06-18T21:12:35Z",
+        "closed_at": "2025-06-30T17:28:23Z",
+        "title": "Add initial privacy considerations for fingerprinting and data leakage",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 282,
+        "created_at": "2025-06-18T18:16:47Z",
+        "closed_at": "2025-06-19T11:16:35Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 281,
+        "created_at": "2025-06-18T01:13:18Z",
+        "closed_at": null,
+        "title": "User agents that only support authorized verifiers (for government credentials)",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 280,
+        "created_at": "2025-06-17T21:43:05Z",
+        "closed_at": null,
+        "title": "Can we require protocols to support unlinkable revocation?",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 279,
+        "created_at": "2025-06-17T21:32:18Z",
+        "closed_at": null,
+        "title": "Linkability and issuer involvement as a protocol requirement",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 278,
+        "created_at": "2025-06-17T01:53:56Z",
+        "closed_at": "2025-06-25T00:36:39Z",
+        "title": "Add design considerations section to privacy considerations (fixes #275)",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 277,
+        "created_at": "2025-06-16T16:08:38Z",
+        "closed_at": null,
+        "title": "Security Considerations: Writing first round of threats and mitigatio…",
+        "labels": [
+          {
+            "id": 7424150154,
+            "node_id": "LA_kwDOJaZems8AAAABuoOKig",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          },
+          {
+            "id": 8730415875,
+            "node_id": "LA_kwDOJaZems8AAAACCF-TAw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-considerations",
+            "name": "security-considerations",
+            "color": "ffff00",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "simoneonofri",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 276,
+        "created_at": "2025-06-16T00:02:10Z",
+        "closed_at": "2025-06-22T09:20:39Z",
+        "title": "Formally define 'protocol identifier'",
+        "labels": [],
+        "assignee": "marcoscaceres",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 275,
+        "created_at": "2025-06-13T14:03:21Z",
+        "closed_at": "2025-06-25T00:36:40Z",
+        "title": "Explain design choices for this API vs. alternatives",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "johannhof",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 274,
+        "created_at": "2025-06-13T09:12:30Z",
+        "closed_at": null,
+        "title": "Security Considerations section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 273,
+        "created_at": "2025-06-12T19:02:36Z",
+        "closed_at": null,
+        "title": "Security Considerations: Assumptions (System Layer and Network Layer)",
+        "labels": [
+          {
+            "id": 8730415875,
+            "node_id": "LA_kwDOJaZems8AAAACCF-TAw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-considerations",
+            "name": "security-considerations",
+            "color": "ffff00",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 272,
+        "created_at": "2025-06-12T18:50:21Z",
+        "closed_at": null,
+        "title": "Security Considerations: Writing Introduction",
+        "labels": [
+          {
+            "id": 7424150154,
+            "node_id": "LA_kwDOJaZems8AAAABuoOKig",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          },
+          {
+            "id": 8730415875,
+            "node_id": "LA_kwDOJaZems8AAAACCF-TAw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-considerations",
+            "name": "security-considerations",
+            "color": "ffff00",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 271,
+        "created_at": "2025-06-12T11:51:17Z",
+        "closed_at": "2025-06-25T23:04:37Z",
+        "title": "Adds additional terminology",
+        "labels": [
+          {
+            "id": 8478116195,
+            "node_id": "LA_kwDOJaZems8AAAAB-VXJYw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/agenda+",
+            "name": "agenda+",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Add to the weekly agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 270,
+        "created_at": "2025-06-12T07:48:18Z",
+        "closed_at": "2025-06-22T09:20:40Z",
+        "title": "protocol identifier is undefined",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 269,
+        "created_at": "2025-06-11T21:54:05Z",
+        "closed_at": null,
+        "title": "Security/Privacy Considerations: Trust boundaries between the Wallet and the Browser?",
+        "labels": [
+          {
+            "id": 7424150154,
+            "node_id": "LA_kwDOJaZems8AAAABuoOKig",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8730415875,
+            "node_id": "LA_kwDOJaZems8AAAACCF-TAw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-considerations",
+            "name": "security-considerations",
+            "color": "ffff00",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 268,
+        "created_at": "2025-06-11T21:17:06Z",
+        "closed_at": null,
+        "title": "friction and frequency minimization",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 267,
+        "created_at": "2025-06-11T21:12:58Z",
+        "closed_at": null,
+        "title": "reporting abuse of credential requests",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 266,
+        "created_at": "2025-06-11T21:06:06Z",
+        "closed_at": null,
+        "title": "registration of and commitment to a particular use case and purpose",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 265,
+        "created_at": "2025-06-11T20:57:21Z",
+        "closed_at": null,
+        "title": "voluntary usage and protections against coercion",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 264,
+        "created_at": "2025-06-11T17:53:49Z",
+        "closed_at": "2025-06-11T20:31:42Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 263,
+        "created_at": "2025-06-11T17:49:44Z",
+        "closed_at": null,
+        "title": "Clarify the relationship and trust model of multiple user agents",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 262,
+        "created_at": "2025-06-11T05:09:32Z",
+        "closed_at": "2025-06-26T01:18:34Z",
+        "title": "Write initial privacy considerations for unnecessary use",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 261,
+        "created_at": "2025-06-06T20:45:43Z",
+        "closed_at": "2025-06-06T23:35:09Z",
+        "title": "Fix discovery typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 260,
+        "created_at": "2025-06-06T04:28:58Z",
+        "closed_at": "2025-06-18T18:16:29Z",
+        "title": "Add initial privacy considerations section for protocol requirements",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 259,
+        "created_at": "2025-06-06T03:04:45Z",
+        "closed_at": "2025-06-06T06:10:48Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 258,
+        "created_at": "2025-06-04T23:44:44Z",
+        "closed_at": "2025-06-06T03:04:27Z",
+        "title": "Protocol registry: edited the group for seucrity reviews",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 257,
+        "created_at": "2025-06-04T04:04:53Z",
+        "closed_at": null,
+        "title": "Protocol registry: specification availability",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 256,
+        "created_at": "2025-06-04T04:02:32Z",
+        "closed_at": null,
+        "title": "Protocol registry: royalty free requirement",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 255,
+        "created_at": "2025-06-04T03:53:52Z",
+        "closed_at": null,
+        "title": "Protocol registry: Reviewing is not sufficient",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 7424150154,
+            "node_id": "LA_kwDOJaZems8AAAABuoOKig",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8730415875,
+            "node_id": "LA_kwDOJaZems8AAAACCF-TAw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-considerations",
+            "name": "security-considerations",
+            "color": "ffff00",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 254,
+        "created_at": "2025-06-03T04:12:36Z",
+        "closed_at": "2025-06-05T02:59:23Z",
+        "title": "Editorial: Make Tidy happy",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 253,
+        "created_at": "2025-06-02T21:33:23Z",
+        "closed_at": "2025-06-11T17:53:32Z",
+        "title": "Add initial text for permission & transparency",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 252,
+        "created_at": "2025-06-02T14:17:59Z",
+        "closed_at": null,
+        "title": "Should we normatively define elements of a permission prompt?",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 251,
+        "created_at": "2025-05-30T02:38:53Z",
+        "closed_at": "2025-06-03T03:56:59Z",
+        "title": "Privacy Considerations: Add initial Introduction, Spectrum of Privacy sections",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 250,
+        "created_at": "2025-05-29T15:45:07Z",
+        "closed_at": "2025-06-02T03:18:11Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 249,
+        "created_at": "2025-05-28T21:47:59Z",
+        "closed_at": null,
+        "title": "Add guidance on how to handle multiple presentation request entries",
+        "labels": [],
+        "assignee": "MasterKale",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 248,
+        "created_at": "2025-05-28T21:15:42Z",
+        "closed_at": "2025-06-02T14:14:44Z",
+        "title": "s/user consent/user permission",
+        "labels": [
+          {
+            "id": 8478116195,
+            "node_id": "LA_kwDOJaZems8AAAAB-VXJYw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/agenda+",
+            "name": "agenda+",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Add to the weekly agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 247,
+        "created_at": "2025-05-28T19:23:12Z",
+        "closed_at": "2025-06-19T03:20:35Z",
+        "title": "Privacy Considerations: Ensuring user choice over wallet involvement (avoid wallet surveillance)",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 246,
+        "created_at": "2025-05-28T15:36:33Z",
+        "closed_at": null,
+        "title": "Privacy Considerations: Types of Wallets and trust in different Wallets",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 245,
+        "created_at": "2025-05-24T00:45:54Z",
+        "closed_at": null,
+        "title": "Privacy Considerations: Preventing information leakage and fingerprinting",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 244,
+        "created_at": "2025-05-22T04:39:12Z",
+        "closed_at": "2025-06-19T03:15:39Z",
+        "title": "Privacy Considerations: User permission and transparency",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 243,
+        "created_at": "2025-05-22T04:20:03Z",
+        "closed_at": null,
+        "title": "Privacy Considerations: Addressing \"unnecessary\" usage of the API",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 242,
+        "created_at": "2025-05-22T03:45:29Z",
+        "closed_at": null,
+        "title": "Privacy Considerations: \"Spectrum of Privacy\"",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 241,
+        "created_at": "2025-05-21T22:55:36Z",
+        "closed_at": "2025-06-19T03:13:31Z",
+        "title": "Scope of Privacy Considerations",
+        "labels": [
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 240,
+        "created_at": "2025-05-16T01:00:18Z",
+        "closed_at": null,
+        "title": "Registry requirements should not use RFC2119 language",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 239,
+        "created_at": "2025-05-14T23:08:31Z",
+        "closed_at": "2025-06-02T14:14:45Z",
+        "title": "s/user consent/user permission",
+        "labels": [
+          {
+            "id": 8478116195,
+            "node_id": "LA_kwDOJaZems8AAAAB-VXJYw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/agenda+",
+            "name": "agenda+",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Add to the weekly agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 238,
+        "created_at": "2025-05-13T21:13:55Z",
+        "closed_at": null,
+        "title": "Add a11y guidance for user agents",
+        "labels": [],
+        "assignee": "MasterKale",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 237,
+        "created_at": "2025-05-13T09:51:05Z",
+        "closed_at": "2025-05-13T13:33:19Z",
+        "title": "Remove registry inclusion issue",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 236,
+        "created_at": "2025-05-13T09:41:14Z",
+        "closed_at": "2025-05-29T15:44:47Z",
+        "title": "Editoral: Link to registry inclusion criteria definitions",
+        "labels": [
+          {
+            "id": 8478116195,
+            "node_id": "LA_kwDOJaZems8AAAAB-VXJYw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/agenda+",
+            "name": "agenda+",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Add to the weekly agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 235,
+        "created_at": "2025-05-13T09:29:50Z",
+        "closed_at": "2025-05-28T22:13:01Z",
+        "title": "Editorial: Fix links to request field to use the new format in the register inclusion criteria",
+        "labels": [
+          {
+            "id": 8478116195,
+            "node_id": "LA_kwDOJaZems8AAAAB-VXJYw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/agenda+",
+            "name": "agenda+",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Add to the weekly agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 234,
+        "created_at": "2025-05-02T15:50:34Z",
+        "closed_at": "2025-05-05T16:58:23Z",
+        "title": "Switch goto@google.com for mamir@google.com to edit Digital Credentials",
+        "labels": [
+          {
+            "id": 8478116195,
+            "node_id": "LA_kwDOJaZems8AAAAB-VXJYw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/agenda+",
+            "name": "agenda+",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Add to the weekly agenda"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 233,
+        "created_at": "2025-05-01T19:13:27Z",
+        "closed_at": null,
+        "title": "Horizontal Review - Security",
+        "labels": [
+          {
+            "id": 8692317330,
+            "node_id": "LA_kwDOJaZems8AAAACBho8kg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/w3c-process",
+            "name": "w3c-process",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 232,
+        "created_at": "2025-05-01T19:13:06Z",
+        "closed_at": null,
+        "title": "Horizontal Review - Privacy",
+        "labels": [
+          {
+            "id": 8692317330,
+            "node_id": "LA_kwDOJaZems8AAAACBho8kg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/w3c-process",
+            "name": "w3c-process",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 231,
+        "created_at": "2025-05-01T19:12:43Z",
+        "closed_at": null,
+        "title": "Horizontal Review - Internationalization",
+        "labels": [
+          {
+            "id": 8692317330,
+            "node_id": "LA_kwDOJaZems8AAAACBho8kg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/w3c-process",
+            "name": "w3c-process",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 230,
+        "created_at": "2025-05-01T19:12:22Z",
+        "closed_at": null,
+        "title": "Horizontal Review - Architecture",
+        "labels": [
+          {
+            "id": 8692317330,
+            "node_id": "LA_kwDOJaZems8AAAACBho8kg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/w3c-process",
+            "name": "w3c-process",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 229,
+        "created_at": "2025-05-01T19:10:41Z",
+        "closed_at": null,
+        "title": "Horizontal Review - Accessibility",
+        "labels": [
+          {
+            "id": 8692317330,
+            "node_id": "LA_kwDOJaZems8AAAACBho8kg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/w3c-process",
+            "name": "w3c-process",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "MasterKale",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 228,
+        "created_at": "2025-05-01T08:34:06Z",
+        "closed_at": "2025-05-01T10:26:53Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 227,
+        "created_at": "2025-04-30T22:18:35Z",
+        "closed_at": null,
+        "title": "Horizontal Review Preparation: DC API",
+        "labels": [
+          {
+            "id": 8692317330,
+            "node_id": "LA_kwDOJaZems8AAAACBho8kg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/w3c-process",
+            "name": "w3c-process",
+            "color": "e99695",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 226,
+        "created_at": "2025-04-25T21:32:21Z",
+        "closed_at": null,
+        "title": "privacy review for registry inclusion",
+        "labels": [
+          {
+            "id": 7424150073,
+            "node_id": "LA_kwDOJaZems8AAAABuoOKOQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-needs-resolution",
+            "name": "privacy-needs-resolution",
+            "color": "d4af37",
+            "default": false,
+            "description": "Issue the Privacy Group has raised and looks for a response on."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 225,
+        "created_at": "2025-04-25T15:44:32Z",
+        "closed_at": "2025-04-25T18:43:25Z",
+        "title": "Fix spec link in explainer.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 224,
+        "created_at": "2025-04-24T02:43:42Z",
+        "closed_at": "2025-04-29T13:39:52Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 223,
+        "created_at": "2025-04-23T22:30:33Z",
+        "closed_at": null,
+        "title": "Create an issue template for registration",
+        "labels": [
+          {
+            "id": 8505866307,
+            "node_id": "LA_kwDOJaZems8AAAAB-v04Qw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/administrivia",
+            "name": "administrivia",
+            "color": "aaaaaa",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 222,
+        "created_at": "2025-04-20T12:19:04Z",
+        "closed_at": null,
+        "title": "Handling Multiple Credentials from Different Wallets in DC API Presentation Responses",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 221,
+        "created_at": "2025-04-18T23:28:29Z",
+        "closed_at": "2025-06-25T23:49:31Z",
+        "title": "Add userAgentAllowsProtocol static method",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 220,
+        "created_at": "2025-04-18T21:57:27Z",
+        "closed_at": null,
+        "title": "Support for multiple requests in a get call",
+        "labels": [],
+        "assignee": "MasterKale",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 219,
+        "created_at": "2025-04-18T19:54:04Z",
+        "closed_at": "2025-06-25T23:49:31Z",
+        "title": "Add a means for developers to check protocols allowed by user agents",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8478116195,
+            "node_id": "LA_kwDOJaZems8AAAAB-VXJYw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/agenda+",
+            "name": "agenda+",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Add to the weekly agenda"
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 218,
+        "created_at": "2025-04-16T17:32:41Z",
+        "closed_at": "2025-04-17T23:25:21Z",
+        "title": "Update README.md with WG",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 217,
+        "created_at": "2025-04-16T17:28:38Z",
+        "closed_at": "2025-04-18T23:39:14Z",
+        "title": "Update Respec config with WG details",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 216,
+        "created_at": "2025-04-16T17:20:44Z",
+        "closed_at": "2025-04-16T17:21:15Z",
+        "title": "Update CONTRIBUTING.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 215,
+        "created_at": "2025-04-16T00:56:02Z",
+        "closed_at": null,
+        "title": "Document WG security review requirements for protocols",
+        "labels": [
+          {
+            "id": 7424150154,
+            "node_id": "LA_kwDOJaZems8AAAABuoOKig",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          },
+          {
+            "id": 8730415875,
+            "node_id": "LA_kwDOJaZems8AAAACCF-TAw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-considerations",
+            "name": "security-considerations",
+            "color": "ffff00",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 214,
+        "created_at": "2025-04-16T00:34:29Z",
+        "closed_at": null,
+        "title": "[Registry] Re-evaluate \"freely available\" requirement",
+        "labels": [
+          {
+            "id": 6940468385,
+            "node_id": "LA_kwDOJaZems8AAAABna8koQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/future",
+            "name": "future",
+            "color": "62E22C",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7760439620,
+            "node_id": "LA_kwDOJaZems8AAAABzo7pRA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/registry",
+            "name": "registry",
+            "color": "34D79C",
+            "default": false,
+            "description": "registry related"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 213,
+        "created_at": "2025-03-25T16:24:30Z",
+        "closed_at": null,
+        "title": "Add ISO/IEC 18013-7 Annex C to protocol registry",
+        "labels": [
+          {
+            "id": 7760439620,
+            "node_id": "LA_kwDOJaZems8AAAABzo7pRA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/registry",
+            "name": "registry",
+            "color": "34D79C",
+            "default": false,
+            "description": "registry related"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 212,
+        "created_at": "2025-03-25T15:52:15Z",
+        "closed_at": null,
+        "title": "Add OpenID for Verifiable Credential Issuance (OpenID4VCI) to registry",
+        "labels": [
+          {
+            "id": 7760439620,
+            "node_id": "LA_kwDOJaZems8AAAABzo7pRA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/registry",
+            "name": "registry",
+            "color": "34D79C",
+            "default": false,
+            "description": "registry related"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 211,
+        "created_at": "2025-03-25T15:49:34Z",
+        "closed_at": null,
+        "title": "Add OpenID for Verifiable Presentations (OpenID4VP) to registry",
+        "labels": [
+          {
+            "id": 7760439620,
+            "node_id": "LA_kwDOJaZems8AAAABzo7pRA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/registry",
+            "name": "registry",
+            "color": "34D79C",
+            "default": false,
+            "description": "registry related"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 210,
+        "created_at": "2025-03-13T08:28:49Z",
+        "closed_at": null,
+        "title": "Make `requests` member `required` for DigitalCredentialRequestOptions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 209,
+        "created_at": "2025-03-11T19:24:10Z",
+        "closed_at": null,
+        "title": "enumerated values for purpose, sharing and retention in API method",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 208,
+        "created_at": "2025-03-11T16:12:55Z",
+        "closed_at": null,
+        "title": "require in-context in-content explanation and an element for user-initiated presentation",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 207,
+        "created_at": "2025-03-11T14:38:18Z",
+        "closed_at": null,
+        "title": "Issuance: multiple requests",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 206,
+        "created_at": "2025-03-11T14:18:03Z",
+        "closed_at": "2025-04-02T22:08:56Z",
+        "title": "WICG Digital Credentials group consensus to move work",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8275319810,
+            "node_id": "LA_kwDOJaZems8AAAAB7T9cAg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/FPWD%20Blockers",
+            "name": "FPWD Blockers",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Should be addressed before FPWD"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 205,
+        "created_at": "2025-03-01T14:00:54Z",
+        "closed_at": "2025-04-18T19:27:17Z",
+        "title": "Intent to Migrate: Digital Credentials",
+        "labels": [
+          {
+            "id": 8275319810,
+            "node_id": "LA_kwDOJaZems8AAAAB7T9cAg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/FPWD%20Blockers",
+            "name": "FPWD Blockers",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Should be addressed before FPWD"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 204,
+        "created_at": "2025-02-19T19:08:48Z",
+        "closed_at": "2025-05-01T08:33:50Z",
+        "title": "Include Digital Credential Issuance in the Spec",
+        "labels": [
+          {
+            "id": 6527627589,
+            "node_id": "LA_kwDOJaZems8AAAABhROxRQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/BLOCKED",
+            "name": "BLOCKED",
+            "color": "B60205",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8275319810,
+            "node_id": "LA_kwDOJaZems8AAAAB7T9cAg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/FPWD%20Blockers",
+            "name": "FPWD Blockers",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Should be addressed before FPWD"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 203,
+        "created_at": "2025-02-13T17:57:22Z",
+        "closed_at": "2025-02-19T19:52:39Z",
+        "title": "Just a little help with credential verification",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 202,
+        "created_at": "2025-01-26T05:29:33Z",
+        "closed_at": null,
+        "title": "[spec] Requests' size should be checked before transient activation",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 201,
+        "created_at": "2025-01-22T13:02:52Z",
+        "closed_at": null,
+        "title": "multi-wallet requests",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 200,
+        "created_at": "2025-01-16T23:01:06Z",
+        "closed_at": null,
+        "title": "Add getClientCapabilities method for feature detection",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 199,
+        "created_at": "2025-01-09T02:10:02Z",
+        "closed_at": "2025-01-16T00:11:36Z",
+        "title": "DigitalCredential's data should be marked at SameObject",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 198,
+        "created_at": "2025-01-08T23:29:05Z",
+        "closed_at": null,
+        "title": "The digital credential definition should include \"verifiable\" aspect",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 197,
+        "created_at": "2025-01-08T17:31:12Z",
+        "closed_at": "2025-01-08T19:43:22Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 196,
+        "created_at": "2025-01-08T03:41:33Z",
+        "closed_at": "2025-01-08T17:30:52Z",
+        "title": "Editorial: fix typo DigitalCredentialsRequest -> DigitalCredentialRequest",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 195,
+        "created_at": "2024-12-23T07:43:33Z",
+        "closed_at": "2025-02-18T20:23:16Z",
+        "title": "Visualize transaction data in confirmation dialog ",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "leecam",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 193,
+        "created_at": "2024-12-11T16:01:51Z",
+        "closed_at": "2025-01-10T06:18:07Z",
+        "title": "Add initial intro text",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 192,
+        "created_at": "2024-12-05T17:54:29Z",
+        "closed_at": "2024-12-05T18:59:02Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 191,
+        "created_at": "2024-12-04T16:07:09Z",
+        "closed_at": "2025-04-24T02:43:27Z",
+        "title": "What are the protocol identifier naming rules?",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7760439620,
+            "node_id": "LA_kwDOJaZems8AAAABzo7pRA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/registry",
+            "name": "registry",
+            "color": "34D79C",
+            "default": false,
+            "description": "registry related"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 190,
+        "created_at": "2024-11-18T19:23:58Z",
+        "closed_at": "2025-01-08T03:01:10Z",
+        "title": "[spec] Add blurb about wallets being a second user agent",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 189,
+        "created_at": "2024-11-14T01:04:42Z",
+        "closed_at": "2024-12-05T17:54:10Z",
+        "title": "Add initial content to Security and Privacy Considerations sections.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 188,
+        "created_at": "2024-11-14T00:09:36Z",
+        "closed_at": "2024-11-17T14:11:02Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 187,
+        "created_at": "2024-10-29T05:49:24Z",
+        "closed_at": "2025-02-18T20:23:55Z",
+        "title": "Relying Site/Verifier Lack of Scope or Restrictions",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 186,
+        "created_at": "2024-10-28T21:08:38Z",
+        "closed_at": "2024-11-14T00:09:14Z",
+        "title": "Add additional use cases and examples to intro",
+        "labels": [
+          {
+            "id": 7473693915,
+            "node_id": "LA_kwDOJaZems8AAAABvXeE2w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/cgr1-blocker",
+            "name": "cgr1-blocker",
+            "color": "D93F0B",
+            "default": false,
+            "description": "Community Group Report 1 Blocker"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 185,
+        "created_at": "2024-10-23T15:23:26Z",
+        "closed_at": "2025-04-24T02:45:45Z",
+        "title": "Top level request object structure should be fully defined by protocol identifier",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7744893158,
+            "node_id": "LA_kwDOJaZems8AAAABzaGw5g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/oidf:dcp",
+            "name": "oidf:dcp",
+            "color": "E11E43",
+            "default": false,
+            "description": "Discussion with OIDF DCP WG"
+          },
+          {
+            "id": 7760439620,
+            "node_id": "LA_kwDOJaZems8AAAABzo7pRA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/registry",
+            "name": "registry",
+            "color": "34D79C",
+            "default": false,
+            "description": "registry related"
+          },
+          {
+            "id": 8275319810,
+            "node_id": "LA_kwDOJaZems8AAAAB7T9cAg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/FPWD%20Blockers",
+            "name": "FPWD Blockers",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Should be addressed before FPWD"
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 184,
+        "created_at": "2024-10-21T16:17:23Z",
+        "closed_at": null,
+        "title": "[spec] write security considerations",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 183,
+        "created_at": "2024-10-21T16:16:58Z",
+        "closed_at": "2025-06-30T18:25:04Z",
+        "title": "Write privacy considerations",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8275319810,
+            "node_id": "LA_kwDOJaZems8AAAAB7T9cAg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/FPWD%20Blockers",
+            "name": "FPWD Blockers",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Should be addressed before FPWD"
+          },
+          {
+            "id": 8478116195,
+            "node_id": "LA_kwDOJaZems8AAAAB-VXJYw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/agenda+",
+            "name": "agenda+",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Add to the weekly agenda"
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "johannhof",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 182,
+        "created_at": "2024-10-08T15:00:18Z",
+        "closed_at": "2025-01-10T06:18:08Z",
+        "title": "[spec] Add initial intro text",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7473693915,
+            "node_id": "LA_kwDOJaZems8AAAABvXeE2w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/cgr1-blocker",
+            "name": "cgr1-blocker",
+            "color": "D93F0B",
+            "default": false,
+            "description": "Community Group Report 1 Blocker"
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 181,
+        "created_at": "2024-10-08T14:59:16Z",
+        "closed_at": "2024-11-14T00:09:15Z",
+        "title": "[spec] Add additional examples",
+        "labels": [
+          {
+            "id": 7473693915,
+            "node_id": "LA_kwDOJaZems8AAAABvXeE2w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/cgr1-blocker",
+            "name": "cgr1-blocker",
+            "color": "D93F0B",
+            "default": false,
+            "description": "Community Group Report 1 Blocker"
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 180,
+        "created_at": "2024-10-08T14:56:00Z",
+        "closed_at": "2024-10-14T22:52:44Z",
+        "title": "chore: update short name to \"digital-credentials\" ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 179,
+        "created_at": "2024-10-08T14:52:56Z",
+        "closed_at": null,
+        "title": "Require JSON serialization checks coming in",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 178,
+        "created_at": "2024-10-07T19:37:25Z",
+        "closed_at": "2024-10-07T20:24:15Z",
+        "title": "Add mediation: \"required\" to explainer example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 177,
+        "created_at": "2024-10-07T16:58:03Z",
+        "closed_at": null,
+        "title": "Don't require CM \"mediation\" to be specified explicitly (always 'required' for DC). ",
+        "labels": [
+          {
+            "id": 7870457783,
+            "node_id": "LA_kwDOJaZems8AAAAB1R2ntw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec:credman",
+            "name": "spec:credman",
+            "color": "D6078F",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "samuelgoto",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 176,
+        "created_at": "2024-10-07T15:38:15Z",
+        "closed_at": "2024-10-07T16:55:57Z",
+        "title": "Allow mediation=\"optional\"",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 175,
+        "created_at": "2024-10-07T15:37:59Z",
+        "closed_at": "2024-10-07T16:55:40Z",
+        "title": "Allow mediation = \"optional\"",
+        "labels": [
+          {
+            "id": 7473693915,
+            "node_id": "LA_kwDOJaZems8AAAABvXeE2w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/cgr1-blocker",
+            "name": "cgr1-blocker",
+            "color": "D93F0B",
+            "default": false,
+            "description": "Community Group Report 1 Blocker"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 174,
+        "created_at": "2024-10-01T08:26:29Z",
+        "closed_at": "2024-10-01T11:41:12Z",
+        "title": "Doc outdated",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 173,
+        "created_at": "2024-09-20T19:13:22Z",
+        "closed_at": "2024-10-07T16:37:18Z",
+        "title": "Update explainer to include feature detection and new syntax",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 172,
+        "created_at": "2024-09-18T23:24:13Z",
+        "closed_at": "2024-10-14T22:53:59Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 171,
+        "created_at": "2024-09-18T23:00:29Z",
+        "closed_at": "2024-10-04T04:46:05Z",
+        "title": "Safeguarding devs from potential per-protocol use of Uint8Array values",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 170,
+        "created_at": "2024-09-18T20:49:52Z",
+        "closed_at": "2024-10-07T16:37:19Z",
+        "title": "Update example to show feature detection",
+        "labels": [
+          {
+            "id": 6914211310,
+            "node_id": "LA_kwDOJaZems8AAAABnB597g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/explainer",
+            "name": "explainer",
+            "color": "C242F5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "mohamedamir",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 169,
+        "created_at": "2024-09-18T11:29:16Z",
+        "closed_at": "2024-10-07T11:33:46Z",
+        "title": "Links to sample code do not work",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 168,
+        "created_at": "2024-09-12T23:51:25Z",
+        "closed_at": null,
+        "title": "Add a way to check what protocols are supported",
+        "labels": [],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 167,
+        "created_at": "2024-09-09T16:54:33Z",
+        "closed_at": "2025-05-01T08:33:51Z",
+        "title": "Support for issuance",
+        "labels": [
+          {
+            "id": 6773474324,
+            "node_id": "LA_kwDOJaZems8AAAABk7sEFA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/issuance",
+            "name": "issuance",
+            "color": "33EDD6",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8275319810,
+            "node_id": "LA_kwDOJaZems8AAAAB7T9cAg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/FPWD%20Blockers",
+            "name": "FPWD Blockers",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Should be addressed before FPWD"
+          }
+        ],
+        "assignee": "samuelgoto",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 166,
+        "created_at": "2024-09-09T04:15:35Z",
+        "closed_at": null,
+        "title": "What is the defined trust boundary between the user, wallet, and browser?",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 165,
+        "created_at": "2024-09-04T23:40:23Z",
+        "closed_at": "2024-09-18T23:23:54Z",
+        "title": "change providers to requests",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 164,
+        "created_at": "2024-09-04T23:31:16Z",
+        "closed_at": "2024-09-16T19:56:04Z",
+        "title": "Drop navigator.identity namespace",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 163,
+        "created_at": "2024-08-27T01:32:01Z",
+        "closed_at": "2024-08-29T09:27:36Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 162,
+        "created_at": "2024-08-26T22:42:19Z",
+        "closed_at": "2024-08-27T01:25:13Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 161,
+        "created_at": "2024-08-22T22:48:23Z",
+        "closed_at": "2024-11-18T17:54:11Z",
+        "title": "Protocol extensibility: where should we draw the line between what gets parsed and validated by the browser?",
+        "labels": [],
+        "assignee": "samuelgoto",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 160,
+        "created_at": "2024-08-20T04:53:55Z",
+        "closed_at": null,
+        "title": "Handling various origin types",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 159,
+        "created_at": "2024-08-18T23:54:53Z",
+        "closed_at": null,
+        "title": "[spec] Handling ongoing operations / subsequent call to get()",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 158,
+        "created_at": "2024-08-12T23:23:48Z",
+        "closed_at": "2024-08-21T05:00:11Z",
+        "title": "Throw NotSupported for Store",
+        "labels": [
+          {
+            "id": 6527627589,
+            "node_id": "LA_kwDOJaZems8AAAABhROxRQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/BLOCKED",
+            "name": "BLOCKED",
+            "color": "B60205",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 157,
+        "created_at": "2024-08-07T04:20:39Z",
+        "closed_at": "2025-04-24T02:43:26Z",
+        "title": "Define registry inclusion rules",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 7424150154,
+            "node_id": "LA_kwDOJaZems8AAAABuoOKig",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          },
+          {
+            "id": 8275319810,
+            "node_id": "LA_kwDOJaZems8AAAAB7T9cAg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/FPWD%20Blockers",
+            "name": "FPWD Blockers",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Should be addressed before FPWD"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 156,
+        "created_at": "2024-08-07T03:08:36Z",
+        "closed_at": null,
+        "title": "Add provider validation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 155,
+        "created_at": "2024-08-07T03:07:22Z",
+        "closed_at": "2024-09-18T23:23:54Z",
+        "title": "Rename \"providers\" to \"presentationRequests\" or just  \"requests\"?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 154,
+        "created_at": "2024-08-07T01:46:06Z",
+        "closed_at": "2024-08-07T02:31:40Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 153,
+        "created_at": "2024-08-07T00:17:55Z",
+        "closed_at": "2024-08-07T01:39:22Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 152,
+        "created_at": "2024-08-06T00:54:04Z",
+        "closed_at": "2024-12-02T17:46:28Z",
+        "title": "Presentation request format validation",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 151,
+        "created_at": "2024-08-06T00:13:18Z",
+        "closed_at": "2024-08-06T06:51:47Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 150,
+        "created_at": "2024-07-30T04:31:09Z",
+        "closed_at": "2024-07-30T04:32:09Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 149,
+        "created_at": "2024-07-30T03:41:33Z",
+        "closed_at": "2024-08-27T01:31:40Z",
+        "title": "Add required mediation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 148,
+        "created_at": "2024-07-24T17:34:38Z",
+        "closed_at": "2024-07-30T04:30:49Z",
+        "title": "Add placeholder security and privacy considerations section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 147,
+        "created_at": "2024-07-23T06:31:10Z",
+        "closed_at": "2024-08-27T01:31:41Z",
+        "title": "Credential request options mediation requirement",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 146,
+        "created_at": "2024-07-23T05:59:41Z",
+        "closed_at": "2024-08-07T00:17:36Z",
+        "title": "Throw if providers is empty",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 145,
+        "created_at": "2024-07-22T01:04:09Z",
+        "closed_at": "2024-07-25T01:56:01Z",
+        "title": "Editorial: fixup xrefs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 144,
+        "created_at": "2024-07-22T00:53:36Z",
+        "closed_at": "2024-07-22T01:04:49Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 143,
+        "created_at": "2024-07-16T12:49:13Z",
+        "closed_at": null,
+        "title": "Use SecurityError for document state check",
+        "labels": [
+          {
+            "id": 6527627589,
+            "node_id": "LA_kwDOJaZems8AAAABhROxRQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/BLOCKED",
+            "name": "BLOCKED",
+            "color": "B60205",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 142,
+        "created_at": "2024-07-15T01:23:12Z",
+        "closed_at": "2024-07-15T01:24:35Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 141,
+        "created_at": "2024-07-10T13:23:37Z",
+        "closed_at": "2024-08-12T23:33:17Z",
+        "title": "Give the data attribute an actual type (object)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 140,
+        "created_at": "2024-07-05T06:10:36Z",
+        "closed_at": "2024-07-15T01:47:09Z",
+        "title": "Disallow multiple types via navigator.credentials's methods",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 139,
+        "created_at": "2024-06-26T23:56:20Z",
+        "closed_at": null,
+        "title": "Issuer identity in selective disclosure cases",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 138,
+        "created_at": "2024-06-26T23:18:06Z",
+        "closed_at": "2024-07-22T01:56:19Z",
+        "title": "Tweak explainer design goals",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 137,
+        "created_at": "2024-06-26T22:48:52Z",
+        "closed_at": "2024-07-30T04:30:50Z",
+        "title": "Add placeholder security and privacy considerations section",
+        "labels": [],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 136,
+        "created_at": "2024-06-26T20:00:33Z",
+        "closed_at": null,
+        "title": "Describe trust signals in protocol registry",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 7760439620,
+            "node_id": "LA_kwDOJaZems8AAAABzo7pRA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/registry",
+            "name": "registry",
+            "color": "34D79C",
+            "default": false,
+            "description": "registry related"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 135,
+        "created_at": "2024-06-24T17:04:23Z",
+        "closed_at": "2025-02-18T20:42:20Z",
+        "title": "Explainer: Expand alternatives considered section",
+        "labels": [
+          {
+            "id": 6914211310,
+            "node_id": "LA_kwDOJaZems8AAAABnB597g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/explainer",
+            "name": "explainer",
+            "color": "C242F5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "RByers",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 134,
+        "created_at": "2024-06-24T07:58:50Z",
+        "closed_at": null,
+        "title": "Consider requiring a strong signal of user intent.",
+        "labels": [
+          {
+            "id": 6940468385,
+            "node_id": "LA_kwDOJaZems8AAAABna8koQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/future",
+            "name": "future",
+            "color": "62E22C",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 133,
+        "created_at": "2024-06-24T07:42:34Z",
+        "closed_at": null,
+        "title": "Consider requiring mitigation of script injection attacks.",
+        "labels": [
+          {
+            "id": 6940468385,
+            "node_id": "LA_kwDOJaZems8AAAABna8koQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/future",
+            "name": "future",
+            "color": "62E22C",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7424150154,
+            "node_id": "LA_kwDOJaZems8AAAABuoOKig",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-tracker",
+            "name": "security-tracker",
+            "color": "ffff00",
+            "default": false,
+            "description": "Group bringing to attention of security, or tracked by the security Group but not needing response."
+          },
+          {
+            "id": 8730415875,
+            "node_id": "LA_kwDOJaZems8AAAACCF-TAw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/security-considerations",
+            "name": "security-considerations",
+            "color": "ffff00",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 132,
+        "created_at": "2024-06-22T20:17:54Z",
+        "closed_at": "2024-07-15T01:22:52Z",
+        "title": "Add Permission Policy",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 131,
+        "created_at": "2024-06-22T17:28:30Z",
+        "closed_at": null,
+        "title": "Define WebDriver integration",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 130,
+        "created_at": "2024-06-21T23:37:22Z",
+        "closed_at": null,
+        "title": "Define error handling",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "RByers",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 129,
+        "created_at": "2024-06-21T22:32:26Z",
+        "closed_at": "2024-07-16T07:14:46Z",
+        "title": "Introduce DiscoverFromExternalSource activation + visibility requirements",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 128,
+        "created_at": "2024-06-21T17:42:14Z",
+        "closed_at": "2024-06-21T17:44:17Z",
+        "title": "chore: Update PULL_REQUEST_TEMPLATE.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 127,
+        "created_at": "2024-06-19T03:14:03Z",
+        "closed_at": "2024-07-29T16:51:42Z",
+        "title": "Digital credential API should support identity verification",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 126,
+        "created_at": "2024-06-19T02:46:24Z",
+        "closed_at": "2024-12-02T17:54:33Z",
+        "title": "Digital credential API should support requests for directed identifiers",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 125,
+        "created_at": "2024-06-12T23:05:49Z",
+        "closed_at": null,
+        "title": "[spec] DigitalCredentialRequestOptions and DigitalCredential objects must be JSON serializable",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8275319810,
+            "node_id": "LA_kwDOJaZems8AAAAB7T9cAg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/FPWD%20Blockers",
+            "name": "FPWD Blockers",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Should be addressed before FPWD"
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 124,
+        "created_at": "2024-06-11T21:02:32Z",
+        "closed_at": "2025-04-24T02:43:28Z",
+        "title": "[spec] add statement about responses with PII MUST be encrypted",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7760439620,
+            "node_id": "LA_kwDOJaZems8AAAABzo7pRA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/registry",
+            "name": "registry",
+            "color": "34D79C",
+            "default": false,
+            "description": "registry related"
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 123,
+        "created_at": "2024-06-10T16:24:46Z",
+        "closed_at": null,
+        "title": "Access to an Open Global Web Reduced",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7129779759,
+            "node_id": "LA_kwDOJaZems8AAAABqPfOLw",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/mozilla",
+            "name": "mozilla",
+            "color": "00ffff",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 122,
+        "created_at": "2024-06-10T15:54:31Z",
+        "closed_at": null,
+        "title": "Should requests be assumed to be linkable by the browser?",
+        "labels": [
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 121,
+        "created_at": "2024-06-07T07:37:56Z",
+        "closed_at": "2024-06-21T17:23:04Z",
+        "title": "Add store(), create(), type, discovery internals",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 120,
+        "created_at": "2024-06-06T22:55:50Z",
+        "closed_at": "2024-06-07T06:00:28Z",
+        "title": "Are iframes supported by the Digital Credential API?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 119,
+        "created_at": "2024-06-05T17:00:38Z",
+        "closed_at": "2024-08-12T23:33:18Z",
+        "title": "What should be the data type for the response?",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 118,
+        "created_at": "2024-06-05T16:28:45Z",
+        "closed_at": "2024-08-20T02:13:19Z",
+        "title": "Web Platform Tests: refactoring digitial-credentials.tentative.https.html ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 117,
+        "created_at": "2024-05-20T17:05:24Z",
+        "closed_at": null,
+        "title": "Should we have a common and interoperable definition of request types and their privacy properties?",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": "samuelgoto",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 116,
+        "created_at": "2024-05-16T10:08:35Z",
+        "closed_at": "2024-05-16T10:12:40Z",
+        "title": "Remove bogus latest version link",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 115,
+        "created_at": "2024-05-14T12:22:21Z",
+        "closed_at": null,
+        "title": "Threat Modeling for Decentralized Identities",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 114,
+        "created_at": "2024-05-13T20:45:41Z",
+        "closed_at": "2024-05-13T21:08:46Z",
+        "title": "spelling fix",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 113,
+        "created_at": "2024-05-12T13:53:57Z",
+        "closed_at": "2024-05-13T19:46:29Z",
+        "title": "Add out of scope section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 112,
+        "created_at": "2024-05-01T22:12:41Z",
+        "closed_at": null,
+        "title": "Invoked from disconnected document",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 111,
+        "created_at": "2024-05-01T18:01:04Z",
+        "closed_at": "2024-06-22T16:20:59Z",
+        "title": "Add TAG security and privacy questionnaire",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 110,
+        "created_at": "2024-05-01T15:44:44Z",
+        "closed_at": "2024-05-01T17:40:57Z",
+        "title": "Tweak custom-schemes.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 109,
+        "created_at": "2024-05-01T14:25:42Z",
+        "closed_at": null,
+        "title": "Should response encryption be required",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 108,
+        "created_at": "2024-04-29T12:28:22Z",
+        "closed_at": "2025-06-19T01:54:02Z",
+        "title": "Explainer: no mention of what security and privacy properties of a request are desireable",
+        "labels": [
+          {
+            "id": 6914211310,
+            "node_id": "LA_kwDOJaZems8AAAABnB597g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/explainer",
+            "name": "explainer",
+            "color": "C242F5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 107,
+        "created_at": "2024-04-26T04:47:24Z",
+        "closed_at": "2024-04-26T17:42:34Z",
+        "title": "Change DigitalCredential.data's type to 'any'",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 106,
+        "created_at": "2024-04-20T22:49:08Z",
+        "closed_at": null,
+        "title": "Tradeoffs of being more or less conservative in DC API velocity",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "RByers",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 105,
+        "created_at": "2024-04-17T23:19:05Z",
+        "closed_at": null,
+        "title": "Privacy: ensuring RPs blinded to credential existence",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 104,
+        "created_at": "2024-04-17T16:15:11Z",
+        "closed_at": null,
+        "title": "Most users will experience a no-matching-credential dead-end",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 103,
+        "created_at": "2024-04-16T19:17:11Z",
+        "closed_at": "2024-04-16T20:41:47Z",
+        "title": "chore: Update README.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 102,
+        "created_at": "2024-04-16T17:55:13Z",
+        "closed_at": "2025-02-19T23:29:24Z",
+        "title": "Managing request format extensibility without sacrificing security",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 101,
+        "created_at": "2024-04-16T17:46:06Z",
+        "closed_at": "2024-04-16T19:08:43Z",
+        "title": "Change DigitalCredential's data to a Uint8Array",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 100,
+        "created_at": "2024-04-16T05:00:46Z",
+        "closed_at": null,
+        "title": "Consider applying the robustness principle with regard to user agent request validation",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 8653652157,
+            "node_id": "LA_kwDOJaZems8AAAACA8xAvQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-considerations",
+            "name": "privacy-considerations",
+            "color": "d4af37",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 99,
+        "created_at": "2024-04-16T03:55:20Z",
+        "closed_at": "2024-04-16T11:07:36Z",
+        "title": "Add draft explainer",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 98,
+        "created_at": "2024-04-16T03:38:37Z",
+        "closed_at": "2024-04-16T03:53:50Z",
+        "title": "Add initial explainer",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 97,
+        "created_at": "2024-04-10T06:00:08Z",
+        "closed_at": "2024-04-16T17:40:44Z",
+        "title": "Use object for request",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 96,
+        "created_at": "2024-04-04T00:12:05Z",
+        "closed_at": "2024-04-04T00:18:20Z",
+        "title": "Make sure the origin gets implicitly passed along",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 95,
+        "created_at": "2024-04-02T19:44:16Z",
+        "closed_at": "2024-09-17T14:31:59Z",
+        "title": "Add clientData",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 94,
+        "created_at": "2024-03-12T23:18:57Z",
+        "closed_at": "2024-03-13T17:33:24Z",
+        "title": "Put custom-schemes.md back in the root",
+        "labels": [],
+        "assignee": "samuelgoto",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 93,
+        "created_at": "2024-03-12T12:53:21Z",
+        "closed_at": "2024-04-16T19:08:44Z",
+        "title": "DigitialCredential's .data should probably be a Uint8Array",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 92,
+        "created_at": "2024-03-11T09:11:12Z",
+        "closed_at": "2024-06-13T09:40:21Z",
+        "title": "Wallet-provided nonce ",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 91,
+        "created_at": "2024-03-11T08:11:03Z",
+        "closed_at": "2024-07-16T07:14:47Z",
+        "title": "Consume transient activation",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 90,
+        "created_at": "2024-03-07T01:57:30Z",
+        "closed_at": "2024-03-07T01:58:53Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 89,
+        "created_at": "2024-03-02T18:31:16Z",
+        "closed_at": "2024-08-26T22:42:00Z",
+        "title": "Add scoping language related to matching and consent.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 88,
+        "created_at": "2024-02-27T23:02:56Z",
+        "closed_at": "2024-02-27T23:06:14Z",
+        "title": "Tidied up document using tidy-html5",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 87,
+        "created_at": "2024-02-27T01:53:07Z",
+        "closed_at": "2024-02-27T03:59:13Z",
+        "title": "chore: add tidy workflow",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 86,
+        "created_at": "2024-02-26T17:08:41Z",
+        "closed_at": "2024-07-22T01:56:20Z",
+        "title": "Nothing is learned without consent",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 85,
+        "created_at": "2024-02-22T01:03:24Z",
+        "closed_at": null,
+        "title": "registry of credential types",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 84,
+        "created_at": "2024-02-22T01:00:16Z",
+        "closed_at": null,
+        "title": "what restrictions can the issuer put on wallets that it provisions into?",
+        "labels": [
+          {
+            "id": 6773474324,
+            "node_id": "LA_kwDOJaZems8AAAABk7sEFA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/issuance",
+            "name": "issuance",
+            "color": "33EDD6",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6940468385,
+            "node_id": "LA_kwDOJaZems8AAAABna8koQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/future",
+            "name": "future",
+            "color": "62E22C",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 83,
+        "created_at": "2024-02-17T19:13:46Z",
+        "closed_at": "2024-03-07T01:57:09Z",
+        "title": "Align Model terminology with multiple digital credential ecosystems.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 82,
+        "created_at": "2024-02-17T16:28:12Z",
+        "closed_at": "2024-02-27T22:41:33Z",
+        "title": "Simplify abstract and move credential types to introduction.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 81,
+        "created_at": "2024-02-17T15:10:47Z",
+        "closed_at": "2024-07-29T16:48:55Z",
+        "title": "mutual authentication",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 80,
+        "created_at": "2024-02-17T00:28:29Z",
+        "closed_at": "2024-03-25T21:24:46Z",
+        "title": "What would OpenID4VP look like over the Digital Credentials API?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 79,
+        "created_at": "2024-02-16T20:47:13Z",
+        "closed_at": "2024-02-16T20:55:38Z",
+        "title": "DigitalIdentity should have been DigitalCredential",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 78,
+        "created_at": "2024-02-16T02:59:35Z",
+        "closed_at": "2024-07-15T01:22:53Z",
+        "title": "Do we need a permissions policy for third-party frames? ",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 77,
+        "created_at": "2024-02-11T12:05:18Z",
+        "closed_at": "2024-02-12T21:23:14Z",
+        "title": "The Identity interface should be SecureContext",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 76,
+        "created_at": "2024-02-08T01:54:11Z",
+        "closed_at": "2025-05-20T07:23:00Z",
+        "title": "Whats the capability negotiation model assumed between the relying party (RP) / origin and the wallet / provider?",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 75,
+        "created_at": "2024-02-07T21:13:01Z",
+        "closed_at": "2024-04-16T17:40:44Z",
+        "title": "Should `request` be an `object` in addition to a `DOMString`?",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 74,
+        "created_at": "2024-02-07T01:16:08Z",
+        "closed_at": "2024-02-16T23:35:36Z",
+        "title": "Is `providers` clear enough in CredentialRequestOptions",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 73,
+        "created_at": "2024-02-06T02:19:09Z",
+        "closed_at": "2024-02-08T05:22:06Z",
+        "title": "chore: relocate proposals, update README",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 72,
+        "created_at": "2024-02-06T01:33:20Z",
+        "closed_at": "2024-02-17T02:15:00Z",
+        "title": "Chore: add .github/PULL_REQUEST_TEMPLATE.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 71,
+        "created_at": "2024-02-06T01:29:33Z",
+        "closed_at": "2024-08-06T00:12:57Z",
+        "title": "Renamed IdentityRequestProvider to DigitalCredentialsProvider",
+        "labels": [],
+        "assignee": "samuelgoto",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 70,
+        "created_at": "2024-02-05T06:03:06Z",
+        "closed_at": "2024-08-06T00:12:59Z",
+        "title": "IdentityRequestProvider should be renamed something like \"options\" or \"details\"",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 69,
+        "created_at": "2024-02-02T23:41:44Z",
+        "closed_at": null,
+        "title": "Add examples of usage in registry",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7760439620,
+            "node_id": "LA_kwDOJaZems8AAAABzo7pRA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/registry",
+            "name": "registry",
+            "color": "34D79C",
+            "default": false,
+            "description": "registry related"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 68,
+        "created_at": "2024-02-02T23:40:20Z",
+        "closed_at": null,
+        "title": "Rework abstract, scope, and introduction",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 67,
+        "created_at": "2024-01-31T06:25:14Z",
+        "closed_at": "2024-11-17T14:42:05Z",
+        "title": "Fold in Mobile Document Request API into spec, so we can do requests",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 66,
+        "created_at": "2024-01-31T01:47:12Z",
+        "closed_at": null,
+        "title": "Add a diagram showing how things in the model relate to each other",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 65,
+        "created_at": "2024-01-31T01:37:29Z",
+        "closed_at": null,
+        "title": "Credential Management integration",
+        "labels": [
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 64,
+        "created_at": "2024-01-25T05:38:23Z",
+        "closed_at": "2024-02-17T02:15:01Z",
+        "title": "Add a PULL_REQUEST_TEMPLATE.md",
+        "labels": [],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 63,
+        "created_at": "2024-01-25T05:08:34Z",
+        "closed_at": "2024-01-26T02:44:59Z",
+        "title": "chore: add CODEOWNERS",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 62,
+        "created_at": "2024-01-25T04:14:59Z",
+        "closed_at": "2024-01-25T04:15:15Z",
+        "title": "chore: add PR Preview",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 61,
+        "created_at": "2024-01-25T02:33:00Z",
+        "closed_at": "2024-02-03T00:47:44Z",
+        "title": "Is \"requestIdentity()\" the best method name and do we need it?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 60,
+        "created_at": "2024-01-25T02:11:26Z",
+        "closed_at": "2024-01-26T02:45:00Z",
+        "title": "Add CODEOWNERS file",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 59,
+        "created_at": "2024-01-25T02:09:28Z",
+        "closed_at": "2024-07-29T16:50:53Z",
+        "title": "[Discuss] Limit access to the API based on known allow listed origins",
+        "labels": [
+          {
+            "id": 5423472721,
+            "node_id": "LA_kwDOJaZems8AAAABQ0OgUQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true,
+            "description": "Further information is requested"
+          },
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 58,
+        "created_at": "2024-01-25T01:44:49Z",
+        "closed_at": "2025-04-24T02:43:27Z",
+        "title": "Registry inclusion criteria",
+        "labels": [
+          {
+            "id": 8275319810,
+            "node_id": "LA_kwDOJaZems8AAAAB7T9cAg",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/FPWD%20Blockers",
+            "name": "FPWD Blockers",
+            "color": "d93f0b",
+            "default": false,
+            "description": "Should be addressed before FPWD"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 57,
+        "created_at": "2024-01-24T12:18:00Z",
+        "closed_at": "2024-02-03T00:47:43Z",
+        "title": "Add initial spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 56,
+        "created_at": "2024-01-24T05:56:16Z",
+        "closed_at": "2024-09-17T14:44:43Z",
+        "title": "Using CryptoKey for public keys - what are the restrictions?",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 55,
+        "created_at": "2024-01-23T03:37:21Z",
+        "closed_at": "2024-01-25T01:04:08Z",
+        "title": "Rename repo to \"digital-credentials\"",
+        "labels": [],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 54,
+        "created_at": "2024-01-22T02:55:22Z",
+        "closed_at": "2024-01-23T03:34:57Z",
+        "title": "Update digital-credentials-2-proposal.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 53,
+        "created_at": "2024-01-10T20:19:35Z",
+        "closed_at": "2024-01-25T23:12:07Z",
+        "title": "Is there a case where requestIdentity() resolves with null?",
+        "labels": [
+          {
+            "id": 5423472721,
+            "node_id": "LA_kwDOJaZems8AAAABQ0OgUQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/question",
+            "name": "question",
+            "color": "d876e3",
+            "default": true,
+            "description": "Further information is requested"
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 52,
+        "created_at": "2023-12-22T15:02:34Z",
+        "closed_at": "2024-09-17T14:29:03Z",
+        "title": "Requirements and Objectives",
+        "labels": [],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 51,
+        "created_at": "2023-12-05T16:57:06Z",
+        "closed_at": "2023-12-05T17:03:00Z",
+        "title": "Add clarity for call schedule",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 50,
+        "created_at": "2023-12-04T20:37:20Z",
+        "closed_at": "2023-12-05T17:42:42Z",
+        "title": "Update README.md for PING credential-considerations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 49,
+        "created_at": "2023-12-04T16:31:59Z",
+        "closed_at": "2024-02-08T01:09:00Z",
+        "title": "Do we really need `publicKey` to be outside of the `request` property?",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 48,
+        "created_at": "2023-12-04T16:16:02Z",
+        "closed_at": "2023-12-04T16:34:23Z",
+        "title": "Tweak README.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 47,
+        "created_at": "2023-11-15T14:21:36Z",
+        "closed_at": "2024-01-17T05:37:16Z",
+        "title": "[PROCESS] \"pending close\" should only be used after result of discussion is documented",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 46,
+        "created_at": "2023-11-08T17:54:00Z",
+        "closed_at": "2023-11-29T18:27:37Z",
+        "title": "[DISCUSS] Do any wallets need TLS context from the browser (or app platform)?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 45,
+        "created_at": "2023-11-03T02:02:24Z",
+        "closed_at": "2023-11-11T14:48:35Z",
+        "title": "Tweak custom-schemes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 44,
+        "created_at": "2023-11-02T01:10:57Z",
+        "closed_at": null,
+        "title": "API requests should provide the site with what they need to explain why and how requested credential information will be used",
+        "labels": [
+          {
+            "id": 5423472692,
+            "node_id": "LA_kwDOJaZems8AAAABQ0OgNA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          },
+          {
+            "id": 6158225005,
+            "node_id": "LA_kwDOJaZems8AAAABbw8ObQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/dc2-proposal",
+            "name": "dc2-proposal",
+            "color": "3C6786",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": "npdoty",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 43,
+        "created_at": "2023-11-02T01:05:47Z",
+        "closed_at": "2024-07-29T17:34:44Z",
+        "title": "API design should emphasize that sites should request minimal properties, not full identity documents",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6158225005,
+            "node_id": "LA_kwDOJaZems8AAAABbw8ObQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/dc2-proposal",
+            "name": "dc2-proposal",
+            "color": "3C6786",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 42,
+        "created_at": "2023-11-02T00:37:24Z",
+        "closed_at": "2024-07-29T17:33:21Z",
+        "title": "Prioritization of credential providers",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6565912465,
+            "node_id": "LA_kwDOJaZems8AAAABh1vfkQ",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/spec",
+            "name": "spec",
+            "color": "8932D8",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "marcoscaceres",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 41,
+        "created_at": "2023-11-01T21:32:02Z",
+        "closed_at": "2023-11-03T01:35:55Z",
+        "title": "custom-schemes.md: additional concerns",
+        "labels": [],
+        "assignee": "hober",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 40,
+        "created_at": "2023-11-01T17:51:25Z",
+        "closed_at": null,
+        "title": "custom-schemes.md:  point 7 should discuss how a browser api could avoid or mitigate this problem",
+        "labels": [
+          {
+            "id": 6914211310,
+            "node_id": "LA_kwDOJaZems8AAAABnB597g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/explainer",
+            "name": "explainer",
+            "color": "C242F5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "RByers",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 39,
+        "created_at": "2023-11-01T14:12:36Z",
+        "closed_at": "2024-05-13T19:46:30Z",
+        "title": "[Discuss] Requests for multiple credentials",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 38,
+        "created_at": "2023-10-31T20:54:43Z",
+        "closed_at": null,
+        "title": "[Discussion] Integrate with web wallets?",
+        "labels": [
+          {
+            "id": 5423472692,
+            "node_id": "LA_kwDOJaZems8AAAABQ0OgNA",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 37,
+        "created_at": "2023-10-29T16:36:32Z",
+        "closed_at": "2023-11-01T01:43:05Z",
+        "title": "Add custom schemes alternative analysis",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 36,
+        "created_at": "2023-10-23T17:00:53Z",
+        "closed_at": "2023-12-13T18:08:05Z",
+        "title": "[HOWTO] Try the Prototype API in Chrome/Android",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 35,
+        "created_at": "2023-10-19T22:11:37Z",
+        "closed_at": null,
+        "title": "[Discuss] This API should address the Jevons Paradox around increased consumption of verifiable credentials and the rise of their abuses",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 7424150007,
+            "node_id": "LA_kwDOJaZems8AAAABuoOJ9w",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/privacy-tracker",
+            "name": "privacy-tracker",
+            "color": "d4af37",
+            "default": false,
+            "description": "Group bringing to attention of Privacy, or tracked by the Privacy Group but not needing response."
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 34,
+        "created_at": "2023-10-06T12:57:10Z",
+        "closed_at": "2023-10-06T14:02:43Z",
+        "title": "Support for web-based wallets",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 33,
+        "created_at": "2023-10-05T15:35:40Z",
+        "closed_at": "2024-11-17T14:36:52Z",
+        "title": "[Discuss] Solution scope",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 32,
+        "created_at": "2023-10-05T15:29:49Z",
+        "closed_at": "2023-12-13T18:03:52Z",
+        "title": "[Discuss] Credential format coexistence",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 31,
+        "created_at": "2023-10-05T15:27:55Z",
+        "closed_at": "2024-11-17T14:35:42Z",
+        "title": "[Discuss] Query languages",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 30,
+        "created_at": "2023-10-05T15:18:22Z",
+        "closed_at": "2025-06-18T22:53:16Z",
+        "title": "[Discuss] Abuse preventions and mitigations",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 29,
+        "created_at": "2023-10-05T15:15:18Z",
+        "closed_at": "2024-02-07T06:06:28Z",
+        "title": "[Discuss] Are parallel efforts mutually exclusive or complementary?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 28,
+        "created_at": "2023-10-05T15:14:10Z",
+        "closed_at": "2023-11-29T18:35:31Z",
+        "title": "[Discuss] Common vocabulary/terminology",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 27,
+        "created_at": "2023-10-05T15:13:07Z",
+        "closed_at": "2023-11-06T19:42:59Z",
+        "title": "[Discuss] Credential selection vs. wallet selection",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 26,
+        "created_at": "2023-10-05T15:11:35Z",
+        "closed_at": "2023-12-13T18:10:44Z",
+        "title": "[Discuss] Should multiple wallets be supported in the same ceremony?",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 25,
+        "created_at": "2023-10-05T15:02:37Z",
+        "closed_at": "2024-09-17T14:42:22Z",
+        "title": "[Discuss] Relationship between identity credentials, passkeys, and federation",
+        "labels": [
+          {
+            "id": 6047422194,
+            "node_id": "LA_kwDOJaZems8AAAABaHRW8g",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/discussion",
+            "name": "discussion",
+            "color": "4B9EEE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 24,
+        "created_at": "2023-10-05T14:58:32Z",
+        "closed_at": "2023-11-05T23:40:01Z",
+        "title": "[Planning] Internet Identity Workshop (IIW) - October 2023",
+        "labels": [],
+        "assignee": "samuelgoto",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 23,
+        "created_at": "2023-09-29T17:20:42Z",
+        "closed_at": "2024-09-09T16:51:46Z",
+        "title": "Integrate with FedCM?",
+        "labels": [],
+        "assignee": "samuelgoto",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 22,
+        "created_at": "2023-09-28T16:51:28Z",
+        "closed_at": "2023-09-29T16:16:47Z",
+        "title": "Update the explainer to match the latest design",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 21,
+        "created_at": "2023-09-28T16:21:36Z",
+        "closed_at": "2023-09-29T16:19:49Z",
+        "title": "Add a navigator.identity proposal",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 20,
+        "created_at": "2023-09-28T16:13:21Z",
+        "closed_at": "2023-09-29T16:16:26Z",
+        "title": "Add an explainer for the Wallet Credential proposal",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 19,
+        "created_at": "2023-09-13T13:19:24Z",
+        "closed_at": "2023-09-14T13:47:15Z",
+        "title": "Draw inspiration from Secure Payment Confirmation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 18,
+        "created_at": "2023-09-13T13:18:13Z",
+        "closed_at": "2023-10-08T16:41:21Z",
+        "title": "Start a regular meeting",
+        "labels": [],
+        "assignee": "timcappalli",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 17,
+        "created_at": "2023-09-07T19:40:16Z",
+        "closed_at": "2023-09-13T14:30:03Z",
+        "title": "meta: add some folk to the owners group",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 16,
+        "created_at": "2023-09-06T22:35:00Z",
+        "closed_at": "2023-09-21T14:12:44Z",
+        "title": "Separating identity and authentication in the API shape",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 15,
+        "created_at": "2023-09-06T22:25:51Z",
+        "closed_at": "2023-09-07T18:54:47Z",
+        "title": "Move both proposals into one repo where we can work on converging them",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 14,
+        "created_at": "2023-06-30T18:28:45Z",
+        "closed_at": "2025-03-09T21:11:59Z",
+        "title": "How much is really in common between different `IdentityCredential` types?",
+        "labels": [
+          {
+            "id": 6113518825,
+            "node_id": "LA_kwDOJaZems8AAAABbGTk6Q",
+            "url": "https://api.github.com/repos/w3c-fedid/digital-credentials/labels/pending%20closure",
+            "name": "pending closure",
+            "color": "FBCA04",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "samuelgoto",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 13,
+        "created_at": "2023-06-19T19:18:43Z",
+        "closed_at": "2023-12-18T02:35:59Z",
+        "title": "User story driven API design",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 12,
+        "created_at": "2023-05-19T08:08:02Z",
+        "closed_at": null,
+        "title": "Consider Verifiable Presentation Request design patterns",
+        "labels": [],
+        "assignee": "msporny",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 11,
+        "created_at": "2023-05-17T18:07:34Z",
+        "closed_at": "2023-05-18T12:14:03Z",
+        "title": "No IdentityCredential sub-types may be [[Store]]d or [[Collect]]ed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 10,
+        "created_at": "2023-04-28T07:33:58Z",
+        "closed_at": "2024-11-17T14:38:43Z",
+        "title": "Clearly separate presentation of issuer-signed Credentials from User Authentication Event",
+        "labels": [],
+        "assignee": "RByers",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 9,
+        "created_at": "2023-04-28T05:35:55Z",
+        "closed_at": "2023-09-29T17:29:48Z",
+        "title": "\"type\" missing in Verifiable Credentials",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 8,
+        "created_at": "2023-04-28T05:30:51Z",
+        "closed_at": "2023-09-29T17:13:37Z",
+        "title": "Is only MDocs response expected to be encrypted?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 7,
+        "created_at": "2023-04-28T05:27:20Z",
+        "closed_at": "2024-08-01T18:59:22Z",
+        "title": "parameters not specific to the credential format",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 6,
+        "created_at": "2023-04-28T05:21:57Z",
+        "closed_at": "2023-09-29T17:19:34Z",
+        "title": "nonce missing in the Verifiable Credentials example",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5,
+        "created_at": "2023-04-28T05:18:30Z",
+        "closed_at": "2024-08-01T20:07:55Z",
+        "title": "Expressing requested claims in the Verifiable Credentials example",
+        "labels": [],
+        "assignee": "samuelgoto",
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 4,
+        "created_at": "2023-04-26T18:22:25Z",
+        "closed_at": "2023-04-26T19:35:03Z",
+        "title": "Update README.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3,
+        "created_at": "2023-04-26T18:08:53Z",
+        "closed_at": "2023-04-26T19:32:32Z",
+        "title": "Update README.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 2,
+        "created_at": "2023-04-25T21:23:32Z",
+        "closed_at": "2023-04-25T21:44:45Z",
+        "title": "Update README.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1,
+        "created_at": "2023-04-25T18:03:07Z",
+        "closed_at": "2023-04-25T19:01:12Z",
+        "title": "Update README.md",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      }
+    ]
+  },
   "https://www.w3.org/TR/fedcm-1/": {
     "repo": {
       "owner": "w3c-fedid",
