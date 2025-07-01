@@ -8,6 +8,35 @@
     "issues": [
       {
         "state": "open",
+        "number": 5236,
+        "created_at": "2025-06-30T12:21:42Z",
+        "closed_at": null,
+        "title": "copyExternalImageToTexture/importExternalTexture: Add HDR headroom parameter",
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 5235,
         "created_at": "2025-06-25T18:39:53Z",
         "closed_at": null,
@@ -27,10 +56,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5233,
         "created_at": "2025-06-25T16:46:25Z",
-        "closed_at": null,
+        "closed_at": "2025-06-30T19:04:14Z",
         "title": "Compat: texture view must contain all array layers",
         "labels": [],
         "assignee": null,
@@ -62,7 +91,35 @@
         "created_at": "2025-06-24T21:00:06Z",
         "closed_at": null,
         "title": "w3.org has different css than gpuweb.github.io/gpuweb",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -298,6 +355,15 @@
             "color": "1d76db",
             "default": false,
             "description": "A request for a new GPU feature exposed in the API"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
           }
         ],
         "assignee": null,
@@ -419,6 +485,24 @@
         "closed_at": null,
         "title": "Error reporting for unbalanced compute/render passes does not match implementations",
         "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -607,6 +691,24 @@
         "closed_at": null,
         "title": "`GPUExternalTexture.[[expired]]` is described as immutable but is definitely not",
         "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -9028,10 +9130,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4826,
         "created_at": "2024-08-26T10:16:01Z",
-        "closed_at": null,
+        "closed_at": "2025-06-30T12:23:10Z",
         "title": "copyExternalImageToTexture/importExternalTexture: Need a way to opt-out of color space conversion",
         "labels": [
           {
@@ -11569,6 +11671,15 @@
             "color": "20D050",
             "default": false,
             "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
           }
         ],
         "assignee": null,
@@ -99216,6 +99327,35 @@
     "issues": [
       {
         "state": "open",
+        "number": 5236,
+        "created_at": "2025-06-30T12:21:42Z",
+        "closed_at": null,
+        "title": "copyExternalImageToTexture/importExternalTexture: Add HDR headroom parameter",
+        "labels": [
+          {
+            "id": 764946281,
+            "node_id": "MDU6TGFiZWw3NjQ5NDYyODE=",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/proposal",
+            "name": "proposal",
+            "color": "91f285",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 5235,
         "created_at": "2025-06-25T18:39:53Z",
         "closed_at": null,
@@ -99235,10 +99375,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5233,
         "created_at": "2025-06-25T16:46:25Z",
-        "closed_at": null,
+        "closed_at": "2025-06-30T19:04:14Z",
         "title": "Compat: texture view must contain all array layers",
         "labels": [],
         "assignee": null,
@@ -99270,7 +99410,35 @@
         "created_at": "2025-06-24T21:00:06Z",
         "closed_at": null,
         "title": "w3.org has different css than gpuweb.github.io/gpuweb",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -99506,6 +99674,15 @@
             "color": "1d76db",
             "default": false,
             "description": "A request for a new GPU feature exposed in the API"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
           }
         ],
         "assignee": null,
@@ -99627,6 +99804,24 @@
         "closed_at": null,
         "title": "Error reporting for unbalanced compute/render passes does not match implementations",
         "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -99815,6 +100010,24 @@
         "closed_at": null,
         "title": "`GPUExternalTexture.[[expired]]` is described as immutable but is definitely not",
         "labels": [
+          {
+            "id": 2123781123,
+            "node_id": "MDU6TGFiZWwyMTIzNzgxMTIz",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/for%20webgpu%20editors%20meeting",
+            "name": "for webgpu editors meeting",
+            "color": "abfcd8",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          },
           {
             "id": 6892417588,
             "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
@@ -108236,10 +108449,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4826,
         "created_at": "2024-08-26T10:16:01Z",
-        "closed_at": null,
+        "closed_at": "2025-06-30T12:23:10Z",
         "title": "copyExternalImageToTexture/importExternalTexture: Need a way to opt-out of color space conversion",
         "labels": [
           {
@@ -110777,6 +110990,15 @@
             "color": "20D050",
             "default": false,
             "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
           }
         ],
         "assignee": null,
