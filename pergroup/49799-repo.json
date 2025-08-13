@@ -7,6 +7,75 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 982,
+        "created_at": "2025-08-12T14:06:28Z",
+        "closed_at": null,
+        "title": "Should downloadWillBegin suggestedFilename match actual filename on local filesystem?",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 981,
+        "created_at": "2025-08-12T13:32:47Z",
+        "closed_at": null,
+        "title": "Support overriding screen dimensions",
+        "labels": [
+          {
+            "id": 3965374919,
+            "node_id": "LA_kwDOD-dWHs7sWtHH",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/needs-discussion",
+            "name": "needs-discussion",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Issues to be discussed by the working group"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 980,
+        "created_at": "2025-08-12T10:16:52Z",
+        "closed_at": null,
+        "title": "browsingContext.downloadWillBegin for download attribute links",
+        "labels": [
+          {
+            "id": 3221931631,
+            "node_id": "MDU6TGFiZWwzMjIxOTMxNjMx",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/module-browsingContext",
+            "name": "module-browsingContext",
+            "color": "DDDDDD",
+            "default": false,
+            "description": "Browsing Context module"
+          },
+          {
+            "id": 3965374919,
+            "node_id": "LA_kwDOD-dWHs7sWtHH",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/needs-discussion",
+            "name": "needs-discussion",
+            "color": "FBCA04",
+            "default": false,
+            "description": "Issues to be discussed by the working group"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 979,
+        "created_at": "2025-08-12T10:02:18Z",
+        "closed_at": "2025-08-12T10:06:06Z",
+        "title": "editorial: fix typo in browsingContext.downloadWillBegin anchor",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 978,
         "created_at": "2025-08-08T09:46:02Z",
@@ -448,7 +517,17 @@
         "created_at": "2025-07-07T15:06:40Z",
         "closed_at": "2025-08-11T21:45:02Z",
         "title": "`emulation.setScriptingEnabled`",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6133625924,
+            "node_id": "LA_kwDOD-dWHs8AAAABbZe0RA",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/needs-tests",
+            "name": "needs-tests",
+            "color": "7E29B2",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1165,7 +1244,7 @@
         "number": 898,
         "created_at": "2025-04-02T08:17:34Z",
         "closed_at": null,
-        "title": "Add a command to the \"webExtension\" module to retrieve a list of all the installed webextensions",
+        "title": "Add a command to the \"webExtension\" module to retrieve a list of all the installed webextensions and their shared properties",
         "labels": [
           {
             "id": 2086912274,
@@ -16298,15 +16377,34 @@
         "created_at": "2025-08-11T06:11:57Z",
         "closed_at": null,
         "title": "Checking if an option is disabled does not consider if itself is disabled",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1025916072,
+            "node_id": "MDU6TGFiZWwxMDI1OTE2MDcy",
+            "url": "https://api.github.com/repos/w3c/webdriver/labels/Is%20Element%20Enabled",
+            "name": "Is Element Enabled",
+            "color": "eeeeee",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1025916130,
+            "node_id": "MDU6TGFiZWwxMDI1OTE2MTMw",
+            "url": "https://api.github.com/repos/w3c/webdriver/labels/Element%20Click",
+            "name": "Element Click",
+            "color": "eeeeee",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1916,
         "created_at": "2025-08-05T04:48:10Z",
-        "closed_at": null,
+        "closed_at": "2025-08-12T13:00:20Z",
         "title": "Fix wrong link for first element of `getClientRects`",
         "labels": [],
         "assignee": null,
@@ -16368,7 +16466,17 @@
         "created_at": "2025-07-12T03:42:53Z",
         "closed_at": null,
         "title": "[Set Window Rect] Why result is integral & round down",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1025913706,
+            "node_id": "MDU6TGFiZWwxMDI1OTEzNzA2",
+            "url": "https://api.github.com/repos/w3c/webdriver/labels/Set%20Window%20Rect",
+            "name": "Set Window Rect",
+            "color": "eeeeee",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -16474,7 +16582,17 @@
         "created_at": "2025-06-20T15:18:35Z",
         "closed_at": null,
         "title": "Current Element Click Spec leads to Failed Assertion",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1025916130,
+            "node_id": "MDU6TGFiZWwxMDI1OTE2MTMw",
+            "url": "https://api.github.com/repos/w3c/webdriver/labels/Element%20Click",
+            "name": "Element Click",
+            "color": "eeeeee",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -17442,7 +17560,17 @@
         "created_at": "2024-10-17T21:11:52Z",
         "closed_at": null,
         "title": "setWindowRect when nothing is possible",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1025913706,
+            "node_id": "MDU6TGFiZWwxMDI1OTEzNzA2",
+            "url": "https://api.github.com/repos/w3c/webdriver/labels/Set%20Window%20Rect",
+            "name": "Set Window Rect",
+            "color": "eeeeee",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
