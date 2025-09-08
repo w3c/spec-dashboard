@@ -7,6 +7,35 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 906,
+        "created_at": "2025-09-07T16:33:52Z",
+        "closed_at": null,
+        "title": "Finalize JSON-LD context files for REC",
+        "labels": [
+          {
+            "id": 2220619776,
+            "node_id": "MDU6TGFiZWwyMjIwNjE5Nzc2",
+            "url": "https://api.github.com/repos/w3c/did/labels/security",
+            "name": "security",
+            "color": "dd7c1a",
+            "default": false,
+            "description": "Issue is related to security."
+          },
+          {
+            "id": 7138902929,
+            "node_id": "LA_kwDODF4kl88AAAABqYMDkQ",
+            "url": "https://api.github.com/repos/w3c/did/labels/class%201",
+            "name": "class 1",
+            "color": "0E8A16",
+            "default": false,
+            "description": "No changes to text content"
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 905,
         "created_at": "2025-08-28T22:27:16Z",
@@ -96,20 +125,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 901,
         "created_at": "2025-08-04T15:13:32Z",
-        "closed_at": null,
+        "closed_at": "2025-09-07T16:30:37Z",
         "title": "@context URL in the spec: https://www.w3.org/ns/did/v1.1 does not resolve",
         "labels": [
           {
-            "id": 1838604038,
-            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
-            "url": "https://api.github.com/repos/w3c/did/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "0E8A16",
+            "id": 1715041388,
+            "node_id": "MDU6TGFiZWwxNzE1MDQxMzg4",
+            "url": "https://api.github.com/repos/w3c/did/labels/pr%20exists",
+            "name": "pr exists",
+            "color": "C2E0C6",
             "default": false,
-            "description": "Issue is ready for a PR"
+            "description": "There is an open PR to address this issue"
           },
           {
             "id": 7138903720,
@@ -1652,35 +1681,6 @@
             "color": "0E8A16",
             "default": false,
             "description": "No changes to text content"
-          }
-        ],
-        "assignee": "msporny",
-        "isPullRequest": false
-      },
-      {
-        "state": "open",
-        "number": 831,
-        "created_at": "2022-08-15T15:14:16Z",
-        "closed_at": null,
-        "title": "Fix assertion narrative clearly define the authoritative claims made when DID Key Controllers are not the DID Controller of the Document",
-        "labels": [
-          {
-            "id": 1838604038,
-            "node_id": "MDU6TGFiZWwxODM4NjA0MDM4",
-            "url": "https://api.github.com/repos/w3c/did/labels/ready%20for%20pr",
-            "name": "ready for pr",
-            "color": "0E8A16",
-            "default": false,
-            "description": "Issue is ready for a PR"
-          },
-          {
-            "id": 7138903720,
-            "node_id": "LA_kwDODF4kl88AAAABqYMGqA",
-            "url": "https://api.github.com/repos/w3c/did/labels/class%202",
-            "name": "class 2",
-            "color": "FBCA04",
-            "default": false,
-            "description": "Changes that do not functionally affect interpretation of the document"
           }
         ],
         "assignee": "msporny",
