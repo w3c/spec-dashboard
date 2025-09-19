@@ -3067,10 +3067,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 252,
         "created_at": "2025-09-11T17:56:15Z",
-        "closed_at": null,
+        "closed_at": "2025-09-18T17:09:07Z",
         "title": "Editorial: inconsistency in listing of which portions of Core-AAM are normative",
         "labels": [],
         "assignee": null,
@@ -13316,6 +13316,75 @@
     "issues": [
       {
         "state": "open",
+        "number": 2636,
+        "created_at": "2025-09-19T08:00:07Z",
+        "closed_at": null,
+        "title": "CI: prettier run shouldn't fail if there are no changes",
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2635,
+        "created_at": "2025-09-18T18:03:10Z",
+        "closed_at": "2025-09-19T07:37:45Z",
+        "title": "editorial: correct i18n example in aria-shortcuts",
+        "labels": [
+          {
+            "id": 468626673,
+            "node_id": "MDU6TGFiZWw0Njg2MjY2NzM=",
+            "url": "https://api.github.com/repos/w3c/aria/labels/editorial",
+            "name": "editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "a change to an example, note, spelling, grammar, or is related to publishing or the repo"
+          },
+          {
+            "id": 7076202579,
+            "node_id": "LA_kwDOART0M88AAAABpcZIUw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/spec:aria",
+            "name": "spec:aria",
+            "color": "1DD6E1",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 2634,
+        "created_at": "2025-09-18T15:36:09Z",
+        "closed_at": null,
+        "title": "The set of roles that can serve as an OrderedSet container is not clear",
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "front-endian",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2633,
         "created_at": "2025-09-17T18:27:02Z",
         "closed_at": null,
@@ -13360,8 +13429,18 @@
         "created_at": "2025-09-17T01:02:32Z",
         "closed_at": null,
         "title": "[aria-valuenow]: default to native value when one exists",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 1126891910,
+            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
+            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
+            "name": "Agenda",
+            "color": "a0144f",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "smhigley",
         "isPullRequest": false
       },
       {
@@ -14444,17 +14523,7 @@
         "created_at": "2025-07-19T17:55:46Z",
         "closed_at": null,
         "title": "aria-keyshortcuts: Do multiple shortcuts define a set of alternatives, or a single sequence?",
-        "labels": [
-          {
-            "id": 1126891910,
-            "node_id": "MDU6TGFiZWwxMTI2ODkxOTEw",
-            "url": "https://api.github.com/repos/w3c/aria/labels/Agenda",
-            "name": "Agenda",
-            "color": "a0144f",
-            "default": false,
-            "description": ""
-          }
-        ],
+        "labels": [],
         "assignee": "front-endian",
         "isPullRequest": false
       },
