@@ -155,10 +155,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 237,
         "created_at": "2025-09-05T08:37:12Z",
-        "closed_at": null,
+        "closed_at": "2025-09-25T16:18:43Z",
         "title": "explain that rdf:reifies is deliberately abstract",
         "labels": [
           {
@@ -414,10 +414,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 220,
         "created_at": "2025-07-17T12:13:05Z",
-        "closed_at": null,
+        "closed_at": "2025-09-25T16:26:33Z",
         "title": "Annotations on assserted triples are based on operational semantics",
         "labels": [
           {
@@ -2159,10 +2159,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 119,
         "created_at": "2024-12-04T07:49:45Z",
-        "closed_at": null,
+        "closed_at": "2025-09-25T16:31:27Z",
         "title": "Updated RDFS vocabularies for RDF 1.2",
         "labels": [
           {
@@ -3052,15 +3052,6 @@
         "closed_at": null,
         "title": "Reconsider bidirectional (bidi) tag?",
         "labels": [
-          {
-            "id": 5072487483,
-            "node_id": "LA_kwDOIxAx-88AAAABLlgEOw",
-            "url": "https://api.github.com/repos/w3c/rdf-concepts/labels/ms:CR",
-            "name": "ms:CR",
-            "color": "e4fca9",
-            "default": false,
-            "description": "Milestone: Candidate Recommendation"
-          },
           {
             "id": 5072488077,
             "node_id": "LA_kwDOIxAx-88AAAABLlgGjQ",
@@ -9146,7 +9137,7 @@
             "description": "Change to enhance the spec without affecting conformance (class 2) –see also spec:editorial"
           }
         ],
-        "assignee": null,
+        "assignee": "franconi",
         "isPullRequest": false
       },
       {
@@ -9266,6 +9257,15 @@
             "description": "Milestone: Candidate Recommendation"
           },
           {
+            "id": 5072490232,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgO-A",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/propose%20closing",
+            "name": "propose closing",
+            "color": "bf5315",
+            "default": false,
+            "description": "Proposed for closing"
+          },
+          {
             "id": 5072490319,
             "node_id": "LA_kwDOIxA19c8AAAABLlgPTw",
             "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/spec:enhancement",
@@ -9275,7 +9275,7 @@
             "description": "Change to enhance the spec without affecting conformance (class 2) –see also spec:editorial"
           }
         ],
-        "assignee": null,
+        "assignee": "pfps",
         "isPullRequest": false
       },
       {
@@ -9803,7 +9803,7 @@
             "description": "Change to enhance the spec without affecting conformance (class 2) –see also spec:editorial"
           }
         ],
-        "assignee": null,
+        "assignee": "franconi",
         "isPullRequest": false
       },
       {
@@ -17980,9 +17980,78 @@
     "issues": [
       {
         "state": "open",
+        "number": 292,
+        "created_at": "2025-09-25T12:23:47Z",
+        "closed_at": null,
+        "title": "Interpretation of BNODE under subquery",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 291,
+        "created_at": "2025-09-25T10:57:23Z",
+        "closed_at": null,
+        "title": "improves definitions of all algebra operators that involve expressions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 290,
+        "created_at": "2025-09-25T10:50:35Z",
+        "closed_at": null,
+        "title": "Multiplicity undefined for Extend operator",
+        "labels": [
+          {
+            "id": 5072496973,
+            "node_id": "LA_kwDOIxA8Ds8AAAABLlgpTQ",
+            "url": "https://api.github.com/repos/w3c/sparql-query/labels/Errata",
+            "name": "Errata",
+            "color": "ff0000",
+            "default": false,
+            "description": "Errata management: confirmed erratum"
+          },
+          {
+            "id": 5072497199,
+            "node_id": "LA_kwDOIxA8Ds8AAAABLlgqLw",
+            "url": "https://api.github.com/repos/w3c/sparql-query/labels/spec:bug",
+            "name": "spec:bug",
+            "color": "aaaa22",
+            "default": false,
+            "description": "Change fixing a bug in the specification (class 3) –see also spec:substantive"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 289,
+        "created_at": "2025-09-25T10:18:52Z",
+        "closed_at": null,
+        "title": "Add missing comparison operators for triple terms",
+        "labels": [
+          {
+            "id": 5072497316,
+            "node_id": "LA_kwDOIxA8Ds8AAAABLlgqpA",
+            "url": "https://api.github.com/repos/w3c/sparql-query/labels/spec:substantive",
+            "name": "spec:substantive",
+            "color": "aaaa22",
+            "default": false,
+            "description": "Change in the spec affecting its normative content (class 3) –see also spec:bug, spec:new-feature"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 288,
         "created_at": "2025-09-22T17:23:52Z",
-        "closed_at": null,
+        "closed_at": "2025-09-25T09:08:45Z",
         "title": "Renames 'eval' function introduced in ALP to 'reachableTerms'",
         "labels": [],
         "assignee": null,
@@ -19405,6 +19474,15 @@
         "closed_at": null,
         "title": "Cover triple terms in definition of  RDFterm-equal",
         "labels": [
+          {
+            "id": 5072497108,
+            "node_id": "LA_kwDOIxA8Ds8AAAABLlgp1A",
+            "url": "https://api.github.com/repos/w3c/sparql-query/labels/propose%20closing",
+            "name": "propose closing",
+            "color": "bf5315",
+            "default": false,
+            "description": "Proposed for closing"
+          },
           {
             "id": 5072497246,
             "node_id": "LA_kwDOIxA8Ds8AAAABLlgqXg",
