@@ -1249,10 +1249,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 172,
         "created_at": "2025-03-21T15:26:42Z",
-        "closed_at": null,
+        "closed_at": "2025-10-02T16:52:47Z",
         "title": "Define the notion of \"atomic term\"",
         "labels": [
           {
@@ -1556,10 +1556,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 152,
         "created_at": "2025-01-29T14:05:41Z",
-        "closed_at": null,
+        "closed_at": "2025-10-02T16:41:09Z",
         "title": "Definition of \"RDF term\" (and other terms) should be exported",
         "labels": [
           {
@@ -5933,6 +5933,16 @@
     "issues": [
       {
         "state": "open",
+        "number": 77,
+        "created_at": "2025-10-02T10:04:55Z",
+        "closed_at": null,
+        "title": "Add a TSV profile for N-Triples",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 76,
         "created_at": "2025-10-01T17:29:49Z",
         "closed_at": null,
@@ -5946,15 +5956,6 @@
             "color": "e4fca9",
             "default": false,
             "description": "Milestone: Candidate Recommendation"
-          },
-          {
-            "id": 5072491976,
-            "node_id": "LA_kwDOIxA2qs8AAAABLlgVyA",
-            "url": "https://api.github.com/repos/w3c/rdf-n-triples/labels/needs%20discussion",
-            "name": "needs discussion",
-            "color": "c5def5",
-            "default": false,
-            "description": "Proposed for discussion in an upcoming meeting"
           }
         ],
         "assignee": null,
@@ -5976,7 +5977,17 @@
         "created_at": "2025-08-12T18:55:21Z",
         "closed_at": null,
         "title": "Decide on \"period\" vs \"full stop\"",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072492154,
+            "node_id": "LA_kwDOIxA2qs8AAAABLlgWeg",
+            "url": "https://api.github.com/repos/w3c/rdf-n-triples/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -7836,7 +7847,17 @@
         "created_at": "2025-09-05T11:32:08Z",
         "closed_at": null,
         "title": "Ensure text about propositions and reifies is aligned with RDF Concepts",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072489519,
+            "node_id": "LA_kwDOIxAyg88AAAABLlgMLw",
+            "url": "https://api.github.com/repos/w3c/rdf-schema/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -7886,7 +7907,17 @@
         "created_at": "2025-08-15T09:39:01Z",
         "closed_at": null,
         "title": "Integrate with RDF Concepts",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072489519,
+            "node_id": "LA_kwDOIxAyg88AAAABLlgMLw",
+            "url": "https://api.github.com/repos/w3c/rdf-schema/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -8208,10 +8239,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 35,
         "created_at": "2025-01-24T00:39:30Z",
-        "closed_at": null,
+        "closed_at": "2025-10-02T16:51:43Z",
         "title": "Visual model",
         "labels": [
           {
@@ -8336,10 +8367,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 29,
         "created_at": "2024-06-29T08:11:25Z",
-        "closed_at": null,
+        "closed_at": "2025-10-02T16:49:58Z",
         "title": "addition of rdf:RDFSource on the rdf: vocabulary",
         "labels": [
           {
@@ -8795,19 +8826,39 @@
     "issues": [
       {
         "state": "open",
+        "number": 160,
+        "created_at": "2025-10-02T13:32:03Z",
+        "closed_at": null,
+        "title": "Fixes correctness of Appendix A (from issue #139)",
+        "labels": [
+          {
+            "id": 5072490149,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgOpQ",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/ms:CR",
+            "name": "ms:CR",
+            "color": "e4fca9",
+            "default": false,
+            "description": "Milestone: Candidate Recommendation"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 159,
         "created_at": "2025-09-24T21:07:58Z",
-        "closed_at": null,
-        "title": "fixing #158",
+        "closed_at": "2025-10-02T12:09:07Z",
+        "title": "fixing grammar errors (Issue #158)",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 158,
         "created_at": "2025-09-24T18:52:54Z",
-        "closed_at": null,
+        "closed_at": "2025-10-02T12:09:08Z",
         "title": "grammar errors",
         "labels": [],
         "assignee": null,
@@ -9284,15 +9335,6 @@
             "color": "e4fca9",
             "default": false,
             "description": "Milestone: Candidate Recommendation"
-          },
-          {
-            "id": 5072490232,
-            "node_id": "LA_kwDOIxA19c8AAAABLlgO-A",
-            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/propose%20closing",
-            "name": "propose closing",
-            "color": "bf5315",
-            "default": false,
-            "description": "Proposed for closing"
           },
           {
             "id": 5072490319,
@@ -9830,6 +9872,15 @@
             "color": "22aa22",
             "default": false,
             "description": "Change to enhance the spec without affecting conformance (class 2) –see also spec:editorial"
+          },
+          {
+            "id": 5072490362,
+            "node_id": "LA_kwDOIxA19c8AAAABLlgPeg",
+            "url": "https://api.github.com/repos/w3c/rdf-semantics/labels/spec:substantive",
+            "name": "spec:substantive",
+            "color": "aaaa22",
+            "default": false,
+            "description": "Change in the spec affecting its normative content (class 3) –see also spec:bug, spec:new-feature"
           }
         ],
         "assignee": "franconi",
@@ -12624,10 +12675,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 114,
         "created_at": "2025-08-26T10:03:47Z",
-        "closed_at": null,
+        "closed_at": "2025-10-02T16:54:32Z",
         "title": "why is the term constructor optional in production `reifier`?",
         "labels": [
           {
@@ -12922,10 +12973,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 97,
         "created_at": "2025-05-22T10:17:27Z",
-        "closed_at": null,
+        "closed_at": "2025-10-02T16:53:42Z",
         "title": "Undeterministic roundtripping between Turtle-star annotations syntax and N-triples",
         "labels": [
           {
@@ -18182,7 +18233,17 @@
         "created_at": "2025-09-08T19:28:46Z",
         "closed_at": null,
         "title": "Consider if `TripleTermData` rule should allow generalized triple terms",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072497246,
+            "node_id": "LA_kwDOIxA8Ds8AAAABLlgqXg",
+            "url": "https://api.github.com/repos/w3c/sparql-query/labels/spec:enhancement",
+            "name": "spec:enhancement",
+            "color": "22aa22",
+            "default": false,
+            "description": "Change to enhance the spec without affecting conformance (class 2) –see also spec:editorial"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -18242,7 +18303,17 @@
         "created_at": "2025-09-02T20:47:30Z",
         "closed_at": null,
         "title": "all-caps vs all-lowercase `FALSE` and `TRUE`",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072497230,
+            "node_id": "LA_kwDOIxA8Ds8AAAABLlgqTg",
+            "url": "https://api.github.com/repos/w3c/sparql-query/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -18532,7 +18603,17 @@
         "created_at": "2025-08-06T14:07:18Z",
         "closed_at": null,
         "title": "add more annotations in sparql-ns.ttl",
-        "labels": [],
+        "labels": [
+          {
+            "id": 5072497230,
+            "node_id": "LA_kwDOIxA8Ds8AAAABLlgqTg",
+            "url": "https://api.github.com/repos/w3c/sparql-query/labels/spec:editorial",
+            "name": "spec:editorial",
+            "color": "2222aa",
+            "default": false,
+            "description": "Minor change in the specification (markup, typo, informative text; class 1 or 2)"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -19537,10 +19618,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 182,
         "created_at": "2025-01-22T21:35:01Z",
-        "closed_at": null,
+        "closed_at": "2025-10-02T16:51:16Z",
         "title": "Cover triple terms in definition of  RDFterm-equal",
         "labels": [
           {
