@@ -8,10 +8,79 @@
     "issues": [
       {
         "state": "open",
+        "number": 5392,
+        "created_at": "2025-10-15T20:45:22Z",
+        "closed_at": null,
+        "title": "uniformity: fix analysis for loop bodies that only return",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 5391,
+        "created_at": "2025-10-15T18:42:12Z",
+        "closed_at": null,
+        "title": "Specify behaviour of core-features-and-limits.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 5390,
+        "created_at": "2025-10-15T17:43:03Z",
+        "closed_at": "2025-10-15T18:32:11Z",
+        "title": "README: document Python venv for building WGSL spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 5389,
+        "created_at": "2025-10-15T15:33:32Z",
+        "closed_at": null,
+        "title": "Allow lets of textures and samplers",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 6034181029,
+            "node_id": "LA_kwDOBNvGe88AAAABZ6pLpQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/language%20extension",
+            "name": "language extension",
+            "color": "1432BE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 5388,
+        "created_at": "2025-10-15T13:57:20Z",
+        "closed_at": "2025-10-15T14:04:53Z",
+        "title": "Remove roadmap note for texture component swizzle",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 5387,
         "created_at": "2025-10-15T08:01:32Z",
         "closed_at": null,
-        "title": "[proposal] consider having same API in compute and fragment shaders for textureLoad",
+        "title": "[proposal] consider having compatible APIs for textureLoad on different types (texture_2d, texture_storage_2d, etc.)",
         "labels": [
           {
             "id": 1868960687,
@@ -5006,7 +5075,7 @@
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -5178,7 +5247,7 @@
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -5787,7 +5856,7 @@
             "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -7493,6 +7562,15 @@
             "color": "91f285",
             "default": false,
             "description": "WebGPU API"
+          },
+          {
+            "id": 9468540659,
+            "node_id": "LA_kwDOBNvGe88AAAACNF528w",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20correspondence%20reference",
+            "name": "needs correspondence reference",
+            "color": "deb560",
+            "default": false,
+            "description": "Items (open or closed) that need to be added to the correspondence reference"
           }
         ],
         "assignee": null,
@@ -8006,13 +8084,22 @@
         "title": "Account for Vulkan's framebufferIntegerColorSampleCounts?",
         "labels": [
           {
-            "id": 6892417588,
-            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
-            "name": "api",
-            "color": "91f285",
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
             "default": false,
-            "description": "WebGPU API"
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 9468540659,
+            "node_id": "LA_kwDOBNvGe88AAAACNF528w",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20correspondence%20reference",
+            "name": "needs correspondence reference",
+            "color": "deb560",
+            "default": false,
+            "description": "Items (open or closed) that need to be added to the correspondence reference"
           }
         ],
         "assignee": null,
@@ -8437,10 +8524,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4987,
         "created_at": "2024-11-21T04:44:11Z",
-        "closed_at": null,
+        "closed_at": "2025-10-15T17:44:07Z",
         "title": "How to add features and limits for Compat after Core ships?",
         "labels": [
           {
@@ -60907,6 +60994,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 9468540659,
+            "node_id": "LA_kwDOBNvGe88AAAACNF528w",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20correspondence%20reference",
+            "name": "needs correspondence reference",
+            "color": "deb560",
+            "default": false,
+            "description": "Items (open or closed) that need to be added to the correspondence reference"
           }
         ],
         "assignee": null,
@@ -102269,10 +102365,79 @@
     "issues": [
       {
         "state": "open",
+        "number": 5392,
+        "created_at": "2025-10-15T20:45:22Z",
+        "closed_at": null,
+        "title": "uniformity: fix analysis for loop bodies that only return",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 5391,
+        "created_at": "2025-10-15T18:42:12Z",
+        "closed_at": null,
+        "title": "Specify behaviour of core-features-and-limits.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 5390,
+        "created_at": "2025-10-15T17:43:03Z",
+        "closed_at": "2025-10-15T18:32:11Z",
+        "title": "README: document Python venv for building WGSL spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 5389,
+        "created_at": "2025-10-15T15:33:32Z",
+        "closed_at": null,
+        "title": "Allow lets of textures and samplers",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 6034181029,
+            "node_id": "LA_kwDOBNvGe88AAAABZ6pLpQ",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/language%20extension",
+            "name": "language extension",
+            "color": "1432BE",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 5388,
+        "created_at": "2025-10-15T13:57:20Z",
+        "closed_at": "2025-10-15T14:04:53Z",
+        "title": "Remove roadmap note for texture component swizzle",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 5387,
         "created_at": "2025-10-15T08:01:32Z",
         "closed_at": null,
-        "title": "[proposal] consider having same API in compute and fragment shaders for textureLoad",
+        "title": "[proposal] consider having compatible APIs for textureLoad on different types (texture_2d, texture_storage_2d, etc.)",
         "labels": [
           {
             "id": 1868960687,
@@ -107267,7 +107432,7 @@
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -107439,7 +107604,7 @@
             "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -108048,7 +108213,7 @@
             "description": "Resolved - waiting for a change to the WGSL specification"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -109754,6 +109919,15 @@
             "color": "91f285",
             "default": false,
             "description": "WebGPU API"
+          },
+          {
+            "id": 9468540659,
+            "node_id": "LA_kwDOBNvGe88AAAACNF528w",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20correspondence%20reference",
+            "name": "needs correspondence reference",
+            "color": "deb560",
+            "default": false,
+            "description": "Items (open or closed) that need to be added to the correspondence reference"
           }
         ],
         "assignee": null,
@@ -110267,13 +110441,22 @@
         "title": "Account for Vulkan's framebufferIntegerColorSampleCounts?",
         "labels": [
           {
-            "id": 6892417588,
-            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
-            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
-            "name": "api",
-            "color": "91f285",
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
             "default": false,
-            "description": "WebGPU API"
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 9468540659,
+            "node_id": "LA_kwDOBNvGe88AAAACNF528w",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20correspondence%20reference",
+            "name": "needs correspondence reference",
+            "color": "deb560",
+            "default": false,
+            "description": "Items (open or closed) that need to be added to the correspondence reference"
           }
         ],
         "assignee": null,
@@ -110698,10 +110881,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4987,
         "created_at": "2024-11-21T04:44:11Z",
-        "closed_at": null,
+        "closed_at": "2025-10-15T17:44:07Z",
         "title": "How to add features and limits for Compat after Core ships?",
         "labels": [
           {
@@ -163168,6 +163351,15 @@
             "color": "80306e",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 9468540659,
+            "node_id": "LA_kwDOBNvGe88AAAACNF528w",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/needs%20correspondence%20reference",
+            "name": "needs correspondence reference",
+            "color": "deb560",
+            "default": false,
+            "description": "Items (open or closed) that need to be added to the correspondence reference"
           }
         ],
         "assignee": null,
