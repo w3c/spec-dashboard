@@ -7,6 +7,35 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 5417,
+        "created_at": "2025-10-24T18:18:45Z",
+        "closed_at": "2025-10-24T19:39:25Z",
+        "title": "Fix typo in uniformity function-scope variable analysis",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 5416,
         "created_at": "2025-10-24T01:48:16Z",
@@ -27,10 +56,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5415,
         "created_at": "2025-10-22T23:11:27Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T19:04:02Z",
         "title": "Compat: fix check for compatible texture views",
         "labels": [
           {
@@ -241,12 +270,31 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5405,
         "created_at": "2025-10-21T21:12:53Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T22:06:49Z",
         "title": "Update validation of bind groups usage",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -331,8 +379,27 @@
         "number": 5402,
         "created_at": "2025-10-20T21:44:16Z",
         "closed_at": null,
-        "title": "Specify Compatibility Mode",
-        "labels": [],
+        "title": "[main branch] Specify Compatibility Mode",
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -357,10 +424,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5400,
         "created_at": "2025-10-20T15:14:31Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T15:51:50Z",
         "title": "Add buffer-view proposal",
         "labels": [
           {
@@ -621,10 +688,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5386,
         "created_at": "2025-10-15T02:11:54Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T15:58:55Z",
         "title": "[subgroup-id] Add issue resolutions",
         "labels": [],
         "assignee": null,
@@ -641,10 +708,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5384,
         "created_at": "2025-10-14T12:27:02Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T22:06:50Z",
         "title": "Clarify resource state validation on `submit()`",
         "labels": [
           {
@@ -928,10 +995,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5370,
         "created_at": "2025-10-10T21:01:27Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T15:58:56Z",
         "title": "[subgroup-id] consider adding a \"num subgroups\" builtin value",
         "labels": [
           {
@@ -1044,7 +1111,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -1365,10 +1432,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5347,
         "created_at": "2025-10-08T01:24:46Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T17:12:11Z",
         "title": "Language feature for relaxing uniform address space layout",
         "labels": [
           {
@@ -1414,10 +1481,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5344,
         "created_at": "2025-10-07T19:10:19Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T15:58:56Z",
         "title": "[subgroup-id] Specify range and density of the IDs",
         "labels": [
           {
@@ -2054,7 +2121,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": null,
+        "assignee": "shaoboyan091",
         "isPullRequest": false
       },
       {
@@ -102907,6 +102974,35 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "closed",
+        "number": 5417,
+        "created_at": "2025-10-24T18:18:45Z",
+        "closed_at": "2025-10-24T19:39:25Z",
+        "title": "Fix typo in uniformity function-scope variable analysis",
+        "labels": [
+          {
+            "id": 1868960687,
+            "node_id": "MDU6TGFiZWwxODY4OTYwNjg3",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/wgsl",
+            "name": "wgsl",
+            "color": "ff59dd",
+            "default": false,
+            "description": "WebGPU Shading Language Issues"
+          },
+          {
+            "id": 3581772930,
+            "node_id": "LA_kwDOBNvGe87VfYSC",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/copyediting",
+            "name": "copyediting",
+            "color": "c2e0c6",
+            "default": false,
+            "description": "Pure editorial stuff (copyediting, *.bs file syntax, etc.)"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "open",
         "number": 5416,
         "created_at": "2025-10-24T01:48:16Z",
@@ -102927,10 +103023,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5415,
         "created_at": "2025-10-22T23:11:27Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T19:04:02Z",
         "title": "Compat: fix check for compatible texture views",
         "labels": [
           {
@@ -103141,12 +103237,31 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5405,
         "created_at": "2025-10-21T21:12:53Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T22:06:49Z",
         "title": "Update validation of bind groups usage",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6837243332,
+            "node_id": "LA_kwDOBNvGe88AAAABl4gNxA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api%20resolved",
+            "name": "api resolved",
+            "color": "20D050",
+            "default": false,
+            "description": "Resolved - waiting for a change to the API specification"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -103231,8 +103346,27 @@
         "number": 5402,
         "created_at": "2025-10-20T21:44:16Z",
         "closed_at": null,
-        "title": "Specify Compatibility Mode",
-        "labels": [],
+        "title": "[main branch] Specify Compatibility Mode",
+        "labels": [
+          {
+            "id": 6397436712,
+            "node_id": "LA_kwDOBNvGe88AAAABfVEjKA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/compat",
+            "name": "compat",
+            "color": "4E146D",
+            "default": false,
+            "description": "WebGPU Compatibility Mode"
+          },
+          {
+            "id": 6892417588,
+            "node_id": "LA_kwDOBNvGe88AAAABmtHyNA",
+            "url": "https://api.github.com/repos/gpuweb/gpuweb/labels/api",
+            "name": "api",
+            "color": "91f285",
+            "default": false,
+            "description": "WebGPU API"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -103257,10 +103391,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5400,
         "created_at": "2025-10-20T15:14:31Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T15:51:50Z",
         "title": "Add buffer-view proposal",
         "labels": [
           {
@@ -103521,10 +103655,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5386,
         "created_at": "2025-10-15T02:11:54Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T15:58:55Z",
         "title": "[subgroup-id] Add issue resolutions",
         "labels": [],
         "assignee": null,
@@ -103541,10 +103675,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5384,
         "created_at": "2025-10-14T12:27:02Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T22:06:50Z",
         "title": "Clarify resource state validation on `submit()`",
         "labels": [
           {
@@ -103828,10 +103962,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5370,
         "created_at": "2025-10-10T21:01:27Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T15:58:56Z",
         "title": "[subgroup-id] consider adding a \"num subgroups\" builtin value",
         "labels": [
           {
@@ -103944,7 +104078,7 @@
             "description": "WebGPU Shading Language Issues"
           }
         ],
-        "assignee": null,
+        "assignee": "dneto0",
         "isPullRequest": false
       },
       {
@@ -104265,10 +104399,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5347,
         "created_at": "2025-10-08T01:24:46Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T17:12:11Z",
         "title": "Language feature for relaxing uniform address space layout",
         "labels": [
           {
@@ -104314,10 +104448,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5344,
         "created_at": "2025-10-07T19:10:19Z",
-        "closed_at": null,
+        "closed_at": "2025-10-24T15:58:56Z",
         "title": "[subgroup-id] Specify range and density of the IDs",
         "labels": [
           {
@@ -104954,7 +105088,7 @@
             "description": "WebGPU API"
           }
         ],
-        "assignee": null,
+        "assignee": "shaoboyan091",
         "isPullRequest": false
       },
       {
