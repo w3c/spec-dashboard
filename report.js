@@ -17,32 +17,6 @@
         return li;
     }
 
-    const listMilestoneTest = (id, milestone, test) => {
-        return (milestoneData, specData, groupname) => {
-            const el = document.querySelector("#" + id + " ol");
-            if (!el) return console.error("Invalid id " + id);
-            el.setAttribute("data-sort", "span,a")
-            Object.keys(milestoneData || {}).forEach(s => {
-                Object.keys(milestoneData[s]).filter(m => m === milestone || milestone === "*").forEach(m => {
-                    if (test(milestoneData[s][m])) {
-                        const spec = extractSpecData(s, specData);
-                        if (spec) {
-                            const li = specLink(spec);
-                            const date = document.createElement("span");
-                            date.appendChild(document.createTextNode(milestoneData[s][m]));
-                            if (outdated(milestoneData[s][m])) date.className='outdated';
-                            li.appendChild(document.createTextNode(" (" + groupname + ") : "));
-                            li.appendChild(date);
-                            el.appendChild(li);
-                        } else {
-                            console.error("Could not find data on " + s);
-                        }
-                    }
-                });
-            });
-        };
-    };
-
     const fetchJSON = path => fetch(path).then(r => r.json()).catch(e => { console.error(`Loading JSON from ${path} failed with`); console.error(e);});
     const schemeLess = url => url.split(':').slice(1).join(':');
     const extractSpecData = (shortlink, specs) => specs.filter(s => schemeLess(s.shortlink) === schemeLess(shortlink))[0];
@@ -51,33 +25,50 @@
         .then(groups => {
             return Promise.all(Object.keys(groups).map(gid =>  {
                 const specDataPromise = fetchJSON("./pergroup/" + gid + ".json");
-                const milestoneDataPromise = fetchJSON("./pergroup/" + gid + "-milestones.json");
                 const repoDataPromise = fetchJSON("./pergroup/" + gid + "-repo.json");
                 const groupnamePromise = new Promise((res) => res(groups[gid].name));
-                return Promise.all([specDataPromise, milestoneDataPromise, repoDataPromise, groupnamePromise])
-                    .then(([specData, milestoneData, repoData, groupname]) => {
+                return Promise.all([specDataPromise, repoDataPromise, groupnamePromise])
+                    .then(([specData, repoData, groupname]) => {
                         const count = document.getElementById('count');
                         const reccount = document.getElementById('reccount');
-                        count.textContent = parseInt(count.textContent, 10) + specData.length;
-                        reccount.textContent = parseInt(reccount.textContent, 10) + specData.filter(s => s.versions[0]["rec-track"]).length;
+                      count.textContent = parseInt(count.textContent, 10) + (specData?.length ?? 0);
+                        reccount.textContent = parseInt(reccount.textContent, 10) + specData?.filter(s => s.versions[0]["rec-track"] ?? 0).length;
 
-                        listMilestoneTest("upcomingwr", "WR/LC", upcoming)(milestoneData, specData, groupname);
-                        listMilestoneTest("upcomingcr", "CR", upcoming)(milestoneData, specData, groupname);
-                        listMilestoneTest("upcomingpr", "PR", upcoming6)(milestoneData, specData, groupname);
 
-                        listMilestoneTest("beyondcharter", "*", d => d > groups[gid].end)(milestoneData, specData, groupname);
-
+		      const lateCRSnapshot = document.querySelector("#latecrs ol");
+                        lateCRSnapshot.setAttribute("data-sort", "span,a");
                         var abandoned = document.querySelector("#abandoned ol");
                         abandoned.setAttribute("data-sort", "span,a");
                         var longRunning = document.querySelector("#longrunning ol");
                         longRunning.setAttribute("data-sort", "span,a");
-                        var noRepo = document.querySelector("#norepo ol");
-                        norepo.setAttribute("data-sort", "a");
+                        const noRepo = document.querySelector("#norepo ol");
+                        noRepo.setAttribute("data-sort", "a");
                         var noEd = document.querySelector("#noed ol");
                         noEd.setAttribute("data-sort", "a");
-                        Object.keys(specData).filter(s => specData[s].versions[0]["rec-track"]).forEach(s => {
-                            const spec = specData[s];
+                      Object.keys(specData ?? {}).filter(s => specData[s].versions[0]["rec-track"]).forEach(s => {
+                          const spec = specData[s];
+			  if (spec.versions[0].status === "Candidate Recommendation Draft") {
+			    const crs = spec.versions.find(v => v.status === "Candidate Recommendation Snapshot");
+			    console.log(crs.date, monthFromNow(-24));
+			    if (new Date(crs.date) < monthFromNow(-24)) {
+			      console.log(spec);
+			      const li = specLink(spec);
+			      const date = document.createElement("span");
+                              date.append(crs.date);
+			      li.append(": ", date);
+			      lateCRSnapshot.appendChild(li);
+			    }
+			  }
                             if (new Date(spec.versions[0].date) < monthFromNow(-36)) {
+                                const li = specLink(spec);
+                                const date = document.createElement("span");
+                                date.appendChild(document.createTextNode(spec.versions[0].date));
+                                li.appendChild(document.createTextNode(": "));
+                                li.appendChild(date);
+                                abandoned.appendChild(li);
+                            }
+
+                          if (new Date(spec.versions[0].date) < monthFromNow(-36)) {
                                 const li = specLink(spec);
                                 const date = document.createElement("span");
                                 date.appendChild(document.createTextNode(spec.versions[0].date));
@@ -117,8 +108,8 @@
                 const sortSelectors = ol.dataset.sort.split(',');
                 const items = [...ol.children];
                 items.sort((li1, li2) => {
-                    for (i = 0 ; i < sortSelectors.length; i++) {
-                        const comp = li1.querySelector(sortSelectors[i]).textContent.localeCompare(li2.querySelector(sortSelectors[i]).textContent);
+                    for (const selector of sortSelectors) {
+                        const comp = li1.querySelector(selector).textContent.localeCompare(li2.querySelector(selector).textContent);
                         if (comp !== 0) return comp;
                     }
                     return 0;
