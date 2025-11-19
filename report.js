@@ -69,14 +69,6 @@
                                 abandoned.appendChild(li);
                             }
 
-                          if (new Date(spec.versions[0].date) < monthFromNow(-36)) {
-                                const li = specLink(spec);
-                                const date = document.createElement("span");
-                                date.appendChild(document.createTextNode(spec.versions[0].date));
-                                li.appendChild(document.createTextNode(": "));
-                                li.appendChild(date);
-                                abandoned.appendChild(li);
-                            }
                             if (new Date(last(spec.versions).date) < monthFromNow(-60)) {
                                 const li = specLink(spec);
                                 const date = document.createElement("span");
