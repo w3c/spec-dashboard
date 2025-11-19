@@ -5,7 +5,8 @@
     const upcoming6 = d => new Date(d) < monthFromNow(6);
     const outdated = d => new Date(d) < now;
 
-    const monthFromNow = (n) => new Date(new Date().setMonth(now.getMonth() + n));
+  const monthFrom = (n, d) => new Date(new Date(d).setMonth(d.getMonth() + n));
+  const monthFromNow = (n) => monthFrom(n, now);
     const last = a => a[a.length - 1];
 
     const specLink = (spec) => {
@@ -47,15 +48,15 @@
                         noEd.setAttribute("data-sort", "a");
                       Object.keys(specData ?? {}).filter(s => specData[s].versions[0]["rec-track"]).forEach(s => {
                           const spec = specData[s];
-			  if (spec.versions[0].status === "Candidate Recommendation Draft") {
-			    const crs = spec.versions.find(v => v.status === "Candidate Recommendation Snapshot");
-			    console.log(crs.date, monthFromNow(-24));
-			    if (new Date(crs.date) < monthFromNow(-24)) {
-			      console.log(spec);
-			      const li = specLink(spec);
-			      const date = document.createElement("span");
-                              date.append(crs.date);
-			      li.append(": ", date);
+			if (spec.versions[0].status === "Candidate Recommendation Draft") {
+			  const crd = spec.versions[0];
+			  const crs = spec.versions.find(v => v.status === "Candidate Recommendation Snapshot");
+			  if (new Date(crs.date) < monthFrom(-24, new Date(crd.date))) {
+			    const age = Math.floor((new Date(crd.date) - new Date(crs.date)) / (1000*3600*24*30));
+			    const li = specLink(spec);
+			    const date = document.createElement("span");
+                            date.append(crs.date);
+			    li.append(": last CRS on ", date, " (" + age + " months from CRD)");
 			      lateCRSnapshot.appendChild(li);
 			    }
 			  }
