@@ -31,11 +31,12 @@
                 return Promise.all([specDataPromise, repoDataPromise, groupnamePromise])
                     .then(([specData, repoData, groupname]) => {
                         const count = document.getElementById('count');
-                        const reccount = document.getElementById('reccount');
+                      const reccount = document.getElementById('reccount');
+		      const crcount = document.getElementById('crcount');
                       count.textContent = parseInt(count.textContent, 10) + (specData?.length ?? 0);
                         reccount.textContent = parseInt(reccount.textContent, 10) + specData?.filter(s => s.versions[0]["rec-track"] ?? 0).length;
 
-
+		      crcount.textContent = parseInt(crcount.textContent, 10) + (Object.values(specData || {}).filter(s => s.versions[0].status.startsWith("Candidate Recommendation")).length ?? 0);
 		      const lateCRSnapshot = document.querySelector("#latecrs ol");
                         lateCRSnapshot.setAttribute("data-sort", "span,a");
                         var abandoned = document.querySelector("#abandoned ol");
