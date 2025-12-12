@@ -1,36 +1,64 @@
 [
   {
-    "shortlink": "https://www.w3.org/TR/privacy-preserving-attribution/",
+    "shortlink": "https://www.w3.org/TR/attribution/",
     "description": "<p>This specifies a browser API for the measurement of advertising performance. The goal is to produce aggregate statistics about how advertising leads to conversions, without creating a risk to the privacy of individual web users. This API collates information about people from multiple web origins, which could be a significant risk to their privacy. To manage this risk, the information that is gathered is aggregated using an aggregation service that is trusted by the user-agent to perform aggregation within strict limits. Noise is added to the aggregates produced by this service to provide differential privacy. Websites may select an aggregation service from the list of approved aggregation services provided by the user-agent.</p>",
-    "title": "Privacy-Preserving Attribution: Level 1",
-    "shortname": "privacy-preserving-attribution",
-    "editor-draft": "https://w3c.github.io/ppa/",
+    "title": "Attribution Level 1",
+    "shortname": "attribution",
+    "editor-draft": "https://w3c.github.io/attribution/",
     "series-version": "1",
     "_links": {
       "self": {
-        "href": "https://api.w3.org/specifications/privacy-preserving-attribution"
+        "href": "https://api.w3.org/specifications/attribution"
       },
       "version-history": {
-        "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions"
+        "href": "https://api.w3.org/specifications/attribution/versions"
       },
       "first-version": {
-        "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250422",
+        "href": "https://api.w3.org/specifications/attribution/versions/20250422",
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250616",
+        "href": "https://api.w3.org/specifications/attribution/versions/20251211",
         "title": "Working Draft"
       },
       "series": {
-        "href": "https://api.w3.org/specification-series/privacy-preserving-attribution"
+        "href": "https://api.w3.org/specification-series/attribution"
       }
     },
-    "editorsdraft": "https://w3c.github.io/ppa/",
+    "editorsdraft": "https://w3c.github.io/attribution/",
     "versions": [
       {
         "status": "Working Draft",
         "rec-track": true,
-        "editor-draft": "https://w3c.github.io/ppa/",
+        "editor-draft": "https://w3c.github.io/attribution/",
+        "uri": "https://www.w3.org/TR/2025/WD-attribution-20251211/",
+        "date": "2025-12-11",
+        "informative": false,
+        "title": "Attribution Level 1",
+        "shortlink": "https://www.w3.org/TR/attribution/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/attribution/versions/20251211"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/attribution/versions/20251211/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/attribution/versions/20251211/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/attribution"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/attribution/versions/20251211/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/attribution/",
         "uri": "https://www.w3.org/TR/2025/WD-privacy-preserving-attribution-20250616/",
         "date": "2025-06-16",
         "informative": false,
@@ -39,26 +67,29 @@
         "process-rules": "https://www.w3.org/policies/process/20231103/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250616"
+            "href": "https://api.w3.org/specifications/attribution/versions/20250616"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250616/editors"
+            "href": "https://api.w3.org/specifications/attribution/versions/20250616/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250616/deliverers"
+            "href": "https://api.w3.org/specifications/attribution/versions/20250616/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution"
+            "href": "https://api.w3.org/specifications/attribution"
           },
           "predecessor-version": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250616/predecessors"
+            "href": "https://api.w3.org/specifications/attribution/versions/20250616/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/attribution/versions/20250616/successors"
           }
         }
       },
       {
         "status": "First Public Working Draft",
         "rec-track": true,
-        "editor-draft": "https://w3c.github.io/ppa/",
+        "editor-draft": "https://w3c.github.io/attribution/",
         "uri": "https://www.w3.org/TR/2025/WD-privacy-preserving-attribution-20250422/",
         "date": "2025-04-22",
         "informative": false,
@@ -67,19 +98,19 @@
         "process-rules": "https://www.w3.org/policies/process/20231103/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250422"
+            "href": "https://api.w3.org/specifications/attribution/versions/20250422"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250422/editors"
+            "href": "https://api.w3.org/specifications/attribution/versions/20250422/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250422/deliverers"
+            "href": "https://api.w3.org/specifications/attribution/versions/20250422/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution"
+            "href": "https://api.w3.org/specifications/attribution"
           },
           "successor-version": {
-            "href": "https://api.w3.org/specifications/privacy-preserving-attribution/versions/20250422/successors"
+            "href": "https://api.w3.org/specifications/attribution/versions/20250422/successors"
           }
         }
       }
