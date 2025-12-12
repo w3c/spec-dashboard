@@ -1,26 +1,46 @@
 {
-  "https://www.w3.org/TR/privacy-preserving-attribution/": {
+  "https://www.w3.org/TR/attribution/": {
     "repo": {
       "owner": "w3c",
-      "name": "ppa"
+      "name": "attribution"
     },
     "recTrack": true,
     "issues": [
       {
         "state": "open",
+        "number": 344,
+        "created_at": "2025-12-11T21:36:31Z",
+        "closed_at": null,
+        "title": "Activation requirements for safety limits",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 343,
+        "created_at": "2025-12-11T15:07:10Z",
+        "closed_at": "2025-12-12T01:12:52Z",
+        "title": "Remove document, frame, and iframe from fetch destinations",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 342,
         "created_at": "2025-12-10T14:05:07Z",
-        "closed_at": null,
+        "closed_at": "2025-12-11T13:57:17Z",
         "title": "Refine e2e configuration validation",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 341,
         "created_at": "2025-12-09T18:58:39Z",
-        "closed_at": null,
+        "closed_at": "2025-12-11T13:57:46Z",
         "title": "Add e2e tests for user-initiated data clears",
         "labels": [],
         "assignee": null,
@@ -368,9 +388,18 @@
             "color": "EC31E4",
             "default": false,
             "description": "An issue that does not affect the design of the protocol; does not require consensus"
+          },
+          {
+            "id": 9252414883,
+            "node_id": "LA_kwDOMqVs688AAAACJ3ylow",
+            "url": "https://api.github.com/repos/w3c/attribution/labels/cr-blocker",
+            "name": "cr-blocker",
+            "color": "e263e7",
+            "default": false,
+            "description": "This issue needs be resolved before we go to CR (snapshot)."
           }
         ],
-        "assignee": null,
+        "assignee": "apasel422",
         "isPullRequest": false
       },
       {
