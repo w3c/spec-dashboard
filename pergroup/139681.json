@@ -2287,6 +2287,61 @@
     ]
   },
   {
+    "shortlink": "https://www.w3.org/TR/rdf12-interop/",
+    "description": "<p>The goal of this specification is to provide guidance and good practices to achieve interoperability across different versions or profiles of RDF.</p>",
+    "title": "RDF 1.2 Interoperability",
+    "shortname": "rdf12-interop",
+    "editor-draft": "https://w3c.github.io/rdf-interop/spec/",
+    "series-version": "1.2",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/rdf12-interop"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/rdf12-interop/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/rdf12-interop/versions/20251216",
+        "title": "Draft Note"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/rdf12-interop/versions/20251216",
+        "title": "Draft Note"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/rdf-interop"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/rdf-interop/spec/",
+    "versions": [
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/rdf-interop/spec/",
+        "uri": "https://www.w3.org/TR/2025/DNOTE-rdf12-interop-20251216/",
+        "date": "2025-12-16",
+        "informative": true,
+        "title": "RDF 1.2 Interoperability",
+        "shortlink": "https://www.w3.org/TR/rdf12-interop/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf12-interop/versions/20251216"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf12-interop/versions/20251216/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf12-interop/versions/20251216/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf12-interop"
+          }
+        }
+      }
+    ]
+  },
+  {
     "shortlink": "https://www.w3.org/TR/rdf12-n-quads/",
     "description": "<p>N-Quads is a line-based, plain text format for encoding an RDF dataset.</p>\r\n<p>RDF 1.2 N-Quads introduces quoted triples as a fourth kind of RDF term which can be used as the subject or object of another triple, making it possible to make statements about other statements.</p>",
     "title": "RDF 1.2 N-Quads",
@@ -7650,7 +7705,7 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/rdf12-xml/versions/20251107",
+        "href": "https://api.w3.org/specifications/rdf12-xml/versions/20251215",
         "title": "Working Draft"
       },
       "series": {
@@ -7659,6 +7714,34 @@
     },
     "editorsdraft": "https://w3c.github.io/rdf-xml/spec/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/rdf-xml/spec/",
+        "uri": "https://www.w3.org/TR/2025/WD-rdf12-xml-20251215/",
+        "date": "2025-12-15",
+        "informative": false,
+        "title": "RDF 1.2 XML Syntax",
+        "shortlink": "https://www.w3.org/TR/rdf12-xml/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/rdf12-xml/versions/20251215"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/rdf12-xml/versions/20251215/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/rdf12-xml/versions/20251215/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/rdf12-xml"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/rdf12-xml/versions/20251215/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -7684,6 +7767,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/rdf12-xml/versions/20251107/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/rdf12-xml/versions/20251107/successors"
           }
         }
       },
