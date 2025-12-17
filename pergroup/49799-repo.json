@@ -105,11 +105,11 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1042,
         "created_at": "2025-11-28T16:37:17Z",
-        "closed_at": null,
-        "title": "`emulation.setMaxTouchPoints`",
+        "closed_at": "2025-12-16T14:24:10Z",
+        "title": "`emulation.setTouchOverride` command",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -345,7 +345,26 @@
         "created_at": "2025-11-05T12:58:50Z",
         "closed_at": null,
         "title": "Emulate support of touch events",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2086912274,
+            "node_id": "MDU6TGFiZWwyMDg2OTEyMjc0",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          },
+          {
+            "id": 4890065859,
+            "node_id": "LA_kwDOD-dWHs8AAAABI3h7ww",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/module-emulation",
+            "name": "module-emulation",
+            "color": "DDDDDD",
+            "default": false,
+            "description": "Emulation module"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -4570,11 +4589,11 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 773,
         "created_at": "2024-09-13T15:54:59Z",
-        "closed_at": null,
-        "title": " Add support for \"hasTouch\" argument for \"browsingContext.setViewport\" command",
+        "closed_at": "2025-12-16T13:36:01Z",
+        "title": " Add support for `emulation.setTouchOverride` command",
         "labels": [
           {
             "id": 2086912274,
@@ -4584,24 +4603,6 @@
             "color": "a2eeef",
             "default": true,
             "description": "New feature or request"
-          },
-          {
-            "id": 3221931631,
-            "node_id": "MDU6TGFiZWwzMjIxOTMxNjMx",
-            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/module-browsingContext",
-            "name": "module-browsingContext",
-            "color": "DDDDDD",
-            "default": false,
-            "description": "Browsing Context module"
-          },
-          {
-            "id": 3965374919,
-            "node_id": "LA_kwDOD-dWHs7sWtHH",
-            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/needs-discussion",
-            "name": "needs-discussion",
-            "color": "FBCA04",
-            "default": false,
-            "description": "Issues to be discussed by the working group"
           }
         ],
         "assignee": null,
