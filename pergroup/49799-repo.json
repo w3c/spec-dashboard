@@ -8,6 +8,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 1078,
+        "created_at": "2026-02-17T16:45:40Z",
+        "closed_at": null,
+        "title": "Update request & response clone steps for fetch integration",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 1077,
+        "created_at": "2026-02-17T14:34:34Z",
+        "closed_at": null,
+        "title": "`emulation.setSafeAreaInsetsOverride`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 1076,
         "created_at": "2026-02-16T14:15:19Z",
         "closed_at": null,
@@ -22,7 +42,35 @@
         "created_at": "2026-02-14T08:55:39Z",
         "closed_at": "2026-02-16T13:07:57Z",
         "title": "Fix case for command parameters",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2086912266,
+            "node_id": "MDU6TGFiZWwyMDg2OTEyMjY2",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/bug",
+            "name": "bug",
+            "color": "d73a4a",
+            "default": true,
+            "description": "Something isn't working"
+          },
+          {
+            "id": 4262649522,
+            "node_id": "LA_kwDOD-dWHs7-Et6y",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/module-network",
+            "name": "module-network",
+            "color": "DDDDDD",
+            "default": false,
+            "description": "Network module"
+          },
+          {
+            "id": 4890065859,
+            "node_id": "LA_kwDOD-dWHs8AAAABI3h7ww",
+            "url": "https://api.github.com/repos/w3c/webdriver-bidi/labels/module-emulation",
+            "name": "module-emulation",
+            "color": "DDDDDD",
+            "default": false,
+            "description": "Emulation module"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -91,7 +139,7 @@
         "number": 1068,
         "created_at": "2026-02-05T16:45:50Z",
         "closed_at": null,
-        "title": "Add browsingContext.setCSPBypass command",
+        "title": "Add browsingContext.setBypassCSP command",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -421,10 +469,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1046,
         "created_at": "2025-12-13T16:12:49Z",
-        "closed_at": null,
+        "closed_at": "2026-02-17T15:03:41Z",
         "title": "feat: add userContext to protocol events",
         "labels": [
           {
