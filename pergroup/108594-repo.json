@@ -8,6 +8,46 @@
     "issues": [
       {
         "state": "open",
+        "number": 155,
+        "created_at": "2026-04-21T18:49:30Z",
+        "closed_at": null,
+        "title": "Add implementations.md with OpenTelemetry baggage propagators",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 154,
+        "created_at": "2026-04-21T17:31:36Z",
+        "closed_at": null,
+        "title": "Add conformance tests for spec gaps and handle invalid entries",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 153,
+        "created_at": "2026-04-21T16:53:00Z",
+        "closed_at": null,
+        "title": "Unify ABNF and limits to 64 entries, implement truncation in to_string",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 152,
+        "created_at": "2026-04-21T16:33:01Z",
+        "closed_at": null,
+        "title": "Fix/reference impl bugs",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 151,
         "created_at": "2026-03-18T00:02:10Z",
         "closed_at": null,
@@ -167,10 +207,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 135,
         "created_at": "2024-05-22T12:04:24Z",
-        "closed_at": null,
+        "closed_at": "2026-04-21T19:28:41Z",
         "title": "Clarification regarding baggage list-member value",
         "labels": [],
         "assignee": "balajikris",
@@ -1790,7 +1830,17 @@
         "created_at": "2026-03-15T16:16:20Z",
         "closed_at": null,
         "title": "Fix tests for Python 3.14",
-        "labels": [],
+        "labels": [
+          {
+            "id": 10753476656,
+            "node_id": "LA_kwDOBR0j8s8AAAACgPUIMA",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/tooling",
+            "name": "tooling",
+            "color": "8f36bd",
+            "default": false,
+            "description": "This issue or PR affects tooling or processes and does not affect the specification itself"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
@@ -1800,7 +1850,17 @@
         "created_at": "2026-03-15T16:04:18Z",
         "closed_at": null,
         "title": "Tests fail when using Python 3.14",
-        "labels": [],
+        "labels": [
+          {
+            "id": 10753476656,
+            "node_id": "LA_kwDOBR0j8s8AAAACgPUIMA",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/tooling",
+            "name": "tooling",
+            "color": "8f36bd",
+            "default": false,
+            "description": "This issue or PR affects tooling or processes and does not affect the specification itself"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1810,15 +1870,25 @@
         "created_at": "2026-03-15T16:00:57Z",
         "closed_at": null,
         "title": "Test multiple Python versions",
-        "labels": [],
+        "labels": [
+          {
+            "id": 10753476656,
+            "node_id": "LA_kwDOBR0j8s8AAAACgPUIMA",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/tooling",
+            "name": "tooling",
+            "color": "8f36bd",
+            "default": false,
+            "description": "This issue or PR affects tooling or processes and does not affect the specification itself"
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 579,
         "created_at": "2026-02-26T21:34:30Z",
-        "closed_at": null,
+        "closed_at": "2026-04-21T18:11:10Z",
         "title": "traceparent version field should be incremented for introduction of random trace id flag",
         "labels": [],
         "assignee": null,
@@ -1845,10 +1915,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 576,
         "created_at": "2025-04-09T02:51:27Z",
-        "closed_at": null,
+        "closed_at": "2026-04-21T18:11:50Z",
         "title": "Contradiction in TraceState format description",
         "labels": [],
         "assignee": null,
@@ -1890,7 +1960,17 @@
         "created_at": "2024-04-30T17:45:53Z",
         "closed_at": null,
         "title": "Can Traceresponse enable parent-child relationship between browser and server spans?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6209275633,
+            "node_id": "LA_kwDOBR0j8s8AAAABchoG8Q",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context-level-3",
+            "name": "trace-context-level-3",
+            "color": "09244B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "dyladan",
         "isPullRequest": false
       },
@@ -1990,7 +2070,17 @@
         "created_at": "2024-03-26T19:01:38Z",
         "closed_at": null,
         "title": "Remove all markdown includes",
-        "labels": [],
+        "labels": [
+          {
+            "id": 10753476656,
+            "node_id": "LA_kwDOBR0j8s8AAAACgPUIMA",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/tooling",
+            "name": "tooling",
+            "color": "8f36bd",
+            "default": false,
+            "description": "This issue or PR affects tooling or processes and does not affect the specification itself"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2000,7 +2090,17 @@
         "created_at": "2024-02-27T20:59:35Z",
         "closed_at": null,
         "title": "Server-timing names",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6209275633,
+            "node_id": "LA_kwDOBR0j8s8AAAABchoG8Q",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context-level-3",
+            "name": "trace-context-level-3",
+            "color": "09244B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2050,7 +2150,17 @@
         "created_at": "2024-01-10T11:38:11Z",
         "closed_at": null,
         "title": "Revisit header name -- Server-Timing vs. traceresponse",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6209275633,
+            "node_id": "LA_kwDOBR0j8s8AAAABchoG8Q",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context-level-3",
+            "name": "trace-context-level-3",
+            "color": "09244B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2070,7 +2180,17 @@
         "created_at": "2023-11-13T22:35:42Z",
         "closed_at": null,
         "title": "Should tracing headers be included in 304 Not Modified responses?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6209275633,
+            "node_id": "LA_kwDOBR0j8s8AAAABchoG8Q",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context-level-3",
+            "name": "trace-context-level-3",
+            "color": "09244B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2114,12 +2234,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 551,
         "created_at": "2023-11-02T13:28:32Z",
-        "closed_at": null,
+        "closed_at": "2026-04-21T19:12:27Z",
         "title": "Proposal: Allow common base64 encoding in tracestate values",
-        "labels": [],
+        "labels": [
+          {
+            "id": 901358688,
+            "node_id": "MDU6TGFiZWw5MDEzNTg2ODg=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/wontfix",
+            "name": "wontfix",
+            "color": "a9f7a5",
+            "default": true,
+            "description": "This issue won't get addressed. Best is to combine this one with others, sich as invalid."
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2189,7 +2319,17 @@
         "created_at": "2023-08-29T19:42:15Z",
         "closed_at": null,
         "title": "Autopublishing level2/Level3 specs need to work with multiple markdown files",
-        "labels": [],
+        "labels": [
+          {
+            "id": 10753476656,
+            "node_id": "LA_kwDOBR0j8s8AAAACgPUIMA",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/tooling",
+            "name": "tooling",
+            "color": "8f36bd",
+            "default": false,
+            "description": "This issue or PR affects tooling or processes and does not affect the specification itself"
+          }
+        ],
         "assignee": "plehegar",
         "isPullRequest": false
       },
@@ -2239,7 +2379,17 @@
         "created_at": "2023-06-06T19:45:50Z",
         "closed_at": null,
         "title": "Level 3 spec: Update privacy section to include information about traceresponse headers.",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6209275633,
+            "node_id": "LA_kwDOBR0j8s8AAAABchoG8Q",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context-level-3",
+            "name": "trace-context-level-3",
+            "color": "09244B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "balajikris",
         "isPullRequest": false
       },
@@ -2429,7 +2579,17 @@
         "created_at": "2023-04-11T19:15:51Z",
         "closed_at": null,
         "title": "Update tests to test Trace Context level 2 by default",
-        "labels": [],
+        "labels": [
+          {
+            "id": 10753476656,
+            "node_id": "LA_kwDOBR0j8s8AAAACgPUIMA",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/tooling",
+            "name": "tooling",
+            "color": "8f36bd",
+            "default": false,
+            "description": "This issue or PR affects tooling or processes and does not affect the specification itself"
+          }
+        ],
         "assignee": "dyladan",
         "isPullRequest": false
       },
@@ -2884,7 +3044,17 @@
         "created_at": "2022-10-13T09:58:06Z",
         "closed_at": null,
         "title": "Trace Context: Apache Kafka protocol specification",
-        "labels": [],
+        "labels": [
+          {
+            "id": 920174333,
+            "node_id": "MDU6TGFiZWw5MjAxNzQzMzM=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/revisit-later",
+            "name": "revisit-later",
+            "color": "1b3084",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2894,7 +3064,17 @@
         "created_at": "2022-10-12T00:48:47Z",
         "closed_at": null,
         "title": "Request to republish level-1 spec (to publish a recent editorial change)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 10753476656,
+            "node_id": "LA_kwDOBR0j8s8AAAACgPUIMA",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/tooling",
+            "name": "tooling",
+            "color": "8f36bd",
+            "default": false,
+            "description": "This issue or PR affects tooling or processes and does not affect the specification itself"
+          }
+        ],
         "assignee": "plehegar",
         "isPullRequest": false
       },
@@ -2904,7 +3084,17 @@
         "created_at": "2022-10-12T00:46:19Z",
         "closed_at": null,
         "title": "Enable automatic publishing for Level 2 branch",
-        "labels": [],
+        "labels": [
+          {
+            "id": 10753476656,
+            "node_id": "LA_kwDOBR0j8s8AAAACgPUIMA",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/tooling",
+            "name": "tooling",
+            "color": "8f36bd",
+            "default": false,
+            "description": "This issue or PR affects tooling or processes and does not affect the specification itself"
+          }
+        ],
         "assignee": "plehegar",
         "isPullRequest": false
       },
@@ -3163,7 +3353,17 @@
         "created_at": "2022-03-02T19:39:44Z",
         "closed_at": null,
         "title": "tracestate response header proposal",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6209275633,
+            "node_id": "LA_kwDOBR0j8s8AAAABchoG8Q",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context-level-3",
+            "name": "trace-context-level-3",
+            "color": "09244B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -3380,7 +3580,17 @@
         "created_at": "2021-09-16T15:00:03Z",
         "closed_at": null,
         "title": "Vendor information in the response from traced service",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6209275633,
+            "node_id": "LA_kwDOBR0j8s8AAAABchoG8Q",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context-level-3",
+            "name": "trace-context-level-3",
+            "color": "09244B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "balajikris",
         "isPullRequest": false
       },
@@ -3439,7 +3649,17 @@
         "created_at": "2021-08-17T17:59:16Z",
         "closed_at": null,
         "title": "Consider trace context support for probability sampling",
-        "labels": [],
+        "labels": [
+          {
+            "id": 6209275633,
+            "node_id": "LA_kwDOBR0j8s8AAAABchoG8Q",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/trace-context-level-3",
+            "name": "trace-context-level-3",
+            "color": "09244B",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "dyladan",
         "isPullRequest": false
       },
@@ -3640,12 +3860,22 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 449,
         "created_at": "2021-01-26T18:20:08Z",
-        "closed_at": null,
+        "closed_at": "2026-04-21T19:19:04Z",
         "title": "Define entry/value length/size consistently",
-        "labels": [],
+        "labels": [
+          {
+            "id": 1194601668,
+            "node_id": "MDU6TGFiZWwxMTk0NjAxNjY4",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/discuss-next-meeting",
+            "name": "discuss-next-meeting",
+            "color": "7bfcb1",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "dyladan",
         "isPullRequest": false
       },
@@ -4904,11 +5134,11 @@
         "title": "Add general text format to the next version of the spec",
         "labels": [
           {
-            "id": 2459558496,
-            "node_id": "MDU6TGFiZWwyNDU5NTU4NDk2",
-            "url": "https://api.github.com/repos/w3c/trace-context/labels/workshop-fall-2020",
-            "name": "workshop-fall-2020",
-            "color": "b626d3",
+            "id": 920174333,
+            "node_id": "MDU6TGFiZWw5MjAxNzQzMzM=",
+            "url": "https://api.github.com/repos/w3c/trace-context/labels/revisit-later",
+            "name": "revisit-later",
+            "color": "1b3084",
             "default": false,
             "description": ""
           }
