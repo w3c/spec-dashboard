@@ -1,5 +1,60 @@
 [
   {
+    "shortlink": "https://www.w3.org/TR/cbor-ld-10/",
+    "description": "<p>CBOR is a compact binary data serialization and messaging format. This specification defines CBOR-LD 1.0, a CBOR-based format to serialize Linked Data. The encoding is designed to leverage the existing JSON-LD ecosystem, which is deployed on hundreds of millions of systems today, to provide a compact serialization format for those seeking efficient encoding schemes for Linked Data. By utilizing semantic compression schemes, compression ratios in excess of 60% better than generalized compression schemes are possible. This format is primarily intended to be a way to use Linked Data in storage and bandwidth constrained programming environments, to build interoperable semantic wire-level protocols, and to efficiently store Linked Data in CBOR-based storage engines.</p>",
+    "title": "CBOR-LD 1.0",
+    "shortname": "cbor-ld-10",
+    "editor-draft": "https://w3c.github.io/cbor-ld/",
+    "series-version": "1.0",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/cbor-ld-10"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/cbor-ld-10/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/cbor-ld-10/versions/20260428",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/cbor-ld-10/versions/20260428",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/cbor-ld"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/cbor-ld/",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/cbor-ld/",
+        "uri": "https://www.w3.org/TR/2026/WD-cbor-ld-10-20260428/",
+        "date": "2026-04-28",
+        "informative": false,
+        "title": "CBOR-LD 1.0",
+        "shortlink": "https://www.w3.org/TR/cbor-ld-10/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/cbor-ld-10/versions/20260428"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/cbor-ld-10/versions/20260428/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/cbor-ld-10/versions/20260428/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/cbor-ld-10"
+          }
+        }
+      }
+    ]
+  },
+  {
     "shortlink": "https://www.w3.org/TR/json-ld11-streaming/",
     "description": "<p>JSON-LD offers a JSON-based serialization for Linked Data. One of the primary uses of JSON-LD is its ability to exchange RDF data across the Web. This can be done by first serializing RDF to JSON-LD, after which data consumers can deserialize JSON-LD to RDF.</p>",
     "title": "Streaming JSON-LD",
