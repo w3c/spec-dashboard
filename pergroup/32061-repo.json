@@ -56409,6 +56409,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 14046,
+        "created_at": "2026-06-14T08:18:39Z",
+        "closed_at": null,
+        "title": "[css-color-4] Clarify how `hue` interacts with hue interpolation when both `hue` components are missing",
+        "labels": [
+          {
+            "id": 381888501,
+            "node_id": "MDU6TGFiZWwzODE4ODg1MDE=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-color-4",
+            "name": "css-color-4",
+            "color": "c5def5",
+            "default": false,
+            "description": "Current Work"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 14029,
         "created_at": "2026-06-09T21:50:03Z",
         "closed_at": null,
@@ -67004,6 +67024,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 14048,
+        "created_at": "2026-06-15T06:53:15Z",
+        "closed_at": null,
+        "title": "[css-color-5] update serialization example for RCS with nested none",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 14024,
@@ -227872,6 +227902,24 @@
             "description": null
           },
           {
+            "id": 395785969,
+            "node_id": "MDU6TGFiZWwzOTU3ODU5Njk=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 395791224,
+            "node_id": "MDU6TGFiZWwzOTU3OTEyMjQ=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Commenter%20Response%20Pending",
+            "name": "Commenter Response Pending",
+            "color": "fbca04",
+            "default": false,
+            "description": null
+          },
+          {
             "id": 469426704,
             "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
@@ -227912,10 +227960,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 12857,
         "created_at": "2025-09-25T18:31:27Z",
-        "closed_at": null,
+        "closed_at": "2026-06-15T05:08:41Z",
         "title": "[css-overflow] Behavior of the line-clamp ellipsis after hanging glyphs",
         "labels": [
           {
@@ -227928,22 +227976,22 @@
             "description": null
           },
           {
-            "id": 469426704,
-            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
+            "id": 395785969,
+            "node_id": "MDU6TGFiZWwzOTU3ODU5Njk=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
             "default": false,
             "description": null
           },
           {
-            "id": 665433501,
-            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
-            "name": "Needs Testcase (WPT)",
-            "color": "5319e7",
+            "id": 1207149846,
+            "node_id": "MDU6TGFiZWwxMjA3MTQ5ODQ2",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Tested",
+            "name": "Tested",
+            "color": "38d633",
             "default": false,
-            "description": null
+            "description": "Memory aid - issue has WPT tests"
           },
           {
             "id": 9353668275,
@@ -228389,13 +228437,13 @@
             "description": null
           },
           {
-            "id": 665433501,
-            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
-            "name": "Needs Testcase (WPT)",
-            "color": "5319e7",
+            "id": 1207149846,
+            "node_id": "MDU6TGFiZWwxMjA3MTQ5ODQ2",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Tested",
+            "name": "Tested",
+            "color": "38d633",
             "default": false,
-            "description": null
+            "description": "Memory aid - issue has WPT tests"
           },
           {
             "id": 9353668275,
@@ -228445,7 +228493,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "frivoal",
         "isPullRequest": false
       },
       {
@@ -233308,6 +233356,44 @@
     "issues": [
       {
         "state": "open",
+        "number": 14047,
+        "created_at": "2026-06-15T02:14:18Z",
+        "closed_at": null,
+        "title": "[css-overflow-4] `block-ellipsis`, floats, and line-box clearance",
+        "labels": [
+          {
+            "id": 381890073,
+            "node_id": "MDU6TGFiZWwzODE4OTAwNzM=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-overflow-4",
+            "name": "css-overflow-4",
+            "color": "c5def5",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 382591170,
+            "node_id": "MDU6TGFiZWwzODI1OTExNzA=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "000000",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 503807402,
+            "node_id": "MDU6TGFiZWw1MDM4MDc0MDI=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+%20F2F",
+            "name": "Agenda+ F2F",
+            "color": "000000",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 14006,
         "created_at": "2026-06-03T16:47:16Z",
         "closed_at": null,
@@ -233980,6 +234066,24 @@
             "description": null
           },
           {
+            "id": 395785969,
+            "node_id": "MDU6TGFiZWwzOTU3ODU5Njk=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 395791224,
+            "node_id": "MDU6TGFiZWwzOTU3OTEyMjQ=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Commenter%20Response%20Pending",
+            "name": "Commenter Response Pending",
+            "color": "fbca04",
+            "default": false,
+            "description": null
+          },
+          {
             "id": 469426704,
             "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
@@ -234020,10 +234124,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 12857,
         "created_at": "2025-09-25T18:31:27Z",
-        "closed_at": null,
+        "closed_at": "2026-06-15T05:08:41Z",
         "title": "[css-overflow] Behavior of the line-clamp ellipsis after hanging glyphs",
         "labels": [
           {
@@ -234036,22 +234140,22 @@
             "description": null
           },
           {
-            "id": 469426704,
-            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
+            "id": 395785969,
+            "node_id": "MDU6TGFiZWwzOTU3ODU5Njk=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
             "default": false,
             "description": null
           },
           {
-            "id": 665433501,
-            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
-            "name": "Needs Testcase (WPT)",
-            "color": "5319e7",
+            "id": 1207149846,
+            "node_id": "MDU6TGFiZWwxMjA3MTQ5ODQ2",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Tested",
+            "name": "Tested",
+            "color": "38d633",
             "default": false,
-            "description": null
+            "description": "Memory aid - issue has WPT tests"
           },
           {
             "id": 9353668275,
@@ -234783,13 +234887,13 @@
             "description": null
           },
           {
-            "id": 665433501,
-            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
-            "name": "Needs Testcase (WPT)",
-            "color": "5319e7",
+            "id": 1207149846,
+            "node_id": "MDU6TGFiZWwxMjA3MTQ5ODQ2",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Tested",
+            "name": "Tested",
+            "color": "38d633",
             "default": false,
-            "description": null
+            "description": "Memory aid - issue has WPT tests"
           },
           {
             "id": 9353668275,
@@ -234839,7 +234943,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "frivoal",
         "isPullRequest": false
       },
       {
@@ -240092,6 +240196,24 @@
             "description": null
           },
           {
+            "id": 395785969,
+            "node_id": "MDU6TGFiZWwzOTU3ODU5Njk=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 395791224,
+            "node_id": "MDU6TGFiZWwzOTU3OTEyMjQ=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Commenter%20Response%20Pending",
+            "name": "Commenter Response Pending",
+            "color": "fbca04",
+            "default": false,
+            "description": null
+          },
+          {
             "id": 469426704,
             "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
@@ -240132,10 +240254,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 12857,
         "created_at": "2025-09-25T18:31:27Z",
-        "closed_at": null,
+        "closed_at": "2026-06-15T05:08:41Z",
         "title": "[css-overflow] Behavior of the line-clamp ellipsis after hanging glyphs",
         "labels": [
           {
@@ -240148,22 +240270,22 @@
             "description": null
           },
           {
-            "id": 469426704,
-            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
+            "id": 395785969,
+            "node_id": "MDU6TGFiZWwzOTU3ODU5Njk=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
             "default": false,
             "description": null
           },
           {
-            "id": 665433501,
-            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
-            "name": "Needs Testcase (WPT)",
-            "color": "5319e7",
+            "id": 1207149846,
+            "node_id": "MDU6TGFiZWwxMjA3MTQ5ODQ2",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Tested",
+            "name": "Tested",
+            "color": "38d633",
             "default": false,
-            "description": null
+            "description": "Memory aid - issue has WPT tests"
           },
           {
             "id": 9353668275,
@@ -240648,13 +240770,13 @@
             "description": null
           },
           {
-            "id": 665433501,
-            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
-            "name": "Needs Testcase (WPT)",
-            "color": "5319e7",
+            "id": 1207149846,
+            "node_id": "MDU6TGFiZWwxMjA3MTQ5ODQ2",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Tested",
+            "name": "Tested",
+            "color": "38d633",
             "default": false,
-            "description": null
+            "description": "Memory aid - issue has WPT tests"
           },
           {
             "id": 9353668275,
@@ -240704,7 +240826,7 @@
             "description": null
           }
         ],
-        "assignee": null,
+        "assignee": "frivoal",
         "isPullRequest": false
       },
       {
