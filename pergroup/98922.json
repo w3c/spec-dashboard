@@ -1797,6 +1797,61 @@
     ]
   },
   {
+    "shortlink": "https://www.w3.org/TR/vc-forgery-defense-1.0/",
+    "description": "<p>This specification describes a mechanism for issuers of verifiable credentials to publish indexed lists of compact cryptographic witnesses. Verifiers can use these lists to confirm that a verifiable credential was genuinely issued by the claimed issuer — as distinct from a credential forged by an attacker who has compromised the issuer's signing key. Because the witness list is itself a verifiable credential, it can be signed with a different algorithm from the protected credentials, including post-quantum signature schemes. This makes the mechanism particularly valuable in scenarios where a conventional signing key has been compromised by a quantum-capable adversary.</p>",
+    "title": "Verifiable Credential Forgery Defense v1.0",
+    "shortname": "vc-forgery-defense-1.0",
+    "editor-draft": "https://github.com/w3c/vc-forgery-defense/",
+    "series-version": "1.0",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/vc-forgery-defense-1.0"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/vc-forgery-defense-1.0/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/vc-forgery-defense-1.0/versions/20260630",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/vc-forgery-defense-1.0/versions/20260630",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/vc-forgery-defense"
+      }
+    },
+    "editorsdraft": "https://github.com/w3c/vc-forgery-defense/",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://github.com/w3c/vc-forgery-defense/",
+        "uri": "https://www.w3.org/TR/2026/WD-vc-forgery-defense-1.0-20260630/",
+        "date": "2026-06-30",
+        "informative": false,
+        "title": "Verifiable Credential Forgery Defense v1.0",
+        "shortlink": "https://www.w3.org/TR/vc-forgery-defense-1.0/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/vc-forgery-defense-1.0/versions/20260630"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/vc-forgery-defense-1.0/versions/20260630/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/vc-forgery-defense-1.0/versions/20260630/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/vc-forgery-defense-1.0"
+          }
+        }
+      }
+    ]
+  },
+  {
     "shortlink": "https://www.w3.org/TR/vc-imp-guide/",
     "description": "<p>This document provides implementation guidance for Verifiable Credentials.</p>",
     "title": "Verifiable Credentials Implementation Guidelines 1.0",
