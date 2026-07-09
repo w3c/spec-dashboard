@@ -8,6 +8,56 @@
     "issues": [
       {
         "state": "open",
+        "number": 461,
+        "created_at": "2026-07-08T14:41:28Z",
+        "closed_at": null,
+        "title": "Cleanly split single-epoch and multi-epoch attribution handling",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 460,
+        "created_at": "2026-07-08T13:19:07Z",
+        "closed_at": "2026-07-08T13:20:44Z",
+        "title": "Remove incorrect backslash",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 459,
+        "created_at": "2026-07-08T13:15:40Z",
+        "closed_at": null,
+        "title": "Align impression-site-quota deduction in simulator with spec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 458,
+        "created_at": "2026-07-08T13:10:48Z",
+        "closed_at": null,
+        "title": "Simplify cross-budget-deduction state tracking",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 457,
+        "created_at": "2026-07-08T12:45:12Z",
+        "closed_at": "2026-07-08T12:46:50Z",
+        "title": "Fix minor typo",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 456,
         "created_at": "2026-07-07T15:22:25Z",
         "closed_at": null,
@@ -758,7 +808,7 @@
             "description": "An issue that does not affect the design of the protocol; does not require consensus"
           }
         ],
-        "assignee": null,
+        "assignee": "apasel422",
         "isPullRequest": false
       },
       {
@@ -1276,6 +1326,35 @@
       },
       {
         "state": "closed",
+        "number": 366,
+        "created_at": "2026-01-23T09:30:01Z",
+        "closed_at": "2026-01-23T11:50:59Z",
+        "title": "Bump lodash from 4.17.21 to 4.17.23 in /impl",
+        "labels": [
+          {
+            "id": 9654901599,
+            "node_id": "LA_kwDOMqVs688AAAACP3obXw",
+            "url": "https://api.github.com/repos/w3c/attribution/labels/dependencies",
+            "name": "dependencies",
+            "color": "0366d6",
+            "default": false,
+            "description": "Pull requests that update a dependency file"
+          },
+          {
+            "id": 9654901601,
+            "node_id": "LA_kwDOMqVs688AAAACP3obYQ",
+            "url": "https://api.github.com/repos/w3c/attribution/labels/javascript",
+            "name": "javascript",
+            "color": "168700",
+            "default": false,
+            "description": "Pull requests that update javascript code"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 365,
         "created_at": "2026-01-14T16:08:38Z",
         "closed_at": "2026-05-13T07:46:00Z",
@@ -1399,6 +1478,16 @@
         "created_at": "2026-01-07T14:07:45Z",
         "closed_at": "2026-01-07T14:28:05Z",
         "title": "Add e2e test for multi-epoch budgeting",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 356,
+        "created_at": "2026-01-06T16:30:59Z",
+        "closed_at": "2026-01-06T18:48:59Z",
+        "title": "Add e2e test for single-epoch budgeting",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -1652,6 +1741,16 @@
       },
       {
         "state": "closed",
+        "number": 337,
+        "created_at": "2025-12-08T13:22:56Z",
+        "closed_at": "2025-12-09T01:25:16Z",
+        "title": "Bump Python to Bikeshed's minimum required version of 3.12",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 336,
         "created_at": "2025-12-04T20:37:44Z",
         "closed_at": "2026-04-20T20:47:12Z",
@@ -1662,10 +1761,30 @@
       },
       {
         "state": "closed",
+        "number": 335,
+        "created_at": "2025-12-04T17:03:12Z",
+        "closed_at": "2025-12-09T02:13:11Z",
+        "title": "Add JSON schema for e2e tests",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
         "number": 334,
         "created_at": "2025-12-04T16:58:08Z",
         "closed_at": "2025-12-04T23:39:00Z",
         "title": "Minor simulator cleanup",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 333,
+        "created_at": "2025-12-04T14:31:57Z",
+        "closed_at": "2025-12-10T00:15:29Z",
+        "title": "Add coverage for errors at structured-headers level",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
@@ -2753,16 +2872,6 @@
         "labels": [],
         "assignee": null,
         "isPullRequest": false
-      },
-      {
-        "state": "closed",
-        "number": 243,
-        "created_at": "2025-08-12T06:45:36Z",
-        "closed_at": "2025-08-12T07:46:13Z",
-        "title": "Renaming ppa->attribution",
-        "labels": [],
-        "assignee": null,
-        "isPullRequest": true
       },
       {
         "state": "closed",
