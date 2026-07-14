@@ -7,13 +7,82 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 5224,
+        "created_at": "2026-07-13T13:27:28Z",
+        "closed_at": "2026-07-13T14:11:58Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5223,
+        "created_at": "2026-07-13T13:02:42Z",
+        "closed_at": "2026-07-13T14:12:50Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5222,
+        "created_at": "2026-07-13T08:56:53Z",
+        "closed_at": "2026-07-13T10:10:53Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5221,
+        "created_at": "2026-07-13T08:54:10Z",
+        "closed_at": "2026-07-13T10:10:26Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5220,
+        "created_at": "2026-07-13T08:53:29Z",
+        "closed_at": "2026-07-13T10:10:00Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 5219,
         "created_at": "2026-07-13T03:15:07Z",
         "closed_at": null,
         "title": "Fix grammar and punctuation issues across documentation",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 8169987855,
+            "node_id": "LA_kwDOAJgYVs8AAAAB5vgfDw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Non-Normative",
+            "name": "Non-Normative",
+            "color": "e0913c",
+            "default": false,
+            "description": "Informative language in the specification or supporting materials"
+          }
+        ],
+        "assignee": "kfranqueiro",
         "isPullRequest": true
       },
       {
@@ -343,7 +412,7 @@
         "number": 5187,
         "created_at": "2026-06-29T14:50:24Z",
         "closed_at": null,
-        "title": "Reinstate G200 only as advisory for 3.2.5 Change on Request, strip \"secure session\" nonsense",
+        "title": "Reinstate G200 only as advisory for 3.2.5 Change on Request, strip \"secure session\" inaccuracy",
         "labels": [
           {
             "id": 956469826,
@@ -426,10 +495,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5184,
         "created_at": "2026-06-28T13:02:57Z",
-        "closed_at": null,
+        "closed_at": "2026-07-13T17:16:01Z",
         "title": "Avoid focus outline \"hugging\" container",
         "labels": [
           {
@@ -462,20 +531,20 @@
         "title": "Rename Focus Not Obscured SCs to Focused Component Not Obscured",
         "labels": [
           {
-            "id": 1012596616,
-            "node_id": "MDU6TGFiZWwxMDEyNTk2NjE2",
-            "url": "https://api.github.com/repos/w3c/wcag/labels/Errata",
-            "name": "Errata",
-            "color": "b60205",
-            "default": false,
-            "description": "Erratum to a Recommendation"
-          },
-          {
             "id": 1410662756,
             "node_id": "MDU6TGFiZWwxNDEwNjYyNzU2",
             "url": "https://api.github.com/repos/w3c/wcag/labels/Normative",
             "name": "Normative",
             "color": "e0913c",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 2829732226,
+            "node_id": "MDU6TGFiZWwyODI5NzMyMjI2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.3",
+            "name": "WCAG 2.3",
+            "color": "298A86",
             "default": false,
             "description": ""
           },
@@ -623,7 +692,35 @@
         "created_at": "2026-06-23T09:50:41Z",
         "closed_at": null,
         "title": "Summer 2026 errata for WCAG 2.1 / 2.2",
-        "labels": [],
+        "labels": [
+          {
+            "id": 466389488,
+            "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
+            "name": "WCAG 2.1",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 1012596616,
+            "node_id": "MDU6TGFiZWwxMDEyNTk2NjE2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Errata",
+            "name": "Errata",
+            "color": "b60205",
+            "default": false,
+            "description": "Erratum to a Recommendation"
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "patrickhlauke",
         "isPullRequest": true
       },
@@ -5559,10 +5656,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4915,
         "created_at": "2026-02-06T18:03:40Z",
-        "closed_at": null,
+        "closed_at": "2026-07-13T20:58:26Z",
         "title": "errata for 2.1 change log",
         "labels": [
           {
@@ -197771,13 +197868,82 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "closed",
+        "number": 5224,
+        "created_at": "2026-07-13T13:27:28Z",
+        "closed_at": "2026-07-13T14:11:58Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5223,
+        "created_at": "2026-07-13T13:02:42Z",
+        "closed_at": "2026-07-13T14:12:50Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5222,
+        "created_at": "2026-07-13T08:56:53Z",
+        "closed_at": "2026-07-13T10:10:53Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5221,
+        "created_at": "2026-07-13T08:54:10Z",
+        "closed_at": "2026-07-13T10:10:26Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 5220,
+        "created_at": "2026-07-13T08:53:29Z",
+        "closed_at": "2026-07-13T10:10:00Z",
+        "title": "[spam]",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "open",
         "number": 5219,
         "created_at": "2026-07-13T03:15:07Z",
         "closed_at": null,
         "title": "Fix grammar and punctuation issues across documentation",
-        "labels": [],
-        "assignee": null,
+        "labels": [
+          {
+            "id": 76240548,
+            "node_id": "MDU6TGFiZWw3NjI0MDU0OA==",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Editorial",
+            "name": "Editorial",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 8169987855,
+            "node_id": "LA_kwDOAJgYVs8AAAAB5vgfDw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Non-Normative",
+            "name": "Non-Normative",
+            "color": "e0913c",
+            "default": false,
+            "description": "Informative language in the specification or supporting materials"
+          }
+        ],
+        "assignee": "kfranqueiro",
         "isPullRequest": true
       },
       {
@@ -198107,7 +198273,7 @@
         "number": 5187,
         "created_at": "2026-06-29T14:50:24Z",
         "closed_at": null,
-        "title": "Reinstate G200 only as advisory for 3.2.5 Change on Request, strip \"secure session\" nonsense",
+        "title": "Reinstate G200 only as advisory for 3.2.5 Change on Request, strip \"secure session\" inaccuracy",
         "labels": [
           {
             "id": 956469826,
@@ -198190,10 +198356,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 5184,
         "created_at": "2026-06-28T13:02:57Z",
-        "closed_at": null,
+        "closed_at": "2026-07-13T17:16:01Z",
         "title": "Avoid focus outline \"hugging\" container",
         "labels": [
           {
@@ -198226,20 +198392,20 @@
         "title": "Rename Focus Not Obscured SCs to Focused Component Not Obscured",
         "labels": [
           {
-            "id": 1012596616,
-            "node_id": "MDU6TGFiZWwxMDEyNTk2NjE2",
-            "url": "https://api.github.com/repos/w3c/wcag/labels/Errata",
-            "name": "Errata",
-            "color": "b60205",
-            "default": false,
-            "description": "Erratum to a Recommendation"
-          },
-          {
             "id": 1410662756,
             "node_id": "MDU6TGFiZWwxNDEwNjYyNzU2",
             "url": "https://api.github.com/repos/w3c/wcag/labels/Normative",
             "name": "Normative",
             "color": "e0913c",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 2829732226,
+            "node_id": "MDU6TGFiZWwyODI5NzMyMjI2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.3",
+            "name": "WCAG 2.3",
+            "color": "298A86",
             "default": false,
             "description": ""
           },
@@ -198387,7 +198553,35 @@
         "created_at": "2026-06-23T09:50:41Z",
         "closed_at": null,
         "title": "Summer 2026 errata for WCAG 2.1 / 2.2",
-        "labels": [],
+        "labels": [
+          {
+            "id": 466389488,
+            "node_id": "MDU6TGFiZWw0NjYzODk0ODg=",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.1",
+            "name": "WCAG 2.1",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 1012596616,
+            "node_id": "MDU6TGFiZWwxMDEyNTk2NjE2",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/Errata",
+            "name": "Errata",
+            "color": "b60205",
+            "default": false,
+            "description": "Erratum to a Recommendation"
+          },
+          {
+            "id": 1279011060,
+            "node_id": "MDU6TGFiZWwxMjc5MDExMDYw",
+            "url": "https://api.github.com/repos/w3c/wcag/labels/WCAG%202.2",
+            "name": "WCAG 2.2",
+            "color": "ff832b",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": "patrickhlauke",
         "isPullRequest": true
       },
@@ -203323,10 +203517,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 4915,
         "created_at": "2026-02-06T18:03:40Z",
-        "closed_at": null,
+        "closed_at": "2026-07-13T20:58:26Z",
         "title": "errata for 2.1 change log",
         "labels": [
           {
@@ -316435,6 +316629,16 @@
     "recTrack": false,
     "issues": [
       {
+        "state": "open",
+        "number": 964,
+        "created_at": "2026-07-13T17:59:05Z",
+        "closed_at": null,
+        "title": "Non-existent section \"Glossary items used only in Level AAA Success criteria\" generates a broken reference",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 963,
         "created_at": "2026-07-10T07:31:31Z",
@@ -332859,6 +333063,16 @@
     },
     "recTrack": false,
     "issues": [
+      {
+        "state": "open",
+        "number": 964,
+        "created_at": "2026-07-13T17:59:05Z",
+        "closed_at": null,
+        "title": "Non-existent section \"Glossary items used only in Level AAA Success criteria\" generates a broken reference",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 963,
