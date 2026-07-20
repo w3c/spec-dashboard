@@ -2526,6 +2526,75 @@
     "issues": [
       {
         "state": "open",
+        "number": 226,
+        "created_at": "2026-07-19T10:39:16Z",
+        "closed_at": null,
+        "title": "Track YAML-LD 1.0 to W3C Recommendation",
+        "labels": [
+          {
+            "id": 4168301825,
+            "node_id": "LA_kwDOHZANsM74cz0B",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/spec",
+            "name": "spec",
+            "color": "CB53BC",
+            "default": false,
+            "description": "Issue on specification"
+          }
+        ],
+        "assignee": "anatoly-scherbakov",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 225,
+        "created_at": "2026-07-19T09:33:13Z",
+        "closed_at": null,
+        "title": "Vendor YAML processing diagram into our repository",
+        "labels": [],
+        "assignee": "anatoly-scherbakov",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 224,
+        "created_at": "2026-07-19T09:28:50Z",
+        "closed_at": null,
+        "title": "[#220]: Restructure Core Requirements around YAML processing models",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 223,
+        "created_at": "2026-07-19T08:57:13Z",
+        "closed_at": null,
+        "title": "Add example of invalid non-string mapping key to Mapping Key Types",
+        "labels": [
+          {
+            "id": 4168294561,
+            "node_id": "LA_kwDOHZANsM74cyCh",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/Editorial",
+            "name": "Editorial",
+            "color": "58820a",
+            "default": false,
+            "description": "Non-normative change"
+          },
+          {
+            "id": 4168301825,
+            "node_id": "LA_kwDOHZANsM74cz0B",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/spec",
+            "name": "spec",
+            "color": "CB53BC",
+            "default": false,
+            "description": "Issue on specification"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 222,
         "created_at": "2026-07-18T21:40:45Z",
         "closed_at": null,
@@ -2580,7 +2649,17 @@
         "created_at": "2026-07-09T13:28:44Z",
         "closed_at": null,
         "title": "\"YAML-LD document\" seems to be used improperly",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4168301825,
+            "node_id": "LA_kwDOHZANsM74cz0B",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/spec",
+            "name": "spec",
+            "color": "CB53BC",
+            "default": false,
+            "description": "Issue on specification"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2640,7 +2719,17 @@
         "created_at": "2026-07-01T10:13:14Z",
         "closed_at": null,
         "title": "IANA registration for application/ld+yaml",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4168301825,
+            "node_id": "LA_kwDOHZANsM74cz0B",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/spec",
+            "name": "spec",
+            "color": "CB53BC",
+            "default": false,
+            "description": "Issue on specification"
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -2690,7 +2779,26 @@
         "created_at": "2026-06-08T11:41:16Z",
         "closed_at": null,
         "title": "Prefixes list is out of date",
-        "labels": [],
+        "labels": [
+          {
+            "id": 4168294561,
+            "node_id": "LA_kwDOHZANsM74cyCh",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/Editorial",
+            "name": "Editorial",
+            "color": "58820a",
+            "default": false,
+            "description": "Non-normative change"
+          },
+          {
+            "id": 4168301825,
+            "node_id": "LA_kwDOHZANsM74cz0B",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/spec",
+            "name": "spec",
+            "color": "CB53BC",
+            "default": false,
+            "description": "Issue on specification"
+          }
+        ],
         "assignee": "anatoly-scherbakov",
         "isPullRequest": false
       },
@@ -3388,14 +3496,14 @@
         "number": 148,
         "created_at": "2024-05-11T17:17:20Z",
         "closed_at": null,
-        "title": "No `jld:FrameTest` tests",
+        "title": "Audit YAML-LD-specific Frame test coverage",
         "labels": [
           {
-            "id": 4194090118,
-            "node_id": "LA_kwDOHZANsM75_LyG",
-            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/test:needs%20tests",
-            "name": "test:needs tests",
-            "color": "e587ca",
+            "id": 4194088460,
+            "node_id": "LA_kwDOHZANsM75_LYM",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/test:missing-coverage",
+            "name": "test:missing-coverage",
+            "color": "ed2fc4",
             "default": false,
             "description": ""
           }
@@ -3408,14 +3516,14 @@
         "number": 147,
         "created_at": "2024-05-11T17:16:56Z",
         "closed_at": null,
-        "title": "No `jld:FlattenTest` tests",
+        "title": "Audit YAML-LD-specific Flatten test coverage",
         "labels": [
           {
-            "id": 4194090118,
-            "node_id": "LA_kwDOHZANsM75_LyG",
-            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/test:needs%20tests",
-            "name": "test:needs tests",
-            "color": "e587ca",
+            "id": 4194088460,
+            "node_id": "LA_kwDOHZANsM75_LYM",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/test:missing-coverage",
+            "name": "test:missing-coverage",
+            "color": "ed2fc4",
             "default": false,
             "description": ""
           }
@@ -3448,14 +3556,14 @@
         "number": 145,
         "created_at": "2024-05-11T17:15:31Z",
         "closed_at": null,
-        "title": "No `jld:CompactTest` tests",
+        "title": "Audit YAML-LD-specific Compact test coverage",
         "labels": [
           {
-            "id": 4194090118,
-            "node_id": "LA_kwDOHZANsM75_LyG",
-            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/test:needs%20tests",
-            "name": "test:needs tests",
-            "color": "e587ca",
+            "id": 4194088460,
+            "node_id": "LA_kwDOHZANsM75_LYM",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/test:missing-coverage",
+            "name": "test:missing-coverage",
+            "color": "ed2fc4",
             "default": false,
             "description": ""
           }
@@ -4171,20 +4279,20 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 88,
         "created_at": "2023-02-17T03:10:56Z",
-        "closed_at": null,
+        "closed_at": "2026-07-19T10:33:41Z",
         "title": "Leave YAML-LD Extended profile out of bounds of the Community Report",
         "labels": [
           {
-            "id": 10237517465,
-            "node_id": "LA_kwDOHZANsM8AAAACYjQemQ",
-            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/defer-future-version",
-            "name": "defer-future-version",
-            "color": "000000",
+            "id": 4168297344,
+            "node_id": "LA_kwDOHZANsM74cyuA",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/satisfied",
+            "name": "satisfied",
+            "color": "4be23b",
             "default": false,
-            "description": "Defer this issue until a future version of YAML-LD"
+            "description": "Requirement Satisfied"
           }
         ],
         "assignee": null,
@@ -4791,10 +4899,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 54,
         "created_at": "2022-07-07T11:03:25Z",
-        "closed_at": null,
+        "closed_at": "2026-07-19T10:33:39Z",
         "title": "meld JSON Schema and JSON-LD context/frame",
         "labels": [
           {
@@ -4805,6 +4913,15 @@
             "color": "e99695",
             "default": false,
             "description": "Issue on Use Case/Recommendation"
+          },
+          {
+            "id": 4529648069,
+            "node_id": "LA_kwDOHZANsM8AAAABDfzxxQ",
+            "url": "https://api.github.com/repos/w3c/yaml-ld/labels/out-of-scope",
+            "name": "out-of-scope",
+            "color": "e99695",
+            "default": false,
+            "description": "Out of Scope"
           }
         ],
         "assignee": null,
