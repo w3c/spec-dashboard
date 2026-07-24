@@ -4538,7 +4538,7 @@
   {
     "shortlink": "https://www.w3.org/TR/did-resolution/",
     "description": "<p> Decentralized identifiers (DIDs) are a new type of identifier for verifiable, \"self-sovereign\" digital identity. DIDs are fully under the control of the DID controller, independent from any centralized registry, identity provider, or certificate authority. DIDs resolve to DID Documents — simple documents that describe how to use that specific DID.</p>\r\n\r\n<p>This document specifies the algorithms and guidelines for resolving DIDs and dereferencing DID URLs. </p>",
-    "title": "Decentralized Identifier Resolution (DID Resolution) v0.3",
+    "title": "Decentralized Identifier Resolution (DID Resolution) v1",
     "shortname": "did-resolution",
     "editor-draft": "https://w3c.github.io/did-resolution/",
     "series-version": "1.0",
@@ -4554,7 +4554,7 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/did-resolution/versions/20260716",
+        "href": "https://api.w3.org/specifications/did-resolution/versions/20260723",
         "title": "Working Draft"
       },
       "series": {
@@ -4563,6 +4563,34 @@
     },
     "editorsdraft": "https://w3c.github.io/did-resolution/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/did-resolution/",
+        "uri": "https://www.w3.org/TR/2026/WD-did-resolution-20260723/",
+        "date": "2026-07-23",
+        "informative": false,
+        "title": "Decentralized Identifier Resolution (DID Resolution) v1",
+        "shortlink": "https://www.w3.org/TR/did-resolution/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20260723"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20260723/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20260723/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/did-resolution"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20260723/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -4588,6 +4616,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/did-resolution/versions/20260716/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/did-resolution/versions/20260716/successors"
           }
         }
       },
