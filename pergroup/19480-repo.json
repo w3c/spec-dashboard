@@ -1722,11 +1722,71 @@
     "issues": [
       {
         "state": "open",
+        "number": 1158,
+        "created_at": "2026-07-29T10:16:10Z",
+        "closed_at": null,
+        "title": "`currentScale`'s setter doesn't say whether to limit the value, and each engine does something different",
+        "labels": [
+          {
+            "id": 327228952,
+            "node_id": "MDU6TGFiZWwzMjcyMjg5NTI=",
+            "url": "https://api.github.com/repos/w3c/svgwg/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1157,
+        "created_at": "2026-07-29T09:58:04Z",
+        "closed_at": null,
+        "title": "SVG WG TPAC 2026 - Dublin, Ireland. Agenda October 25-30, 2026",
+        "labels": [],
+        "assignee": "dirkschulze",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 1156,
+        "created_at": "2026-07-29T09:42:40Z",
+        "closed_at": null,
+        "title": "SVG 2 restores the `SVGMatrix` name (#1143) but never defines the interface",
+        "labels": [
+          {
+            "id": 327228952,
+            "node_id": "MDU6TGFiZWwzMjcyMjg5NTI=",
+            "url": "https://api.github.com/repos/w3c/svgwg/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 1155,
         "created_at": "2026-07-28T06:57:52Z",
         "closed_at": null,
         "title": "setMatrix takes DOMMatrix2DInit, which makes its is2D() branch unreachable",
-        "labels": [],
+        "labels": [
+          {
+            "id": 327228952,
+            "node_id": "MDU6TGFiZWwzMjcyMjg5NTI=",
+            "url": "https://api.github.com/repos/w3c/svgwg/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1756,7 +1816,17 @@
         "created_at": "2026-07-24T11:01:58Z",
         "closed_at": null,
         "title": "What is the source of truth for geometry and transform IDL attributes?",
-        "labels": [],
+        "labels": [
+          {
+            "id": 327228952,
+            "node_id": "MDU6TGFiZWwzMjcyMjg5NTI=",
+            "url": "https://api.github.com/repos/w3c/svgwg/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "d4c5f9",
+            "default": false,
+            "description": ""
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -1801,10 +1871,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 1148,
         "created_at": "2026-07-03T21:44:22Z",
-        "closed_at": null,
+        "closed_at": "2026-07-29T13:25:53Z",
         "title": "`getPathSegmentAtLength()`: Define which segment is returned at exact boundary",
         "labels": [],
         "assignee": null,
@@ -1835,7 +1905,7 @@
         "number": 1145,
         "created_at": "2026-07-01T07:26:06Z",
         "closed_at": null,
-        "title": "[circle][ellipse] SVG 2 silent on negative values for cx/cy",
+        "title": "[circle][ellipse] SVG 2 silent on valid negative values for cx/cy. see also other presentation attributes prose.",
         "labels": [
           {
             "id": 327228952,
