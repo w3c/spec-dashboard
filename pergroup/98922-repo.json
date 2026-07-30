@@ -794,6 +794,36 @@
     "issues": [
       {
         "state": "open",
+        "number": 46,
+        "created_at": "2026-07-29T15:52:10Z",
+        "closed_at": null,
+        "title": "Change the short name",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 45,
+        "created_at": "2026-07-29T14:05:18Z",
+        "closed_at": null,
+        "title": "Align with the original VCDM 2.0 definition",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 44,
+        "created_at": "2026-07-29T12:22:41Z",
+        "closed_at": null,
+        "title": "Add biometric image section",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 43,
         "created_at": "2026-07-28T02:13:51Z",
         "closed_at": null,
@@ -46100,6 +46130,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 5,
+        "created_at": "2026-07-29T15:46:30Z",
+        "closed_at": null,
+        "title": "Generalize witness seed format.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
         "state": "closed",
         "number": 4,
         "created_at": "2026-07-01T10:04:16Z",
@@ -51316,7 +51356,424 @@
       }
     ]
   },
-  "https://www.w3.org/TR/vc-overview/": {
+  "https://www.w3.org/TR/vc-overview-1.0/": {
+    "repo": {
+      "owner": "w3c",
+      "name": "vc-overview"
+    },
+    "recTrack": false,
+    "issues": [
+      {
+        "state": "closed",
+        "number": 28,
+        "created_at": "2025-09-24T00:06:44Z",
+        "closed_at": "2025-09-24T10:49:25Z",
+        "title": "Fix a few errors in the document regarding urls, grammar, and spelling",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 27,
+        "created_at": "2025-08-17T08:44:21Z",
+        "closed_at": "2025-08-25T14:15:27Z",
+        "title": "Took care of the problems in example 9",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 26,
+        "created_at": "2025-08-14T14:01:37Z",
+        "closed_at": "2025-08-25T14:15:28Z",
+        "title": "Example 2 is broken",
+        "labels": [
+          {
+            "id": 6959502246,
+            "node_id": "LA_kwDOLzK7VM8AAAABntGTpg",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/pr-exists",
+            "name": "pr-exists",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6972931859,
+            "node_id": "LA_kwDOLzK7VM8AAAABn55_Ew",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 25,
+        "created_at": "2025-05-07T13:11:50Z",
+        "closed_at": "2025-05-13T11:04:18Z",
+        "title": "Adding a slightly darker background to the images in dark mode",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 24,
+        "created_at": "2025-05-06T15:47:49Z",
+        "closed_at": "2025-05-20T06:24:31Z",
+        "title": "Sync with REC publication",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 23,
+        "created_at": "2025-02-12T08:33:39Z",
+        "closed_at": "2025-02-12T09:40:29Z",
+        "title": "GitHub actions: replace ubuntu-20.04 with ubuntu-latest",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 22,
+        "created_at": "2025-02-04T15:27:16Z",
+        "closed_at": "2025-02-10T07:36:53Z",
+        "title": "Using the CID-1.0 reference everywhere",
+        "labels": [
+          {
+            "id": 6972931859,
+            "node_id": "LA_kwDOLzK7VM8AAAABn55_Ew",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 21,
+        "created_at": "2025-01-09T11:25:22Z",
+        "closed_at": "2025-01-09T11:26:23Z",
+        "title": "Mystery on image background setting...",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 20,
+        "created_at": "2025-01-02T05:37:12Z",
+        "closed_at": "2025-01-03T05:16:57Z",
+        "title": "Adding Ted's change proposals (originally comments on a PR)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 19,
+        "created_at": "2024-12-10T14:56:42Z",
+        "closed_at": "2024-12-20T09:59:07Z",
+        "title": "CD->CID changes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 18,
+        "created_at": "2024-10-24T19:18:27Z",
+        "closed_at": "2024-10-29T08:06:39Z",
+        "title": "improve alt text for most images",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 17,
+        "created_at": "2024-10-23T06:16:09Z",
+        "closed_at": "2024-11-08T16:01:27Z",
+        "title": "Improvements on the image alt texts",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 16,
+        "created_at": "2024-10-14T13:56:28Z",
+        "closed_at": "2024-10-22T15:23:00Z",
+        "title": "Updated the cryptosuite sections, mostly the Selective Disclosure part",
+        "labels": [],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 15,
+        "created_at": "2024-10-07T14:08:09Z",
+        "closed_at": "2024-10-14T13:38:25Z",
+        "title": "Minor updates",
+        "labels": [],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 14,
+        "created_at": "2024-09-19T09:49:34Z",
+        "closed_at": "2024-09-19T09:50:37Z",
+        "title": "Working version of the respec script",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 13,
+        "created_at": "2024-07-05T17:02:54Z",
+        "closed_at": "2024-07-06T06:45:29Z",
+        "title": "rename folder to enable GH actions",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 12,
+        "created_at": "2024-07-05T15:16:20Z",
+        "closed_at": "2024-07-05T15:16:32Z",
+        "title": "Putting an explicit version (for now) for respec-vc",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 11,
+        "created_at": "2024-06-25T13:26:58Z",
+        "closed_at": "2024-07-03T04:01:49Z",
+        "title": "Using-vc-respec",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 10,
+        "created_at": "2024-06-13T10:36:47Z",
+        "closed_at": "2024-06-13T15:18:40Z",
+        "title": "Adding echidna script",
+        "labels": [
+          {
+            "id": 6972931859,
+            "node_id": "LA_kwDOLzK7VM8AAAABn55_Ew",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 9,
+        "created_at": "2024-05-27T07:37:58Z",
+        "closed_at": "2024-06-05T13:57:32Z",
+        "title": "Updated overall diagram: there was a wrong dependency",
+        "labels": [
+          {
+            "id": 6974763769,
+            "node_id": "LA_kwDOLzK7VM8AAAABn7py-Q",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/bug",
+            "name": "bug",
+            "color": "bfd4f2",
+            "default": true,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 8,
+        "created_at": "2024-05-21T11:51:17Z",
+        "closed_at": "2024-06-05T16:13:55Z",
+        "title": "Added a section on additional documents (notes, vocabs)",
+        "labels": [
+          {
+            "id": 6870774321,
+            "node_id": "LA_kwDOLzK7VM8AAAABmYeyMQ",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          }
+        ],
+        "assignee": "iherman",
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 7,
+        "created_at": "2024-05-20T15:00:44Z",
+        "closed_at": "2024-06-05T16:13:35Z",
+        "title": "Added missing alt texts for figures",
+        "labels": [
+          {
+            "id": 6972931859,
+            "node_id": "LA_kwDOLzK7VM8AAAABn55_Ew",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 6,
+        "created_at": "2024-05-20T14:35:32Z",
+        "closed_at": "2024-05-22T12:35:10Z",
+        "title": "Errors in the cryptosuites diagram",
+        "labels": [
+          {
+            "id": 6972931859,
+            "node_id": "LA_kwDOLzK7VM8AAAABn55_Ew",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 6974763769,
+            "node_id": "LA_kwDOLzK7VM8AAAABn7py-Q",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/bug",
+            "name": "bug",
+            "color": "bfd4f2",
+            "default": true,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 5,
+        "created_at": "2024-05-16T16:44:06Z",
+        "closed_at": "2024-05-22T12:34:07Z",
+        "title": "There was an error in the JWT example",
+        "labels": [
+          {
+            "id": 6972931859,
+            "node_id": "LA_kwDOLzK7VM8AAAABn55_Ew",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 4,
+        "created_at": "2024-05-16T15:05:40Z",
+        "closed_at": "2024-05-22T12:35:56Z",
+        "title": "Minor fix",
+        "labels": [
+          {
+            "id": 6972931859,
+            "node_id": "LA_kwDOLzK7VM8AAAABn55_Ew",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 3,
+        "created_at": "2024-05-16T14:35:22Z",
+        "closed_at": "2024-05-22T13:22:40Z",
+        "title": "credential extensions under credential subject",
+        "labels": [
+          {
+            "id": 6959502246,
+            "node_id": "LA_kwDOLzK7VM8AAAABntGTpg",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/pr-exists",
+            "name": "pr-exists",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
+        "number": 2,
+        "created_at": "2024-05-16T05:04:34Z",
+        "closed_at": "2024-05-20T14:37:37Z",
+        "title": "Fix cryptosuite diagram typos.",
+        "labels": [
+          {
+            "id": 6972931859,
+            "node_id": "LA_kwDOLzK7VM8AAAABn55_Ew",
+            "url": "https://api.github.com/repos/w3c/vc-overview/labels/editorial",
+            "name": "editorial",
+            "color": "0052cc",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "closed",
+        "number": 1,
+        "created_at": "2024-05-16T04:44:56Z",
+        "closed_at": "2024-05-16T06:19:45Z",
+        "title": "Cleanups.",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      }
+    ]
+  },
+  "https://www.w3.org/TR/vc-overview-1.1/": {
     "repo": {
       "owner": "w3c",
       "name": "vc-overview"
