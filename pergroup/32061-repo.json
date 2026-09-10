@@ -28402,6 +28402,15 @@
             "color": "c5def5",
             "default": false,
             "description": null
+          },
+          {
+            "id": 382591170,
+            "node_id": "MDU6TGFiZWwzODI1OTExNzA=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "000000",
+            "default": false,
+            "description": null
           }
         ],
         "assignee": null,
@@ -61086,6 +61095,24 @@
             "description": "Current Work"
           },
           {
+            "id": 395785897,
+            "node_id": "MDU6TGFiZWwzOTU3ODU4OTc=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20as%20Editorial",
+            "name": "Closed Accepted as Editorial",
+            "color": "0e8a16",
+            "default": false,
+            "description": "No substantive change."
+          },
+          {
+            "id": 395787944,
+            "node_id": "MDU6TGFiZWwzOTU3ODc5NDQ=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Commenter%20Satisfied",
+            "name": "Commenter Satisfied",
+            "color": "00ff00",
+            "default": false,
+            "description": "Commenter has indicated satisfaction with the resolution / edits."
+          },
+          {
             "id": 665433501,
             "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
@@ -69299,6 +69326,55 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 14465,
+        "created_at": "2026-09-09T16:30:14Z",
+        "closed_at": null,
+        "title": "[css-color-5] Allow omitting percentages when serializing color-mix() in more cases",
+        "labels": [
+          {
+            "id": 971551685,
+            "node_id": "MDU6TGFiZWw5NzE1NTE2ODU=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-values-5",
+            "name": "css-values-5",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          },
+          {
+            "id": 1392812302,
+            "node_id": "MDU6TGFiZWwxMzkyODEyMzAy",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-color-5",
+            "name": "css-color-5",
+            "color": "c5def5",
+            "default": false,
+            "description": "Color modification"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 14463,
+        "created_at": "2026-09-09T14:53:23Z",
+        "closed_at": null,
+        "title": "[css-color-5] how to handle/avoid clamping in relative color syntax",
+        "labels": [
+          {
+            "id": 1392812302,
+            "node_id": "MDU6TGFiZWwxMzkyODEyMzAy",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-color-5",
+            "name": "css-color-5",
+            "color": "c5def5",
+            "default": false,
+            "description": "Color modification"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "closed",
         "number": 14456,
@@ -131572,24 +131648,6 @@
             "color": "0e8a16",
             "default": false,
             "description": "Fixed an obvious error with the obvious solution."
-          },
-          {
-            "id": 469426704,
-            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 665433501,
-            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
-            "name": "Needs Testcase (WPT)",
-            "color": "5319e7",
-            "default": false,
-            "description": null
           }
         ],
         "assignee": "svgeesus",
@@ -144488,24 +144546,6 @@
             "color": "0e8a16",
             "default": false,
             "description": "Fixed an obvious error with the obvious solution."
-          },
-          {
-            "id": 469426704,
-            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
-            "default": false,
-            "description": null
-          },
-          {
-            "id": 665433501,
-            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
-            "name": "Needs Testcase (WPT)",
-            "color": "5319e7",
-            "default": false,
-            "description": null
           }
         ],
         "assignee": "svgeesus",
@@ -152706,6 +152746,26 @@
     "issues": [
       {
         "state": "open",
+        "number": 14468,
+        "created_at": "2026-09-09T18:03:10Z",
+        "closed_at": null,
+        "title": "[css-forms-1] Distinguishing <input> vs <button>",
+        "labels": [
+          {
+            "id": 381892840,
+            "node_id": "MDU6TGFiZWwzODE4OTI4NDA=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-forms-1",
+            "name": "css-forms-1",
+            "color": "c5def5",
+            "default": false,
+            "description": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 14461,
         "created_at": "2026-09-08T22:43:56Z",
         "closed_at": null,
@@ -152745,10 +152805,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 14439,
         "created_at": "2026-09-03T11:49:12Z",
-        "closed_at": null,
+        "closed_at": "2026-09-09T10:51:40Z",
         "title": "[css-forms-1] Add align-content and align-items to input styles",
         "labels": [
           {
@@ -153193,6 +153253,33 @@
             "color": "c5def5",
             "default": false,
             "description": null
+          },
+          {
+            "id": 395785969,
+            "node_id": "MDU6TGFiZWwzOTU3ODU5Njk=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Changes backed by a CSSWG resolution."
+          },
+          {
+            "id": 469426704,
+            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
+            "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 665433501,
+            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
+            "name": "Needs Testcase (WPT)",
+            "color": "5319e7",
+            "default": false,
+            "description": null
           }
         ],
         "assignee": null,
@@ -153355,6 +153442,15 @@
             "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
             "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 665433501,
+            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
+            "name": "Needs Testcase (WPT)",
             "color": "5319e7",
             "default": false,
             "description": null
@@ -157145,10 +157241,10 @@
     "recTrack": true,
     "issues": [
       {
-        "state": "open",
+        "state": "closed",
         "number": 14460,
         "created_at": "2026-09-08T16:26:40Z",
-        "closed_at": null,
+        "closed_at": "2026-09-09T23:47:28Z",
         "title": "[css-gaps-1] Define rule-break: normal for grid lanes #14169",
         "labels": [],
         "assignee": null,
@@ -157191,15 +157287,6 @@
         "closed_at": null,
         "title": "[css-gaps-1] Define rule-break: normal for grid lanes containers",
         "labels": [
-          {
-            "id": 469426704,
-            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
-            "name": "Needs Edits",
-            "color": "5319e7",
-            "default": false,
-            "description": null
-          },
           {
             "id": 665433501,
             "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
@@ -159907,6 +159994,35 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 14470,
+        "created_at": "2026-09-10T01:59:41Z",
+        "closed_at": null,
+        "title": "[css-grid][css-sizing-3] Automatic minimum sizes of grid items during final sizing",
+        "labels": [
+          {
+            "id": 381891485,
+            "node_id": "MDU6TGFiZWwzODE4OTE0ODU=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-sizing-3",
+            "name": "css-sizing-3",
+            "color": "c5def5",
+            "default": false,
+            "description": "Current Work"
+          },
+          {
+            "id": 445362818,
+            "node_id": "MDU6TGFiZWw0NDUzNjI4MTg=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-grid-2",
+            "name": "css-grid-2",
+            "color": "c5def5",
+            "default": false,
+            "description": "Subgrid; Current Work"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 14032,
@@ -172245,6 +172361,35 @@
     "issues": [
       {
         "state": "open",
+        "number": 14470,
+        "created_at": "2026-09-10T01:59:41Z",
+        "closed_at": null,
+        "title": "[css-grid][css-sizing-3] Automatic minimum sizes of grid items during final sizing",
+        "labels": [
+          {
+            "id": 381891485,
+            "node_id": "MDU6TGFiZWwzODE4OTE0ODU=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-sizing-3",
+            "name": "css-sizing-3",
+            "color": "c5def5",
+            "default": false,
+            "description": "Current Work"
+          },
+          {
+            "id": 445362818,
+            "node_id": "MDU6TGFiZWw0NDUzNjI4MTg=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-grid-2",
+            "name": "css-grid-2",
+            "color": "c5def5",
+            "default": false,
+            "description": "Subgrid; Current Work"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 14032,
         "created_at": "2026-06-10T21:49:39Z",
         "closed_at": null,
@@ -184430,6 +184575,35 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 14470,
+        "created_at": "2026-09-10T01:59:41Z",
+        "closed_at": null,
+        "title": "[css-grid][css-sizing-3] Automatic minimum sizes of grid items during final sizing",
+        "labels": [
+          {
+            "id": 381891485,
+            "node_id": "MDU6TGFiZWwzODE4OTE0ODU=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-sizing-3",
+            "name": "css-sizing-3",
+            "color": "c5def5",
+            "default": false,
+            "description": "Current Work"
+          },
+          {
+            "id": 445362818,
+            "node_id": "MDU6TGFiZWw0NDUzNjI4MTg=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-grid-2",
+            "name": "css-grid-2",
+            "color": "c5def5",
+            "default": false,
+            "description": "Subgrid; Current Work"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 14444,
@@ -204042,6 +204216,15 @@
             "color": "c5def5",
             "default": false,
             "description": null
+          },
+          {
+            "id": 382591170,
+            "node_id": "MDU6TGFiZWwzODI1OTExNzA=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
+            "name": "Agenda+",
+            "color": "000000",
+            "default": false,
+            "description": null
           }
         ],
         "assignee": null,
@@ -217224,11 +217407,29 @@
         "title": "[css-link-params] Are two references with different parameters independent instances?",
         "labels": [
           {
-            "id": 382591170,
-            "node_id": "MDU6TGFiZWwzODI1OTExNzA=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
-            "name": "Agenda+",
-            "color": "000000",
+            "id": 395785969,
+            "node_id": "MDU6TGFiZWwzOTU3ODU5Njk=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Closed%20Accepted%20by%20CSSWG%20Resolution",
+            "name": "Closed Accepted by CSSWG Resolution",
+            "color": "0e8a16",
+            "default": false,
+            "description": "Changes backed by a CSSWG resolution."
+          },
+          {
+            "id": 469426704,
+            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
+            "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 665433501,
+            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
+            "name": "Needs Testcase (WPT)",
+            "color": "5319e7",
             "default": false,
             "description": null
           },
@@ -217240,9 +217441,18 @@
             "color": "c5def5",
             "default": false,
             "description": ""
+          },
+          {
+            "id": 10119171667,
+            "node_id": "LA_kwDOAI0trM8AAAACWyZOUw",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-image-animation-1",
+            "name": "css-image-animation-1",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
           }
         ],
-        "assignee": null,
+        "assignee": "frivoal",
         "isPullRequest": false
       },
       {
@@ -293111,6 +293321,35 @@
     "issues": [
       {
         "state": "open",
+        "number": 14470,
+        "created_at": "2026-09-10T01:59:41Z",
+        "closed_at": null,
+        "title": "[css-grid][css-sizing-3] Automatic minimum sizes of grid items during final sizing",
+        "labels": [
+          {
+            "id": 381891485,
+            "node_id": "MDU6TGFiZWwzODE4OTE0ODU=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-sizing-3",
+            "name": "css-sizing-3",
+            "color": "c5def5",
+            "default": false,
+            "description": "Current Work"
+          },
+          {
+            "id": 445362818,
+            "node_id": "MDU6TGFiZWw0NDUzNjI4MTg=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-grid-2",
+            "name": "css-grid-2",
+            "color": "c5def5",
+            "default": false,
+            "description": "Subgrid; Current Work"
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 14453,
         "created_at": "2026-09-06T07:25:44Z",
         "closed_at": null,
@@ -299802,6 +300041,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 14467,
+        "created_at": "2026-09-09T17:08:39Z",
+        "closed_at": null,
+        "title": "[css-sizing-4] Fix syntax definition for `<box-size>`",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 14453,
@@ -373833,15 +374082,6 @@
         "title": "[css-values] Percentages and unit arithmetic",
         "labels": [
           {
-            "id": 382591170,
-            "node_id": "MDU6TGFiZWwzODI1OTExNzA=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
-            "name": "Agenda+",
-            "color": "000000",
-            "default": false,
-            "description": null
-          },
-          {
             "id": 410302234,
             "node_id": "MDU6TGFiZWw0MTAzMDIyMzQ=",
             "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-values-4",
@@ -382921,15 +383161,6 @@
         "closed_at": null,
         "title": "[css-values] Percentages and unit arithmetic",
         "labels": [
-          {
-            "id": 382591170,
-            "node_id": "MDU6TGFiZWwzODI1OTExNzA=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
-            "name": "Agenda+",
-            "color": "000000",
-            "default": false,
-            "description": null
-          },
           {
             "id": 410302234,
             "node_id": "MDU6TGFiZWw0MTAzMDIyMzQ=",
@@ -396138,6 +396369,55 @@
     "issues": [
       {
         "state": "open",
+        "number": 14466,
+        "created_at": "2026-09-09T16:51:42Z",
+        "closed_at": null,
+        "title": "[css-values-5] Add syntax definitions for `sibling-count` and `sibling-index`",
+        "labels": [
+          {
+            "id": 469426704,
+            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
+            "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 971551685,
+            "node_id": "MDU6TGFiZWw5NzE1NTE2ODU=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-values-5",
+            "name": "css-values-5",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 14464,
+        "created_at": "2026-09-09T16:21:49Z",
+        "closed_at": null,
+        "title": "[css-values-5] Standardize serialization for mix function components",
+        "labels": [
+          {
+            "id": 971551685,
+            "node_id": "MDU6TGFiZWw5NzE1NTE2ODU=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/css-values-5",
+            "name": "css-values-5",
+            "color": "c5def5",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 14457,
         "created_at": "2026-09-08T07:45:15Z",
         "closed_at": null,
@@ -396405,15 +396685,6 @@
         "closed_at": null,
         "title": "[css-values] Percentages and unit arithmetic",
         "labels": [
-          {
-            "id": 382591170,
-            "node_id": "MDU6TGFiZWwzODI1OTExNzA=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
-            "name": "Agenda+",
-            "color": "000000",
-            "default": false,
-            "description": null
-          },
           {
             "id": 410302234,
             "node_id": "MDU6TGFiZWw0MTAzMDIyMzQ=",
@@ -396791,11 +397062,20 @@
         "title": "[css-values-5] Proposal for a new `<request-url-modifier>` called `<cross-origin-storage>`",
         "labels": [
           {
-            "id": 382591170,
-            "node_id": "MDU6TGFiZWwzODI1OTExNzA=",
-            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Agenda+",
-            "name": "Agenda+",
-            "color": "000000",
+            "id": 469426704,
+            "node_id": "MDU6TGFiZWw0Njk0MjY3MDQ=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Edits",
+            "name": "Needs Edits",
+            "color": "5319e7",
+            "default": false,
+            "description": null
+          },
+          {
+            "id": 665433501,
+            "node_id": "MDU6TGFiZWw2NjU0MzM1MDE=",
+            "url": "https://api.github.com/repos/w3c/csswg-drafts/labels/Needs%20Testcase%20(WPT)",
+            "name": "Needs Testcase (WPT)",
+            "color": "5319e7",
             "default": false,
             "description": null
           },
