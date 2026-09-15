@@ -1,25 +1,25 @@
 [
   {
-    "shortlink": "https://www.w3.org/TR/webauthn-3/",
-    "description": "<p>This specification defines an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users. Conceptually, one or more public key credentials, each scoped to a given WebAuthn Relying Party, are created by and bound to authenticators as requested by the web application. The user agent mediates access to authenticators and their public key credentials in order to preserve user privacy. Authenticators are responsible for ensuring that no operation is performed without user consent. Authenticators provide cryptographic proof of their properties to Relying Parties via attestation. This specification also describes the functional model for WebAuthn conformant authenticators, including their signature and attestation functionality.</p>",
-    "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
-    "shortname": "webauthn-3",
+    "shortlink": "https://www.w3.org/TR/webauthn-4/",
+    "description": "<p>This specification defines an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users.</p>",
+    "title": "Web Authentication: An API for accessing Public Key Credentials - Level 4",
+    "shortname": "webauthn-4",
     "editor-draft": "https://w3c.github.io/webauthn/",
-    "series-version": "3",
+    "series-version": "4",
     "_links": {
       "self": {
-        "href": "https://api.w3.org/specifications/webauthn-3"
+        "href": "https://api.w3.org/specifications/webauthn-4"
       },
       "version-history": {
-        "href": "https://api.w3.org/specifications/webauthn-3/versions"
+        "href": "https://api.w3.org/specifications/webauthn-4/versions"
       },
       "first-version": {
-        "href": "https://api.w3.org/specifications/webauthn-3/versions/20210427",
+        "href": "https://api.w3.org/specifications/webauthn-4/versions/20260915",
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/webauthn-3/versions/20260526",
-        "title": "Candidate Recommendation Snapshot"
+        "href": "https://api.w3.org/specifications/webauthn-4/versions/20260915",
+        "title": "First Public Working Draft"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/webauthn"
@@ -28,153 +28,27 @@
     "editorsdraft": "https://w3c.github.io/webauthn/",
     "versions": [
       {
-        "status": "Candidate Recommendation Snapshot",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/webauthn/",
-        "uri": "https://www.w3.org/TR/2026/CR-webauthn-3-20260526/",
-        "date": "2026-05-26",
-        "implementation-feedback-due": "2026-06-23",
-        "informative": false,
-        "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
-        "shortlink": "https://www.w3.org/TR/webauthn-3/",
-        "process-rules": "https://www.w3.org/policies/process/20250818/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20260526"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20260526/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20260526/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/webauthn-3"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20260526/predecessors"
-          }
-        }
-      },
-      {
-        "status": "Candidate Recommendation Snapshot",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/webauthn/",
-        "uri": "https://www.w3.org/TR/2026/CR-webauthn-3-20260113/",
-        "date": "2026-01-13",
-        "implementation-feedback-due": "2026-02-10",
-        "informative": false,
-        "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
-        "shortlink": "https://www.w3.org/TR/webauthn-3/",
-        "process-rules": "https://www.w3.org/policies/process/20250818/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20260113"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20260113/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20260113/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/webauthn-3"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20260113/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20260113/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/webauthn/",
-        "uri": "https://www.w3.org/TR/2025/WD-webauthn-3-20250127/",
-        "date": "2025-01-27",
-        "informative": false,
-        "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
-        "shortlink": "https://www.w3.org/TR/webauthn-3/",
-        "process-rules": "https://www.w3.org/policies/process/20231103/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20250127"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20250127/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20250127/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/webauthn-3"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20250127/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20250127/successors"
-          }
-        }
-      },
-      {
-        "status": "Working Draft",
-        "rec-track": true,
-        "editor-draft": "https://w3c.github.io/webauthn/",
-        "uri": "https://www.w3.org/TR/2023/WD-webauthn-3-20230927/",
-        "date": "2023-09-27",
-        "informative": false,
-        "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
-        "shortlink": "https://www.w3.org/TR/webauthn-3/",
-        "process-rules": "https://www.w3.org/2023/Process-20230612/",
-        "_links": {
-          "self": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20230927"
-          },
-          "editors": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20230927/editors"
-          },
-          "deliverers": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20230927/deliverers"
-          },
-          "specification": {
-            "href": "https://api.w3.org/specifications/webauthn-3"
-          },
-          "predecessor-version": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20230927/predecessors"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20230927/successors"
-          }
-        }
-      },
-      {
         "status": "First Public Working Draft",
         "rec-track": true,
         "editor-draft": "https://w3c.github.io/webauthn/",
-        "uri": "https://www.w3.org/TR/2021/WD-webauthn-3-20210427/",
-        "date": "2021-04-27",
+        "uri": "https://www.w3.org/TR/2026/WD-webauthn-4-20260915/",
+        "date": "2026-09-15",
         "informative": false,
-        "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
-        "shortlink": "https://www.w3.org/TR/webauthn-3/",
-        "process-rules": "https://www.w3.org/2020/Process-20200915/",
+        "title": "Web Authentication: An API for accessing Public Key Credentials - Level 4",
+        "shortlink": "https://www.w3.org/TR/webauthn-4/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
         "_links": {
           "self": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20210427"
+            "href": "https://api.w3.org/specifications/webauthn-4/versions/20260915"
           },
           "editors": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20210427/editors"
+            "href": "https://api.w3.org/specifications/webauthn-4/versions/20260915/editors"
           },
           "deliverers": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20210427/deliverers"
+            "href": "https://api.w3.org/specifications/webauthn-4/versions/20260915/deliverers"
           },
           "specification": {
-            "href": "https://api.w3.org/specifications/webauthn-3"
-          },
-          "successor-version": {
-            "href": "https://api.w3.org/specifications/webauthn-3/versions/20210427/successors"
+            "href": "https://api.w3.org/specifications/webauthn-4"
           }
         }
       }
