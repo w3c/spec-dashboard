@@ -273,7 +273,7 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/shacl12-core/versions/20260828",
+        "href": "https://api.w3.org/specifications/shacl12-core/versions/20260917",
         "title": "Working Draft"
       },
       "series": {
@@ -282,6 +282,34 @@
     },
     "editorsdraft": "https://w3c.github.io/data-shapes/shacl12-core/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/data-shapes/shacl12-core/",
+        "uri": "https://www.w3.org/TR/2026/WD-shacl12-core-20260917/",
+        "date": "2026-09-17",
+        "informative": false,
+        "title": "SHACL 1.2 Core",
+        "shortlink": "https://www.w3.org/TR/shacl12-core/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl12-core/versions/20260917"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl12-core/versions/20260917/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl12-core/versions/20260917/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl12-core"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/shacl12-core/versions/20260917/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -307,6 +335,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/shacl12-core/versions/20260828/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/shacl12-core/versions/20260828/successors"
           }
         }
       },
@@ -1885,6 +1916,61 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/shacl12-core/versions/20250318/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/shacl12-inference-rules/",
+    "description": "<p>This document defines the Inference Rules support of the SHACL Shapes Constraint Language (SHACL). While the Core part of SHACL focuses on the basic syntax of shapes and constraint validation of data graphs, the SHACL Inference Rules cover features that can be used to infer new triples from existing triples in the data graph.</p>",
+    "title": "SHACL 1.2 Inference Rules",
+    "shortname": "shacl12-inference-rules",
+    "editor-draft": "https://w3c.github.io/data-shapes/shacl12-inference-rules/",
+    "series-version": "1.2",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/shacl12-inference-rules"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/shacl12-inference-rules/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/shacl12-inference-rules/versions/20260917",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/shacl12-inference-rules/versions/20260917",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/shacl-inference-rules"
+      }
+    },
+    "editorsdraft": "https://w3c.github.io/data-shapes/shacl12-inference-rules/",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/data-shapes/shacl12-inference-rules/",
+        "uri": "https://www.w3.org/TR/2026/WD-shacl12-inference-rules-20260917/",
+        "date": "2026-09-17",
+        "informative": false,
+        "title": "SHACL 1.2 Inference Rules",
+        "shortlink": "https://www.w3.org/TR/shacl12-inference-rules/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/shacl12-inference-rules/versions/20260917"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/shacl12-inference-rules/versions/20260917/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/shacl12-inference-rules/versions/20260917/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/shacl12-inference-rules"
           }
         }
       }
