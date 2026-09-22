@@ -1694,6 +1694,46 @@
     "issues": [
       {
         "state": "open",
+        "number": 372,
+        "created_at": "2026-09-22T03:00:39Z",
+        "closed_at": null,
+        "title": "SHoC: derive salts in the holder from `saltSeed` + `saltMethod` instead of carrying the full salts array in the base proof",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 371,
+        "created_at": "2026-09-21T18:17:14Z",
+        "closed_at": null,
+        "title": "Fix Salted Hash of Claims Algorithms",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 370,
+        "created_at": "2026-09-21T09:46:12Z",
+        "closed_at": null,
+        "title": "Bug: SHoC: derived proof reveals salts of non-disclosed claims, enabling offline guessing attacks (+ 2 algorithm inconsistencies)",
+        "labels": [],
+        "assignee": "Wind4Greg",
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 369,
+        "created_at": "2026-09-21T08:45:14Z",
+        "closed_at": null,
+        "title": "Idea: Merkle-tree aggregation mode for SHoC to reduce derived proof size from O(N) to O(k log N)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 368,
         "created_at": "2026-09-19T17:28:45Z",
         "closed_at": null,
@@ -9856,6 +9896,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 1651,
+        "created_at": "2026-09-22T05:45:45Z",
+        "closed_at": null,
+        "title": "domain of the validFrom and validUntil must be changed in the vocabulary",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 1649,
@@ -50237,6 +50287,16 @@
     "recTrack": true,
     "issues": [
       {
+        "state": "open",
+        "number": 44,
+        "created_at": "2026-09-21T11:34:14Z",
+        "closed_at": null,
+        "title": "Consistency of cryptosuite tables (editorial)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
         "state": "closed",
         "number": 43,
         "created_at": "2026-09-08T17:46:43Z",
@@ -58211,19 +58271,95 @@
     "issues": [
       {
         "state": "open",
+        "number": 132,
+        "created_at": "2026-09-22T04:12:44Z",
+        "closed_at": null,
+        "title": "add the registered / recognised entity ID to the Data model",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 131,
+        "created_at": "2026-09-21T19:25:00Z",
+        "closed_at": null,
+        "title": "recommendations for distributing recognized entities credentials to avoid privacy leakage?",
+        "labels": [
+          {
+            "id": 10391646339,
+            "node_id": "LA_kwDOIgjEBc8AAAACa2Pwgw",
+            "url": "https://api.github.com/repos/w3c/vc-recognized-entities/labels/discuss",
+            "name": "discuss",
+            "color": "5319e7",
+            "default": false,
+            "description": "The item requires group discussion",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 10944265381,
+            "node_id": "LA_kwDOIgjEBc8AAAACjFQ8pQ",
+            "url": "https://api.github.com/repos/w3c/vc-recognized-entities/labels/privacy-needs-resolution",
+            "name": "privacy-needs-resolution",
+            "color": "d4af37",
+            "default": false,
+            "description": "Issue the Privacy Group has raised and looks for a response on.",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 130,
+        "created_at": "2026-09-21T19:22:32Z",
+        "closed_at": null,
+        "title": "threat model is not a sufficient replacement for privacy considerations and security considerations",
+        "labels": [
+          {
+            "id": 10391646339,
+            "node_id": "LA_kwDOIgjEBc8AAAACa2Pwgw",
+            "url": "https://api.github.com/repos/w3c/vc-recognized-entities/labels/discuss",
+            "name": "discuss",
+            "color": "5319e7",
+            "default": false,
+            "description": "The item requires group discussion",
+            "archived_at": null,
+            "archived_by": null
+          },
+          {
+            "id": 10944265381,
+            "node_id": "LA_kwDOIgjEBc8AAAACjFQ8pQ",
+            "url": "https://api.github.com/repos/w3c/vc-recognized-entities/labels/privacy-needs-resolution",
+            "name": "privacy-needs-resolution",
+            "color": "d4af37",
+            "default": false,
+            "description": "Issue the Privacy Group has raised and looks for a response on.",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "closed",
         "number": 129,
         "created_at": "2026-09-07T22:25:41Z",
-        "closed_at": null,
+        "closed_at": "2026-09-22T02:08:49Z",
         "title": "Explain most-to-least privacy preserving way to fetch a recognized entity credential",
         "labels": [],
         "assignee": null,
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 128,
         "created_at": "2026-09-06T19:41:37Z",
-        "closed_at": null,
+        "closed_at": "2026-09-22T02:00:36Z",
         "title": "Refactor Algorithms to extract Recognition Validation algorithm.",
         "labels": [],
         "assignee": null,
@@ -58658,10 +58794,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 105,
         "created_at": "2026-07-21T22:50:42Z",
-        "closed_at": null,
+        "closed_at": "2026-09-22T02:00:52Z",
         "title": "Separate discovery from verification in the Algorithms section",
         "labels": [
           {
@@ -59578,10 +59714,10 @@
         "isPullRequest": true
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 56,
         "created_at": "2026-03-10T16:02:21Z",
-        "closed_at": null,
+        "closed_at": "2026-09-22T02:09:17Z",
         "title": "Add Privacy Considerations on Verifiable Recognition Credential delivery mechanisms",
         "labels": [
           {
