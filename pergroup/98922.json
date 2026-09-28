@@ -796,7 +796,7 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260926",
+        "href": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260927",
         "title": "Working Draft"
       },
       "series": {
@@ -805,6 +805,34 @@
     },
     "editorsdraft": "https://w3c.github.io/vc-data-model/",
     "versions": [
+      {
+        "status": "Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://w3c.github.io/vc-data-model/",
+        "uri": "https://www.w3.org/TR/2026/WD-vc-data-model-2.1-20260927/",
+        "date": "2026-09-27",
+        "informative": false,
+        "title": "Verifiable Credentials Data Model v2.1",
+        "shortlink": "https://www.w3.org/TR/vc-data-model-2.1/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260927"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260927/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260927/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260927/predecessors"
+          }
+        }
+      },
       {
         "status": "Working Draft",
         "rec-track": true,
@@ -830,6 +858,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260926/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/vc-data-model-2.1/versions/20260926/successors"
           }
         }
       },
@@ -1083,9 +1114,9 @@
   {
     "shortlink": "https://www.w3.org/TR/vc-data-model-threat-model-2.1/",
     "description": "<p> This document describes a threat model for the\n<a href=\"https://www.w3.org/TR/vc-data-model/\">Verifiable Credentials Data\nModel</a> specification. It identifies and analyzes security and privacy\nthreats specific to ecosystems in which issuers issue\n<a href=\"https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-credential\">verifiable credentials</a> to holders, who in turn present\n<a href=\"https://www.w3.org/TR/vc-data-model-2.0/#dfn-verifiable-presentation\">verifiable presentations</a> to verifiers.</p>",
-    "title": "Verifiable Credentials Data Model v2.1",
+    "title": "Verifiable Credentials Data Model Threat Model v2.1",
     "shortname": "vc-data-model-threat-model-2.1",
-    "editor-draft": "https://w3c.github.io/vc-data-model/",
+    "editor-draft": "https://w3c.github.io/vc-data-model/threat-model/",
     "series-version": "2.1",
     "_links": {
       "self": {
@@ -1099,19 +1130,47 @@
         "title": "Draft Note"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260926",
+        "href": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260927",
         "title": "Draft Note"
       },
       "series": {
         "href": "https://api.w3.org/specification-series/vc-data-model-threat-model"
       }
     },
-    "editorsdraft": "https://w3c.github.io/vc-data-model/",
+    "editorsdraft": "https://w3c.github.io/vc-data-model/threat-model/",
     "versions": [
       {
         "status": "Draft Note",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/vc-data-model/",
+        "editor-draft": "https://w3c.github.io/vc-data-model/threat-model/",
+        "uri": "https://www.w3.org/TR/2026/DNOTE-vc-data-model-threat-model-2.1-20260927/",
+        "date": "2026-09-27",
+        "informative": true,
+        "title": "Verifiable Credentials Data Model Threat Model v2.1",
+        "shortlink": "https://www.w3.org/TR/vc-data-model-threat-model-2.1/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260927"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260927/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260927/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260927/predecessors"
+          }
+        }
+      },
+      {
+        "status": "Draft Note",
+        "rec-track": false,
+        "editor-draft": "https://w3c.github.io/vc-data-model/threat-model/",
         "uri": "https://www.w3.org/TR/2026/DNOTE-vc-data-model-threat-model-2.1-20260926/",
         "date": "2026-09-26",
         "informative": true,
@@ -1133,13 +1192,16 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260926/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/vc-data-model-threat-model-2.1/versions/20260926/successors"
           }
         }
       },
       {
         "status": "Draft Note",
         "rec-track": false,
-        "editor-draft": "https://w3c.github.io/vc-data-model/",
+        "editor-draft": "https://w3c.github.io/vc-data-model/threat-model/",
         "uri": "https://www.w3.org/TR/2026/DNOTE-vc-data-model-threat-model-2.1-20260924/",
         "date": "2026-09-24",
         "informative": true,
