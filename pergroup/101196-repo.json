@@ -8,6 +8,96 @@
     "issues": [
       {
         "state": "open",
+        "number": 2289,
+        "created_at": "2026-10-20T19:09:07Z",
+        "closed_at": null,
+        "title": "[interpreter] Binary decoder rejects heap type indices >= 2^31 as malformed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2288,
+        "created_at": "2026-10-20T19:08:02Z",
+        "closed_at": null,
+        "title": "[interpreter] (memory 65536) aborts the interpreter with an uncaught SizeOverflow",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2287,
+        "created_at": "2026-10-20T19:06:41Z",
+        "closed_at": null,
+        "title": "[interpreter] Text lexer accepts surrogate escapes and crashes on escapes past U+10FFFF",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2286,
+        "created_at": "2026-10-20T19:02:56Z",
+        "closed_at": null,
+        "title": "[interpreter] exnref values get their tag's type, so casts give wrong results and stores crash",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2285,
+        "created_at": "2026-10-20T18:46:52Z",
+        "closed_at": null,
+        "title": "[spectec] SpecTec interpreter: array.new_data and array.init_data fail on arrays of v128",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2284,
+        "created_at": "2026-10-20T18:42:22Z",
+        "closed_at": null,
+        "title": "[spectec] Tstringchar excludes \\u{E000}..\\u{E7FF}",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2283,
+        "created_at": "2026-10-20T18:23:14Z",
+        "closed_at": null,
+        "title": "[interpreter] f32x4.relaxed_madd double-rounds through an f64 fma",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2282,
+        "created_at": "2026-10-20T18:21:39Z",
+        "closed_at": null,
+        "title": "[interpreter] f32 literals just above half the smallest subnormal round to zero",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2281,
+        "created_at": "2026-10-20T18:18:59Z",
+        "closed_at": null,
+        "title": "[interpreter] memory.grow on an i64 memory past 2^48 pages succeeds but allocates wrong amount (or crashes)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2280,
         "created_at": "2026-10-15T13:01:59Z",
         "closed_at": null,
@@ -22981,6 +23071,96 @@
     "issues": [
       {
         "state": "open",
+        "number": 2289,
+        "created_at": "2026-10-20T19:09:07Z",
+        "closed_at": null,
+        "title": "[interpreter] Binary decoder rejects heap type indices >= 2^31 as malformed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2288,
+        "created_at": "2026-10-20T19:08:02Z",
+        "closed_at": null,
+        "title": "[interpreter] (memory 65536) aborts the interpreter with an uncaught SizeOverflow",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2287,
+        "created_at": "2026-10-20T19:06:41Z",
+        "closed_at": null,
+        "title": "[interpreter] Text lexer accepts surrogate escapes and crashes on escapes past U+10FFFF",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2286,
+        "created_at": "2026-10-20T19:02:56Z",
+        "closed_at": null,
+        "title": "[interpreter] exnref values get their tag's type, so casts give wrong results and stores crash",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2285,
+        "created_at": "2026-10-20T18:46:52Z",
+        "closed_at": null,
+        "title": "[spectec] SpecTec interpreter: array.new_data and array.init_data fail on arrays of v128",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2284,
+        "created_at": "2026-10-20T18:42:22Z",
+        "closed_at": null,
+        "title": "[spectec] Tstringchar excludes \\u{E000}..\\u{E7FF}",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2283,
+        "created_at": "2026-10-20T18:23:14Z",
+        "closed_at": null,
+        "title": "[interpreter] f32x4.relaxed_madd double-rounds through an f64 fma",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2282,
+        "created_at": "2026-10-20T18:21:39Z",
+        "closed_at": null,
+        "title": "[interpreter] f32 literals just above half the smallest subnormal round to zero",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2281,
+        "created_at": "2026-10-20T18:18:59Z",
+        "closed_at": null,
+        "title": "[interpreter] memory.grow on an i64 memory past 2^48 pages succeeds but allocates wrong amount (or crashes)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
         "number": 2280,
         "created_at": "2026-10-15T13:01:59Z",
         "closed_at": null,
@@ -45952,6 +46132,96 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 2289,
+        "created_at": "2026-10-20T19:09:07Z",
+        "closed_at": null,
+        "title": "[interpreter] Binary decoder rejects heap type indices >= 2^31 as malformed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2288,
+        "created_at": "2026-10-20T19:08:02Z",
+        "closed_at": null,
+        "title": "[interpreter] (memory 65536) aborts the interpreter with an uncaught SizeOverflow",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2287,
+        "created_at": "2026-10-20T19:06:41Z",
+        "closed_at": null,
+        "title": "[interpreter] Text lexer accepts surrogate escapes and crashes on escapes past U+10FFFF",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2286,
+        "created_at": "2026-10-20T19:02:56Z",
+        "closed_at": null,
+        "title": "[interpreter] exnref values get their tag's type, so casts give wrong results and stores crash",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2285,
+        "created_at": "2026-10-20T18:46:52Z",
+        "closed_at": null,
+        "title": "[spectec] SpecTec interpreter: array.new_data and array.init_data fail on arrays of v128",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2284,
+        "created_at": "2026-10-20T18:42:22Z",
+        "closed_at": null,
+        "title": "[spectec] Tstringchar excludes \\u{E000}..\\u{E7FF}",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2283,
+        "created_at": "2026-10-20T18:23:14Z",
+        "closed_at": null,
+        "title": "[interpreter] f32x4.relaxed_madd double-rounds through an f64 fma",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2282,
+        "created_at": "2026-10-20T18:21:39Z",
+        "closed_at": null,
+        "title": "[interpreter] f32 literals just above half the smallest subnormal round to zero",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
+      {
+        "state": "open",
+        "number": 2281,
+        "created_at": "2026-10-20T18:18:59Z",
+        "closed_at": null,
+        "title": "[interpreter] memory.grow on an i64 memory past 2^48 pages succeeds but allocates wrong amount (or crashes)",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": false
+      },
       {
         "state": "open",
         "number": 2280,
