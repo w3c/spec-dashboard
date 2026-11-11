@@ -8,6 +8,156 @@
     "issues": [
       {
         "state": "open",
+        "number": 832,
+        "created_at": "2026-11-11T01:16:57Z",
+        "closed_at": null,
+        "title": "Read the attached stream in WebTransportWriter.commit()",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 831,
+        "created_at": "2026-11-11T01:16:49Z",
+        "closed_at": null,
+        "title": "Pass send group and send order through bidirectional stream creation",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 830,
+        "created_at": "2026-11-11T01:12:09Z",
+        "closed_at": null,
+        "title": "Bind the datagram duplex stream in receiveDatagrams",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 829,
+        "created_at": "2026-11-11T01:07:21Z",
+        "closed_at": null,
+        "title": "Track closing send streams until their data is committed",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 828,
+        "created_at": "2026-11-11T01:07:12Z",
+        "closed_at": null,
+        "title": "Compare the reserved WebTransport header as bytes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 827,
+        "created_at": "2026-11-11T01:07:00Z",
+        "closed_at": null,
+        "title": "Use the BufferSource byte length for the datagram size check",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 826,
+        "created_at": "2026-11-11T01:06:52Z",
+        "closed_at": null,
+        "title": "Use the same WebTransport object for construction and Fetch",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 825,
+        "created_at": "2026-11-11T01:06:34Z",
+        "closed_at": null,
+        "title": "Preserve the pending atomic writes when clearing the slot",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 824,
+        "created_at": "2026-11-11T01:02:13Z",
+        "closed_at": null,
+        "title": "Return the rejected promise from getStats() for failed transports",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 823,
+        "created_at": "2026-11-11T01:02:03Z",
+        "closed_at": null,
+        "title": "Use the transport argument in the fetch response assertion",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 822,
+        "created_at": "2026-11-11T01:01:52Z",
+        "closed_at": null,
+        "title": "Forward the write chunk to writeDatagrams",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 821,
+        "created_at": "2026-11-11T00:53:46Z",
+        "closed_at": null,
+        "title": "Snapshot WebTransport TLS exporter label and context bytes",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 820,
+        "created_at": "2026-11-11T00:53:39Z",
+        "closed_at": null,
+        "title": "Restore the WebTransport stream error code during deserialization",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 819,
+        "created_at": "2026-11-11T00:53:31Z",
+        "closed_at": null,
+        "title": "Serialize WebTransport datagram send passes for each writable",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
+        "number": 818,
+        "created_at": "2026-11-10T23:47:46Z",
+        "closed_at": null,
+        "title": "Don't create incoming streams after cleanup",
+        "labels": [],
+        "assignee": "jan-ivar",
+        "isPullRequest": true
+      },
+      {
+        "state": "open",
         "number": 817,
         "created_at": "2026-11-09T14:56:10Z",
         "closed_at": null,
@@ -32,7 +182,19 @@
         "created_at": "2026-11-03T23:57:17Z",
         "closed_at": "2026-11-04T00:58:42Z",
         "title": "Let UA cap datagram send queue by bytes",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2746607277,
+            "node_id": "MDU6TGFiZWwyNzQ2NjA3Mjc3",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Needs%20test",
+            "name": "Needs test",
+            "color": "5E02D2",
+            "default": false,
+            "description": "PR needs a WPT test",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -42,7 +204,19 @@
         "created_at": "2026-11-03T23:44:35Z",
         "closed_at": "2026-11-04T00:50:43Z",
         "title": "Expose getStats() members categorically per session",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2746607277,
+            "node_id": "MDU6TGFiZWwyNzQ2NjA3Mjc3",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Needs%20test",
+            "name": "Needs test",
+            "color": "5E02D2",
+            "default": false,
+            "description": "PR needs a WPT test",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -52,7 +226,19 @@
         "created_at": "2026-11-03T23:35:50Z",
         "closed_at": "2026-11-04T00:39:19Z",
         "title": "Default outgoingMaxAge to Infinity",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2746607277,
+            "node_id": "MDU6TGFiZWwyNzQ2NjA3Mjc3",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Needs%20test",
+            "name": "Needs test",
+            "color": "5E02D2",
+            "default": false,
+            "description": "PR needs a WPT test",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
         "assignee": "jan-ivar",
         "isPullRequest": true
       },
@@ -612,7 +798,19 @@
         "created_at": "2026-08-12T22:00:25Z",
         "closed_at": "2026-09-02T14:47:25Z",
         "title": "Fix echo sample client",
-        "labels": [],
+        "labels": [
+          {
+            "id": 2496219588,
+            "node_id": "MDU6TGFiZWwyNDk2MjE5NTg4",
+            "url": "https://api.github.com/repos/w3c/webtransport/labels/Editorial",
+            "name": "Editorial",
+            "color": "f7cfa5",
+            "default": false,
+            "description": "This is an editorial PR that can be merged by editors without discussion",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": true
       },
