@@ -4043,7 +4043,7 @@
         "title": "First Public Working Draft"
       },
       "latest-version": {
-        "href": "https://api.w3.org/specifications/css-color-4/versions/20261118",
+        "href": "https://api.w3.org/specifications/css-color-4/versions/20261123",
         "title": "Candidate Recommendation Draft"
       },
       "series": {
@@ -4052,6 +4052,34 @@
     },
     "editorsdraft": "https://drafts.csswg.org/css-color-4/",
     "versions": [
+      {
+        "status": "Candidate Recommendation Draft",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/css-color-4/",
+        "uri": "https://www.w3.org/TR/2026/CRD-css-color-4-20261123/",
+        "date": "2026-11-23",
+        "informative": false,
+        "title": "CSS Color Module Level 4",
+        "shortlink": "https://www.w3.org/TR/css-color-4/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/css-color-4/versions/20261123"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/css-color-4/versions/20261123/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/css-color-4/versions/20261123/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/css-color-4"
+          },
+          "predecessor-version": {
+            "href": "https://api.w3.org/specifications/css-color-4/versions/20261123/predecessors"
+          }
+        }
+      },
       {
         "status": "Candidate Recommendation Draft",
         "rec-track": true,
@@ -4077,6 +4105,9 @@
           },
           "predecessor-version": {
             "href": "https://api.w3.org/specifications/css-color-4/versions/20261118/predecessors"
+          },
+          "successor-version": {
+            "href": "https://api.w3.org/specifications/css-color-4/versions/20261118/successors"
           }
         }
       },
@@ -26630,6 +26661,61 @@
     ]
   },
   {
+    "shortlink": "https://www.w3.org/TR/filter-effects-2/",
+    "description": "<p>Filter effects are a way of processing an element’s rendering before it is displayed in the document. Typically, rendering an element via CSS or SVG can conceptually described as if the element, including its children, are drawn into a buffer (such as a raster image) and then that buffer is composited into the elements parent. Filters apply an effect before the compositing stage. Examples of such effects are blurring, changing color intensity and warping the image. This is Level 2 of the Filter Effects Module.</p>",
+    "title": "Filter Effects Module Level 2",
+    "shortname": "filter-effects-2",
+    "editor-draft": "https://drafts.csswg.org/filter-effects-2/",
+    "series-version": "2",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/filter-effects-2"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/filter-effects-2/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/filter-effects-2/versions/20261124",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/filter-effects-2/versions/20261124",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/filter-effects"
+      }
+    },
+    "editorsdraft": "https://drafts.csswg.org/filter-effects-2/",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/filter-effects-2/",
+        "uri": "https://www.w3.org/TR/2026/WD-filter-effects-2-20261124/",
+        "date": "2026-11-24",
+        "informative": false,
+        "title": "Filter Effects Module Level 2",
+        "shortlink": "https://www.w3.org/TR/filter-effects-2/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/filter-effects-2/versions/20261124"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/filter-effects-2/versions/20261124/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/filter-effects-2/versions/20261124/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/filter-effects-2"
+          }
+        }
+      }
+    ]
+  },
+  {
     "shortlink": "https://www.w3.org/TR/geometry-1/",
     "description": "<p>This specification provides basic geometric interfaces.</p>",
     "title": "Geometry Interfaces Module Level 1",
@@ -27497,6 +27583,61 @@
           },
           "successor-version": {
             "href": "https://api.w3.org/specifications/motion-1/versions/20150409/successors"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "shortlink": "https://www.w3.org/TR/pointer-animations-1/",
+    "description": "<p>Defines CSS properties and an API for creating animations that are tied to the pointer position over a specified range. That range can be relative to the viewport or an element’s bounding box.</p>",
+    "title": "Pointer-driven Animations Module Level 1",
+    "shortname": "pointer-animations-1",
+    "editor-draft": "https://drafts.csswg.org/pointer-animations-1/",
+    "series-version": "1",
+    "_links": {
+      "self": {
+        "href": "https://api.w3.org/specifications/pointer-animations-1"
+      },
+      "version-history": {
+        "href": "https://api.w3.org/specifications/pointer-animations-1/versions"
+      },
+      "first-version": {
+        "href": "https://api.w3.org/specifications/pointer-animations-1/versions/20261124",
+        "title": "First Public Working Draft"
+      },
+      "latest-version": {
+        "href": "https://api.w3.org/specifications/pointer-animations-1/versions/20261124",
+        "title": "First Public Working Draft"
+      },
+      "series": {
+        "href": "https://api.w3.org/specification-series/pointer-animations"
+      }
+    },
+    "editorsdraft": "https://drafts.csswg.org/pointer-animations-1/",
+    "versions": [
+      {
+        "status": "First Public Working Draft",
+        "rec-track": true,
+        "editor-draft": "https://drafts.csswg.org/pointer-animations-1/",
+        "uri": "https://www.w3.org/TR/2026/WD-pointer-animations-1-20261124/",
+        "date": "2026-11-24",
+        "informative": false,
+        "title": "Pointer-driven Animations Module Level 1",
+        "shortlink": "https://www.w3.org/TR/pointer-animations-1/",
+        "process-rules": "https://www.w3.org/policies/process/20250818/",
+        "_links": {
+          "self": {
+            "href": "https://api.w3.org/specifications/pointer-animations-1/versions/20261124"
+          },
+          "editors": {
+            "href": "https://api.w3.org/specifications/pointer-animations-1/versions/20261124/editors"
+          },
+          "deliverers": {
+            "href": "https://api.w3.org/specifications/pointer-animations-1/versions/20261124/deliverers"
+          },
+          "specification": {
+            "href": "https://api.w3.org/specifications/pointer-animations-1"
           }
         }
       }
