@@ -57907,10 +57907,10 @@
         "isPullRequest": false
       },
       {
-        "state": "open",
+        "state": "closed",
         "number": 290,
         "created_at": "2026-11-20T12:34:56Z",
-        "closed_at": null,
+        "closed_at": "2026-11-26T07:30:51Z",
         "title": "Tidied up document using tidy-html5",
         "labels": [],
         "assignee": null,
@@ -66129,6 +66129,16 @@
     },
     "recTrack": true,
     "issues": [
+      {
+        "state": "open",
+        "number": 1865,
+        "created_at": "2026-11-26T09:14:21Z",
+        "closed_at": null,
+        "title": "Validate Cache.addAll() requests before fetching",
+        "labels": [],
+        "assignee": null,
+        "isPullRequest": true
+      },
       {
         "state": "open",
         "number": 1864,
@@ -100175,7 +100185,19 @@
         "created_at": "2025-09-28T09:35:10Z",
         "closed_at": null,
         "title": "Cannot detect insertion of commited composing text (i.e. press Enter) only by onInput (without state)",
-        "labels": [],
+        "labels": [
+          {
+            "id": 502064175,
+            "node_id": "MDU6TGFiZWw1MDIwNjQxNzU=",
+            "url": "https://api.github.com/repos/w3c/uievents/labels/i18n-tracker",
+            "name": "i18n-tracker",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response.",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -100225,7 +100247,19 @@
         "created_at": "2025-04-04T12:33:48Z",
         "closed_at": null,
         "title": "`isComposing` in `onInput` is `true` even when it is the finish of the IME composition / No `onInput` whose `isComposing` is `false` is triggered when you complete IME composition",
-        "labels": [],
+        "labels": [
+          {
+            "id": 502064175,
+            "node_id": "MDU6TGFiZWw1MDIwNjQxNzU=",
+            "url": "https://api.github.com/repos/w3c/uievents/labels/i18n-tracker",
+            "name": "i18n-tracker",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response.",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
         "assignee": null,
         "isPullRequest": false
       },
@@ -102317,6 +102351,17 @@
         "closed_at": null,
         "title": "Event order between \"compositionend\" and \"input\"",
         "labels": [
+          {
+            "id": 502064175,
+            "node_id": "MDU6TGFiZWw1MDIwNjQxNzU=",
+            "url": "https://api.github.com/repos/w3c/uievents/labels/i18n-tracker",
+            "name": "i18n-tracker",
+            "color": "F9C9FF",
+            "default": false,
+            "description": "Group bringing to attention of Internationalization, or tracked by i18n but not needing response.",
+            "archived_at": null,
+            "archived_by": null
+          },
           {
             "id": 2225900159,
             "node_id": "MDU6TGFiZWwyMjI1OTAwMTU5",
